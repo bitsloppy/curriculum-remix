@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+requirements.txt
+
+# Node (for future site/)
+node_modules/
+.next/
+dist/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.sublime-workspace
