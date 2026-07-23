@@ -58,7 +58,29 @@ Map NSW outcome codes (e.g. `EN2-CWT-01`) to Australian Curriculum codes (e.g. `
 - [ ] Deploy to Cloudflare Pages
 - [ ] GitHub Actions CI/CD
 
-### ⚙️ Phase 4 — Automation
+### 📄 Phase 4 — Document Assembly
+
+Generate formatted Word/PDF curriculum documents from the structured data.
+
+**Content hierarchy available:**
+```
+Syllabus → Course → Focus Area → Outcome(s)
+                               → Content Groups → Content Items (dot-point content)
+```
+
+- [ ] Fetch all stage/focus-area content pages (~175 pages across all syllabuses)
+- [ ] Reconstruct full document hierarchy from JSON
+- [ ] DOCX output via `python-docx`
+- [ ] PDF output via `mdtopdf` pipeline
+
+**Possible document types:**
+- Full syllabus reprint (outcomes + content, formatted)
+- Scope and sequence table (outcomes × stages)
+- Year level snapshot (all content for Year 5 across all KLAs)
+- Teacher unit planning template (pre-filled with outcomes + content points)
+- AC mapping overlay (NSW outcomes → ACARA codes side by side)
+
+### ⚙️ Phase 5 — Automation
 - [ ] Scheduled check for new NESA builds (weekly cron)
 - [ ] Auto-commit snapshots on build change
 - [ ] Trigger site rebuild on new data
@@ -67,6 +89,12 @@ Map NSW outcome codes (e.g. `EN2-CWT-01`) to Australian Curriculum codes (e.g. `
 
 ## Open Questions
 
-- What's the primary audience? (Teachers / students / parents / researchers?)
-- Static or interactive (search/filter)?
-- Go deeper into individual syllabus pages for content-point level data?
+### Audience & scope
+- **Who is the primary audience?** Teachers? Students? Parents? Researchers?
+- **What's the core use case?** Browse/discover? Generate documents? Cross-reference? Research?
+- **Static or interactive?** Fully static (fast, cheap) or search/filter (needs JS or a backend)?
+
+### Data depth
+- **Go deeper into individual syllabus pages?** Content-point level data exists at `/learning-areas/<kla>/<syllabus>/content/<stage>/` — 175 pages available, much richer but a bigger fetch.
+- **Include teaching advice?** Present at stage level, optional not mandatory.
+- **Include glossary terms?** Inline in content items as linked terms.
