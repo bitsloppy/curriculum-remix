@@ -6,10 +6,14 @@ venv/
 .venv/
 requirements.txt
 
-# Node (for future site/)
+# Node
 node_modules/
 .next/
-dist/
+site/dist/
+site/.env
+
+# Astro
+.astro/
 
 # macOS
 .DS_Store

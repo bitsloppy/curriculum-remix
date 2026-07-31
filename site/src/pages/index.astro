@@ -1,0 +1,187 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// ─── KLA definitions ──────────────────────────────────────────────────────────
+// Names, slugs, icons and colours for the 9 Key Learning Areas.
+const klas = [
+  { title: 'English',              slug: 'english',       icon: 'book-open',       color: 'var(--kla-english)' },
+  { title: 'Mathematics',          slug: 'mathematics',   icon: 'calculator',      color: 'var(--kla-mathematics)' },
+  { title: 'Science',              slug: 'science',       icon: 'flask',           color: 'var(--kla-science)' },
+  { title: 'TAS',                  slug: 'tas',           icon: 'screwdriver-wrench', color: 'var(--kla-tas)' },
+  { title: 'HSIE',                 slug: 'hsie',          icon: 'globe',           color: 'var(--kla-hsie)' },
+  { title: 'Creative Arts',        slug: 'creative-arts', icon: 'palette',         color: 'var(--kla-creative-arts)' },
+  { title: 'PDHPE',                slug: 'pdhpe',         icon: 'heart-pulse',     color: 'var(--kla-pdhpe)' },
+  { title: 'Languages',            slug: 'languages',     icon: 'language',        color: 'var(--kla-languages)' },
+  { title: 'VET',                  slug: 'vet',           icon: 'briefcase',       color: 'var(--kla-vet)' },
+];
+---
+
+<Layout title="Home" description="Browse NSW curriculum by Key Learning Area, stage, or outcome code.">
+
+  <div class="hero">
+    <h1>NSW Curriculum, remixed.</h1>
+    <p>
+      Browse all 9 Key Learning Areas, cross-reference by stage and year level, and decode outcome codes —
+      all from the same public data that powers <a href="https://curriculum.nsw.edu.au">curriculum.nsw.edu.au</a>.
+    </p>
+  </div>
+
+  <section class="kla-section">
+    <h2>Browse by Key Learning Area</h2>
+    <div class="kla-grid">
+      {klas.map(kla => (
+        <a href={`/kla/${kla.slug}`} class="kla-card" style={`--kla-color: ${kla.color}`}>
+          <div class="kla-icon">
+            <wa-icon name={kla.icon} library="fas"></wa-icon>
+          </div>
+          <span class="kla-title">{kla.title}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="browse-section">
+    <div class="browse-grid">
+
+      <a href="/stages" class="browse-card">
+        <div class="browse-card-header">
+          <wa-icon name="layer-group" library="fas"></wa-icon>
+          <strong>Browse by Stage</strong>
+        </div>
+        <p>Early Stage 1 through Stage 6 — everything for a given year level across all KLAs.</p>
+      </a>
+
+      <a href="/outcomes" class="browse-card">
+        <div class="browse-card-header">
+          <wa-icon name="bullseye" library="fas"></wa-icon>
+          <strong>Outcome Explorer</strong>
+        </div>
+        <p>Decode NSW outcome codes and search by strand, stage, or content group.</p>
+      </a>
+
+    </div>
+  </section>
+
+</Layout>
+
+<style>
+  /* ─── Hero ─────────────────────────────────────────────────────────────────── */
+  .hero {
+    padding-block: var(--wa-space-2xl) var(--wa-space-xl);
+  }
+
+  .hero h1 {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 700;
+    color: var(--wa-color-neutral-900);
+    margin: 0 0 var(--wa-space-s);
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+    color: var(--wa-color-neutral-600);
+    max-width: 52ch;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  /* ─── KLA grid ──────────────────────────────────────────────────────────────── */
+  .kla-section {
+    margin-block: var(--wa-space-xl);
+  }
+
+  .kla-section h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--wa-color-neutral-600);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0 0 var(--wa-space-m);
+  }
+
+  .kla-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: var(--wa-space-m);
+  }
+
+  .kla-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--wa-space-s);
+    padding: var(--wa-space-l) var(--wa-space-m);
+    background: white;
+    border: 1px solid var(--wa-color-neutral-200);
+    border-top: 3px solid var(--kla-color);
+    border-radius: var(--wa-border-radius-m);
+    text-decoration: none;
+    color: var(--wa-color-neutral-900);
+    font-weight: 500;
+    transition: box-shadow 0.15s, transform 0.15s;
+  }
+
+  .kla-card:hover {
+    box-shadow: var(--wa-shadow-m);
+    transform: translateY(-2px);
+  }
+
+  .kla-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: color-mix(in srgb, var(--kla-color) 12%, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--kla-color);
+    font-size: 1.1rem;
+  }
+
+  .kla-title {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  /* ─── Browse cards ──────────────────────────────────────────────────────────── */
+  .browse-section {
+    margin-block: var(--wa-space-xl);
+  }
+
+  .browse-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--wa-space-m);
+  }
+
+  .browse-card {
+    display: block;
+    padding: var(--wa-space-l);
+    background: white;
+    border: 1px solid var(--wa-color-neutral-200);
+    border-radius: var(--wa-border-radius-m);
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.15s;
+  }
+
+  .browse-card:hover {
+    box-shadow: var(--wa-shadow-m);
+  }
+
+  .browse-card-header {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-s);
+    color: var(--site-brand);
+    font-size: 1rem;
+    margin-bottom: var(--wa-space-s);
+  }
+
+  .browse-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--wa-color-neutral-600);
+    line-height: 1.5;
+  }
+</style>

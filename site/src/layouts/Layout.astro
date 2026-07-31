@@ -1,0 +1,175 @@
+---
+// ─── Curriculum Remix — Layout ────────────────────────────────────────────────
+// Web Awesome 3.11 + Font Awesome Pro kit
+//
+// Kit config: update FA_KIT_SEGMENT and FA_KIT_CODE when your kit details
+// are available. Both values come from your Font Awesome workspace.
+// fa-kit-code = the short code from kit.fontawesome.com/<code>.js
+// FA_KIT_SEGMENT = the segment in the WA Pro CDN URL (ka-p.webawesome.com/kit/<segment>/)
+//
+// TODO: replace these placeholders with your real kit values.
+const FA_KIT_SEGMENT = import.meta.env.PUBLIC_FA_KIT_SEGMENT ?? 'REPLACE_KIT_SEGMENT';
+const FA_KIT_CODE    = import.meta.env.PUBLIC_FA_KIT_CODE    ?? 'REPLACE_KIT_CODE';
+
+// WA Pro CDN base (uses ka-p for Pro/kit, ka-f for free)
+const WA_VERSION = '3.11.0';
+const WA_BASE = FA_KIT_SEGMENT.startsWith('REPLACE')
+  ? `https://ka-f.webawesome.com/webawesome@${WA_VERSION}`
+  : `https://ka-p.webawesome.com/kit/${FA_KIT_SEGMENT}/webawesome@${WA_VERSION}`;
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = 'Curriculum Remix — NSW curriculum data remixed into a navigable, cross-linked format.',
+} = Astro.props;
+
+const pageTitle = title === 'Home' ? 'Curriculum Remix' : `${title} — Curriculum Remix`;
+---
+
+<!doctype html>
+<html
+  lang="en"
+  class="wa-theme-default wa-palette-default wa-light"
+  data-fa-kit-code={FA_KIT_CODE}
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{pageTitle}</title>
+
+    <!-- Web Awesome (Pro CDN when kit is set, free CDN as fallback) -->
+    <link rel="stylesheet" href={`${WA_BASE}/styles/themes/default.css`} />
+    <link rel="stylesheet" href={`${WA_BASE}/styles/utilities.css`} />
+    <script type="module" src={`${WA_BASE}/webawesome.loader.js`}></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style is:global>
+      /* ─── Design tokens ─────────────────────────────────────────────────────── */
+      :root {
+        /* Brand */
+        --site-brand:      #1e40af; /* blue-800 — primary nav/header */
+        --site-brand-text: #ffffff;
+
+        /* KLA colour palette */
+        --kla-english:        #be123c; /* rose-700 */
+        --kla-mathematics:    #0f766e; /* teal-700 */
+        --kla-science:        #0369a1; /* sky-700 */
+        --kla-tas:            #b45309; /* amber-700 */
+        --kla-hsie:           #7c3aed; /* violet-700 */
+        --kla-creative-arts:  #be185d; /* pink-700 */
+        --kla-pdhpe:          #15803d; /* green-700 */
+        --kla-languages:      #0e7490; /* cyan-700 */
+        --kla-vet:            #9333ea; /* purple-700 */
+
+        /* Link colour — brand blue */
+        --wa-color-text-link: var(--site-brand);
+
+        /* Typography */
+        --font-ui: 'Outfit', system-ui, -apple-system, sans-serif;
+      }
+
+      html, body {
+        min-height: 100%;
+        padding: 0;
+        margin: 0;
+        font-family: var(--font-ui);
+      }
+
+      body {
+        background-color: var(--wa-color-neutral-50);
+      }
+
+      /* ─── Header ─────────────────────────────────────────────────────────────── */
+      header[slot='header'] {
+        background-color: var(--site-brand);
+        color: var(--site-brand-text);
+        padding-inline: var(--wa-space-l);
+        display: flex;
+        align-items: center;
+        gap: var(--wa-space-m);
+        height: 4rem;
+      }
+
+      header[slot='header'] a {
+        color: var(--site-brand-text);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        gap: var(--wa-space-xs);
+      }
+
+      header[slot='header'] nav {
+        margin-inline-start: auto;
+        display: flex;
+        gap: var(--wa-space-m);
+      }
+
+      header[slot='header'] nav a {
+        font-size: 0.9rem;
+        font-weight: 400;
+        opacity: 0.85;
+      }
+
+      header[slot='header'] nav a:hover {
+        opacity: 1;
+      }
+
+      /* ─── Footer ─────────────────────────────────────────────────────────────── */
+      footer[slot='footer'] {
+        background-color: var(--wa-color-neutral-100);
+        border-top: 1px solid var(--wa-color-neutral-200);
+        padding: var(--wa-space-l) var(--wa-space-xl);
+        font-size: 0.85rem;
+        color: var(--wa-color-neutral-600);
+      }
+
+      /* ─── Main content ───────────────────────────────────────────────────────── */
+      main {
+        padding: var(--wa-space-xl);
+        max-width: 72rem;
+        margin-inline: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <wa-page>
+      <header slot="header">
+        <a href="/">
+          <wa-icon name="book-open" library="fas"></wa-icon>
+          Curriculum Remix
+        </a>
+        <nav>
+          <a href="/">KLAs</a>
+          <a href="/stages">Stages</a>
+          <a href="/outcomes">Outcomes</a>
+        </nav>
+      </header>
+
+      <main>
+        <slot />
+      </main>
+
+      <footer slot="footer">
+        <p>
+          Data sourced from <a href="https://curriculum.nsw.edu.au">NESA curriculum.nsw.edu.au</a>.
+          Not affiliated with or endorsed by NESA.
+        </p>
+      </footer>
+    </wa-page>
+  </body>
+</html>
