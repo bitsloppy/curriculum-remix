@@ -1,21 +1,12 @@
 ---
 // ─── Curriculum Remix — Layout ────────────────────────────────────────────────
-// Web Awesome 3.11 + Font Awesome Pro kit
+// Web Awesome 3.11 (free CDN) + Font Awesome Pro kit 5cd93bd475
 //
-// Kit config: update FA_KIT_SEGMENT and FA_KIT_CODE when your kit details
-// are available. Both values come from your Font Awesome workspace.
-// fa-kit-code = the short code from kit.fontawesome.com/<code>.js
-// FA_KIT_SEGMENT = the segment in the WA Pro CDN URL (ka-p.webawesome.com/kit/<segment>/)
-//
-// TODO: replace these placeholders with your real kit values.
-const FA_KIT_SEGMENT = import.meta.env.PUBLIC_FA_KIT_SEGMENT ?? 'REPLACE_KIT_SEGMENT';
-const FA_KIT_CODE    = import.meta.env.PUBLIC_FA_KIT_CODE    ?? 'REPLACE_KIT_CODE';
-
-// WA Pro CDN base (uses ka-p for Pro/kit, ka-f for free)
-const WA_VERSION = '3.11.0';
-const WA_BASE = FA_KIT_SEGMENT.startsWith('REPLACE')
-  ? `https://ka-f.webawesome.com/webawesome@${WA_VERSION}`
-  : `https://ka-p.webawesome.com/kit/${FA_KIT_SEGMENT}/webawesome@${WA_VERSION}`;
+// FA Pro icons are unlocked via data-fa-kit-code on <html>.
+// WA reads this automatically and uses it for <wa-icon> Pro icon lookups.
+// No separate FA kit <script> tag needed — that's for <i> tag patterns only.
+const WA_CDN = 'https://ka-f.webawesome.com/webawesome@3.11.0';
+const FA_KIT_CODE = '5cd93bd475';
 
 interface Props {
   title: string;
@@ -42,10 +33,10 @@ const pageTitle = title === 'Home' ? 'Curriculum Remix' : `${title} — Curricul
     <meta name="description" content={description} />
     <title>{pageTitle}</title>
 
-    <!-- Web Awesome (Pro CDN when kit is set, free CDN as fallback) -->
-    <link rel="stylesheet" href={`${WA_BASE}/styles/themes/default.css`} />
-    <link rel="stylesheet" href={`${WA_BASE}/styles/utilities.css`} />
-    <script type="module" src={`${WA_BASE}/webawesome.loader.js`}></script>
+    <!-- Web Awesome 3.11 (free CDN) -->
+    <link rel="stylesheet" href={`${WA_CDN}/styles/themes/default.css`} />
+    <link rel="stylesheet" href={`${WA_CDN}/styles/utilities.css`} />
+    <script type="module" src={`${WA_CDN}/webawesome.loader.js`}></script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

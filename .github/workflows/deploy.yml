@@ -29,10 +29,8 @@ jobs:
 
       - name: Build site
         working-directory: site
-        env:
-          PUBLIC_FA_KIT_CODE: ${{ secrets.FA_KIT_CODE }}
-          PUBLIC_FA_KIT_SEGMENT: ${{ secrets.FA_KIT_SEGMENT }}
         run: npm run build
+        # FA Pro kit code is hardcoded in Layout.astro — no secrets needed for icons.
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
