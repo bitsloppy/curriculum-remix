@@ -1,0 +1,338 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import syllabuses from '../../data/syllabuses.json';
+
+export function getStaticPaths() {
+  return syllabuses.map(s => ({
+    params: { slug: s.slug },
+    props:  { syllabus: s },
+  }));
+}
+
+const { syllabus: s } = Astro.props;
+
+const klaColor = `var(--kla-${s.kla ?? 'english'})`;
+
+// Stage → primary/secondary label
+const stageLabels: Record<string, string> = {
+  'K–6':   'Primary (K–6)',
+  'K–10':  'Primary & Secondary (K–10)',
+  '7–8':   'Early Secondary (7–8)',
+  '7–10':  'Secondary (7–10)',
+  '11–12': 'Senior Secondary (11–12)',
+};
+
+const stageLabel = stageLabels[s.stage] ?? s.stage;
+
+const classifParts: string[] = [];
+if (s.isMandatory && s.isElective) classifParts.push('Mandatory + Elective choice');
+else if (s.isMandatory) classifParts.push('Mandatory');
+else if (s.isElective) {
+  classifParts.push(`Elective${s.electivePeriods ? ` (${s.electivePeriods} periods)` : ''}`);
+}
+---
+
+<Layout title={s.name} description={`${s.name} — NSW ${s.klaLabel} syllabus, ${s.stage}.`}>
+
+  <!-- ─── Breadcrumb ─────────────────────────────────────────────────────────── -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <wa-icon name="chevron-right" variant="solid"></wa-icon>
+    <a href="/syllabuses">Syllabuses</a>
+    <wa-icon name="chevron-right" variant="solid"></wa-icon>
+    <span>{s.name}</span>
+  </nav>
+
+  <!-- ─── Header ────────────────────────────────────────────────────────────── -->
+  <header class="syl-header" style={`--accent: ${klaColor}`}>
+    <div class="syl-header-chips">
+      <span class="kla-chip" style={`--chip-kla: ${klaColor}`}>{s.klaLabel}</span>
+      {s.type === 'LS' && <span class="ls-chip">Life Skills</span>}
+      {s.published && (
+        <span class="pub-chip">
+          <wa-icon name="circle-check" variant="solid"></wa-icon>
+          On curriculum.nsw.edu.au
+        </span>
+      )}
+    </div>
+    <h1>{s.name}</h1>
+    <p class="syl-subtitle">{stageLabel}{s.pubYear ? ` · Published ${s.pubYear}` : ''}</p>
+  </header>
+
+  <!-- ─── Info grid ─────────────────────────────────────────────────────────── -->
+  <div class="info-grid">
+
+    <div class="info-card">
+      <h2>Course details</h2>
+      <dl>
+        <dt>Learning area</dt>
+        <dd>{s.klaLabel}</dd>
+
+        <dt>Stage</dt>
+        <dd>{s.stage}</dd>
+
+        <dt>Course type</dt>
+        <dd>{s.type === 'LS' ? 'Life Skills' : 'Mainstream'}</dd>
+
+        {classifParts.length > 0 && <>
+          <dt>Classification</dt>
+          <dd>{classifParts.join(', ')}</dd>
+        </>}
+
+        {s.pages && <>
+          <dt>Pages</dt>
+          <dd>{s.pages} pages</dd>
+        </>}
+
+        {s.syllabusCode && <>
+          <dt>Syllabus code</dt>
+          <dd><code>{s.syllabusCode}</code></dd>
+        </>}
+
+        {s.pubYear && <>
+          <dt>Published</dt>
+          <dd>{s.pubYear}</dd>
+        </>}
+      </dl>
+    </div>
+
+    <div class="info-card links-card">
+      <h2>Links</h2>
+      <div class="link-list">
+        {s.curriculumUrl && (
+          <a href={s.curriculumUrl} target="_blank" rel="noopener" class="link-row link-primary">
+            <wa-icon name="arrow-up-right-from-square" variant="solid"></wa-icon>
+            <span>
+              <strong>View on curriculum.nsw.edu.au</strong>
+              <small>Current NESA site</small>
+            </span>
+          </a>
+        )}
+        {s.nesaUrl && (
+          <a href={s.nesaUrl} target="_blank" rel="noopener" class="link-row">
+            <wa-icon name="arrow-up-right-from-square" variant="regular"></wa-icon>
+            <span>
+              <strong>View on educationstandards.nsw.edu.au</strong>
+              <small>Legacy NESA site</small>
+            </span>
+          </a>
+        )}
+        {!s.curriculumUrl && !s.nesaUrl && (
+          <p class="no-links">No external links available for this syllabus yet.</p>
+        )}
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ─── Back link ─────────────────────────────────────────────────────────── -->
+  <div class="back-link">
+    <a href="/syllabuses">
+      <wa-icon name="arrow-left" variant="solid"></wa-icon>
+      Back to all syllabuses
+    </a>
+  </div>
+
+</Layout>
+
+<style>
+  /* ─── Breadcrumb ─────────────────────────────────────────────────────────── */
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-xs);
+    font-size: 0.85rem;
+    color: var(--wa-color-neutral-500);
+    margin-block-end: var(--wa-space-l);
+  }
+
+  .breadcrumb a {
+    color: var(--site-brand);
+    text-decoration: none;
+  }
+
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  .breadcrumb wa-icon {
+    font-size: 0.65rem;
+    color: var(--wa-color-neutral-400);
+  }
+
+  /* ─── Header ─────────────────────────────────────────────────────────────── */
+  .syl-header {
+    border-left: 4px solid var(--accent);
+    padding-inline-start: var(--wa-space-m);
+    margin-block-end: var(--wa-space-xl);
+  }
+
+  .syl-header-chips {
+    display: flex;
+    gap: var(--wa-space-xs);
+    flex-wrap: wrap;
+    margin-block-end: var(--wa-space-s);
+  }
+
+  .syl-header h1 {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-weight: 700;
+    color: var(--wa-color-neutral-900);
+    margin: 0 0 var(--wa-space-2xs);
+    line-height: 1.25;
+  }
+
+  .syl-subtitle {
+    font-size: 0.95rem;
+    color: var(--wa-color-neutral-500);
+    margin: 0;
+  }
+
+  /* ─── Chips ──────────────────────────────────────────────────────────────── */
+  .kla-chip {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--chip-kla) 12%, white);
+    color: var(--chip-kla);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .ls-chip {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: var(--wa-color-neutral-100);
+    color: var(--wa-color-neutral-600);
+    font-style: italic;
+  }
+
+  .pub-chip {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #15803d;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  /* ─── Info grid ──────────────────────────────────────────────────────────── */
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--wa-space-m);
+    margin-block-end: var(--wa-space-xl);
+  }
+
+  .info-card {
+    background: white;
+    border: 1px solid var(--wa-color-neutral-200);
+    border-radius: var(--wa-border-radius-m);
+    padding: var(--wa-space-l);
+  }
+
+  .info-card h2 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--wa-color-neutral-500);
+    margin: 0 0 var(--wa-space-m);
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--wa-space-2xs) var(--wa-space-m);
+    margin: 0;
+  }
+
+  dt {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--wa-color-neutral-600);
+    white-space: nowrap;
+  }
+
+  dd {
+    font-size: 0.85rem;
+    color: var(--wa-color-neutral-900);
+    margin: 0;
+  }
+
+  dd code {
+    font-size: 0.8rem;
+    background: var(--wa-color-neutral-100);
+    padding: 0.1rem 0.35rem;
+    border-radius: var(--wa-border-radius-s);
+    font-family: monospace;
+  }
+
+  /* ─── Links card ─────────────────────────────────────────────────────────── */
+  .link-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--wa-space-s);
+  }
+
+  .link-row {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-s);
+    padding: var(--wa-space-s) var(--wa-space-m);
+    border: 1px solid var(--wa-color-neutral-200);
+    border-radius: var(--wa-border-radius-m);
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.12s;
+  }
+
+  .link-row:hover { box-shadow: var(--wa-shadow-s); }
+
+  .link-primary {
+    border-color: var(--site-brand);
+    background: color-mix(in srgb, var(--site-brand) 5%, white);
+  }
+
+  .link-row wa-icon {
+    color: var(--site-brand);
+    flex-shrink: 0;
+  }
+
+  .link-row span {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .link-row strong {
+    font-size: 0.9rem;
+    color: var(--wa-color-neutral-900);
+  }
+
+  .link-row small {
+    font-size: 0.75rem;
+    color: var(--wa-color-neutral-500);
+  }
+
+  .no-links {
+    font-size: 0.85rem;
+    color: var(--wa-color-neutral-500);
+    font-style: italic;
+  }
+
+  /* ─── Back link ──────────────────────────────────────────────────────────── */
+  .back-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--wa-space-xs);
+    font-size: 0.9rem;
+    color: var(--site-brand);
+    text-decoration: none;
+  }
+
+  .back-link a:hover { text-decoration: underline; }
+</style>

@@ -32,7 +32,7 @@ const klas = [
       {klas.map(kla => (
         <a href={`/kla/${kla.slug}`} class="kla-card" style={`--kla-color: ${kla.color}`}>
           <div class="kla-icon">
-            <wa-icon name={kla.icon} library="fas"></wa-icon>
+            <wa-icon name={kla.icon}></wa-icon>
           </div>
           <span class="kla-title">{kla.title}</span>
         </a>
@@ -45,7 +45,7 @@ const klas = [
 
       <a href="/stages" class="browse-card">
         <div class="browse-card-header">
-          <wa-icon name="layer-group" library="fas"></wa-icon>
+          <wa-icon name="layer-group"></wa-icon>
           <strong>Browse by Stage</strong>
         </div>
         <p>Early Stage 1 through Stage 6 — everything for a given year level across all KLAs.</p>
@@ -53,7 +53,7 @@ const klas = [
 
       <a href="/outcomes" class="browse-card">
         <div class="browse-card-header">
-          <wa-icon name="bullseye" library="fas"></wa-icon>
+          <wa-icon name="bullseye"></wa-icon>
           <strong>Outcome Explorer</strong>
         </div>
         <p>Decode NSW outcome codes and search by strand, stage, or content group.</p>
