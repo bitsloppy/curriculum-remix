@@ -30,7 +30,7 @@ const klas = [
     <h2>Browse by Key Learning Area</h2>
     <div class="kla-grid">
       {klas.map(kla => (
-        <a href={`/kla/${kla.slug}`} class="kla-card" style={`--kla-color: ${kla.color}`}>
+        <a href={`/syllabuses?kla=${kla.slug}`} class="kla-card" style={`--kla-color: ${kla.color}`}>
           <div class="kla-icon">
             <wa-icon name={kla.icon}></wa-icon>
           </div>
@@ -43,20 +43,20 @@ const klas = [
   <section class="browse-section">
     <div class="browse-grid">
 
-      <a href="/stages" class="browse-card">
+      <a href="/syllabuses" class="browse-card">
         <div class="browse-card-header">
-          <wa-icon name="layer-group"></wa-icon>
-          <strong>Browse by Stage</strong>
+          <wa-icon name="list"></wa-icon>
+          <strong>All Syllabuses</strong>
         </div>
-        <p>Early Stage 1 through Stage 6 — everything for a given year level across all KLAs.</p>
+        <p>114 syllabuses across all KLAs — filter by stage, course type, and more.</p>
       </a>
 
-      <a href="/outcomes" class="browse-card">
+      <a href="/syllabuses?stage=11-12" class="browse-card">
         <div class="browse-card-header">
-          <wa-icon name="bullseye"></wa-icon>
-          <strong>Outcome Explorer</strong>
+          <wa-icon name="graduation-cap"></wa-icon>
+          <strong>Stage 6 (11–12)</strong>
         </div>
-        <p>Decode NSW outcome codes and search by strand, stage, or content group.</p>
+        <p>Senior secondary syllabuses — HSC courses, extensions, and Life Skills.</p>
       </a>
 
     </div>

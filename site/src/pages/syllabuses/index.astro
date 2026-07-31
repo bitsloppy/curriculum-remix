@@ -326,6 +326,11 @@ const total = syllabuses.length;
   let activeType = '';
   let activePub  = false;
 
+  // Pre-set filters from URL params (e.g. /syllabuses?kla=english&stage=k-10)
+  const params = new URLSearchParams(location.search);
+  if (params.get('kla'))   klaEl.value   = params.get('kla')!;
+  if (params.get('stage')) stageEl.value = params.get('stage')!;
+
   function applyFilters() {
     const kla   = klaEl.value;
     const stage = stageEl.value;
