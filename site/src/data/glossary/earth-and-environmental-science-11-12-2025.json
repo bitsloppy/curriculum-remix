@@ -1,0 +1,1042 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "6a305ef7-26cb-448b-936d-98706903d106",
+      "codename": "sci_sec_gls_abiotic",
+      "title": "abiotic",
+      "slug": "abiotic",
+      "description": "<p>The non-living components of the environment.</p>"
+    },
+    {
+      "id": "aab12c1b-aee3-4255-8654-a63b93162707",
+      "codename": "ees__absolute_dating",
+      "title": "absolute dating",
+      "slug": "absolute-dating",
+      "description": "<p>The process of establishing an actual date, or date range, in numbers of years of a geological sample usually using radiometric methods.</p>"
+    },
+    {
+      "id": "fbb22daf-9b6a-4455-92ef-1c67a4576a0b",
+      "codename": "ma__accuracy",
+      "title": "accuracy",
+      "slug": "accuracy",
+      "description": "<p>The extent to which measurements are considered to be close to the true value.</p>"
+    },
+    {
+      "id": "67b2d4a5-cc55-43c2-b06d-0b1688490f20",
+      "codename": "ees__adaptive_radiation",
+      "title": "adaptive radiation",
+      "slug": "adaptive-radiation",
+      "description": "<p>The rapid evolutionary diversification of a single ancestral line into species which evolve different morphological features (adaptations) in response to different environmental selection pressures.</p>"
+    },
+    {
+      "id": "421bd312-b171-4ce6-86f2-8716e729e3d4",
+      "codename": "ees__albedo__surface_",
+      "title": "albedo (surface)",
+      "slug": "albedo-surface",
+      "description": "<p>The proportion of incoming solar radiation that snow and ice reflect from Earth back into space.</p>"
+    },
+    {
+      "id": "69fbf05d-2a6c-4e0c-a15b-7d52031c5d9a",
+      "codename": "ees__asthenosphere",
+      "title": "asthenosphere",
+      "slug": "asthenosphere",
+      "description": "<p>The layer underneath the lithosphere, extending between 80 to 150 km. It’s low-density and plastic.</p>"
+    },
+    {
+      "id": "4b85709f-8950-4236-b4b5-7c7edb079627",
+      "codename": "ees__atlantic_meridional_overturning_circulation__",
+      "title": "Atlantic Meridional Overturning Circulation (AMOC)",
+      "slug": "atlantic-meridional-overturning-circulation-amoc",
+      "description": "<p>A major system of ocean currents in the Atlantic Ocean which plays a key role in redistributing heat, regulating climate and transporting nutrients and carbon across the globe.</p>"
+    },
+    {
+      "id": "9b61cb78-e8af-47ba-9f8b-36720a14a347",
+      "codename": "st__atmosphere",
+      "title": "atmosphere",
+      "slug": "atmosphere",
+      "description": "<p>Gases surrounding any celestial body.</p>"
+    },
+    {
+      "id": "02f0ca01-9758-48f5-a0c7-70e7658858af",
+      "codename": "ees__banded_iron_formation__bif_",
+      "title": "banded iron formation (BIF)",
+      "slug": "banded-iron-formation-bif",
+      "description": "<p>A distinctive formation found in sedimentary rocks made of alternating layers of iron-rich minerals and silica-rich minerals.</p>"
+    },
+    {
+      "id": "cb587179-d3b8-4485-82e5-9b6d70fd57f5",
+      "codename": "ees__basal_drag",
+      "title": "basal drag",
+      "slug": "basal-drag",
+      "description": "<p>The friction between convection currents in the asthenosphere and ridged overlying lithosphere which affect plate movement.</p>"
+    },
+    {
+      "id": "1d5c4718-63f8-4106-947f-61baf8ad9b97",
+      "codename": "ge__biodiversity",
+      "title": "biodiversity",
+      "slug": "biodiversity",
+      "description": "<p>The variety of living organisms within a particular habitat, ecosystem, biome, or globally.</p>"
+    },
+    {
+      "id": "f394302c-53d5-4845-90a9-0ab9783894ab",
+      "codename": "gels__biosphere",
+      "title": "biosphere",
+      "slug": "biosphere",
+      "description": "<p>The part of the earth that includes all plant and animal life forms.</p>"
+    },
+    {
+      "id": "308dd39f-7634-4619-98dd-2ac6a4537ff6",
+      "codename": "sci_sec_gls_biotic",
+      "title": "biotic",
+      "slug": "biotic",
+      "description": "<p>Involving the living components of the environment.</p>"
+    },
+    {
+      "id": "36a58996-2e41-4a6b-9094-22c9005e8003",
+      "codename": "ees__cambrian_event",
+      "title": "Cambrian event",
+      "slug": "cambrian-event",
+      "description": "<p>The unparalleled emergence of organisms including most ancestral lineages of present-day animal species at the beginning of the Cambrian period.</p>"
+    },
+    {
+      "id": "8efd9461-b2e3-4f0d-ac2b-8f14219cdb34",
+      "codename": "ees__cambrian_metazoans",
+      "title": "Cambrian metazoans",
+      "slug": "cambrian-metazoans",
+      "description": "<p>Complex multicellular animals that lived during the Cambrian period.</p>"
+    },
+    {
+      "id": "a02ad6be-1b3e-4ae1-9c9e-d78e236b526f",
+      "codename": "ees__carbon_footprint",
+      "title": "carbon footprint",
+      "slug": "carbon-footprint",
+      "description": "<p>The total amount of greenhouse gases, primarily carbon dioxide for which humans and/or organisations are responsible for.</p>"
+    },
+    {
+      "id": "262ff89a-40cf-4c8e-aa83-439073b99cfc",
+      "codename": "ees__cementation",
+      "title": "cementation",
+      "slug": "cementation",
+      "description": "<p>A process in which sediment is chemically bonded together when minerals precipitate from the water they are dissolved in and fill the pore space between compressed sediment.</p>"
+    },
+    {
+      "id": "55317355-0783-4931-b935-eba58caf0832",
+      "codename": "ees__clastic",
+      "title": "clastic",
+      "slug": "clastic",
+      "description": "<p>Describes rocks composed of fragments of pre-existing rocks.</p>"
+    },
+    {
+      "id": "f939531c-c181-41bf-91b0-6abbf89f8468",
+      "codename": "ge__climate_change",
+      "title": "climate change",
+      "slug": "climate-change",
+      "description": "<p>A long-term change in regional or global climate patterns, e.g. annual precipitation, frequency of weather events.</p>"
+    },
+    {
+      "id": "0f8a22dc-0d5f-4942-ba6b-a273c0a90869",
+      "codename": "ees__conquest_of_land",
+      "title": "conquest of land",
+      "slug": "conquest-of-land",
+      "description": "<p>The evolutionary transition of plants and animals from aquatic to terrestrial environments over hundreds of millions of years.</p>"
+    },
+    {
+      "id": "766f9a24-f3ae-4ea2-b55f-7040628a277a",
+      "codename": "ees__contact_metamorphism",
+      "title": "contact metamorphism",
+      "slug": "contact-metamorphism",
+      "description": "<p>The process of igneous, sedimentary or metamorphic rock being changed from its original form due to high temperatures from being close to an intrusion of hot magma.</p>"
+    },
+    {
+      "id": "23d5304a-62a6-4249-933a-78f2e8d2c252",
+      "codename": "sci_sec_gls_controlled_variable",
+      "title": "controlled variable",
+      "slug": "controlled-variable",
+      "description": "<p>A variable that is kept constant (or changed in constant ways) during an investigation. For example, the same amount of water would be a controlled variable in an investigation comparing solubility.</p>"
+    },
+    {
+      "id": "47794e1f-c15f-4480-a2c0-6158290820fb",
+      "codename": "ees__convergent_boundary",
+      "title": "convergent boundary",
+      "slug": "convergent-boundary",
+      "description": "<p>A geographic location where tectonic plates are moving towards one another.</p>"
+    },
+    {
+      "id": "34c8447e-6486-49b4-be1a-3428fca0935d",
+      "codename": "ees__critical_minerals",
+      "title": "critical minerals",
+      "slug": "critical-minerals",
+      "description": "<p>An element which plays a vital role in the operation of modern technologies, economic systems or national security and whose supply chain is vulnerable to potential disruptions.</p>"
+    },
+    {
+      "id": "f2726473-b4fe-426e-b114-80b550d8f5ba",
+      "codename": "ees__cross_cutting_relationships",
+      "title": "cross-cutting relationships",
+      "slug": "cross-cutting-relationships",
+      "description": "<p>A geological feature, such as a fault, intrusion, or erosion surface that disrupts or intersects another feature must be younger than the feature it alters or cuts across.</p>"
+    },
+    {
+      "id": "0ce3617b-7ea4-44dc-b0a6-2db4474cf9df",
+      "codename": "ees__cultural_burning",
+      "title": "Cultural burning",
+      "slug": "cultural-burning",
+      "description": "<p>Cultural burning is a Cultural Practice that draws upon the use of fire by Aboriginal and Torres Strait Islander Peoples to improve the health of Country and Place.</p>"
+    },
+    {
+      "id": "885835cb-0512-41eb-9b72-7887a8ff0539",
+      "codename": "ees__cyanobacteria",
+      "title": "cyanobacteria",
+      "slug": "cyanobacteria",
+      "description": "<p>The oldest known photosynthetic organism.</p>"
+    },
+    {
+      "id": "d25cc0f8-48c1-4666-b973-da809f384fee",
+      "codename": "ees__dendrochronology",
+      "title": "dendrochronology",
+      "slug": "dendrochronology",
+      "description": "<p>A scientific method used to study Earth’s past climate by analysing growth rings in trees which vary in width, density and structure depending on environmental conditions.</p>"
+    },
+    {
+      "id": "172917fb-aa1d-4687-a1a9-1bfe14057386",
+      "codename": "sci_sec_gls_dependent_variable",
+      "title": "dependent variable",
+      "slug": "dependent-variable2",
+      "description": "<p>The factor in an experiment that changes in response to changes to the independent variable.</p>"
+    },
+    {
+      "id": "30c5790c-f9db-470a-9492-ddf5259b0f00",
+      "codename": "ees__dispatchability",
+      "title": "dispatchability",
+      "slug": "dispatchability",
+      "description": "<p>A measure of how quickly and predictably a power plant or energy source can activated to maintain grid stability and meet both peak and off-peak demand efficiently.</p>"
+    },
+    {
+      "id": "3270dcc9-64c9-445b-bf97-a6315b41df1d",
+      "codename": "ees__divergent_boundary",
+      "title": "divergent boundary",
+      "slug": "divergent-boundary",
+      "description": "<p>A geographic location where tectonic plates are moving away from one another.</p>"
+    },
+    {
+      "id": "737ef9e2-c861-4e55-866b-9c442296ff91",
+      "codename": "ees__earthquake_foci",
+      "title": "earthquake foci",
+      "slug": "earthquake-foci",
+      "description": "<p>The place inside Earth’s crust where an earthquake originates.</p>"
+    },
+    {
+      "id": "544790ee-6976-4f79-9524-da37ffcedc2f",
+      "codename": "ees__effusive_eruption",
+      "title": "effusive eruption",
+      "slug": "effusive-eruption",
+      "description": "<p>A type of volcanic eruption in which lava steadily flows out of a volcano onto the ground.</p>"
+    },
+    {
+      "id": "c590ac52-64be-434c-984a-ae97b5114e47",
+      "codename": "ees__el_nino_southern_oscillation__enso_",
+      "title": "El Niño-Southern Oscillation (ENSO)",
+      "slug": "el-nino-southern-oscillation-enso",
+      "description": "<p>A natural climate pattern marked by variations in sea surface temperatures in the central and eastern tropical Pacific Ocean, along with associated changes in atmospheric pressure and wind patterns.</p>"
+    },
+    {
+      "id": "1947e17f-a86b-4267-aa1c-dbcd14562a31",
+      "codename": "ees__event_conjunctions",
+      "title": "event conjunctions",
+      "slug": "event-conjunctions",
+      "description": "<p>The simultaneous occurrence of multiple geophysical or environmental events, related or independent, that combined, produce greater environmental impacts than each would alone.</p>"
+    },
+    {
+      "id": "dd6d3782-54ef-47ff-8568-028bc4eb778e",
+      "codename": "sci_sec_gls_experimental_control",
+      "title": "experimental control",
+      "slug": "experimental-control",
+      "description": "<p>The sample in an experiment to which all the other samples are compared.</p>\n<p>Extended in Science 11–12: The sample in an experiment that does not receive the independent variable.</p>"
+    },
+    {
+      "id": "3d234146-3ff9-4577-8ab1-8eaa53faf391",
+      "codename": "ees__extrusive_igneous_rocks",
+      "title": "extrusive igneous rocks",
+      "slug": "extrusive-igneous-rocks",
+      "description": "<p>Rocks that form when lava rapidly cools on the Earth’s surface resulting in fine-grained or glassy textures with microscopic crystals. Also known as volcanic rocks.</p>"
+    },
+    {
+      "id": "7a0f63e1-7d0f-4b4e-bf85-5c07f8725435",
+      "codename": "ees__faunal_succession",
+      "title": "faunal succession",
+      "slug": "faunal-succession",
+      "description": "<p>The principle that fossils appear in a consistent, recognisable order through geological layers over time allowing scientists to use fossil assemblages to relative date rock layers across different geographic regions.</p>"
+    },
+    {
+      "id": "5c4c7d19-20f3-4066-85f3-f235adc1bc48",
+      "codename": "ees__feedback_loops__climate_",
+      "title": "feedback loops (climate)",
+      "slug": "feedback-loops-climate-2",
+      "description": "<p>Processes that amplify or reduce the effects of climate forcings. They can be either positive (amplifying) or negative (diminishing).</p>"
+    },
+    {
+      "id": "4d878408-123d-4403-8a1a-29ed0db77fd1",
+      "codename": "ees__felsic",
+      "title": "felsic",
+      "slug": "felsic",
+      "description": "<p>A group of light-coloured rocks or minerals rich in silica, low in density, high in viscosity when molten, and common in continental crust.</p>"
+    },
+    {
+      "id": "dc6ecb19-5565-45ae-985c-8cd0d3643cf8",
+      "codename": "ees__fold_belt",
+      "title": "fold belt",
+      "slug": "fold-belt",
+      "description": "<p>A large geological region where crustal compression at convergent plate boundaries creates deformed and folded rock layers.</p>"
+    },
+    {
+      "id": "e314d054-44a7-4aef-89be-f6da25f73b22",
+      "codename": "ees__geosphere",
+      "title": "geosphere",
+      "slug": "geosphere",
+      "description": "<p>The solid parts of the Earth, encompassing the crust, mantle, and core.</p>"
+    },
+    {
+      "id": "412c34af-7fb0-43d7-acfc-a57c5f29b17f",
+      "codename": "ees__global_warming_potential__gwp_",
+      "title": "global warming potential (GWP)",
+      "slug": "global-warming-potential-gwp",
+      "description": "<p>A measure of a greenhouse gas’s heat-trapping ability compared to carbon dioxide (assigned a value of 1).</p>"
+    },
+    {
+      "id": "6c7285fc-aad5-4cc6-b587-902716f89072",
+      "codename": "ees__greenhouse_gases",
+      "title": "greenhouse gases",
+      "slug": "greenhouse-gases",
+      "description": "<p>Gases found in the atmosphere that let sunlight in but prevent some heat from escaping back into space.</p>"
+    },
+    {
+      "id": "20d5398c-9729-4361-aa3f-8e86bbdcf2e8",
+      "codename": "shared__hazard",
+      "title": "hazard",
+      "slug": "hazard",
+      "description": "<p>A source that poses a potential risk of harm or injury.</p>"
+    },
+    {
+      "id": "38b65df5-c54a-45b9-bc41-456d128bc3f1",
+      "codename": "ees__hotspot_volcano_track",
+      "title": "hotspot volcano track",
+      "slug": "hotspot-volcano-track",
+      "description": "<p>A chain of volcanoes formed as a tectonic plate moves over a fixed area of intensely hot mantle that melts rock, creating magma and volcanic activity.</p>"
+    },
+    {
+      "id": "9ff6e1c2-2d17-4895-b408-fe2c61076e7c",
+      "codename": "gels__hydrosphere",
+      "title": "hydrosphere",
+      "slug": "hydrosphere",
+      "description": "<p>All water on the surface of the globe, including underground water and water in lakes, rivers and oceans.</p>"
+    },
+    {
+      "id": "34f600ae-c6cc-43ea-bf98-c4f695cdf0a5",
+      "codename": "ees__icehouse_climate",
+      "title": "icehouse climate",
+      "slug": "icehouse-climate",
+      "description": "<p>A long-term period in Earth’s history when global temperatures are relatively low and polar ice sheets and glaciers are extensive or permanent.</p>"
+    },
+    {
+      "id": "b26f9510-9ba0-402d-a28e-5add6b7d5e50",
+      "codename": "ees__inclusions",
+      "title": "inclusions",
+      "slug": "inclusions",
+      "description": "<p>Any rock fragments found within another rock which are older than the rock they are enclosed in.</p>"
+    },
+    {
+      "id": "3acb684d-c6a7-4300-8865-f5187a3ae83d",
+      "codename": "sci_sec_gls_independent_variable",
+      "title": "independent variable",
+      "slug": "independent-variable",
+      "description": "<p>The variable that is deliberately changed, often through a series of pre-set values.</p>"
+    },
+    {
+      "id": "38ea108d-3472-483c-9567-35e7605a87c3",
+      "codename": "ees__index_fossils",
+      "title": "index fossils",
+      "slug": "index-fossils",
+      "description": "<p>Fossils of organisms that were abundant, widespread, and existed for a short geological timeframe, making them useful for dating and correlating rock layers.</p>"
+    },
+    {
+      "id": "49a0d841-bc1e-437c-b0d0-33eb550e3a26",
+      "codename": "ees__inner_core",
+      "title": "inner core",
+      "slug": "inner-core",
+      "description": "<p>The solid centre of the Earth, which is its hottest and densest layer, made mainly of iron and nickel.</p>"
+    },
+    {
+      "id": "0b426f1d-31a2-40de-bcc7-d1dea5eca666",
+      "codename": "ees__isotope_ratio",
+      "title": "isotope ratio",
+      "slug": "isotope-ratio",
+      "description": "<p>The quantitative relationship between 2 isotopes of the same element, typically expressed as a ratio.</p>"
+    },
+    {
+      "id": "c8724683-4d9e-4cb0-95c0-7de1701bc147",
+      "codename": "ees__lahar",
+      "title": "lahar",
+      "slug": "lahar",
+      "description": "<p>A fast-moving volcanic debris flow made of mud and/or volcanic materials, such as ash, pumice and rock fragments, that flows down the slopes of a volcano.</p>"
+    },
+    {
+      "id": "2544ac29-0266-4bf0-96b1-357794af3a52",
+      "codename": "ees_",
+      "title": "lateral continuity",
+      "slug": "lateral-continuity",
+      "description": "<p>A geological concept that sediment layers originally spread out horizontally in all directions until they gradually thin or reach a boundary, meaning rock layers now separated by erosion or other factors were once connected.</p>"
+    },
+    {
+      "id": "f45d56d3-f924-4e6f-831f-3e4a182970e0",
+      "codename": "sci_sec_gls_law_of_superposition",
+      "title": "law of superposition",
+      "slug": "law-of-superposition",
+      "description": "<p>In layers of stratified sedimentary rocks, the lowest layer is the first to be deposited.</p>"
+    },
+    {
+      "id": "6feaaa88-3d38-4aaf-99a6-4d9acd65a1bd",
+      "codename": "gels__lithosphere",
+      "title": "lithosphere",
+      "slug": "lithosphere",
+      "description": "<p>The crust or solid part of the earth comprising the continental crust, oceanic crust and the brittle part of the upper mantle.</p>"
+    },
+    {
+      "id": "3708b32f-7300-48ad-9dc5-e3c55c77a7e5",
+      "codename": "ees__mafic",
+      "title": "mafic",
+      "slug": "mafic",
+      "description": "<p>Describes igneous rocks or minerals rich in magnesium and iron, typically dark-coloured and denser than felsic rocks.</p>"
+    },
+    {
+      "id": "7dfceec0-10ae-4b48-b0a7-feb909dd6d26",
+      "codename": "ees__mantle",
+      "title": "mantle",
+      "slug": "mantle",
+      "description": "<p>The layer of the Earth located between the crust and the outer core.</p>"
+    },
+    {
+      "id": "46da7887-fd2b-4c9e-8704-5d3285c246fd",
+      "codename": "ma__mean",
+      "title": "mean",
+      "slug": "mean",
+      "description": "<p>The sum of values in a dataset divided by the total number of values in the dataset. Also called the average.</p>"
+    },
+    {
+      "id": "9bccca33-7e2c-4825-af2a-5548929f89ec",
+      "codename": "ees__mid_ocean_ridges",
+      "title": "mid-ocean ridges",
+      "slug": "mid-ocean-ridges",
+      "description": "<p>Submarine mountain ranges or mountain ranges on the sea bed at divergent plate boundaries where spreading tectonic plates allow molten rock to rise, creating new ocean floor and basaltic mountain-forming eruptions.</p>"
+    },
+    {
+      "id": "057572dd-da6d-4610-a70f-1a69de86c69a",
+      "codename": "ct_sec_gls_model",
+      "title": "model",
+      "slug": "model",
+      "description": "<p>A mathematical, conceptual or physical representation that describes, simplifies, clarifies or provides an explanation of the structure, workings or relationships within an object, system or idea. Models can provide a means of testing and predicting behaviour within limited conditions. Models may be physical or exist in digital form.</p>"
+    },
+    {
+      "id": "7e40918e-23a7-4868-b637-270c82a57e82",
+      "codename": "ees__non_clastic_sedimentary_rocks",
+      "title": "non-clastic sedimentary rocks",
+      "slug": "non-clastic-sedimentary-rocks",
+      "description": "<p>Rocks formed by chemical precipitation or biological accumulation, not from fragments (clasts) of pre-existing rocks.</p>"
+    },
+    {
+      "id": "2294d52f-cf61-41c1-ba11-646ee0ef75af",
+      "codename": "ees__non_renewable_energy_economy",
+      "title": "non-renewable energy economy",
+      "slug": "non-renewable-energy-economy",
+      "description": "<p>An economic system that relies primarily on finite energy sources.</p>"
+    },
+    {
+      "id": "12f3cd59-b48e-47d0-bf3a-b70dc6149e5d",
+      "codename": "ees__normal_faults",
+      "title": "normal faults",
+      "slug": "normal-faults",
+      "description": "<p>Fractures in the Earth’s crust where one block (the hanging wall) moves downward relative to the other block (the footwall), due to tectonic tension.</p>"
+    },
+    {
+      "id": "2bada490-d03f-4988-ae35-5fbbb26ffba2",
+      "codename": "hs__oral_traditions",
+      "title": "Oral traditions",
+      "slug": "oral-traditions",
+      "description": "<p>The Customs and beliefs shared through Storytelling and song.</p>\n<p><em>See </em><a data-item-id=\"f133cea1-de75-4497-b72d-4053d2af12c7\" href=\"\">Oral histories</a></p>"
+    },
+    {
+      "id": "6bf51713-9c34-410f-93eb-2faa17eb3909",
+      "codename": "ees__orbital_eccentricity",
+      "title": "orbital eccentricity",
+      "slug": "orbital-eccentricity",
+      "description": "<p>The degree of elongation of a planet’s elliptical orbit around the Sun, ranging from 0 (circular) to 1 (highly elliptical).</p>"
+    },
+    {
+      "id": "ce26fce6-9427-4c78-a0de-609479330300",
+      "codename": "ees__orbital_obliquity",
+      "title": "orbital obliquity",
+      "slug": "orbital-obliquity",
+      "description": "<p>The angle between Earth’s rotational axis and a line perpendicular to the orbital plane.</p>"
+    },
+    {
+      "id": "fad224ab-c056-40a3-8e75-61ff3fd27b27",
+      "codename": "ees__orbital_precession",
+      "title": "orbital precession",
+      "slug": "orbital-precession",
+      "description": "<p>A cyclical change in the orientation of the Earth’s rotational axis causing it to trace a cone-shaped path over time, resulting in a gradual wobble of its axis.</p>"
+    },
+    {
+      "id": "4fec7663-ce50-4839-96b4-d6bfd401b440",
+      "codename": "ees__original_horizontality_4fec766",
+      "title": "original horizontality",
+      "slug": "original-horizontality",
+      "description": "<p>The principle which states that layers of sediment are originally deposited in a horizontal or nearly horizontal position.</p>"
+    },
+    {
+      "id": "6ae61c1c-f047-4061-89ae-f2e2d8b03e49",
+      "codename": "ees__outer_core",
+      "title": "outer core",
+      "slug": "outer-core",
+      "description": "<p>The liquid layer of the Earth located between the mantle and the inner core.</p>"
+    },
+    {
+      "id": "4b51fe7c-376f-4cc5-b4a9-b165ac1f1b23",
+      "codename": "ma__outlier",
+      "title": "outlier",
+      "slug": "outlier",
+      "description": "<p>A data value that appears to stand out from the other members of the dataset by being unusually high or low.</p>"
+    },
+    {
+      "id": "b1eba4e7-1b86-4872-b35b-f183fb46d653",
+      "codename": "pattern",
+      "title": "pattern",
+      "slug": "pattern",
+      "description": "<p>A pattern is made up of a number of elements that repeat or follow a rule.</p>"
+    },
+    {
+      "id": "dc5b0da5-cfb4-420b-b29f-0ef39850ffef",
+      "codename": "ma__percentage_error",
+      "title": "percentage error",
+      "slug": "percentage-error",
+      "description": "<p>The absolute error of a measurement expressed as a percentage of the recorded measurement.</p>"
+    },
+    {
+      "id": "550d6245-062b-4ecb-824d-518cb65f8db5",
+      "codename": "ees__photovoltaic",
+      "title": "photovoltaic",
+      "slug": "photovoltaic",
+      "description": "<p>Providing electric current using electromagnetic radiation from the Sun.</p>"
+    },
+    {
+      "id": "59d3556c-f836-4441-8f22-5806cae8e11e",
+      "codename": "ees__planetary_accretion",
+      "title": "planetary accretion",
+      "slug": "planetary-accretion",
+      "description": "<p>The process by which planets form from smaller particles in a protoplanetary disk surrounding a young star. It is a key stage in the formation of planets, moons and other celestial bodies in the early solar system.</p>"
+    },
+    {
+      "id": "9db68716-64ee-49c2-8dc9-bbd728fc9844",
+      "codename": "ees__plate_tectonic_supercycle",
+      "title": "plate tectonic supercycle",
+      "slug": "plate-tectonic-supercycle",
+      "description": "<p>The long-term repeating cycle of supercontinents forming, breaking apart and reassembling due to plate tectonics.</p>"
+    },
+    {
+      "id": "7711a7cc-b0df-42ac-9474-bbadba8831d1",
+      "codename": "ees__pollen_microfossils",
+      "title": "pollen microfossils",
+      "slug": "pollen-microfossils",
+      "description": "<p>Microscopic fossilised pollen grains and spores from plants.</p>"
+    },
+    {
+      "id": "b03e3232-2b7f-4dcf-ace4-0fa134fbeeb3",
+      "codename": "sci_sec_gls_precision",
+      "title": "precision",
+      "slug": "precision",
+      "description": "<p>The extent to which repeated measurements of the same item are close to each other.</p>"
+    },
+    {
+      "id": "3aa3762d-40a9-435d-a851-c7b64486faa8",
+      "codename": "sci_sec_gls_prediction",
+      "title": "prediction",
+      "slug": "prediction",
+      "description": "<p>A statement or estimate about what will happen in the future, often based on available evidence, past experiences or statistical analysis.</p>"
+    },
+    {
+      "id": "3c452fb5-e782-46b7-ba65-7e79416eb454",
+      "codename": "ees__problem_waste",
+      "title": "problem waste",
+      "slug": "problem-waste",
+      "description": "<p>A product that is hazardous, difficult to recycle, or harmful to the environment and human health and which requires special handling as it cannot be disposed of in regular landfill.</p>"
+    },
+    {
+      "id": "8dccf204-c7d2-40e5-9d4f-2fedb2de34d3",
+      "codename": "ees__proxy_data",
+      "title": "proxy data",
+      "slug": "proxy-data",
+      "description": "<p>Indirect evidence from natural recorders, or ‘proxies’, used to reconstruct past climates and environmental conditions before direct measurements existed.</p>"
+    },
+    {
+      "id": "5679e049-3577-4922-82a4-29947f7bc205",
+      "codename": "gl_7ec690b2",
+      "title": "punctuated equilibrium",
+      "slug": "punctuated-equilibrium",
+      "description": "<p>A theory of evolution stating that species experience long periods of little or no evolutionary change, interrupted by brief periods of rapid change that lead to the formation of new species.</p>"
+    },
+    {
+      "id": "56ba11a4-d1d3-4f73-97fe-cf5e2fae3c92",
+      "codename": "ees__pyroclastic_flow",
+      "title": "pyroclastic flow",
+      "slug": "pyroclastic-flow",
+      "description": "<p>A fast-moving current of hot gas, ash, and volcanic rock fragments that flows down the slopes of a volcano during explosive eruptions.</p>"
+    },
+    {
+      "id": "dad16806-8ef2-4d3c-a4f6-4cc07ed9b273",
+      "codename": "sci_sec_gls_qualitative",
+      "title": "qualitative",
+      "slug": "qualitative",
+      "description": "<p>To use descriptive explanations involving features, characteristics or properties to identify important components. Data and information that is not numerical in nature.</p>"
+    },
+    {
+      "id": "d34bbe1b-441a-40dd-9c3d-31de49066851",
+      "codename": "sci_sec_gls_quantitative",
+      "title": "quantitative",
+      "slug": "quantitative",
+      "description": "<p>Data or components that can be expressed or measured numerically, including chemical formulae or numbers.</p>"
+    },
+    {
+      "id": "3a49faaa-5b7e-46d2-a423-9f248e271c24",
+      "codename": "ees__radioisotope_decay",
+      "title": "radioisotope decay",
+      "slug": "radioisotope-decay",
+      "description": "<p>The spontaneous decay of an unstable atomic nucleus into a more stable one, releasing energy or particles,<strong> </strong>and is the fundamental process behind radiometric dating.</p>"
+    },
+    {
+      "id": "6cd7a6f3-12de-47e7-8b61-ec640dae3247",
+      "codename": "sci_sec_gls_range__of_a_dataset_",
+      "title": "range (of a dataset)",
+      "slug": "range-of-a-dataset",
+      "description": "<p>The difference between the highest and lowest values in a dataset.</p>"
+    },
+    {
+      "id": "4d94a9aa-aa8e-4b94-aedc-6375b6fc44d0",
+      "codename": "ees__regional_metamorphism",
+      "title": "regional metamorphism",
+      "slug": "regional-metamorphism",
+      "description": "<p>A type of igneous, sedimentary, or metamorphic rock that has been changed over large areas by both heat and pressure during plate collision and mountain-building.</p>"
+    },
+    {
+      "id": "b0554488-0534-490f-8aa6-0f3130ccc8e3",
+      "codename": "ees__relative_dating",
+      "title": "relative dating",
+      "slug": "relative-dating",
+      "description": "<p>Determines the age order of rocks, fossils, or geological events by comparing their positions or relationships, to determine which are older or younger without knowing their exact age in years.</p>"
+    },
+    {
+      "id": "b049755e-fe68-412a-bb1d-02ae7d63d2b1",
+      "codename": "sci_sec_gls_reliability",
+      "title": "reliability",
+      "slug": "reliability",
+      "description": "<p>An extent to which repeated observations and/or measurements taken under identical circumstances will yield similar results.</p>"
+    },
+    {
+      "id": "0b173c39-4436-46c7-a9b3-f4b628d71be1",
+      "codename": "ees__renewable_energy_economy",
+      "title": "renewable energy economy",
+      "slug": "renewable-energy-economy",
+      "description": "<p>An economic system primarily powered by renewable energy sources such as hydroelectric, solar and wind farms.</p>"
+    },
+    {
+      "id": "96efbcbf-402e-4119-a65c-a3536466c5f5",
+      "codename": "ees__reverse_fault",
+      "title": "reverse fault",
+      "slug": "reverse-fault",
+      "description": "<p>A fracture in the Earth’s crust in which one block (the hanging wall) moves up and over the other block (the footwall) as a result of tectonic compression.</p>"
+    },
+    {
+      "id": "6d25eeee-13f0-4179-a312-ecd9eee6c905",
+      "codename": "ees__ridge_push",
+      "title": "ridge push",
+      "slug": "ridge-push",
+      "description": "<p>The gravitational force exerted by the elevated mid-ocean ridge, causing the oceanic tectonic plates to slide away from the ridge towards lower elevation areas.</p>"
+    },
+    {
+      "id": "7809d6dc-788f-4f64-b178-b2da909dac37",
+      "codename": "gl_e79c1b7b",
+      "title": "scientific investigation",
+      "slug": "scientific-investigation",
+      "description": "<p>A scientific process of answering a question, exploring an idea or solving a problem, which requires activities such as planning a course of action, collecting data, interpreting data, reaching a conclusion and communicating these activities. Investigations can include practical and/or secondary-source data or information.</p>"
+    },
+    {
+      "id": "e8b31697-0527-4061-8ddf-8d446eb27ba4",
+      "codename": "ees__seafloor_spreading",
+      "title": "seafloor spreading",
+      "slug": "seafloor-spreading",
+      "description": "<p>The process by which new oceanic crust is formed at mid-ocean ridges and slowly moves away from the ridge, causing the ocean floor to spread.</p>"
+    },
+    {
+      "id": "5188f2de-54cb-4ef4-86cb-eb12f3efac9a",
+      "codename": "gl_a06b39bb",
+      "title": "sedimentary (rock)",
+      "slug": "sedimentary-rock",
+      "description": "<p>Relating to rocks formed by the deposition and compaction of sediments – particles of minerals, organic matter or fragments of other rocks – that are deposited by water, wind, ice or biological activity.</p>"
+    },
+    {
+      "id": "165d55c4-35f8-40cb-b95a-cbfd54e6b09c",
+      "codename": "ees__seismic_wave",
+      "title": "seismic wave",
+      "slug": "seismic-wave",
+      "description": "<p>A vibration, typically generated by earthquakes or volcanic eruptions, that carries energy away from the source through the Earth.</p>"
+    },
+    {
+      "id": "500da3fd-6612-459d-b352-d7c466123e51",
+      "codename": "ees__slab_pull",
+      "title": "slab pull",
+      "slug": "slab-pull",
+      "description": "<p>A tectonic force in which a dense, sinking oceanic plate drags the rest of the plate into the mantle, which is a major driver of plate tectonics.</p>"
+    },
+    {
+      "id": "30749dde-7652-4ed2-9552-040700023f01",
+      "codename": "ees__soil_profile",
+      "title": "soil profile",
+      "slug": "soil-profile",
+      "description": "<p>A vertical cross-section of soil that shows its layers (horizons) and reveals information about the composition, structure and formation of the soil over time.</p>"
+    },
+    {
+      "id": "ef899178-e079-475e-8ca2-9bc7388ae446",
+      "codename": "ees__soil_salinity",
+      "title": "soil salinity",
+      "slug": "soil-salinity",
+      "description": "<p>The presence of dissolved salts in soil that occur naturally (primary) or as a result of human activities (secondary).</p>"
+    },
+    {
+      "id": "39fb1b8a-ccbf-4f5e-8ffa-3aac94038663",
+      "codename": "ma__standard_deviation",
+      "title": "standard deviation",
+      "slug": "standard-deviation",
+      "description": "<p>A measure of the variability or spread of a dataset. It gives an indication of the degree to which the individual data values are spread around their mean.</p>\n<p>Extended in Mathematics Standard and Advanced: For a random variable, the standard deviation is the square root of its variance.</p>\n<p>It provides a measure of the spread of the probability density function.</p>"
+    },
+    {
+      "id": "18e1feae-52c4-482b-bd0a-a0f72091419c",
+      "codename": "ees__stratigraphic_dating",
+      "title": "stratigraphic dating",
+      "slug": "stratigraphic-dating",
+      "description": "<p>A method for determining the relative age of rock layers and fossils by examining their position within a sequence of strata, using principles like superposition and faunal succession to establish an age order of geological events without knowing their exact age.</p>"
+    },
+    {
+      "id": "93e6bcdf-f636-4328-889a-cbdbfb80e198",
+      "codename": "ees__strike_slip_faults",
+      "title": "strike-slip faults",
+      "slug": "strike-slip-faults",
+      "description": "<p>A type of fracture in the Earth’s crust where the dominant movement is horizontal and parallel to the fault line, rather than vertical.</p>"
+    },
+    {
+      "id": "7b80d4b0-64f4-4e5b-96c6-94ae6cc2723e",
+      "codename": "ees__subduction_zone",
+      "title": "subduction zone",
+      "slug": "subduction-zone",
+      "description": "<p>A region of the Earth’s crust where one tectonic plate is forced beneath another.</p>"
+    },
+    {
+      "id": "ed3a3647-e5f1-480e-8d8b-a4de48e340c4",
+      "codename": "ees__thermohaline_circulation",
+      "title": "thermohaline circulation",
+      "slug": "thermohaline-circulation",
+      "description": "<p>The global ocean circulation driven by differences in water temperature and salinity which affect water density and help regulate Earth’s climate.</p>"
+    },
+    {
+      "id": "4a57071c-c3d4-4384-82d9-0f5bf979a991",
+      "codename": "ees__thrust_belt",
+      "title": "thrust belt",
+      "slug": "thrust-belt",
+      "description": "<p>A region of the Earth’s crust where rock layers are folded and pushed over each other along thrust faults by compressional forces.</p>"
+    },
+    {
+      "id": "9f3cf784-6421-40b1-ad6e-2e7ff674e743",
+      "codename": "ees__tipping_point",
+      "title": "tipping point",
+      "slug": "tipping-point2",
+      "description": "<p>A critical threshold where small changes in temperature or emissions can lead to large, often irreversible shifts in the Earth’s climate system. Crossing a tipping point can trigger rapid and self-reinforcing changes.</p>"
+    },
+    {
+      "id": "804e696b-224e-4464-867c-8731d1ea0065",
+      "codename": "ees__transform_boundary",
+      "title": "transform boundary",
+      "slug": "transform-boundary",
+      "description": "<p>A plate boundary where 2 tectonic plates slide horizontally past each other without creating or destroying crust.</p>"
+    },
+    {
+      "id": "5a6bbd60-4081-4058-92db-5d97cf5d1ad1",
+      "codename": "gl_1e50d5cd",
+      "title": "trend",
+      "slug": "trend",
+      "description": "<p>A general direction or pattern in data or observations that shows how something changes over time or under different conditions.</p>"
+    },
+    {
+      "id": "8ac95b23-cea2-4f5d-beac-628fb1a307d2",
+      "codename": "ees__unconformity",
+      "title": "unconformity",
+      "slug": "unconformity",
+      "description": "<p>A surface in rock layers that represents a break or gap in the geologic record, caused by erosion or a period without deposition.</p>"
+    },
+    {
+      "id": "6350fa56-c64c-4363-be17-54cf22e798da",
+      "codename": "ess__uniformitarianism",
+      "title": "uniformitarianism",
+      "slug": "uniformitarianism",
+      "description": "<p>The theory that the geological processes observed on Earth today (such as erosion, sedimentation, and volcanic activity) have operated in the same way throughout Earth’s history.</p>"
+    },
+    {
+      "id": "2cbba6f8-94e8-44a6-8b8a-62fd87561028",
+      "codename": "sci_sec_gls_validity",
+      "title": "validity",
+      "slug": "validity",
+      "description": "<p>The extent to which the processes and resultant data measure what was intended.</p>"
+    },
+    {
+      "id": "2ef52d1f-03cf-4503-9ebd-221719d22aa1",
+      "codename": "ees__volcanic_arc",
+      "title": "volcanic arc",
+      "slug": "volcanic-arc",
+      "description": "<p>A curved chain of volcanoes that have formed above a subduction zone.</p>"
+    },
+    {
+      "id": "0c6bf497-4621-41ff-9b47-a2d4f511f824",
+      "codename": "ees__water_cycle",
+      "title": "water cycle",
+      "slug": "water-cycle",
+      "description": "<p>The biogeochemical cycle that involves the continuous movement of water on, above and below the surface of the Earth across different reservoirs.</p>"
+    }
+  ]
+}

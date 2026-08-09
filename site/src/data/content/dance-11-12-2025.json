@@ -1,0 +1,958 @@
+{
+  "slug": "dance-11-12-2025",
+  "overview": "<p>The <em>Dance 11–12 Syllabus</em> aligns with the <em>Dance Life Skills 11–12 Syllabus</em> to provide opportunities for integrated delivery.</p>\n\n<h4>Organisation of Dance 11–12</h4>\n<p>The <em>Dance 11–12 Syllabus</em> is structured around the key Dance practices of performance, choreography and appreciation, which form the focus areas. In the Year 11 course the emphasis is on the discrete and explicit study of the focus areas. In the Year 12 course students synthesise their knowledge, understanding and skills both in and across the focus areas.</p>\n<p>Figure 1 shows the organisation of Dance 11–12.</p>\n\n<p><em>Image long description: </em>Year 11 focus areas Performance, Choreography and Appreciation appear in 3 boxes linked by a line that interweaves the 4 content groups: Context, The dancing body, Elements of dance, and Structure. Below this, the Year 12 focus areas Performance, Choreography and Appreciation appear in 3 boxes linked by a line that interweaves the content groups: Context, and Components of performance, choreography and appreciation.</p>\n<h4>Protocols for collaborating with Aboriginal and Torres Strait Islander Communities and engaging with Cultural works</h4>\n<p>NESA is committed to working in partnership with Aboriginal Communities and supporting teachers, schools and schooling sectors to improve educational outcomes for young people.</p>\n<p>It is important to respect appropriate ways of interacting with Aboriginal Communities and Cultural material when teachers plan, program and implement learning experiences that focus on Aboriginal and Torres Strait Islander Priorities.</p>\n<p>Indigenous Cultural and Intellectual Property (ICIP) protocols need to be followed. Aboriginal and Torres Strait Islander Peoples’ ICIP protocols include Cultural Knowledges, Cultural Expression and Cultural Property and documentation of Aboriginal and Torres Strait Islander Peoples’ identities and lived experiences. It is important to recognise the diversity and complexity of different Cultural groups in NSW, as protocols may differ between local Aboriginal Communities.</p>\n<p>Teachers should work in partnership with Elders, parents, Community members, Cultural Knowledge Holders, or a local, regional or state Aboriginal Education Consultative Group. It is important to respect Elders and the roles of men and women. Local Aboriginal Peoples should be invited to share their Cultural Knowledges with students and staff when engaging with Aboriginal histories and Cultural Practices.</p>",
+  "overviewSections": [
+    {
+      "heading": null,
+      "level": null,
+      "isAccordion": false,
+      "html": "<p>The <em>Dance 11–12 Syllabus</em> aligns with the <em>Dance Life Skills 11–12 Syllabus</em> to provide opportunities for integrated delivery.</p>\n<p>Through <a href=\"https://www.nsw.gov.au/education-and-training/nesa/diversity-of-learners/special-education/collaborative-curriculum-planning\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">collaborative curriculum planning</a>, it may be decided that <a href=\"https://www.nsw.gov.au/education-and-training/nesa/diversity-of-learners/special-education/life-skills\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">Life Skills outcomes and content</a> are the most appropriate option for some students with intellectual disability.</p>"
+    },
+    {
+      "heading": "Organisation of Dance 11–12",
+      "level": 4,
+      "isAccordion": false,
+      "html": "<p>The <em>Dance 11–12 Syllabus</em> is structured around the key Dance practices of performance, choreography and appreciation, which form the focus areas. In the Year 11 course the emphasis is on the discrete and explicit study of the focus areas. In the Year 12 course students synthesise their knowledge, understanding and skills both in and across the focus areas.</p>\n<p>Figure 1 shows the organisation of Dance 11–12.</p>\n<p class=\"fig-caption\">Figure 1: The organisation of Dance 11–12</p>\n<p><em>Image long description: </em>Year 11 focus areas Performance, Choreography and Appreciation appear in 3 boxes linked by a line that interweaves the 4 content groups: Context, The dancing body, Elements of dance, and Structure. Below this, the Year 12 focus areas Performance, Choreography and Appreciation appear in 3 boxes linked by a line that interweaves the content groups: Context, and Components of performance, choreography and appreciation.</p>"
+    },
+    {
+      "heading": "Protocols for collaborating with Aboriginal and Torres Strait Islander Communities and engaging with Cultural works",
+      "level": 4,
+      "isAccordion": false,
+      "html": "<p>NESA is committed to working in partnership with Aboriginal Communities and supporting teachers, schools and schooling sectors to improve educational outcomes for young people.</p>\n<p>It is important to respect appropriate ways of interacting with Aboriginal Communities and Cultural material when teachers plan, program and implement learning experiences that focus on Aboriginal and Torres Strait Islander Priorities.</p>\n<p>Indigenous Cultural and Intellectual Property (ICIP) protocols need to be followed. Aboriginal and Torres Strait Islander Peoples’ ICIP protocols include Cultural Knowledges, Cultural Expression and Cultural Property and documentation of Aboriginal and Torres Strait Islander Peoples’ identities and lived experiences. It is important to recognise the diversity and complexity of different Cultural groups in NSW, as protocols may differ between local Aboriginal Communities.</p>\n<p>Teachers should work in partnership with Elders, parents, Community members, Cultural Knowledge Holders, or a local, regional or state Aboriginal Education Consultative Group. It is important to respect Elders and the roles of men and women. Local Aboriginal Peoples should be invited to share their Cultural Knowledges with students and staff when engaging with Aboriginal histories and Cultural Practices.</p>"
+    }
+  ],
+  "rationale": "<p>Dance is a unique form of communication that uses the body as an instrument to convey and inform life experiences through abstract symbolic movement. The study of dance is a way of knowing that contributes to students’ artistic, aesthetic and cultural education. Performance, choreography and appreciation are the central artistic practices in the study of dance.</p>\n<p>The study of Dance is accessible to all students, each student communicates their personal interpretation of ideas and develops self-confidence, empathy and a sense of self-determination. Students develop an understanding of Aboriginal and Torres Strait Islander Peoples’ histories and Cultures, protocols and connection to Country through dance.</p>\n<p>In the study of dance, knowledge and skills are inextricably linked. Performance contains knowledge of and skills in dance technique, safe dance practice, interpretation and the effective communication of ideas. The study of choreography provides students with the means to generate and structure abstract symbolic movement through experimentation, analysis and refinement to communicate ideas. The analysis and evaluation of dance works is central to the appreciation of dance in artistic, cultural, social and personal contexts. Developing the skills to decode dance works and to formulate personal responses leads to informed appreciation.</p>\n<p>The study of dance in the school curriculum provides a context to develop effective, higher-order thinking skills necessary for further education, work and everyday life. The study of dance facilitates well-rounded, disciplined, goal-oriented young people with interpersonal skills and characteristics that are essential to post-school pathways.</p>",
+  "aim": "<p>Dance 11–12 aims for students to acquire the knowledge and skills to communicate ideas through the abstract symbolic language of dance performance, choreography and appreciation. The study of Dance will provide students with intellectual, physical, creative, social and emotional development. It will contribute to their aesthetic, artistic and cultural education.</p>",
+  "stages": [
+    {
+      "codename": "year_11",
+      "name": "Year 11",
+      "focusAreas": [
+        {
+          "codename": "fae2f1c64a",
+          "title": "Performance",
+          "outcomes": [
+            {
+              "code": "DA-11P-01",
+              "description": "<p>explains the influence of context on dance technique, safe dance practice and interpretation</p>"
+            },
+            {
+              "code": "DA-11P-02",
+              "description": "<p>demonstrates safe dance practice, dance technique and kinaesthetic awareness to communicate the intent</p>"
+            },
+            {
+              "code": "DA-11P-03",
+              "description": "<p>manipulates the elements of dance to perform movements that communicate the intent</p>"
+            },
+            {
+              "code": "DA-11P-04",
+              "description": "<p>uses the structure of the choreography to communicate the intent of a dance work</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": [
+                {
+                  "text": "<p>Demonstrate the conventions of contemporary dance practice, including class protocols, behaviour and responsibilities</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explain how context influences the choice of <a data-item-id=\"fcc3ce0d-7205-45f0-81d1-8de0badbfb22\" href=\"\">accompaniment</a>, the intent and the application of the components of performance in dance works</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Use the language of dance performance, including context, dance technique, <a data-item-id=\"0fac3472-5050-4381-9094-58f38ed84cd9\" href=\"\">kinaesthetic awareness</a>, elements of dance, <a data-item-id=\"e22458a4-c3fc-4b26-8d9c-288af575f3fb\" href=\"\">auditory elements</a>, <a data-item-id=\"6d2e4150-d879-41e5-9adb-621b5c890b33\" href=\"\">structure</a> and <a data-item-id=\"5a82b729-00a0-436f-8c08-568ee8449b53\" href=\"\">interpretation</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Analyse the relationship between context, intent, style, dance technique and interpretation</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Demonstrate the stylistic features of dance works specific to context</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Demonstrate dance technique and kinaesthetic awareness to communicate the choreographer’s intent specific to context</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Reflect critically on the performance of a dance work relative to context</p>",
+                  "examples": ""
+                }
+              ]
+            },
+            {
+              "title": "The dancing body",
+              "items": [
+                {
+                  "text": "<p>Explain the relationship between skeletal structures, major muscle groups, and the safe execution of movement</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Demonstrate <a data-item-id=\"421ebff5-4719-4f70-8d42-04aa136d83d0\" href=\"\">alignment</a>, control, strength, flexibility, endurance and coordination relative to personal anatomical structure</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Apply dance technique and demonstrate kinaesthetic awareness to express a range of emotions, <a data-item-id=\"fe2c34d9-1765-498e-9d00-aa83a082967c\" href=\"\">ideas</a> and intents</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Perform complex combinations of body skills relative to anatomical structure</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Interpret and communicate the intent in contrasting dance styles</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Reflect critically on the demonstration of dance technique and kinaesthetic awareness in order to refine personal interpretation of the choreographer’s intent</p>",
+                  "examples": ""
+                }
+              ]
+            },
+            {
+              "title": "Elements of dance",
+              "items": [
+                {
+                  "text": "<p>Manipulate the elements of dance to achieve the desired interpretation in dance works</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Identify and demonstrate the relationship between the elements of dance and the auditory elements necessary to achieve the desired interpretation</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Control and manipulate the elements of dance to demonstrate the stylistic features of a selected dance work</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Reflect critically on the control and manipulation of the elements of dance in order to refine the stylistic features in dance works</p>",
+                  "examples": ""
+                }
+              ]
+            },
+            {
+              "title": "Structure",
+              "items": [
+                {
+                  "text": "<p>Identify the structure of a dance work to refine the performer’s interpretation and communication of the intent</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Analyse the auditory elements of the accompaniment and identify their relationship to the structure of the dance work to interpret and communicate the choreographer’s intent</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Perform a structured dance work</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Reflect critically on the relationship between auditory elements and structure in order to communicate the intent in dance works</p>",
+                  "examples": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_choreography",
+          "title": "Choreography",
+          "outcomes": [
+            {
+              "code": "DA-11C-01",
+              "description": "<p>explains the influence of context on the idea, intent and choreographic process</p>"
+            },
+            {
+              "code": "DA-11C-02",
+              "description": "<p>creates and refines a personalised movement vocabulary to communicate the intent</p>"
+            },
+            {
+              "code": "DA-11C-03",
+              "description": "<p>manipulates the elements of dance to choreograph movements that communicate the intent</p>"
+            },
+            {
+              "code": "DA-11C-04",
+              "description": "<p>applies structure to organise the movement to communicate the intent</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "The dancing body",
+              "items": []
+            },
+            {
+              "title": "Elements of dance",
+              "items": []
+            },
+            {
+              "title": "Structure",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_appreciation",
+          "title": "Appreciation",
+          "outcomes": [
+            {
+              "code": "DA-11A-01",
+              "description": "<p>analyses dance works in artistic, cultural, social and personal contexts</p>"
+            },
+            {
+              "code": "DA-11A-02",
+              "description": "<p>explains the choreographer’s use of the dancing body to communicate the intent</p>"
+            },
+            {
+              "code": "DA-11A-03",
+              "description": "<p>analyses the choreographer’s use of the elements of dance to communicate the intent</p>"
+            },
+            {
+              "code": "DA-11A-04",
+              "description": "<p>analyses how structure is used to communicate the choreographer’s intent</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "The dancing body",
+              "items": []
+            },
+            {
+              "title": "Elements of dance",
+              "items": []
+            },
+            {
+              "title": "Structure",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_performance:_dance_work",
+          "title": "Performance: Dance work",
+          "outcomes": [
+            {
+              "code": "DA-LSP-01",
+              "description": "<p>performs in a range of dance styles</p>"
+            },
+            {
+              "code": "DA-LSP-02",
+              "description": "<p>participates in a dance performance</p>"
+            },
+            {
+              "code": "DA-LSP-03",
+              "description": "<p>demonstrates safe dance practice and dance technique when performing</p>"
+            },
+            {
+              "code": "DA-LSP-04",
+              "description": "<p>uses the elements of dance when performing to communicate an idea or intent</p>"
+            },
+            {
+              "code": "DA-LSP-05",
+              "description": "<p>performs structured movements to communicate an idea or intent</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "Components of performance",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_choreography:_dance_work",
+          "title": "Choreography: Dance work",
+          "outcomes": [
+            {
+              "code": "DA-LSC-01",
+              "description": "<p>identifies the factors that shape an idea or intent in the choreographic process</p>"
+            },
+            {
+              "code": "DA-LSC-02",
+              "description": "<p>demonstrates personalised movement in response to stimuli</p>"
+            },
+            {
+              "code": "DA-LSC-03",
+              "description": "<p>creates movements using the elements of dance to communicate an idea or intent</p>"
+            },
+            {
+              "code": "DA-LSC-04",
+              "description": "<p>sequences movement to communicate an idea or intent</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "Components of choreography",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_appreciation:_dance_work",
+          "title": "Appreciation: Dance work",
+          "outcomes": [
+            {
+              "code": "DA-LSA-01",
+              "description": "<p>responds to dance performances from a range of artistic, cultural, social or personal contexts</p>"
+            },
+            {
+              "code": "DA-LSA-02",
+              "description": "<p>recognises how the use of the dancing body communicates the choreographer's ideas</p>"
+            },
+            {
+              "code": "DA-LSA-03",
+              "description": "<p>communicates how the elements of dance are used to create meaning in a dance work</p>"
+            },
+            {
+              "code": "DA-LSA-04",
+              "description": "<p>identifies how structure is used in a dance work to communicate ideas</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "Components of appreciation",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codename": "year_12",
+      "name": "Year 12",
+      "focusAreas": [
+        {
+          "codename": "fac994d515",
+          "title": "Performance",
+          "outcomes": [
+            {
+              "code": "DA-12P-01",
+              "description": "<p>communicates the intent using the components of performance specific to context</p>"
+            },
+            {
+              "code": "DA-12P-02",
+              "description": "<p>manipulates the components of performance to communicate the intent in a range of dance works</p>"
+            },
+            {
+              "code": "DA-12P-03",
+              "description": "<p>evaluates the components of performance to communicate the intent in a range of dance works</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": [
+                {
+                  "text": "<p>Demonstrate <a data-item-id=\"fb4811b7-c94c-4ed0-9e9a-b7ee3ec13527\" href=\"\">conventions</a>, protocols and responsibilities, including safe dance practices when preparing the body to perform dance works</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explain how context influences the choice of auditory elements, the intent and the application of the components of performance in dance works</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Use the language of dance performance in the context of the dance works being performed to describe the intent, technique, <a data-item-id=\"1c21a223-9783-4744-ad14-4b0024048820\" href=\"\">style</a> and interpretation</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Analyse the relationship between context, intent, interpretation, style, dance technique and kinaesthetic awareness in the performance of contrasting dance works</p>",
+                  "examples": ""
+                }
+              ]
+            },
+            {
+              "title": "Components of performance",
+              "items": [
+                {
+                  "text": "<p>Explain the function of the components of performance in dance works</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explain the relationship between the application of the components of performance and the characteristics of dance styles</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Use auditory elements to refine the interpretation and communication in dance works</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Demonstrate the relationship between dance technique, kinaesthetic awareness and the communication of the intent and style</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Manipulate the elements of dance to communicate the intent and demonstrate stylistic characteristics</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Identify the structure of the dance work and use it to refine the performer’s communication and interpretation of the intent</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Manipulate the components of performance to communicate the intent in contrasting dance works</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Analyse how the components of performance have been manipulated to communicate the intent in contrasting dance works</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Compare the use of the components of performance in contrasting dance works relative to context</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Reflect critically on the use of the components of performance in order to refine the communication of the intent in contrasting dance works<br></p>",
+                  "examples": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_choreography",
+          "title": "Choreography",
+          "outcomes": [
+            {
+              "code": "DA-12C-01",
+              "description": "<p>analyses information about a practitioner to inform the choreography of a dance work</p>"
+            },
+            {
+              "code": "DA-12C-02",
+              "description": "<p>choreographs a dance work in a personal style using the components of choreography to communicate the intent</p>"
+            },
+            {
+              "code": "DA-12C-03",
+              "description": "<p>evaluates the use of the components of choreography and choreographic process to communicate the intent</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "Components of choreography",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_appreciation",
+          "title": "Appreciation",
+          "outcomes": [
+            {
+              "code": "DA-12A-01",
+              "description": "<p>assesses the influence of context on a practitioner and their body of work</p>"
+            },
+            {
+              "code": "DA-12A-02",
+              "description": "<p>analyses a practitioner’s dance works using the components of appreciation</p>"
+            },
+            {
+              "code": "DA-12A-03",
+              "description": "<p>evaluates dance works using the components of appreciation</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "Components of appreciation",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_performance:_dance_work",
+          "title": "Performance: Dance work",
+          "outcomes": [
+            {
+              "code": "DA-LSP-01",
+              "description": "<p>performs in a range of dance styles</p>"
+            },
+            {
+              "code": "DA-LSP-02",
+              "description": "<p>participates in a dance performance</p>"
+            },
+            {
+              "code": "DA-LSP-03",
+              "description": "<p>demonstrates safe dance practice and dance technique when performing</p>"
+            },
+            {
+              "code": "DA-LSP-04",
+              "description": "<p>uses the elements of dance when performing to communicate an idea or intent</p>"
+            },
+            {
+              "code": "DA-LSP-05",
+              "description": "<p>performs structured movements to communicate an idea or intent</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": [
+                {
+                  "text": "<p>Choose a preferred dance <a data-item-id=\"ed8aff68-79f6-49eb-8547-0c0eea08feec\" href=\"\">genre</a> or <a data-item-id=\"1c21a223-9783-4744-ad14-4b0024048820\" href=\"\">style</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Identify the <a data-item-id=\"fe29a2a2-fd83-4af8-8a22-90d26ffa87d7\" href=\"\">context</a> and/or interpretation for a dance work</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Demonstrate safety considerations when participating in performing a dance work</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Demonstrate cultural considerations when participating in performing a dance work</p>",
+                  "examples": "<p>Avoid use of movements, costumes or symbols from another culture without context, understanding and respect for protocols, including Indigenous Cultural and Intellectual Property (ICIP).</p>"
+                }
+              ]
+            },
+            {
+              "title": "Components of performance",
+              "items": [
+                {
+                  "text": "<p>Train and prepare the body for performance</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Perform using the elements of dance</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Respond to different auditory elements when performing</p>",
+                  "examples": "<p>Adjust rhythm and tempo of movement in accordance with music, stillness during silence, perform a specific movement during a voice over.</p>"
+                },
+                {
+                  "text": "<p>Demonstrate increasingly complex combinations of body skills relative to <a data-item-id=\"064243b0-e4d3-4888-8bee-8db79586941e\" href=\"\">anatomical structure</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Participate in performing a structured dance work</p>",
+                  "examples": "<p>Perform a role in a structured dance work, perform part of or all of a structured dance work.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_choreography:_dance_work",
+          "title": "Choreography: Dance work",
+          "outcomes": [
+            {
+              "code": "DA-LSC-01",
+              "description": "<p>identifies the factors that shape an idea or intent in the choreographic process</p>"
+            },
+            {
+              "code": "DA-LSC-02",
+              "description": "<p>demonstrates personalised movement in response to stimuli</p>"
+            },
+            {
+              "code": "DA-LSC-03",
+              "description": "<p>creates movements using the elements of dance to communicate an idea or intent</p>"
+            },
+            {
+              "code": "DA-LSC-04",
+              "description": "<p>sequences movement to communicate an idea or intent</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "Components of choreography",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_appreciation:_dance_work",
+          "title": "Appreciation: Dance work",
+          "outcomes": [
+            {
+              "code": "DA-LSA-01",
+              "description": "<p>responds to dance performances from a range of artistic, cultural, social or personal contexts</p>"
+            },
+            {
+              "code": "DA-LSA-02",
+              "description": "<p>recognises how the use of the dancing body communicates the choreographer's ideas</p>"
+            },
+            {
+              "code": "DA-LSA-03",
+              "description": "<p>communicates how the elements of dance are used to create meaning in a dance work</p>"
+            },
+            {
+              "code": "DA-LSA-04",
+              "description": "<p>identifies how structure is used in a dance work to communicate ideas</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "Components of appreciation",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codename": "life_skills",
+      "name": "Life Skills",
+      "focusAreas": [
+        {
+          "codename": "fa54557da1",
+          "title": "Performance",
+          "outcomes": [
+            {
+              "code": "DA-LSP-01",
+              "description": "<p>performs in a range of dance styles</p>"
+            },
+            {
+              "code": "DA-LSP-02",
+              "description": "<p>participates in a dance performance</p>"
+            },
+            {
+              "code": "DA-LSP-03",
+              "description": "<p>demonstrates safe dance practice and dance technique when performing</p>"
+            },
+            {
+              "code": "DA-LSP-04",
+              "description": "<p>uses the elements of dance when performing to communicate an idea or intent</p>"
+            },
+            {
+              "code": "DA-LSP-05",
+              "description": "<p>performs structured movements to communicate an idea or intent</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": [
+                {
+                  "text": "<p>Engage in protocols and responsibilities to establish safe and inclusive creative spaces</p>",
+                  "examples": "<p>Personal space in relation to self and others, consent.</p>"
+                },
+                {
+                  "text": "<p>Participate in dance as an art form and in other contexts</p>",
+                  "examples": "<p>Cultural, social, personal.</p>"
+                },
+                {
+                  "text": "<p>Engage in dance movements from various styles</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Identify relationships between dance training and dance styles</p>",
+                  "examples": "<p>Develop specific warm-up exercises and sequences to prepare students to perform a dance work within a context or style.</p>"
+                },
+                {
+                  "text": "<p>Participate in dance experiences in a range of contexts</p>",
+                  "examples": "<p>School, community.</p>"
+                },
+                {
+                  "text": "<p>Recognise and use the language of dance performance, including context, <a data-item-id=\"0476feff-d1e8-43ac-9688-414f7d333741\" href=\"\">dance technique</a>, <a data-item-id=\"ed8aff68-79f6-49eb-8547-0c0eea08feec\" href=\"\">genre</a>, style or <a data-item-id=\"5a82b729-00a0-436f-8c08-568ee8449b53\" href=\"\">interpretation</a></p>",
+                  "examples": ""
+                }
+              ]
+            },
+            {
+              "title": "The dancing body",
+              "items": [
+                {
+                  "text": "<p>Identify the skeletal structures, major muscle groups or mobility aids used in movement</p>",
+                  "examples": "<p>Bones, joints, muscles, prosthetics, wheelchairs, crutches, walking sticks, braces.</p>"
+                },
+                {
+                  "text": "<p>Identify the importance of skeletal structures or major muscle groups to safeguard the body for movement</p>",
+                  "examples": "<p>Individual alignment will vary; learn how muscles and bones work together most efficiently to ensure safe movement.</p>"
+                },
+                {
+                  "text": "<p>Engage in healthy practices to develop and maintain a body safe for dance</p>",
+                  "examples": "<p>Supplementary training, hydration, nutrition, rest, mindfulness.</p>"
+                },
+                {
+                  "text": "<p>Participate in dance training to develop dance technique</p>",
+                  "examples": "<p>Alignment, control, flexibility, endurance, coordination.</p>"
+                },
+                {
+                  "text": "<p>Demonstrate increasingly complex combinations of body skills relative to <a data-item-id=\"064243b0-e4d3-4888-8bee-8db79586941e\" href=\"\">anatomical structure</a></p>",
+                  "examples": "<p>Gesture, locomote, turn, balance, elevate, fall.</p>"
+                },
+                {
+                  "text": "<p>Move the body in response to various music styles and sounds</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore how the dancer uses music to express feelings or ideas</p>",
+                  "examples": "<p>Personal interpretation through rhythm, melody, dynamics, tempo, expression.</p>"
+                },
+                {
+                  "text": "<p>Perform movements with a sense of <a data-item-id=\"24a63728-5acb-4811-b343-e03802449444\" href=\"\">musicality</a></p>",
+                  "examples": "<p>Move to the beat, rhythm, melody, dynamics, tempo, mood.</p>"
+                },
+                {
+                  "text": "<p>Perform movements with a sense of commitment and confidence</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Perform movements with a sense of purpose and feeling</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Reflect on and communicate individual progress to improve performance</p>",
+                  "examples": "<p>Use photo diaries, video logs or word banks to map progress and inform decision making.</p>"
+                }
+              ]
+            },
+            {
+              "title": "Elements of dance",
+              "items": [
+                {
+                  "text": "<p>Purposefully move all or part of the body to explore <a data-item-id=\"e757e4c7-326a-4415-9fc9-8ccc19dec6db\" href=\"\">space</a></p>",
+                  "examples": "<p>Movement across the space at a low level and in a backwards direction could be used to express fear.</p>"
+                },
+                {
+                  "text": "<p>Purposefully move all or part of the body to explore <a data-item-id=\"4e9d7769-9bdf-4dbb-97d0-e2a65b56c145\" href=\"\">time</a></p>",
+                  "examples": "<p>Changing tempos, rhythms and durations, and using accents and stillness, can communicate different ideas.</p>"
+                },
+                {
+                  "text": "<p>Purposefully move all or part of the body to explore <a data-item-id=\"209ea95a-959e-42a1-82d7-4c726ac4b402\" href=\"\">dynamics</a></p>",
+                  "examples": "<p>Subtle or sudden changes of quality, changes in energy, increases in force or tempo.</p>"
+                },
+                {
+                  "text": "<p>Manipulate the body using the elements of dance to communicate a personal interpretation</p>",
+                  "examples": "<p>Simple props and costumes that are integral to the interpretation.</p>"
+                }
+              ]
+            },
+            {
+              "title": "Structure",
+              "items": [
+                {
+                  "text": "<p>Perform <a data-item-id=\"2da1e209-c461-4046-ae51-ffd56a4a70a0\" href=\"\">phrases</a> of movement to communicate an idea or intent</p>",
+                  "examples": "<p>A series of gestures or sequence of steps to communicate an idea, such as the lifecycle of a butterfly.</p>"
+                },
+                {
+                  "text": "<p>Recognise <a data-item-id=\"e22458a4-c3fc-4b26-8d9c-288af575f3fb\" href=\"\">auditory elements</a> of a dance work</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Identify changes in auditory elements at different parts of a dance work<br></p>",
+                  "examples": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_choreography",
+          "title": "Choreography",
+          "outcomes": [
+            {
+              "code": "DA-LSC-01",
+              "description": "<p>identifies the factors that shape an idea or intent in the choreographic process</p>"
+            },
+            {
+              "code": "DA-LSC-02",
+              "description": "<p>demonstrates personalised movement in response to stimuli</p>"
+            },
+            {
+              "code": "DA-LSC-03",
+              "description": "<p>creates movements using the elements of dance to communicate an idea or intent</p>"
+            },
+            {
+              "code": "DA-LSC-04",
+              "description": "<p>sequences movement to communicate an idea or intent</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "The dancing body",
+              "items": []
+            },
+            {
+              "title": "Elements of dance",
+              "items": []
+            },
+            {
+              "title": "Structure",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_appreciation",
+          "title": "Appreciation",
+          "outcomes": [
+            {
+              "code": "DA-LSA-01",
+              "description": "<p>responds to dance performances from a range of artistic, cultural, social or personal contexts</p>"
+            },
+            {
+              "code": "DA-LSA-02",
+              "description": "<p>recognises how the use of the dancing body communicates the choreographer's ideas</p>"
+            },
+            {
+              "code": "DA-LSA-03",
+              "description": "<p>communicates how the elements of dance are used to create meaning in a dance work</p>"
+            },
+            {
+              "code": "DA-LSA-04",
+              "description": "<p>identifies how structure is used in a dance work to communicate ideas</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "The dancing body",
+              "items": []
+            },
+            {
+              "title": "Elements of dance",
+              "items": []
+            },
+            {
+              "title": "Structure",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_performance:_dance_work",
+          "title": "Performance: Dance work",
+          "outcomes": [
+            {
+              "code": "DA-LSP-01",
+              "description": "<p>performs in a range of dance styles</p>"
+            },
+            {
+              "code": "DA-LSP-02",
+              "description": "<p>participates in a dance performance</p>"
+            },
+            {
+              "code": "DA-LSP-03",
+              "description": "<p>demonstrates safe dance practice and dance technique when performing</p>"
+            },
+            {
+              "code": "DA-LSP-04",
+              "description": "<p>uses the elements of dance when performing to communicate an idea or intent</p>"
+            },
+            {
+              "code": "DA-LSP-05",
+              "description": "<p>performs structured movements to communicate an idea or intent</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "Components of performance",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_choreography:_dance_work",
+          "title": "Choreography: Dance work",
+          "outcomes": [
+            {
+              "code": "DA-LSC-01",
+              "description": "<p>identifies the factors that shape an idea or intent in the choreographic process</p>"
+            },
+            {
+              "code": "DA-LSC-02",
+              "description": "<p>demonstrates personalised movement in response to stimuli</p>"
+            },
+            {
+              "code": "DA-LSC-03",
+              "description": "<p>creates movements using the elements of dance to communicate an idea or intent</p>"
+            },
+            {
+              "code": "DA-LSC-04",
+              "description": "<p>sequences movement to communicate an idea or intent</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "Components of choreography",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_appreciation:_dance_work",
+          "title": "Appreciation: Dance work",
+          "outcomes": [
+            {
+              "code": "DA-LSA-01",
+              "description": "<p>responds to dance performances from a range of artistic, cultural, social or personal contexts</p>"
+            },
+            {
+              "code": "DA-LSA-02",
+              "description": "<p>recognises how the use of the dancing body communicates the choreographer's ideas</p>"
+            },
+            {
+              "code": "DA-LSA-03",
+              "description": "<p>communicates how the elements of dance are used to create meaning in a dance work</p>"
+            },
+            {
+              "code": "DA-LSA-04",
+              "description": "<p>identifies how structure is used in a dance work to communicate ideas</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Context",
+              "items": []
+            },
+            {
+              "title": "Components of appreciation",
+              "items": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

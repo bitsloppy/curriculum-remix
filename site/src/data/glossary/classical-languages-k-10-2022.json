@@ -1,0 +1,545 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "4cb7eebb-063b-4d24-b94d-1fbffbe31791",
+      "codename": "glb_prisec_gls_access_content_points",
+      "title": "access content points",
+      "slug": "access-content-points",
+      "description": "<p>Content for students with significant intellectual disability who are working towards the Early Stage 1 outcomes. Teachers can use the access content points on their own, or in combination with the content for each outcome.</p>"
+    },
+    {
+      "id": "d707259f-4309-4dfa-a141-96e04f550e8b",
+      "codename": "shared__audience",
+      "title": "audience",
+      "slug": "audience",
+      "description": "<p>Readers, listeners or viewers who engage with a text.</p>"
+    },
+    {
+      "id": "f25fd74a-b6e3-4bc8-a108-ab67b3c1970b",
+      "codename": "cl__classical_language",
+      "title": "Classical language",
+      "slug": "classical-language",
+      "description": "<p>Classical languages are any language with an independent literary tradition and a large and ancient body of written literature. They are no longer spoken as a first language.</p>"
+    },
+    {
+      "id": "6e8ffec6-a738-413c-a20c-e38586d49c15",
+      "codename": "cl__cognate",
+      "title": "cognate",
+      "slug": "cognate",
+      "description": "<p>A word which is directly related in origin to another; cognates have similar spellings and meanings.</p>"
+    },
+    {
+      "id": "74220373-c9ec-4692-86a6-4c29e99d6116",
+      "codename": "cl__cohesion",
+      "title": "cohesion",
+      "slug": "cohesion",
+      "description": "<p>The use of a range of language features to link parts of a signed text to make it easy to follow and understand referents in the text.</p>"
+    },
+    {
+      "id": "7aaf762c-2d74-47b6-8380-7465b605a80d",
+      "codename": "shared__communication",
+      "title": "communication",
+      "slug": "communication",
+      "description": "<p>The purposeful interpretation and expression of meaning.</p>"
+    },
+    {
+      "id": "a469d8cd-2385-4c8f-a012-006064fdfa70",
+      "codename": "al_prisec_gls_context",
+      "title": "context",
+      "slug": "context",
+      "description": "<p>An environment or situation (social, cultural or historical) in which a text is responded to or created. Or wording surrounding an unfamiliar word, which a reader or listener uses to understand its meaning.</p>"
+    },
+    {
+      "id": "6212df83-b71d-482f-b99b-c887a93ada96",
+      "codename": "al_prisec_gls_conventions",
+      "title": "conventions",
+      "slug": "conventions",
+      "description": "<p>Accepted practices or features that help define textual forms, creative forms, styles and meaning.</p>"
+    },
+    {
+      "id": "6f73864f-3eb0-4c5d-913c-975c80ecd56d",
+      "codename": "shared__cues",
+      "title": "cues",
+      "slug": "cues",
+      "description": "<p>Sources of information used to facilitate comprehension of language that may be visual, grammatical, gestural or contextual.</p>"
+    },
+    {
+      "id": "2aca9010-43e8-4aa4-9a5e-5d47a95e4aa5",
+      "codename": "cl__declension",
+      "title": "declension",
+      "slug": "declension",
+      "description": "<p>The inflection of nouns, and of words similarly inflected, for categories such as case and number.</p>"
+    },
+    {
+      "id": "6a337783-298d-433a-8184-df73643ad9f9",
+      "codename": "cl__derivative",
+      "title": "derivation",
+      "slug": "derivation",
+      "description": "<p>A word which is formed from or based on another word.</p>"
+    },
+    {
+      "id": "a65b4d86-bedd-4c63-b211-672509c3802c",
+      "codename": "al_prisec_gls_identity",
+      "title": "identity",
+      "slug": "identity",
+      "description": "<p>A person’s conception and expression of individuality or group affiliation, self-concept and self-representation. It is closely connected to culture and language.</p>"
+    },
+    {
+      "id": "1cdfac0c-39ad-4cd7-a10c-35bc5402df69",
+      "codename": "en__idiom",
+      "title": "idiom",
+      "slug": "idiom",
+      "description": "<p>A commonly used phrase or expression, usually figurative or non-literal, that has an understood meaning specific to a language or dialect, e.g. over the moon, half asleep, pull your socks up.</p>"
+    },
+    {
+      "id": "9f451bcf-17da-40fa-8bf0-2c6fdb43d234",
+      "codename": "shared__interpret",
+      "title": "interpret",
+      "slug": "interpret",
+      "description": "<p>The act of translation from one language to another, the process of understanding and explaining.</p>"
+    },
+    {
+      "id": "a9b597af-336f-4e4e-9220-151ee98ccff7",
+      "codename": "shared__intonation_a9b597a",
+      "title": "intonation",
+      "slug": "intonation",
+      "description": "<p>The pattern or melody of pitch changes in connected speech, especially the pitch pattern of a sentence.</p>"
+    },
+    {
+      "id": "a170a605-d2f5-4247-9de9-b1b0dbe8ab0f",
+      "codename": "shared__language",
+      "title": "language",
+      "slug": "language",
+      "description": "<p>A structured system of communication. The structure of a language is its grammar and the free components are its vocabulary. Languages are the primary means of communication of humans, and can be conveyed through speech (spoken language), sign or writing.</p>"
+    },
+    {
+      "id": "36f6cb04-21de-4d51-b5c2-87f7aa4e92ed",
+      "codename": "shared__language_systems",
+      "title": "language systems",
+      "slug": "language-systems",
+      "description": "<p>Includes the sounds, lexicon (vocabulary), grammar and alphabet/script of the language.</p>"
+    },
+    {
+      "id": "4efb2d79-6fdc-4101-bf46-ee0495334dd6",
+      "codename": "cl__lexical_grammatical_chunk",
+      "title": "lexical and grammatical chunks",
+      "slug": "lexical-and-grammatical-chunks",
+      "description": "<p>A group of words that are commonly found together; a grammatical pattern, e.g. prepositional phrase, verb + infinitive.</p>"
+    },
+    {
+      "id": "047ac55c-067f-4853-ac53-4c2d17ab6e92",
+      "codename": "shared__linguistic_features_047ac55",
+      "title": "linguistic features/structures",
+      "slug": "linguistic-features-structures",
+      "description": "<p>Grammatical, lexical, phonological or structural characteristics of a language or a text.</p>"
+    },
+    {
+      "id": "e116361f-b95f-4801-bc51-266317831a34",
+      "codename": "en__literal",
+      "title": "literal",
+      "slug": "literal",
+      "description": "<p>Having only the most direct meaning.</p>"
+    },
+    {
+      "id": "93a2be47-fbf8-497c-bb96-2d753c604d01",
+      "codename": "al_prisec_gls_metalanguage",
+      "title": "metalanguage",
+      "slug": "metalanguage",
+      "description": "<p>Technical terms used to describe and discuss how language and texts function.</p>"
+    },
+    {
+      "id": "320e1250-26e4-4c68-a97d-d285de0155cf",
+      "codename": "shared__modelled_language",
+      "title": "modelled language",
+      "slug": "modelled-language",
+      "description": "<p>Language that has been modelled or previously taught by the teacher. It can be used by students as a scaffold in structured situations.</p>"
+    },
+    {
+      "id": "ea4eef4f-b34e-42e2-9647-53ee2f234bb7",
+      "codename": "shared__moderately_complex_text",
+      "title": "moderately complex text",
+      "slug": "moderately-complex-text",
+      "description": "<p>A text in which the topic and/or type of text is familiar; however, it may be structurally and/or conceptually more challenging, with greater complexity of language. The text may require students to understand stated and implied meanings.</p>"
+    },
+    {
+      "id": "875aaa28-9893-4ae7-a80c-8da796b069a8",
+      "codename": "cl__morphological_features",
+      "title": "morphological features",
+      "slug": "morphological-features",
+      "description": "<p>The patterns of word formation in a particular language, including inflection, derivation and composition.</p>"
+    },
+    {
+      "id": "09dbc282-10eb-4909-96b3-a9c8f35506db",
+      "codename": "multimodal_text",
+      "title": "multimodal text/presentation",
+      "slug": "multimodal-text-presentation",
+      "description": "<p>A text that combines 2 or more expressive modes to communicate.</p>"
+    },
+    {
+      "id": "339b2901-cb9f-49f9-9007-70bd6aea5589",
+      "codename": "shared__predictable_text",
+      "title": "predictable text",
+      "slug": "predictable-text",
+      "description": "<p>A text in which the topic and/or type of text is very familiar; it contains mostly familiar language structures, but some unfamiliar language is present. Comprehension strategies may be used in conjunction with knowledge of language to understand the text.</p>"
+    },
+    {
+      "id": "53f89693-534d-419e-9df7-5f0203521237",
+      "codename": "shared__pronunciation",
+      "title": "pronunciation",
+      "slug": "pronunciation",
+      "description": "<p>A manner in which a syllable is uttered.</p>"
+    },
+    {
+      "id": "1af90774-bdbf-413c-be0e-5d7c4a50b3a8",
+      "codename": "shared__read",
+      "title": "read",
+      "slug": "read",
+      "description": "<p>Process visual or tactile symbols (e.g. braille), words or actions in order to derive and/or construct meaning. Reading includes elements of decoding (of sounds and symbols), interpreting, critically analysing and reflecting upon meaning in a wide range of written, visual, print and non-print texts.</p>"
+    },
+    {
+      "id": "aaadf8f5-2310-49af-9075-9d98f6d1542d",
+      "codename": "register",
+      "title": "register",
+      "slug": "register",
+      "description": "<p>The degree of formality or informality of language used for a particular purpose or in a particular social setting.</p>"
+    },
+    {
+      "id": "5c00cc85-39c6-4056-83e2-3151b79e2d1b",
+      "codename": "shared__responding",
+      "title": "responding",
+      "slug": "responding",
+      "description": "<p>Engaging with a text. ‘Responding’ involves identifying, selecting, describing, comprehending, imagining, interpreting, explaining, analysing and/or evaluating.</p>"
+    },
+    {
+      "id": "ba6b975e-44f6-4ddf-8bdd-909cfa1fa342",
+      "codename": "sentence",
+      "title": "sentence",
+      "slug": "sentence",
+      "description": "<p>A collection of words that conveys a complete thought, typically containing a subject and predicate. A sentence:</p>\n<ul>\n  <li>may express a statement, exclamation, command or question</li>\n  <li>comprises a main clause and sometimes one or more subordinate clauses</li>\n  <li>begins with a capital letter and ends with a full stop, exclamation mark or question mark.</li>\n</ul>\n<p><em>See </em><a data-item-id=\"9bfaa6a3-bde5-46dd-af2e-ee41e9c6e304\" href=\"\">clause (main)</a>, <a data-item-id=\"d8f646d8-0ced-46f0-a512-5e9d52e1ac10\" href=\"\">simple sentence</a>, <a data-item-id=\"9661187c-6840-4778-b28f-4179891708d9\" href=\"\">compound sentence</a> and <a data-item-id=\"605b3d57-c9f9-400a-a0f0-f7b745370fed\" href=\"\">complex sentence</a></p>"
+    },
+    {
+      "id": "aa942a7c-0e96-475b-8650-05b26c0b0ba9",
+      "codename": "shared__simple_text",
+      "title": "simple text",
+      "slug": "simple-text",
+      "description": "<p>A text in which the vocabulary and language structures are very familiar and straightforward, with mostly simple sentences. Comprehension may be supported by the use of visuals and/or word lists.</p>"
+    },
+    {
+      "id": "8e001158-a24a-4082-a7b8-0852da79967b",
+      "codename": "shared__sound_system",
+      "title": "sound system",
+      "slug": "sound-system",
+      "description": "<p>Phonological components of the language, including intonation, pronunciation and stress.</p>"
+    },
+    {
+      "id": "299abfd0-2bdd-4c11-801d-a20e60d73293",
+      "codename": "shared__sound_symbol_correspondences",
+      "title": "sound–symbol correspondences",
+      "slug": "sound-symbol-correspondences",
+      "description": "<p>A relationship between letters or characters and the sounds they make when pronounced.</p>"
+    },
+    {
+      "id": "dea2b1bf-c0d6-45ed-849e-4bbb47ea844e",
+      "codename": "shared__stress",
+      "title": "stress",
+      "slug": "stress",
+      "description": "<p>An emphasis in pronunciation that is placed on a particular syllable of a word.</p>\n<p>For example:</p>\n<ul>\n  <li>She will con<em>duct </em>the orchestra.</li>\n  <li>Her <em>con</em>duct is exemplary.</li>\n</ul>"
+    },
+    {
+      "id": "f3ddf64e-d051-43ec-89e7-346df74d2169",
+      "codename": "shared__symbol",
+      "title": "symbol",
+      "slug": "symbol",
+      "description": "<p>A letter, figure or other character or mark, or a combination of letters, used to represent something.</p>"
+    },
+    {
+      "id": "83188252-d59f-42dd-be83-822e49f7df56",
+      "codename": "cl__synthetic_text",
+      "title": "synthetic text",
+      "slug": "synthetic-text",
+      "description": "<p>Text in the target language written in modern times to assist reading comprehension for a diversity of learners.</p>"
+    },
+    {
+      "id": "636298c1-78e8-4fe7-a32a-381fd67eec1f",
+      "codename": "text",
+      "title": "text",
+      "slug": "text",
+      "description": "<p>Any written, spoken/signed, nonverbal, visual, auditory or multimodal communication. Texts may be extended unified works, a series of related pieces or a single, simple piece of communication.</p>"
+    },
+    {
+      "id": "369ecb62-25f2-4760-8f3b-6882df199ed0",
+      "codename": "text_features",
+      "title": "text features",
+      "slug": "text-features",
+      "description": "<p>Structural or stylistic components that combine to construct meaning and achieve purpose. Can be recognisable as characterising particular types of texts.</p>"
+    },
+    {
+      "id": "ce941859-72c4-40d6-adc1-1f91bf14025d",
+      "codename": "shared__text_types",
+      "title": "text types",
+      "slug": "text-types",
+      "description": "<p>Categories of text, classified according to the particular purposes they are designed to achieve, which influence the features the texts employ. For example, texts may be imaginative, informative or persuasive, or can belong to more than one category. Text types vary significantly in terms of structure and text features across different languages and cultural contexts.</p>"
+    },
+    {
+      "id": "1458452a-3c5c-4870-a1e7-7b38c1d7902b",
+      "codename": "cl__tone",
+      "title": "tone",
+      "slug": "tone",
+      "description": "<p>The attitude or feeling the writer expresses through choice of words and/or literary devices, e.g. solemn, playful, defensive or sinister.</p>"
+    },
+    {
+      "id": "782911b0-1131-4269-b0ad-683cdd317d5c",
+      "codename": "shared__translation",
+      "title": "translation",
+      "slug": "translation2",
+      "description": "<p>A process of translating signs/words/text from one language into another, recognising that the process involves movement of meanings and attention to cultural context as well as the transposition of individual words.</p>"
+    },
+    {
+      "id": "6745bcfa-8a14-4f5d-ba8a-7086c1cc9689",
+      "codename": "shared__visual",
+      "title": "visual",
+      "slug": "visual",
+      "description": "<p>A visual item, such as a photograph or drawing; an image.</p>"
+    },
+    {
+      "id": "418709cf-0f33-4a29-9365-30eccbff7d4a",
+      "codename": "shared__writing_system",
+      "title": "writing system",
+      "slug": "writing-system",
+      "description": "<p>A method of visually representing verbal communication, based on an alphabet, characters and/or script.</p>"
+    }
+  ]
+}

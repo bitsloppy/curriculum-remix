@@ -1,0 +1,3823 @@
+[
+  {
+    "syllabusSlug": "dance-11-12-2025",
+    "syllabusName": "Dance 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/dance-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Dance Year 11",
+    "courseId": "11071",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "dance-11-12-2025",
+    "syllabusName": "Dance 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/dance-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Dance Year 12",
+    "courseId": "15071",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "dance-7-10-2023",
+    "syllabusName": "Dance 7–10 (2023)",
+    "syllabusUrl": "/syllabuses/dance-7-10-2023",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Dance Life Skills – 100-hour elective",
+    "courseId": "2005",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "dance-7-10-2023",
+    "syllabusName": "Dance 7–10 (2023)",
+    "syllabusUrl": "/syllabuses/dance-7-10-2023",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Dance Life Skills – 200-hour elective",
+    "courseId": "2004",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "dance-7-10-2023",
+    "syllabusName": "Dance 7–10 (2023)",
+    "syllabusUrl": "/syllabuses/dance-7-10-2023",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Dance – 100-hour elective",
+    "courseId": "2001",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "dance-7-10-2023",
+    "syllabusName": "Dance 7–10 (2023)",
+    "syllabusUrl": "/syllabuses/dance-7-10-2023",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Dance – 200-hour elective",
+    "courseId": "2000",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "dance-life-skills-11-12-2025",
+    "syllabusName": "Dance Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/dance-life-skills-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Dance Life Skills Year 11",
+    "courseId": "16653",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "dance-life-skills-11-12-2025",
+    "syllabusName": "Dance Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/dance-life-skills-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Dance Life Skills Year 12",
+    "courseId": "16653",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "drama-11-12-2025",
+    "syllabusName": "Drama 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/drama-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Drama Year 11",
+    "courseId": "11090",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "drama-11-12-2025",
+    "syllabusName": "Drama 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/drama-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Drama Year 12",
+    "courseId": "15090",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "drama-7-10-2023",
+    "syllabusName": "Drama 7–10 (2023)",
+    "syllabusUrl": "/syllabuses/drama-7-10-2023",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Drama Life Skills – 200-hour elective",
+    "courseId": "2014",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "drama-7-10-2023",
+    "syllabusName": "Drama 7–10 (2023)",
+    "syllabusUrl": "/syllabuses/drama-7-10-2023",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Drama Life Skills– 100-hour elective",
+    "courseId": "2015",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "drama-7-10-2023",
+    "syllabusName": "Drama 7–10 (2023)",
+    "syllabusUrl": "/syllabuses/drama-7-10-2023",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Drama – 100-hour elective",
+    "courseId": "2011",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "drama-7-10-2023",
+    "syllabusName": "Drama 7–10 (2023)",
+    "syllabusUrl": "/syllabuses/drama-7-10-2023",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Drama – 200-hour elective",
+    "courseId": "2010",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "drama-life-skills-11-12-2025",
+    "syllabusName": "Drama Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/drama-life-skills-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Drama Life Skills Year 11",
+    "courseId": "17620",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "drama-life-skills-11-12-2025",
+    "syllabusName": "Drama Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/drama-life-skills-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Drama Life Skills Year 12",
+    "courseId": "17620",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "music-1-11-12-2025",
+    "syllabusName": "Music 1 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/music-1-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Music 1 Year 11",
+    "courseId": "11281",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "music-1-11-12-2025",
+    "syllabusName": "Music 1 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/music-1-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Music 1 Year 12",
+    "courseId": "15291",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "music-7-10-2024",
+    "syllabusName": "Music 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/music-7-10-2024",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Music Life Skills – 100-hour elective",
+    "courseId": "2055",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "music-7-10-2024",
+    "syllabusName": "Music 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/music-7-10-2024",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Music Life Skills – 200-hour elective",
+    "courseId": "2054",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "music-7-10-2024",
+    "syllabusName": "Music 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/music-7-10-2024",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Music – 100-hour elective",
+    "courseId": "2051",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "music-7-10-2024",
+    "syllabusName": "Music 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/music-7-10-2024",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Music – 200-hour elective",
+    "courseId": "2050",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "music-life-skills-11-12-2025",
+    "syllabusName": "Music Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/music-life-skills-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Music Life Skills Year 11",
+    "courseId": "17720",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "music-life-skills-11-12-2025",
+    "syllabusName": "Music Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/music-life-skills-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Music Life Skills Year 12",
+    "courseId": "17720",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "photography-film-and-digital-media-7-10-2025",
+    "syllabusName": "Photography, Film and Digital Media 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/photography-film-and-digital-media-7-10-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Photography, Film and Digital Media Life Skills – 100-hour elective",
+    "courseId": "2093",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "photography-film-and-digital-media-7-10-2025",
+    "syllabusName": "Photography, Film and Digital Media 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/photography-film-and-digital-media-7-10-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Photography, Film and Digital Media Life Skills – 200-hour elective",
+    "courseId": "2092",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "photography-film-and-digital-media-7-10-2025",
+    "syllabusName": "Photography, Film and Digital Media 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/photography-film-and-digital-media-7-10-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Photography, Film and Digital Media – 100-hour elective",
+    "courseId": "2091",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "photography-film-and-digital-media-7-10-2025",
+    "syllabusName": "Photography, Film and Digital Media 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/photography-film-and-digital-media-7-10-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Photography, Film and Digital Media – 200-hour elective",
+    "courseId": "2090",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "visual-arts-7-10-2024",
+    "syllabusName": "Visual Arts 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/visual-arts-7-10-2024",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Visual Arts Life Skills – 100-hour elective",
+    "courseId": "2065",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "visual-arts-7-10-2024",
+    "syllabusName": "Visual Arts 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/visual-arts-7-10-2024",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Visual Arts Life Skills – 200-hour elective",
+    "courseId": "2064",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "visual-arts-7-10-2024",
+    "syllabusName": "Visual Arts 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/visual-arts-7-10-2024",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Visual Arts – 100-hour elective",
+    "courseId": "2061",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "visual-arts-7-10-2024",
+    "syllabusName": "Visual Arts 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/visual-arts-7-10-2024",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Visual Arts – 200-hour elective",
+    "courseId": "2060",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "visual-and-motion-design-7-10-2025",
+    "syllabusName": "Visual and Motion Design 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/visual-and-motion-design-7-10-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Visual and Motion Design Life Skills – 100-hour elective",
+    "courseId": "2078",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "visual-and-motion-design-7-10-2025",
+    "syllabusName": "Visual and Motion Design 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/visual-and-motion-design-7-10-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Visual and Motion Design Life Skills – 200-hour elective",
+    "courseId": "2077",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "visual-and-motion-design-7-10-2025",
+    "syllabusName": "Visual and Motion Design 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/visual-and-motion-design-7-10-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Visual and Motion Design – 100-hour elective",
+    "courseId": "2076",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "visual-and-motion-design-7-10-2025",
+    "syllabusName": "Visual and Motion Design 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/visual-and-motion-design-7-10-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Visual and Motion Design – 200-hour elective",
+    "courseId": "2075",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "english-extension-11-12-2024",
+    "syllabusName": "English Extension 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-extension-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "English Extension 1 Year 11",
+    "courseId": "11150",
+    "hours": "60",
+    "units": "1",
+    "enrolmentType": "Elective",
+    "courseType": "Extension",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "english-extension-11-12-2024",
+    "syllabusName": "English Extension 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-extension-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "English Extension 1 Year 12",
+    "courseId": "15160",
+    "hours": "60",
+    "units": "1",
+    "enrolmentType": "Elective",
+    "courseType": "Extension",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "english-extension-11-12-2024",
+    "syllabusName": "English Extension 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-extension-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "English Extension 2 Year 12",
+    "courseId": "15173",
+    "hours": "60",
+    "units": "1",
+    "enrolmentType": "Elective",
+    "courseType": "Extension",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "english-k-10-2022",
+    "syllabusName": "English K–10 (2022)",
+    "syllabusUrl": "/syllabuses/english-k-10-2022",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 5"
+    ],
+    "stageYears": [
+      "9",
+      "10"
+    ],
+    "name": "English Life Skills – Stage 5",
+    "courseId": "303",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "english-k-10-2022",
+    "syllabusName": "English K–10 (2022)",
+    "syllabusUrl": "/syllabuses/english-k-10-2022",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 5"
+    ],
+    "stageYears": [
+      "9",
+      "10"
+    ],
+    "name": "English – Stage 5",
+    "courseId": "300",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "english-life-skills-11-12-2024",
+    "syllabusName": "English Life Skills 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-life-skills-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "English Life Skills Year 11",
+    "courseId": "17640",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "english-life-skills-11-12-2024",
+    "syllabusName": "English Life Skills 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-life-skills-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "English Life Skills Year 12",
+    "courseId": "17640",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "english-standard-11-12-2024",
+    "syllabusName": "English Standard 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-standard-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "English Standard Year 11",
+    "courseId": "11130",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "english-standard-11-12-2024",
+    "syllabusName": "English Standard 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-standard-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "English Standard Year 12",
+    "courseId": "15130",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "english-studies-11-12-2024",
+    "syllabusName": "English Studies 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-studies-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "English Studies Year 11",
+    "courseId": "11127",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "english-studies-11-12-2024",
+    "syllabusName": "English Studies 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-studies-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "English Studies Year 12",
+    "courseId": "15127",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "aboriginal-studies-7-10-2024",
+    "syllabusName": "Aboriginal Studies 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/aboriginal-studies-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Aboriginal Studies Life Skills – 100-hour elective",
+    "courseId": "417",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "aboriginal-studies-7-10-2024",
+    "syllabusName": "Aboriginal Studies 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/aboriginal-studies-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Aboriginal Studies Life Skills – 200-hour elective",
+    "courseId": "416",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "aboriginal-studies-7-10-2024",
+    "syllabusName": "Aboriginal Studies 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/aboriginal-studies-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Aboriginal Studies – 100-hour elective",
+    "courseId": "411",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "aboriginal-studies-7-10-2024",
+    "syllabusName": "Aboriginal Studies 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/aboriginal-studies-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Aboriginal Studies – 200-hour elective",
+    "courseId": "410",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "ancient-history-11-12-2024",
+    "syllabusName": "Ancient History 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/ancient-history-11-12-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Ancient History Year 11",
+    "courseId": "11020",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "ancient-history-11-12-2024",
+    "syllabusName": "Ancient History 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/ancient-history-11-12-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Ancient History Year 12",
+    "courseId": "15020",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "ancient-history-ls-11-12-2024",
+    "syllabusName": "Ancient History Life Skills 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/ancient-history-ls-11-12-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Ancient History Life Skills Year 11",
+    "courseId": "17540",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "ancient-history-ls-11-12-2024",
+    "syllabusName": "Ancient History Life Skills 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/ancient-history-ls-11-12-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Ancient History Life Skills Year 12",
+    "courseId": "17540",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "commerce-7-10-2024",
+    "syllabusName": "Commerce 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/commerce-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Commerce Life Skills – 100-hour elective",
+    "courseId": "436",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "commerce-7-10-2024",
+    "syllabusName": "Commerce 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/commerce-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Commerce Life Skills – 200-hour elective",
+    "courseId": "435",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "commerce-7-10-2024",
+    "syllabusName": "Commerce 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/commerce-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Commerce – 100-hour elective",
+    "courseId": "431",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "commerce-7-10-2024",
+    "syllabusName": "Commerce 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/commerce-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Commerce – 200-hour elective",
+    "courseId": "430",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "geography-11-12-2022",
+    "syllabusName": "Geography 11–12 (2022)",
+    "syllabusUrl": "/syllabuses/geography-11-12-2022",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Geography Year 11",
+    "courseId": "11190",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "geography-11-12-2022",
+    "syllabusName": "Geography 11–12 (2022)",
+    "syllabusUrl": "/syllabuses/geography-11-12-2022",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Geography Year 12",
+    "courseId": "15190",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "geography-7-10-2024",
+    "syllabusName": "Geography 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/geography-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Geography Life Skills – Stage 5",
+    "courseId": "4017",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "geography-7-10-2024",
+    "syllabusName": "Geography 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/geography-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Geography – Stage 5",
+    "courseId": "4015",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "geography-elective-7-10-2025",
+    "syllabusName": "Geography Elective 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/geography-elective-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Geography Elective Life Skills – 100-hour elective",
+    "courseId": "4024",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "geography-elective-7-10-2025",
+    "syllabusName": "Geography Elective 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/geography-elective-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Geography Elective Life Skills – 200-hour elective",
+    "courseId": "4023",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "geography-elective-7-10-2025",
+    "syllabusName": "Geography Elective 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/geography-elective-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Geography Elective – 100-hour elective",
+    "courseId": "441",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "geography-elective-7-10-2025",
+    "syllabusName": "Geography Elective 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/geography-elective-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Geography Elective – 200-hour elective",
+    "courseId": "440",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "geography-life-skills-11-12-2022",
+    "syllabusName": "Geography Life Skills 11–12 (2022)",
+    "syllabusUrl": "/syllabuses/geography-life-skills-11-12-2022",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Geography Life Skills Year 11",
+    "courseId": "16626",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "geography-life-skills-11-12-2022",
+    "syllabusName": "Geography Life Skills 11–12 (2022)",
+    "syllabusUrl": "/syllabuses/geography-life-skills-11-12-2022",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Geography Life Skills Year 12",
+    "courseId": "16626",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "history-7-10-2024",
+    "syllabusName": "History 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/history-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 5"
+    ],
+    "stageYears": [
+      "9",
+      "10"
+    ],
+    "name": "History Life Skills – Stage 5",
+    "courseId": "4009",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "history-7-10-2024",
+    "syllabusName": "History 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/history-7-10-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 5"
+    ],
+    "stageYears": [
+      "9",
+      "10"
+    ],
+    "name": "History – Stage 5",
+    "courseId": "4007",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "history-elective-7-10-2025",
+    "syllabusName": "History Elective 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/history-elective-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "History Elective Life Skills – 100-hour elective",
+    "courseId": "456",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "history-elective-7-10-2025",
+    "syllabusName": "History Elective 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/history-elective-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "History Elective Life Skills – 200-hour elective",
+    "courseId": "455",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "history-elective-7-10-2025",
+    "syllabusName": "History Elective 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/history-elective-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "History Elective – 100-hour elective",
+    "courseId": "451",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "history-elective-7-10-2025",
+    "syllabusName": "History Elective 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/history-elective-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "History Elective – 200-hour elective",
+    "courseId": "450",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "law-and-the-community-life-skills-11-12-2025",
+    "syllabusName": "Law and the Community Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/law-and-the-community-life-skills-11-12-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Law and the Community Life Skills Year 11",
+    "courseId": "16675",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "law-and-the-community-life-skills-11-12-2025",
+    "syllabusName": "Law and the Community Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/law-and-the-community-life-skills-11-12-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Law and the Community Life Skills Year 12",
+    "courseId": "16675",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "legal-studies-11-12-2025",
+    "syllabusName": "Legal Studies 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/legal-studies-11-12-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Legal Studies Year 11",
+    "courseId": "11220",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "legal-studies-11-12-2025",
+    "syllabusName": "Legal Studies 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/legal-studies-11-12-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Legal Studies Year 12",
+    "courseId": "15220",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "modern-history-11-12-2024",
+    "syllabusName": "Modern History 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/modern-history-11-12-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Modern History Year 11",
+    "courseId": "11270",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "modern-history-11-12-2024",
+    "syllabusName": "Modern History 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/modern-history-11-12-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Modern History Year 12",
+    "courseId": "15270",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "modern-history-ls-11-12-2024",
+    "syllabusName": "Modern History Life Skills 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/modern-history-ls-11-12-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Modern History Life Skills Year 11",
+    "courseId": "17700",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "modern-history-ls-11-12-2024",
+    "syllabusName": "Modern History Life Skills 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/modern-history-ls-11-12-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Modern History Life Skills Year 12",
+    "courseId": "17700",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "work-education-7-10-2025",
+    "syllabusName": "Work Education 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/work-education-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Work Education Life Skills – 100-hour elective",
+    "courseId": "506",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "work-education-7-10-2025",
+    "syllabusName": "Work Education 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/work-education-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Work Education Life Skills – 200-hour elective",
+    "courseId": "505",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "work-education-7-10-2025",
+    "syllabusName": "Work Education 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/work-education-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Work Education – 100-hour elective",
+    "courseId": "501",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "work-education-7-10-2025",
+    "syllabusName": "Work Education 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/work-education-7-10-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Work Education – 200-hour elective",
+    "courseId": "500",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "auslan-k-10-2023",
+    "syllabusName": "Auslan K–10 (2023)",
+    "syllabusUrl": "/syllabuses/auslan-k-10-2023",
+    "kla": "languages",
+    "klaLabel": "Languages",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Auslan Life Skills – 100-hour elective",
+    "courseId": "808",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board endorsed"
+  },
+  {
+    "syllabusSlug": "auslan-k-10-2023",
+    "syllabusName": "Auslan K–10 (2023)",
+    "syllabusUrl": "/syllabuses/auslan-k-10-2023",
+    "kla": "languages",
+    "klaLabel": "Languages",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Auslan Life Skills – 200-hour elective",
+    "courseId": "807",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "auslan-k-10-2023",
+    "syllabusName": "Auslan K–10 (2023)",
+    "syllabusUrl": "/syllabuses/auslan-k-10-2023",
+    "kla": "languages",
+    "klaLabel": "Languages",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Auslan – 100-hour elective",
+    "courseId": "798",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "auslan-k-10-2023",
+    "syllabusName": "Auslan K–10 (2023)",
+    "syllabusUrl": "/syllabuses/auslan-k-10-2023",
+    "kla": "languages",
+    "klaLabel": "Languages",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Auslan – 200-hour elective",
+    "courseId": "797",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "mathematics-k-10-2022",
+    "syllabusName": "Mathematics K–10 (2022)",
+    "syllabusUrl": "/syllabuses/mathematics-k-10-2022",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 5"
+    ],
+    "stageYears": [
+      "9",
+      "10"
+    ],
+    "name": "Mathematics Life Skills – Stage 5",
+    "courseId": "327",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "mathematics-k-10-2022",
+    "syllabusName": "Mathematics K–10 (2022)",
+    "syllabusUrl": "/syllabuses/mathematics-k-10-2022",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 5"
+    ],
+    "stageYears": [
+      "9",
+      "10"
+    ],
+    "name": "Mathematics – Stage 5",
+    "courseId": "326",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "mathematics-life-skills-11-12-2024",
+    "syllabusName": "Mathematics Life Skills 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/mathematics-life-skills-11-12-2024",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Mathematics Life Skills Year 11",
+    "courseId": "17680",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "mathematics-life-skills-11-12-2024",
+    "syllabusName": "Mathematics Life Skills 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/mathematics-life-skills-11-12-2024",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Mathematics Life Skills Year 12",
+    "courseId": "17680",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "mathematics-standard-11-12-2024",
+    "syllabusName": "Mathematics Standard 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/mathematics-standard-11-12-2024",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Mathematics Standard 1 Year 12",
+    "courseId": "15231",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "mathematics-standard-11-12-2024",
+    "syllabusName": "Mathematics Standard 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/mathematics-standard-11-12-2024",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Mathematics Standard 2 Year 12",
+    "courseId": "15236",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "mathematics-standard-11-12-2024",
+    "syllabusName": "Mathematics Standard 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/mathematics-standard-11-12-2024",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Mathematics Standard Year 11",
+    "courseId": "11236",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "child-studies-7-10-2025",
+    "syllabusName": "Child Studies 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/child-studies-7-10-2025",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Child Studies Life Skills – 100-hour elective",
+    "courseId": "28117",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "child-studies-7-10-2025",
+    "syllabusName": "Child Studies 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/child-studies-7-10-2025",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Child Studies Life Skills – 200-hour elective",
+    "courseId": "38116",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "child-studies-7-10-2025",
+    "syllabusName": "Child Studies 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/child-studies-7-10-2025",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Child Studies – 100-hour elective",
+    "courseId": "38114",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "child-studies-7-10-2025",
+    "syllabusName": "Child Studies 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/child-studies-7-10-2025",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Child Studies – 200-hour elective",
+    "courseId": "38113",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "health-and-movement-science-11-12-2023",
+    "syllabusName": "Health and Movement Science 11–12 (2023)",
+    "syllabusUrl": "/syllabuses/health-and-movement-science-11-12-2023",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Health and Movement Science Year 11",
+    "courseId": "11390",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "health-and-movement-science-11-12-2023",
+    "syllabusName": "Health and Movement Science 11–12 (2023)",
+    "syllabusUrl": "/syllabuses/health-and-movement-science-11-12-2023",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Health and Movement Science Year 12",
+    "courseId": "15410",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "health-and-movement-science-life-skills-11-12-2023",
+    "syllabusName": "Health and Movement Science Life Skills 11–12 (2023)",
+    "syllabusUrl": "/syllabuses/health-and-movement-science-life-skills-11-12-2023",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Health and Movement Science Life Skills Year 11",
+    "courseId": "16622",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "health-and-movement-science-life-skills-11-12-2023",
+    "syllabusName": "Health and Movement Science Life Skills 11–12 (2023)",
+    "syllabusUrl": "/syllabuses/health-and-movement-science-life-skills-11-12-2023",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Health and Movement Science Life Skills Year 12",
+    "courseId": "16622",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "pdhpe-7-10-2024",
+    "syllabusName": "Personal Development, Health and Physical Education 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/pdhpe-7-10-2024",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "PDHPE Life Skills",
+    "courseId": "2424",
+    "hours": "300",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "pdhpe-7-10-2024",
+    "syllabusName": "Personal Development, Health and Physical Education 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/pdhpe-7-10-2024",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "PDHPE – 100-hour course",
+    "courseId": "2421",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "pdhpe-7-10-2024",
+    "syllabusName": "Personal Development, Health and Physical Education 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/pdhpe-7-10-2024",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "PDHPE – 200-hour course",
+    "courseId": "2420",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "physical-activity-and-sports-science-7-10-2025",
+    "syllabusName": "Physical Activity and Sports Science 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/physical-activity-and-sports-science-7-10-2025",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Physical Activity and Sports Science Life Skills – 100-hour elective",
+    "courseId": "38122",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "physical-activity-and-sports-science-7-10-2025",
+    "syllabusName": "Physical Activity and Sports Science 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/physical-activity-and-sports-science-7-10-2025",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Physical Activity and Sports Science Life Skills – 200-hour elective",
+    "courseId": "38123",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "physical-activity-and-sports-science-7-10-2025",
+    "syllabusName": "Physical Activity and Sports Science 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/physical-activity-and-sports-science-7-10-2025",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Physical Activity and Sports Science – 100-hour elective",
+    "courseId": "38121",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "physical-activity-and-sports-science-7-10-2025",
+    "syllabusName": "Physical Activity and Sports Science 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/physical-activity-and-sports-science-7-10-2025",
+    "kla": "pdhpe",
+    "klaLabel": "PDHPE",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Physical Activity and Sports Science – 200-hour elective",
+    "courseId": "38120",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "biology-11-12-2025",
+    "syllabusName": "Biology 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/biology-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Biology Year 11",
+    "courseId": "11030",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "biology-11-12-2025",
+    "syllabusName": "Biology 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/biology-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Biology Year 12",
+    "courseId": "15030",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "biology-life-skills-11-12-2025",
+    "syllabusName": "Biology Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/biology-life-skills-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Biology Life Skills Year 11",
+    "courseId": "16666",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "biology-life-skills-11-12-2025",
+    "syllabusName": "Biology Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/biology-life-skills-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Biology Life Skills Year 12",
+    "courseId": "16666",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "chemical-world-science-life-skills-11-12-2025",
+    "syllabusName": "Chemical World Science Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/chemical-world-science-life-skills-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Chemical World Science Life Skills Year 11",
+    "courseId": "16663",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "chemical-world-science-life-skills-11-12-2025",
+    "syllabusName": "Chemical World Science Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/chemical-world-science-life-skills-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Chemical World Science Life Skills Year 12",
+    "courseId": "16663",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "chemistry-11-12-2025",
+    "syllabusName": "Chemistry 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/chemistry-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Chemistry Year 11",
+    "courseId": "11050",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "chemistry-11-12-2025",
+    "syllabusName": "Chemistry 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/chemistry-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Chemistry Year 12",
+    "courseId": "15050",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "earth-and-environmental-science-11-12-2025",
+    "syllabusName": "Earth and Environmental Science 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/earth-and-environmental-science-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Earth and Environmental Science Year 11",
+    "courseId": "11100",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "earth-and-environmental-science-11-12-2025",
+    "syllabusName": "Earth and Environmental Science 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/earth-and-environmental-science-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Earth and Environmental Science Year 12",
+    "courseId": "15100",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "earth-and-environmental-science-life-skills-11-12-2025",
+    "syllabusName": "Earth and Environmental Science Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/earth-and-environmental-science-life-skills-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Earth and Environmental Science Life Skills Year 11",
+    "courseId": "16664",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "earth-and-environmental-science-life-skills-11-12-2025",
+    "syllabusName": "Earth and Environmental Science Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/earth-and-environmental-science-life-skills-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Earth and Environmental Science Life Skills Year 12",
+    "courseId": "16664",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "physical-world-science-life-skills-11-12-2025",
+    "syllabusName": "Physical World Science Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/physical-world-science-life-skills-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Physical World Science Life Skills Year 11",
+    "courseId": "16667",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "physical-world-science-life-skills-11-12-2025",
+    "syllabusName": "Physical World Science Life Skills 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/physical-world-science-life-skills-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Physical World Science Life Skills Year 12",
+    "courseId": "16667",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "physics-11-12-2025",
+    "syllabusName": "Physics 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/physics-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Physics Year 11",
+    "courseId": "11310",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "physics-11-12-2025",
+    "syllabusName": "Physics 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/physics-11-12-2025",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Physics Year 12",
+    "courseId": "15330",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "science-7-10-2023",
+    "syllabusName": "Science 7–10 (2023)",
+    "syllabusUrl": "/syllabuses/science-7-10-2023",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Science Life Skills – Stage 5",
+    "courseId": "353",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "science-7-10-2023",
+    "syllabusName": "Science 7–10 (2023)",
+    "syllabusUrl": "/syllabuses/science-7-10-2023",
+    "kla": "science",
+    "klaLabel": "Science",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Science – Stage 5",
+    "courseId": "350",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Mandatory",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "agriculture-technology-7-10-2024",
+    "syllabusName": "Agriculture Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/agriculture-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Agriculture Technology Life Skills – 100-hour elective",
+    "courseId": "1664",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "agriculture-technology-7-10-2024",
+    "syllabusName": "Agriculture Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/agriculture-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Agriculture Technology Life Skills – 200-hour elective",
+    "courseId": "1665",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "agriculture-technology-7-10-2024",
+    "syllabusName": "Agriculture Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/agriculture-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Agriculture Technology – 100-hour elective",
+    "courseId": "1662",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "agriculture-technology-7-10-2024",
+    "syllabusName": "Agriculture Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/agriculture-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Agriculture Technology – 200-hour elective",
+    "courseId": "1663",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "aquatic-technology-7-10-2024",
+    "syllabusName": "Aquatic Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/aquatic-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Aquatic Technology Life Skills – 100-hour elective",
+    "courseId": "1722",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "aquatic-technology-7-10-2024",
+    "syllabusName": "Aquatic Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/aquatic-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Aquatic Technology Life Skills – 200-hour elective",
+    "courseId": "1723",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "aquatic-technology-7-10-2024",
+    "syllabusName": "Aquatic Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/aquatic-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Aquatic Technology – 100-hour elective",
+    "courseId": "1720",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "aquatic-technology-7-10-2024",
+    "syllabusName": "Aquatic Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/aquatic-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Aquatic Technology – 200-hour elective",
+    "courseId": "1721",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "communication-technology-7-10-2025",
+    "syllabusName": "Communication Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/communication-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Communication Technology – Graphics 100-hour elective",
+    "courseId": "1693",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "communication-technology-7-10-2025",
+    "syllabusName": "Communication Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/communication-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Communication Technology – Graphics 200-hour elective",
+    "courseId": "1692",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "communication-technology-7-10-2025",
+    "syllabusName": "Communication Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/communication-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Communication Technology – Graphics Life Skills 100-hour elective",
+    "courseId": "1694",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "communication-technology-7-10-2025",
+    "syllabusName": "Communication Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/communication-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Communication Technology – Graphics Life Skills 200-hour elective",
+    "courseId": "1695",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "communication-technology-7-10-2025",
+    "syllabusName": "Communication Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/communication-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Communication Technology – Multimedia 100-hour elective",
+    "courseId": "1697",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "communication-technology-7-10-2025",
+    "syllabusName": "Communication Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/communication-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Communication Technology – Multimedia 200-hour elective",
+    "courseId": "1696",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "communication-technology-7-10-2025",
+    "syllabusName": "Communication Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/communication-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Communication Technology – Multimedia Life Skills 100-hour elective",
+    "courseId": "1698",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "communication-technology-7-10-2025",
+    "syllabusName": "Communication Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/communication-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Communication Technology – Multimedia Life Skills 200-hour elective",
+    "courseId": "1699",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "computing-technology-7-10-2022",
+    "syllabusName": "Computing Technology 7–10 (2022)",
+    "syllabusUrl": "/syllabuses/computing-technology-7-10-2022",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Computing Technology Life Skills – 100-hour elective",
+    "courseId": "1614",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "computing-technology-7-10-2022",
+    "syllabusName": "Computing Technology 7–10 (2022)",
+    "syllabusUrl": "/syllabuses/computing-technology-7-10-2022",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Computing Technology Life Skills – 200-hour elective",
+    "courseId": "1613",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "computing-technology-7-10-2022",
+    "syllabusName": "Computing Technology 7–10 (2022)",
+    "syllabusUrl": "/syllabuses/computing-technology-7-10-2022",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Computing Technology – 100-hour elective",
+    "courseId": "1612",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "computing-technology-7-10-2022",
+    "syllabusName": "Computing Technology 7–10 (2022)",
+    "syllabusUrl": "/syllabuses/computing-technology-7-10-2022",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 5",
+      "Stage 4"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Computing Technology – 200-hour elective",
+    "courseId": "1611",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "computing-technology-life-skills-11-12-2022",
+    "syllabusName": "Computing Technology Life Skills 11–12 (2022)",
+    "syllabusUrl": "/syllabuses/computing-technology-life-skills-11-12-2022",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Computing Technology Life Skills Year 11",
+    "courseId": "16623",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "computing-technology-life-skills-11-12-2022",
+    "syllabusName": "Computing Technology Life Skills 11–12 (2022)",
+    "syllabusUrl": "/syllabuses/computing-technology-life-skills-11-12-2022",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Computing Technology Life Skills Year 12",
+    "courseId": "16623",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "design-innovation-technology-7-10-2025",
+    "syllabusName": "Design Innovation Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/design-innovation-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Design Innovation Technology Life Skills – 100-hour elective",
+    "courseId": "1658",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "design-innovation-technology-7-10-2025",
+    "syllabusName": "Design Innovation Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/design-innovation-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Design Innovation Technology Life Skills – 200-hour elective",
+    "courseId": "1657",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "design-innovation-technology-7-10-2025",
+    "syllabusName": "Design Innovation Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/design-innovation-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Design Innovation Technology – 100-hour elective",
+    "courseId": "1656",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "design-innovation-technology-7-10-2025",
+    "syllabusName": "Design Innovation Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/design-innovation-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Design Innovation Technology – 200-hour elective",
+    "courseId": "1655",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "engineering-technology-7-10-2024",
+    "syllabusName": "Engineering Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/engineering-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Engineering Technology Life Skills – 100-hour elective",
+    "courseId": "1712",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "engineering-technology-7-10-2024",
+    "syllabusName": "Engineering Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/engineering-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Engineering Technology Life Skills – 200-hour elective",
+    "courseId": "1713",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "engineering-technology-7-10-2024",
+    "syllabusName": "Engineering Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/engineering-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Engineering Technology – 100-hour elective",
+    "courseId": "1710",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "engineering-technology-7-10-2024",
+    "syllabusName": "Engineering Technology 7–10 (2024)",
+    "syllabusUrl": "/syllabuses/engineering-technology-7-10-2024",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Engineering Technology – 200-hour elective",
+    "courseId": "1711",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "enterprise-computing-11-12-2022",
+    "syllabusName": "Enterprise Computing 11–12 (2022)",
+    "syllabusUrl": "/syllabuses/enterprise-computing-11-12-2022",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Enterprise Computing Year 11",
+    "courseId": "11175",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "enterprise-computing-11-12-2022",
+    "syllabusName": "Enterprise Computing 11–12 (2022)",
+    "syllabusUrl": "/syllabuses/enterprise-computing-11-12-2022",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Enterprise Computing Year 12",
+    "courseId": "15175",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "food-technology-7-10-2025",
+    "syllabusName": "Food Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/food-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Food Technology 7–10 Life Skills – 100-hour elective",
+    "courseId": "1633",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "food-technology-7-10-2025",
+    "syllabusName": "Food Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/food-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Food Technology Life Skills – 200-hour elective",
+    "courseId": "1632",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "food-technology-7-10-2025",
+    "syllabusName": "Food Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/food-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Food Technology – 100-hour elective",
+    "courseId": "1626",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "food-technology-7-10-2025",
+    "syllabusName": "Food Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/food-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Food Technology – 200-hour elective",
+    "courseId": "1625",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "textiles-technology-7-10-2025",
+    "syllabusName": "Textiles Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/textiles-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Textiles Technology Life Skills – 100-hour elective",
+    "courseId": "1908",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "textiles-technology-7-10-2025",
+    "syllabusName": "Textiles Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/textiles-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Textiles Technology Life Skills – 200-hour elective",
+    "courseId": "1907",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Life Skills",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "textiles-technology-7-10-2025",
+    "syllabusName": "Textiles Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/textiles-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Textiles Technology – 100-hour elective",
+    "courseId": "1901",
+    "hours": "100",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "textiles-technology-7-10-2025",
+    "syllabusName": "Textiles Technology 7–10 (2025)",
+    "syllabusUrl": "/syllabuses/textiles-technology-7-10-2025",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 4",
+      "Stage 5"
+    ],
+    "stageYears": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Textiles Technology – 200-hour elective",
+    "courseId": "1900",
+    "hours": "200",
+    "units": "",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": ""
+  }
+]

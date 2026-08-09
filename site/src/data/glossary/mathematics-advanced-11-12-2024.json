@@ -1,0 +1,1910 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "58bd8bfa-0f8a-49c7-8a1f-2ad47d79536f",
+      "codename": "shared__absolute_value",
+      "title": "absolute value",
+      "slug": "absolute-value",
+      "description": ""
+    },
+    {
+      "id": "e390c4b2-df1d-4920-922c-e88e7059ac65",
+      "codename": "sci_sec_gls_acceleration",
+      "title": "acceleration",
+      "slug": "acceleration",
+      "description": "<p>The rate at which velocity changes over time.</p>"
+    },
+    {
+      "id": "d7bf6411-8481-4720-95aa-63c7d1c2a949",
+      "codename": "ma__acute_angle",
+      "title": "acute angle",
+      "slug": "acute-angle",
+      "description": ""
+    },
+    {
+      "id": "d6ca1bc1-d89e-49f5-a541-66f1863fd0cc",
+      "codename": "ma__algebraic_expression",
+      "title": "algebraic expression",
+      "slug": "algebraic-expression",
+      "description": ""
+    },
+    {
+      "id": "772dc9c4-d1a2-4648-970d-1d62f332be19",
+      "codename": "ma__algebraic_fraction",
+      "title": "algebraic fraction",
+      "slug": "algebraic-fraction",
+      "description": "<p>A fraction in which the numerator and/or the denominator are algebraic expressions.</p>"
+    },
+    {
+      "id": "9ab69956-7b34-481e-ab96-9648b7f66b86",
+      "codename": "shared__ambiguous_case__of_the_sine_rule_",
+      "title": "ambiguous case (of the sine rule)",
+      "slug": "ambiguous-case-of-the-sine-rule",
+      "description": ""
+    },
+    {
+      "id": "b080712b-bb07-490b-a5dc-292278edd231",
+      "codename": "shared__amplitude",
+      "title": "amplitude",
+      "slug": "amplitude2",
+      "description": ""
+    },
+    {
+      "id": "85969df4-3872-4b15-98dc-f90d8216804e",
+      "codename": "ma__angle",
+      "title": "angle",
+      "slug": "angle",
+      "description": "<p>Formed by 2 straight lines meeting at a common endpoint, called the vertex. An angle can describe the amount of turn between its 2 arms (lines).</p>"
+    },
+    {
+      "id": "f7e54bab-45a0-4287-9072-9054fa44a9c4",
+      "codename": "ma__angle_of_depression",
+      "title": "angle of depression",
+      "slug": "angle-of-depression",
+      "description": "<p>The angle between horizontal and the line of sight from an observer to an object that is lower than the observer.</p>\n<figure data-asset-id=\"1831f9fa-5000-48ef-9242-cc0d27b0ce75\" data-image-id=\"1831f9fa-5000-48ef-9242-cc0d27b0ce75\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/7e4536c1-9cc2-44b7-8ff8-62114911b520/angle-of-depression-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"1831f9fa-5000-48ef-9242-cc0d27b0ce75\" data-image-id=\"1831f9fa-5000-48ef-9242-cc0d27b0ce75\" alt=\"Two lines, a horizontal and a line of sight, form an angle of depression.\"></figure>"
+    },
+    {
+      "id": "dac80f24-e86d-4d51-a137-40f5dfd95488",
+      "codename": "ma__angle_of_elevation",
+      "title": "angle of elevation",
+      "slug": "angle-of-elevation",
+      "description": "<p>The angle between horizontal and the line of sight from an observer to an object that is higher than the observer.</p>\n<figure data-asset-id=\"cd2acf52-e05e-48f0-a276-9751d0284d76\" data-image-id=\"cd2acf52-e05e-48f0-a276-9751d0284d76\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/9db8211f-4e9a-4b77-844d-432c8cbfd3ed/angle-of-elevation-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"cd2acf52-e05e-48f0-a276-9751d0284d76\" data-image-id=\"cd2acf52-e05e-48f0-a276-9751d0284d76\" alt=\"Two lines, a horizontal and a line of sight, form an angle of elevation.\"></figure>"
+    },
+    {
+      "id": "87d5186e-15fd-4b4e-87c9-99fbd6dc3a29",
+      "codename": "ma__angle_of_inclination",
+      "title": "angle of inclination",
+      "slug": "angle-of-inclination",
+      "description": ""
+    },
+    {
+      "id": "6698ffb6-cd1f-4b3f-9f91-845a9e2e2c82",
+      "codename": "shared__annuity",
+      "title": "annuity",
+      "slug": "annuity",
+      "description": "<p>A compound interest investment to which payments are made, or a single sum invested from which payments are received, on a regular basis for a fixed period of time.</p>"
+    },
+    {
+      "id": "28a2ba81-5f82-48b5-9a0d-ce8b2c812459",
+      "codename": "ma__arc",
+      "title": "arc",
+      "slug": "arc",
+      "description": "<p>A part of a circle’s circumference.</p>\n<p>Extended in Mathematics Extension 1: A part of a curve.</p>"
+    },
+    {
+      "id": "92f4c921-8ed4-4cd9-a643-5f279df7df5b",
+      "codename": "mav__arc_length",
+      "title": "arc length",
+      "slug": "arc-length",
+      "description": ""
+    },
+    {
+      "id": "ec376b4b-337a-421f-983a-b07e36471682",
+      "codename": "mav__area_of_a_triangle",
+      "title": "area of a triangle",
+      "slug": "area-of-a-triangle",
+      "description": ""
+    },
+    {
+      "id": "36387118-2792-4836-b420-55166cd22f0d",
+      "codename": "mav__arithmetic_progression__ap_",
+      "title": "arithmetic progression (AP)",
+      "slug": "arithmetic-progression-ap",
+      "description": "<p>A sequence of numbers in which the difference between any 2 successive terms of the sequence is constant. Also known as arithmetic sequence.</p>"
+    },
+    {
+      "id": "e808b52e-a06a-48d9-b62e-cb4261c4357c",
+      "codename": "me2__arithmetic_sequence",
+      "title": "arithmetic sequence",
+      "slug": "arithmetic-sequence",
+      "description": "<p>A sequence of numbers in which the difference between any 2 successive terms of the sequence is constant. Also known as arithmetic progression.</p>"
+    },
+    {
+      "id": "b393e14c-b637-4caa-b166-37904e1d133d",
+      "codename": "array",
+      "title": "array",
+      "slug": "array",
+      "description": "<p>One of several different arrangements that can be used to model multiplicative situations. It is made by arranging a set of objects, such as counters, into columns and rows. Each column must contain the same number of objects as the other columns, and each row must contain the same number of objects as the other rows.</p>"
+    },
+    {
+      "id": "97213eb0-f3fc-4a2c-b855-d24231a6fee4",
+      "codename": "shared__association",
+      "title": "association",
+      "slug": "association",
+      "description": "<p>Relationship between pairs of numerical variables, e.g. in terms of strength, form and direction.</p>"
+    },
+    {
+      "id": "6d3a14ab-ddce-42d5-879e-abbb333821fc",
+      "codename": "ma__asymptote",
+      "title": "asymptote",
+      "slug": "asymptote",
+      "description": ""
+    },
+    {
+      "id": "10d2261e-a745-4855-9fa3-6c08030690c5",
+      "codename": "ma__average",
+      "title": "average",
+      "slug": "average",
+      "description": "<p>A number expressing a central or typical value in a set of data. While it usually refers to the arithmetic mean, that is, the sum of a set of numbers divided by the number of numbers in the set, it may also refer to other measures of centre.</p>"
+    },
+    {
+      "id": "9a3089fc-fdf9-4eb8-9bcc-13daaac9ce0b",
+      "codename": "mav__average_rate_of_change",
+      "title": "average rate of change",
+      "slug": "average-rate-of-change",
+      "description": ""
+    },
+    {
+      "id": "e93073b5-5e64-44c1-9bbe-fc9abe0be424",
+      "codename": "shared__axis_of_symmetry",
+      "title": "axis of symmetry",
+      "slug": "axis-of-symmetry",
+      "description": "<p>A straight line that divides a shape or curve into 2 so that one side is a reflection of the other in the given line.</p>"
+    },
+    {
+      "id": "019f29c4-7948-4614-ba99-267b5e395b5c",
+      "codename": "ma__bearing",
+      "title": "bearing",
+      "slug": "bearing",
+      "description": "<p>A direction from one point on the Earth’s surface to another. Two types of bearings may be used: compass bearing and true bearing.</p>\n<p><em>See </em><a data-item-id=\"de249e0e-50a4-4fd6-afe6-7222dc3d2ab5\" href=\"\">compass bearing</a> and <a data-item-id=\"a764069b-b2a3-4209-8041-258e3d12ce7f\" href=\"\">true bearing</a></p>"
+    },
+    {
+      "id": "dc2a8700-7c62-4bbb-b955-12763e9c33f4",
+      "codename": "shared__break_even_point",
+      "title": "break-even point",
+      "slug": "break-even-point",
+      "description": "<p>The point at which income from production and cost of production are equal.</p>"
+    },
+    {
+      "id": "1ddd7120-4ded-438c-9d9a-e6e50dd4e349",
+      "codename": "ma__cartesian_coordinate_system",
+      "title": "Cartesian coordinate system",
+      "slug": "cartesian-coordinate-system",
+      "description": ""
+    },
+    {
+      "id": "1c129cea-422c-4193-b6a7-d21027f7ea03",
+      "codename": "shared__chain_rule",
+      "title": "chain rule",
+      "slug": "chain-rule",
+      "description": ""
+    },
+    {
+      "id": "8c7bdf13-cb77-4e30-855b-996ddc68a736",
+      "codename": "mav__change_of_base_rule",
+      "title": "change of base rule",
+      "slug": "change-of-base-rule",
+      "description": ""
+    },
+    {
+      "id": "8ca22f17-a6fb-4f36-9b06-b1861efa0d7a",
+      "codename": "circle",
+      "title": "circle",
+      "slug": "circle",
+      "description": "<p>All points equal to a given distance from a fixed point, the centre. When used to describe a shape, a circle includes all points inside the boundary.</p>"
+    },
+    {
+      "id": "c2b66c0f-4b7b-47b2-90b0-6a927325e8f7",
+      "codename": "ma__circumference",
+      "title": "circumference",
+      "slug": "circumference",
+      "description": ""
+    },
+    {
+      "id": "cdc39662-bfce-4f85-a382-14085d4c74b8",
+      "codename": "ma__coefficient",
+      "title": "coefficient",
+      "slug": "coefficient",
+      "description": ""
+    },
+    {
+      "id": "f801ca26-37ad-4562-a3ed-e66a55a83637",
+      "codename": "mav__common_difference",
+      "title": "common difference",
+      "slug": "common-difference",
+      "description": "<p>The constant difference between successive terms of an arithmetic sequence.</p>"
+    },
+    {
+      "id": "07e2dc1a-6cd0-46f4-8833-3a3949aff4a2",
+      "codename": "mav__common_ratio",
+      "title": "common ratio",
+      "slug": "common-ratio",
+      "description": "<p>The constant ratio between successive terms of a geometric sequence.</p>"
+    },
+    {
+      "id": "f04e4073-64b5-4e38-8cd7-7ebf6c70208a",
+      "codename": "ma__compass_bearing",
+      "title": "compass bearing",
+      "slug": "compass-bearing",
+      "description": "<p>Angles either side of north or south. For example, a compass bearing of N50°E is found by facing north and moving through an angle of 50° to the east.</p>"
+    },
+    {
+      "id": "084584ad-cca0-4e2b-9f63-4908c7afb91b",
+      "codename": "shared__complement",
+      "title": "complement",
+      "slug": "complement",
+      "description": "<p>All of the outcomes that are not in a given event. All the elements of a set that are not in a given subset.</p>"
+    },
+    {
+      "id": "ef11af6a-6099-4ea2-8043-96e757d79381",
+      "codename": "ma__complementary_angles_ef11af6",
+      "title": "complementary angles",
+      "slug": "complementary-angles",
+      "description": ""
+    },
+    {
+      "id": "ec882a1c-e0b4-409c-a150-26761d507ad7",
+      "codename": "ma__complementary_events",
+      "title": "complementary events",
+      "slug": "complementary-events",
+      "description": ""
+    },
+    {
+      "id": "555b4682-4c87-4faa-a654-503287cec483",
+      "codename": "mav__completing_the_square",
+      "title": "completing the square",
+      "slug": "completing-the-square",
+      "description": ""
+    },
+    {
+      "id": "d8e4d196-9df0-4c8f-8e96-5ab927d55922",
+      "codename": "shared__composite_functions",
+      "title": "composite functions",
+      "slug": "composite-functions",
+      "description": ""
+    },
+    {
+      "id": "a40b3d7f-7ef1-4294-9a21-f7d484aa7b38",
+      "codename": "ma__compound_interest",
+      "title": "compound interest",
+      "slug": "compound-interest",
+      "description": "<p>The interest earned by investing a sum of money (the principal) when each successive interest payment is added to the principal for calculating the next interest payment.</p>"
+    },
+    {
+      "id": "ffedcb7f-69ba-4778-b188-76252c45bdea",
+      "codename": "mav__concave_down",
+      "title": "concave down",
+      "slug": "concave-down",
+      "description": "<p>A function in which all points on a graph between any 2 given points on the graph lie on or above the chord joining the given points.</p>"
+    },
+    {
+      "id": "0adf941e-8fd3-48f3-a0da-cccd6543db6b",
+      "codename": "mav__concave_up",
+      "title": "concave up",
+      "slug": "concave-up",
+      "description": "<p>A function for which all points on a graph between any 2 given points on the graph lie on or below the chord joining the given points.</p>"
+    },
+    {
+      "id": "15c44f87-460c-419f-94c7-8b2936e8bb9b",
+      "codename": "ma__conditional_probability",
+      "title": "conditional probability",
+      "slug": "conditional-probability",
+      "description": ""
+    },
+    {
+      "id": "98aaf2fc-d4e4-4343-a2a7-3769f7b4e218",
+      "codename": "shared__conjugate",
+      "title": "conjugate",
+      "slug": "conjugate",
+      "description": ""
+    },
+    {
+      "id": "d9989ab2-431f-460d-897f-19af4356a2ab",
+      "codename": "ma__constant",
+      "title": "constant",
+      "slug": "constant",
+      "description": ""
+    },
+    {
+      "id": "d4d42dfc-6db8-4bdc-b9b1-d3e4959236c9",
+      "codename": "mav__constant_function",
+      "title": "constant function",
+      "slug": "constant-function",
+      "description": "<p>A function that has only one value.</p>"
+    },
+    {
+      "id": "643ec7ab-2db3-4920-954d-601f67f24463",
+      "codename": "mav__continuous_function",
+      "title": "continuous function",
+      "slug": "continuous-function",
+      "description": "<p>The graph of a continuous function is an unbroken curve. It can be drawn without lifting the pen off the paper.</p>"
+    },
+    {
+      "id": "3634e197-0c57-43ff-89ba-5c5df64781d1",
+      "codename": "mav__continuous_random_variable",
+      "title": "continuous random variable",
+      "slug": "continuous-random-variable",
+      "description": "<p>A continuous random variable is a numerical variable that can take any value along a continuum.</p>"
+    },
+    {
+      "id": "ac6cf228-7912-4135-a20a-22c1341597cd",
+      "codename": "shared__contribution",
+      "title": "contribution",
+      "slug": "contribution",
+      "description": "<p>An amount of money that is paid into an annuity. The contribution can be made as a lump sum or as a series of payments.</p>"
+    },
+    {
+      "id": "0e34fd1e-a344-4f62-90cd-080341dd8bba",
+      "codename": "ma__converse",
+      "title": "converse",
+      "slug": "converse",
+      "description": ""
+    },
+    {
+      "id": "0b9c9403-b4ba-450d-ba17-f3c8c133e36d",
+      "codename": "mav__cosecant_ratio",
+      "title": "cosecant ratio",
+      "slug": "cosecant-ratio",
+      "description": "<figure data-asset-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\" data-image-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/8c7e5f99-ec7d-46f9-8e4a-4ee56cfa996b/cosine-ratio-image-mathematics-k-10.PNG\" data-asset-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\" data-image-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\" alt=\"A right-angled triangle with hypotenuse, opposite, and adjacent sides labelled.\"></figure>"
+    },
+    {
+      "id": "226f71ee-d8e0-4e57-9012-bd680a01a5a9",
+      "codename": "shared__cosine_rule",
+      "title": "cosine rule",
+      "slug": "cosine-rule",
+      "description": "<figure data-asset-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" data-image-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/d5ae3a50-984b-4053-91ea-acab152638d6/Mathematics%20glossary%20image%20-%20reused%20triangle.png\" data-asset-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" data-image-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" alt=\"A triangle with points A, B and C with sides a, b and c.\"></figure>"
+    },
+    {
+      "id": "6d4214ff-392f-4dfb-9b5a-684fbe455a05",
+      "codename": "shared__cost",
+      "title": "cost",
+      "slug": "cost",
+      "description": "<p>The price paid to acquire, produce, accomplish or maintain anything.</p>"
+    },
+    {
+      "id": "041c7f00-ecc5-487a-b00f-266a98243831",
+      "codename": "mav__cotangent_ratio",
+      "title": "cotangent ratio",
+      "slug": "cotangent-ratio",
+      "description": "<figure data-asset-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\" data-image-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/8c7e5f99-ec7d-46f9-8e4a-4ee56cfa996b/cosine-ratio-image-mathematics-k-10.PNG\" data-asset-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\" data-image-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\" alt=\"A right-angled triangle with hypotenuse, opposite, and adjacent sides labelled.\"></figure>"
+    },
+    {
+      "id": "40270f23-86de-45b6-b39c-66781ebb800c",
+      "codename": "shared__cubic_function",
+      "title": "cubic function",
+      "slug": "cubic-function",
+      "description": ""
+    },
+    {
+      "id": "e87c1f94-2671-4ff5-bf64-0790715d2478",
+      "codename": "mav__cumulative_distribution_function__cdf_",
+      "title": "cumulative distribution function (CDF)",
+      "slug": "cumulative-distribution-function-cdf",
+      "description": ""
+    },
+    {
+      "id": "3218669a-0393-4020-8b4d-3783d8450da8",
+      "codename": "shared__cumulative_frequency",
+      "title": "cumulative frequency",
+      "slug": "cumulative-frequency",
+      "description": "<p>The accumulating total of frequencies within an ordered dataset.</p>"
+    },
+    {
+      "id": "5e2a7080-1595-4db4-af06-9433479f003c",
+      "codename": "shared__cumulative_frequency_histogram",
+      "title": "cumulative frequency histogram",
+      "slug": "cumulative-frequency-histogram",
+      "description": "<p>A visual representation of data using bars to represent the class boundaries and the cumulative frequencies.</p>\n<p>The area of each bar is proportional to the cumulative frequency of the observations up to the end of that class.</p>"
+    },
+    {
+      "id": "bc3a67e6-c02a-46e1-980c-40b7a7d3261f",
+      "codename": "shared__cumulative_frequency_polygon",
+      "title": "cumulative frequency polygon",
+      "slug": "cumulative-frequency-polygon",
+      "description": "<p>A series of straight lines representing the cumulative frequency for a given dataset. Sometimes called the ‘ogive’.</p>"
+    },
+    {
+      "id": "6348af2b-a76e-40b3-a4cc-c57346f514c1",
+      "codename": "ma__degree__networks_",
+      "title": "degree (networks)",
+      "slug": "degree-networks",
+      "description": "<p>The degree of a vertex is the number of edge ends at that vertex.</p>"
+    },
+    {
+      "id": "d17dc861-8288-4f73-b0fe-95d4601d0324",
+      "codename": "ma__degrees__geometry_",
+      "title": "degrees (geometry)",
+      "slug": "degrees-geometry",
+      "description": ""
+    },
+    {
+      "id": "12472e84-22f0-47c6-a203-5bc7c272340e",
+      "codename": "ma__denominator",
+      "title": "denominator",
+      "slug": "denominator",
+      "description": ""
+    },
+    {
+      "id": "c48f008c-dbf9-425f-8284-b10c323f5898",
+      "codename": "ma__dependent_variable",
+      "title": "dependent variable",
+      "slug": "dependent-variable",
+      "description": "<p>The variable used to represent the output values of a function. A dependent variable is generally represented on the vertical axis of a graph.</p>"
+    },
+    {
+      "id": "e0288046-29fd-4de7-aa75-c56da1a7cae9",
+      "codename": "shared__derivative",
+      "title": "derivative",
+      "slug": "derivative",
+      "description": ""
+    },
+    {
+      "id": "823de9e2-32cf-4538-a624-13a8bbf7cb53",
+      "codename": "mav__differentiable",
+      "title": "differentiable",
+      "slug": "differentiable",
+      "description": ""
+    },
+    {
+      "id": "6ae6647e-32d5-4eed-9d11-dba845ff12d7",
+      "codename": "mav__differentiation",
+      "title": "differentiation",
+      "slug": "differentiation",
+      "description": "<p>The process used to find the derivative of a function.</p>"
+    },
+    {
+      "id": "d3ab252f-5c91-4486-8124-ca06da03409a",
+      "codename": "shared__dilation",
+      "title": "dilation",
+      "slug": "dilation",
+      "description": ""
+    },
+    {
+      "id": "9ed4fee5-bb1f-49e6-875d-bf90097fc4ec",
+      "codename": "ma__direct_variation",
+      "title": "direct variation",
+      "slug": "direct-variation",
+      "description": "<p>A proportional relationship where one quantity directly varies with respect to a change in another quantity. This implies that if there is an increase (or decrease) in one quantity then the other quantity will experience a proportionate increase (or decrease).</p>"
+    },
+    {
+      "id": "f5dd650a-073e-4b63-bc38-52f566198bb7",
+      "codename": "mav__discontinuity",
+      "title": "discontinuity",
+      "slug": "discontinuity",
+      "description": "<p>A point at which the graph of a function is broken (not continuous) and the function is undefined.</p>"
+    },
+    {
+      "id": "b286e5f3-51c3-4187-b752-62b277fd94d7",
+      "codename": "shared__discrete_probability_distribution",
+      "title": "discrete probability distribution",
+      "slug": "discrete-probability-distribution",
+      "description": "<p>Specifies the probabilities with which a discrete random variable takes each of its values.</p>"
+    },
+    {
+      "id": "3113f381-5c07-439b-9ac7-064036e366d7",
+      "codename": "mav__discrete_random_variable",
+      "title": "discrete random variable",
+      "slug": "discrete-random-variable",
+      "description": "<p>A numerical variable whose values can be listed.</p>"
+    },
+    {
+      "id": "553d0562-fe47-4ae7-a19d-591ade7af27f",
+      "codename": "ma__discrete_variable",
+      "title": "discrete variable",
+      "slug": "discrete-variable",
+      "description": "<p>Individual and countable items that can be listed.</p>\n<p>Extended in Mathematics Advanced: Also known as a discrete random variable.</p>"
+    },
+    {
+      "id": "2b35e313-6bf2-4936-8cdb-f979660aedc2",
+      "codename": "shared__discriminant",
+      "title": "discriminant",
+      "slug": "discriminant",
+      "description": ""
+    },
+    {
+      "id": "022b14b9-7964-4e66-9478-67519e80e63a",
+      "codename": "mav__disjoint__sets_",
+      "title": "disjoint (sets)",
+      "slug": "disjoint-sets",
+      "description": "<p>Two sets that do not have any common elements.</p>"
+    },
+    {
+      "id": "d520eb22-0a20-4d8f-aa42-089c594b118c",
+      "codename": "shared__displacement",
+      "title": "displacement",
+      "slug": "displacement",
+      "description": "<p>The change in position of an object, after a period of time, from its original position. Displacement is a vector quantity. The displacement may be positive, negative or zero.</p>"
+    },
+    {
+      "id": "4d56db92-5987-4aa5-acbd-e5d50071d27b",
+      "codename": "shared__distance",
+      "title": "distance",
+      "slug": "distance",
+      "description": "<p>The length between 2 points. Distance is a positive scalar quantity.</p>"
+    },
+    {
+      "id": "0e8d11e5-82ca-49c5-ab38-ca167c0683ed",
+      "codename": "shared__distance_time_graph",
+      "title": "distance–time graph",
+      "slug": "distance-time-graph",
+      "description": "<p>A line graph that relates distance and time, with time on the horizontal axis and distance on the vertical axis.</p>"
+    },
+    {
+      "id": "ad7a9347-1ee8-49e5-9982-a3bb80f62976",
+      "codename": "shared__distinct",
+      "title": "distinct",
+      "slug": "distinct",
+      "description": "<p>Different, not equal.</p>"
+    },
+    {
+      "id": "0043af1c-c036-445d-be83-17f81d618b98",
+      "codename": "ma__domain",
+      "title": "domain",
+      "slug": "domain",
+      "description": ""
+    },
+    {
+      "id": "00035022-b712-4bdf-835d-d7fd0aff745a",
+      "codename": "ma__element_s_",
+      "title": "element(s)",
+      "slug": "element-s",
+      "description": ""
+    },
+    {
+      "id": "c4545a73-5327-496d-a543-1a77d88c395d",
+      "codename": "shared__empirical_rule__for_a_normally_distributed",
+      "title": "empirical rule (for a normally distributed random variable)",
+      "slug": "empirical-rule-for-a-normally-distributed-random-variable",
+      "description": ""
+    },
+    {
+      "id": "e81183a0-4759-41f9-aa0a-13cb5664a33b",
+      "codename": "mav__empty_set",
+      "title": "empty set",
+      "slug": "empty-set",
+      "description": "<p>The unique set characterised by the property that it has no elements at all.</p>"
+    },
+    {
+      "id": "60d6a07e-e494-4f32-b1aa-ecfc20c45710",
+      "codename": "ma__enlargement_transformation",
+      "title": "enlargement",
+      "slug": "enlargement",
+      "description": "<p>A type of transformation that increases or decreases the size of an image without changing its shape, depending on the size of the enlargement factor.</p>\n<figure data-asset-id=\"fb3b3e0a-a629-43f1-9222-2490915da88f\" data-image-id=\"fb3b3e0a-a629-43f1-9222-2490915da88f\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/17189276-32d7-46bd-8fc4-f236d5481f84/enlargement-transformation-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"fb3b3e0a-a629-43f1-9222-2490915da88f\" data-image-id=\"fb3b3e0a-a629-43f1-9222-2490915da88f\" alt=\"Two similar right-angled triangles where ABC has been enlarged and the resulting image is A'B'C'.\"></figure>"
+    },
+    {
+      "id": "83f89e0f-dd89-48c3-a58b-20624a33bc02",
+      "codename": "shared__equal",
+      "title": "equal",
+      "slug": "equal",
+      "description": ""
+    },
+    {
+      "id": "7fe66fe9-849d-4efa-a706-d5e9fe5146f8",
+      "codename": "ma__equally_likely_outcomes",
+      "title": "equally likely outcomes",
+      "slug": "equally-likely-outcomes",
+      "description": ""
+    },
+    {
+      "id": "474db9a5-c857-49f6-9871-454afd6cb760",
+      "codename": "ma__equation",
+      "title": "equation",
+      "slug": "equation",
+      "description": ""
+    },
+    {
+      "id": "9af3b05f-b543-4f1a-b627-5e52b34013a9",
+      "codename": "equivalent",
+      "title": "equivalent",
+      "slug": "equivalent",
+      "description": "<p>Two things are equivalent if they have the same value.</p>\n<p><em>See</em> <a data-item-id=\"0fa90b26-99ab-4cef-9e3b-2e14714c537f\" href=\"\">equal</a>, <a data-item-id=\"e87dae09-2e1a-44d9-b11f-e3ca471c990d\" href=\"\">equals sign</a></p>"
+    },
+    {
+      "id": "76718300-76ea-44cd-9597-ff2f0f46eac4",
+      "codename": "mav__euler_s_number",
+      "title": "Euler’s number",
+      "slug": "euler-s-number",
+      "description": ""
+    },
+    {
+      "id": "86d38177-581e-48ac-951b-41de34efe304",
+      "codename": "shared__even_function",
+      "title": "even function",
+      "slug": "even-function",
+      "description": ""
+    },
+    {
+      "id": "c3210cf2-7e4d-4c91-a65f-75a8ca25158b",
+      "codename": "event",
+      "title": "event",
+      "slug": "event",
+      "description": ""
+    },
+    {
+      "id": "893cf481-6071-4fac-9e31-faa8922a3e64",
+      "codename": "shared__exact_value",
+      "title": "exact value",
+      "slug": "exact-value",
+      "description": ""
+    },
+    {
+      "id": "8e79ba93-9b2a-45d4-96a5-aa2cc9ff1231",
+      "codename": "shared__expected_value",
+      "title": "expected value",
+      "slug": "expected-value",
+      "description": ""
+    },
+    {
+      "id": "2041247c-37ab-4af7-80cc-60427220d278",
+      "codename": "shared__experiment__random_",
+      "title": "experiment (random)",
+      "slug": "experiment-random",
+      "description": "<p>A process with an observable result. The results of the experiment are the set of possible outcomes called the sample space.</p>"
+    },
+    {
+      "id": "3360dfa2-0541-4b23-8c24-e40ea0d528e6",
+      "codename": "mav__exponential_decay",
+      "title": "exponential decay",
+      "slug": "exponential-decay",
+      "description": "<p>Occurs when the rate of change of a mathematical function is negative and proportional to the function’s current value.</p>"
+    },
+    {
+      "id": "394d23cb-0ea3-4ea3-899f-f8e581f79ae9",
+      "codename": "mav__exponential_function",
+      "title": "exponential function",
+      "slug": "exponential-function",
+      "description": ""
+    },
+    {
+      "id": "70c40d2f-2062-4041-86c4-3dfef1fcfa74",
+      "codename": "mav__exponential_growth",
+      "title": "exponential growth",
+      "slug": "exponential-growth",
+      "description": "<p>Occurs when the rate of change of a mathematical function is positive and proportional to the function’s current value.</p>"
+    },
+    {
+      "id": "ebb61664-8c4f-49a5-8c25-d68b41e07dcd",
+      "codename": "ma__expression",
+      "title": "expression",
+      "slug": "expression2",
+      "description": ""
+    },
+    {
+      "id": "3a8795b0-c6ba-4105-9899-681d84320fd4",
+      "codename": "ma__factorise",
+      "title": "factorise",
+      "slug": "factorise",
+      "description": ""
+    },
+    {
+      "id": "607a5663-ba95-4edc-802b-23a8daffb8a9",
+      "codename": "shared__finite",
+      "title": "finite",
+      "slug": "finite",
+      "description": ""
+    },
+    {
+      "id": "dd828fd7-eff9-4d6a-8eb7-cdaad62f4295",
+      "codename": "ma__frequency",
+      "title": "frequency",
+      "slug": "frequency2",
+      "description": "<p>The number of times that a particular value occurs in a dataset. For grouped data, it is the number of observations that lie in that group or class interval. For example, when rolling a dice 20 times, ‘the frequency of a 6’ means how many times the number 6 comes up.</p>"
+    },
+    {
+      "id": "2de8fb1f-c984-4561-a6b3-5de16f25e3bf",
+      "codename": "ma__function",
+      "title": "function",
+      "slug": "function",
+      "description": ""
+    },
+    {
+      "id": "6c9167d0-b612-4218-bb8d-e80e0de0c5dc",
+      "codename": "mav__fundamental_theorem_of_calculus",
+      "title": "Fundamental Theorem of Calculus",
+      "slug": "fundamental-theorem-of-calculus",
+      "description": ""
+    },
+    {
+      "id": "d6aa0b99-a425-419b-8aa8-8879d5891835",
+      "codename": "ma__future_value",
+      "title": "future value",
+      "slug": "future-value",
+      "description": "<p>The total value of an investment or annuity at the end of a specified term, including all contributions and interest earned.</p>"
+    },
+    {
+      "id": "2831cb80-e961-44db-907b-59e19ab33aa0",
+      "codename": "mav__general_form__of_a_straight_line_",
+      "title": "general form (of a straight line)",
+      "slug": "general-form-of-a-straight-line",
+      "description": ""
+    },
+    {
+      "id": "b50c9310-f914-43c6-a0ae-d03fa6b71ddd",
+      "codename": "mav__geometric_progression__gp_",
+      "title": "geometric progression (GP)",
+      "slug": "geometric-progression-gp",
+      "description": "<p><em>See</em> <a data-item-id=\"824a86a6-e7d2-4688-9bcc-6bf794a8fc31\" href=\"\">geometric sequence</a></p>"
+    },
+    {
+      "id": "e7a374dc-71d0-4248-ada7-5d3fcaa867ef",
+      "codename": "mav__geometric_sequence",
+      "title": "geometric sequence",
+      "slug": "geometric-sequence",
+      "description": "<p>A sequence of numbers where each term after the first is found by multiplying the previous term by a fixed number called the common ratio. Sometimes called a geometric progression (GP).</p>"
+    },
+    {
+      "id": "5671bd99-b784-4e00-944d-c90f99e6238d",
+      "codename": "mav__geometric_series",
+      "title": "geometric series",
+      "slug": "geometric-series",
+      "description": "<p>A geometric series is a sum whose terms form a geometric sequence.</p>"
+    },
+    {
+      "id": "173fe421-f7a8-4a9d-b6ce-7c44a2e6ccc9",
+      "codename": "mav__global_maximum",
+      "title": "global maximum",
+      "slug": "global-maximum",
+      "description": "<p>The largest value of the function on its domain.</p>"
+    },
+    {
+      "id": "cd952243-c7d3-4984-98d6-26ea049ac403",
+      "codename": "mav__global_minimum",
+      "title": "global minimum",
+      "slug": "global-minimum",
+      "description": "<p>The smallest value of the function on its domain.</p>"
+    },
+    {
+      "id": "691f9ea1-ab2a-496a-a3e5-11c75eb8ae7a",
+      "codename": "ma_",
+      "title": "gradient",
+      "slug": "gradient",
+      "description": ""
+    },
+    {
+      "id": "f665073f-4976-4084-8069-1324909f8062",
+      "codename": "shared__gradient_intercept_form",
+      "title": "gradient–intercept form",
+      "slug": "gradient-intercept-form",
+      "description": ""
+    },
+    {
+      "id": "e02560e3-d533-44b9-a63d-d8543ac98f19",
+      "codename": "ma__graph",
+      "title": "graph",
+      "slug": "graph",
+      "description": ""
+    },
+    {
+      "id": "425d527d-0db4-4948-84ad-50391a954ea1",
+      "codename": "shared__identity",
+      "title": "identity",
+      "slug": "identity2",
+      "description": "<p>An identity is a statement involving a variable(s) that is true for all possible values of the variable(s).</p>"
+    },
+    {
+      "id": "eacba47f-b1c3-41d0-9aae-3e9a36ee9baa",
+      "codename": "shared__indefinite_integral",
+      "title": "indefinite integral",
+      "slug": "indefinite-integral",
+      "description": ""
+    },
+    {
+      "id": "58a1ba0a-d3fd-4a24-aa9b-777d98efebb8",
+      "codename": "ma__independent_events",
+      "title": "independent events",
+      "slug": "independent-events",
+      "description": "<p>Two events are independent if knowing the outcome of one event tells us nothing about the outcome of the other event.</p>"
+    },
+    {
+      "id": "46fbe9fb-49f4-438f-bb24-70b6077f006c",
+      "codename": "ma__independent_variable",
+      "title": "independent variable",
+      "slug": "independent-variable2",
+      "description": "<p>A variable used to represent values in the domain (input values) of a function. Generally represented on the horizontal axis of a graph.</p>"
+    },
+    {
+      "id": "5cf3c315-1ce0-42ed-aa0e-443a39a7e6b6",
+      "codename": "ma__index",
+      "title": "index",
+      "slug": "index",
+      "description": "<p>Also called ‘exponent’. The power to which a number or algebraic expression is to be raised. The index or exponent is written as a superscript. Positive integral exponents indicate the number of times a term is to be multiplied by itself.</p>"
+    },
+    {
+      "id": "3efaadde-2a60-4500-b776-d609cf797d84",
+      "codename": "ma__indices",
+      "title": "indices",
+      "slug": "indices",
+      "description": "<p>The plural of the term index.</p>"
+    },
+    {
+      "id": "9fd60d0e-82d2-4533-9b37-1a619f288cbb",
+      "codename": "ma__inequality",
+      "title": "inequality",
+      "slug": "inequality",
+      "description": ""
+    },
+    {
+      "id": "e2cee8da-c8fa-4f47-8ce4-81759cca8edd",
+      "codename": "shared__infinite",
+      "title": "infinite",
+      "slug": "infinite",
+      "description": "<p>Limitless, exceeding any finite amount.</p>\n<p><em>See</em> <a data-item-id=\"e5a0d83e-6a21-4938-8c8e-9fed094a9cde\" href=\"\">finite</a></p>"
+    },
+    {
+      "id": "f7eb3b74-5c8e-4c03-85e3-a88d739db423",
+      "codename": "mav__instantaneous_rate_of_change",
+      "title": "instantaneous rate of change",
+      "slug": "instantaneous-rate-of-change",
+      "description": "<p>The rate of change at a particular moment. For a differentiable function, the instantaneous rate of change at a point is its derivative at that point, so it equals the gradient of the tangent to its graph at the point.</p>"
+    },
+    {
+      "id": "8374099c-5935-4477-9207-53ffeb8f856b",
+      "codename": "ma__integer",
+      "title": "integer",
+      "slug": "integer",
+      "description": "<p>A whole number, positive, negative or zero, e.g. −3, −2, −1, 0, 1, 2 …</p>\n<p>Extended in Advanced, Extension 1, Extension 2: The set of integers is usually denoted by ℤ.</p>"
+    },
+    {
+      "id": "3a8c851d-42ba-4cee-8e3d-24267828bd84",
+      "codename": "shared__integration",
+      "title": "integration",
+      "slug": "integration",
+      "description": "<p>The process of finding the integral of a function. The inverse of differentiation.</p>"
+    },
+    {
+      "id": "511e25cd-86d9-4e79-a5a0-fa0ac4105208",
+      "codename": "ma__intercept",
+      "title": "intercept",
+      "slug": "intercept",
+      "description": ""
+    },
+    {
+      "id": "12aa602f-634b-4943-b466-4867bff2af46",
+      "codename": "shared__interest",
+      "title": "interest",
+      "slug": "interest",
+      "description": "<p>Money paid or received in return for using or lending money.</p>"
+    },
+    {
+      "id": "f78ff81b-acd4-43c0-ae60-10beca4bd772",
+      "codename": "shared__interest_rate",
+      "title": "interest rate",
+      "slug": "interest-rate",
+      "description": "<p>A percentage at which interest is charged or paid.</p>"
+    },
+    {
+      "id": "cc9d96c9-6c37-420e-b36f-ddf60d956f5a",
+      "codename": "mav__intersection__sets_",
+      "title": "intersection (sets)",
+      "slug": "intersection-sets",
+      "description": ""
+    },
+    {
+      "id": "394741ca-1097-4b4c-b33f-876f1fba41e9",
+      "codename": "mav__interval_notation",
+      "title": "interval notation",
+      "slug": "interval-notation",
+      "description": ""
+    },
+    {
+      "id": "56209c9f-44a1-4ff3-b0da-26c371e419fe",
+      "codename": "ma__inverse_variation",
+      "title": "inverse variation",
+      "slug": "inverse-variation",
+      "description": ""
+    },
+    {
+      "id": "cc71d1f1-60ba-4bd4-8179-5bf4c08a0b82",
+      "codename": "shared__investment",
+      "title": "investment",
+      "slug": "investment",
+      "description": "<p>An allocation of money or capital into an asset or venture that is expected to generate a profit or return.</p>"
+    },
+    {
+      "id": "9a4c3940-33e0-4bc1-b77b-71551e245ed3",
+      "codename": "ma__irrational_number",
+      "title": "irrational number",
+      "slug": "irrational-number",
+      "description": ""
+    },
+    {
+      "id": "8e1a2b03-c4df-4f89-b65e-739660a1d226",
+      "codename": "shared__linear",
+      "title": "linear",
+      "slug": "linear",
+      "description": "<p>Something that can be represented or modelled by a straight line.</p>"
+    },
+    {
+      "id": "1880f338-82f3-4b84-b2fc-2abb8a92f8e2",
+      "codename": "ma__linear_equation",
+      "title": "linear equation",
+      "slug": "linear-equation",
+      "description": ""
+    },
+    {
+      "id": "d83e8532-6790-488a-9282-56adf6b120c4",
+      "codename": "shared__linear_function",
+      "title": "linear function",
+      "slug": "linear-function",
+      "description": "<p><em>See</em> <a data-item-id=\"a3428885-8f27-454e-901c-b4a83a4f9be8\" href=\"\">linear relationship</a></p>"
+    },
+    {
+      "id": "b8dd93e6-a199-475d-a322-7eecca2f8cd8",
+      "codename": "shared__loan",
+      "title": "loan",
+      "slug": "loan",
+      "description": "<p>An amount of money borrowed from a bank or other financial institution.</p>"
+    },
+    {
+      "id": "9c99b99d-ec9d-45d0-80ce-e212f182f0b1",
+      "codename": "mav__local_maximum",
+      "title": "local maximum",
+      "slug": "local-maximum",
+      "description": "<p>A point on a function is a local maximum if its function value is larger than the function values near it.</p>"
+    },
+    {
+      "id": "149c263d-b0b3-4be0-870e-62f00762ddc5",
+      "codename": "mav__local_minimum",
+      "title": "local minimum",
+      "slug": "local-minimum",
+      "description": "<p>A point on a function is a local minimum if its function value is smaller than the function values near it.</p>"
+    },
+    {
+      "id": "319737ee-73d5-42f9-804d-bc2792331a58",
+      "codename": "ma__logarithm",
+      "title": "logarithm",
+      "slug": "logarithm",
+      "description": ""
+    },
+    {
+      "id": "b5dec382-3bd7-44b3-8f62-b300df3a21e2",
+      "codename": "mav__logarithmic_function",
+      "title": "logarithmic function",
+      "slug": "logarithmic-function",
+      "description": ""
+    },
+    {
+      "id": "04cd21c4-c6fd-49ba-9f90-85d1bffc7c62",
+      "codename": "ma__logarithmic_scale",
+      "title": "logarithmic scale",
+      "slug": "logarithmic-scale",
+      "description": "<p>A scale where successive endpoint values of intervals increase by a constant factor (multiplicatively). Contrast with linear scales in which the increase is a constant amount.</p>\n<figure data-asset-id=\"2cb352c3-acf3-4b53-86d7-d6b32368e2dd\" data-image-id=\"2cb352c3-acf3-4b53-86d7-d6b32368e2dd\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/ad78812b-b936-4b31-a435-5a89abe090a4/logarithmic-scale-image-mathematics-k-10.png\" data-asset-id=\"2cb352c3-acf3-4b53-86d7-d6b32368e2dd\" data-image-id=\"2cb352c3-acf3-4b53-86d7-d6b32368e2dd\" alt=\"A logarithmic scale and a linear scale of equal length. Detail in definition above.\"></figure>"
+    },
+    {
+      "id": "54ec045d-d6a9-4a22-bf11-b64aa185d89e",
+      "codename": "ma__magnitude",
+      "title": "magnitude",
+      "slug": "magnitude",
+      "description": ""
+    },
+    {
+      "id": "46da7887-fd2b-4c9e-8704-5d3285c246fd",
+      "codename": "ma__mean",
+      "title": "mean",
+      "slug": "mean",
+      "description": "<p>The sum of values in a dataset divided by the total number of values in the dataset. Also called the average.</p>"
+    },
+    {
+      "id": "1e4d9f64-a270-4a92-baad-561bd3006890",
+      "codename": "ma__measure_of_centre",
+      "title": "measure of centre",
+      "slug": "measure-of-centre",
+      "description": "<p>A statistic that is used to summarise a dataset. There are 3 common measures of centre for a dataset: mode, median and mean.</p>"
+    },
+    {
+      "id": "65878b80-2639-4bf6-913c-d6dc0cfe2c5c",
+      "codename": "ma__median",
+      "title": "median",
+      "slug": "median",
+      "description": "<p>The value in a set of ordered data that divides the data into 2 parts. It is frequently called the 'middle value'.</p>\n<p>Extended in Mathematics Standard and Advanced: If the number of values in the ordered dataset is even, it is the average of the two middle values. If the number of values in the dataset is odd, the median is the middle value.</p>"
+    },
+    {
+      "id": "d2f50c34-731c-47d0-a50c-b96f728cbf4e",
+      "codename": "shared__minute__geometry_",
+      "title": "minute (geometry)",
+      "slug": "minute-geometry",
+      "description": ""
+    },
+    {
+      "id": "ce477d5b-a46b-42d2-9b3b-fbc1af8aa021",
+      "codename": "ma__mode",
+      "title": "mode",
+      "slug": "mode",
+      "description": "<p>The most frequently occurring value in a set of data.</p>\n<p>Extended in 7–10: There can be more than one mode. When there are 2 modes, the dataset is said to be bimodal.</p>"
+    },
+    {
+      "id": "057572dd-da6d-4610-a70f-1a69de86c69a",
+      "codename": "ct_sec_gls_model",
+      "title": "model",
+      "slug": "model",
+      "description": "<p>A mathematical, conceptual or physical representation that describes, simplifies, clarifies or provides an explanation of the structure, workings or relationships within an object, system or idea. Models can provide a means of testing and predicting behaviour within limited conditions. Models may be physical or exist in digital form.</p>"
+    },
+    {
+      "id": "efefa345-4a11-4e4f-85b8-6832582f7c87",
+      "codename": "shared__multistage_events",
+      "title": "multistage events",
+      "slug": "multistage-events",
+      "description": "<p>An event that consists of 2 or more simple experiments, e.g. tossing a coin 3 times (repeated trials), or both tossing a coin and rolling a dice (possible outcomes would be H and 5, T and 2).</p>"
+    },
+    {
+      "id": "974ef39d-bb4e-4b7b-8d36-fdc38072dfa4",
+      "codename": "ma__mutually_exclusive_events",
+      "title": "mutually exclusive events",
+      "slug": "mutually-exclusive-events",
+      "description": "<p>Two events that cannot have simultaneous outcomes in the same chance experiment. For example, when a fair coin is tossed twice, the events '<em>HH</em>' and '<em>TT</em>' cannot occur at the same time and are, therefore, mutually exclusive.</p>\n<p>In a Venn diagram, as shown below, mutually exclusive events do not overlap.</p>\n<figure data-asset-id=\"f3877658-4a2b-4a6f-b1ba-77ff3eea9804\" data-image-id=\"f3877658-4a2b-4a6f-b1ba-77ff3eea9804\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/fc71865a-413d-4485-a4d3-f7c4cb829157/mutually-exclusive-events-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"f3877658-4a2b-4a6f-b1ba-77ff3eea9804\" data-image-id=\"f3877658-4a2b-4a6f-b1ba-77ff3eea9804\" alt=\"The image shows a Venn diagram with 2 separate circles. The circles are labelled A and B.\"></figure>"
+    },
+    {
+      "id": "a1f02870-60d8-4867-b5a8-21dcaa670249",
+      "codename": "mav__natural_logarithm",
+      "title": "natural logarithm",
+      "slug": "natural-logarithm",
+      "description": ""
+    },
+    {
+      "id": "8725366c-9eeb-4cbb-998c-9d8a005ca8c2",
+      "codename": "mav__normal__to_a_curve_",
+      "title": "normal (to a curve)",
+      "slug": "normal-to-a-curve",
+      "description": ""
+    },
+    {
+      "id": "06db70ad-6d65-4b8b-a34b-5e0ae02c3a13",
+      "codename": "shared__normal_distribution",
+      "title": "normal distribution",
+      "slug": "normal-distribution",
+      "description": "<p>A type of continuous distribution whose graph looks like this:</p>\n<figure data-asset-id=\"caff1224-6457-48f0-ac78-744543f2c56e\" data-image-id=\"caff1224-6457-48f0-ac78-744543f2c56e\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/bdad5360-90d7-441f-a65e-c2f3cfe6a5d9/Maths%20glossary%20image%20-%20normal%20distribution.png\" data-asset-id=\"caff1224-6457-48f0-ac78-744543f2c56e\" data-image-id=\"caff1224-6457-48f0-ac78-744543f2c56e\" alt=\"Bell curve showing a bell-shaped line plotted along an x-y axis. Detail in text below. \"></figure>\n<p><em>Image long description:</em> The horizontal x-axis is labelled from 100 to 200 in increments of 20 from left to right. The y-axis is labelled from 0 to 50 in increments of 10 from the bottom to the top. Along the x-axis is a series of columns that rise to a peak halfway along the axis and fall back towards 0 on the far right of the x-axis. An orange ‘bell curve’ is laid over the peaks of the columns.</p>\n<p>The mean, median and mode are equal and the scores are symmetrically arranged either side of the mean.</p>\n<p>The graph of a normal distribution is often called a ‘bell curve’ due to its shape.</p>"
+    },
+    {
+      "id": "eb14117b-9e73-4d94-a62a-3e37c15d7304",
+      "codename": "mav__normal_random_variable",
+      "title": "normal random variable",
+      "slug": "normal-random-variable",
+      "description": "<p>A variable that varies according to the normal distribution.</p>"
+    },
+    {
+      "id": "1807332c-4b59-4b66-bf7b-3829614a769a",
+      "codename": "shared__odd_function",
+      "title": "odd function",
+      "slug": "odd-function",
+      "description": ""
+    },
+    {
+      "id": "f9230db1-db8f-44e1-b63c-c1bedbfaa47d",
+      "codename": "outcome",
+      "title": "outcome",
+      "slug": "outcome",
+      "description": "<p>Possible result from an experiment or trial.</p>"
+    },
+    {
+      "id": "dcae42cc-0e56-406d-9023-231375520703",
+      "codename": "ma__parabola",
+      "title": "parabola",
+      "slug": "parabola",
+      "description": "<figure data-asset-id=\"8af60eb2-ee6f-4950-b499-06491e6a6cc8\" data-image-id=\"8af60eb2-ee6f-4950-b499-06491e6a6cc8\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/8d042a25-4455-4b29-b641-1f0dd0971f87/parabola-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"8af60eb2-ee6f-4950-b499-06491e6a6cc8\" data-image-id=\"8af60eb2-ee6f-4950-b499-06491e6a6cc8\" alt=\"A graph of a parabola.\"></figure>"
+    },
+    {
+      "id": "43622d1a-ae3f-4b2a-aec7-eaf0ad2b5c3b",
+      "codename": "ma__parallel",
+      "title": "parallel",
+      "slug": "parallel",
+      "description": "<figure data-asset-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\" data-image-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/1cefd412-7e50-4ced-8473-bde46c5149b7/parallel-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\" data-image-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\" alt=\"Two parallel lines.\"></figure>"
+    },
+    {
+      "id": "d8e33660-22ef-4f8c-a196-901c5e00335a",
+      "codename": "mav__partial_sum_of_a_sequence",
+      "title": "partial sum of a sequence",
+      "slug": "partial-sum-of-a-sequence",
+      "description": ""
+    },
+    {
+      "id": "f47b8bc2-9a27-4ed4-aae3-8ea16b0154a9",
+      "codename": "shared__period",
+      "title": "period",
+      "slug": "period",
+      "description": ""
+    },
+    {
+      "id": "362b235f-a95d-4955-b5bb-fb7363dd36b8",
+      "codename": "ma__perpendicular",
+      "title": "perpendicular",
+      "slug": "perpendicular",
+      "description": "<p>Two lines, rays, line segments, vectors, planes or other objects that intersect at a 90° angle (a right angle).</p>"
+    },
+    {
+      "id": "a91483db-8544-4241-ae62-e8120b227d7f",
+      "codename": "mav__piecewise_defined_function",
+      "title": "piecewise-defined function",
+      "slug": "piecewise-defined-function",
+      "description": ""
+    },
+    {
+      "id": "a1ad5e24-fa6e-49b8-ab38-7a82aa03f32c",
+      "codename": "shared__point_of_inflection",
+      "title": "point of inflection",
+      "slug": "point-of-inflection",
+      "description": "<p>A point on a curve where the concavity changes. At a point of inflection, the tangent exists and crosses the curve.</p>"
+    },
+    {
+      "id": "bce52bab-475a-4998-8525-0f3fbdca8be1",
+      "codename": "mav__primitive",
+      "title": "primitive",
+      "slug": "primitive",
+      "description": ""
+    },
+    {
+      "id": "e61934cb-0760-4239-a7b6-37de7006fff4",
+      "codename": "ma__probability",
+      "title": "probability",
+      "slug": "probability",
+      "description": "<p>The chance of something happening shown on a scale from 0 and 1 (inclusive). For example, the probability that a fair coin toss will come up ‘heads’ is 0.5.</p>"
+    },
+    {
+      "id": "d1a56ef5-2f71-4a0c-a120-d506f16eb7eb",
+      "codename": "mav__probability_density_function",
+      "title": "probability density function",
+      "slug": "probability-density-function",
+      "description": ""
+    },
+    {
+      "id": "af6e6b89-cedb-477e-8997-85c11fb5150d",
+      "codename": "shared__probability_distribution",
+      "title": "probability distribution",
+      "slug": "probability-distribution",
+      "description": ""
+    },
+    {
+      "id": "01a4ec56-c4bd-4fa2-9099-f95c7dffbb30",
+      "codename": "shared__product_rule",
+      "title": "product rule",
+      "slug": "product-rule",
+      "description": ""
+    },
+    {
+      "id": "70bfbbbd-e46d-4c08-8669-cd6edd0ef61b",
+      "codename": "ma__proof",
+      "title": "proof",
+      "slug": "proof",
+      "description": "<p>A rigorous mathematical argument that demonstrates the truth of a given statement or proposition. A mathematical statement that has been established by means of a proof is called a theorem.</p>"
+    },
+    {
+      "id": "3b15c29e-f31e-47ad-a6ef-cef9215c0417",
+      "codename": "ma__pythagoras__theorem",
+      "title": "Pythagoras' theorem",
+      "slug": "pythagoras-theorem",
+      "description": ""
+    },
+    {
+      "id": "bcd4a6e1-2159-4a41-b5cf-f9ac52a33193",
+      "codename": "mav__quadrant",
+      "title": "quadrant",
+      "slug": "quadrant",
+      "description": ""
+    },
+    {
+      "id": "64480c0e-bada-4bc9-bd17-f999757618ab",
+      "codename": "ma__quadratic_equation",
+      "title": "quadratic equation",
+      "slug": "quadratic-equation",
+      "description": ""
+    },
+    {
+      "id": "49dd0f07-c224-4837-9fe9-da8d7169ce4c",
+      "codename": "ma__quadratic_expression",
+      "title": "quadratic expression",
+      "slug": "quadratic-expression",
+      "description": ""
+    },
+    {
+      "id": "6311a178-d4ea-4b7e-be2e-c5d4767ddd3f",
+      "codename": "ma__quadratic_formula",
+      "title": "quadratic formula",
+      "slug": "quadratic-formula",
+      "description": ""
+    },
+    {
+      "id": "2e08b465-ae04-4460-91b1-cf37f072de0f",
+      "codename": "shared__quadratic_function",
+      "title": "quadratic function",
+      "slug": "quadratic-function",
+      "description": ""
+    },
+    {
+      "id": "ff9fb2ce-81ca-4dc4-9b3f-c603419c1264",
+      "codename": "mav__quadratic_inequality",
+      "title": "quadratic inequality",
+      "slug": "quadratic-inequality",
+      "description": ""
+    },
+    {
+      "id": "66fbeea9-4b70-493a-b5b6-bd0e7595f16c",
+      "codename": "ma__quartiles",
+      "title": "quartiles",
+      "slug": "quartiles",
+      "description": ""
+    },
+    {
+      "id": "fce28bd1-21d4-46d4-9468-8455d07b7566",
+      "codename": "shared__quotient_rule",
+      "title": "quotient rule",
+      "slug": "quotient-rule",
+      "description": ""
+    },
+    {
+      "id": "457deaff-ff5b-42d0-a714-0511289e6470",
+      "codename": "__radian",
+      "title": "radian",
+      "slug": "radian",
+      "description": "<p>A unit of angular measure frequently used in mathematics.</p>\n<p>1 radian is the angle between 2 radii of a circle which cut off on the circumference an arc equal to the radius.</p>"
+    },
+    {
+      "id": "ff0bb544-e38b-4012-aa43-715290082f3c",
+      "codename": "mav__radian_measure",
+      "title": "radian measure",
+      "slug": "radian-measure",
+      "description": ""
+    },
+    {
+      "id": "54ad8f30-e5c4-4579-87a9-edbec21c65a0",
+      "codename": "__random_variable",
+      "title": "random variable",
+      "slug": "random-variable",
+      "description": "<p>A variable whose possible values are outcomes of a statistical experiment or a random phenomenon.</p>"
+    },
+    {
+      "id": "277f8cfd-c16b-4d18-bde9-aec317ae6cde",
+      "codename": "ma__range__function_",
+      "title": "range (function)",
+      "slug": "range-function",
+      "description": "<p>The set of values of the dependent variable for which a function is defined.</p>"
+    },
+    {
+      "id": "17576410-9595-4e64-be7b-15ef49ea5e76",
+      "codename": "shared__rate_of_change",
+      "title": "rate of change",
+      "slug": "rate-of-change",
+      "description": ""
+    },
+    {
+      "id": "cd709555-5c70-4a59-a83d-e4c0be705e18",
+      "codename": "ma__rational_number",
+      "title": "rational number",
+      "slug": "rational-number",
+      "description": ""
+    },
+    {
+      "id": "31c5c095-0e9b-4734-a16f-c9d02e4e3c3f",
+      "codename": "shared__real_number",
+      "title": "real number",
+      "slug": "real-number",
+      "description": "<p>A number that can be represented by a point on a number line. The set of real numbers is the set of all rational and irrational numbers.</p>"
+    },
+    {
+      "id": "add1fddb-2614-426a-95b3-86a25d65037a",
+      "codename": "ma__reciprocal",
+      "title": "reciprocal",
+      "slug": "reciprocal",
+      "description": ""
+    },
+    {
+      "id": "6d9e0adf-203d-47c7-ad8b-48711513f460",
+      "codename": "shared__reducing_balance_loan",
+      "title": "reducing balance loan",
+      "slug": "reducing-balance-loan",
+      "description": "<p>A reducing balance loan is a compound interest loan where the loan is repaid by making regular payments and the interest paid is calculated on the amount still owing (the reducing balance of the loan) after each payment is made.</p>"
+    },
+    {
+      "id": "1127e54a-8d34-473b-9514-8e7d96704e17",
+      "codename": "mav__reduction",
+      "title": "reduction",
+      "slug": "reduction",
+      "description": "<p>A type of transformation that decreases the size of an image by a factor without changing its shape.</p>"
+    },
+    {
+      "id": "cafcfb54-0b25-4a82-89c0-c048a0e6d23e",
+      "codename": "reflection",
+      "title": "reflection",
+      "slug": "reflection",
+      "description": "<p>A transformation of a shape formed by creating a mirror image on the other side of a given line.</p>"
+    },
+    {
+      "id": "c727f72a-144c-4e00-a479-c291791fbabe",
+      "codename": "ma__relation",
+      "title": "relation",
+      "slug": "relation",
+      "description": ""
+    },
+    {
+      "id": "7c530b30-9dd1-4d4d-b711-b70fdb10dd05",
+      "codename": "ma__relative_frequency",
+      "title": "relative frequency",
+      "slug": "relative-frequency",
+      "description": ""
+    },
+    {
+      "id": "9eeb5a4e-be94-4da7-874a-2a6e7afe2e7e",
+      "codename": "shared__repayment",
+      "title": "repayment",
+      "slug": "repayment",
+      "description": "<p>A set amount, paid at regular intervals over the period of a loan, to pay off a loan.</p>"
+    },
+    {
+      "id": "e0c74bc9-1697-4481-aa15-77e76a885f26",
+      "codename": "untitled_content_item_e0c74bc",
+      "title": "revenue",
+      "slug": "revenue",
+      "description": "<p>The total income generated from normal business operations, such as from the sale of items produced.</p>"
+    },
+    {
+      "id": "d970764e-9716-43ed-9513-6c4baf392ec2",
+      "codename": "shared__root",
+      "title": "root",
+      "slug": "root2",
+      "description": ""
+    },
+    {
+      "id": "759d0213-8c36-4ae4-9c21-82870a82fd7d",
+      "codename": "shared__rotation",
+      "title": "rotation",
+      "slug": "rotation",
+      "description": ""
+    },
+    {
+      "id": "5a5cdf27-4ac5-4c4b-9c91-91d76952f472",
+      "codename": "ma__sample",
+      "title": "sample",
+      "slug": "sample",
+      "description": "<p>A subset of a population used to estimate characteristics of the population. For example, a randomly selected group of 8-year-olds (sample) selected to estimate the height of 8-year-olds in Australia (population).</p>"
+    },
+    {
+      "id": "cd45c306-7eda-43fb-9b41-bf5806bcc0b8",
+      "codename": "ma__secant",
+      "title": "secant",
+      "slug": "secant",
+      "description": "<p>The straight line passing through 2 points on the graph of a function.</p>"
+    },
+    {
+      "id": "e44f6678-4551-4e08-a4a5-7c3826e61992",
+      "codename": "mav__secant__ratio_",
+      "title": "secant (ratio)",
+      "slug": "secant-ratio",
+      "description": "<figure data-asset-id=\"91e67e92-5049-46e7-bf7d-8091230edde8\" data-image-id=\"91e67e92-5049-46e7-bf7d-8091230edde8\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/2d6d0185-670d-4767-be78-bc286d7aaba9/hypotenuse-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"91e67e92-5049-46e7-bf7d-8091230edde8\" data-image-id=\"91e67e92-5049-46e7-bf7d-8091230edde8\" alt=\"A right-angled triangle with hypotenuse, opposite, and adjacent sides labelled.\"></figure>\n<p><br></p>"
+    },
+    {
+      "id": "cd41fc6d-f0f6-41d7-8892-af18c48fca17",
+      "codename": "mav__second_derivative",
+      "title": "second derivative",
+      "slug": "second-derivative",
+      "description": ""
+    },
+    {
+      "id": "ded7ae8c-71b7-4a73-9706-c96118621572",
+      "codename": "ma__sector",
+      "title": "sector",
+      "slug": "sector",
+      "description": "<p>The plane figure enclosed by 2 radii or a circle and the arc between them.</p>"
+    },
+    {
+      "id": "e5fb186a-eac4-4a53-a58b-06d463093464",
+      "codename": "ma__segment",
+      "title": "segment",
+      "slug": "segment2",
+      "description": "<p>A plane figure enclosed by a chord and the arc joining the endpoints of a chord.</p>\n<figure data-asset-id=\"8ee8294b-da16-41d2-aa2b-3a4c0b6616d7\" data-image-id=\"8ee8294b-da16-41d2-aa2b-3a4c0b6616d7\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/83fc0fef-e132-4866-a540-005b85c7d0f8/segment-image-mathematics-k-10.png\" data-asset-id=\"8ee8294b-da16-41d2-aa2b-3a4c0b6616d7\" data-image-id=\"8ee8294b-da16-41d2-aa2b-3a4c0b6616d7\" alt=\"A circle divided into 2 unevenly sized segments. The major and minor segments have been labelled. \"></figure>"
+    },
+    {
+      "id": "e227a1d6-43b6-4ff0-a0c3-adeb228ca046",
+      "codename": "mav__semicircle",
+      "title": "semicircle",
+      "slug": "semicircle",
+      "description": "<p>Half of a circle.</p>"
+    },
+    {
+      "id": "4fcf6f17-4fce-4bae-94f5-dbdb68920971",
+      "codename": "shared__sequence",
+      "title": "sequence",
+      "slug": "sequence2",
+      "description": ""
+    },
+    {
+      "id": "1867dbb0-12b5-49f6-8169-7c30cfe5c78d",
+      "codename": "mav__series",
+      "title": "series",
+      "slug": "series",
+      "description": ""
+    },
+    {
+      "id": "4b57029e-d7f9-401a-ba40-0db1bc24f773",
+      "codename": "ma__set",
+      "title": "set",
+      "slug": "set",
+      "description": ""
+    },
+    {
+      "id": "5ab33679-3d1c-48a4-a471-a2e533ef3882",
+      "codename": "ma__sine_ratio",
+      "title": "sine ratio",
+      "slug": "sine-ratio",
+      "description": "<figure data-asset-id=\"df874009-5424-4876-ab94-f56c6d6f187b\" data-image-id=\"df874009-5424-4876-ab94-f56c6d6f187b\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/b9bcbf0f-3a2f-4436-99f5-067f89f652c4/sine-ratio-glossary-image-mathematics-k-10.png\" data-asset-id=\"df874009-5424-4876-ab94-f56c6d6f187b\" data-image-id=\"df874009-5424-4876-ab94-f56c6d6f187b\" alt=\"\"></figure>"
+    },
+    {
+      "id": "df732ff5-6c24-4d67-b463-3013cffe902a",
+      "codename": "shared__sine_rule",
+      "title": "sine rule",
+      "slug": "sine-rule",
+      "description": "<figure data-asset-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" data-image-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/d5ae3a50-984b-4053-91ea-acab152638d6/Mathematics%20glossary%20image%20-%20reused%20triangle.png\" data-asset-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" data-image-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" alt=\"A triangle with points A, B and C with sides a, b and c.\"></figure>\n\n<p><br></p>"
+    },
+    {
+      "id": "45cf6784-b011-4879-b17a-6739b00d5600",
+      "codename": "shared__speed",
+      "title": "speed",
+      "slug": "speed",
+      "description": ""
+    },
+    {
+      "id": "39fb1b8a-ccbf-4f5e-8ffa-3aac94038663",
+      "codename": "ma__standard_deviation",
+      "title": "standard deviation",
+      "slug": "standard-deviation",
+      "description": "<p>A measure of the variability or spread of a dataset. It gives an indication of the degree to which the individual data values are spread around their mean.</p>\n<p>Extended in Mathematics Standard and Advanced: For a random variable, the standard deviation is the square root of its variance.</p>\n<p>It provides a measure of the spread of the probability density function.</p>"
+    },
+    {
+      "id": "11bb7900-c47f-4e3c-9feb-a34f62402126",
+      "codename": "mav__stationary_point",
+      "title": "stationary point",
+      "slug": "stationary-point",
+      "description": ""
+    },
+    {
+      "id": "bcb5b887-c9b4-4dbf-9f9d-c08ffd0f6bff",
+      "codename": "shared__subset",
+      "title": "subset",
+      "slug": "subset",
+      "description": ""
+    },
+    {
+      "id": "e9ee0a3a-c41b-4b13-9244-cfa2789fc9c7",
+      "codename": "shared__substitution",
+      "title": "substitution",
+      "slug": "substitution",
+      "description": "<p>The process of replacing a variable in an algebraic expression, formula, equation or function consistently with a particular value, another variable, expression or function.</p>\n<p>Simultaneous equations can be solved using substitution by isolating one variable in one equation and using its value to replace that variable in another equation.</p>\n<p><em>See</em> <a data-item-id=\"f94aff5c-ee96-4aa3-8bbf-15ace436922d\" href=\"\">simultaneous equations</a></p>\n<p>Extended in Mathematics Extension 1 and Extension 2: Integration by substitution is a method used for evaluating integrals. The substitution could be expressed as a function of the variable of integration, or with the variable of integration as the subject of the substitution.</p>"
+    },
+    {
+      "id": "7ed18422-f679-42fe-a53c-6e5450641ca7",
+      "codename": "ma__subtend",
+      "title": "subtend",
+      "slug": "subtend",
+      "description": "<p>In geometry, an angle subtended by an arc or interval is the angle whose 2 rays pass through the endpoints of the arc or interval. A possible synonym for ‘subtends’ is ‘makes’.</p>"
+    },
+    {
+      "id": "f73caa01-6740-44e9-83e2-ca649d0b7611",
+      "codename": "mav__summation_notation",
+      "title": "summation notation",
+      "slug": "summation-notation",
+      "description": ""
+    },
+    {
+      "id": "2490ae93-ca35-46ab-8c8f-dd2d63a8ed8e",
+      "codename": "ma__surd",
+      "title": "surd",
+      "slug": "surd",
+      "description": ""
+    },
+    {
+      "id": "7bb80903-2468-4e0b-9000-5eecdb6318f5",
+      "codename": "ma__tangent",
+      "title": "tangent",
+      "slug": "tangent",
+      "description": "<p>A line that intersects a circle at just one point. It touches the circle at that point of contact but does not pass inside it.</p>\n<figure data-asset-id=\"e7157097-9304-4071-b885-8b87ed4d51d8\" data-image-id=\"e7157097-9304-4071-b885-8b87ed4d51d8\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/270aeb17-2a56-4943-88a7-73c2064bc558/tangent-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"e7157097-9304-4071-b885-8b87ed4d51d8\" data-image-id=\"e7157097-9304-4071-b885-8b87ed4d51d8\" alt=\"A circle with a line intersecting at the point labelled T.\"></figure>"
+    },
+    {
+      "id": "89f3a994-6947-45df-9f87-25528e8a9a45",
+      "codename": "ma__tangent_ratio",
+      "title": "tangent ratio",
+      "slug": "tangent-ratio",
+      "description": "<figure data-asset-id=\"9d4bd75b-a0ae-4f6c-9e8d-452dd274614b\" data-image-id=\"9d4bd75b-a0ae-4f6c-9e8d-452dd274614b\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/39eb269b-592a-4ae3-9dde-1584daa244b7/tangent-ratio-glossary-image-mathematics-k-10.png\" data-asset-id=\"9d4bd75b-a0ae-4f6c-9e8d-452dd274614b\" data-image-id=\"9d4bd75b-a0ae-4f6c-9e8d-452dd274614b\" alt=\"\"></figure>"
+    },
+    {
+      "id": "74d2b5d2-920c-417c-b649-f0287ff937dc",
+      "codename": "shared__transformation",
+      "title": "transformation",
+      "slug": "transformation",
+      "description": "<p>A procedure or set of procedures that changes the size and/or shape of an image. A transformation operates on points in the plane to change aspects, such as the position, size or shape of curves and other figures.</p>\n<p>Translations, reflections, rotations, dilations, enlargements are all examples of transformations.</p>"
+    },
+    {
+      "id": "d93fc40d-2a0b-4d76-a3e7-d09b94469aea",
+      "codename": "shared__translation_d93fc40",
+      "title": "translation",
+      "slug": "translation",
+      "description": "<p>A type of transformation that moves a shape (or all the points in a plane) by the same amount to the left or right, or up or down.</p>"
+    },
+    {
+      "id": "6cb6cfa2-2351-42a6-a396-0f3c9b33b793",
+      "codename": "mav__trapezoidal_rule",
+      "title": "trapezoidal rule",
+      "slug": "trapezoidal-rule",
+      "description": "<p>A method of approximating the area of an irregular shape, or a region bounded by a curve and an axis, by slicing the area up into trapeziums (trapezia) of equal height.</p>"
+    },
+    {
+      "id": "75a083df-12c8-4507-b88d-bb16d16310de",
+      "codename": "ma__tree_diagram",
+      "title": "tree diagram",
+      "slug": "tree-diagram",
+      "description": "<p>A diagram consisting of line segments (edges) connected to points (vertices) like the branches of a tree. It shows the relationship between sets, events or the set of outcomes of a multi-step random experiment.</p>\n<figure data-asset-id=\"8ea2ca0a-22a3-4f6a-8226-d9d23c90841e\" data-image-id=\"8ea2ca0a-22a3-4f6a-8226-d9d23c90841e\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/acf1e612-d3a1-440b-94e9-68b28e03acb2/tree-diagram-glossary-image-mathematics-k-10.png\" data-asset-id=\"8ea2ca0a-22a3-4f6a-8226-d9d23c90841e\" data-image-id=\"8ea2ca0a-22a3-4f6a-8226-d9d23c90841e\" alt=\"\"></figure>\n<p><em>See </em><a data-item-id=\"4ac5c018-ba7a-4328-88a6-4e2473217d3c\" href=\"\">probability tree</a></p>"
+    },
+    {
+      "id": "c52612b3-195f-409b-8e4a-b7603a01d6fe",
+      "codename": "shared__trial",
+      "title": "trial",
+      "slug": "trial",
+      "description": "<p>A single performance of a random experiment. Successive trials refer to repeated performances of the same experiment, each of which will therefore have the same set of possible outcomes (sample space).</p>\n<p>When there are only 2 possible outcomes they are known as Bernoulli trials.</p>"
+    },
+    {
+      "id": "d9854ef5-233a-4284-8af2-c4c168c776d9",
+      "codename": "ma__trigonometric_ratios",
+      "title": "trigonometric ratios",
+      "slug": "trigonometric-ratios",
+      "description": "<p>The relationship between the angles and sides of right-angled triangles. The 3 basic trigonometric ratios are sine, cosine and tangent.</p>\n<p><em>See </em><a data-item-id=\"7a139bf1-44ed-4997-bc2c-cb7a7ed70689\" href=\"\">sine ratio</a><em>,</em> <a data-item-id=\"2a58a1c6-2a26-460c-b9a0-434ebeeae72e\" href=\"\">cosine ratio</a> and <a data-item-id=\"8f82bbda-68cb-4782-a2cd-0d101653a089\" href=\"\">tangent ratio</a></p>"
+    },
+    {
+      "id": "51b5f2bd-5e55-4d3f-bbe2-d1627c658576",
+      "codename": "jd_test_true_bearing",
+      "title": "true bearing",
+      "slug": "true-bearing",
+      "description": ""
+    },
+    {
+      "id": "fc4c1122-3652-4f70-a322-2d822d663113",
+      "codename": "shared__turning_points",
+      "title": "turning points",
+      "slug": "turning-points",
+      "description": "<p>Points at which the gradient of the graph of a function changes direction, so the function has either a local minimum or local maximum at those points.</p>"
+    },
+    {
+      "id": "ff392011-7612-411d-8bae-38ff22185a9c",
+      "codename": "ma__two_way_table",
+      "title": "two-way table",
+      "slug": "two-way-table",
+      "description": "<p>A common way of displaying the two-way frequency distribution that arises when a group is categorised according to 2 criteria.</p>\n<figure data-asset-id=\"73053149-afd3-4c56-8ead-335c8f491f0e\" data-image-id=\"73053149-afd3-4c56-8ead-335c8f491f0e\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/2ff1ffc0-7737-440a-b520-4986139f8d2f/two-way-table-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"73053149-afd3-4c56-8ead-335c8f491f0e\" data-image-id=\"73053149-afd3-4c56-8ead-335c8f491f0e\" alt=\"A two-way table for hair colour versus hair type.\"></figure>"
+    },
+    {
+      "id": "340bf0de-0387-4f31-9c99-7dc6c4670e44",
+      "codename": "mav__uniform_distribution",
+      "title": "uniform distribution",
+      "slug": "uniform-distribution",
+      "description": "<p>A probability distribution in which all values of the random variable are equally likely.</p>"
+    },
+    {
+      "id": "e2de53db-df38-4f72-8f8c-aacfffb7062f",
+      "codename": "mav__union__of_sets_",
+      "title": "union (of sets)",
+      "slug": "union-of-sets",
+      "description": ""
+    },
+    {
+      "id": "f31e8cb2-f5dc-49df-9bec-2f3ef0f593ad",
+      "codename": "mav__universal_set",
+      "title": "universal set",
+      "slug": "universal-set",
+      "description": "<p>The universal set for a particular problem or context contains all elements involved in the problem.</p>"
+    },
+    {
+      "id": "d4106883-db65-4630-b498-2b59b1582af3",
+      "codename": "ma__variable__algebra_",
+      "title": "variable (algebra)",
+      "slug": "variable-algebra",
+      "description": ""
+    },
+    {
+      "id": "3b35d279-7eff-40c7-ac95-fd164fe77f5d",
+      "codename": "ma__variable__statistics_",
+      "title": "variable (statistics)",
+      "slug": "variable-statistics",
+      "description": "<p>Something measurable or observable that is expected to change either over time or between individual observations. For example, the age of students, their hair colour or a playing field's length or its shape.</p>"
+    },
+    {
+      "id": "bdff2386-c991-4d8f-a936-0627ffc395e7",
+      "codename": "shared__variance",
+      "title": "variance",
+      "slug": "variance",
+      "description": ""
+    },
+    {
+      "id": "a87afbca-787c-4ce2-9943-27f05c33f0e4",
+      "codename": "sci_sec_gls_velocity",
+      "title": "velocity",
+      "slug": "velocity",
+      "description": ""
+    },
+    {
+      "id": "cda0efed-9b32-4249-a60f-4b11310cb356",
+      "codename": "ma__venn_diagram",
+      "title": "Venn diagram",
+      "slug": "venn-diagram",
+      "description": "<p>Graphical representations, using several typically overlapping circles, showing elements of sets in relation to properties or attributes. They are drawn for some specified universal set.</p>\n<figure data-asset-id=\"3d768249-5d7a-49f3-bb14-00d14cae39f6\" data-image-id=\"3d768249-5d7a-49f3-bb14-00d14cae39f6\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/255f9a0a-1ef1-46f8-85c4-123ceb06e05a/venn-diagram-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"3d768249-5d7a-49f3-bb14-00d14cae39f6\" data-image-id=\"3d768249-5d7a-49f3-bb14-00d14cae39f6\" alt=\"A circle labelled A overlapping with a circle labelled B.\"></figure>"
+    },
+    {
+      "id": "03dac5f0-c5b7-458a-bec5-ad2bc86e9f40",
+      "codename": "vertex",
+      "title": "vertex",
+      "slug": "vertex",
+      "description": "<p>Where 2 straight sides of a two-dimensional shape meet.</p>\n<p>Extended in 7–12: A vertex is a point in the plane where lines meet and do not extend beyond, or a point in space where several edges meet. A vertex can also refer to a node in a network. It is also the turning point of a parabola.</p>"
+    },
+    {
+      "id": "efec3e1e-01dc-4e2f-bba7-d47fa7450821",
+      "codename": "ma__vertical_line_test",
+      "title": "vertical line test",
+      "slug": "vertical-line-test",
+      "description": "<p>Determines whether a relation or graph is also a function. If a vertical line intersects or touches a graph at more than one point, then the graph is not a function.</p>"
+    },
+    {
+      "id": "ddb506c9-9f51-4d20-9b2b-64cd9cc5792f",
+      "codename": "volume",
+      "title": "volume",
+      "slug": "volume",
+      "description": "<p>The amount of space occupied by an object.</p>"
+    },
+    {
+      "id": "708681ca-1bd5-4f03-abcb-24efd365f60b",
+      "codename": "shared__whole_number",
+      "title": "whole number",
+      "slug": "whole-number",
+      "description": "<p>Any of the positive integers or 0.</p>"
+    },
+    {
+      "id": "4fe38505-9f70-4e73-982b-9dfff0994789",
+      "codename": "shared__z_score",
+      "title": "z-score",
+      "slug": "z-score",
+      "description": ""
+    },
+    {
+      "id": "62e4863f-2ebf-4eb9-96c7-a67c3271cf4d",
+      "codename": "mav__zero__of_a_function_",
+      "title": "zero (of a function)",
+      "slug": "zero-of-a-function",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "de5f0db6-2406-4315-81af-7a6069815b8b",
+      "codename": "ge__benefit_sharing",
+      "title": "benefit sharing",
+      "slug": "benefit-sharing",
+      "description": "<p>Formal and mutually agreed terms for the ongoing, equitable distribution of benefits, arising from the application or commercial utilisation of knowledge, practices and/or resources. Benefit sharing agreements with Indigenous Peoples may relate to Indigenous Cultural and Intellectual Property (ICIP), such as knowledges and practices associated with sustainable management of land and resources.</p>"
+    },
+    {
+      "id": "fa5f0f0f-333e-48ce-b013-93d72f495526",
+      "codename": "ge__biocapacity",
+      "title": "biocapacity",
+      "slug": "biocapacity",
+      "description": "<p>The capacity of nature/ecosystems to produce and renew the resources that people use and to absorb and filter the waste generated by human activities, within a limited period of time.</p>"
+    },
+    {
+      "id": "1d5c4718-63f8-4106-947f-61baf8ad9b97",
+      "codename": "ge__biodiversity",
+      "title": "biodiversity",
+      "slug": "biodiversity",
+      "description": "<p>The variety of living organisms within a particular habitat, ecosystem, biome, or globally.</p>"
+    },
+    {
+      "id": "ce763ded-028a-48c9-9c92-fff1cc3e3740",
+      "codename": "ge__biophysical",
+      "title": "biophysical",
+      "slug": "biophysical",
+      "description": "<p>Biological and physical elements of the environment. It includes various life forms, both plant and animal, and elements such as temperature, light, humidity and soil nutrients.</p>"
+    },
+    {
+      "id": "9345bf12-f9f3-47ff-a1b6-fdbc5df6029b",
+      "codename": "ge__cartographic_conventions",
+      "title": "cartographic conventions",
+      "slug": "cartographic-conventions",
+      "description": "<p>Accepted practices associated with constructing and interpreting maps, e.g. using a border, orientation or compass point, legend or key, title, scale, giving latitude readings before longitude.</p>"
+    },
+    {
+      "id": "0bfe08a7-4286-424c-a4cb-ae25d73893d4",
+      "codename": "ge__climate",
+      "title": "climate",
+      "slug": "climate",
+      "description": "<p>The average types of weather, including seasonal variations, experienced by a place or region over a long period of time.</p>"
+    },
+    {
+      "id": "f939531c-c181-41bf-91b0-6abbf89f8468",
+      "codename": "ge__climate_change",
+      "title": "climate change",
+      "slug": "climate-change",
+      "description": "<p>A long-term change in regional or global climate patterns, e.g. annual precipitation, frequency of weather events.</p>"
+    },
+    {
+      "id": "c2f5c176-bede-44b8-aa84-c54ae279a675",
+      "codename": "ge__continentality",
+      "title": "continentality",
+      "slug": "continentality",
+      "description": "<p>The effect of land mass on climatic conditions/patterns.</p>"
+    },
+    {
+      "id": "05323017-dc60-4d69-8fd2-515abbc62ab6",
+      "codename": "ge__demographic_transition",
+      "title": "demographic transition",
+      "slug": "demographic-transition",
+      "description": "<p>A model consisting of various stages used to show population change over time, including the influence of birth rates and death rates.</p>"
+    },
+    {
+      "id": "3e1d9c10-de2d-4e31-927a-53e9df4373da",
+      "codename": "ge__diversity",
+      "title": "diversity",
+      "slug": "diversity2",
+      "description": "<p>In a geographic context, diversity refers to variations within and between places, environments, natural or human phenomena, e.g. in relation to biophysical characteristics, culture, religion, settlement, economic activity.</p>"
+    },
+    {
+      "id": "934739f8-9b9c-4948-b1dd-01697bd8aecc",
+      "codename": "ge__dynamic_equilibrium",
+      "title": "dynamic equilibrium",
+      "slug": "dynamic-equilibrium",
+      "description": "<p>In the context of Geography 11–12, when an ecosystem is able to maintain its natural balance and remain relatively stable, subject to gradual changes through natural succession. An ecosystem that is in a state of dynamic equilibrium is able to return to its balanced state in response to natural and/or human stresses.</p>"
+    },
+    {
+      "id": "c2141f10-d5f5-4936-8a9c-73bc66b7a3eb",
+      "codename": "ge__ecological_disturbance",
+      "title": "ecological disturbance",
+      "slug": "ecological-disturbance",
+      "description": "<p>Temporary changes or events in an ecosystem that cause disturbance to its functioning, e.g. increased mortality of organisms, changes in spatial patterning. Ecosystems are typically resilient to ecological disturbance.</p>"
+    },
+    {
+      "id": "b3ab0d0e-a377-4d5e-8185-e6c7c4587efd",
+      "codename": "ge__ecological_hazard",
+      "title": "ecological hazard",
+      "slug": "ecological-hazard",
+      "description": "<p>A biological hazard that has the potential to impact adversely on the wellbeing of people or the environment more generally. Examples of ecological hazards include malaria, coronavirus, Dengue fever, rabies, cholera, locust plagues, invasive species.</p>"
+    },
+    {
+      "id": "baea3d86-bf15-46d7-85ff-f69a18864f47",
+      "codename": "ge__ecological_integrity",
+      "title": "ecological integrity",
+      "slug": "ecological-integrity",
+      "description": "<p>The ability of an ecosystem to support and naturally maintain ecological processes, species, a diverse community of organisms, and other important characteristics, with minimal or no intervention through human management.</p>"
+    },
+    {
+      "id": "be6614fe-cf1b-414e-ba02-d995c265a045",
+      "codename": "ge__economic_integration",
+      "title": "economic integration",
+      "slug": "economic-integration",
+      "description": "<p>The process by which places become increasingly linked and interdependent economically. This involves the reduction or elimination of the barriers to the flow of goods, services and factors of production between places and nations.</p>"
+    },
+    {
+      "id": "87884c39-7ca0-4f49-8872-6d1e7d5d6bc0",
+      "codename": "ge__ecosystem",
+      "title": "ecosystem",
+      "slug": "ecosystem",
+      "description": "<p>A system formed by the interaction of biotic organisms with each other and with the abiotic components of the environment in which they live.</p>\n<p>While an ecosystem may be synonymous with a specific environment, the ‘system’ approach enables a focus on the various components and their interconnected nature.</p>"
+    },
+    {
+      "id": "2e6cbb11-3714-4dd0-bc82-a7b4cec8cc05",
+      "codename": "ge__environment",
+      "title": "environment",
+      "slug": "environment",
+      "description": "<p>The living and non-living elements of the Earth’s surface and atmosphere. Where unqualified, it includes human changes to the Earth’s surface, e.g. croplands, planted forests, buildings and roads.</p>"
+    },
+    {
+      "id": "5e56f29c-1609-42a9-87ce-614c6282f0e5",
+      "codename": "ge__ethical_practices",
+      "title": "ethical practices",
+      "slug": "ethical-practices",
+      "description": "<p>The application of fundamental ethical principles when undertaking research and collecting information, e.g. confidentiality, informed consent, citation and integrity of data. This includes, but is not limited to:</p>\n<ul>\n  <li>respecting confidentiality and anonymity</li>\n  <li>avoiding use of deception or misleading information</li>\n  <li>preventing physical and/or emotional risk or harm</li>\n  <li>obtaining permission to access private property or restricted areas</li>\n  <li>minimising damage to the natural environment</li>\n  <li>observing referencing conventions to avoid plagiarism</li>\n  <li>storing data appropriately, e.g. securely, depersonalising data collected</li>\n  <li>acknowledging the provenance of sources, e.g. information, data, visual materials.</li>\n</ul>"
+    },
+    {
+      "id": "f5b29d28-8964-408c-966e-48524defb42f",
+      "codename": "ge__feedback_loops",
+      "title": "feedback loops",
+      "slug": "feedback-loops",
+      "description": "<p>Feedback loops are reactions in response to environmental change. Positive feedback loops cause one or more components to increase overall, creating a negative impact on the ecosystem. A negative feedback loop has a positive impact on the ecosystem because it decreases the impact of change, bringing it closer to dynamic equilibrium.</p>"
+    },
+    {
+      "id": "103d2e59-0b37-4eca-ba27-56ac6a8027f5",
+      "codename": "ge__geographic_region",
+      "title": "geographic region",
+      "slug": "geographic-region",
+      "description": "<p>A region exhibits shared natural or human characteristics, e.g. political, economic, social, cultural, climate, land/water cover, vegetation, that distinguishes the region from neighbouring regions. Regions can be divisions of a nation, or larger than a nation.</p>"
+    },
+    {
+      "id": "d27758ae-8706-4fbc-b873-1fcd935299a8",
+      "codename": "ge__geographical_methods",
+      "title": "geographical methods",
+      "slug": "geographical-methods",
+      "description": "<p>The tools and skills associated with the discipline of geography that geographers use to develop their understanding of places, environments, and geographical phenomena.</p>"
+    },
+    {
+      "id": "d898c4b1-0091-4a6d-a022-dd05a3cc5f4e",
+      "codename": "ge__geographical_processes",
+      "title": "geographical processes",
+      "slug": "geographical-processes",
+      "description": "<p>The physical and human processes that form and transform the world, e.g. the water cycle, erosion, migration and urbanisation. Geographical processes can work in combination and operate within and between places.</p>"
+    },
+    {
+      "id": "7ad3c8e0-cb96-4878-84d2-9a3c5fb386bd",
+      "codename": "ge__geomorphic",
+      "title": "geomorphic",
+      "slug": "geomorphic",
+      "description": "<p>Relating to the form of the landscape and other features on the Earth’s surface.</p>"
+    },
+    {
+      "id": "0dacbe3b-0f3c-4bf1-a9bd-cde764c39c17",
+      "codename": "ge__geomorphic_processes",
+      "title": "geomorphic processes",
+      "slug": "geomorphic-processes",
+      "description": "<p>Natural processes that transform the lithosphere to create distinctive landscapes and landforms e.g. tectonic activity, weathering, erosion and deposition.</p>"
+    },
+    {
+      "id": "c5ee1239-fa13-4073-ab80-448670880b82",
+      "codename": "ge__geopolitical",
+      "title": "geopolitical",
+      "slug": "geopolitical",
+      "description": "<p>Politics and international relations as influenced by geographical factors, e.g. related to space, place and environment.</p>"
+    },
+    {
+      "id": "60b40e8e-e33e-42cf-bd28-20ed96c37288",
+      "codename": "ge__human_diversity",
+      "title": "human diversity",
+      "slug": "human-diversity",
+      "description": "<p>Variations in how people use the places and spaces they occupy, including the nature of their settlements, economies, cultures and societies.</p>"
+    },
+    {
+      "id": "1e49cef7-c897-4057-befa-cb98b9efc244",
+      "codename": "ge__human_wellbeing",
+      "title": "human wellbeing",
+      "slug": "human-wellbeing",
+      "description": "<p>The quality of life of a population, e.g. access to opportunities, healthcare, education, infrastructure, a clean environment.</p>"
+    },
+    {
+      "id": "134afc7f-8f73-40e1-8016-f21aba2244ba",
+      "codename": "ge__informal_settlements",
+      "title": "informal settlements",
+      "slug": "informal-settlements",
+      "description": "<p>Areas where housing or shelter is constructed on land where the occupants either have no legal claim, occupy illegally and/or are not in compliance with planning and building regulations. These settlements typically lack provision of amenities and services.</p>"
+    },
+    {
+      "id": "830a74b5-c382-466e-98a0-d981c0c772ae",
+      "codename": "ge__inspirational_landscape",
+      "title": "inspirational landscape",
+      "slug": "inspirational-landscape",
+      "description": "<p>Landscapes that stimulate emotional responses based on aesthetic elements, e.g. their dramatic physical form, vibrant colour, arrangement of physical features, diversity of plant species. An inspirational landscape may be experienced directly or through soundscapes and tactile representations, e.g. physical models.</p>"
+    },
+    {
+      "id": "82990ad7-c101-42b7-8db0-5fd138c45ef8",
+      "codename": "ge__land_cover",
+      "title": "land cover",
+      "slug": "land-cover",
+      "description": "<p>The natural and artificial features and structures that cover the land’s surface, e.g. trees, grass, crops, wetlands, water, ice, buildings and pavement.</p>"
+    },
+    {
+      "id": "acdb621d-34f0-4503-bd86-d8c7d0001b2d",
+      "codename": "ge__liveability",
+      "title": "liveability",
+      "slug": "liveability",
+      "description": "<p>An assessment of the quality of a place. The concept of liveability has been linked to a range of factors, e.g. health, sense of safety, access to services, cost of living, comfortable living standards, mobility and transport, air quality and social participation.</p>"
+    },
+    {
+      "id": "d9b7a388-501d-42a9-8a51-b7c43a919e00",
+      "codename": "ge__mega_region",
+      "title": "mega-region",
+      "slug": "mega-region",
+      "description": "<p>An expanding urban cluster, formed as a result of the convergence of more than one metropolitan/urban area.</p>"
+    },
+    {
+      "id": "5725077b-001a-4daa-9265-868a32ec5fce",
+      "codename": "ge__megacity",
+      "title": "megacity",
+      "slug": "megacity",
+      "description": "<p>In the context of Geography 11–12 and Geography 11–12 Life Skills, a megacity is a metropolitan area with a total population in excess of 10 million.</p>"
+    },
+    {
+      "id": "fd74f1eb-6d9f-4e5a-aa0b-548a4d081665",
+      "codename": "ge__natural_hazard",
+      "title": "natural hazard",
+      "slug": "natural-hazard",
+      "description": "<p>Atmospheric, hydrological and geomorphic processes and events in the environment that have the potential to damage the environment and endanger communities, e.g. bushfires, tropical cyclones, floods, earthquakes.</p>"
+    },
+    {
+      "id": "bf9de586-b54e-4c85-bfbe-c845469ca61d",
+      "codename": "ge__natural_system",
+      "title": "natural system",
+      "slug": "natural-system",
+      "description": "<p>A combination of physical and/or biological elements, and their interconnected processes, that form an integrated whole.</p>"
+    },
+    {
+      "id": "e0319420-ace6-4bbf-a2dc-8df96d5ee09d",
+      "codename": "ge__oceanity",
+      "title": "oceanity",
+      "slug": "oceanity",
+      "description": "<p>The effect of vast bodies of water on climatic conditions/patterns.</p>"
+    },
+    {
+      "id": "d4be9f67-3bb6-456c-ae42-8f8cbf946647",
+      "codename": "ge__overview_effect",
+      "title": "Overview Effect",
+      "slug": "overview-effect",
+      "description": "<p>A shift in awareness reported by some astronauts who have viewed the Earth from space, including the wonder of the Earth, the thinness of its atmosphere and the absence of national boundaries.</p>"
+    },
+    {
+      "id": "2cdd2cf8-7350-4259-bcf2-4b965b1d6c8d",
+      "codename": "ge__primary_data",
+      "title": "primary data",
+      "slug": "primary-data",
+      "description": "<p>Original material collected e.g. field notes, measurements, responses to a survey or questionnaire.</p>"
+    },
+    {
+      "id": "d6296b8c-1a3c-4358-b4a0-8812c76eb61c",
+      "codename": "ge__range_of_scales",
+      "title": "range of scales",
+      "slug": "range-of-scales",
+      "description": "<p>The varying frames of reference used for viewing and analysing the world in spatial terms. These are commonly described as local, national, regional and global. These scales can be used to develop an understanding of places, environments, natural and human phenomena, geographical patterns and processes, and management. They represent the geographical way of investigating the world.</p>"
+    },
+    {
+      "id": "98bbbea9-666e-4873-994d-6955e7e7e914",
+      "codename": "ge__regional_centre",
+      "title": "regional centre",
+      "slug": "regional-centre",
+      "description": "<p>Places that have an economic and social role, servicing the area around them. They are often characterised by factors such as population growth, increasing population density and growth in employment.</p>"
+    },
+    {
+      "id": "d8e92261-7c61-4a1e-b297-05be4267a950",
+      "codename": "ge__remote_settlement",
+      "title": "remote settlement",
+      "slug": "remote-settlement",
+      "description": "<p>A place that has less access to various goods and services because of its location and distance from larger urban settlements.</p>"
+    },
+    {
+      "id": "6927b295-4d06-4fd5-826c-defcb3d132a3",
+      "codename": "ge__resilience",
+      "title": "resilience",
+      "slug": "resilience",
+      "description": "<p>The ability of an ecosystem to tolerate and recover from natural and/or human-induced disturbance.</p>"
+    },
+    {
+      "id": "150b05d4-9ebb-452d-b6a7-484c382d1105",
+      "codename": "ge__risk_management",
+      "title": "risk management",
+      "slug": "risk-management",
+      "description": "<p>In the context of Geography 11–12 and Geography 11–12 Life Skills, risk management is defined in terms of preparedness, mitigation and/or prevention of a natural or ecological hazard. Preparedness involves planning the interventions needed to prevent or mitigate the effects of a hazard. Mitigation involves the implementation of strategies to eliminate or minimise the effects of these hazards. Adaptation involves adjusting to the changed environmental circumstances.</p>"
+    },
+    {
+      "id": "d8220f48-a464-4693-96f9-8af345ce5ebb",
+      "codename": "ge__rural_place",
+      "title": "rural place/rural settlements",
+      "slug": "rural-place-rural-settlements",
+      "description": "<p>A reference to a settlement in the countryside typically serving a farming or agricultural area.</p>"
+    },
+    {
+      "id": "79aea2e5-3309-4f4a-b3aa-c23b36025a66",
+      "codename": "ge__secondary_information",
+      "title": "secondary sources/information",
+      "slug": "secondary-sources-information",
+      "description": "<p>Sources of information that have been collected, processed, interpreted and published by others, e.g. census data, newspaper articles and images or information in a published report.</p>"
+    },
+    {
+      "id": "bc5a601e-7336-47b5-8bcb-bc5998f31765",
+      "codename": "ge__settlement_pattern",
+      "title": "settlement pattern",
+      "slug": "settlement-pattern",
+      "description": "<p>The spatial distribution of different types of human settlement, e.g. dwellings, towns, cities. Settlements may take a range of forms, including linear, scattered, clustered, nucleated, dispersed, planned, radial.</p>"
+    },
+    {
+      "id": "7b8db86f-f924-48fd-adc0-2f2f50cb5c71",
+      "codename": "ge__shifting_baselines",
+      "title": "shifting baselines",
+      "slug": "shifting-baselines",
+      "description": "<p>A theory that describes the way changes to an ecosystem are measured against previous reference points or baselines, which themselves may represent changes from an even earlier state of the ecosystem.</p>\n<p>It reflects the perception of each new generation that current conditions are the same as past conditions. An ecosystem may therefore be degraded successively over time, so that the extent of change from its original state, is greater than perceived. Shifting baselines describes the situation where knowledge is lost about the original state of the natural world.</p>"
+    },
+    {
+      "id": "1f1c3fce-ec47-41f8-ac66-ad5193be006c",
+      "codename": "ge__sociocultural",
+      "title": "sociocultural",
+      "slug": "sociocultural",
+      "description": "<p>Related to social and cultural factors that influence people and communities.</p>"
+    },
+    {
+      "id": "a4b7e314-bdc3-4b2e-84cd-9a6b70708a55",
+      "codename": "ge__spatial_change",
+      "title": "spatial change",
+      "slug": "spatial-change",
+      "description": "<p>Change in the location and arrangement of particular features, phenomena or activities across the surface of the Earth.</p>"
+    },
+    {
+      "id": "de5cb53d-0ae3-4c2b-938e-5bed5572a142",
+      "codename": "ge__spatial_distribution",
+      "title": "spatial distribution",
+      "slug": "spatial-distribution",
+      "description": "<p>The location and arrangement of particular features, phenomena or activities across the surface of the Earth.</p>"
+    },
+    {
+      "id": "9aca1813-2c16-4ac2-a13a-67db5d89574e",
+      "codename": "ge__spatial_technologies",
+      "title": "spatial technologies",
+      "slug": "spatial-technologies",
+      "description": "<p>Any form of technology that interacts with place, space and location. Spatial technologies may be used to collect, organise, record, visualise, manipulate, analyse and display spatial data.</p>"
+    },
+    {
+      "id": "10cfa891-1ee0-4801-8ade-ad4fd6ba944e",
+      "codename": "ge__spheres_of_influence",
+      "title": "spheres of influence",
+      "slug": "spheres-of-influence",
+      "description": "<p>The geographical area over which the services and functions of an urban settlement extend. Larger settlements typically have a greater sphere of influence than smaller settlements and attract people from a wider geographical area.</p>"
+    },
+    {
+      "id": "65e57029-b3a9-4a61-8ad6-19e272b84d30",
+      "codename": "ge__students_investigate",
+      "title": "students investigate",
+      "slug": "students-investigate",
+      "description": "<p>In the context of Geography 11–12, this encompasses a broad range of learning approaches and activities, facilitated by a variety of teaching strategies.</p>"
+    },
+    {
+      "id": "69fe3c65-2676-4b5a-ac32-318edb570d99",
+      "codename": "ge__tipping_points",
+      "title": "tipping points",
+      "slug": "tipping-points",
+      "description": "<p>A critical point (often called a threshold) where a series of smaller changes become significant enough, collectively, to trigger a larger-scale change. The change is often abrupt and irreversible, permanently altering the state of the original system, leading to flow-on effects that have more widespread consequences for other natural systems, and for people.</p>"
+    },
+    {
+      "id": "2da90236-215c-4f26-a144-89925f6308c8",
+      "codename": "ge__transformation",
+      "title": "transformation",
+      "slug": "transformation2",
+      "description": "<p>In the context of this syllabus, the term transformation refers to the processes of change from which forms of environmental, social, cultural and economic relationships and patterns emerge.</p>"
+    },
+    {
+      "id": "48d577f2-7e25-491b-b55d-2db7f6952247",
+      "codename": "ge__urban_corridor",
+      "title": "urban corridor",
+      "slug": "urban-corridor",
+      "description": "<p>A part of an urban area defined by a particular geographical feature such as a transportation route.</p>"
+    },
+    {
+      "id": "715682d8-8bf1-4692-8e34-d7845af810e3",
+      "codename": "ge__urban_hierarchy",
+      "title": "urban hierarchy",
+      "slug": "urban-hierarchy",
+      "description": "<p>The ranking of urban places in descending order, e.g. cities, determined by population size.</p>"
+    },
+    {
+      "id": "50bebb28-d87a-4d04-8fc3-b321f3779863",
+      "codename": "ge__urban_place",
+      "title": "urban place",
+      "slug": "urban-place",
+      "description": "<p>A reference to a permanent settlement or built-up area with a relatively dense population.</p>"
+    },
+    {
+      "id": "7a128d39-ba09-4039-8de6-59c5ec3121de",
+      "codename": "ge__urbanisation",
+      "title": "urbanisation",
+      "slug": "urbanisation",
+      "description": "<p>The process of demographic, economic and/or social change in which an increasing proportion of the population of a country or region live in urban areas. The size and rate of urbanisation is influenced by push-pull factors.</p>"
+    },
+    {
+      "id": "a2a5d521-f853-4e70-af7f-93345d7e18e6",
+      "codename": "ge__vulnerability",
+      "title": "vulnerability",
+      "slug": "vulnerability",
+      "description": "<p>In the context of this syllabus, the term vulnerability refers to an ecosystem’s risk of exposure or susceptibility to stress.</p>"
+    }
+  ]
+}

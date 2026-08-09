@@ -1,0 +1,1931 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "4cb7eebb-063b-4d24-b94d-1fbffbe31791",
+      "codename": "glb_prisec_gls_access_content_points",
+      "title": "access content points",
+      "slug": "access-content-points",
+      "description": "<p>Content for students with significant intellectual disability who are working towards the Early Stage 1 outcomes. Teachers can use the access content points on their own, or in combination with the content for each outcome.</p>"
+    },
+    {
+      "id": "19cdb1ae-d42e-4e4d-ad10-750f908fd376",
+      "codename": "en__adjectival_clause",
+      "title": "adjectival clause",
+      "slug": "adjectival-clause",
+      "description": "<p>A type of dependent clause that operates as an adjective to give more information to a noun or pronoun in a sentence.</p>"
+    },
+    {
+      "id": "fd282e37-04e2-4b55-8caa-8a30802fd020",
+      "codename": "en__adjectival_phrase",
+      "title": "adjectival phrase",
+      "slug": "adjectival-phrase",
+      "description": "<p>A group of words (usually beginning with a preposition) that gives more information about a noun.</p>\n<p>For example:</p>\n<ul>\n  <li>The girl <em>with brown curly hair</em> sat at the front.</li>\n  <li>The flowers <em>in the vase</em> were wilting.</li>\n</ul>"
+    },
+    {
+      "id": "3000cddb-fbb5-4cd6-95f1-435d6f59d973",
+      "codename": "adjective",
+      "title": "adjective",
+      "slug": "adjective",
+      "description": "<p>A word class that describes, classifies or qualifies a noun or a pronoun.</p>"
+    },
+    {
+      "id": "250bbc1b-6b97-48d2-a097-944e40f82944",
+      "codename": "adverb",
+      "title": "adverb",
+      "slug": "adverb",
+      "description": "<p>A word that tells something about a verb, adjective, another adverb or a whole clause. They usually indicate manner (commonly ending in <em>-ly</em>) or degree.</p>"
+    },
+    {
+      "id": "ebb78527-d14d-4e40-9c7e-76dbbaccf99c",
+      "codename": "en__adverbial_clause",
+      "title": "adverbial clause",
+      "slug": "adverbial-clause",
+      "description": "<p>A dependent clause that modifies a verb, adjective, adverb or a main clause in a sentence.</p>"
+    },
+    {
+      "id": "9cbba9de-a6e0-4729-9f04-61b9ea7712b9",
+      "codename": "en__adverbial_phrase",
+      "title": "adverbial phrase",
+      "slug": "adverbial-phrase",
+      "description": "<p>A group of words that provides information about where, when, with what, how far, how long, with whom, about what or as what.</p>\n<p>For example:</p>\n<ul>\n  <li>He swept the floor <em>with an old broom</em>.</li>\n  <li><em>Throughout time</em> people have attempted to halt old age.</li>\n</ul>"
+    },
+    {
+      "id": "686f150f-c593-4681-a934-32d6daa4b15b",
+      "codename": "en__aesthetic",
+      "title": "aesthetic",
+      "slug": "aesthetic",
+      "description": "<p>Relating to a sense of beauty or an appreciation of artistic expression.</p>"
+    },
+    {
+      "id": "af5c2bb2-5e78-4c80-b4f0-56e0acf3072c",
+      "codename": "en__analyse",
+      "title": "analyse",
+      "slug": "analyse",
+      "description": "<p>Identify components and the relationship between them; draw out and relate implications.</p>"
+    },
+    {
+      "id": "c79c193b-4d3b-442e-ab50-cbe4471d1c7b",
+      "codename": "en__anaphor_a_",
+      "title": "anaphor(a)",
+      "slug": "anaphor-a",
+      "description": "<p>Grammar – a word or phrase that references an earlier word or phrase.</p>\n<p>Rhetoric – the intentional repetition of a word or phrase at the beginning of several clauses, sentences, stanzas or paragraphs.</p>"
+    },
+    {
+      "id": "d7cb7720-5fff-41bc-9f04-ad2cb53df3f0",
+      "codename": "en__antonym",
+      "title": "antonym",
+      "slug": "antonym",
+      "description": "<p>A word or phrase that has the opposite meaning of another word or phrase.</p>"
+    },
+    {
+      "id": "82dca4b6-d12d-4fe9-8cc5-6a330d8cb56c",
+      "codename": "apostrophe",
+      "title": "apostrophe (’)",
+      "slug": "apostrophe",
+      "description": "<p>A punctuation marker used to indicate possession or missing letters or numbers in a contracted expression.</p>"
+    },
+    {
+      "id": "a5030df3-7641-4f63-b58e-82658f330bf6",
+      "codename": "en__appositive",
+      "title": "appositive",
+      "slug": "appositive",
+      "description": "<p>A noun or pronoun that is positioned beside another noun or pronoun to explain or identify it. An appositive often includes modifiers.</p>\n<p><em>See </em><a data-item-id=\"af8e3c6e-8cb9-4190-8371-8cbe4dedfffc\" href=\"\">modifier</a></p>"
+    },
+    {
+      "id": "c0c32196-af38-458c-b2ca-bd8d15fd0015",
+      "codename": "en__appreciate",
+      "title": "appreciate",
+      "slug": "appreciate",
+      "description": "<p>Make a judgement about the value of.</p>"
+    },
+    {
+      "id": "2a8cfdcc-07df-4bff-b518-a277f1dbca1e",
+      "codename": "en__appropriation",
+      "title": "appropriation",
+      "slug": "appropriation",
+      "description": "<p>Taking a text or component of a text (such as a character or plot) from one context and using it in another context.</p>"
+    },
+    {
+      "id": "5912b593-fcbf-463e-affd-2b9c5b4ffd9d",
+      "codename": "argument",
+      "title": "argument",
+      "slug": "argument",
+      "description": "<p>A stated position about an idea.</p>\n<p>The way in which various dimensions of a text (such as theme, perspective and style) can be understood to represent a particular position on an issue.</p>"
+    },
+    {
+      "id": "fc966be7-97dc-467b-b45d-6309b7861956",
+      "codename": "en__assess",
+      "title": "assess",
+      "slug": "assess",
+      "description": "<p>Make a judgement of value, quality, outcomes, results or size.</p>"
+    },
+    {
+      "id": "c6d9ea80-baf4-481c-ba67-6780f53f566d",
+      "codename": "en__assimilated_prefix",
+      "title": "assimilated prefix",
+      "slug": "assimilated-prefix",
+      "description": "<p>A bound morpheme that is added before a base word and where its last letter changes to match the first letter of the base word. For example,<strong> </strong>in + mature<em> = </em>immature<em>.</em></p>"
+    },
+    {
+      "id": "d707259f-4309-4dfa-a141-96e04f550e8b",
+      "codename": "shared__audience",
+      "title": "audience",
+      "slug": "audience",
+      "description": "<p>Readers, listeners or viewers who engage with a text.</p>"
+    },
+    {
+      "id": "dac20c59-bb37-467b-9c69-6f58089d4676",
+      "codename": "en__authority",
+      "title": "authority",
+      "slug": "authority",
+      "description": "<p>Authority <em>of</em> a text – How trustworthy, authentic or valid an audience may find the representation of ideas, experiences, perspectives and arguments in a text.</p>\n<p>Authority <em>over</em> a text – The varying degrees to which the meaning of a text is controlled or constructed by its creator(s) and by its audience.</p>"
+    },
+    {
+      "id": "59b836c6-c9c4-4fbc-a50f-db6774eb137c",
+      "codename": "en__authorship",
+      "title": "authorship",
+      "slug": "authorship",
+      "description": "<p>Origin as to author, composer, or compiler. For example, the authorship of a book.</p>"
+    },
+    {
+      "id": "e0f08226-521f-4452-8be5-aa0f4cafaafe",
+      "codename": "automaticitiy",
+      "title": "automaticity",
+      "slug": "automaticity",
+      "description": "<p>The fast, accurate and effortless word recognition that comes with practice. NESA acknowledges that reading aloud may include the use of Auslan, assistive technology or AACs.</p>"
+    },
+    {
+      "id": "b3a1f27c-fb64-4f01-be0f-9474d8b7a0a0",
+      "codename": "background_knowledge",
+      "title": "background knowledge",
+      "slug": "background-knowledge",
+      "description": "<p>Information that is important for understanding a subject.</p>"
+    },
+    {
+      "id": "5e114224-7a01-43a3-8e27-1c67b0828f4b",
+      "codename": "base_word",
+      "title": "base word",
+      "slug": "base-word",
+      "description": "<p>A morpheme (meaningful unit) that stands freely on its own to make a word.</p>\n<p><em>See</em> <a data-item-id=\"878976ce-6f20-483d-a087-904225aad66c\" href=\"\">morpheme</a></p>"
+    },
+    {
+      "id": "2714f2ca-4b4d-46b6-8871-3b4f1849f51a",
+      "codename": "blend",
+      "title": "blend",
+      "slug": "blend",
+      "description": "<p>The act of synthesising phonemes smoothly from left to right, to read words.</p>"
+    },
+    {
+      "id": "f6dacd8d-e722-4c74-831d-3d1ef71833e4",
+      "codename": "en__causal_connective",
+      "title": "causal connective",
+      "slug": "causal-connective",
+      "description": "<p>A word or groups of words used as a cohesive device between sentences, when explaining how something works or why something happens.</p>"
+    },
+    {
+      "id": "790065e0-dc6b-4b67-a965-b2fef91e0a1c",
+      "codename": "en__character",
+      "title": "character",
+      "slug": "character2",
+      "description": "<p>A person (or animal) created in a text (usually narrative) to represent human characteristics including physical, emotional and intellectual characteristics, habits and behaviour.</p>"
+    },
+    {
+      "id": "6ae1ef2a-e8fe-4962-a303-b0ce8b545d72",
+      "codename": "en__characterisation",
+      "title": "characterisation",
+      "slug": "characterisation",
+      "description": "<p>The technical construction and representation of any personality or person-like figure in text, including features such as their appearance, actions, words or thoughts.</p>"
+    },
+    {
+      "id": "4caa31e3-71d8-4823-85cb-de822427e9a7",
+      "codename": "ec__clarify",
+      "title": "clarify",
+      "slug": "clarify",
+      "description": "<p>Make clear or plain.</p>"
+    },
+    {
+      "id": "61ce24d5-3f7d-400e-ac94-11cfd5d46844",
+      "codename": "clause_dependant",
+      "title": "clause (dependent)",
+      "slug": "clause-dependent",
+      "description": "<p>A dependent clause (also known as subordinate clause) is a group of words that cannot stand alone as a sentence.</p>"
+    },
+    {
+      "id": "1118121a-20b6-4770-a710-30933fb79418",
+      "codename": "clause_main",
+      "title": "clause (main)",
+      "slug": "clause-main",
+      "description": "<p>A main clause (also known as principal or independent clause) is a clause that can stand alone as a complete sentence.</p>\n<p><em>See</em> <a data-item-id=\"651af016-99d8-4ea0-86dc-835a670a0cc6\" href=\"\">adjectival clause</a> and <a data-item-id=\"6055d9ff-732d-4a67-9245-4061ed9feebc\" href=\"\">adverbial clause</a></p>"
+    },
+    {
+      "id": "69d7b06f-7095-4aca-97f1-1f82aee3403e",
+      "codename": "en__code_and_convention",
+      "title": "code and convention",
+      "slug": "code-and-convention",
+      "description": "<p>Agreed systems of making, communicating and interpreting meaning.</p>"
+    },
+    {
+      "id": "4c89fcc6-1910-4e96-acff-c38779e11ce9",
+      "codename": "en__cohesive_devices",
+      "title": "cohesive devices",
+      "slug": "cohesive-devices",
+      "description": "<p>Words or phrases that indicate a relationship with other words, phrases, clauses or paragraphs across a text.</p>"
+    },
+    {
+      "id": "32a9e25e-2c84-4648-ab51-88c873b47d91",
+      "codename": "comma",
+      "title": "comma (,)",
+      "slug": "comma",
+      "description": "<p>A punctuation marker used to show separation between parts of a sentence, such as clauses or phrases, where separation is important to the meaning. Commas are also used to separate words, phrases or numbers in a series.</p>"
+    },
+    {
+      "id": "0b098ade-644c-4112-b01d-5c21c4d844bb",
+      "codename": "communication_system",
+      "title": "communication systems",
+      "slug": "communication-systems",
+      "description": "<p>The range of communication forms used by a person. Communication systems are specifically designed to meet people’s individual needs.</p>"
+    },
+    {
+      "id": "b394eef2-1212-43a8-af9a-7b5217a1e0ae",
+      "codename": "en__compare",
+      "title": "compare",
+      "slug": "compare",
+      "description": "<p>Show how things are similar or different.</p>"
+    },
+    {
+      "id": "f2386269-845a-40e1-aed3-357a2bab346b",
+      "codename": "complex_sentence",
+      "title": "complex sentence",
+      "slug": "complex-sentence",
+      "description": "<p>Formed by adding one or more dependent (subordinate) clauses to a main (independent) clause using subordinating conjunctions and/or relative pronouns.</p>"
+    },
+    {
+      "id": "7b2c8198-09e0-4f19-b4da-346b1b16d4ae",
+      "codename": "en__compose",
+      "title": "compose",
+      "slug": "compose",
+      "description": "<p>Develop and/or produce signed, spoken, written or multimodal texts in print, visual, oral or digital forms.</p>\n<p><em>See</em> <a data-item-id=\"3953c626-97bc-4923-ab4d-3c24cf3c8e8d\" href=\"\">create</a></p>"
+    },
+    {
+      "id": "603cbf62-dab4-4938-b7f0-4779935a30b9",
+      "codename": "compound_sentence",
+      "title": "compound sentence",
+      "slug": "compound-sentence",
+      "description": "<p>A sentence comprising 2 or more independent clauses joined by a coordinating conjunction.</p>"
+    },
+    {
+      "id": "86b5b8b2-0a17-416c-8c58-adbb8b7d4dca",
+      "codename": "compound_word",
+      "title": "compound word",
+      "slug": "compound-word",
+      "description": "<p>A word consisting of 2 or more base words, e.g. farmyard = farm + yard.</p>"
+    },
+    {
+      "id": "68f4bbbc-7780-4ba1-b9f0-2136f2179ab7",
+      "codename": "en__conditional_connective",
+      "title": "conditional connective",
+      "slug": "conditional-connective",
+      "description": "<p>A word, or groups of words, that describes the condition that needs to be met for something to happen. This may be in the form of a word ‘if’ or phrase ‘in this case’.</p>"
+    },
+    {
+      "id": "418161fa-23f5-4755-9d4d-c01df8f36ff1",
+      "codename": "en__conjunction",
+      "title": "conjunction",
+      "slug": "conjunction",
+      "description": "<p>A form of connective. A word or group of words used to link together words, phrases or clauses within sentences.</p>"
+    },
+    {
+      "id": "e0c5ce84-4fee-4479-9651-f4ad82be7570",
+      "codename": "en__connective",
+      "title": "connective",
+      "slug": "connective",
+      "description": "<p>A word or group of words used to connect sentences, clauses, phrases or words. A connective is commonly a conjunction, a preposition or an adverb.</p>"
+    },
+    {
+      "id": "55e646fc-d2ee-4c32-b299-582e7d49ffb7",
+      "codename": "en__connotation",
+      "title": "connotation",
+      "slug": "connotation",
+      "description": "<p>The nuances or implied meaning attached to language, beyond that of its literal or dictionary meanings. Connotations may be positive, negative, or neutral.</p>"
+    },
+    {
+      "id": "37ca91f0-b451-4875-8831-405c86f352db",
+      "codename": "consonant_digraph",
+      "title": "consonant digraph",
+      "slug": "consonant-digraph",
+      "description": "<p>Two consonant graphemes used to represent one phoneme.</p>\n<p>For example:</p>\n<ul>\n  <li>th in that</li>\n  <li>sh in shy</li>\n  <li>kn in knee.</li>\n</ul>"
+    },
+    {
+      "id": "512faf88-1fa7-4201-94a4-fbc7b719869b",
+      "codename": "consonant_phoneme",
+      "title": "consonant phoneme",
+      "slug": "consonant-phoneme",
+      "description": "<p>A speech sound produced with a complete or partial obstruction of the flow of air by the teeth, lips, tongue and/or voice.</p>"
+    },
+    {
+      "id": "e98401d6-717d-4851-bbed-d1eaa7da00e5",
+      "codename": "en__construct",
+      "title": "construct",
+      "slug": "construct",
+      "description": "<p>Make; build; put together items or arguments.</p>"
+    },
+    {
+      "id": "31d2c434-c6b7-4575-8960-6cde8634de08",
+      "codename": "en__context",
+      "title": "context",
+      "slug": "context2",
+      "description": "<p>The range of personal, situational, social, historical and cultural circumstances that shape how texts and their representations are conceived, constructed, understood and interpreted.</p>"
+    },
+    {
+      "id": "07703014-1ede-46ec-b232-59a99cb8f91b",
+      "codename": "contraction",
+      "title": "contraction",
+      "slug": "contraction",
+      "description": "<p>A shortened form of one or 2 words (one of which is usually a verb). In a contraction, an apostrophe takes the place of the missing letter or letters.</p>"
+    },
+    {
+      "id": "dc609ac3-13a1-4967-a472-fa63aa81f1bf",
+      "codename": "contrast",
+      "title": "contrast",
+      "slug": "contrast",
+      "description": "<p>Show how things are different or opposite.</p>"
+    },
+    {
+      "id": "6212df83-b71d-482f-b99b-c887a93ada96",
+      "codename": "al_prisec_gls_conventions",
+      "title": "conventions",
+      "slug": "conventions",
+      "description": "<p>Accepted practices or features that help define textual forms, creative forms, styles and meaning.</p>"
+    },
+    {
+      "id": "90ffd55e-a3c8-412a-82c0-22298669eca3",
+      "codename": "coordinating_conjunction",
+      "title": "coordinating conjunction",
+      "slug": "coordinating-conjunction",
+      "description": "<p>A word or group of words that functions to link:</p>\n<ul>\n  <li>2 words or phrases within a sentence, e.g. <em>shoes and socks</em></li>\n  <li>2&nbsp;independent clauses within a sentence.</li>\n</ul>"
+    },
+    {
+      "id": "6945d7ec-bb3f-4080-854b-93fb654c061c",
+      "codename": "ml__create",
+      "title": "create",
+      "slug": "create",
+      "description": "<p>Develop and/or produce signed, spoken, written or multimodal texts in print, visual, oral or digital forms.</p>\n<p><em>See </em><a data-item-id=\"e62467ea-dfcd-4f3f-9178-8fe7b76d97dc\" href=\"\">compose</a></p>"
+    },
+    {
+      "id": "31c7a0af-95ed-43be-8dd2-e79fbb9b99da",
+      "codename": "cvc_words",
+      "title": "CVC words",
+      "slug": "cvc-words",
+      "description": "<p>Words formed by a consonant-vowel-consonant. For example, cat, bag, pen.</p>"
+    },
+    {
+      "id": "e7fd53b4-b8cd-4b1d-bf2c-2f3b1e3470ec",
+      "codename": "en__dash",
+      "title": "dash",
+      "slug": "dash",
+      "description": "<p>A punctuation marker used to indicate an abrupt break or pause in a sentence, to begin and end a parenthetic clause, as an indication of omitted letters or words.</p>"
+    },
+    {
+      "id": "befd8205-09fa-4c4e-b4fa-dbdb331108ca",
+      "codename": "en__declarative_sentence",
+      "title": "declarative sentence",
+      "slug": "declarative-sentence",
+      "description": "<p>A statement presented as a complete sentence to provide fact, evidence or detail. For example: Drinking water is important for your health.</p>"
+    },
+    {
+      "id": "7b75b276-8346-42c8-b96f-d9895568a874",
+      "codename": "decodable_texts",
+      "title": "decodable texts",
+      "slug": "decodable-texts",
+      "description": "<p>Texts that are made up of grapheme–phoneme correspondences (GPCs) that students have learnt. These texts are used by beginning readers to practise segmenting and blending skills to read words, quickly and effortlessly.</p>\n<p><em>See</em> <a data-item-id=\"8a541d2a-597f-4a56-961a-34b6a22080ae\" href=\"\">automaticity</a></p>"
+    },
+    {
+      "id": "f80314a3-8df7-4e87-8a79-7990ca19ad81",
+      "codename": "decode",
+      "title": "decode",
+      "slug": "decode",
+      "description": "<p>A process of efficient word recognition in which readers use knowledge of the relationship between letters (graphemes) and sounds (phonemes) to work out how to say and read written words.</p>"
+    },
+    {
+      "id": "ec47ee12-c5b8-459b-83b2-65c5ba417021",
+      "codename": "en__define",
+      "title": "define",
+      "slug": "define",
+      "description": "<p>State meaning and identify essential qualities.</p>"
+    },
+    {
+      "id": "24e97366-fcb8-4325-ae46-81e7d25d6ce1",
+      "codename": "en__definite_article",
+      "title": "definite article",
+      "slug": "definite-article",
+      "description": "<p>In English, the definite article is the word ‘the’. It’s located before a noun to indicate that the noun is specific.</p>"
+    },
+    {
+      "id": "1a46ec56-b0a7-40f4-9180-f4544ca45b81",
+      "codename": "en__demonstrate",
+      "title": "demonstrate",
+      "slug": "demonstrate",
+      "description": "<p>Show by example.</p>"
+    },
+    {
+      "id": "4f11844f-091a-48c1-8574-d9027b7f4a22",
+      "codename": "en__derivational_word_form",
+      "title": "derivational word form",
+      "slug": "derivational-word-form",
+      "description": "<p>A new word that is formed from another word, usually by adding a derivational suffix to change its grammatical form. For example,<strong> </strong>the noun, <em>proposition, </em>derives from the verb, <em>propose</em>, and contains the derivational suffix,<em> -ion.</em></p>"
+    },
+    {
+      "id": "bd29a3ad-e762-48a9-875b-1dea833787c2",
+      "codename": "en__describe",
+      "title": "describe",
+      "slug": "describe",
+      "description": "<p>Provide characteristics and features.</p>"
+    },
+    {
+      "id": "c01ea0f2-2274-4a4e-af27-ddef3b68352c",
+      "codename": "dialogue",
+      "title": "dialogue",
+      "slug": "dialogue",
+      "description": "<p>A&nbsp;conversation between 2 or more people: the conversation between characters in a text, an exchange of ideas or opinions on a particular issue, or a literary work in the form of a conversation.</p>"
+    },
+    {
+      "id": "0044cdd9-ea28-4968-b33c-9d3535312601",
+      "codename": "en__digital_text",
+      "title": "digital text",
+      "slug": "digital-text",
+      "description": "<p>An audio, visual or multimodal text produced by electronic technology. A digital text may be interactive and include still and/or dynamic images, animations and/or hyperlinks.</p>"
+    },
+    {
+      "id": "665b7adf-e8a6-4b43-8c57-e37db0146ba3",
+      "codename": "digraph",
+      "title": "digraph",
+      "slug": "digraph",
+      "description": "<p>Two graphemes used to represent one phoneme.</p>\n<p>For example:</p>\n<ul>\n  <li>consonant digraphs – sh, ck, th</li>\n  <li>split digraphs – a-e, i-e, o-e</li>\n  <li>vowel digraphs – ee, oo, ea.</li>\n</ul>"
+    },
+    {
+      "id": "acbb9275-5db0-44df-b22e-c169c6c4e1f8",
+      "codename": "en__diphthong",
+      "title": "diphthong",
+      "slug": "diphthong",
+      "description": "<p>A type of vowel phoneme, also known as a glide vowel, formed by combining 2 vowel sounds within a single syllable. For example, /oi/ in j<em>oi</em>n, /ou/ in pr<em>ou</em>d.</p>"
+    },
+    {
+      "id": "97b992aa-766e-455b-8103-88d21dbd8a5a",
+      "codename": "en__discursive_text",
+      "title": "discursive text",
+      "slug": "discursive-text",
+      "description": "<p>Texts whose primary focus is to explore an idea or variety of topics. These texts involve the discussion of an idea(s) or opinion(s) without the direct intention of persuading the reader, listener or viewer to adopt any single point of view.</p>"
+    },
+    {
+      "id": "172d8e06-88ca-4de4-aef0-464724f9f099",
+      "codename": "en__discuss",
+      "title": "discuss",
+      "slug": "discuss",
+      "description": "<p>Identify issues and provide points for and/or against.</p>"
+    },
+    {
+      "id": "8bc25711-49ff-46e4-85ae-855f29c1bb98",
+      "codename": "double_consonant",
+      "title": "double consonant",
+      "slug": "double-consonant",
+      "description": "<p>Two of the same consecutive letters. Also referred to as a consonant doublet.</p>"
+    },
+    {
+      "id": "6fc5c459-865d-4a83-bee5-7a068e8f69d3",
+      "codename": "encode",
+      "title": "encode",
+      "slug": "encode",
+      "description": "<p>Spell words in their visible written form.</p>"
+    },
+    {
+      "id": "b797041c-a470-4105-8b82-de83a4e31861",
+      "codename": "en__etymology",
+      "title": "etymology",
+      "slug": "etymology",
+      "description": "<p>The origins of, and changes to, words in relation to meaning.</p>\n<p>Words derived from earlier or other languages, place names, words derived from people's names, coinages.</p>"
+    },
+    {
+      "id": "e39b478b-e951-404f-9c53-55b266bed888",
+      "codename": "al_prisec_gls_evaluate",
+      "title": "evaluate",
+      "slug": "evaluate",
+      "description": "<p>Make a judgement based on criteria; determine the value of.</p>"
+    },
+    {
+      "id": "46c6cca8-61be-4e3d-a515-f2100fdb2b33",
+      "codename": "en__examine",
+      "title": "examine",
+      "slug": "examine",
+      "description": "<p>Inquire into.</p>"
+    },
+    {
+      "id": "3817be2b-2aa6-4162-ace0-0acfe18e51a0",
+      "codename": "en__exclamation_mark",
+      "title": "exclamation mark",
+      "slug": "exclamation-mark",
+      "description": "<p>A punctuation marker used after an exclamation.</p>"
+    },
+    {
+      "id": "f3bb20a3-ec50-4c86-9722-041f5b164f66",
+      "codename": "en__exclamatory_sentence",
+      "title": "exclamatory sentence",
+      "slug": "exclamatory-sentence",
+      "description": "<p>A statement expressing a strong emotion, formed as a complete sentence, and often ending with an exclamation mark.</p>"
+    },
+    {
+      "id": "57cf2927-d739-4fc1-a8c2-6cb33cce656e",
+      "codename": "en__expanded_noun_group",
+      "title": "expanded noun group",
+      "slug": "expanded-noun-group",
+      "description": "<p>An extended group of words that provide rich or detailed information about the noun.</p>"
+    },
+    {
+      "id": "b10a1d16-f516-4091-8358-49aa0161555d",
+      "codename": "en__expanded_verb_group",
+      "title": "expanded verb group",
+      "slug": "expanded-verb-group",
+      "description": "<p>A main verb that is preceded by one or more auxiliary or modal verbs to provide detail or precision.</p>"
+    },
+    {
+      "id": "e1c46fa9-3be9-4dfa-aa48-c3bf2d002cad",
+      "codename": "en__explain",
+      "title": "explain",
+      "slug": "explain",
+      "description": "<p>Relate cause and effect; make the relationships between things evident; or provide why and/or how.</p>"
+    },
+    {
+      "id": "bc6cfc10-8e8e-4a8b-8801-7c3754b331fd",
+      "codename": "extended_phonic_code",
+      "title": "extended phonic code",
+      "slug": "extended-phonic-code",
+      "description": "<p>The vowel and consonant phonemes which are represented by less frequently occurring and alternative spellings.</p>"
+    },
+    {
+      "id": "7bf161ba-06e1-4cb8-851c-85f1999c763d",
+      "codename": "figurative_language",
+      "title": "figurative language",
+      "slug": "figurative-language",
+      "description": "<p>Word groups/phrases used differently from the expected or everyday usage to express an idea in a non-literal way for a particular effect.</p>"
+    },
+    {
+      "id": "fce9e02e-9acb-4659-9711-f50cedf9cc3b",
+      "codename": "fluency",
+      "title": "fluency",
+      "slug": "fluency",
+      "description": "<p>Reading, speaking, encoding and spelling with appropriate pace and accuracy.</p>"
+    },
+    {
+      "id": "62bbcb35-056f-4417-adf9-507c45be4ae1",
+      "codename": "fluent_reading",
+      "title": "fluent reading",
+      "slug": "fluent-reading",
+      "description": "<p>The act of identifying words accurately, effortlessly, at a contextually appropriate rate, and with phrasing and expression that reflects the meaning of the passage.</p>"
+    },
+    {
+      "id": "36a68f93-a2e0-4e94-8080-ed97a08a7b49",
+      "codename": "full_stop",
+      "title": "full stop (.)",
+      "slug": "full-stop",
+      "description": "<p>A punctuation marker used to indicate the end of a sentence that is a statement or command.</p>"
+    },
+    {
+      "id": "0822ad61-50b9-44d9-b410-7f198ac1c28b",
+      "codename": "glb_prisec_gls_genre",
+      "title": "genre",
+      "slug": "genre",
+      "description": "<p>The categories into which texts are grouped based on similarities in premise, structure and function. The ‘genre’ of a text describes larger recurring patterns of subject matter and textual structures observable between texts, such as typical plots, characters and setting.</p>\n<p>‘Genre’ can also describe categories of form and structure in texts.</p>"
+    },
+    {
+      "id": "f9ee0064-ab21-4897-a372-9b3ece4aa20c",
+      "codename": "en__gesture",
+      "title": "gesture",
+      "slug": "gesture2",
+      "description": "<p>A nonverbal form of communication using movement of part of the body, such as a hand or the head, to express a message.</p>"
+    },
+    {
+      "id": "4e4c9da7-2f41-42f1-9686-6b6a5070cfe2",
+      "codename": "en__gist_statements",
+      "title": "gist statements",
+      "slug": "gist-statements",
+      "description": "<p>Succinct thoughts and information that capture the generalisations gleaned from what has been read, heard or viewed.</p>"
+    },
+    {
+      "id": "f11b857b-68d9-494d-899e-ea65bec943f1",
+      "codename": "grammar",
+      "title": "grammar",
+      "slug": "grammar",
+      "description": "<p>A description of a language’s system, in regard to both structure (form) and meaning (function), at the level of a word, sentence and/or text.</p>"
+    },
+    {
+      "id": "2fa9ea21-c2aa-465a-80cd-1cc7d0b9eb23",
+      "codename": "grapheme",
+      "title": "grapheme",
+      "slug": "grapheme",
+      "description": "<p>The smallest unit of writing used to represent one phoneme. A letter or combination of letters corresponding to or representing a single phoneme.</p>\n<p>Examples include:</p>\n<ul>\n  <li>the f in frog</li>\n  <li>the ph in phone</li>\n  <li>the gh in cough</li>\n</ul>"
+    },
+    {
+      "id": "df773cb2-6111-4b86-9f41-5e1c6f112da8",
+      "codename": "grapheme_phoneme_correspondence",
+      "title": "grapheme–phoneme correspondence",
+      "slug": "grapheme-phoneme-correspondence",
+      "description": "<p>The relationship between phoneme and its written alphabetic symbol (grapheme).</p>"
+    },
+    {
+      "id": "a1df7c7f-090b-45b2-b7f1-2f9c76dfd80d",
+      "codename": "high_frequency_words",
+      "title": "high-frequency words",
+      "slug": "high-frequency-words",
+      "description": "<p>Words that appear often in written texts.</p>"
+    },
+    {
+      "id": "eb77d95d-fdc7-4031-ba4a-6b09d8fac264",
+      "codename": "en__home_language",
+      "title": "home language",
+      "slug": "home-language",
+      "description": "<p>A language acquired and used in the home or community.</p>"
+    },
+    {
+      "id": "5dec9951-c566-441b-ba6c-ccfbf26f4f36",
+      "codename": "homonym",
+      "title": "homonym",
+      "slug": "homonym",
+      "description": "<p>A word having the same sound and the same spelling as another, but a different meaning.</p>"
+    },
+    {
+      "id": "1463ee11-a04f-495a-8e6a-ea270f0fc78d",
+      "codename": "homophone",
+      "title": "homophone",
+      "slug": "homophone",
+      "description": "<p>A word having the same sound as another but different spelling and meaning.</p>"
+    },
+    {
+      "id": "2a2554f9-1e57-4f16-888c-34656cbde006",
+      "codename": "hybrid_text",
+      "title": "hybrid text",
+      "slug": "hybrid-text",
+      "description": "<p>Composite texts resulting from combining elements from different genres, styles and modes.</p>"
+    },
+    {
+      "id": "73e3f0fd-b111-4742-97b4-936fd1602ecb",
+      "codename": "en__hyperbole",
+      "title": "hyperbole",
+      "slug": "hyperbole",
+      "description": "<p>An exaggerated statement not intended to be taken literally; may be used as a rhetorical device or figure of speech.</p>"
+    },
+    {
+      "id": "a144877f-dc0c-4927-b3f3-53239b616253",
+      "codename": "hyperlink",
+      "title": "hyperlink",
+      "slug": "hyperlink",
+      "description": "<p>A hyperlink is a text, image, frame or button that when clicked or tapped will open another webpage, website, image, sound, document or application, such as email. Hyperlinks are often used within documents to link to other pages or sections.</p>"
+    },
+    {
+      "id": "ed3ee0e5-9eb1-4ce2-90b4-04d1667417ec",
+      "codename": "en__hyphen",
+      "title": "hyphen",
+      "slug": "hyphen",
+      "description": "<p>A punctuation marker used to connect the parts of a compound word or the parts of a word divided for any purpose.</p>"
+    },
+    {
+      "id": "9bda9bb2-df51-439d-a41a-0cfabef71478",
+      "codename": "en__hyphenation",
+      "title": "hyphenation",
+      "slug": "hyphenation",
+      "description": "<p>Used at the end of a line, to break a word between syllables or morphemes.</p>"
+    },
+    {
+      "id": "391b7e99-4162-4c80-a970-754a988c3e4f",
+      "codename": "en__identify",
+      "title": "identify",
+      "slug": "identify",
+      "description": "<p>Recognise and name.</p>"
+    },
+    {
+      "id": "1cdfac0c-39ad-4cd7-a10c-35bc5402df69",
+      "codename": "en__idiom",
+      "title": "idiom",
+      "slug": "idiom",
+      "description": "<p>A commonly used phrase or expression, usually figurative or non-literal, that has an understood meaning specific to a language or dialect, e.g. over the moon, half asleep, pull your socks up.</p>"
+    },
+    {
+      "id": "6331c197-c9f0-40d8-b2d1-881635a077c0",
+      "codename": "imagery",
+      "title": "imagery",
+      "slug": "imagery",
+      "description": "<p>Use of figurative language to represent objects, characters, actions or ideas in such a way that they appeal to the senses of the reader or viewer.</p>"
+    },
+    {
+      "id": "48d934e6-d6b8-4758-9417-1fe5d30acaf3",
+      "codename": "en__imaginative_text",
+      "title": "imaginative text",
+      "slug": "imaginative-text",
+      "description": "<p>Texts that represent ideas, feelings and mental images in words or visual images. Imaginative texts entertain or provoke thought through their creative use of literary elements and make connections between ideas and experiences.</p>"
+    },
+    {
+      "id": "0cc0d7a2-81a5-4501-be9a-cbd0d067ca21",
+      "codename": "en__imperative_sentence",
+      "title": "imperative sentence",
+      "slug": "imperative-sentence",
+      "description": "<p>A complete sentence conveying a direct command, request, invitation, warning or instruction, typically directed to an implied person.</p>"
+    },
+    {
+      "id": "ebffe324-e303-49a7-8cf0-32da95423ae8",
+      "codename": "en__indefinite_article",
+      "title": "indefinite article",
+      "slug": "indefinite-article",
+      "description": "<p>In English, the indefinite article is either the word ‘a’ or ‘an’. It’s located before a noun to indicate that the noun is general.</p>"
+    },
+    {
+      "id": "86fa90e2-35b6-4b8a-b1ae-a0910dc1609d",
+      "codename": "ma__inference",
+      "title": "inference",
+      "slug": "inference",
+      "description": "<p>A conclusion reached on the basis of evidence and reasoning.</p>"
+    },
+    {
+      "id": "9319f359-b991-4904-a3d1-cf502be61d93",
+      "codename": "en__inferencing",
+      "title": "inferencing",
+      "slug": "inferencing",
+      "description": "<p>Local inferencing requires the reader to comprehend implied information from within relatively small sections of text, such as 2 adjacent sentences.</p>\n<p>Global inferencing requires the reader to comprehend implied information from across relatively larger sections of text and is supported by the reader’s depth of vocabulary and background knowledge.</p>"
+    },
+    {
+      "id": "eaacdfb7-4dc4-4bc9-b218-41c61fc9defa",
+      "codename": "inflected_word_forms",
+      "title": "inflected word forms",
+      "slug": "inflected-word-forms",
+      "description": "<p>A word form that marks a distinction in tense (jump-jump<em>s</em>-jump<em>ing</em>-jump<em>ed</em>), plurality (cat-cat<em>s</em>), and comparatives and superlatives (big-bigg<em>er</em>-bigg<em>est</em>).</p>\n<p><em>See</em> <a data-item-id=\"8ffee150-b623-497b-8177-d26a128a676b\" href=\"\">suffix</a></p>"
+    },
+    {
+      "id": "2bb750e8-ec49-43c4-8ef7-dcaea045f2e6",
+      "codename": "en__informative_text",
+      "title": "informative text",
+      "slug": "informative-text",
+      "description": "<p>Texts whose primary purpose is to provide information through explanation, description, argument, analysis, ordering and presentation of evidence and procedures.</p>"
+    },
+    {
+      "id": "c94eff8f-9cb7-4d32-8818-1fe7c377087a",
+      "codename": "interpersonal_conventions",
+      "title": "interpersonal conventions",
+      "slug": "interpersonal-conventions",
+      "description": "<p>Contextually purposeful language resources used for interacting; expressing ideas, opinions and feelings; and/or for taking a stance.</p>"
+    },
+    {
+      "id": "47aa647d-5e6e-40ec-8174-8b1a934b87d3",
+      "codename": "en__interpret",
+      "title": "interpret",
+      "slug": "interpret2",
+      "description": "<p>Draw meaning from.</p>"
+    },
+    {
+      "id": "ba0d0d7e-1215-41f0-9c69-a0ac330e7278",
+      "codename": "en__interrogative_sentence",
+      "title": "interrogative sentence",
+      "slug": "interrogative-sentence",
+      "description": "<p>A sentence that asks a direct or indirect question.</p>"
+    },
+    {
+      "id": "6d30644c-bf99-4ef1-8301-36fa193b3c47",
+      "codename": "en__intertextuality",
+      "title": "intertextuality",
+      "slug": "intertextuality",
+      "description": "<p>The various ways in which texts may be understood to draw meaning from one another, either by explicit, implied or inferred reference.</p>"
+    },
+    {
+      "id": "a9b597af-336f-4e4e-9220-151ee98ccff7",
+      "codename": "shared__intonation_a9b597a",
+      "title": "intonation",
+      "slug": "intonation",
+      "description": "<p>The pattern or melody of pitch changes in connected speech, especially the pitch pattern of a sentence.</p>"
+    },
+    {
+      "id": "a6df6800-0170-49f3-aae0-8bd2e0963bd1",
+      "codename": "investigate",
+      "title": "investigate",
+      "slug": "investigate",
+      "description": "<p>Plan, inquire into and draw conclusions about.</p>"
+    },
+    {
+      "id": "7dd60bba-85e9-418e-8ccf-221683b42bf0",
+      "codename": "en__irregular_plural_word",
+      "title": "irregular plural word",
+      "slug": "irregular-plural-word",
+      "description": "<p>A noun that indicates more than one thing without requiring a plural marking suffix, <em>-s </em>or -<em>es</em>.</p>\n<p><em>Mouse </em>is a singular noun and <em>mice </em>is an irregular noun.</p>"
+    },
+    {
+      "id": "d9f0a631-cbdc-417a-82d0-c56bf4fea608",
+      "codename": "en__justify",
+      "title": "justify",
+      "slug": "justify",
+      "description": "<p>Support an argument or conclusion.</p>"
+    },
+    {
+      "id": "fc35de91-9d8e-4a37-a405-7f9b272a5a20",
+      "codename": "en__lexical_cohesion",
+      "title": "lexical cohesion",
+      "slug": "lexical-cohesion",
+      "description": "<p>The use of word associations to create links in texts. Examples of links are the use of repetition of words, pronouns, synonyms, antonyms and words that are related, such as by class and subclass.</p>"
+    },
+    {
+      "id": "e116361f-b95f-4801-bc51-266317831a34",
+      "codename": "en__literal",
+      "title": "literal",
+      "slug": "literal",
+      "description": "<p>Having only the most direct meaning.</p>"
+    },
+    {
+      "id": "c6877a7d-2755-4db2-bf83-691e6202f1e3",
+      "codename": "en__literary_value",
+      "title": "literary value",
+      "slug": "literary-value",
+      "description": "<p>The many ways in which audiences across time assign importance to texts. This may include the perceived authenticity, universality or significance of their representations of personal, social or cultural experiences and ideas. It may also include the aesthetic qualities and artistic significance of a text.</p>\n<p>Specific texts that are considered to hold enduring value for society are often termed ‘canonical’ or ‘classic’ texts.</p>"
+    },
+    {
+      "id": "7cfeab4f-3242-42a5-af62-a7ccd71c2789",
+      "codename": "literature",
+      "title": "literature",
+      "slug": "literature",
+      "description": "<p>An evolving category of text that is broadly seen by its audience to hold enduring personal, social, cultural or aesthetic value. Literature comprises a dynamic range of fiction and nonfiction texts from diverse historical and cultural contexts.</p>"
+    },
+    {
+      "id": "fee9d479-f79f-4acc-8e44-859e76580cea",
+      "codename": "media",
+      "title": "media",
+      "slug": "media",
+      "description": "<p>Means of communication, such as publishing, broadcasting or the internet.</p>\n<p>Plural of medium.</p>"
+    },
+    {
+      "id": "d0403b56-fb93-449d-8eed-2a3d1b2576d8",
+      "codename": "en__medium",
+      "title": "medium",
+      "slug": "medium",
+      "description": "<p>Means of communication, such as publishing, broadcasting or the internet.</p>\n<p>Singular of media.</p>"
+    },
+    {
+      "id": "32a0bfd5-c7e9-4909-8698-26da55067f18",
+      "codename": "mental_model",
+      "title": "mental model",
+      "slug": "mental-model",
+      "description": "<p>A mental representation of the information in a real or an imaginary world. A student develops a mental model as the text progresses. It may include information derived from inferences and from background knowledge as well as from what is explicitly stated in the text itself.</p>"
+    },
+    {
+      "id": "e04f5150-df2e-444a-b55a-71132c68ac74",
+      "codename": "mentor_text",
+      "title": "mentor text",
+      "slug": "mentor-text",
+      "description": "<p>A text that is studied as an example to show how specific textual features are crafted. Also known as a model text.</p>"
+    },
+    {
+      "id": "93a2be47-fbf8-497c-bb96-2d753c604d01",
+      "codename": "al_prisec_gls_metalanguage",
+      "title": "metalanguage",
+      "slug": "metalanguage",
+      "description": "<p>Technical terms used to describe and discuss how language and texts function.</p>"
+    },
+    {
+      "id": "4bbbcf5d-1db6-4a27-a800-1d61a1b6460a",
+      "codename": "en__metaphor",
+      "title": "metaphor",
+      "slug": "metaphor",
+      "description": "<p>Linguistic – a figure of speech used for effect that implies one thing by referring to another.</p>\n<p>Literary – an object, entity or situation that can be regarded as representing something else.</p>"
+    },
+    {
+      "id": "984558ea-25ea-441a-97e4-1339b1a7e961",
+      "codename": "en__modality",
+      "title": "modality",
+      "slug": "modality2",
+      "description": "<p>Aspects of language that suggest a particular perspective on subjects and/or events. Modality forms a continuum from high modality (always, must) to low modality (might, could).</p>"
+    },
+    {
+      "id": "9a1148b4-41c0-432b-9005-4faf1a7a68f2",
+      "codename": "mode",
+      "title": "mode",
+      "slug": "mode2",
+      "description": "<p>A semiotic (meaning-making) resource or process of communication. For example, sounds, music, printed or spoken words, images and gestures.</p>"
+    },
+    {
+      "id": "f84d2581-a180-4ded-a48f-014709bbc6c3",
+      "codename": "en__model_text",
+      "title": "model text",
+      "slug": "model-text",
+      "description": "<p>A text that is studied as an example to show how specific textual features are crafted. Also known as a mentor text.</p>"
+    },
+    {
+      "id": "742aca59-58db-46b7-80f9-e2df86314ffd",
+      "codename": "en__modifier",
+      "title": "modifier",
+      "slug": "modifier",
+      "description": "<p>Words, phrases and clauses that affect and often enhance the meaning of a sentence.</p>"
+    },
+    {
+      "id": "8ad18ec7-400a-4da5-be4e-fb0f6921497b",
+      "codename": "en__monitoring",
+      "title": "monitoring",
+      "slug": "monitoring",
+      "description": "<p>Considering meaning and/or purpose when reading and/or writing.</p>"
+    },
+    {
+      "id": "93a278c1-92e0-4594-8397-f9c2871624aa",
+      "codename": "lang_prisec_gls_morpheme",
+      "title": "morpheme",
+      "slug": "morpheme",
+      "description": "<p>The smallest unit of meaning in a word, e.g. jumps has 2 morphemes: jump + s.</p>"
+    },
+    {
+      "id": "4111b1cd-ef5f-4049-953f-fe6410c1252c",
+      "codename": "morphological_generalisation",
+      "title": "morphological generalisation",
+      "slug": "morphological-generalisation",
+      "description": "<p>A spelling term that describes the manipulation and control of a particular base or root word when it is affixed with a prefix and/or suffix.</p>"
+    },
+    {
+      "id": "09dbc282-10eb-4909-96b3-a9c8f35506db",
+      "codename": "multimodal_text",
+      "title": "multimodal text/presentation",
+      "slug": "multimodal-text-presentation",
+      "description": "<p>A text that combines 2 or more expressive modes to communicate.</p>"
+    },
+    {
+      "id": "80839a19-1dc9-4967-a429-0ca6397e5da0",
+      "codename": "multisyllabic_words",
+      "title": "multisyllabic words",
+      "slug": "multisyllabic-words",
+      "description": "<p>Words of 2 or more syllables.</p>"
+    },
+    {
+      "id": "ca4865bf-7f66-48e5-857e-c377305de304",
+      "codename": "narrative",
+      "title": "narrative",
+      "slug": "narrative",
+      "description": "<p>An account of events or experiences, which are real or imagined. In English literary theory, narrative includes a story (what is narrated) and a discourse (how it is narrated). Narrative can present as an explicit sequencing of events (type of text) or it can be an implied or inferred component in a text.</p>"
+    },
+    {
+      "id": "6689efde-45d3-4952-babe-113d6dee143f",
+      "codename": "navigation_pathway",
+      "title": "navigation pathway",
+      "slug": "navigation-pathway",
+      "description": "<p>A possible way to move around and locate content on a digital platform.</p>"
+    },
+    {
+      "id": "75e465c0-34e9-4c82-996a-e0a61bad950d",
+      "codename": "en__nominalisation",
+      "title": "nominalisation",
+      "slug": "nominalisation",
+      "description": "<p>A process of transforming actions or events (verbs) or descriptions of nouns and pronouns (adjectives) into things, concepts or people (nouns). It can also refer to the process of forming noun groups from clauses. Nominalisation is often a feature of texts that contain abstract ideas and concepts.</p>"
+    },
+    {
+      "id": "1f9e3149-6e85-4e0c-b9a3-0977cb217c0b",
+      "codename": "non_words",
+      "title": "non-words",
+      "slug": "non-words",
+      "description": "<p>Words that contain phoneme–grapheme correspondences that are plausible.</p>\n<p>Also referred to as pseudowords. For example, drot, shann, glick.</p>"
+    },
+    {
+      "id": "7a7c66cb-7766-425c-88ff-44499cd71ad8",
+      "codename": "nonfiction",
+      "title": "nonfiction",
+      "slug": "nonfiction",
+      "description": "<p>Text intended to convey the truth.</p>"
+    },
+    {
+      "id": "691ed36e-4bac-49ae-8e66-6d80ea098ca0",
+      "codename": "noun",
+      "title": "noun",
+      "slug": "noun",
+      "description": "<p>A word used to represent people, places, ideas and things.</p>\n<ul>\n  <li>Common nouns: nouns used to name any one of a class of things, e.g. girl, classroom, egg.</li>\n  <li>Proper nouns: nouns used to name a place, a person or the title of something and are signalled by a capital letter, e.g. Wagga Wagga, Sam,&nbsp;Olympic Games.</li>\n  <li>Collective nouns: nouns used to name a group of things, e.g. crowd, swarm, team.</li>\n  <li>Abstract nouns: nouns used to name things that we cannot see but which exist in thoughts and feelings, e.g. sadness, love, wonder.</li>\n</ul>\n<p><em>See </em><a data-item-id=\"5bb8a029-d380-4118-aab8-2e9dd1d06427\" href=\"\">pronoun</a></p>"
+    },
+    {
+      "id": "d07817e0-ec8b-434a-8026-7358fdab4b30",
+      "codename": "en__noun_group",
+      "title": "noun group",
+      "slug": "noun-group",
+      "description": "<p>A group of words built around a noun.</p>\n<p>Noun groups:</p>\n<ul>\n  <li>include a noun and any words that modify it</li>\n  <li>may include articles, adjectives and other modifiers</li>\n  <li>operate the same way as a single noun in the structure of a sentence.</li>\n</ul>"
+    },
+    {
+      "id": "615e538b-5986-4a5a-acaa-a77deea7d3d3",
+      "codename": "noun_pronoun_argeement",
+      "title": "noun–pronoun agreement",
+      "slug": "noun-pronoun-agreement",
+      "description": "<p>Occurs where the correct pronoun is selected for the noun or noun group to which it is referring. For example: The <em>children </em>were looking for <em>their </em>father in the supermarket.</p>"
+    },
+    {
+      "id": "957dc754-d52a-4bca-823f-4b82ffd66d5f",
+      "codename": "noun_verb_agreement",
+      "title": "noun–verb agreement",
+      "slug": "noun-verb-agreement",
+      "description": "<p>Occurs where the correct verb is selected for the noun or noun group to which it is referring.</p>\n<p>For example:</p>\n<ul>\n  <li>A singular subject has a singular verb: <em>the apple is</em> cold.</li>\n  <li>A<em> </em>plural subject has a plural verb: <em>these apples are </em>cold.</li>\n</ul>"
+    },
+    {
+      "id": "f03ec774-556f-4a66-a8bd-588f29d6c3ca",
+      "codename": "object_en",
+      "title": "object",
+      "slug": "object2",
+      "description": "<p>The noun, noun group or pronoun in a sentence that is affected by an action. For example: The child threw <em>the ball.</em></p>"
+    },
+    {
+      "id": "7a4755b9-016e-4eca-9a67-67f75ed5ed50",
+      "codename": "en__objective_language",
+      "title": "objective language",
+      "slug": "objective-language",
+      "description": "<p>Language that is fact-based, measurable and observable, verifiable and unbiased. It does not include a speaker or writer’s point of view, interpretation or judgement.</p>"
+    },
+    {
+      "id": "838e3e89-2db5-484b-ae4a-0287e8077927",
+      "codename": "onomatopoeia",
+      "title": "onomatopoeia",
+      "slug": "onomatopoeia",
+      "description": "<p>A word that phonetically imitates or is indicative of the sound that it describes. For example, bang, splash, oink, miaow.</p>"
+    },
+    {
+      "id": "410b5c6d-11bb-474f-80fc-199c8398669e",
+      "codename": "onset",
+      "title": "onset",
+      "slug": "onset",
+      "description": "<p>The consonant speech sound(s) that appear at the start of a syllable and before the vowel phoneme. For example, /b/ represents the onset in the word ‘<em>b</em>ig’.</p>\n<p><em>See </em><a data-item-id=\"72aca422-0700-4d36-8818-80bc123d4759\" href=\"\">rime</a></p>"
+    },
+    {
+      "id": "f9d9c401-7d2f-4d8b-80fc-2c95ddc445fc",
+      "codename": "oral_language",
+      "title": "oral language",
+      "slug": "oral-language",
+      "description": "<p>A system through which spoken words can be used to express, receive and understand information, ideas and feelings.</p>"
+    },
+    {
+      "id": "5cf09a76-cb43-4b62-a94e-4709915f301e",
+      "codename": "orthography",
+      "title": "orthography",
+      "slug": "orthography",
+      "description": "<p>The conventional written or visible word-level system of a language.</p>"
+    },
+    {
+      "id": "ee988993-7fbb-4882-9a72-75d902fd1d86",
+      "codename": "paragraph",
+      "title": "paragraph",
+      "slug": "paragraph",
+      "description": "<p>A sequence of sentences, grouped together and focused on a specific theme. A distinct section of writing indicated by a new line.</p>"
+    },
+    {
+      "id": "8197f3db-83d7-4a1b-acc4-9ce58bcafedb",
+      "codename": "en__paraphrase",
+      "title": "paraphrase",
+      "slug": "paraphrase",
+      "description": "<p>A rewording of something that has been written or spoken.</p>"
+    },
+    {
+      "id": "663c7090-27bd-4be5-bac0-e98ac17a390e",
+      "codename": "en__parenthesis",
+      "title": "parenthesis",
+      "slug": "parenthesis",
+      "description": "<p>A punctuation marker used to indicate an interjected explanatory or qualifying remark. <br>\n<br>\nPlural: parentheses</p>"
+    },
+    {
+      "id": "ffa27c5b-db48-41e3-82fa-c02eca42ddd0",
+      "codename": "en__personification",
+      "title": "personification",
+      "slug": "personification",
+      "description": "<p>Attributing human characteristics to abstractions such as love, things or animals.</p>\n<p><em>See </em><a data-item-id=\"718564f3-942f-4ce7-aec1-8eb0b2f2b955\" href=\"\">figurative language</a></p>"
+    },
+    {
+      "id": "bb2a6925-fdfb-4052-a1fd-17f3aaba419a",
+      "codename": "en__perspective",
+      "title": "perspective",
+      "slug": "perspective3",
+      "description": "<p>A lens through which the author perceives the world and creates a text, or the lens through which the reader or viewer perceives the world and understands a text. Readers may also temporarily adopt the perspectives of others as a way of understanding texts.</p>"
+    },
+    {
+      "id": "0ca28750-7219-4be2-ac7b-3a968b7ef600",
+      "codename": "en__persuasive_text",
+      "title": "persuasive text",
+      "slug": "persuasive-text",
+      "description": "<p>A text designed to convince a reader of a particular opinion or way of thinking on an issue. A persuasive text may express an opinion while discussing, analysing and/or evaluating an issue.</p>"
+    },
+    {
+      "id": "62028eef-6753-4184-9827-80e911e8514a",
+      "codename": "phoneme",
+      "title": "phoneme",
+      "slug": "phoneme",
+      "description": "<p>The smallest unit of speech sound.</p>\n<p>Examples include:</p>\n<ul>\n  <li>Cat has 3 phonemes: c/a/t</li>\n  <li>Truck has 4 phonemes: t/r/u/ck.</li>\n</ul>"
+    },
+    {
+      "id": "c526867b-5ad1-4196-ac6b-3aa2567b81c2",
+      "codename": "phonic_knowledge",
+      "title": "phonic knowledge",
+      "slug": "phonic-knowledge",
+      "description": "<p>The ability to decode and encode words using knowledge of grapheme–phoneme relationships.</p>"
+    },
+    {
+      "id": "b3bef33b-f40d-4ea9-9864-53e97c812d52",
+      "codename": "phonological_awareness3",
+      "title": "phonological awareness",
+      "slug": "phonological-awareness",
+      "description": "<p>The ability to hear, identify and say the separate parts of words (syllables, onsets, rimes and phonemes).</p>"
+    },
+    {
+      "id": "4bfc60ed-f347-4a3f-9441-21da9649a1d1",
+      "codename": "phrase",
+      "title": "phrase",
+      "slug": "phrase",
+      "description": "<p>A group of related words that form part of a sentence and do not include both a verb and its subject.</p>"
+    },
+    {
+      "id": "754cc765-027d-4217-a56d-b8f580f6d768",
+      "codename": "en__poetic_forms",
+      "title": "poetic forms",
+      "slug": "poetic-forms",
+      "description": "<p>Fixed forms within poetry that follow specific rules, such as ballad, sonnet, elegy, ode, dramatic monologue. The form will often be determined by the tone and subject matter. Note that some poets may deliberately subvert the fixed form.</p>"
+    },
+    {
+      "id": "72d631ef-df01-417d-b2a2-4134e6801053",
+      "codename": "en__point_of_view",
+      "title": "point of view",
+      "slug": "point-of-view",
+      "description": "<p>The position from which the information and events of a text are intended to be perceived by its audience. Point of view is constructed through the narrator, voice or images of the text and by characters or voices presented within it.</p>\n<p>Point of view should not be confused with the term ‘perspective’ or with notions of opinion.</p>"
+    },
+    {
+      "id": "f86a4323-f297-49c0-9b11-423250fe95e1",
+      "codename": "polysyllabic_words",
+      "title": "polysyllabic words",
+      "slug": "polysyllabic-words",
+      "description": "<p>Words of 3 or more syllables.</p>"
+    },
+    {
+      "id": "578666c6-5bf4-4887-a362-1d03e6b54cdc",
+      "codename": "en__predict",
+      "title": "predict",
+      "slug": "predict",
+      "description": "<p>Suggest what may happen based on available information.</p>"
+    },
+    {
+      "id": "e89b236f-a91e-4bd0-9971-4429d068cb44",
+      "codename": "prefix",
+      "title": "prefix",
+      "slug": "prefix",
+      "description": "<p>A bound morpheme made up of letters that appear before a base word to make a new word. For example, <em>un- </em>in ‘unhappy’ means ‘not’ (un + happy = not happy).</p>"
+    },
+    {
+      "id": "5fd47bdf-e728-4429-97de-d4389e6d21ac",
+      "codename": "preposition",
+      "title": "preposition",
+      "slug": "preposition",
+      "description": "<p>A word that is used before a noun, noun group or pronoun that connects it to another word in the sentence, e.g. in, on, after, before, by, under, over, of.</p>"
+    },
+    {
+      "id": "29998ea8-ef68-4205-85f4-d1a8c74baef6",
+      "codename": "en__prepositional_phrase",
+      "title": "prepositional phrase",
+      "slug": "prepositional-phrase",
+      "description": "<p>A word or group of words that indicate a circumstance such as time, place, manner or causality.</p>\n<p><em>See </em><a data-item-id=\"6182b4d8-3190-46e0-a585-c7f86fd91bb8\" href=\"\">adjectival phrase</a> and <a data-item-id=\"786685fc-6e04-4683-91a0-f74f9fb3ec5c\" href=\"\">adverbial phrase</a></p>"
+    },
+    {
+      "id": "0d0fc09b-0576-44f7-8bf3-78ccc5c1f9b7",
+      "codename": "en__prior_knowledge",
+      "title": "prior knowledge",
+      "slug": "prior-knowledge",
+      "description": "<p>The knowledge a person already has before encountering a particular topic.</p>"
+    },
+    {
+      "id": "be0925f3-a4d0-49e2-a975-4176e565cadf",
+      "codename": "pronoun",
+      "title": "pronoun",
+      "slug": "pronoun",
+      "description": "<p>A word that is used in place of a noun. A pronoun may be personal (he, she, we, they), demonstrative (that, this) or relative (who).</p>"
+    },
+    {
+      "id": "b5dfdedc-38a7-4b5e-b9ef-fa1154c43fd3",
+      "codename": "prosody",
+      "title": "prosody",
+      "slug": "prosody",
+      "description": "<p>Reading with expression using correct phrasing, intonation and attention to punctuation.</p>"
+    },
+    {
+      "id": "b31b8421-3fc5-4219-84f3-7187b11c41b4",
+      "codename": "pun",
+      "title": "pun",
+      "slug": "pun",
+      "description": "<p>A figure of speech where there is a play on words, usually created through the use of a homonym or homophone. Puns rely on more than one meaning of a word to emphasise the point.</p>"
+    },
+    {
+      "id": "5c924f98-a7a3-4f7c-adb4-00bf9f442702",
+      "codename": "en__purpose",
+      "title": "purpose",
+      "slug": "purpose",
+      "description": "<p>To entertain, to inform or to persuade different audiences in different contexts. Composers use a number of ways to achieve these purposes: persuading through emotive language, analysis or factual recount; entertaining through description, imaginative writing or humour, and so on.</p>"
+    },
+    {
+      "id": "3a8b153d-dbd1-4579-91ac-6e6b1a296940",
+      "codename": "question",
+      "title": "question",
+      "slug": "question",
+      "description": "<p>A sentence that seeks information by asking or requesting to elicit a response.</p>"
+    },
+    {
+      "id": "c899c510-67f8-4956-b97b-b1d728f3e249",
+      "codename": "question_mark",
+      "title": "question mark (?)",
+      "slug": "question-mark",
+      "description": "<p>A punctuation marker used at the end of a sentence to indicate that a question is being asked.</p>"
+    },
+    {
+      "id": "89685fcf-a2bf-4fd8-bb52-a436b430ffd8",
+      "codename": "en__questioning",
+      "title": "questioning",
+      "slug": "questioning",
+      "description": "<p>A reading comprehension strategy that may occur before, during, and/or after reading. The questions a reader may ask themselves can support their literal and/or inferential understanding of a text.</p>"
+    },
+    {
+      "id": "84deb23f-0a4a-419c-a9a9-e926560bd24c",
+      "codename": "quotation_marks",
+      "title": "quotation marks",
+      "slug": "quotation-marks",
+      "description": "<p>Punctuation markers used to indicate: quoted or direct speech; the actual words quoted from another source in formal writing; the titles of poems, songs, short stories or articles; or, to draw attention to an unusual or particular sense or usage of a word.</p>"
+    },
+    {
+      "id": "0d35ef48-babc-4c26-8715-1d1ae7d3a2c6",
+      "codename": "en__quoted_speech",
+      "title": "quoted speech",
+      "slug": "quoted-speech",
+      "description": "<p>The exact words expressed by a person, reproduced in quotation marks. For example: ‘You'll never guess what I've just seen!’ exclaimed Loreta.</p>"
+    },
+    {
+      "id": "fb9f4437-3745-4ca3-8bf4-8f254ffeba4a",
+      "codename": "reading",
+      "title": "reading",
+      "slug": "reading",
+      "description": "<p>To process written words, to derive and/or construct meaning. It is the product of word reading and language comprehension.</p>"
+    },
+    {
+      "id": "806305ee-7295-464c-b8d4-a14441f9d17c",
+      "codename": "recasting",
+      "title": "recasting",
+      "slug": "recasting",
+      "description": "<p>Recasting is a teaching strategy to support students in their oral language. A recast occurs when the teacher modifies a learner’s utterance by adding new or different grammar (syntax) or by using precise words.</p>"
+    },
+    {
+      "id": "4b39da3e-5d41-4d37-afcc-3ebef08e126c",
+      "codename": "en__reciting",
+      "title": "reciting",
+      "slug": "reciting",
+      "description": "<p>Repeating a prepared text aloud, such as a published poem, to an audience. Reading should be prosodic and may occur from memory.</p>"
+    },
+    {
+      "id": "549a3eec-0120-40e4-9888-3e42bfcaf7b0",
+      "codename": "al_prisec_gls_recount",
+      "title": "recount",
+      "slug": "recount",
+      "description": "<p>Retell a series of events.</p>"
+    },
+    {
+      "id": "10b75e83-0901-406a-9dff-ae339a334afe",
+      "codename": "reference",
+      "title": "reference",
+      "slug": "reference",
+      "description": "<p>The use of a source of information in order to ascertain something.</p>\n<p>The act of mentioning someone or something in speech or writing.</p>"
+    },
+    {
+      "id": "9e2df3ce-aaf0-4f77-8711-0145ac6881c7",
+      "codename": "en__reflection",
+      "title": "reflection",
+      "slug": "reflection2",
+      "description": "<p>The thought process by which students develop an understanding and appreciation of their own learning. This process draws on both cognitive and affective experience.</p>"
+    },
+    {
+      "id": "aaadf8f5-2310-49af-9075-9d98f6d1542d",
+      "codename": "register",
+      "title": "register",
+      "slug": "register",
+      "description": "<p>The degree of formality or informality of language used for a particular purpose or in a particular social setting.</p>"
+    },
+    {
+      "id": "411f1d0b-b9be-4937-af91-7aa9369ace95",
+      "codename": "en__regular_plural_word",
+      "title": "regular plural word",
+      "slug": "regular-plural-word",
+      "description": "<p>A noun comprising a free morpheme (base word) that is affixed to the inflected suffix, <em>-s</em> or <em>-es</em>, to indicate more than one.</p>"
+    },
+    {
+      "id": "d0c8d88d-ac6f-4179-86bf-6f5d8c835531",
+      "codename": "en__reported_speech",
+      "title": "reported speech",
+      "slug": "reported-speech",
+      "description": "<p>Speech in a text used to communicate what someone else said, but without using the exact words. In reported speech the tense of the verbs is often changed.</p>\n<p>For example:</p>\n<ul>\n  <li>She said that she was going to leave (indirect speech).</li>\n  <li>‘I am going to leave', she said (direct speech).</li>\n</ul>"
+    },
+    {
+      "id": "d95aa9ca-b4d9-43d8-a300-a168cbb12b18",
+      "codename": "representation",
+      "title": "representation",
+      "slug": "representation",
+      "description": "<p>The way ideas are portrayed and represented in texts, using language devices, forms, features and structures of texts to create specific views about characters, events and ideas. Representation applies to all modes: spoken, written, visual and multimodal.</p>"
+    },
+    {
+      "id": "24df6753-fb9f-401c-9ee0-131999e82f50",
+      "codename": "en__responding",
+      "title": "responding",
+      "slug": "responding2",
+      "description": "<p>The activity that occurs when students read, listen to or view texts. It encompasses the personal and intellectual connections a student makes with texts. It also recognises that students and the texts to which they respond reflect social contexts.</p>"
+    },
+    {
+      "id": "ddbf8ccb-6264-41ea-90c5-d96e1100edf8",
+      "codename": "return_sweep",
+      "title": "return sweep",
+      "slug": "return-sweep",
+      "description": "<p>The eye movement that takes the reader’s eyes from one end of the line of text to the start of the next line.</p>"
+    },
+    {
+      "id": "60364505-7ff0-4c08-abc1-0209541f0b49",
+      "codename": "en__rhetorical_devices",
+      "title": "rhetorical devices",
+      "slug": "rhetorical-devices",
+      "description": "<p>Strategies used by writers and speakers to achieve particular effects, such as, to stimulate the audience’s imagination or thought processes, to draw attention to a particular idea, or simply to display wit and ingenuity in composition.</p>"
+    },
+    {
+      "id": "e917d051-5058-47cf-b9e4-5d08a7896a59",
+      "codename": "en__rhetorical_question",
+      "title": "rhetorical question",
+      "slug": "rhetorical-question",
+      "description": "<p>A question that is asked to provoke thought rather than require an answer.</p>"
+    },
+    {
+      "id": "92f4bef9-2bdc-45a4-bab3-49a883362a42",
+      "codename": "rhyme",
+      "title": "rhyme",
+      "slug": "rhyme",
+      "description": "<p>A repetition of similar speech sounds in 2 or more words, beginning from the last stressed vowel sound and carrying through any remaining syllables.</p>"
+    },
+    {
+      "id": "9fb831f0-05ab-4bce-bb33-9c3c4026aaf5",
+      "codename": "rime",
+      "title": "rime",
+      "slug": "rime",
+      "description": "<p>The vowel and other speech sounds that occur at the end of a syllable. For example, the /-<em>ig</em>/ represents the rime in the word ‘b<em>ig</em>’.</p>"
+    },
+    {
+      "id": "4f503c54-7cc3-4788-b23b-a23a65700fa8",
+      "codename": "en__root",
+      "title": "root",
+      "slug": "root",
+      "description": "<p>A morpheme that gives the word its core meaning. A root may or may not stand alone as a word. Many roots in Standard Australian English derive from Latin and Greek.</p>"
+    },
+    {
+      "id": "55a6aab7-fe89-4710-91b2-996f5d4ae8ba",
+      "codename": "en__salience",
+      "title": "salience",
+      "slug": "salience",
+      "description": "<p>A strategy used to highlight what is important in a text.</p>\n<p>In an <em>image</em>, salience may be created through framing an object in the foreground, and/or by its size or distinct colour.</p>\n<p>In <em>written text</em>, salience may be conveyed by positioning the most important idea at the beginning of a sentence, or through font styling such as the use of bold, underlined or italicised text.</p>"
+    },
+    {
+      "id": "e7bba996-6ac3-46d1-a4a4-068d8a5c404d",
+      "codename": "en__schwa",
+      "title": "schwa",
+      "slug": "schwa",
+      "description": "<p>A reduced vowel phoneme occurring in an unaccented (unstressed) syllable of a multisyllabic word. For example, in the word ‘problem’ the final vowel phoneme is unstressed and is said quickly and quietly, and with less emphasis.</p>"
+    },
+    {
+      "id": "7dd0cf06-df00-4be1-b4b9-430bd0ac4fda",
+      "codename": "segment",
+      "title": "segment",
+      "slug": "segment",
+      "description": "<p>The act of separating a spoken word into its syllables and/or phonemes.</p>"
+    },
+    {
+      "id": "ba6b975e-44f6-4ddf-8bdd-909cfa1fa342",
+      "codename": "sentence",
+      "title": "sentence",
+      "slug": "sentence",
+      "description": "<p>A collection of words that conveys a complete thought, typically containing a subject and predicate. A sentence:</p>\n<ul>\n  <li>may express a statement, exclamation, command or question</li>\n  <li>comprises a main clause and sometimes one or more subordinate clauses</li>\n  <li>begins with a capital letter and ends with a full stop, exclamation mark or question mark.</li>\n</ul>\n<p><em>See </em><a data-item-id=\"9bfaa6a3-bde5-46dd-af2e-ee41e9c6e304\" href=\"\">clause (main)</a>, <a data-item-id=\"d8f646d8-0ced-46f0-a512-5e9d52e1ac10\" href=\"\">simple sentence</a>, <a data-item-id=\"9661187c-6840-4778-b28f-4179891708d9\" href=\"\">compound sentence</a> and <a data-item-id=\"605b3d57-c9f9-400a-a0f0-f7b745370fed\" href=\"\">complex sentence</a></p>"
+    },
+    {
+      "id": "ce59d500-bf9d-4707-989d-191c90e5814a",
+      "codename": "en__simile",
+      "title": "simile",
+      "slug": "simile",
+      "description": "<p>A figure of speech that compares the similar qualities of 2 different things. The comparison usually includes like, as or as if.</p>\n<p><em>See </em><a data-item-id=\"718564f3-942f-4ce7-aec1-8eb0b2f2b955\" href=\"\">figurative language</a></p>"
+    },
+    {
+      "id": "937932fe-bd54-4ad9-87b7-60aeff00e6c3",
+      "codename": "simple_sentence",
+      "title": "simple sentence",
+      "slug": "simple-sentence",
+      "description": "<p>A complete message that contains a subject and predicate, forming a single independent clause.</p>"
+    },
+    {
+      "id": "7372ca69-90ef-4cac-a0c4-049abb11d731",
+      "codename": "single_letter_grapheme",
+      "title": "single-letter grapheme",
+      "slug": "single-letter-grapheme",
+      "description": "<p>One letter used to represent one phoneme (speech sound).</p>\n<p><em>See</em> phoneme</p>"
+    },
+    {
+      "id": "e183ece8-23e5-43a5-98c6-d6a569aadaf6",
+      "codename": "split_digraph",
+      "title": "split digraph",
+      "slug": "split-digraph",
+      "description": "<p>Two graphemes that are split by a consonant to represent a long vowel phoneme.</p>\n<p>For example:</p>\n<ul>\n  <li>a-e in cake</li>\n  <li>i-e in side</li>\n  <li>o-e in rope.</li>\n</ul>"
+    },
+    {
+      "id": "42d40ac1-42e0-4f3e-a908-c5aa3a051894",
+      "codename": "ml__spoken_text",
+      "title": "spoken text",
+      "slug": "spoken-text",
+      "description": "<p>Communication produced using spoken words and delivered either face-to-face or digitally.</p>"
+    },
+    {
+      "id": "8944e9ec-0e97-4e6d-bc34-6e5390eeb8e7",
+      "codename": "en__spoonerism",
+      "title": "spoonerism",
+      "slug": "spoonerism",
+      "description": "<p>A language device, sometimes a slip of the tongue, by which corresponding phonemes or morphemes are switched between 2 words or within a word.</p>\n<p>For example:</p>\n<ul>\n  <li>butterfly becomes flutterby</li>\n  <li>It's pouring with rain becomes it’s roaring with pain.</li>\n</ul>\n<p><em>See </em><a data-item-id=\"9598d439-c5f8-455b-8a78-859be2d44a21\" href=\"\">word play</a></p>"
+    },
+    {
+      "id": "8f1a06f1-c126-4f68-b6cb-07ad4ea79a04",
+      "codename": "standard_australian_en",
+      "title": "Standard Australian English",
+      "slug": "standard-australian-english",
+      "description": "<p>A system of standard English language, characterised by the perceived consistent usage of words and syntax across Australian political, business, media and education contexts. While it is always dynamic and evolving, it is recognised as the ‘common language’ of Australians.</p>"
+    },
+    {
+      "id": "e3860a76-1b18-4392-823f-c6935166b5ae",
+      "codename": "en__style",
+      "title": "style",
+      "slug": "style2",
+      "description": "<p>The way in which the effects of distinctive language forms and features of a text, often including those specific to its medium, combine to generate an overall impression.</p>\n<p>Particular style elements may be observed in multiple works by the same author, from the same genre, or written during the same time period or artistic movement.</p>"
+    },
+    {
+      "id": "13113bc7-6c0f-492c-985d-bcfee116c04a",
+      "codename": "subject",
+      "title": "subject",
+      "slug": "subject",
+      "description": "<p>The noun (or noun group) in a sentence that conveys who or what the clause is about.</p>"
+    },
+    {
+      "id": "013788da-4706-4590-ab3d-e21b438445d4",
+      "codename": "subject_matter",
+      "title": "subject matter",
+      "slug": "subject-matter",
+      "description": "<p>The topic or content of a text. For example, an information report on marine vessels may include content about construction materials, and different types of boats and engines.</p>"
+    },
+    {
+      "id": "85723f0a-3e25-46a1-9084-a3c313960ea1",
+      "codename": "ma__complementary_angles",
+      "title": "subjective language",
+      "slug": "subjective-language",
+      "description": "<p>Words used to communicate based on opinion, feelings or personal biases.</p>"
+    },
+    {
+      "id": "66585b2b-971f-4ea6-8074-2d260f124487",
+      "codename": "subject_verb_agreement",
+      "title": "subject–verb agreement",
+      "slug": "subject-verb-agreement",
+      "description": "<p>Occurs when the writer or speaker selects the correct verb for the noun or noun group to which it is referring. For example: The bike <em>was</em> here (not:<em> </em>The bike <em>were</em> here).</p>"
+    },
+    {
+      "id": "01baae2c-2f27-4918-bf75-741608af9629",
+      "codename": "subordinating_conjunction",
+      "title": "subordinating conjunction",
+      "slug": "subordinating-conjunction",
+      "description": "<p>A word or group of words that function to link a dependent clause to an independent clause.</p>"
+    },
+    {
+      "id": "0ebe270c-b7a0-45fa-8c20-b72a4f5cb106",
+      "codename": "en__subvert",
+      "title": "subvert",
+      "slug": "subvert",
+      "description": "<p>To compose or respond to a text in ways that are different from the widely accepted reading or different from the conventional genre. For example, Roald Dahl's <em>Revolting Rhymes</em> provides a subverted reading of <em>Cinderella</em>. The purpose of producing a subverted reading of a text might be to entertain or to raise questions about the meaning or inherent values in the original text.</p>"
+    },
+    {
+      "id": "feb83ed6-a2fe-49d2-bdd8-e647b954fbaf",
+      "codename": "suffix",
+      "title": "suffix",
+      "slug": "suffix",
+      "description": "<p>A bound morpheme comprising a letter or group of letters that attach to a base word to make a new word.</p>\n<p>For example:</p>\n<ul>\n  <li>The <em>-s</em> in <em>dogs</em> is an inflected suffix that marks plurality.</li>\n  <li>The derivational suffix, <em>-ion</em> can be added to the end of the verb, protect, to form the noun, protect<em>ion</em>.</li>\n</ul>\n<p><em>See </em><a data-item-id=\"69d8a997-6554-4bf9-a298-7f31df1effd2\" href=\"\">derivational word form</a> and <a data-item-id=\"bf8d57ca-90d3-48dd-9bb7-ef8de2c51b5b\" href=\"\">inflected word forms</a></p>"
+    },
+    {
+      "id": "a642c2d4-f5ef-4bb5-886d-7978056d0f6e",
+      "codename": "summarise",
+      "title": "summarise",
+      "slug": "summarise",
+      "description": "<p>Express, concisely, the relevant details.</p>"
+    },
+    {
+      "id": "f8406500-3483-4c7d-aa89-63d434bcf6e7",
+      "codename": "sustained_reading",
+      "title": "sustained reading",
+      "slug": "sustained-reading",
+      "description": "<p>Independently reading texts to expand and maintain comprehension.</p>"
+    },
+    {
+      "id": "2e419956-c96e-49a2-95b4-98498096442e",
+      "codename": "syllabification",
+      "title": "syllabification",
+      "slug": "syllabification",
+      "description": "<p>The process of segmenting a multisyllabic word into its syllables.</p>"
+    },
+    {
+      "id": "6a335dd5-10b6-4ea1-8bcd-bc16fb0ee662",
+      "codename": "syllable",
+      "title": "syllable",
+      "slug": "syllable",
+      "description": "<p>A unit of sound within a word that contains a vowel phoneme and feels like one ‘beat’. For example, a word with 3 syllables is: <em>won-der-ful.</em></p>"
+    },
+    {
+      "id": "5bcd8411-0270-4c38-9987-a154d6b61941",
+      "codename": "symbol",
+      "title": "symbol",
+      "slug": "symbol2",
+      "description": "<p>An object, character or entity that can be understood to represent a larger idea, action or feeling. Depending on context, audience and purpose, symbols can have commonly agreed or reinforced associations, or they can be dynamic. Symbols can operate within texts, or they can serve as meaning-making devices of language in the real world.</p>"
+    },
+    {
+      "id": "10909be9-90a0-47c8-8f8c-822fd4225fe1",
+      "codename": "en__synonym",
+      "title": "synonym",
+      "slug": "synonym",
+      "description": "<p>A word or phrase that has the same or a similar meaning to another word or phrase. For example, sick and ill.</p>"
+    },
+    {
+      "id": "75f74bb4-a756-4763-a616-2340d8ccc28b",
+      "codename": "synthesise",
+      "title": "synthesise",
+      "slug": "synthesise",
+      "description": "<p>Put together various elements to make a whole.</p>"
+    },
+    {
+      "id": "3cca5be9-0aea-4f9c-826d-83c6dc7dd49c",
+      "codename": "en__temporal_connective",
+      "title": "temporal connective",
+      "slug": "temporal-connective",
+      "description": "<p>A word or group of words that indicates when something is happening, e.g. first, next, finally, before, after, then.</p>"
+    },
+    {
+      "id": "4f728aa1-8e0d-4af3-9d92-81c451304822",
+      "codename": "tense",
+      "title": "tense",
+      "slug": "tense",
+      "description": "<p>The form of the verb that indicates when something is happening in relation to the speaker’s time: past, present or future.</p>\n<p>For example:</p>\n<ul>\n  <li>I <em>ate</em> bananas (past).</li>\n  <li>I <em>am eating</em> bananas (present).</li>\n  <li>I <em>will eat</em> bananas (future).</li>\n</ul>"
+    },
+    {
+      "id": "636298c1-78e8-4fe7-a32a-381fd67eec1f",
+      "codename": "text",
+      "title": "text",
+      "slug": "text",
+      "description": "<p>Any written, spoken/signed, nonverbal, visual, auditory or multimodal communication. Texts may be extended unified works, a series of related pieces or a single, simple piece of communication.</p>"
+    },
+    {
+      "id": "369ecb62-25f2-4760-8f3b-6882df199ed0",
+      "codename": "text_features",
+      "title": "text features",
+      "slug": "text-features",
+      "description": "<p>Structural or stylistic components that combine to construct meaning and achieve purpose. Can be recognisable as characterising particular types of texts.</p>"
+    },
+    {
+      "id": "75afdd74-be0e-4624-b1ef-1565067e80f3",
+      "codename": "en__theme",
+      "title": "theme",
+      "slug": "theme",
+      "description": "<p>An overarching or recurring idea that describes attitudes or values that are perceived in a text. A theme may range from the understood ‘moral’ of a text to philosophical observations that the audience makes about the events, characters and experiences depicted in a text. A text may have more than one theme.</p>"
+    },
+    {
+      "id": "eef36231-6d80-45ef-bfa5-5eefd8cabb2a",
+      "codename": "tier_1_words",
+      "title": "Tier 1 words",
+      "slug": "tier-1-words",
+      "description": "<p>Basic-level, everyday words, e.g. dog, baby, happy, pretty, was, come, said.</p>"
+    },
+    {
+      "id": "abe3e590-77c4-4954-9ec4-a9a5c8668a5c",
+      "codename": "tier_2_words",
+      "title": "Tier 2 words",
+      "slug": "tier-2-words",
+      "description": "<p>General academic words that can be used across a variety of domains. They are of high utility for mature language users and are commonly used in written language.</p>\n<p>Tier 2 words add power and precision to written and spoken language, but many Tier 2 words are most commonly found in written language, e.g. contradict, precede, stale, awful, snuggle.</p>"
+    },
+    {
+      "id": "2388062a-1837-4032-a367-46b16087247c",
+      "codename": "tier_3_words",
+      "title": "Tier 3 words",
+      "slug": "tier-3-words",
+      "description": "<p>Words that are used rarely (low frequency) and only in highly specific situations, e.g. decibel, cataclysm, atom.</p>"
+    },
+    {
+      "id": "fa456a4a-7c24-4a39-9809-b27bd591fd45",
+      "codename": "tiered_words",
+      "title": "tiered words",
+      "slug": "tiered-words",
+      "description": "<p>Vocabulary classified according to complexity and use.</p>"
+    },
+    {
+      "id": "2cb5f278-c527-4b4c-8dfa-0b9ca45269ee",
+      "codename": "topic_sentence",
+      "title": "topic sentence",
+      "slug": "topic-sentence",
+      "description": "<p>A sentence that usually occurs at the start of a paragraph and outlines the main idea of that paragraph.</p>"
+    },
+    {
+      "id": "4b35f4f0-e4d0-4b18-80cb-a50aa8af2d4b",
+      "codename": "trigraph",
+      "title": "trigraph",
+      "slug": "trigraph",
+      "description": "<p>Three letters used to represent one phoneme.</p>\n<p>For example:</p>\n<ul>\n  <li>the tch<em> </em>in catch.</li>\n  <li>the igh<em> </em>in flight.</li>\n</ul>"
+    },
+    {
+      "id": "ecfd9f43-c3c6-4732-afa0-78667a285f47",
+      "codename": "upper_lower_case_letters",
+      "title": "upper/lower-case letters",
+      "slug": "upper-lower-case-letters",
+      "description": "<p>Two visible forms of alphabetic letters. Lower-case letters are generally used, except when it is necessary to:</p>\n<ul>\n  <li>indicate specific names (proper nouns) such as those of people, organisations, titles or countries</li>\n  <li>indicate the beginning of a sentence or the initial letter of a proper noun</li>\n  <li>write headings</li>\n  <li>achieve a particular effect, such as to indicate shouting.</li>\n</ul>"
+    },
+    {
+      "id": "f8918dc9-bf2d-4641-bab7-cd1bc611be80",
+      "codename": "verb",
+      "title": "verb",
+      "slug": "verb",
+      "description": "<p>A word that tells what is happening. Different types of verbs include:</p>\n<ul>\n  <li>action verbs: They <em>danced ...</em></li>\n  <li>thinking verbs: I<em> forgot ...</em></li>\n  <li>feeling verbs: We<em> like ...</em></li>\n  <li>saying verbs: He<em> whispered ...</em></li>\n  <li>relating verbs: They <em>are ...</em>.</li>\n</ul>"
+    },
+    {
+      "id": "546447e4-a127-4ed1-b244-14e99e3adf89",
+      "codename": "verb_group",
+      "title": "verb group",
+      "slug": "verb-group",
+      "description": "<p>A group of words built around a verb.</p>\n<p>Verb groups:</p>\n<ul>\n  <li>may include auxiliary verbs (‘helping’ verbs used to indicate tense or modality), e.g. I <em>am going</em> soon. I <em>must leave</em> before dark.</li>\n  <li>are sometimes referred to as a complex verb or compound verb.</li>\n</ul>"
+    },
+    {
+      "id": "5809815b-7ba6-4409-b18a-df501afd40ce",
+      "codename": "en__visual_texts",
+      "title": "visual texts",
+      "slug": "visual-texts",
+      "description": "<p>Texts that consist of or include images. Visual elements in texts may contribute to meaning. Visual design elements in a text may include choices of lines, symbols, vectors, size and colour.</p>"
+    },
+    {
+      "id": "772a7067-84e5-4c22-b7c2-fe2a066007bb",
+      "codename": "visualise",
+      "title": "visualise",
+      "slug": "visualise",
+      "description": "<p>A comprehension strategy used to create a mental image from a text read, viewed or heard. To visualise is to bring the text to life, engage the imagination, and use a person’s senses.</p>"
+    },
+    {
+      "id": "c9a15e89-b114-46f3-a15a-17a75b210be6",
+      "codename": "cl__voice",
+      "title": "voice",
+      "slug": "voice",
+      "description": "<p>The way in which language is used and/or interpreted to represent particular thoughts, opinions or perspectives. This includes the authorial voice or the voice of a narrator, character or persona within a text.</p>\n<p>Describes the relationship between the action expressed by the verb and the subject/object of the sentence. For example, ‘active voice’ is where the subject performs the action, ‘The cat broke the vase’; ‘passive voice' is where the object is acted upon, ‘The vase was broken by the cat’.</p>\n<p>In speaking, a description of the oral production of text.</p>\n<p><em>See </em><a data-item-id=\"109d9706-6c22-413b-a919-bc88238b51af\" href=\"\">point of view</a> for ‘narrative voice’</p>"
+    },
+    {
+      "id": "967f363e-19b0-4cff-8f13-0460a4de4d10",
+      "codename": "vowel",
+      "title": "vowel",
+      "slug": "vowel",
+      "description": "<p>A sound that is voiced with the mouth open and not obstructed by the lips, teeth or tongue. For example: the short /o/ phoneme in the word ‘dog’.</p>\n<p>Often represented by the graphemes: a, e, i, o, u.</p>"
+    },
+    {
+      "id": "1366d67f-9f59-4f63-b7f9-a3f5bb7b621a",
+      "codename": "en__vowel_digraph",
+      "title": "vowel digraph",
+      "slug": "vowel-digraph",
+      "description": "<p>Two vowel graphemes that represent one phoneme.</p>\n<p>For example:</p>\n<ul>\n  <li>ea in cream</li>\n  <li>ai in snail</li>\n  <li>oo in chook.</li>\n</ul>"
+    },
+    {
+      "id": "9d9e5f4c-a5c4-4443-b708-1f5d52cb7da8",
+      "codename": "en__word_association",
+      "title": "word association",
+      "slug": "word-association",
+      "description": "<p>The relationship between a word and other words that are semantically related in a text.</p>"
+    },
+    {
+      "id": "352d6c18-8354-4667-af27-3b1b2dd54fba",
+      "codename": "word_play",
+      "title": "word play",
+      "slug": "word-play",
+      "description": "<p>Experimenting with and manipulating language.</p>\n<p><em>See</em> <a data-item-id=\"82989e2f-a02c-47c2-b527-941f82ab7dcf\" href=\"\">pun</a> and <a data-item-id=\"637c4853-8892-4734-a79a-d79767332dc9\" href=\"\">spoonerism</a></p>"
+    }
+  ]
+}

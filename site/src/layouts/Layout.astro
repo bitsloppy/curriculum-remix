@@ -19,6 +19,10 @@ const {
 } = Astro.props;
 
 const pageTitle = title === 'Home' ? 'Curriculum Remix' : `${title} — Curriculum Remix`;
+
+import meta from '../data/meta.json';
+const fetchDate = new Date(meta.dataFetchedAt + 'T00:00:00');
+const dateStr = fetchDate.toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 
 <!doctype html>
@@ -42,7 +46,7 @@ const pageTitle = title === 'Home' ? 'Curriculum Remix' : `${title} — Curricul
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Sedgwick+Ave+Display&display=swap"
       rel="stylesheet"
     />
 
@@ -68,6 +72,7 @@ const pageTitle = title === 'Home' ? 'Curriculum Remix' : `${title} — Curricul
         --wa-color-text-link: var(--site-brand);
 
         /* Typography */
+        --font-display: 'Sedgwick Ave Display', cursive;
         --font-ui: 'Outfit', system-ui, -apple-system, sans-serif;
       }
 
@@ -79,32 +84,56 @@ const pageTitle = title === 'Home' ? 'Curriculum Remix' : `${title} — Curricul
       }
 
       body {
-        background-color: var(--wa-color-neutral-50);
+        background-color: var(--wa-color-neutral-95);
+      }
+
+      /* ─── Banner (announcement strip above header) ──────────────────────────── */
+      .data-strip {
+        width: 100%;
+        box-sizing: border-box;
+        background: #0f172a;
+        color: rgba(255,255,255,0.7);
+        font-size: 0.72rem;
+        letter-spacing: 0.02em;
+        padding: 0.35rem var(--wa-space-l);
+        display: flex;
+        align-items: center;
+        gap: var(--wa-space-xs);
+        flex-wrap: wrap;
+      }
+
+      .data-strip strong {
+        color: rgba(255,255,255,0.95);
+        font-weight: 500;
       }
 
       /* ─── Header ─────────────────────────────────────────────────────────────── */
+      /* WA applies display:flex + justify-content:space-between to the header slot */
+      /* Brand link goes left, nav goes right automatically */
       header[slot='header'] {
         background-color: var(--site-brand);
         color: var(--site-brand-text);
         padding-inline: var(--wa-space-l);
-        display: flex;
-        align-items: center;
-        gap: var(--wa-space-m);
         height: 4rem;
+        align-items: center;
       }
 
       header[slot='header'] a {
         color: var(--site-brand-text);
         text-decoration: none;
-        font-weight: 600;
-        font-size: 1.1rem;
         display: flex;
         align-items: center;
         gap: var(--wa-space-xs);
       }
 
+      /* Brand name only — display font */
+      header[slot='header'] > a {
+        font-family: var(--font-display);
+        font-size: 1.4rem;
+        letter-spacing: 0.04em;
+      }
+
       header[slot='header'] nav {
-        margin-inline-start: auto;
         display: flex;
         gap: var(--wa-space-m);
       }
@@ -121,11 +150,11 @@ const pageTitle = title === 'Home' ? 'Curriculum Remix' : `${title} — Curricul
 
       /* ─── Footer ─────────────────────────────────────────────────────────────── */
       footer[slot='footer'] {
-        background-color: var(--wa-color-neutral-100);
-        border-top: 1px solid var(--wa-color-neutral-200);
+        background-color: var(--wa-color-neutral-90);
+        border-top: 1px solid var(--wa-color-neutral-90);
         padding: var(--wa-space-l) var(--wa-space-xl);
         font-size: 0.85rem;
-        color: var(--wa-color-neutral-600);
+        color: var(--wa-color-neutral-40);
       }
 
       /* ─── Main content ───────────────────────────────────────────────────────── */
@@ -139,14 +168,18 @@ const pageTitle = title === 'Home' ? 'Curriculum Remix' : `${title} — Curricul
 
   <body>
     <wa-page>
+      <div slot="banner" class="data-strip">
+        <wa-icon name="clock" variant="solid"></wa-icon>
+        Data fetched from <strong><a style="color: #FFF;" href="https://curriculum.nsw.edu.au">curriculum.nsw.edu.au</a></strong> on <strong>{dateStr}</strong> | Not affiliated with or endorsed by NESA.
+      </div>
       <header slot="header">
         <a href="/">
-          <wa-icon name="book-open"></wa-icon>
+          <wa-icon name="turntable"></wa-icon>
           Curriculum Remix
         </a>
         <nav>
           <a href="/syllabuses">Syllabuses</a>
-          <a href="/stages">By Stage</a>
+          <a href="/course-descriptions">Courses</a>
         </nav>
       </header>
 
@@ -156,7 +189,7 @@ const pageTitle = title === 'Home' ? 'Curriculum Remix' : `${title} — Curricul
 
       <footer slot="footer">
         <p>
-          Data sourced from <a href="https://curriculum.nsw.edu.au">NESA curriculum.nsw.edu.au</a>.
+          Data sourced from <a href="https://curriculum.nsw.edu.au">curriculum.nsw.edu.au</a>.
           Not affiliated with or endorsed by NESA.
         </p>
       </footer>

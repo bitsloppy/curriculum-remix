@@ -1,0 +1,1343 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "f38e3966-866f-4f88-9157-1e792ffdb7fa",
+      "codename": "eco__absolute_advantage",
+      "title": "absolute advantage",
+      "slug": "absolute-advantage",
+      "description": "<p>A country's capacity to produce goods or services more efficiently than another country.</p>"
+    },
+    {
+      "id": "72e23cbc-3e09-48e1-a4d9-4a9ec21cdc0a",
+      "codename": "eco__absolute_poverty",
+      "title": "absolute poverty",
+      "slug": "absolute-poverty",
+      "description": "<p>People who cannot access the basic necessities of life, as determined by the World Bank international poverty line.</p>"
+    },
+    {
+      "id": "b04883b0-75cf-42d3-9b34-ae0bbaa9847f",
+      "codename": "eco__actual_output",
+      "title": "actual output",
+      "slug": "actual-output",
+      "description": "<p>The total current production of goods and services in an economy, as measured by real GDP (gross domestic product).</p>"
+    },
+    {
+      "id": "a9c9ae1e-1d44-4f57-8894-718bd1abbadd",
+      "codename": "eco__advanced_economy",
+      "title": "advanced economy",
+      "slug": "advanced-economy",
+      "description": "<p>A country with a high level of income per capita, a high level of economic development and a relatively stable economic base.</p>"
+    },
+    {
+      "id": "a5aac391-3171-4949-b868-6df123a21446",
+      "codename": "eco__advanced_economy_a5aac39",
+      "title": "adverse selection",
+      "slug": "adverse-selection",
+      "description": "<p>When a buyer or seller has more information than other party(ies), allowing them to maximise their personal benefit in a transaction.</p>"
+    },
+    {
+      "id": "b5695787-ba5b-408b-b96b-da2000668553",
+      "codename": "eco__asymmetric_information",
+      "title": "asymmetric information",
+      "slug": "asymmetric-information",
+      "description": "<p>One party to an economic transaction who has more information than other involved parties.</p>"
+    },
+    {
+      "id": "446ab711-01c1-413d-a8d3-8cea11833dd0",
+      "codename": "eco__automatic_stabilisers",
+      "title": "automatic stabilisers",
+      "slug": "automatic-stabilisers",
+      "description": "<p>Counter-cyclical mechanisms in fiscal policy that alter spending or taxes when economic conditions change, and which do not require discretionary action from government.</p>"
+    },
+    {
+      "id": "f0c610e8-bdfa-47b7-8d04-f6e568500a48",
+      "codename": "eco__balance_of_payments",
+      "title": "balance of payments",
+      "slug": "balance-of-payments",
+      "description": "<p>The record of financial transactions between residents and non-residents over a given period.</p>"
+    },
+    {
+      "id": "32123294-ae38-4706-9873-967f7226eab2",
+      "codename": "eco__binding_price_ceiling",
+      "title": "binding price ceiling",
+      "slug": "binding-price-ceiling",
+      "description": "<p>A maximum price for a good or service imposed by the government and set below the equilibrium market price.</p>\n<p><em>See</em> <a data-item-id=\"21599767-c1c2-4214-b154-19cf61b9b639\" href=\"\">binding price floor</a></p>"
+    },
+    {
+      "id": "16911e90-02b0-4f16-a5ce-579c2923d0a0",
+      "codename": "eco__binding_price_floor",
+      "title": "binding price floor",
+      "slug": "binding-price-floor",
+      "description": "<p>A minimum price for a good or service imposed by the government and set above the equilibrium market price.</p>\n<p><em>See </em><a data-item-id=\"0345a18e-29b3-4165-9a0b-3421d859b7c1\" href=\"\">binding price ceiling</a></p>"
+    },
+    {
+      "id": "c0a1262b-3b85-44ec-a215-3a908b14519f",
+      "codename": "eco__bracket_creep",
+      "title": "bracket creep",
+      "slug": "bracket-creep",
+      "description": "<p>When an increase in personal income causes an individual to pay a higher average rate of income tax because they’ve moved into a higher income tax increment.</p>"
+    },
+    {
+      "id": "ba2fc8db-78bf-4ede-9a1f-7e93b6cc5343",
+      "codename": "eco__budget_outcome",
+      "title": "budget outcome",
+      "slug": "budget-outcome",
+      "description": "<p>The difference between government revenue and government expenditure in a fiscal year.</p>"
+    },
+    {
+      "id": "0d96a83c-fe45-4751-bb4a-a1d92cadfe8f",
+      "codename": "eco__business_cycle",
+      "title": "business cycle",
+      "slug": "business-cycle",
+      "description": "<p>Fluctuations in the level of economic activity (<a data-item-id=\"86efb98e-1eaa-45e8-b0fa-d837a4ad7ccb\" href=\"\">GDP</a>) over time.</p>"
+    },
+    {
+      "id": "f6c5c554-d7a1-494c-b906-2df71c210f1a",
+      "codename": "eco__capital",
+      "title": "capital",
+      "slug": "capital",
+      "description": "<p>Goods purchased for the purpose of producing other goods. It is frequently referred to as the produced means of production.</p>"
+    },
+    {
+      "id": "21d0bafc-4327-4174-a589-2385600e0cb6",
+      "codename": "eco__capital_deepening",
+      "title": "capital deepening",
+      "slug": "capital-deepening",
+      "description": "<p>An increase in the capital to labour ratio so that each unit of labour has more capital to work with to produce output.</p>"
+    },
+    {
+      "id": "22fea6d2-b492-40cc-89bb-94b676c52125",
+      "codename": "eco__central_bank",
+      "title": "central bank",
+      "slug": "central-bank",
+      "description": "<p>A non-commercial financial institution that manages the currency and monetary policy of a country.</p>"
+    },
+    {
+      "id": "dcf82732-9c1a-4759-a402-f49d0a8ac131",
+      "codename": "eco__circular_flow_of_income",
+      "title": "circular flow of income",
+      "slug": "circular-flow-of-income",
+      "description": "<p>A representation of the money flows between the various sectors that compose an economy.</p>"
+    },
+    {
+      "id": "79253135-c72e-4d3d-a2c7-23ce58f9528f",
+      "codename": "eco__command_and_control_instruments",
+      "title": "command-and-control instruments",
+      "slug": "command-and-control-instruments",
+      "description": "<p>Government policy measures that use rules and standards to limit damage to the natural environment from harmful economic activities and are enforced through penalties and legal sanctions.</p>"
+    },
+    {
+      "id": "f25a470e-419c-4d14-b5b6-ba6efe039bc7",
+      "codename": "eco__common_pool_resources",
+      "title": "common-pool resources",
+      "slug": "common-pool-resources",
+      "description": "<p>Goods that are accessible to everyone, but the availability is reduced when one person uses them.</p>\n<p><em>See</em> <a data-item-id=\"475d1552-3588-452f-843c-77d83982a4b6\" href=\"\">public goods</a></p>"
+    },
+    {
+      "id": "e615c555-8f6a-4ede-bdf2-4c2abc8c4d06",
+      "codename": "eco__comparative_advantage",
+      "title": "comparative advantage",
+      "slug": "comparative-advantage",
+      "description": "<p>When a country can produce and export specific goods and services at a lower opportunity cost than another country.</p>"
+    },
+    {
+      "id": "0542b4bd-b9e1-4e52-85bc-42eb7637035f",
+      "codename": "eco__consumer_price_index__cpi_",
+      "title": "consumer price index (CPI)",
+      "slug": "consumer-price-index-cpi",
+      "description": "<p>An inflation measure that captures the price change of a basket of goods and services over time which reflects the spending patterns of typical metropolitan households.</p>"
+    },
+    {
+      "id": "8706c312-4ec5-48ec-9b6d-1289e9320814",
+      "codename": "eco__consumer_sovereignty",
+      "title": "consumer sovereignty",
+      "slug": "consumer-sovereignty",
+      "description": "<p>The power of consumer demand to determine the type and quantity of goods and services produced in an economy.</p>"
+    },
+    {
+      "id": "959576d9-4bf9-4ac8-80c9-167373ae24eb",
+      "codename": "eco__cost_push_inflation",
+      "title": "cost-push inflation",
+      "slug": "cost-push-inflation",
+      "description": "<p>Price rises that occur when the supply of goods and services falls, but the demand stays unchanged. As the supply can’t satisfy the demand the cost of the goods and services increases.</p>"
+    },
+    {
+      "id": "1976482f-6cd6-4e56-a77b-dc61af1ca8cb",
+      "codename": "eco__crowding_out_effect",
+      "title": "crowding-out effect",
+      "slug": "crowding-out-effect",
+      "description": "<p>The decrease in private sector investment because of higher interest rates related to increased government borrowing.</p>"
+    },
+    {
+      "id": "f4b80522-a19d-4442-9bb6-585746c8467d",
+      "codename": "eco__currency_appreciation_depreciation",
+      "title": "currency appreciation/depreciation",
+      "slug": "currency-appreciation-depreciation",
+      "description": "<p>The increase or decrease in the value of one currency in terms of another.</p>"
+    },
+    {
+      "id": "3a7f76dc-1efe-483f-bf13-2759d3059722",
+      "codename": "eco__cyclical_unemployment",
+      "title": "cyclical unemployment",
+      "slug": "cyclical-unemployment",
+      "description": "<p>A situation where individuals work less due to a decline in economic activity and a subsequent decrease in demand for labour.</p>"
+    },
+    {
+      "id": "ea47d9c3-61c7-423c-b94f-cdf05cd19cee",
+      "codename": "eco__debt_markets",
+      "title": "debt markets",
+      "slug": "debt-markets",
+      "description": "<p>A financial market where households, businesses and governments borrow money through financial instruments.</p>"
+    },
+    {
+      "id": "80022fce-0aae-4b47-aada-8ca5990f0b84",
+      "codename": "eco__deflation",
+      "title": "deflation",
+      "slug": "deflation",
+      "description": "<p>A general decrease in the prices of goods and services over time.</p>"
+    },
+    {
+      "id": "8ae33d96-3ead-4611-b9ef-a605ef919d55",
+      "codename": "co__demand",
+      "title": "demand",
+      "slug": "demand",
+      "description": "<p>The quantity of a good or service that consumers are willing and able to purchase at a particular price at a given point in time.</p>"
+    },
+    {
+      "id": "7119e4d1-6446-46cb-92bd-ec7596f435cb",
+      "codename": "eco__demand_pull_inflation",
+      "title": "demand-pull inflation",
+      "slug": "demand-pull-inflation",
+      "description": "<p>An increase in prices caused by aggregate demand accelerating faster than aggregate supply.</p>"
+    },
+    {
+      "id": "fd7a30d7-a575-4ff5-beaf-482029325f54",
+      "codename": "eco__demerit_goods",
+      "title": "demerit goods",
+      "slug": "demerit-goods",
+      "description": "<p>Goods that, when consumed, generate more costs than benefits, and then tend to be overconsumed and overproduced.</p>\n<p><em>See</em> <a data-item-id=\"3adab30d-f7bd-4125-8e17-31a846719680\" href=\"\">merit goods</a></p>"
+    },
+    {
+      "id": "ad937291-051f-47bc-8761-b7340bd52c21",
+      "codename": "eco__dependency_ratio",
+      "title": "dependency ratio",
+      "slug": "dependency-ratio",
+      "description": "<p>The number of people in a country’s population who are dependent (i.e. not working) on the working population. The dependent population includes people under 15 years of age and those over 65.</p>"
+    },
+    {
+      "id": "c8a357de-8668-4d43-9dca-b3eaffa5395f",
+      "codename": "eco__developing_countries",
+      "title": "developing countries",
+      "slug": "developing-countries",
+      "description": "<p>Countries with low per capita incomes and low levels of economic development.</p>"
+    },
+    {
+      "id": "bdefcbf3-aeae-4a00-9558-60f42755a46f",
+      "codename": "eco__disinflation",
+      "title": "disinflation",
+      "slug": "disinflation",
+      "description": "<p>A period of slowing inflation.</p>"
+    },
+    {
+      "id": "2da3ef5a-e5d0-4d83-a2c5-6a7fa2c79644",
+      "codename": "eco__dissaving",
+      "title": "dissaving",
+      "slug": "dissaving",
+      "description": "<p>A situation where consumption exceeds income.</p>"
+    },
+    {
+      "id": "c9af2542-d141-4bc3-923e-97f7f3c6b06a",
+      "codename": "eco__dumping",
+      "title": "dumping",
+      "slug": "dumping",
+      "description": "<p>Selling goods in the international market at a price lower than the price charged in the country of manufacture.</p>"
+    },
+    {
+      "id": "67cd2b59-b5aa-4dc2-8f3d-7625fcc32253",
+      "codename": "eco__economic_agents",
+      "title": "economic agents",
+      "slug": "economic-agents",
+      "description": "<p>An individual or group that makes decisions that affect the allocation of resources in an economy.</p>"
+    },
+    {
+      "id": "e080414e-4380-4aad-9ae6-41b140dbc075",
+      "codename": "eco__economic_development",
+      "title": "economic development",
+      "slug": "economic-development",
+      "description": "<p>The process of improving the quality of life of a population through sustained economic, social, and environmental progress.</p>"
+    },
+    {
+      "id": "c568e69a-bd8d-42f9-86e5-56df97e314dd",
+      "codename": "eco__economic_growth",
+      "title": "economic growth",
+      "slug": "economic-growth",
+      "description": "<p>An increase in the volume of goods and services produced in an economy over a period of time.</p>"
+    },
+    {
+      "id": "94d61a67-23fe-4456-b985-01b74ea3bc14",
+      "codename": "eco__economic_model",
+      "title": "economic model",
+      "slug": "economic-model",
+      "description": "<p>A simple theoretical representation of real-world situations used to explain and test economic behaviour.</p>"
+    },
+    {
+      "id": "08d29854-8b20-4b3c-b92c-7a765665ea78",
+      "codename": "eco__economic_problem",
+      "title": "economic problem",
+      "slug": "economic-problem",
+      "description": "<p>The fundamental challenge of unlimited wants and scarce resources confronting any economy.</p>"
+    },
+    {
+      "id": "e2a5b119-6912-4c97-ace3-b9cb32c4cd8c",
+      "codename": "eco__economic_profit",
+      "title": "economic profit",
+      "slug": "economic-profit",
+      "description": "<p>Total revenue of a business minus the total costs, including opportunity cost.</p>"
+    },
+    {
+      "id": "b41b3a96-e7c5-49e9-849b-00e52bf97275",
+      "codename": "eco__economic_shocks",
+      "title": "economic shocks",
+      "slug": "economic-shocks",
+      "description": "<p>An unexpected and sudden event that significantly affects a country’s or region’s economic conditions.</p>"
+    },
+    {
+      "id": "7c6ecb32-c150-48eb-bc02-88fa5d406ccd",
+      "codename": "eco__economic_systems",
+      "title": "economic systems",
+      "slug": "economic-systems",
+      "description": "<p>A country’s organisational structure for determining:</p>\n<ul>\n  <li>the way resources are allocated</li>\n  <li>how goods and services are produced and exchanged.</li>\n</ul>"
+    },
+    {
+      "id": "15861f44-1cf2-4bcc-9bd0-19742912081b",
+      "codename": "eco__economies_of_scale",
+      "title": "economies of scale",
+      "slug": "economies-of-scale",
+      "description": "<p>The savings made when producing a product in larger quantities allows for a lower cost per individual item.</p>"
+    },
+    {
+      "id": "549ef09e-310f-48a7-9797-1844d94a0af5",
+      "codename": "eco__ecosystem_services",
+      "title": "ecosystem services",
+      "slug": "ecosystem-services",
+      "description": "<p>The direct and indirect benefits humans receive from natural ecosystems.</p>"
+    },
+    {
+      "id": "d03ee269-a026-4e2f-91f6-92112c7462e8",
+      "codename": "eco__efficiency_standards",
+      "title": "efficiency standards",
+      "slug": "efficiency-standards",
+      "description": "<p>Regulations that establish the minimum acceptable environmental performance of a good.</p>"
+    },
+    {
+      "id": "8c765b2b-387b-43f5-89b4-8179579d9f8d",
+      "codename": "eco__emerging_economies",
+      "title": "emerging economies",
+      "slug": "emerging-economies",
+      "description": "<p>A country that has experienced sustained economic development and is transitioning from a developing economy to an advanced economy.</p>"
+    },
+    {
+      "id": "3d23c170-ff14-4d6a-b589-8602f5ed739a",
+      "codename": "eco__equity_markets",
+      "title": "equity markets",
+      "slug": "equity-markets",
+      "description": "<p>The marketplace for buying and selling shares in the ownership of businesses.</p>"
+    },
+    {
+      "id": "750c5881-39c8-4a49-b24e-647c48696b63",
+      "codename": "eco__exchange_rate",
+      "title": "exchange rate",
+      "slug": "exchange-rate",
+      "description": "<p>The value of one currency expressed in terms of the value of another currency.</p>"
+    },
+    {
+      "id": "1b88d0e5-85a8-47e0-a149-b5585e885d19",
+      "codename": "eco__excise_duty",
+      "title": "excise duty",
+      "slug": "excise-duty",
+      "description": "<p>The tax on excisable goods made in Australia (alcohol, tobacco, fuel, petroleum).</p>"
+    },
+    {
+      "id": "ffa392bb-5737-4b0c-9da7-15f193d18ec2",
+      "codename": "eco__external_shocks",
+      "title": "external shocks",
+      "slug": "external-shocks",
+      "description": "<p>An unexpected and sudden event that originates outside of a country that has economic impacts inside that country.</p>"
+    },
+    {
+      "id": "f2e981a7-ba77-49d4-8b88-dfd722c93bc4",
+      "codename": "eco__externalities",
+      "title": "externalities",
+      "slug": "externalities",
+      "description": "<p>The costs or benefits of consuming or producing goods that affect third parties.</p>"
+    },
+    {
+      "id": "459e4f86-d24b-4a14-b105-9b344af09df9",
+      "codename": "eco__factor_markets",
+      "title": "factor markets",
+      "slug": "factor-markets",
+      "description": "<p>A market for land, labour, capital or entrepreneurship.</p>"
+    },
+    {
+      "id": "ad646aa2-ab49-4a4a-91a6-39adeb945ff7",
+      "codename": "eco__financial_intermediaries",
+      "title": "financial intermediaries",
+      "slug": "financial-intermediaries",
+      "description": "<p>An institution or agent that channels money between savers and borrowers.</p>"
+    },
+    {
+      "id": "78cd4b15-7a40-4c86-bcff-76981d135dc5",
+      "codename": "eco__first_mover_advantages",
+      "title": "first-mover advantages",
+      "slug": "first-mover-advantages",
+      "description": "<p>The commercial benefit associated with taking a good or service to market before competitors.</p>"
+    },
+    {
+      "id": "ed9fa7e8-eaf1-44cb-b6df-92f5f9da2b4a",
+      "codename": "eco__fiscal_policy",
+      "title": "fiscal policy",
+      "slug": "fiscal-policy",
+      "description": "<p>A government’s budgetary plan for taxation and spending.</p>"
+    },
+    {
+      "id": "445f12e9-7f23-4e9e-8177-5330ee70e270",
+      "codename": "eco__fiscal_stance",
+      "title": "fiscal stance",
+      "slug": "fiscal-stance",
+      "description": "<p>The intended impact on future economic activity of planned government spending and taxation.</p>"
+    },
+    {
+      "id": "19b4d920-b0dd-493b-8a94-dcc658b6e4f7",
+      "codename": "eco__fiscal_sustainability",
+      "title": "fiscal sustainability",
+      "slug": "fiscal-sustainability",
+      "description": "<p>When a government does not need to undertake major changes to taxation or spending policies to keep meeting its debt obligations indefinitely.</p>"
+    },
+    {
+      "id": "6096c739-fb92-46e8-8cec-6a4bc6e5d308",
+      "codename": "eco__floating_exchange_rate_system",
+      "title": "floating exchange rate system",
+      "slug": "floating-exchange-rate-system",
+      "description": "<p>Value of a currency determined by the forces of demand and supply.</p>"
+    },
+    {
+      "id": "c9b3b024-7d1c-4cf4-9653-0973bbafd79d",
+      "codename": "eco__foreign_direct_investment__fdi_",
+      "title": "foreign direct investment (FDI)",
+      "slug": "foreign-direct-investment-fdi",
+      "description": "<p>The establishment of a new business or the purchase of 10 per cent or more of an existing business by a foreign entity.</p>"
+    },
+    {
+      "id": "b7e187e3-3888-4c6a-a097-a825e8e9b0ba",
+      "codename": "eco__free_trade",
+      "title": "free trade",
+      "slug": "free-trade",
+      "description": "<p>The buying and selling of goods and services between countries without government barriers.&nbsp;</p>\n<p><em>See</em> <a data-item-id=\"77595bc4-4a5a-477e-89ea-5b11627097be\" href=\"\">multilateral free trade agreements</a></p>"
+    },
+    {
+      "id": "fe6bd48f-e0d2-4812-b749-ae3f7edeadb7",
+      "codename": "eco__frictional_unemployment",
+      "title": "frictional unemployment",
+      "slug": "frictional-unemployment",
+      "description": "<p>A type of unemployment that occurs as people change jobs or work status.</p>"
+    },
+    {
+      "id": "264c4077-f78a-469c-ae28-eedc2a0e3735",
+      "codename": "eco__full_employment",
+      "title": "full employment",
+      "slug": "full-employment",
+      "description": "<p>A level of employment consistent with low and stable inflation that effectively equates to zero cyclical unemployment.</p>\n<p><em>See</em> <a data-item-id=\"4a1fff19-9ca8-44d1-9a74-b8b9cc3db343\" href=\"\">cyclical unemployment</a></p>"
+    },
+    {
+      "id": "1e6ec946-5a4f-434b-8553-6b0e9f649776",
+      "codename": "eco__full_time_workers",
+      "title": "full-time workers",
+      "slug": "full-time-workers",
+      "description": "<p>An individual who averages 35 hours or more of work per week.</p>\n<p><em>See</em> <a data-item-id=\"40d2c5d3-ab4c-4990-aad7-c56a4376ddb3\" href=\"\">part-time workers</a></p>"
+    },
+    {
+      "id": "4a7c9787-7705-46bc-9ea9-48e1a845f0f4",
+      "codename": "eco__geographic_mobility_of_labour",
+      "title": "geographic mobility of labour",
+      "slug": "geographic-mobility-of-labour",
+      "description": "<p>The ease with which people can relocate for a job.</p>"
+    },
+    {
+      "id": "fbac9049-3ec4-4aab-86fd-10d448947f3c",
+      "codename": "eco__gini_coefficient",
+      "title": "Gini coefficient",
+      "slug": "gini-coefficient",
+      "description": "<p>A measure of income or wealth inequality in an economy on a scale of 0 to 1.</p>"
+    },
+    {
+      "id": "4072ef43-dfed-4589-93ad-c07f8f07ce94",
+      "codename": "eco__government_failure",
+      "title": "government failure",
+      "slug": "government-failure",
+      "description": "<p>Government policy implemented to address market failure which results in worse outcomes.</p>"
+    },
+    {
+      "id": "90fb168c-f37a-42fd-84f7-15cb74fff7e0",
+      "codename": "eco__gross_domestic_product__gdp_",
+      "title": "gross domestic product (GDP)",
+      "slug": "gross-domestic-product-gdp",
+      "description": "<p>The total value of all final goods and services produced in an economy over a period of time.</p>\n<p><em>See</em> <a data-item-id=\"80af1f0f-284d-46d7-ab53-786efd8edd0d\" href=\"\">national income</a></p>"
+    },
+    {
+      "id": "545cece1-de72-45a8-81a2-14db46e7df5d",
+      "codename": "eco__hidden_unemployment",
+      "title": "hidden unemployed",
+      "slug": "hidden-unemployed",
+      "description": "<p>Person(s) not in paid employment who are generally willing and able to work, but not actively seeking employment.</p>\n<p><em>See</em> <a data-item-id=\"2895fb4c-93a6-4bd4-bd7e-9fe8b3512468\" href=\"\">underemployment</a></p>"
+    },
+    {
+      "id": "59813249-97eb-4635-8561-e4cbabc15b7b",
+      "codename": "eco__imported_inflation",
+      "title": "imported inflation",
+      "slug": "imported-inflation",
+      "description": "<p>A rise in the prices of imported goods and services, commonly due to a depreciation of the currency.</p>"
+    },
+    {
+      "id": "aeb343ef-55b3-41bc-b543-e939e8c6a42a",
+      "codename": "eco__incidence_of_tax",
+      "title": "incidence of tax",
+      "slug": "incidence-of-tax",
+      "description": "<p>The entity that bears the legal or economic burden of a tax.</p>"
+    },
+    {
+      "id": "39a58bb4-38ef-40ae-9718-076adec0e314",
+      "codename": "eco__infant_industries",
+      "title": "infant industries",
+      "slug": "infant-industries",
+      "description": "<p>A relatively new domestic industry vulnerable to more established and efficient international competitors.</p>"
+    },
+    {
+      "id": "87207d59-c122-4d9b-8450-4fdde2e1207b",
+      "codename": "eco__inferior_goods",
+      "title": "inferior goods",
+      "slug": "inferior-goods",
+      "description": "<p>Lower quality goods with demand that decreases as income rises.</p>"
+    },
+    {
+      "id": "32511925-d893-4ce6-8390-cf758b999047",
+      "codename": "mst__inflation",
+      "title": "inflation",
+      "slug": "inflation",
+      "description": "<p>A general increase in the prices of goods and services over time.</p>"
+    },
+    {
+      "id": "1d6a63a9-c1e7-4709-b781-f7c046af302c",
+      "codename": "eco__inflation_target",
+      "title": "inflation target",
+      "slug": "inflation-target",
+      "description": "<p>A central bank objective of keeping inflation low and stable.</p>"
+    },
+    {
+      "id": "ba4f5af6-74c7-4ef8-95dc-60a2872092de",
+      "codename": "glo_link__inflationary_expectations",
+      "title": "inflationary expectations",
+      "slug": "inflationary-expectations",
+      "description": "<p>The future price of goods and services anticipated by consumers and producers.</p>"
+    },
+    {
+      "id": "f5a95bbf-ee07-4564-a598-0bb18df85386",
+      "codename": "eco__informal_economy",
+      "title": "informal economy",
+      "slug": "informal-economy",
+      "description": "<p>Unregulated economic activities that contribute to output and employment but are not captured in official data.</p>"
+    },
+    {
+      "id": "8cc80d4e-4f5b-44ab-832b-c0522d62858e",
+      "codename": "eco__international_business_cycles",
+      "title": "international business cycles",
+      "slug": "international-business-cycles",
+      "description": "<p>Synchronised fluctuations in the level of economic activity across countries due to increased interdependencies from trade and investment.</p>"
+    },
+    {
+      "id": "b889f9ee-1f52-4318-a733-ac455b0b66ba",
+      "codename": "eco__labour_force_underutilisation_rate",
+      "title": "labour force underutilisation rate",
+      "slug": "labour-force-underutilisation-rate",
+      "description": "<p>The percentage of the labour force composed of people unemployed and underemployed.</p>"
+    },
+    {
+      "id": "3a9e43f2-0c96-4acb-9601-a658979a9549",
+      "codename": "eco__labour_market_frictions",
+      "title": "labour market frictions",
+      "slug": "labour-market-frictions",
+      "description": "<p>Impediments to the efficient allocation of workers in an economy.</p>"
+    },
+    {
+      "id": "b83d12ab-1dd3-418e-9aae-93c2ef63f3d6",
+      "codename": "eco__law_of_diminishing_marginal_utility",
+      "title": "law of diminishing marginal utility",
+      "slug": "law-of-diminishing-marginal-utility",
+      "description": "<p>The principle that the extra satisfaction a person gains from consuming an additional unit of a good or service will reduce at some point.</p>"
+    },
+    {
+      "id": "3b64da40-cf54-4d19-8286-8c56054e358b",
+      "codename": "eco__liquidity",
+      "title": "liquidity",
+      "slug": "liquidity",
+      "description": "<p>The speed and ease with which financial assets can be converted into cash.</p>"
+    },
+    {
+      "id": "ce902e04-b86c-4261-a918-00b7e5ebc22f",
+      "codename": "eco__local_content_requirements",
+      "title": "local content requirements",
+      "slug": "local-content-requirements",
+      "description": "<p>Government policy designed to support domestic industries by mandating the use of locally produced goods or services instead of competing imports.</p>"
+    },
+    {
+      "id": "c62c6567-7248-463e-932c-e1c916c806a4",
+      "codename": "eco__lorenz_curve",
+      "title": "Lorenze curve",
+      "slug": "lorenze-curve",
+      "description": "<p>A graph illustrating the distribution of income or wealth in a country by comparing the cumulative share of income received by different parts of the population.</p>"
+    },
+    {
+      "id": "a6d9fc7b-0c5e-485f-8bf5-fdcc350d5138",
+      "codename": "eco__macroeconomics",
+      "title": "macroeconomics",
+      "slug": "macroeconomics",
+      "description": "<p>The study of the economy as a whole, focusing on aggregates.</p>"
+    },
+    {
+      "id": "3e08916c-027a-4f01-8599-0c9b52225776",
+      "codename": "eco__marginal_propensity_to_consume__mpc_",
+      "title": "marginal propensity to consume (MPC)",
+      "slug": "marginal-propensity-to-consume-mpc",
+      "description": "<p>The proportion of each extra dollar of income that is spent.</p>"
+    },
+    {
+      "id": "38762fc5-78e8-43a7-bdda-a21ceda31617",
+      "codename": "eco__marginal_propensity_to_save__mps_",
+      "title": "marginal propensity to save (MPS)",
+      "slug": "marginal-propensity-to-save-mps",
+      "description": "<p>The proportion of each extra dollar of income that is saved.</p>"
+    },
+    {
+      "id": "040891ea-c39f-44bf-9245-ea4a557a5ae2",
+      "codename": "eco__market_concentration",
+      "title": "market concentration",
+      "slug": "market-concentration",
+      "description": "<p>A measure of the distribution of market share between businesses in a particular industry.</p>"
+    },
+    {
+      "id": "7379848a-7ba9-45bb-ad1f-af0fdf22e782",
+      "codename": "eco__market_economy",
+      "title": "market economy",
+      "slug": "market-economy",
+      "description": "<p>An economic system where economic decisions are mostly made by households and businesses, and economic outcomes are largely determined by the forces of demand and supply.</p>"
+    },
+    {
+      "id": "e759ce95-591b-47d3-80ac-8c0512500b9e",
+      "codename": "eco__market_failure",
+      "title": "market failure",
+      "slug": "market-failure",
+      "description": "<p>When demand and supply does not allocate resources efficiently or equitably, resulting in undesirable outcomes.</p>"
+    },
+    {
+      "id": "c326f9da-3800-4c85-b3ae-ebd5922c368d",
+      "codename": "eco__merit_goods",
+      "title": "merit goods",
+      "slug": "merit-goods",
+      "description": "<p>Goods that, when consumed, generate benefits in excess of the costs, and then tend to be under-consumed and under-produced.</p>\n<p><em>See</em> <a data-item-id=\"aa25a169-a090-4f07-952d-681445ebf60d\" href=\"\">demerit goods</a></p>"
+    },
+    {
+      "id": "7bc3805a-50a6-47da-8b0e-9586fc86b85d",
+      "codename": "eco__microeconomics",
+      "title": "microeconomics",
+      "slug": "microeconomics",
+      "description": "<p>The study of the economy in its parts, focusing on individuals, businesses and industries.</p>"
+    },
+    {
+      "id": "fb2c72d6-ba26-4825-87f0-a94512e8e39e",
+      "codename": "eco__monetary_financing",
+      "title": "monetary financing",
+      "slug": "monetary-financing",
+      "description": "<p>The financing of government spending through the creation of new money by the central bank.</p>"
+    },
+    {
+      "id": "0ea62136-8674-4575-a405-7399ec0eea8d",
+      "codename": "eco__monetary_policy",
+      "title": "monetary policy",
+      "slug": "monetary-policy",
+      "description": "<p>The actions of a central bank to influence the interest rates and manage fluctuations in the business cycle of an economy.</p>"
+    },
+    {
+      "id": "e6bc9b96-1f89-4d8b-b7ab-8833842001d7",
+      "codename": "eco__monopolies",
+      "title": "monopolies",
+      "slug": "monopolies",
+      "description": "<p>A market structure comprised of a single seller.</p>"
+    },
+    {
+      "id": "8cea705c-3ed3-4f4a-9f0f-61d33a2959ea",
+      "codename": "eco__monopolistic_competition",
+      "title": "monopolistic competition",
+      "slug": "monopolistic-competition",
+      "description": "<p>A market structure with imperfect competition characterised by differentiated products, a large number of relatively small sellers and no barriers to entry.</p>"
+    },
+    {
+      "id": "684de7c4-c4a2-4ee6-aac6-775ed6782f61",
+      "codename": "eco__multilateral_free_trade_agreements",
+      "title": "multilateral free trade agreements",
+      "slug": "multilateral-free-trade-agreements",
+      "description": "<p>A trade agreement between 3 or more countries.</p>\n<p><em>See</em> <a data-item-id=\"7aac4411-a068-4717-8a91-eeee10fed0ba\" href=\"\">free trade</a></p>"
+    },
+    {
+      "id": "a46d0273-4a62-4e71-b97e-70c1e96946c7",
+      "codename": "eco__multiplier_effect",
+      "title": "multiplier effect",
+      "slug": "multiplier-effect",
+      "description": "<p>The increase in national income resulting from additional spending.</p>"
+    },
+    {
+      "id": "c2a6d675-c106-40e2-8827-e623d395c74a",
+      "codename": "eco__national_income",
+      "title": "national income",
+      "slug": "national-income",
+      "description": "<p>An alternative term for gross domestic product (GDP).</p>\n<p><em>See </em><a data-item-id=\"86efb98e-1eaa-45e8-b0fa-d837a4ad7ccb\" href=\"\">gross domestic product (GDP)</a></p>"
+    },
+    {
+      "id": "e83c73d6-056f-408b-a0f6-3b177b94b834",
+      "codename": "eco__nationalisation",
+      "title": "nationalisation",
+      "slug": "nationalisation",
+      "description": "<p>The government taking ownership and control of a business from the private sector.</p>"
+    },
+    {
+      "id": "c90be091-5e7e-4d97-b849-05aa0903d151",
+      "codename": "eco__network_effects",
+      "title": "network effects",
+      "slug": "network-effects",
+      "description": "<p>The increase in value or the benefit derived from a good or service as more people use it.</p>"
+    },
+    {
+      "id": "2ba2ab83-dc67-4310-bf11-be1784b927f2",
+      "codename": "eco__non_market_sector",
+      "title": "non-market sector",
+      "slug": "non-market-sector",
+      "description": "<p>The part of the economy producing goods and services that are either free or heavily subsidised, and usually produced by the government.</p>"
+    },
+    {
+      "id": "c09f2d35-6656-4d67-b3ac-ebecf2159174",
+      "codename": "sci_sec_gls_non_renewable__resource_",
+      "title": "non-renewable (resource)",
+      "slug": "non-renewable-resource",
+      "description": "<p>A resource that becomes depleted or takes longer than a human life span to be restored.</p>"
+    },
+    {
+      "id": "d791f792-8c23-4705-9dfb-3ae862824dcd",
+      "codename": "eco__non_standard_work_arrangements",
+      "title": "non-standard work arrangements",
+      "slug": "non-standard-work-arrangements",
+      "description": "<p>A job without an employer guarantee of stable, long-term employment.</p>"
+    },
+    {
+      "id": "1b6e5f1a-94c5-4b87-835f-6045fc4fcec3",
+      "codename": "eco__non_wage_benefits",
+      "title": "non-wage benefits",
+      "slug": "non-wage-benefits",
+      "description": "<p>Compensation provided by employers in addition to wages or salaries.</p>"
+    },
+    {
+      "id": "9e9446a6-5489-47ea-89bb-b2501332ab3a",
+      "codename": "eco__normal_goods",
+      "title": "normal goods",
+      "slug": "normal-goods",
+      "description": "<p>Goods with demand that increases as income rises.</p>"
+    },
+    {
+      "id": "25f051b1-487a-41c3-b0f5-488e244debd7",
+      "codename": "eco__nudges",
+      "title": "nudges",
+      "slug": "nudges",
+      "description": "<p>A behavioural strategy used to influence the decisions of consumers or businesses toward positive economic and social outcomes by changing how choices are presented.</p>"
+    },
+    {
+      "id": "df0b80c0-7517-447a-9831-c5eff65f0b5f",
+      "codename": "eco__occupational_mobility_of_labour",
+      "title": "occupational mobility of labour",
+      "slug": "occupational-mobility-of-labour",
+      "description": "<p>The ease with which workers can move between different fields of employment.</p>"
+    },
+    {
+      "id": "63707968-2387-4018-a6dc-6a27c52834fb",
+      "codename": "eco__occupational_segregation",
+      "title": "occupational segregation",
+      "slug": "occupational-segregation",
+      "description": "<p>The distribution of jobs and industries between genders and the tendency for women to be concentrated in lower-paid employment.</p>"
+    },
+    {
+      "id": "93bb4603-47a5-43e0-8e31-fb8c9cf100db",
+      "codename": "eco__oligopolies",
+      "title": "oligopolies",
+      "slug": "oligopolies",
+      "description": "<p>A market structure with imperfect competition comprising few firms and significant barriers to entry.</p>"
+    },
+    {
+      "id": "fd702942-1b01-478b-b94c-95d749ed6fa2",
+      "codename": "co__opportunity_cost",
+      "title": "opportunity cost",
+      "slug": "opportunity-cost",
+      "description": "<p>What a person has to forgo if they choose to do A rather than B; the value of the next best alternative that is forgone whenever a choice is made.</p>"
+    },
+    {
+      "id": "1eb620d6-8029-4838-b86e-152aee97fb95",
+      "codename": "eco__palma_ratio",
+      "title": "Palma ratio",
+      "slug": "palma-ratio",
+      "description": "<p>The proportion of income of the top 10 per cent of earners divided by the proportion of income of the bottom 40 per cent of earners.</p>"
+    },
+    {
+      "id": "3dabc0ed-55ef-4d18-b986-c35e4ebbf1a1",
+      "codename": "eco__paradox_of_thrift",
+      "title": "paradox of thrift",
+      "slug": "paradox-of-thrift",
+      "description": "<p>The economic theory that when all individuals attempt to save more, the collective decrease in spending will cause lower production, employment and income in the economy, ultimately lowering total savings.</p>"
+    },
+    {
+      "id": "39fc3f6c-a9c0-4ed5-aa01-561c8f041e21",
+      "codename": "eco__part_time_workers",
+      "title": "part-time workers",
+      "slug": "part-time-workers",
+      "description": "<p>An individual who averages less than 35 hours of work per week.</p>\n<p><em>See </em><a data-item-id=\"3d364add-70ec-448e-a493-dc014fb042b7\" href=\"\">full-time workers</a></p>"
+    },
+    {
+      "id": "de96b688-d75c-4e7e-8a6d-001f8ea0382d",
+      "codename": "eco__per_capita_recession",
+      "title": "per capita recession",
+      "slug": "per-capita-recession",
+      "description": "<p>An economic downturn defined by a fall in real GDP per capita and a decrease in living standards.</p>"
+    },
+    {
+      "id": "8c3d0e43-0c13-46c4-bd24-fd5b1e179405",
+      "codename": "eco__perfect_competition",
+      "title": "perfect competition",
+      "slug": "perfect-competition",
+      "description": "<p>A market structure characterised by homogenous products, a large number of small sellers and no barriers to entry.</p>"
+    },
+    {
+      "id": "16274e73-9b23-4a72-b45f-0c478ef1f0a0",
+      "codename": "eco__portfolio_investment",
+      "title": "portfolio investment",
+      "slug": "portfolio-investment",
+      "description": "<p>The acquisition of financial assets without gaining control over management of the underlying business or entity.</p>"
+    },
+    {
+      "id": "0c03d2f6-8588-4c1b-ae3c-db2b7a98427b",
+      "codename": "eco__potential_output",
+      "title": "potential output",
+      "slug": "potential-output",
+      "description": "<p>The maximum sustainable level of goods and services an economy can produce when all of its available resources are used.</p>"
+    },
+    {
+      "id": "3bc20143-4e22-4cb9-84cd-2f26d67e935d",
+      "codename": "eco__price_elasticity_of_demand",
+      "title": "price elasticity of demand",
+      "slug": "price-elasticity-of-demand",
+      "description": "<p>A measure of the sensitivity of the demand of a good or service to a change in its price.</p>\n<p><em>See</em> <a data-item-id=\"495e5470-8e07-41fb-aa25-8eb9cf033bcb\" href=\"\">price elasticity of supply</a></p>"
+    },
+    {
+      "id": "d01db609-b83a-4344-acbf-c241974e5504",
+      "codename": "eco__price_elasticity_of_supply",
+      "title": "price elasticity of supply",
+      "slug": "price-elasticity-of-supply",
+      "description": "<p>A measure of the sensitivity of the supply of a good or service to a change in its price.</p>\n<p><em>See</em> <a data-item-id=\"cb2225a2-c5e7-4ced-a7f2-013dcb513a46\" href=\"\">price elasticity of demand</a></p>"
+    },
+    {
+      "id": "8412532f-072f-4fe8-ba28-0b24abb4f0a6",
+      "codename": "eco__price_mechanism",
+      "title": "price mechanism",
+      "slug": "price-mechanism",
+      "description": "<p>The interplay between demand and supply to determine the price of a good or service in a market economy.</p>"
+    },
+    {
+      "id": "8aa17b73-05d8-4ee6-86a4-a9b516fae6f5",
+      "codename": "eco__price_stability",
+      "title": "price stability",
+      "slug": "price-stability",
+      "description": "<p>Low and stable inflation.</p>"
+    },
+    {
+      "id": "dc002bd5-9b13-4086-9535-58c3026fc02c",
+      "codename": "eco__private_benefits",
+      "title": "private benefits",
+      "slug": "private-benefits",
+      "description": "<p>The gains of a household or business in consuming or producing a good or service.</p>"
+    },
+    {
+      "id": "dfaf3924-8c60-4661-af6e-1859485e6399",
+      "codename": "eco__private_costs",
+      "title": "private costs",
+      "slug": "private-costs",
+      "description": "<p>The direct costs for a household or business in consuming or producing a good or service.</p>"
+    },
+    {
+      "id": "2d6d5443-5778-459c-b818-06c279358777",
+      "codename": "eco__private_sector",
+      "title": "private sector",
+      "slug": "private-sector",
+      "description": "<p>The part of the economy not owned and operated by the government and run for profit.</p>"
+    },
+    {
+      "id": "661c0a30-3945-42a2-93bc-5ec666b9a848",
+      "codename": "eco__privatisation",
+      "title": "privatisation",
+      "slug": "privatisation",
+      "description": "<p>The transfer of ownership of an asset from the public sector to the private sector.</p>"
+    },
+    {
+      "id": "32c33414-abdf-47b5-87bf-61a140988c8b",
+      "codename": "eco__product_markets",
+      "title": "product markets",
+      "slug": "product-markets",
+      "description": "<p>The marketplace for final goods and services.</p>"
+    },
+    {
+      "id": "21acefc1-727a-464c-9a5c-6f454286e9db",
+      "codename": "eco__productivity",
+      "title": "productivity",
+      "slug": "productivity2",
+      "description": "<p>The volume of output produced per unit of input.</p>"
+    },
+    {
+      "id": "ddeb1ec1-277b-4fd6-8802-53438300b06c",
+      "codename": "eco__promotion_gaps",
+      "title": "promotion gaps",
+      "slug": "promotion-gaps",
+      "description": "<p>The phenomenon of men being promoted at higher rates than women.</p>"
+    },
+    {
+      "id": "9dd4e532-2b93-46ca-a739-3199763c5570",
+      "codename": "eco__public_enterprises",
+      "title": "public enterprises",
+      "slug": "public-enterprises",
+      "description": "<p>A business owned and controlled by the government.</p>"
+    },
+    {
+      "id": "88640cdc-f66b-42a5-b29d-efecb4c28d19",
+      "codename": "eco__public_goods",
+      "title": "public goods",
+      "slug": "public-goods",
+      "description": "<p>Goods that are freely available for everyone to use and one person’s use does not reduce the capacity for others to also use them.</p>\n<p><em>See</em> <a data-item-id=\"2ac3c5db-b967-496f-a1f4-4943e864bb73\" href=\"\">common-pool resources</a></p>"
+    },
+    {
+      "id": "a65c32a7-51c1-4a2e-830a-07f1b7724bad",
+      "codename": "eco__purchasing_power_parity__ppp_",
+      "title": "purchasing power parity (PPP)",
+      "slug": "purchasing-power-parity-ppp",
+      "description": "<p>Currency conversion that equalises the buying power between countries’ currencies.</p>"
+    },
+    {
+      "id": "22fe4cbf-0f84-46d0-9387-96f4e70bdf3c",
+      "codename": "eco__quotas",
+      "title": "quotas",
+      "slug": "quotas",
+      "description": "<p>A restriction on the quantity of an imported good allowed into a country.</p>"
+    },
+    {
+      "id": "680a8323-eefe-4845-b778-d94aad59d9ee",
+      "codename": "eco__regional_trading_blocs",
+      "title": "regional trading blocs",
+      "slug": "regional-trading-blocs",
+      "description": "<p>A group of countries in the same geographical area that agree to reduce or remove trade barriers between themselves to benefit from economic integration.</p>"
+    },
+    {
+      "id": "3fb196a1-b5ac-444c-b264-ac66398f5635",
+      "codename": "eco__regulatory_capture",
+      "title": "regulatory capture",
+      "slug": "regulatory-capture",
+      "description": "<p>When a regulatory agency is improperly influenced by groups who have an interest in the industry that is overseen by the agency.</p>"
+    },
+    {
+      "id": "8ff98c26-0b3d-4ea4-add9-f72dfad38a07",
+      "codename": "eco__relative_poverty",
+      "title": "relative poverty",
+      "slug": "relative-poverty",
+      "description": "<p>A condition where a person’s income is significantly below the median income of the population, resulting in a lower standard of living and reduced ability to participate fully in society.</p>"
+    },
+    {
+      "id": "a7c73e0e-5364-44e9-85b3-a1c52900478b",
+      "codename": "eco__rent_seeking_behaviour",
+      "title": "rent-seeking behaviour",
+      "slug": "rent-seeking-behaviour",
+      "description": "<p>Gaining a competitive advantage through manipulation or exploitation instead of through production and trade.</p>"
+    },
+    {
+      "id": "f0aa108f-91a5-4fc3-9c99-9b42d91f6db5",
+      "codename": "eco__sludge",
+      "title": "sludge",
+      "slug": "sludge",
+      "description": "<p>A process deliberately designed to be difficult, confusing and onerous, to discourage people from completing the process.</p>"
+    },
+    {
+      "id": "e8fe4d2b-6f4d-49fa-a259-6fbc19c5cd99",
+      "codename": "eco__social_benefits",
+      "title": "social benefits",
+      "slug": "social-benefits",
+      "description": "<p>The total benefit to society of the consumption or production of a good or service, including private and third-party benefits.</p>\n<p><em>See </em><a data-item-id=\"1a0eff2c-e5c9-4d8e-9e93-1c6f97765932\" href=\"\">social costs</a></p>"
+    },
+    {
+      "id": "3a023027-ac86-4896-a602-d833613a7987",
+      "codename": "eco__social_costs",
+      "title": "social costs",
+      "slug": "social-costs",
+      "description": "<p>The total cost to society of the consumption or production of a good or service, including private and third-party costs.</p>\n<p><em>See </em><a data-item-id=\"e58d5a6b-ca18-4024-9e19-3fc352f44997\" href=\"\">social benefits</a></p>"
+    },
+    {
+      "id": "5de41e01-f23b-4c20-8291-4888dc7dd0a7",
+      "codename": "eco__sovereign_investment_funds",
+      "title": "sovereign investment funds",
+      "slug": "sovereign-investment-funds",
+      "description": "<p>A state-owned, special purpose investment vehicle funded by budget surpluses.</p>"
+    },
+    {
+      "id": "2a3cac93-92e1-4d2c-bc96-8cb963d48236",
+      "codename": "eco__specialisation",
+      "title": "specialisation",
+      "slug": "specialisation",
+      "description": "<p>The concentration of labour or other resources on a specific task or stage of production to improve efficiency.</p>"
+    },
+    {
+      "id": "5e0e925a-6ba1-4246-ae4d-8f78968ce0b6",
+      "codename": "eco__stagflation",
+      "title": "stagflation",
+      "slug": "stagflation",
+      "description": "<p>The phenomenon of simultaneously low economic growth and high inflation.</p>"
+    },
+    {
+      "id": "2cb0925a-0110-4570-b807-a5c1b3816858",
+      "codename": "eco__structural_unemployment",
+      "title": "structural unemployment",
+      "slug": "structural-unemployment",
+      "description": "<p>People unemployed because of changes in the economy that have led to their skills becoming redundant.</p>"
+    },
+    {
+      "id": "6befd62d-a861-4613-9402-e6a88cb3494f",
+      "codename": "eco__subsidies",
+      "title": "subsidies",
+      "slug": "subsidies",
+      "description": "<p>Government incentives provided to domestic producers, commonly in the form of payments or tax concessions, to lower the cost of production and encourage greater production.</p>"
+    },
+    {
+      "id": "128c4f94-82d4-49a5-aab1-0231c4e0f972",
+      "codename": "co__supply",
+      "title": "supply",
+      "slug": "supply",
+      "description": "<p>The quantity of a good or service that businesses are willing and able to offer for sale at a particular price at a given point in time.</p>"
+    },
+    {
+      "id": "5fbe25b8-96fe-4c31-b158-bf8d6040e65f",
+      "codename": "eco__tariff",
+      "title": "tariff",
+      "slug": "tariff",
+      "description": "<p>A tax imposed on imports into a country.</p>"
+    },
+    {
+      "id": "0835c9a3-845e-4fba-9bfe-792930a1ea68",
+      "codename": "eco__technical_recession",
+      "title": "technical recession",
+      "slug": "technical-recession",
+      "description": "<p>Two consecutive 3-month periods or quarters of negative growth in real GDP (gross domestic product).</p>"
+    },
+    {
+      "id": "97a19e8b-797a-41fa-8417-9eef41469572",
+      "codename": "eco__technical_specifications",
+      "title": "technical specifications",
+      "slug": "technical-specifications",
+      "description": "<p>Rules that regulate the materials, methods or technologies that must be used in production processes.</p>"
+    },
+    {
+      "id": "5c38f713-2d59-4d88-a459-1fa9ef89884d",
+      "codename": "eco__terms_of_trade",
+      "title": "terms of trade",
+      "slug": "terms-of-trade",
+      "description": "<p>The ratio of export prices to import prices.</p>"
+    },
+    {
+      "id": "7d2f112a-40e7-474b-bb45-69c0f1823ffa",
+      "codename": "eco__trade_protection",
+      "title": "trade protection",
+      "slug": "trade-protection",
+      "description": "<p>Artificial barriers to trade imposed by governments to protect domestic businesses from international competitors.</p>"
+    },
+    {
+      "id": "bccbf8c1-0d35-4b27-a45e-5589d17770d1",
+      "codename": "eco__trade_offs",
+      "title": "trade-offs",
+      "slug": "trade-offs",
+      "description": "<p>Something that is given up to gain from something else.</p>"
+    },
+    {
+      "id": "4484f080-999b-489a-87e9-67dfd8b35e66",
+      "codename": "eco__transnational_corporations",
+      "title": "transnational corporations",
+      "slug": "transnational-corporations",
+      "description": "<p>A business with operations in more than one country.</p>"
+    },
+    {
+      "id": "65257fb5-bd98-4a8e-ac7c-28a93b7a8eb4",
+      "codename": "eco__underemployment",
+      "title": "underemployment",
+      "slug": "underemployment",
+      "description": "<p>People in paid employment not working full-time hours who are willing and available to work more hours.</p>\n<p><em>See </em><a data-item-id=\"32041b55-b70b-4419-a4d2-96501a880706\" href=\"\">hidden unemployed</a></p>"
+    },
+    {
+      "id": "a475dd0a-9a0a-4703-87d0-d68a42ab1525",
+      "codename": "eco__underlying_inflation_rate",
+      "title": "underlying inflation rate",
+      "slug": "underlying-inflation-rate",
+      "description": "<p>The expected level of inflation over the longer-term after accounting for the effects of volatile price movements in the economy.</p>"
+    },
+    {
+      "id": "7250138a-deaa-490d-9491-bc8d0255fde3",
+      "codename": "eco__veblen_goods",
+      "title": "Veblen goods",
+      "slug": "veblen-goods",
+      "description": "<p>Luxury goods with demand that increases as the price rises.</p>"
+    },
+    {
+      "id": "d0adc7f6-4a39-49b0-8ccd-e25c2168b5cf",
+      "codename": "eco__working_age_population",
+      "title": "working-age population",
+      "slug": "working-age-population",
+      "description": "<p>The civilian population of Australia aged 15 years and over.</p>"
+    }
+  ]
+}

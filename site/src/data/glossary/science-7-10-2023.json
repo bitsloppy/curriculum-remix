@@ -1,0 +1,1665 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "6a305ef7-26cb-448b-936d-98706903d106",
+      "codename": "sci_sec_gls_abiotic",
+      "title": "abiotic",
+      "slug": "abiotic",
+      "description": "<p>The non-living components of the environment.</p>"
+    },
+    {
+      "id": "c6c90e5f-aa1a-4e05-819f-9ce3a238f00b",
+      "codename": "sci_sec_gls_absorption",
+      "title": "absorption",
+      "slug": "absorption",
+      "description": "<p>The process of the energy of a wave being taken in or assimilated by the medium it travels through, causing a decrease in the wave's intensity.</p>"
+    },
+    {
+      "id": "e390c4b2-df1d-4920-922c-e88e7059ac65",
+      "codename": "sci_sec_gls_acceleration",
+      "title": "acceleration",
+      "slug": "acceleration",
+      "description": "<p>The rate at which velocity changes over time.</p>"
+    },
+    {
+      "id": "fbb22daf-9b6a-4455-92ef-1c67a4576a0b",
+      "codename": "ma__accuracy",
+      "title": "accuracy",
+      "slug": "accuracy",
+      "description": "<p>The extent to which measurements are considered to be close to the true value.</p>"
+    },
+    {
+      "id": "21538d64-8d8b-4974-ab8d-db9f5a3ed287",
+      "codename": "sci_sec_gls_adapted",
+      "title": "adapted",
+      "slug": "adapted",
+      "description": "<p>Able to survive and reproduce in a changed environment because of modified physical, behavioural or physiological characteristics.</p>"
+    },
+    {
+      "id": "d7100dc2-ac29-4eee-b35f-f7f0948f38dd",
+      "codename": "sci_sec_gls_alkane",
+      "title": "alkane",
+      "slug": "alkane",
+      "description": "<p>An organic compound that consists entirely of single-bonded carbon and hydrogen atoms having the general formula C<sub>n</sub>H<sub>2n+2</sub>, as methane (CH<sub>4</sub>), ethane (C<sub>2</sub>H<sub>6</sub>), and that lacks any other functional groups.</p>"
+    },
+    {
+      "id": "e3290501-df41-4d50-a811-61c0f78b1596",
+      "codename": "sci_sec_gls_alloy",
+      "title": "alloy",
+      "slug": "alloy",
+      "description": "<p>A substance composed of 2 or more metals (or, sometimes, a metal and a nonmetal) mixed together.</p>"
+    },
+    {
+      "id": "2362ade3-0901-4c60-ad47-e05ce9e15fe4",
+      "codename": "sci_sec_gls_alpha__decay_",
+      "title": "alpha (decay)",
+      "slug": "alpha-decay",
+      "description": "<p>Radioactive disintegration in which positively charged particles composed of 2 protons and 2 neutrons (and therefore equivalent to the nucleus of a helium atom) are emitted.</p>"
+    },
+    {
+      "id": "660cb735-f372-4fef-9ec7-1192efe5b983",
+      "codename": "sci_sec_gls_amplitude",
+      "title": "amplitude",
+      "slug": "amplitude",
+      "description": "<p>The maximum value of an alternating quantity measured from its mean or base value.</p>"
+    },
+    {
+      "id": "f0d471b0-f230-470b-aa01-a30c28b9d72f",
+      "codename": "sci_sec_gls_analyse__scientifically_",
+      "title": "analyse (scientifically)",
+      "slug": "analyse-scientifically",
+      "description": "<p>To consider in detail for the purpose of finding meaning or relationships, and identifying patterns, similarities and differences.</p>"
+    },
+    {
+      "id": "6080eb0c-a199-45ff-aa42-7614f24b04fe",
+      "codename": "sci_sec_gls_anion",
+      "title": "anion",
+      "slug": "anion",
+      "description": "<p>Any negatively charged ion.</p>"
+    },
+    {
+      "id": "12ab36e0-a974-486b-b286-544a49c34b04",
+      "codename": "sci_sec_gls_atomic_number",
+      "title": "atomic number",
+      "slug": "atomic-number",
+      "description": "<p>The number of protons in the nucleus of an atom; used to order the chemical elements in the periodic table.</p>"
+    },
+    {
+      "id": "f9920a6e-ee9f-42a4-b476-992ab6922b0b",
+      "codename": "sci_sec_gls_beta__decay_",
+      "title": "beta (decay)",
+      "slug": "beta-decay",
+      "description": "<p>A radioactive transformation in which high-energy, high-speed electrons are emitted.</p>"
+    },
+    {
+      "id": "24dc7803-980c-4c4e-a0a1-bec9c6d30318",
+      "codename": "sci_sec_gls_bioaccumulation",
+      "title": "bioaccumulation",
+      "slug": "bioaccumulation",
+      "description": "<p>(Of a substance, especially a toxin) The build-up of substances (especially toxins) in an organism over time.</p>"
+    },
+    {
+      "id": "533a51aa-479c-4d57-a05d-119a16ee281d",
+      "codename": "sci_sec_gls_biodegradability",
+      "title": "biodegradability",
+      "slug": "biodegradability",
+      "description": "<p>The ability of a material to decompose as a result of the action of living organisms, especially bacteria.</p>"
+    },
+    {
+      "id": "1d5c4718-63f8-4106-947f-61baf8ad9b97",
+      "codename": "ge__biodiversity",
+      "title": "biodiversity",
+      "slug": "biodiversity",
+      "description": "<p>The variety of living organisms within a particular habitat, ecosystem, biome, or globally.</p>"
+    },
+    {
+      "id": "308dd39f-7634-4619-98dd-2ac6a4537ff6",
+      "codename": "sci_sec_gls_biotic",
+      "title": "biotic",
+      "slug": "biotic",
+      "description": "<p>Involving the living components of the environment.</p>"
+    },
+    {
+      "id": "ecce3979-0391-4908-85ca-818d29983046",
+      "codename": "sci_sec_gls_bivariate_analysis",
+      "title": "bivariate analysis",
+      "slug": "bivariate-analysis",
+      "description": "<p>A type of statistical analysis involving 2 variables which aims to explain how changes in one variable affect the other.</p>"
+    },
+    {
+      "id": "dbebb9a0-95ba-4d9d-963b-5bcb32abdfec",
+      "codename": "sci_sec_gls_boiling__point_",
+      "title": "boiling (point)",
+      "slug": "boiling-point",
+      "description": "<p>The temperature at which the vapour pressure of the liquid equals the pressure surrounding the liquid, and the liquid changes into a vapour.</p>"
+    },
+    {
+      "id": "ab83688f-bb91-4291-bda1-7994b9072eb7",
+      "codename": "sci_sec_gls_buoyancy",
+      "title": "buoyancy",
+      "slug": "buoyancy",
+      "description": "<p>The tendency of an object to rise upward or float in a fluid.</p>"
+    },
+    {
+      "id": "01b53f54-20e4-4742-a368-b9e3b9bca9c4",
+      "codename": "sci_sec_gls_catalyst",
+      "title": "catalyst",
+      "slug": "catalyst",
+      "description": "<p>A substance that changes the speed of a chemical reaction but is itself unchanged at the end of the reaction.</p>"
+    },
+    {
+      "id": "b80860b5-e2fd-4e8d-9ade-fe7d26273188",
+      "codename": "sci_sec_gls_cation",
+      "title": "cation",
+      "slug": "cation",
+      "description": "<p>A positively charged ion.</p>"
+    },
+    {
+      "id": "ec75a969-94b1-4507-afe8-41061fdf4ac3",
+      "codename": "ma__causal",
+      "title": "causal",
+      "slug": "causal",
+      "description": "<p>Two variables with a relationship which indicates that one event is the result of the occurrence of the other event.</p>"
+    },
+    {
+      "id": "f2fa89ad-22b2-4083-a964-c5dcb94e1188",
+      "codename": "sci_sec_gls_cellular_respiration",
+      "title": "cellular respiration",
+      "slug": "cellular-respiration",
+      "description": "<p>The process by which a living organism or cells break down organic molecules to release energy. Cellular respiration can be aerobic (with oxygen) or anaerobic (without oxygen).</p>"
+    },
+    {
+      "id": "b0f4fd99-6dde-458c-824b-a3fe81e432d3",
+      "codename": "sci_sec_gls_characteristic",
+      "title": "characteristic",
+      "slug": "characteristic",
+      "description": "<p>A distinguishing aspect (including features and behaviours) of an object, material, living thing or event.</p>"
+    },
+    {
+      "id": "b2a97340-ed3f-4d6d-b47f-c200ec142870",
+      "codename": "sci_sec_gls_chloroplast",
+      "title": "chloroplast",
+      "slug": "chloroplast",
+      "description": "<p>The chlorophyll-containing structures in the cells of plants and algae where photosynthesis occurs.</p>"
+    },
+    {
+      "id": "4c4264ea-d5fc-4371-a9c0-e6b2ca34a113",
+      "codename": "sci_sec_gls_chromosome",
+      "title": "chromosome",
+      "slug": "chromosome",
+      "description": "<p>Chromosomes are tiny structures found in all living cells. They are made up of DNA and proteins, which contain the genetic information that determine how an organism develops and functions.</p>"
+    },
+    {
+      "id": "9de155bc-99e6-4d49-91e2-093bfae54875",
+      "codename": "sci_sec_gls_claim",
+      "title": "claim",
+      "slug": "claim",
+      "description": "<p>An assertion that something is true.</p>"
+    },
+    {
+      "id": "fc4b9a07-6358-4fba-b995-05fa8eb843da",
+      "codename": "ec__classify",
+      "title": "classify",
+      "slug": "classify",
+      "description": "<p>Arrange or include in classes/categories.</p>"
+    },
+    {
+      "id": "f939531c-c181-41bf-91b0-6abbf89f8468",
+      "codename": "ge__climate_change",
+      "title": "climate change",
+      "slug": "climate-change",
+      "description": "<p>A long-term change in regional or global climate patterns, e.g. annual precipitation, frequency of weather events.</p>"
+    },
+    {
+      "id": "25a11560-268b-4ac1-8649-7ff367aa8ac5",
+      "codename": "sci_sec_gls_complete_combustion",
+      "title": "complete combustion",
+      "slug": "complete-combustion",
+      "description": "<p>A chemical reaction in which a fuel reacts with unlimited oxygen gas (O<sub>2</sub>) resulting in the production of carbon dioxide (CO<sub>2</sub>), water (H<sub>2</sub>O), and heat.</p>"
+    },
+    {
+      "id": "b9029188-755c-4bfb-b050-70ad7435ec09",
+      "codename": "sci_sec_gls_compound",
+      "title": "compound",
+      "slug": "compound",
+      "description": "<p>A substance containing 2 or more atoms of different elements bonded together in a fixed ratio.</p>"
+    },
+    {
+      "id": "f42390e3-e7d0-4fa9-8242-e7bbe802db22",
+      "codename": "sci_sec_gls_conduction",
+      "title": "conduction",
+      "slug": "conduction",
+      "description": "<p>The transfer of heat or electricity through a substance or between substances that are in direct contact with each other.</p>"
+    },
+    {
+      "id": "23d5304a-62a6-4249-933a-78f2e8d2c252",
+      "codename": "sci_sec_gls_controlled_variable",
+      "title": "controlled variable",
+      "slug": "controlled-variable",
+      "description": "<p>A variable that is kept constant (or changed in constant ways) during an investigation. For example, the same amount of water would be a controlled variable in an investigation comparing solubility.</p>"
+    },
+    {
+      "id": "ad15d313-fcab-4193-a9b2-9a391b0cd448",
+      "codename": "sci_sec_gls_convection",
+      "title": "convection",
+      "slug": "convection",
+      "description": "<p>The movement of a gas or fluid by the transfer of heat energy through the gas or fluid itself.</p>"
+    },
+    {
+      "id": "7dff2563-1d51-4862-903f-758848ea1b82",
+      "codename": "sci_sec_gls_correlational__relationship",
+      "title": "correlational relationship",
+      "slug": "correlational-relationship",
+      "description": "<p>A relationship that measures the strength of interdependence of 2 variables.</p>"
+    },
+    {
+      "id": "ca866e99-de3b-422f-bc5f-9c004f4b480a",
+      "codename": "sci_sec_gls_covalent__bond_",
+      "title": "covalent (bond)",
+      "slug": "covalent-bond",
+      "description": "<p>A chemical bond formed by the sharing of electrons between 2 atoms, each of which donates an equal number of electrons.</p>"
+    },
+    {
+      "id": "037fae84-e6e7-4282-805f-46b2c25086be",
+      "codename": "sci_sec_gls_crude_oil",
+      "title": "crude oil",
+      "slug": "crude-oil",
+      "description": "<p>Oil as it is found naturally in underground reservoirs; a raw natural resource made from hydrocarbons that formed over millions of years from the remains of animals and plants.</p>"
+    },
+    {
+      "id": "bd83ea5c-7d4d-4f4f-92ce-5fbac8c302ed",
+      "codename": "sci_sec_gls_current__electric_",
+      "title": "current (electric)",
+      "slug": "current-electric",
+      "description": "<p>The flow of electric charge, usually through a conductor or resistor.</p>"
+    },
+    {
+      "id": "fe19c2de-ce21-4977-b376-7537c73a8415",
+      "codename": "sci_sec_gls_data",
+      "title": "data",
+      "slug": "data3",
+      "description": "<p>Information that is collected, organised and analysed for various purposes. It can be in the form of numbers, text, images or any other format that can be processed. Data can be represented using techniques such as tables, graphs and textual explanations.</p>"
+    },
+    {
+      "id": "d0efa49a-f8d9-42ef-b52b-0cd957218238",
+      "codename": "sci_sec_gls_data_science",
+      "title": "data science",
+      "slug": "data-science",
+      "description": "<p>A field of study which involves collecting, analysing and interpreting large amounts of data to gain insights and make decisions.</p>"
+    },
+    {
+      "id": "0ab26200-46e9-4ae9-913e-213514aed222",
+      "codename": "ma__dataset",
+      "title": "dataset",
+      "slug": "dataset2",
+      "description": "<p>A collection of numbers or values relating to a particular subject. Datasets are normally presented in tables or represented by graphs. For example, the test scores of each student in a particular class.</p>"
+    },
+    {
+      "id": "080ba7e9-7b47-4368-9b43-b36021577e65",
+      "codename": "sci_sec_gls_decomposers",
+      "title": "decomposers",
+      "slug": "decomposers",
+      "description": "<p>Living things such as fungi and bacteria that break down dead organic material.</p>"
+    },
+    {
+      "id": "3e419f2d-a525-4697-a914-a4de479610c0",
+      "codename": "sci_sec_gls_decomposition",
+      "title": "decomposition",
+      "slug": "decomposition",
+      "description": "<p>A chemical reaction in which a complex reactant (that consists of multiple components or molecules) breaks down into 2 or more simpler products.</p>"
+    },
+    {
+      "id": "8e219456-10c7-4367-8604-a99e15132363",
+      "codename": "sci_sec_gls_density",
+      "title": "density",
+      "slug": "density",
+      "description": "<p>A measure of how tightly packed the particles in a substance are. Density is calculated by dividing the mass of the substance by its volume (measured as grams per centimetre cubed, or g/cm<sup>3</sup>).</p>"
+    },
+    {
+      "id": "172917fb-aa1d-4687-a1a9-1bfe14057386",
+      "codename": "sci_sec_gls_dependent_variable",
+      "title": "dependent variable",
+      "slug": "dependent-variable2",
+      "description": "<p>The factor in an experiment that changes in response to changes to the independent variable.</p>"
+    },
+    {
+      "id": "73428c0e-ad62-4025-9a84-e2d6494cfdbe",
+      "codename": "sci_sec_gls_descriptive_analysis",
+      "title": "descriptive analysis",
+      "slug": "descriptive-analysis",
+      "description": "<p>The analysis of statistics that quantitatively describe or summarise features of a collection of information.</p>"
+    },
+    {
+      "id": "d0da0a42-0573-4192-bace-c99c9e0a33db",
+      "codename": "sci_sec_gls_descriptive_statistics",
+      "title": "descriptive statistics",
+      "slug": "descriptive-statistics",
+      "description": "<p>Statistics that quantitatively describe or summarise features of a collection of information.</p>"
+    },
+    {
+      "id": "efa37050-204b-4b5a-bf8c-0aa3f07936f1",
+      "codename": "sci_sec_gls_diatomic",
+      "title": "diatomic",
+      "slug": "diatomic",
+      "description": "<p>Having 2 atoms in the molecule.</p>"
+    },
+    {
+      "id": "ae57b345-94ad-4d4c-a8b7-bcf50e158bf4",
+      "codename": "ct_sec_gls_digital_footprint",
+      "title": "digital footprint",
+      "slug": "digital-footprint",
+      "description": "<p>Traces of data left behind by a person using a digital system. A person’s digital footprint includes all information actively provided by that person, such as interactions on social networks, online purchases, emails and instant messages. It also includes passive information, such as logs of software installed and used on a computer, metadata associated with files, a user’s internet protocol (IP) address, a device being used to access a webpage, and a user’s browsing history stored as cookies or by internet service providers.</p>"
+    },
+    {
+      "id": "2b469e89-aa81-4064-af3e-7074ffffc950",
+      "codename": "sci_sec_gls_disease",
+      "title": "disease",
+      "slug": "disease",
+      "description": "<p>An illness or condition of the body affecting the way an organism, or parts of an organism, or its organs, function.</p>"
+    },
+    {
+      "id": "b17e0d72-1f25-41d1-b70e-7620838ff1a5",
+      "codename": "sci_sec_gls_disorder",
+      "title": "disorder",
+      "slug": "disorder",
+      "description": "<p>A disturbance of physical, mental or genetic health.</p>"
+    },
+    {
+      "id": "696407b2-c814-49b4-a23e-d906e79f6529",
+      "codename": "sci_sec_gls_displacement__reaction_",
+      "title": "displacement (reaction)",
+      "slug": "displacement-reaction",
+      "description": "<p>A chemical reaction in which one atom (or group of atoms) is replaced by another atom (or group of atoms) in a compound.</p>"
+    },
+    {
+      "id": "b5236910-8ed1-4470-9dc4-bbc26c77c560",
+      "codename": "sci_sec_gls_dna",
+      "title": "DNA",
+      "slug": "dna",
+      "description": "<p>Deoxyribonucleic acid (DNA) is a molecule found in cells that carries the genetic instructions for the development, functioning, growth, and reproduction of all living organisms including viruses.</p>"
+    },
+    {
+      "id": "52cd51a4-c5b2-4ff9-a92b-a557874caa0b",
+      "codename": "sci_sec_gls_ecological_energy_pyramid",
+      "title": "ecological energy pyramid",
+      "slug": "ecological-energy-pyramid",
+      "description": "<p>A graphical representation of the flow of energy through different trophic levels in an ecosystem.</p>"
+    },
+    {
+      "id": "87884c39-7ca0-4f49-8872-6d1e7d5d6bc0",
+      "codename": "ge__ecosystem",
+      "title": "ecosystem",
+      "slug": "ecosystem",
+      "description": "<p>A system formed by the interaction of biotic organisms with each other and with the abiotic components of the environment in which they live.</p>\n<p>While an ecosystem may be synonymous with a specific environment, the ‘system’ approach enables a focus on the various components and their interconnected nature.</p>"
+    },
+    {
+      "id": "e7e52afe-3121-42cf-8fa5-a9f6961b0fde",
+      "codename": "sci_sec_gls_efficiency",
+      "title": "efficiency",
+      "slug": "efficiency",
+      "description": "<p>The ratio of the work done, or energy developed by a machine or engine, to the energy supplied to it.</p>"
+    },
+    {
+      "id": "d5ac1e02-b22a-4d0a-b4d4-03917b287c55",
+      "codename": "sci_sec_gls_electromagnetic__em__radiation",
+      "title": "electromagnetic (EM) radiation",
+      "slug": "electromagnetic-em-radiation",
+      "description": "<p>Describes the electrical currents and magnetic forces produced by an electrical current, as in electromagnetic radiation, electromagnetic waves, electromagnetic spectrum.</p>"
+    },
+    {
+      "id": "fe2fe8b7-ba41-480e-932b-5178eadc06e7",
+      "codename": "sci_sec_gls_electrostatic",
+      "title": "electrostatic",
+      "slug": "electrostatic",
+      "description": "<p>Relating to electricity or fields that do not move in a current but are instead attracted to the surface of an object, as opposed to electric currents.</p>"
+    },
+    {
+      "id": "08581114-36ca-48d6-aef5-ef30e266e04f",
+      "codename": "sci_sec_gls_element",
+      "title": "element",
+      "slug": "element",
+      "description": "<p>One of a class of substances which consists entirely of atoms of the same atomic number, and which cannot be further divided by chemical methods.</p>"
+    },
+    {
+      "id": "6cef21bf-3246-4758-b921-cbccff1988a3",
+      "codename": "sci_sec_gls_endangered__species_",
+      "title": "endangered (species)",
+      "slug": "endangered-species",
+      "description": "<p>Facing a very high risk of extinction in the wild due to rapid population decline or loss of habitat.</p>"
+    },
+    {
+      "id": "3631949c-f71f-4f04-87c9-7c1801e168ea",
+      "codename": "sci_sec_gls_endemic",
+      "title": "endemic",
+      "slug": "endemic",
+      "description": "<p>Of a disease, commonly found in a particular community or locality.</p>"
+    },
+    {
+      "id": "eb9a5c63-b394-4d84-9d37-6384eedbe483",
+      "codename": "sci_sec_gls_epidemic",
+      "title": "epidemic",
+      "slug": "epidemic",
+      "description": "<p>A temporary occurrence of a disease which spreads rapidly and extensively within a specific population, community, or region, typically affecting a significantly higher number of individuals than expected.</p>"
+    },
+    {
+      "id": "bf573360-1777-466f-9325-e4dba9abf4d2",
+      "codename": "sci_sec_gls_error",
+      "title": "error",
+      "slug": "error",
+      "description": "<p>The difference between an observed result and an expected or theoretical result. Systematic errors are often due to limitations in equipment or procedure and will be consistently different from the expected result.</p>"
+    },
+    {
+      "id": "e39b478b-e951-404f-9c53-55b266bed888",
+      "codename": "al_prisec_gls_evaluate",
+      "title": "evaluate",
+      "slug": "evaluate",
+      "description": "<p>Make a judgement based on criteria; determine the value of.</p>"
+    },
+    {
+      "id": "d2b65a68-fb17-4860-9196-70c739123b78",
+      "codename": "sci_sec_gls_evaporation",
+      "title": "evaporation",
+      "slug": "evaporation",
+      "description": "<p>The process by which a liquid, such as water, changes into a gas or vapor state, usually due to an increase in temperature.</p>"
+    },
+    {
+      "id": "a3283141-b64c-490b-adb6-15d1165207c7",
+      "codename": "sci_sec_gls_evidence",
+      "title": "evidence",
+      "slug": "evidence2",
+      "description": "<p>Valid and/or reliable data that can be used to support a particular theory, hypothesis, idea or conclusion.</p>"
+    },
+    {
+      "id": "f658ab2c-5548-4758-9a04-b326f855b8cd",
+      "codename": "sci_sec_gls_evolution",
+      "title": "evolution",
+      "slug": "evolution",
+      "description": "<p>The gradual process by which living things change over time.</p>"
+    },
+    {
+      "id": "dd6d3782-54ef-47ff-8568-028bc4eb778e",
+      "codename": "sci_sec_gls_experimental_control",
+      "title": "experimental control",
+      "slug": "experimental-control",
+      "description": "<p>The sample in an experiment to which all the other samples are compared.</p>\n<p>Extended in Science 11–12: The sample in an experiment that does not receive the independent variable.</p>"
+    },
+    {
+      "id": "62d4ca1c-1eb1-4162-b456-fa0cf4043a82",
+      "codename": "sci_sec_gls_explanation",
+      "title": "explanation",
+      "slug": "explanation",
+      "description": "<p>A scientific explanation provides an account of a phenomenon through descriptive statements about how that phenomenon came to be.</p>"
+    },
+    {
+      "id": "1d4cf1a0-fb54-45c9-905a-f59df3a914bc",
+      "codename": "sci_sec_gls_extinct",
+      "title": "extinct",
+      "slug": "extinct",
+      "description": "<p>No longer existing because all members of the species have died.</p>"
+    },
+    {
+      "id": "58825533-8eef-48cf-aff0-d8aa53ba54b4",
+      "codename": "ma__extrapolation",
+      "title": "extrapolate/extrapolation",
+      "slug": "extrapolate-extrapolation",
+      "description": "<p>Occurs when the fitted model, such as a line of best fit, is used to make predictions using values that are outside the range of the original data upon which the fitted model was based.</p>"
+    },
+    {
+      "id": "f5b29d28-8964-408c-966e-48524defb42f",
+      "codename": "ge__feedback_loops",
+      "title": "feedback loops",
+      "slug": "feedback-loops",
+      "description": "<p>Feedback loops are reactions in response to environmental change. Positive feedback loops cause one or more components to increase overall, creating a negative impact on the ecosystem. A negative feedback loop has a positive impact on the ecosystem because it decreases the impact of change, bringing it closer to dynamic equilibrium.</p>"
+    },
+    {
+      "id": "1f532c6d-0ea2-4e93-b977-7f6bc35edf58",
+      "codename": "sci_sec_gls_first_hand__data_",
+      "title": "first-hand (data)",
+      "slug": "first-hand-data",
+      "description": "<p>Information or data which has been directly observed or measured.</p>"
+    },
+    {
+      "id": "be85686a-07b3-4ce7-bdc4-02c119ed2d87",
+      "codename": "sci_sec_gls_fission",
+      "title": "fission",
+      "slug": "fission",
+      "description": "<p>A process where the nucleus of an atom splits into two or more smaller nuclei, releasing a large amount of energy in the form of heat and radiation.</p>"
+    },
+    {
+      "id": "f86cd118-0074-4d1c-b2d9-89749121da17",
+      "codename": "sci_sec_gls_food_web",
+      "title": "food web",
+      "slug": "food-web",
+      "description": "<p>A series of interconnected food chains that outlines feeding relationships in an ecosystem.</p>"
+    },
+    {
+      "id": "5a588764-05c8-4215-b54d-dab414c37ecb",
+      "codename": "hms_snr_gls_force",
+      "title": "force",
+      "slug": "force",
+      "description": "<p>A push or pull between objects, which may cause one or both objects to change speed, and/or direction of their motion, and/or their shape.</p>"
+    },
+    {
+      "id": "02c60955-d27d-4281-b7f7-607e832ad928",
+      "codename": "sci_sec_gls_fossil",
+      "title": "fossil",
+      "slug": "fossil",
+      "description": "<p>The preserved remains or traces of an organism, such as a skeleton, or a footprint, from a past geological age, typically found in sedimentary rock layers.</p>"
+    },
+    {
+      "id": "45d281f3-81db-4df0-aea5-08625a4ea899",
+      "codename": "sci_sec_gls_frequency",
+      "title": "frequency",
+      "slug": "frequency",
+      "description": "<p>The number of times a light, sound or radio wave passes a fixed point in unit time; the SI unit used to measure frequency is the hertz.</p>"
+    },
+    {
+      "id": "d4e66540-4c4d-4f60-96f9-3c22475b5d59",
+      "codename": "sci_sec_gls_fusion",
+      "title": "fusion (nuclear)",
+      "slug": "fusion-nuclear",
+      "description": "<p>A process in which 2 or more atomic nuclei combine to form a single, heavier nucleus, releasing a large amount of energy in the process.</p>"
+    },
+    {
+      "id": "82498627-8d65-4cb1-a56d-5f40e1d29a54",
+      "codename": "sci_sec_gls_gene",
+      "title": "gene",
+      "slug": "gene",
+      "description": "<p>A gene is a segment of DNA that contains the instructions for building and maintaining an organism. Genes determine the traits and characteristics of living organisms, and are passed from parents to their offspring during reproduction.</p>"
+    },
+    {
+      "id": "b8934cf7-9128-41cc-aedd-6b82f0451502",
+      "codename": "sci_sec_gls_gene_trait_relationship",
+      "title": "gene-trait relationship",
+      "slug": "gene-trait-relationship",
+      "description": "<p>The relationship between specific genes and the observable characteristics, or traits, they control in an organism.</p>"
+    },
+    {
+      "id": "df100853-717f-4099-b22f-d6cbaa5edde0",
+      "codename": "sci_sec_gls_genetic_variation",
+      "title": "genetic variation",
+      "slug": "genetic-variation",
+      "description": "<p>The diversity in genetic makeup within a population or species, resulting from differences in the genetic information carried by individuals.</p>"
+    },
+    {
+      "id": "e38bcc6e-a7fb-4c8d-8c2b-6eb6429b70ca",
+      "codename": "sci_sec_gls_genome",
+      "title": "genome",
+      "slug": "genome",
+      "description": "<p>The complete set of genetic material, including all of the genes and non-coding sequences, found within an organism's DNA.</p>"
+    },
+    {
+      "id": "11a595be-4544-47e5-80df-4560368a2c19",
+      "codename": "sci_sec_gls_genotype",
+      "title": "genotype",
+      "slug": "genotype",
+      "description": "<p>The genetic make-up of an organism.</p>"
+    },
+    {
+      "id": "cf4ec4c3-0e80-4b56-a478-82aca9405cef",
+      "codename": "sci_sec_gls_geological_processes",
+      "title": "geological processes",
+      "slug": "geological-processes",
+      "description": "<p>Natural phenomena that shape and change the Earth's surface and interior over time. These processes include erosion, weathering, volcanic activity, the movement of tectonic plates, and sedimentation.</p>"
+    },
+    {
+      "id": "f6d0dadd-4abe-48a7-8bf1-006041b2dfa7",
+      "codename": "sci_sec_gls_geological_timescales",
+      "title": "geological timescales",
+      "slug": "geological-timescales",
+      "description": "<p>The divisions of time used by geologists to describe the history of the Earth. These timescales are typically divided into different units, such as eons, eras, periods, and epochs, which help organise and understand the sequence of events in Earth's history spanning millions to billions of years.</p>"
+    },
+    {
+      "id": "b2049056-0bab-4f00-b142-c3f2861e8328",
+      "codename": "sci_sec_gls_gravitational",
+      "title": "gravity/gravitational",
+      "slug": "gravity-gravitational",
+      "description": "<p>The force of attraction that objects with mass exert on each other.</p>"
+    },
+    {
+      "id": "f63bf863-70b2-41f5-a5c9-e0922b8a023e",
+      "codename": "sci_sec_gls_greenhouse_effect",
+      "title": "greenhouse effect",
+      "slug": "greenhouse-effect",
+      "description": "<p>Heating effect due to heat rays from the ground being absorbed by some of the gases in the atmosphere.</p>"
+    },
+    {
+      "id": "f0dc1e40-8f3c-4a25-9adc-dfc07856c8cf",
+      "codename": "gels__habitat",
+      "title": "habitat",
+      "slug": "habitat",
+      "description": "<p>The place where an animal or plant can live.</p>"
+    },
+    {
+      "id": "7f3d8d5d-be0f-41b8-bd9b-a12b168707e3",
+      "codename": "sci_sec_gls_hela_stem_cell_line",
+      "title": "HeLa stem cell line",
+      "slug": "hela-stem-cell-line",
+      "description": "<p>A group of immortal cells derived from cervical cancer cells taken from Henrietta Lacks in 1951 without her consent. These cells have been used extensively in scientific research and have contributed to numerous medical advancements.</p>"
+    },
+    {
+      "id": "aa026ca6-7589-4397-8d13-28511df46bff",
+      "codename": "sci_sec_gls_homeostasis",
+      "title": "homeostasis",
+      "slug": "homeostasis",
+      "description": "<p>The ability of an organism to maintain stable internal conditions despite external changes.</p>"
+    },
+    {
+      "id": "15c9120a-c137-4485-a1c0-a1090e3756b2",
+      "codename": "sci_sec_gls_hydrocarbons",
+      "title": "hydrocarbons",
+      "slug": "hydrocarbons",
+      "description": "<p>A group of compounds containing only hydrogen and carbon, such as methane (CH<sub>4</sub>), ethene (C<sub>2</sub>H<sub>4</sub>) and but-1-yne (C<sub>4</sub>H<sub>6</sub>).</p>"
+    },
+    {
+      "id": "6e89f6f4-8163-4b70-9504-59fc833018cf",
+      "codename": "ma__hypothesis",
+      "title": "hypothesis",
+      "slug": "hypothesis",
+      "description": "<p>A supposition or proposed explanation made on the basis of limited evidence as a starting point for further investigation.</p>"
+    },
+    {
+      "id": "cd390ad5-80de-43a3-94e4-10bb705d8e13",
+      "codename": "sci_sec_gls_incomplete_combustion",
+      "title": "incomplete combustion",
+      "slug": "incomplete-combustion",
+      "description": "<p>A chemical reaction in which a fuel reacts with limited oxygen gas (O<sub>2</sub>). Can lead to the formation of carbon, as soot (C), or carbon monoxide (CO).</p>"
+    },
+    {
+      "id": "3acb684d-c6a7-4300-8865-f5187a3ae83d",
+      "codename": "sci_sec_gls_independent_variable",
+      "title": "independent variable",
+      "slug": "independent-variable",
+      "description": "<p>The variable that is deliberately changed, often through a series of pre-set values.</p>"
+    },
+    {
+      "id": "42e2b63d-637d-411a-99e0-5bab2b9d15d6",
+      "codename": "sci_sec_gls_infectious__disease_",
+      "title": "infectious (disease)",
+      "slug": "infectious-disease",
+      "description": "<p>Able to be passed from one living thing to another.</p>"
+    },
+    {
+      "id": "8c75d392-38b0-4b2a-923d-d23ac2f18615",
+      "codename": "sci_sec_gls_inheritance",
+      "title": "inheritance",
+      "slug": "inheritance",
+      "description": "<p>A characteristic passed on from parents.</p>"
+    },
+    {
+      "id": "156eeb70-950e-4896-9360-43273ce49ff5",
+      "codename": "sci_sec_gls_insoluble",
+      "title": "insoluble",
+      "slug": "insoluble",
+      "description": "<p>Unable to be dissolved.</p>"
+    },
+    {
+      "id": "f0edee39-eaa1-4408-9d43-855acbe44446",
+      "codename": "sci_sec_gls_interactions",
+      "title": "interactions",
+      "slug": "interactions",
+      "description": "<p>Actions or influences between components and within and between systems.</p>"
+    },
+    {
+      "id": "937c5ddd-11a8-4ca3-b4e4-063343d4daf5",
+      "codename": "sci_sec_gls_interdependency",
+      "title": "interdependency",
+      "slug": "interdependency",
+      "description": "<p>The condition of being dependent on each other. The state of being mutually dependent or dependent on each other.</p>"
+    },
+    {
+      "id": "6134b6c9-21a6-438f-a957-bedf1e1702f2",
+      "codename": "ma__interpolation",
+      "title": "interpolate/interpolation",
+      "slug": "interpolate-interpolation",
+      "description": "<p>Making predictions between known data values. For example, working between 2 known points on a graph to predict a value in between these points.</p>"
+    },
+    {
+      "id": "120509c9-db4d-4249-a622-b4c7fe0a2e6c",
+      "codename": "sci_sec_gls_investigable",
+      "title": "investigable",
+      "slug": "investigable",
+      "description": "<p>Able to be investigated.</p>"
+    },
+    {
+      "id": "a6df6800-0170-49f3-aae0-8bd2e0963bd1",
+      "codename": "investigate",
+      "title": "investigate",
+      "slug": "investigate",
+      "description": "<p>Plan, inquire into and draw conclusions about.</p>"
+    },
+    {
+      "id": "45de7426-ff91-4019-abc6-13dde32da4bd",
+      "codename": "sci_sec_gls_ionic__bond_",
+      "title": "ionic (bond)",
+      "slug": "ionic-bond",
+      "description": "<p>A very strong chemical bond formed by the transfer of one or more electrons from one atom to another atom; the ions are held together by electrostatic attraction.</p>"
+    },
+    {
+      "id": "1156da67-4f88-477b-9448-64f8e397fe85",
+      "codename": "sci_sec_gls_isolation___geographic_",
+      "title": "isolation (geographic)",
+      "slug": "isolation-geographic",
+      "description": "<p>Populations that are separated by a physical barrier, such as a mountain range, river, or ocean so that interbreeding is no longer possible.</p>"
+    },
+    {
+      "id": "3218660a-0b02-4992-bfbe-033d145e601e",
+      "codename": "sci_sec_gls_isotope",
+      "title": "isotope",
+      "slug": "isotope",
+      "description": "<p>Variants of a chemical element that have the same number of protons but different numbers of neutrons in their nuclei.</p>"
+    },
+    {
+      "id": "474e78a7-4891-4465-a5bb-785e77bcd82d",
+      "codename": "sci_sec_gls_iupac",
+      "title": "IUPAC",
+      "slug": "iupac",
+      "description": "<p>Acronym for the International Union of Pure and Applied Chemistry, an authority on chemical terminology and nomenclature.</p>"
+    },
+    {
+      "id": "eeea91c7-25cd-4211-9494-5adc3e8a72d5",
+      "codename": "sci_sec_gls_kinetic_energy__ke_",
+      "title": "kinetic energy (KE)",
+      "slug": "kinetic-energy-ke",
+      "description": "<p>The energy that an object possesses by virtue of its motion; the energy an object gains by being in motion.</p>"
+    },
+    {
+      "id": "b45b7ea3-3f33-48bc-95be-fba10aa3e736",
+      "codename": "sci_sec_gls_large_dataset",
+      "title": "large dataset",
+      "slug": "large-dataset",
+      "description": "<p>A dataset that must be of a size to be statistically reliable and require computational analysis to reveal patterns, trends and associations.</p>"
+    },
+    {
+      "id": "ed1d3b2c-67a0-43a9-bd00-34660b8f56b9",
+      "codename": "sci_sec_gls_law",
+      "title": "law",
+      "slug": "law",
+      "description": "<p>A statement that describes a relationship or phenomena that does not change under the same conditions.</p>"
+    },
+    {
+      "id": "36c5ddde-5167-4f50-a87d-347fa71f20a1",
+      "codename": "sci_sec_gls_law_of_conservation_of_energy",
+      "title": "law of conservation of energy",
+      "slug": "law-of-conservation-of-energy",
+      "description": "<p>States that energy cannot be created or destroyed.</p>"
+    },
+    {
+      "id": "159621c8-ee69-49a9-819e-12e84c1a8b02",
+      "codename": "sci_sec_gls_law_of_conservation_of_mass",
+      "title": "law of conservation of mass",
+      "slug": "law-of-conservation-of-mass",
+      "description": "<p>States that matter cannot be created or destroyed.</p>"
+    },
+    {
+      "id": "f45d56d3-f924-4e6f-831f-3e4a182970e0",
+      "codename": "sci_sec_gls_law_of_superposition",
+      "title": "law of superposition",
+      "slug": "law-of-superposition",
+      "description": "<p>In layers of stratified sedimentary rocks, the lowest layer is the first to be deposited.</p>"
+    },
+    {
+      "id": "878609cb-e320-45d4-b210-34205ee3032c",
+      "codename": "sci_sec_gls_longitudinal___wave_",
+      "title": "longitudinal (wave)",
+      "slug": "longitudinal-wave",
+      "description": "<p>A type of wave in which the disturbance or oscillation of the medium occurs in the same direction as the direction of propagation of the wave.</p>"
+    },
+    {
+      "id": "14074995-a37b-4b13-aecc-8900ab532c1d",
+      "codename": "mass",
+      "title": "mass",
+      "slug": "mass",
+      "description": "<p>The amount of matter in an object.</p>"
+    },
+    {
+      "id": "c2e70955-6d0c-411a-88bb-a04ecefd24de",
+      "codename": "sci_sec_gls_matter",
+      "title": "matter",
+      "slug": "matter",
+      "description": "<p>A physical substance; anything that has mass and occupies space.</p>"
+    },
+    {
+      "id": "46da7887-fd2b-4c9e-8704-5d3285c246fd",
+      "codename": "ma__mean",
+      "title": "mean",
+      "slug": "mean",
+      "description": "<p>The sum of values in a dataset divided by the total number of values in the dataset. Also called the average.</p>"
+    },
+    {
+      "id": "2631fb33-3175-4e82-a798-4fe1369f95cf",
+      "codename": "sci_sec_gls_mechanical_wave",
+      "title": "mechanical wave",
+      "slug": "mechanical-wave",
+      "description": "<p>A type of wave that requires a medium, such as air, water or a solid material, to travel through.</p>"
+    },
+    {
+      "id": "2e7e3c33-40ff-40b4-90dd-94fb89ab76d3",
+      "codename": "sci_sec_gls_megafauna",
+      "title": "megafauna",
+      "slug": "megafauna",
+      "description": "<p>A group of large or giant animals, typically vertebrates, that lived during prehistoric times or still exist today. Some examples of extinct megafauna include the woolly mammoth, sabre-toothed tiger, Irish elk, giant ground sloths and the dodo bird.</p>"
+    },
+    {
+      "id": "97c0ae54-1116-45de-bc1a-d4c3d9b3e266",
+      "codename": "sci_sec_gls_melting_point",
+      "title": "melting point",
+      "slug": "melting-point",
+      "description": "<p>The temperature at which a substance transitions from a solid phase to a liquid phase under standard atmospheric pressure.</p>"
+    },
+    {
+      "id": "5fe4bec7-df46-49c3-8048-97527c34e8d4",
+      "codename": "sci_sec_gls_metallic_bond",
+      "title": "metallic bond",
+      "slug": "metallic-bond",
+      "description": "<p>A type of chemical bond formed between positively charged metal ions and the delocalised electrons surrounding them.</p>"
+    },
+    {
+      "id": "8d4d0f14-b4c9-4aa8-93f2-d5167e32983c",
+      "codename": "sci_sec_gls_metalloid",
+      "title": "metalloid",
+      "slug": "metalloid",
+      "description": "<p>An element that has properties intermediate between those of metals and nonmetals, such as arsenic, silicon or bismuth.</p>"
+    },
+    {
+      "id": "deeed48a-2fd0-42b7-bdeb-dd7b0669dd52",
+      "codename": "sci_sec_gls_microplastics",
+      "title": "microplastics",
+      "slug": "microplastics",
+      "description": "<p>Small particles of plastic in the environment, generally smaller than 5 millimetres in size.</p>"
+    },
+    {
+      "id": "057572dd-da6d-4610-a70f-1a69de86c69a",
+      "codename": "ct_sec_gls_model",
+      "title": "model",
+      "slug": "model",
+      "description": "<p>A mathematical, conceptual or physical representation that describes, simplifies, clarifies or provides an explanation of the structure, workings or relationships within an object, system or idea. Models can provide a means of testing and predicting behaviour within limited conditions. Models may be physical or exist in digital form.</p>"
+    },
+    {
+      "id": "184255bb-3058-430e-a206-9be8373940ba",
+      "codename": "sci_sec_gls_monogenic",
+      "title": "monogenic",
+      "slug": "monogenic",
+      "description": "<p>A trait or characteristic that is determined by a single gene.</p>"
+    },
+    {
+      "id": "f42984d6-c2b2-4468-a279-0c75dbcd2083",
+      "codename": "sci_sec_gls_mutation",
+      "title": "mutation",
+      "slug": "mutation",
+      "description": "<p>A change in genetic material (DNA).</p>\n<p>Extended in Biology 11–12<em>: </em>Occurs due to an error during DNA replication.</p>"
+    },
+    {
+      "id": "bba5121c-2e1e-4d98-8dfc-b01df4043874",
+      "codename": "sci_sec_gls_natural_selection",
+      "title": "natural selection",
+      "slug": "natural-selection",
+      "description": "<p>The process by which organisms with traits that are better suited to their environment survive and reproduce more successfully than those with less favourable traits. This leads to the gradual change or adaptation of a population over time.</p>"
+    },
+    {
+      "id": "0ad7fc37-bb74-45ab-b24a-4d49450cbf8a",
+      "codename": "sci_sec_gls_neutralisation_reaction",
+      "title": "neutralisation reaction",
+      "slug": "neutralisation-reaction",
+      "description": "<p>The act of making a substance chemically neutral, so it is not an acid or a base.</p>"
+    },
+    {
+      "id": "30ddf257-e85c-4ce8-b1a5-463c3117dd3c",
+      "codename": "sci_sec_gls_noble_gas_configuration",
+      "title": "noble gas configuration",
+      "slug": "noble-gas-configuration",
+      "description": "<p>When an atom has a complement of electrons in its outer shell, such that it is completely filled and resembles one of the noble gases such as helium, neon or argon.</p>"
+    },
+    {
+      "id": "52842a4e-428b-4042-b0ec-20ac84706479",
+      "codename": "sci_sec_gls_non_infectious__disease_",
+      "title": "non-infectious (disease)",
+      "slug": "non-infectious-disease",
+      "description": "<p>A medical condition that cannot be transmitted from one person to another. These diseases are typically caused by genetic factors, lifestyle choices, environmental factors, or a combination of these factors, e.g. heart disease, cancer, and asthma.</p>"
+    },
+    {
+      "id": "c09f2d35-6656-4d67-b3ac-ebecf2159174",
+      "codename": "sci_sec_gls_non_renewable__resource_",
+      "title": "non-renewable (resource)",
+      "slug": "non-renewable-resource",
+      "description": "<p>A resource that becomes depleted or takes longer than a human life span to be restored.</p>"
+    },
+    {
+      "id": "d5c7697c-2be4-44ac-9aa6-7fdc8ce3b6fc",
+      "codename": "sci_sec_gls_observation",
+      "title": "observation",
+      "slug": "observation",
+      "description": "<p>To see, watch, perceive or notice. Observations can be made using all 5 senses as well as digital and non-digital tools that extend our senses.</p>"
+    },
+    {
+      "id": "08e65ec4-80bb-4583-b9a8-96c31c227f7f",
+      "codename": "sci_sec_gls_orbit",
+      "title": "orbit",
+      "slug": "orbit",
+      "description": "<p>Moving in a curved path around a body such as the Earth, an atom or the Sun.</p>"
+    },
+    {
+      "id": "ba96d5c1-755a-4aaa-ae9d-4e68b4519d03",
+      "codename": "sci_sec_gls_pandemic",
+      "title": "pandemic",
+      "slug": "pandemic",
+      "description": "<p>A disease prevalent throughout an entire country or continent, or the whole world.</p>"
+    },
+    {
+      "id": "1627c5e1-92c9-4203-bc17-5ca653e129af",
+      "codename": "sci_sec_gls_particle_theory",
+      "title": "particle theory",
+      "slug": "particle-theory",
+      "description": "<p>The kinetic theory of matter that all matter consists of tiny indivisible particles that are constantly moving.</p>"
+    },
+    {
+      "id": "6371cd44-134d-42fb-a22b-1f8196e33f2f",
+      "codename": "sci_sec_gls_pedigree",
+      "title": "pedigree",
+      "slug": "pedigree",
+      "description": "<p>A diagram or chart that shows the relationships between individuals in a family, typically across generations, and may include information about inherited traits or genetic conditions.</p>"
+    },
+    {
+      "id": "01bacf6c-ca3c-4c21-a319-9e24a56bdfc9",
+      "codename": "sci_sec_gls_peer_review",
+      "title": "peer review",
+      "slug": "peer-review",
+      "description": "<p>The process of other experts in a field reading, checking and giving their opinion on someone else’s research.</p>"
+    },
+    {
+      "id": "c708e0c2-f23a-4754-a94e-6caad60a2b71",
+      "codename": "sci_sec_gls_periodic_table",
+      "title": "periodic table",
+      "slug": "periodic-table",
+      "description": "<p>A table in which all the known chemical elements are arranged in rows and columns so that elements with similar chemical properties lie in the same column.</p>"
+    },
+    {
+      "id": "b7869b6b-d399-4025-a124-5569f7aa7412",
+      "codename": "sci_sec_gls_ph",
+      "title": "pH",
+      "slug": "ph",
+      "description": "<p>A measure of the acidity or alkalinity of a solution.</p>"
+    },
+    {
+      "id": "e1bcd367-55dc-44e6-9401-9f0744d6ca66",
+      "codename": "sci_sec_gls_phenomenon",
+      "title": "phenomenon",
+      "slug": "phenomenon",
+      "description": "<p>An observable event or process that occurs in the natural world, such as weather patterns, geological events, astronomical events or biological processes.</p>"
+    },
+    {
+      "id": "3d96bb79-798c-4bb8-9d8a-072fa3948c42",
+      "codename": "sci_sec_gls_phenotype",
+      "title": "phenotype",
+      "slug": "phenotype",
+      "description": "<p>Observable traits produced by genes in a living thing.</p>"
+    },
+    {
+      "id": "f038a017-4c60-4c31-98a8-87e39eb1304f",
+      "codename": "sci_sec_gls_phloem",
+      "title": "phloem",
+      "slug": "phloem",
+      "description": "<p>A tissue in vascular plants that transports organic nutrients, particularly sugars, from leaves to other parts of the plant, including roots, stems and developing fruits.</p>"
+    },
+    {
+      "id": "b5cd04a0-f03f-4acf-b3d8-50d67395c814",
+      "codename": "sci_sec_gls_photosynthesis",
+      "title": "photosynthesis",
+      "slug": "photosynthesis",
+      "description": "<p>A chemical process that uses sunlight and chlorophyll to convert carbon dioxide and water into glucose, oxygen and water.</p>"
+    },
+    {
+      "id": "2d5ebf64-69f2-4a38-8dc2-9e22569dee4e",
+      "codename": "sci_sec_gls_physical_quantities",
+      "title": "physical quantities",
+      "slug": "physical-quantities",
+      "description": "<p>Characteristics that can be seen or measured.</p>"
+    },
+    {
+      "id": "16df90df-ff26-4c66-b334-df230bcde17c",
+      "codename": "sci_sec_gls_pitch",
+      "title": "pitch",
+      "slug": "pitch",
+      "description": "<p>The relative highness and lowness of sounds. Can be heard or felt through vibrations.</p>"
+    },
+    {
+      "id": "a8613d2f-88ad-40a4-87be-1615e5c6fcb1",
+      "codename": "sci_sec_gls_polluted",
+      "title": "polluted",
+      "slug": "polluted",
+      "description": "<p>Contaminated or made impure by harmful substances.</p>"
+    },
+    {
+      "id": "23de3221-6a77-43ff-b038-d8e429afbe1c",
+      "codename": "sci_sec_gls_potential_energy",
+      "title": "potential energy",
+      "slug": "potential-energy",
+      "description": "<p>The energy that an object possesses due to its position in a force field or that is stored in a system by virtue of the configuration and interaction between bodies in that system, e.g. elastic potential energy.</p>"
+    },
+    {
+      "id": "b03e3232-2b7f-4dcf-ace4-0fa134fbeeb3",
+      "codename": "sci_sec_gls_precision",
+      "title": "precision",
+      "slug": "precision",
+      "description": "<p>The extent to which repeated measurements of the same item are close to each other.</p>"
+    },
+    {
+      "id": "3aa3762d-40a9-435d-a851-c7b64486faa8",
+      "codename": "sci_sec_gls_prediction",
+      "title": "prediction",
+      "slug": "prediction",
+      "description": "<p>A statement or estimate about what will happen in the future, often based on available evidence, past experiences or statistical analysis.</p>"
+    },
+    {
+      "id": "cc658cc9-419b-4b97-bf90-5a8626381c86",
+      "codename": "sci_sec_gls_properties",
+      "title": "properties",
+      "slug": "properties",
+      "description": "<p>Attributes of an object or material normally used to describe attributes common to a group.</p>"
+    },
+    {
+      "id": "b9637cff-7281-4c52-aae4-3f5d47d73463",
+      "codename": "sci_sec_gls_punnett_square",
+      "title": "Punnett square",
+      "slug": "punnett-square",
+      "description": "<p>A graphical representation used to predict the possible genetic outcomes of a cross between 2 individuals.</p>"
+    },
+    {
+      "id": "dad16806-8ef2-4d3c-a4f6-4cc07ed9b273",
+      "codename": "sci_sec_gls_qualitative",
+      "title": "qualitative",
+      "slug": "qualitative",
+      "description": "<p>To use descriptive explanations involving features, characteristics or properties to identify important components. Data and information that is not numerical in nature.</p>"
+    },
+    {
+      "id": "d34bbe1b-441a-40dd-9c3d-31de49066851",
+      "codename": "sci_sec_gls_quantitative",
+      "title": "quantitative",
+      "slug": "quantitative",
+      "description": "<p>Data or components that can be expressed or measured numerically, including chemical formulae or numbers.</p>"
+    },
+    {
+      "id": "c1bc00bb-6726-4d9d-b3c7-c1ef5513b616",
+      "codename": "sci_sec_gls_radiation",
+      "title": "radiation",
+      "slug": "radiation",
+      "description": "<p>The emission of energy as electromagnetic waves or as moving subatomic particles.</p>\n<p>OR</p>\n<p>The energy or particles that are released during radioactive decay.</p>"
+    },
+    {
+      "id": "b0929951-569c-4e56-98bd-27c56440bf1e",
+      "codename": "sci_sec_gls_radioactive",
+      "title": "radioactive",
+      "slug": "radioactive",
+      "description": "<p>A substance that emits radiation as its nucleus decays.</p>"
+    },
+    {
+      "id": "07a26f38-41c1-412c-93dd-ba21413847ea",
+      "codename": "sci_sec_gls_radioisotope",
+      "title": "radioisotope",
+      "slug": "radioisotope",
+      "description": "<p>An element that has the same atomic number and similar chemical properties, but different atomic masses.</p>"
+    },
+    {
+      "id": "6cd7a6f3-12de-47e7-8b61-ec640dae3247",
+      "codename": "sci_sec_gls_range__of_a_dataset_",
+      "title": "range (of a dataset)",
+      "slug": "range-of-a-dataset",
+      "description": "<p>The difference between the highest and lowest values in a dataset.</p>"
+    },
+    {
+      "id": "dffd273a-c2a0-494c-819a-ce60a684977b",
+      "codename": "sci_sec_gls_rarefactions",
+      "title": "rarefactions",
+      "slug": "rarefactions",
+      "description": "<p>Regions in a longitudinal wave where the particles of the medium are spread apart, resulting in decreased density and pressure compared to the surrounding areas.</p>"
+    },
+    {
+      "id": "dda1b03e-25d7-43e4-aec1-fa45280434dc",
+      "codename": "sci_sec_gls_reflection",
+      "title": "reflection",
+      "slug": "reflection3",
+      "description": "<p>The changed direction of a wave when it bounces off a surface.</p>"
+    },
+    {
+      "id": "5a44043d-a05e-4d04-9dcb-c17ff248e7b0",
+      "codename": "sci_sec_gls_refraction",
+      "title": "refraction",
+      "slug": "refraction",
+      "description": "<p>The changed direction (bending) of a wave when it passes through one transparent substance into another.</p>"
+    },
+    {
+      "id": "4595e45a-943a-44ab-82f0-72d083f6583a",
+      "codename": "sci_sec_gls_relate",
+      "title": "relate",
+      "slug": "relate",
+      "description": "<p>To establish a connection or association between 2 or more things, often by identifying similarities, connections or shared characteristics.</p>"
+    },
+    {
+      "id": "b049755e-fe68-412a-bb1d-02ae7d63d2b1",
+      "codename": "sci_sec_gls_reliability",
+      "title": "reliability",
+      "slug": "reliability",
+      "description": "<p>An extent to which repeated observations and/or measurements taken under identical circumstances will yield similar results.</p>"
+    },
+    {
+      "id": "4351a35e-1029-47ef-9f0e-b51dde68dbd5",
+      "codename": "sci_sec_gls_renewable__resource_",
+      "title": "renew/renewable",
+      "slug": "renew-renewable",
+      "description": "<p>A resource that cannot be exhausted. A resource that can be restored in a human lifetime.</p>"
+    },
+    {
+      "id": "a42ce152-0882-4edf-8d93-8ebb6c8d4559",
+      "codename": "sci_sec_gls_resistance__electrical_",
+      "title": "resistance (electrical)",
+      "slug": "resistance-electrical",
+      "description": "<p>Opposition to the flow of electrical current. Measured in Ohms.</p>"
+    },
+    {
+      "id": "c75f7333-d451-45d1-86be-f6c470333ab7",
+      "codename": "sci_sec_gls_risk__assessment__",
+      "title": "risk (assessment)",
+      "slug": "risk-assessment",
+      "description": "<p>The determination of quantitative or qualitative estimate of risk related to a well-defined situation and a recognised threat (also called hazard).</p>"
+    },
+    {
+      "id": "b648632b-e782-4f7a-b742-3738f24f2285",
+      "codename": "sci_sec_gls_saturated",
+      "title": "saturated",
+      "slug": "saturated",
+      "description": "<p>A chemical solution which contains the maximum amount of solute that can be dissolved in a solution.</p>"
+    },
+    {
+      "id": "1f33d2ca-4433-475b-a5fc-6d1dfe73f5ac",
+      "codename": "sci_sec_gls_scattering",
+      "title": "scattering",
+      "slug": "scattering",
+      "description": "<p>When any beam of radiation, electromagnetic or particle, is dispersed or redirected by particles or objects in its path, causing it to spread out in different directions.</p>"
+    },
+    {
+      "id": "79aea2e5-3309-4f4a-b3aa-c23b36025a66",
+      "codename": "ge__secondary_information",
+      "title": "secondary sources/information",
+      "slug": "secondary-sources-information",
+      "description": "<p>Sources of information that have been collected, processed, interpreted and published by others, e.g. census data, newspaper articles and images or information in a published report.</p>"
+    },
+    {
+      "id": "b05c7923-f112-4c6d-9786-3b1e99a17fed",
+      "codename": "sci_sec_gls_senses",
+      "title": "senses",
+      "slug": "senses",
+      "description": "<p>Perceptions that a living organism uses to take in information about its surroundings. The 5 main senses are hearing, sight, touch, taste and smell.</p>"
+    },
+    {
+      "id": "905796a2-7480-4a84-bea4-b8fc57a90b44",
+      "codename": "sci_sec_gls_si",
+      "title": "SI",
+      "slug": "si",
+      "description": "<p>The International System of Units (SI) is a system of measurement based on agreed standards units, such as metre, second and gram.</p>"
+    },
+    {
+      "id": "f0b26c47-f20e-4716-a18e-0b0de818222a",
+      "codename": "sci_sec_gls_solubility",
+      "title": "solubility",
+      "slug": "solubility",
+      "description": "<p>The ability of a solute to dissolve.</p>"
+    },
+    {
+      "id": "b0862c36-b545-4d98-9adf-4ca4c5eff05b",
+      "codename": "sci_sec_gls_soluble",
+      "title": "soluble",
+      "slug": "soluble",
+      "description": "<p>Capable of being dissolved.</p>"
+    },
+    {
+      "id": "51e392a2-d5a0-4a54-8b33-e6f34c5b8f68",
+      "codename": "sci_sec_gls_solute",
+      "title": "solute",
+      "slug": "solute",
+      "description": "<p>A substance that is dissolved by a solvent.</p>"
+    },
+    {
+      "id": "c75c7e9c-2350-45cf-aa0d-1d48fed6efeb",
+      "codename": "sci_sec_gls_solution",
+      "title": "solution",
+      "slug": "solution",
+      "description": "<p>A mixture made up of a solvent and a dissolved solute.</p>"
+    },
+    {
+      "id": "9edf7b3b-de91-420d-86a9-aba251625b05",
+      "codename": "sci_sec_gls_solvent",
+      "title": "solvent",
+      "slug": "solvent",
+      "description": "<p>A substance, especially a liquid, that can dissolve other substances.</p>"
+    },
+    {
+      "id": "c2b37f93-1816-4ed7-b496-a0bf3ccdc61f",
+      "codename": "sci_sec_gls_species",
+      "title": "species",
+      "slug": "species",
+      "description": "<p>A single, specific type of living organism.</p>"
+    },
+    {
+      "id": "7fd64c5e-122d-4b36-99d8-919509c46e9c",
+      "codename": "sci_sec_gls_statistical_analysis",
+      "title": "statistical analysis",
+      "slug": "statistical-analysis",
+      "description": "<p>The collection, organisation and interpretation of data to develop patterns and trends.</p>"
+    },
+    {
+      "id": "ea7ca130-964e-474b-bb4b-586099e1a1a2",
+      "codename": "sci_sec_gls_statistics",
+      "title": "statistics",
+      "slug": "statistics",
+      "description": "<p>A collection of numerical facts or other data.</p>"
+    },
+    {
+      "id": "8b8c23f0-9a52-40ca-b28a-be4dff496c04",
+      "codename": "sci_sec_gls_subatomic",
+      "title": "subatomic",
+      "slug": "subatomic",
+      "description": "<p>Denoting a particle which is smaller than an atom.</p>"
+    },
+    {
+      "id": "74b75bbf-8417-4175-9434-4d158e3f5515",
+      "codename": "sci_sec_gls_supersaturated",
+      "title": "supersaturated",
+      "slug": "supersaturated",
+      "description": "<p>A chemical solution which contains more than the maximum amount of solute that can be dissolved in a solution.</p>"
+    },
+    {
+      "id": "75fe13eb-1e41-46f3-abdb-9a3a5ba6ac8c",
+      "codename": "sci_sec_gls_surface_tension",
+      "title": "surface tension",
+      "slug": "surface-tension",
+      "description": "<p>The effect caused by molecular cohesion that makes a liquid seem as though it has a skin on its surface.</p>"
+    },
+    {
+      "id": "c2645ea8-a93b-4e9d-842f-381a31cefe57",
+      "codename": "ge__sustainability",
+      "title": "sustainability",
+      "slug": "sustainability",
+      "description": "<p>The patterns of activities that meet the needs of the present generation without compromising the ability of future generations to meet their needs.</p>"
+    },
+    {
+      "id": "c8a63b9b-8105-4798-862a-935fd72d9ae9",
+      "codename": "sci_sec_gls_synthesis",
+      "title": "synthesis",
+      "slug": "synthesis",
+      "description": "<p>A reaction in which a more complex compound is produced from simpler compounds (also called ‘combination reaction’).</p>"
+    },
+    {
+      "id": "fcfd23ff-66a5-41e1-a9b0-da4eb222453a",
+      "codename": "sci_sec_gls_system",
+      "title": "system",
+      "slug": "system",
+      "description": "<p>A set of components in the natural and made environments that interact. An understanding of natural complex systems requires the integration and application of concepts from more than one science discipline.</p>"
+    },
+    {
+      "id": "705871b7-b386-421a-b271-8ddff504c435",
+      "codename": "sci_sec_gls_systematic_observations",
+      "title": "systematic observations",
+      "slug": "systematic-observations",
+      "description": "<p>Following a valid scientific method to carry out observations.</p>"
+    },
+    {
+      "id": "9574c063-4066-4cf2-853d-2cfdd269fe9d",
+      "codename": "sci_sec_gls_tectonic_plate",
+      "title": "tectonic plate",
+      "slug": "tectonic-plate",
+      "description": "<p>A massive, irregularly shaped slab of solid rock, generally composed of both continental and oceanic lithosphere (also called ‘lithospheric plate’).</p>"
+    },
+    {
+      "id": "32d3e4ee-4dfd-4a64-bba4-95fb9e25e4cd",
+      "codename": "sci_sec_gls_theory",
+      "title": "theory",
+      "slug": "theory",
+      "description": "<p>A formal explanation, based on evidence and reviewed by the scientific community. Predictions can be tested by comparing actual observations with the theory.</p>"
+    },
+    {
+      "id": "77f5d329-d203-4a9a-97c7-48d3d313fc1c",
+      "codename": "sci_sec_gls_thermal",
+      "title": "thermal",
+      "slug": "thermal",
+      "description": "<p>Properties or phenomena associated with heat, temperature, or the transfer of energy due to temperature differences.</p>"
+    },
+    {
+      "id": "6647a97d-0540-420c-9396-5400a7548208",
+      "codename": "sci_sec_gls_transdisciplinary",
+      "title": "transdisciplinary",
+      "slug": "transdisciplinary",
+      "description": "<p>The integration of different disciplines with science.</p>"
+    },
+    {
+      "id": "0cccc69a-f355-4c20-977f-ebced2543a8b",
+      "codename": "sci_sec_gls_transverse__wave_",
+      "title": "transverse (wave)",
+      "slug": "transverse-wave",
+      "description": "<p>A wave motion in which all points of the wave oscillate along paths perpendicular to the direction of the wave's movement, e.g. surface ripples on water, seismic S (secondary) waves, and electromagnetic waves like radio and light.</p>"
+    },
+    {
+      "id": "a52a12fe-0615-4d17-bfa5-3e327abcf082",
+      "codename": "sci_sec_gls_trophic_level",
+      "title": "trophic level",
+      "slug": "trophic-level",
+      "description": "<p>The hierarchical position of organisms in a food chain or food web based on their feeding relationships and energy transfer.</p>"
+    },
+    {
+      "id": "1f1c72a3-f103-4ee8-97e5-0bd9c30a5c99",
+      "codename": "sci_sec_gls_univariate",
+      "title": "univariate",
+      "slug": "univariate",
+      "description": "<p>An analysis, study, or dataset that involves only one variable.</p>"
+    },
+    {
+      "id": "4ea39dd8-d3f6-4b70-b848-fb2f4621bb96",
+      "codename": "sci_sec_gls_vaccination",
+      "title": "vaccination",
+      "slug": "vaccination",
+      "description": "<p>The process of administering a vaccine with the aim of stimulating the immune system to develop immunity against a specific infectious disease, resulting in protection from future infections.</p>"
+    },
+    {
+      "id": "19e65c36-9e55-4f32-9528-be5a43d97e4b",
+      "codename": "sci_sec_gls_valency",
+      "title": "valency",
+      "slug": "valency",
+      "description": "<p>The number of chemical bonds that an atom can make with a univalent atom such as hydrogen.</p>"
+    },
+    {
+      "id": "2cbba6f8-94e8-44a6-8b8a-62fd87561028",
+      "codename": "sci_sec_gls_validity",
+      "title": "validity",
+      "slug": "validity",
+      "description": "<p>The extent to which the processes and resultant data measure what was intended.</p>"
+    },
+    {
+      "id": "f34e40ca-a636-4690-9cf6-65ff80018a6a",
+      "codename": "sci_sec_gls_variable",
+      "title": "variable",
+      "slug": "variable",
+      "description": "<p>A factor that can be changed, kept the same or measured in an investigation.</p>"
+    },
+    {
+      "id": "f1350174-5caf-43a6-ad55-8ab045a7c8b4",
+      "codename": "sci_sec_gls_vector_analysis",
+      "title": "vector analysis",
+      "slug": "vector-analysis",
+      "description": "<p>The analysis of a quantity which possesses both magnitude and direction. Two such quantities acting on a point may be represented by the 2 sides of a parallelogram, so that their resultant (or sum of vectors) is represented in magnitude and direction by the diagonal of the parallelogram.</p>"
+    },
+    {
+      "id": "a87afbca-787c-4ce2-9943-27f05c33f0e4",
+      "codename": "sci_sec_gls_velocity",
+      "title": "velocity",
+      "slug": "velocity",
+      "description": ""
+    },
+    {
+      "id": "8878952c-7d9c-4630-aceb-ba59d7c81f2a",
+      "codename": "sci_sec_gls_voltage",
+      "title": "voltage",
+      "slug": "voltage",
+      "description": "<p>A measure of the electrical potential difference between 2 points. The SI unit for voltage is the volt (equivalent to joule/coulomb).</p>"
+    },
+    {
+      "id": "f281a41d-4440-4829-9f91-cee224dc4ed4",
+      "codename": "sci_sec_gls_wavelength",
+      "title": "wavelength",
+      "slug": "wavelength",
+      "description": "<p>The distance between successive peaks (or troughs) of a wave, measured in metres (m) in the International System of Units (SI).</p>"
+    },
+    {
+      "id": "9c52aa7b-5d9e-4d94-98e4-7407672ba982",
+      "codename": "weight",
+      "title": "weight",
+      "slug": "weight",
+      "description": "<p>The measure of the force of gravity acting on a body with a given mass. An object can be weightless without its mass being zero. The term ‘weight’ is used as a synonym for mass when the concept of gravitational force has not been introduced.</p>"
+    },
+    {
+      "id": "1af4e6a5-033a-4393-9276-b5933fde1759",
+      "codename": "sci_sec_gls_work_health_and_safety__whs_",
+      "title": "work health and safety (WHS)",
+      "slug": "work-health-and-safety-whs",
+      "description": "<p>The requirements include safe practices in the laboratory and in the field.</p>"
+    },
+    {
+      "id": "a0f3d0fe-074f-4739-8f9b-17f91e57024b",
+      "codename": "sci_sec_gls_xylem",
+      "title": "xylem",
+      "slug": "xylem",
+      "description": "<p>A type of plant tissue responsible for transporting water and dissolved minerals from the roots to the rest of the plant.</p>"
+    }
+  ]
+}

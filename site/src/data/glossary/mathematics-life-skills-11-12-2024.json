@@ -1,0 +1,573 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "85969df4-3872-4b15-98dc-f90d8216804e",
+      "codename": "ma__angle",
+      "title": "angle",
+      "slug": "angle",
+      "description": "<p>Formed by 2 straight lines meeting at a common endpoint, called the vertex. An angle can describe the amount of turn between its 2 arms (lines).</p>"
+    },
+    {
+      "id": "019f29c4-7948-4614-ba99-267b5e395b5c",
+      "codename": "ma__bearing",
+      "title": "bearing",
+      "slug": "bearing",
+      "description": "<p>A direction from one point on the Earth’s surface to another. Two types of bearings may be used: compass bearing and true bearing.</p>\n<p><em>See </em><a data-item-id=\"de249e0e-50a4-4fd6-afe6-7222dc3d2ab5\" href=\"\">compass bearing</a> and <a data-item-id=\"a764069b-b2a3-4209-8041-258e3d12ce7f\" href=\"\">true bearing</a></p>"
+    },
+    {
+      "id": "a1bab5cd-c7b1-4237-89ec-1a676d35b78b",
+      "codename": "shared__best_buy",
+      "title": "best buy",
+      "slug": "best-buy",
+      "description": "<p>A product or service that offers the most benefits or quality for the lowest price. It is found by comparing different purchase options and choosing the one that has the best value for money, e.g. by comparing unit prices.</p>"
+    },
+    {
+      "id": "cd018f7d-6bda-468a-9514-ff103536d6c4",
+      "codename": "ma__bias",
+      "title": "bias",
+      "slug": "bias",
+      "description": "<p>A systematic favouring of certain outcomes more than others, due to unfair influence (knowingly or otherwise).</p>"
+    },
+    {
+      "id": "1448d7fc-4543-4966-89c8-c069af7b8fc7",
+      "codename": "shared__budget",
+      "title": "budget",
+      "slug": "budget",
+      "description": "<p>A tool for managing money and achieving financial goals. It is a list of all the expected income and costs for a certain period of time. A budget aims to balance the income and expenses, so that the expenses are less than or equal to the income.</p>"
+    },
+    {
+      "id": "6cee81ee-c37e-40f6-97b3-e67768bdabdc",
+      "codename": "ma__capacity__internal_volume_",
+      "title": "capacity (internal volume)",
+      "slug": "capacity-internal-volume",
+      "description": "<p>Generally refers to the amount a container can hold.</p>\n<p>A term used to describe how much a container will hold. It is often used in relation to the volume of fluids. Units of capacity (volume of fluids or gases) include litres and millilitres.</p>\n<p><em>See</em> <a data-item-id=\"5dd6c5d7-ec62-4236-a480-49cb3f6611a0\" href=\"\">internal volume (capacity)</a></p>"
+    },
+    {
+      "id": "771f5b07-5ae2-467a-931d-38a761be29a3",
+      "codename": "chance",
+      "title": "chance",
+      "slug": "chance",
+      "description": "<p>A possibility of something happening.</p>"
+    },
+    {
+      "id": "f04e4073-64b5-4e38-8cd7-7ebf6c70208a",
+      "codename": "ma__compass_bearing",
+      "title": "compass bearing",
+      "slug": "compass-bearing",
+      "description": "<p>Angles either side of north or south. For example, a compass bearing of N50°E is found by facing north and moving through an angle of 50° to the east.</p>"
+    },
+    {
+      "id": "6d4214ff-392f-4dfb-9b5a-684fbe455a05",
+      "codename": "shared__cost",
+      "title": "cost",
+      "slug": "cost",
+      "description": "<p>The price paid to acquire, produce, accomplish or maintain anything.</p>"
+    },
+    {
+      "id": "81b8b913-da99-4d43-9d85-04ad773a3264",
+      "codename": "shared__credit_card",
+      "title": "credit card",
+      "slug": "credit-card",
+      "description": "<p>A method for borrowing funds to purchase goods and services. Banks or financial institutions agree to loan an amount of money to an individual up to a pre-approved limit, and the individual agrees to pay back the amount plus any interest and fees that are charged.</p>"
+    },
+    {
+      "id": "eda3acd0-2cbe-41e8-b1d7-b6b541315f92",
+      "codename": "data",
+      "title": "data",
+      "slug": "data2",
+      "description": "<p>Facts or units of information collected together.</p>"
+    },
+    {
+      "id": "115a2d99-2c39-4817-8a92-eae78ce54692",
+      "codename": "ma__decimal",
+      "title": "decimal",
+      "slug": "decimal",
+      "description": "<p>Used to describe aspects of the base-10 number system. The decimal point (. or ,) separates the whole number part of a number from its decimal part.</p>"
+    },
+    {
+      "id": "12472e84-22f0-47c6-a203-5bc7c272340e",
+      "codename": "ma__denominator",
+      "title": "denominator",
+      "slug": "denominator",
+      "description": ""
+    },
+    {
+      "id": "9af3b05f-b543-4f1a-b627-5e52b34013a9",
+      "codename": "equivalent",
+      "title": "equivalent",
+      "slug": "equivalent",
+      "description": "<p>Two things are equivalent if they have the same value.</p>\n<p><em>See</em> <a data-item-id=\"0fa90b26-99ab-4cef-9e3b-2e14714c537f\" href=\"\">equal</a>, <a data-item-id=\"e87dae09-2e1a-44d9-b11f-e3ca471c990d\" href=\"\">equals sign</a></p>"
+    },
+    {
+      "id": "81c05bb0-0524-4be6-b4b5-e9156d00284d",
+      "codename": "mals__estimate",
+      "title": "estimate",
+      "slug": "estimate",
+      "description": "<p>To judge the value, number or quantity of a calculation roughly.</p>"
+    },
+    {
+      "id": "c3210cf2-7e4d-4c91-a65f-75a8ca25158b",
+      "codename": "event",
+      "title": "event",
+      "slug": "event",
+      "description": ""
+    },
+    {
+      "id": "2041247c-37ab-4af7-80cc-60427220d278",
+      "codename": "shared__experiment__random_",
+      "title": "experiment (random)",
+      "slug": "experiment-random",
+      "description": "<p>A process with an observable result. The results of the experiment are the set of possible outcomes called the sample space.</p>"
+    },
+    {
+      "id": "08b3f67c-767c-4cdf-b9ba-377cc009c96c",
+      "codename": "ma__fraction",
+      "title": "fraction",
+      "slug": "fraction",
+      "description": "<p>The result of a division. For example, 2 divided by 4 produces quarters. Fractions also represent:</p>\n<ul>\n  <li>a relationship or ratio</li>\n  <li>parts when a whole is partitioned into equal parts</li>\n  <li>numbers between whole numbers</li>\n  <li>units of measure.</li>\n</ul>"
+    },
+    {
+      "id": "dd828fd7-eff9-4d6a-8eb7-cdaad62f4295",
+      "codename": "ma__frequency",
+      "title": "frequency",
+      "slug": "frequency2",
+      "description": "<p>The number of times that a particular value occurs in a dataset. For grouped data, it is the number of observations that lie in that group or class interval. For example, when rolling a dice 20 times, ‘the frequency of a 6’ means how many times the number 6 comes up.</p>"
+    },
+    {
+      "id": "680c72ed-dd61-4084-8415-85648783791c",
+      "codename": "shared__goods_and_services_tax__gst_",
+      "title": "goods and services tax (GST)",
+      "slug": "goods-and-services-tax-gst",
+      "description": "<p>An indirect tax that is levied at a flat percentage (rate) on most goods and services sold in Australia.</p>"
+    },
+    {
+      "id": "e02560e3-d533-44b9-a63d-d8543ac98f19",
+      "codename": "ma__graph",
+      "title": "graph",
+      "slug": "graph",
+      "description": ""
+    },
+    {
+      "id": "12aa602f-634b-4943-b466-4867bff2af46",
+      "codename": "shared__interest",
+      "title": "interest",
+      "slug": "interest",
+      "description": "<p>Money paid or received in return for using or lending money.</p>"
+    },
+    {
+      "id": "cc71d1f1-60ba-4bd4-8179-5bf4c08a0b82",
+      "codename": "shared__investment",
+      "title": "investment",
+      "slug": "investment",
+      "description": "<p>An allocation of money or capital into an asset or venture that is expected to generate a profit or return.</p>"
+    },
+    {
+      "id": "fbf1f919-5975-4286-b730-a2d8f01fa174",
+      "codename": "length",
+      "title": "length",
+      "slug": "length",
+      "description": "<p>Measure of an object from end to end.</p>"
+    },
+    {
+      "id": "b8dd93e6-a199-475d-a322-7eecca2f8cd8",
+      "codename": "shared__loan",
+      "title": "loan",
+      "slug": "loan",
+      "description": "<p>An amount of money borrowed from a bank or other financial institution.</p>"
+    },
+    {
+      "id": "394474e2-ed64-4be7-9c29-a7ec946cfaa5",
+      "codename": "mals__location",
+      "title": "location",
+      "slug": "location",
+      "description": "<p>In measurement and geometry, the relative position of an object is referred to as its location. It can be expressed in terms of a description (such as ‘next to’, ‘behind’, ‘on top of’), a grid reference (such as ‘A5’), or a coordinate (such as ‘(−2,7)’).</p>"
+    },
+    {
+      "id": "14074995-a37b-4b13-aecc-8900ab532c1d",
+      "codename": "mass",
+      "title": "mass",
+      "slug": "mass",
+      "description": "<p>The amount of matter in an object.</p>"
+    },
+    {
+      "id": "46da7887-fd2b-4c9e-8704-5d3285c246fd",
+      "codename": "ma__mean",
+      "title": "mean",
+      "slug": "mean",
+      "description": "<p>The sum of values in a dataset divided by the total number of values in the dataset. Also called the average.</p>"
+    },
+    {
+      "id": "770d9300-0cdf-41c9-bb0a-2ed377e397ad",
+      "codename": "multiples",
+      "title": "multiples",
+      "slug": "multiples",
+      "description": "<p>Products formed using the same base number multiplied by different whole numbers, e.g. 3, 6, 9, 12 …</p>"
+    },
+    {
+      "id": "2c859575-e0ed-40aa-b9e6-58d6ab9eb9ba",
+      "codename": "ma__network",
+      "title": "network",
+      "slug": "network2",
+      "description": "<p>A set of points (vertices or nodes) some of which are joined by lines or curves (edges) that sometimes enclose regions (faces). For example, road networks, a family tree or the edges lining a tennis court.</p>\n<figure data-asset-id=\"8e87644e-af79-4a3b-a4a0-0031d3bf59fb\" data-image-id=\"8e87644e-af79-4a3b-a4a0-0031d3bf59fb\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/a78711ef-9fa9-4073-9e1f-b6bb1b0dbec0/network-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"8e87644e-af79-4a3b-a4a0-0031d3bf59fb\" data-image-id=\"8e87644e-af79-4a3b-a4a0-0031d3bf59fb\" alt=\"A diagram of a connected network consisting of 17 nodes and 30 edges.\"></figure>"
+    },
+    {
+      "id": "b4350372-20c9-4aea-baa7-504f7241f456",
+      "codename": "number_line",
+      "title": "number line",
+      "slug": "number-line",
+      "description": "<p>A number line is used to represent numbers according to their distance from a zero point. The representation of a number line can start and end on any number.</p>"
+    },
+    {
+      "id": "a6a6bcde-1c61-42c3-b14f-d9040e972a8a",
+      "codename": "ma__numerator",
+      "title": "numerator",
+      "slug": "numerator",
+      "description": ""
+    },
+    {
+      "id": "99622d1c-611c-4b90-9144-01b5e0c2f627",
+      "codename": "ma__operation",
+      "title": "operation",
+      "slug": "operation",
+      "description": "<p>The process of combining numbers or expressions. Operations are arithmetic – addition, subtraction, multiplication and division – and also include exponentiation and substitution.</p>"
+    },
+    {
+      "id": "b1eba4e7-1b86-4872-b35b-f183fb46d653",
+      "codename": "pattern",
+      "title": "pattern",
+      "slug": "pattern",
+      "description": "<p>A pattern is made up of a number of elements that repeat or follow a rule.</p>"
+    },
+    {
+      "id": "4032b415-5fc7-4c02-9107-bdeedc1906c5",
+      "codename": "ma__percentage",
+      "title": "percentage",
+      "slug": "percentage",
+      "description": ""
+    },
+    {
+      "id": "1ec4e1e9-906a-4978-b87c-1060f33f81fa",
+      "codename": "place_value_system",
+      "title": "place value system",
+      "slug": "place-value-system",
+      "description": "<p>The place value system has 4 properties: positional, base-ten, additive and multiplicative.</p>\n<p>The value of a digit is determined by its position in a number relative to the ones (or units) place. For example, in the number 924, the 4 denotes 4 ones, the 2 denotes 2 tens or 20 ones, and the 9 denotes 9 hundreds, 90 tens or 900 ones.</p>"
+    },
+    {
+      "id": "e61934cb-0760-4239-a7b6-37de7006fff4",
+      "codename": "ma__probability",
+      "title": "probability",
+      "slug": "probability",
+      "description": "<p>The chance of something happening shown on a scale from 0 and 1 (inclusive). For example, the probability that a fair coin toss will come up ‘heads’ is 0.5.</p>"
+    },
+    {
+      "id": "c81c0ef3-728b-4937-a70b-9c5530c8076e",
+      "codename": "shared__rate",
+      "title": "rate",
+      "slug": "rate",
+      "description": "<p>A comparison of 2 quantities of different kinds. For example, a speed of 60km/h is a rate because it compares quantities of distance and time.</p>"
+    },
+    {
+      "id": "42cf9a0b-0cf5-4904-8b36-3c15c9a7f567",
+      "codename": "ma__ratio",
+      "title": "ratio",
+      "slug": "ratio",
+      "description": ""
+    },
+    {
+      "id": "add1fddb-2614-426a-95b3-86a25d65037a",
+      "codename": "ma__reciprocal",
+      "title": "reciprocal",
+      "slug": "reciprocal",
+      "description": ""
+    },
+    {
+      "id": "26c17afc-1073-4aee-8149-49215b1f6ca7",
+      "codename": "shared__scale",
+      "title": "scale",
+      "slug": "scale",
+      "description": ""
+    },
+    {
+      "id": "2d8d409b-8467-4ee5-8006-42f7592e8786",
+      "codename": "shape",
+      "title": "shape",
+      "slug": "shape2",
+      "description": "<p>A two-dimensional closed figure.</p>"
+    },
+    {
+      "id": "1579b9dd-87a7-4a0d-8961-d9d183ed564d",
+      "codename": "ma__square_root",
+      "title": "square root",
+      "slug": "square-root",
+      "description": ""
+    },
+    {
+      "id": "5cc78eb6-9698-4b6a-a122-6a595416288c",
+      "codename": "shared__tax",
+      "title": "tax",
+      "slug": "tax",
+      "description": "<p>A compulsory monetary contribution required by a government for its support, levied on incomes, property value, goods purchased.</p>"
+    },
+    {
+      "id": "d8c31f6a-61fb-4d25-8b19-b9074a55402d",
+      "codename": "mals__three_dimensional",
+      "title": "three-dimensional",
+      "slug": "three-dimensional",
+      "description": "<p>An object is three-dimensional when it possesses the dimensions of height, width and depth. Two-dimensional objects have only length and width. A solid is any geometrical object with 3 dimensions.</p>"
+    },
+    {
+      "id": "2edcb0f7-2a93-4420-9d30-1b31b02f9968",
+      "codename": "two_dimensional",
+      "title": "two-dimensional",
+      "slug": "two-dimensional",
+      "description": "<p>Having length and width only (with no depth).</p>"
+    },
+    {
+      "id": "ddb506c9-9f51-4d20-9b2b-64cd9cc5792f",
+      "codename": "volume",
+      "title": "volume",
+      "slug": "volume",
+      "description": "<p>The amount of space occupied by an object.</p>"
+    },
+    {
+      "id": "708681ca-1bd5-4f03-abcb-24efd365f60b",
+      "codename": "shared__whole_number",
+      "title": "whole number",
+      "slug": "whole-number",
+      "description": "<p>Any of the positive integers or 0.</p>"
+    }
+  ]
+}

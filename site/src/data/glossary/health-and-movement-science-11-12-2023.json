@@ -1,0 +1,671 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "aa7f7aaa-5084-4dc1-a8ba-bdb76ac10608",
+      "codename": "hms__aboriginal_and_torres_strait_islander_approac",
+      "title": "Aboriginal and Torres Strait Islander approaches to health",
+      "slug": "aboriginal-and-torres-strait-islander-approaches-to-health",
+      "description": "<p>Aboriginal and Torres Strait Islander Peoples’ concept of health is holistic, encompassing physical, social, emotional, mental, cultural and spiritual health and wellbeing. This holistic understanding recognises the interconnectedness of these aspects and is proactive. Aboriginal and Torres Strait Islander Peoples’ approaches to health are based on this holistic understanding, and incorporates connection to Country/Place, Cultural Knowledge, Customary healing Practices and involvement of the whole Community throughout the entire life-course. These approaches are typically customised to local Communities and take into consideration broad issues such as social justice principles.</p>"
+    },
+    {
+      "id": "eecbeb0f-e12a-4f09-85f6-95789d665b57",
+      "codename": "shrd_snr_gls_advocate",
+      "title": "advocate",
+      "slug": "advocate",
+      "description": "<p>The process of arguing in support of a cause or position, or acting on behalf of yourself or another individual, to ensure that your or others’ best interests are taken into account.</p>"
+    },
+    {
+      "id": "c71a43c0-febd-4bd2-8125-20d69099cf84",
+      "codename": "shrd_snr_gls_aerobic",
+      "title": "aerobic",
+      "slug": "aerobic",
+      "description": "<p>When referring to exercise, aerobic refers to any physical activity typically performed at a moderate level of intensity for extended periods of time, requiring oxygen to generate energy.</p>"
+    },
+    {
+      "id": "a78c959e-5c9d-40a7-a7b9-995377d37863",
+      "codename": "shrd_snr_gls_anaerobic",
+      "title": "anaerobic",
+      "slug": "anaerobic",
+      "description": "<p>When referring to exercise, anaerobic refers to any physical activity that is performed at a high intensity for a short duration. A limited supply of stored glycogen is used as energy, not requiring oxygen.</p>"
+    },
+    {
+      "id": "bc6a1ddb-e78a-448d-a935-fce1a4580641",
+      "codename": "hms_snr_gls_augmented",
+      "title": "augmented",
+      "slug": "augmented",
+      "description": "<p>To increase the size, extent or value of something. For example, augmented feedback for a competitor may include receiving auditory or visual stimuli from the coach or spectators that further informs their performance.</p>"
+    },
+    {
+      "id": "389f8e1f-e798-43e3-a8a0-22b89783f692",
+      "codename": "hms_snr_gls_ballistic",
+      "title": "ballistic",
+      "slug": "ballistic",
+      "description": "<p>A high-velocity musculoskeletal movement, such as a tennis serve or boxing punch, requiring reciprocal coordination of agonistic and antagonistic muscles.</p>"
+    },
+    {
+      "id": "ea541ece-530d-4f63-be37-4d51b328f624",
+      "codename": "shared__big_data",
+      "title": "big data",
+      "slug": "big-data",
+      "description": "<p>Extremely large datasets that may be analysed computationally to reveal patterns, trends and associations.</p>"
+    },
+    {
+      "id": "81065953-1eaf-4826-8357-dda6959153b6",
+      "codename": "hms_snr_gls_biomechanical_principles",
+      "title": "biomechanical principles",
+      "slug": "biomechanical-principles",
+      "description": "<p>Scientific principles of mechanical physics concerned with describing movement and understanding the forces that cause movement. Understanding biomechanics helps to minimise the risk of injury, reduce rehabilitation time, improve sports performance and promote sport mastery.</p>"
+    },
+    {
+      "id": "73e131c9-b8d8-4ef2-9fcd-0eb5fcdfdda8",
+      "codename": "hms_snr_gls_biomechanics",
+      "title": "biomechanics",
+      "slug": "biomechanics",
+      "description": "<p>The area of study with a focus on how and why we move. By applying the fundamental principles of physics to human movement, biomechanists describe and measure movement, and study the causes of such movement. Biomechanics in sports involves a detailed analysis of sports movements in order to minimise the risk of injury and improve performance.</p>"
+    },
+    {
+      "id": "865405b0-0ab0-4792-bff5-6b7d887d9ff6",
+      "codename": "hms__biomedical_model_of_health",
+      "title": "biomedical model of health",
+      "slug": "biomedical-model-of-health",
+      "description": "<p>A model of health that focuses on the physical or biological aspects of disease and illness. It is a medical model of care practised by doctors and health professionals and is associated with the diagnosis, cure and treatment of disease.</p>"
+    },
+    {
+      "id": "d6d0f207-b4d7-46af-bd88-63e5a8a5c434",
+      "codename": "shrd_snr_gls_community",
+      "title": "community",
+      "slug": "community",
+      "description": "<p>A group of people linked by a common social structure and sense of belonging. This may be based on location, education, gender, interests, cultural background, political or religious beliefs. It may also refer to an online community.</p>"
+    },
+    {
+      "id": "0eb9f18a-4055-4c24-b7ce-5c4e948d53db",
+      "codename": "hms_snr_gls_concept",
+      "title": "concept",
+      "slug": "concept",
+      "description": "<p>Key ideas that shape practice, e.g. equity, fitness.</p>"
+    },
+    {
+      "id": "5e584b43-033d-444c-ba50-8d8e8b2b3e1e",
+      "codename": "hms_snr_gls_culturally_and_linguistically_diverse_",
+      "title": "culturally and linguistically diverse populations",
+      "slug": "culturally-and-linguistically-diverse-populations",
+      "description": "<p>Australia’s population includes many people who were born overseas, have a parent born overseas or speak a variety of languages. Together, these groups of people are known as culturally and linguistically diverse populations.</p>"
+    },
+    {
+      "id": "ce521bc2-e4cb-4ca1-92f4-e559d369759e",
+      "codename": "hms_snr_gls_determinants_of_health",
+      "title": "determinants of health",
+      "slug": "determinants-of-health",
+      "description": "<p>The range of health behaviours, personal biomedical factors, environmental factors and socioeconomic factors, as identified by the Australian Institute of Health and Welfare that determine the health status of individuals and populations.</p>"
+    },
+    {
+      "id": "74d473f2-c3bd-48e9-9f9b-33d2ef1b90d2",
+      "codename": "shrd_snr_gls_digital_health",
+      "title": "digital health",
+      "slug": "digital-health",
+      "description": "<p>The electronic management of health information. This includes using technology to collect and share a person’s health information, e.g. a person wearing a device to record how much exercise they do each day, or healthcare providers sharing clinical notes about an individual.</p>"
+    },
+    {
+      "id": "170d7ecc-1bf8-4dd7-995a-3d13dfcb6c7e",
+      "codename": "hms_snr_gls_dimensions_of_health",
+      "title": "dimensions of health",
+      "slug": "dimensions-of-health",
+      "description": "<p>There are 5 dimensions of health. These include physical, mental, emotional, spiritual and social. These dimensions are interrelated.</p>"
+    },
+    {
+      "id": "c7b9a133-ccd8-4afa-9486-fa7fcead70f4",
+      "codename": "hms__ecological_model_of_health",
+      "title": "ecological model of health",
+      "slug": "ecological-model-of-health",
+      "description": "<p>Model based on evidence that no single factor can explain why some people or groups are at higher risk than others. The ecological approach focuses on both individual and social determinants of health.</p>"
+    },
+    {
+      "id": "ca097347-64cc-431d-8e7b-8d063a39699d",
+      "codename": "hms_snr_gls_environmental_factors",
+      "title": "environmental factors",
+      "slug": "environmental-factors",
+      "description": "<p>Factors in the built and natural environments that impact on health, e.g. geographical location, remoteness.</p>"
+    },
+    {
+      "id": "eac1ac87-1236-453c-b9d2-24fdf3b553a9",
+      "codename": "shrd_snr_gls_epidemiology",
+      "title": "epidemiology",
+      "slug": "epidemiology",
+      "description": "<p>The study of the distribution and determinants of health-related states or events (including disease), and the application of this study to the control of diseases and other health problems.</p>"
+    },
+    {
+      "id": "8b49dcd3-446c-41df-982a-90c0451b27f0",
+      "codename": "shrd_snr_gls_equity",
+      "title": "equity",
+      "slug": "equity",
+      "description": "<p>Resources are allocated in accordance with the needs of individuals and populations with the desired goal of equality of health outcomes.</p>"
+    },
+    {
+      "id": "9f8ca99b-b24f-4a42-9064-d91a98db73f2",
+      "codename": "hms_snr_gls_ethical",
+      "title": "ethical",
+      "slug": "ethical",
+      "description": "<p>Relates to moral principles. Pertaining to what is right and wrong in conduct.</p>"
+    },
+    {
+      "id": "9b8d290c-23b4-4954-9c9c-f455e73e0a7b",
+      "codename": "hms_snr_gls_fartlek",
+      "title": "fartlek",
+      "slug": "fartlek",
+      "description": "<p>Means ‘speed play’ in Swedish. Fartlek training includes periods of fast running intermixed with periods of slower running.</p>"
+    },
+    {
+      "id": "dee6d4d2-5796-4cdf-812a-56e85d53d3b9",
+      "codename": "shrd_snr_gls_first_aid",
+      "title": "first aid",
+      "slug": "first-aid",
+      "description": "<p>The initial care of the ill or injured, usually given by someone who is on the scene when a person becomes ill or injured.</p>"
+    },
+    {
+      "id": "e8f740de-2b02-40b9-aeca-dcd68ce834fd",
+      "codename": "shrd_snr_gls_fitness",
+      "title": "fitness",
+      "slug": "fitness",
+      "description": "<p>A measure of the body’s ability to function efficiently, effectively and without injury in everyday activities, to pursue recreational activities and to cope with emergency situations.</p>"
+    },
+    {
+      "id": "796ce345-f2f8-479e-a73e-09fd55c23afd",
+      "codename": "shrd_snr_gls_fitt_principle",
+      "title": "FITT principle",
+      "slug": "fitt-principle",
+      "description": "<p>A framework for developing fitness programs that emphasises the variables – Frequency, Intensity, Type of exercise and Time or duration of exercise.</p>"
+    },
+    {
+      "id": "e0dd674c-daf1-4857-bd71-ca972396658f",
+      "codename": "shrd_snr_gls_fluid_mechanics",
+      "title": "fluid mechanics",
+      "slug": "fluid-mechanics",
+      "description": "<p>The study of forces and flow within fluids.</p>"
+    },
+    {
+      "id": "5a588764-05c8-4215-b54d-dab414c37ecb",
+      "codename": "hms_snr_gls_force",
+      "title": "force",
+      "slug": "force",
+      "description": "<p>A push or pull between objects, which may cause one or both objects to change speed, and/or direction of their motion, and/or their shape.</p>"
+    },
+    {
+      "id": "2688f1cf-cd92-4712-a183-98a46bec629f",
+      "codename": "hms_snr_gls_health_behaviours",
+      "title": "health behaviours",
+      "slug": "health-behaviours",
+      "description": "<p>Refers to a person’s beliefs and actions regarding their health and wellbeing. For example, tobacco use, alcohol consumption, physical activity, dietary behaviour.</p>"
+    },
+    {
+      "id": "596d71f1-67c2-42ab-be12-b73b8abc0990",
+      "codename": "hms_snr_gls_health_lens",
+      "title": "health lens",
+      "slug": "health-lens",
+      "description": "<p>A health lens in relation to the Sustainable Development Goals (SDGs) refers to application of the goals in a way that targets the health outcomes of the community. This includes creating and improving the physical and social environments, and expanding on community resources that enable people to reach their full potential.</p>"
+    },
+    {
+      "id": "6fcd5e4e-6355-4792-a298-4f806e55ca66",
+      "codename": "shrd_snr_gls_health_literacy",
+      "title": "health literacy",
+      "slug": "health-literacy",
+      "description": "<p>The ability to selectively access and critically analyse information, navigate community services and resources, and take action to promote personal health and the health of others.</p>"
+    },
+    {
+      "id": "b977b35b-9799-49f7-8a8c-0136fc74a644",
+      "codename": "hms_snr_gls_health_promotion",
+      "title": "health promotion",
+      "slug": "health-promotion",
+      "description": "<p>The process of enabling people to increase control over, and to improve, their health.</p>"
+    },
+    {
+      "id": "07f626e2-2d25-42da-a735-09e30396062d",
+      "codename": "hms_snr_gls_health_status",
+      "title": "health status",
+      "slug": "health-status",
+      "description": "<p>The health of an individual or population measured against an identifiable standard.</p>"
+    },
+    {
+      "id": "ec8adab1-bd8e-4dd2-ae06-c3d64db54f96",
+      "codename": "hms_snr_gls_high_intensity_interval_training__hiit",
+      "title": "High Intensity Interval Training (HIIT)",
+      "slug": "high-intensity-interval-training-hiit",
+      "description": "<p>Training that involves repeated bouts of high-intensity exercise followed by varying periods of complete rest or recovery at lower intensity.</p>"
+    },
+    {
+      "id": "c0c913b0-862f-4335-b2ae-3256071057fe",
+      "codename": "hms_snr_gls_incidence",
+      "title": "incidence",
+      "slug": "incidence",
+      "description": "<p>The number of new cases (of an illness or event, and so on) occurring during a given period.</p>"
+    },
+    {
+      "id": "b244d914-618e-47e6-af94-d6e599ae7557",
+      "codename": "hms_snr_gls_infant_mortality",
+      "title": "infant mortality",
+      "slug": "infant-mortality",
+      "description": "<p>The number of deaths among children aged under one in a given period, per 1,000 live births in the same period.</p>"
+    },
+    {
+      "id": "fffdb5e8-eaee-4b6e-a045-1ce3e9bfda0f",
+      "codename": "hms_snr_gls_interplay",
+      "title": "interplay",
+      "slug": "interplay",
+      "description": "<p>The way in which 2 or more things have an effect on each other.</p>"
+    },
+    {
+      "id": "6f326c72-8c62-4596-a56d-2b9677a5c0ba",
+      "codename": "shrd_snr_gls_interrelationship",
+      "title": "interrelationship",
+      "slug": "interrelationship",
+      "description": "<p>The way in which 2 or more things or people are connected and affect one another.</p>"
+    },
+    {
+      "id": "d4c8c8cc-8e55-40eb-9af5-3e5b08ce5910",
+      "codename": "shrd_snr_gls_life_expectancy",
+      "title": "life expectancy",
+      "slug": "life-expectancy",
+      "description": "<p>Measures how long, on average, a person is expected to live, based on current age and sex-specific death rates. It is often expressed as the number of years a person born today is expected to live.</p>"
+    },
+    {
+      "id": "35eb274d-caa6-4e57-981c-a20c5db1174f",
+      "codename": "hms_snr_gls_medicare",
+      "title": "Medicare",
+      "slug": "medicare",
+      "description": "<p>A national, government-funded scheme that subsidises the cost of personal medical services for all Australians and aims to help them afford medical care.</p>"
+    },
+    {
+      "id": "2b032a5b-fab0-41b5-b077-1652b056eb7b",
+      "codename": "hms_snr_gls_micronutrients",
+      "title": "micronutrients",
+      "slug": "micronutrients",
+      "description": "<p>One of the major groups of nutrients needed by the body for energy production, immune function, blood clotting, growth, bone health and fluid balance, among other functions. Also known as vitamins and minerals.</p>"
+    },
+    {
+      "id": "c32e0a01-49d6-465c-a876-1b0a3cd6408b",
+      "codename": "shrd_snr_gls_morbidity",
+      "title": "morbidity",
+      "slug": "morbidity",
+      "description": "<p>The ill health of an individual and levels of ill health in a population or group.</p>"
+    },
+    {
+      "id": "6e3950a2-d4a0-45ef-9767-611dfd4d9fe9",
+      "codename": "shrd_snr_gls_mortality",
+      "title": "mortality",
+      "slug": "mortality",
+      "description": "<p>Number or rate of deaths in a population during a given time period.</p>"
+    },
+    {
+      "id": "ef087154-22fd-4e4c-a731-884f4d729dd3",
+      "codename": "hms_snr_gls_older_people",
+      "title": "older people",
+      "slug": "older-people",
+      "description": "<p>In Australia, this includes people aged 65 and over.</p>"
+    },
+    {
+      "id": "97f7904b-d01d-4452-943d-131626ee545e",
+      "codename": "shrd_snr_gls_organisation_for_economic_co_operatio",
+      "title": "Organisation for Economic Co-operation and Development (OECD)",
+      "slug": "organisation-for-economic-co-operation-and-development-oecd",
+      "description": "<p>An international organisation that develops policies for a range of social, economic and environmental challenges.</p>"
+    },
+    {
+      "id": "5079cc8d-f550-4c3c-b840-bfe354330c8c",
+      "codename": "shrd_snr_gls_physical_fitness",
+      "title": "physical fitness",
+      "slug": "physical-fitness",
+      "description": "<p>A set of attributes (health and skill components) that enable an individual to be physically active.</p>"
+    },
+    {
+      "id": "61b5baac-328f-41cd-b7be-b82b727fff25",
+      "codename": "hms_snr_gls_plyometric_s_",
+      "title": "plyometric(s)",
+      "slug": "plyometric-s",
+      "description": "<p>Exercises in which muscles exert maximum force in short intervals of time, with the goal of increasing power. Plyometric training may involve jumps, hops, bounds and skips.</p>"
+    },
+    {
+      "id": "bac96eb3-0a4e-4a6b-b777-71771c8dd77c",
+      "codename": "shrd_snr_gls_prevalence",
+      "title": "prevalence",
+      "slug": "prevalence",
+      "description": "<p>The number or proportion (of cases, instances, and so forth) in a population at a given time. For example, in relation to cancer, refers to the number of people alive who had been diagnosed with cancer in a prescribed period (usually 1, 5, 10 or 26 years).</p>"
+    },
+    {
+      "id": "72e7f46b-d5c3-45ac-9fd9-e2bbcd13b7df",
+      "codename": "shrd_snr_gls_privacy",
+      "title": "privacy",
+      "slug": "privacy",
+      "description": "<p>The right to be left alone, be free from interference or intrusion, and to have some control over your personal information and how it is accessed, used and shared.</p>"
+    },
+    {
+      "id": "7a3cf08a-ddb4-4f77-80fa-0c6fc2e7f572",
+      "codename": "hms_snr_gls_proprioceptive_neuromuscular_facilitat",
+      "title": "Proprioceptive Neuromuscular Facilitation (PNF)",
+      "slug": "proprioceptive-neuromuscular-facilitation-pnf",
+      "description": "<p>A form of flexibility training. It involves a phase of pushing away from the direction of stretch against resistance. This is followed by a period of relaxation with gentle reversing of the resistance to push along the line of stretch, increasing the stretch beyond its normal range.</p>"
+    },
+    {
+      "id": "686d2757-082d-4cf9-8606-4f9a791ac591",
+      "codename": "hms_snr_gls_salutogenic_model_of_health",
+      "title": "salutogenic model of health",
+      "slug": "salutogenic-model-of-health",
+      "description": "<p>An approach to human health that examines the factors contributing to the promotion and maintenance of physical and mental wellbeing rather than disease, with particular emphasis on the coping mechanisms of individuals that help preserve health despite stressful conditions.</p>"
+    },
+    {
+      "id": "d25b3112-534e-4388-9435-26f6ed08059b",
+      "codename": "hms_snr_gls_self_efficacy",
+      "title": "self-efficacy",
+      "slug": "self-efficacy",
+      "description": "<p>Belief in one’s own ability to manage behaviour, emotions and motivations.</p>"
+    },
+    {
+      "id": "2edbe9af-55b0-4f84-b6bf-5986bef5e311",
+      "codename": "hms_snr_gls_social_justice_principles",
+      "title": "social justice principles",
+      "slug": "social-justice-principles",
+      "description": "<p>Principles aimed at decreasing or eliminating inequity; promoting inclusiveness of diversity; and establishing environments that are supportive of all people. The principles include: participation, equity, access and rights.</p>"
+    },
+    {
+      "id": "967d3e76-440d-44f9-9d48-769729d59948",
+      "codename": "hms__sociocultural_model_of_health",
+      "title": "sociocultural model of health",
+      "slug": "sociocultural-model-of-health",
+      "description": "<p>This model of health attempts to address the broader influences on health (social, cultural, environmental and economic factors) rather than disease and injury. The focus is on policies, education and health promotion.</p>"
+    },
+    {
+      "id": "bdf6b6a3-08c0-45f4-b5d5-800ad9da2251",
+      "codename": "hms_snr_gls_sociological_causes",
+      "title": "sociological causes",
+      "slug": "sociological-causes",
+      "description": "<p>Societal influences or reasons. These include social relationships, social interaction and culture of everyday life.</p>"
+    },
+    {
+      "id": "8b3fd599-efa2-4b1e-add5-44dbcfc4ef6d",
+      "codename": "hms_snr_gls_sport",
+      "title": "sport",
+      "slug": "sport",
+      "description": "<p>The term sport is broadened to include physical activity as well as organised and high-performance sport, reflecting ever-increasing opportunities for Australians to engage in physical activity throughout life.</p>"
+    },
+    {
+      "id": "497bc024-ebab-44a8-814d-09c431c53ce3",
+      "codename": "hms_snr_gls_sprint_interval_training__sit_",
+      "title": "Sprint Interval Training (SIT)",
+      "slug": "sprint-interval-training-sit",
+      "description": "<p>A form of high-intensity training characterised by repeated, brief intermittent bursts of supramaximal intensity exercise, interspersed by periods of active or passive recovery.</p>"
+    },
+    {
+      "id": "6ec94989-7cf6-4611-a248-0184dede3796",
+      "codename": "shrd_snr_gls_stability",
+      "title": "stability",
+      "slug": "stability",
+      "description": "<p>Stability skills can be categorised as static skills and dynamic skills. Static stability refers to an object at rest, whereas dynamic stability refers to an object in motion.</p>"
+    },
+    {
+      "id": "8823c61d-0aee-462f-be07-087556b65875",
+      "codename": "shrd_snr_gls_strategies",
+      "title": "strategies",
+      "slug": "strategies",
+      "description": "<p>A plan of action developed before beginning a task or activity to successfully achieve a goal or outcome.</p>"
+    },
+    {
+      "id": "66d180a8-ba64-4307-8318-d8a3df3eab05",
+      "codename": "shrd_snr_gls_sustainable_development_goals__sdgs_",
+      "title": "Sustainable Development Goals (SDGs)",
+      "slug": "sustainable-development-goals-sdgs",
+      "description": "<p>A set of 17 global goals developed by the United Nations to be achieved by 2030. The goals are universally applied to all to end poverty, fight inequalities and tackle climate change. They influence strategies that build economic growth and address a range of social needs, including education, health, social protection and job opportunities, while tackling climate change and environmental protection.</p>"
+    },
+    {
+      "id": "4f009a73-a8c7-4369-937a-186acd5435a6",
+      "codename": "shrd_snr_gls_totaps",
+      "title": "TOTAPS",
+      "slug": "totaps",
+      "description": "<p>A way of assessing sports injuries in athletes and recreational players before allowing a player to return to the field. TOTAPS stands for Talk, Observe, Touch, Active movement, Passive movement and Skills test.</p>"
+    },
+    {
+      "id": "e0053dcd-a49d-41e7-8d08-a0ab6a288375",
+      "codename": "shrd_snr_gls_wellbeing",
+      "title": "wellbeing",
+      "slug": "wellbeing",
+      "description": "<p>A sustainable state characterised by predominantly positive feelings, attitudes and relationships. It involves resilience, self-efficacy and a high level of satisfaction with self.</p>"
+    },
+    {
+      "id": "d5f8541b-6904-4288-b38c-9f7b5acc682a",
+      "codename": "shrd_snr_gls_world_health_organization__who_",
+      "title": "World Health Organization (WHO)",
+      "slug": "world-health-organization-who",
+      "description": "<p>A specialised agency of the United Nations responsible for international public health. It aims to ensure there is universal health coverage, protect people from health emergencies and provide people with better health and wellbeing.</p>"
+    }
+  ]
+}

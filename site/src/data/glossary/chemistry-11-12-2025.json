@@ -1,0 +1,867 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "fbb22daf-9b6a-4455-92ef-1c67a4576a0b",
+      "codename": "ma__accuracy",
+      "title": "accuracy",
+      "slug": "accuracy",
+      "description": "<p>The extent to which measurements are considered to be close to the true value.</p>"
+    },
+    {
+      "id": "c9c5dcc9-18be-4299-a319-7799cac69f71",
+      "codename": "chem__acid_dissociation_constant__ka_",
+      "title": "acid dissociation constant (Ka)",
+      "slug": "acid-dissociation-constant-ka",
+      "description": "<p>The measure of the strength of an acid in solution.</p>"
+    },
+    {
+      "id": "633bcf35-26de-4731-b026-7e93e35fb499",
+      "codename": "chem__addition_reaction",
+      "title": "addition reaction",
+      "slug": "addition-reaction",
+      "description": "<p>A chemical reaction in which atoms are added to a molecule usually by the breaking of double or triple bonds.</p>"
+    },
+    {
+      "id": "45528e77-1f0c-4617-b4d4-216500395477",
+      "codename": "chem__aliphatic_hydrocarbon",
+      "title": "aliphatic hydrocarbon",
+      "slug": "aliphatic-hydrocarbon",
+      "description": "<p>An organic compound arranged in straight chains, branched chains or non-aromatic rings (not benzene rings).</p>"
+    },
+    {
+      "id": "e29fd64c-085b-449f-b0c6-e56ab0af1866",
+      "codename": "chem__amphiprotic",
+      "title": "amphiprotic",
+      "slug": "amphiprotic",
+      "description": "<p>A substance capable of accepting or donating a proton to act like either an acid or base.</p>"
+    },
+    {
+      "id": "c31ec4ae-2082-4315-b47a-9998d704ba62",
+      "codename": "chem__atomic_absorption_spectroscopy__aas_",
+      "title": "atomic absorption spectroscopy (AAS)",
+      "slug": "atomic-absorption-spectroscopy-aas",
+      "description": "<p>An analytical technique to determine and measure the unknown concentration of metal ions in a sample based on the amount of light it absorbs.</p>"
+    },
+    {
+      "id": "22acbbf4-4e9e-48a8-9b22-c1941b47313f",
+      "codename": "chem__atomic_emission_spectroscopy__aes_",
+      "title": "atomic emission spectroscopy (AES)",
+      "slug": "atomic-emission-spectroscopy-aes",
+      "description": "<p>An analytical technique to determine and measure the unknown concentration of metal ions in a sample based on the amount of light it emits.</p>"
+    },
+    {
+      "id": "9f9628f8-5c24-4ecc-a614-504e7360c8e0",
+      "codename": "chem__back_titration",
+      "title": "back titration",
+      "slug": "back-titration",
+      "description": "<p>An analytical technique used to determine the concentration of a substance that is not able to be determined directly.</p>"
+    },
+    {
+      "id": "f1f0e3c4-928e-4498-ae2b-85aa8e460d38",
+      "codename": "chem__base_dissociation_constant__kb_",
+      "title": "base dissociation constant (Kb)",
+      "slug": "base-dissociation-constant-kb",
+      "description": "<p>The measure of the strength of a base in solution.</p>"
+    },
+    {
+      "id": "7a54e685-aaef-4436-8c82-ac07adf1f592",
+      "codename": "chem__buffer",
+      "title": "buffer",
+      "slug": "buffer",
+      "description": "<p>A solution that remains unchanged in its pH when small amounts of acid or base are added.</p>"
+    },
+    {
+      "id": "93dc1ca5-bc1e-4bb7-9449-41d17f4455e9",
+      "codename": "chem__carbon__13c__nmr_spectroscopy",
+      "title": "carbon (13C) NMR spectroscopy",
+      "slug": "carbon-13c-nmr-spectroscopy",
+      "description": "<p>An analytical technique used to determine the structure of organic compounds by observing the behaviour of carbon-13 nuclei in a magnetic field.</p>"
+    },
+    {
+      "id": "348b7965-1069-40fd-809a-ec654aa06dc2",
+      "codename": "chem__cell_potential",
+      "title": "cell potential",
+      "slug": "cell-potential",
+      "description": "<p>The voltage difference between the 2 electrodes of an electrochemical cell.</p>"
+    },
+    {
+      "id": "a1c6b432-9ca2-4d43-83f6-689108b468da",
+      "codename": "chem__chain_isomer",
+      "title": "chain isomer",
+      "slug": "chain-isomer",
+      "description": "<p>Compounds with different arrangements of the substituents on the carbon chain and the same molecular formula.</p>"
+    },
+    {
+      "id": "10ae30fc-2707-4553-b1fa-703a62417143",
+      "codename": "shared__chemical_reaction",
+      "title": "chemical reaction",
+      "slug": "chemical-reaction",
+      "description": "<p>A process in which the breaking and forming of chemical bonds transforms one or more reactants into different products and includes the release or absorption of energy.</p>"
+    },
+    {
+      "id": "6eb0ba29-9566-4b90-9801-2ac502d2b702",
+      "codename": "chem__closed_system",
+      "title": "closed system",
+      "slug": "closed-system",
+      "description": "<p>A chemical system in which no substances are able to enter or leave.</p>"
+    },
+    {
+      "id": "25a11560-268b-4ac1-8649-7ff367aa8ac5",
+      "codename": "sci_sec_gls_complete_combustion",
+      "title": "complete combustion",
+      "slug": "complete-combustion",
+      "description": "<p>A chemical reaction in which a fuel reacts with unlimited oxygen gas (O<sub>2</sub>) resulting in the production of carbon dioxide (CO<sub>2</sub>), water (H<sub>2</sub>O), and heat.</p>"
+    },
+    {
+      "id": "fc09033d-22f8-4dd6-ba84-a0e5fc5e4e36",
+      "codename": "chem__concentration_of_hydroxide__oh__",
+      "title": "concentration of hydroxide [OH–]",
+      "slug": "concentration-of-hydroxide-oh",
+      "description": "<p>The number of moles of hydroxide ion in a litre of solution.</p>"
+    },
+    {
+      "id": "e5e4f43b-d6df-41ab-a95d-ddff922e6e55",
+      "codename": "chem__conjugate_acid_base_pairs",
+      "title": "conjugate acid–base pairs",
+      "slug": "conjugate-acid-base-pairs",
+      "description": "<p>Two substances that differ by one proton where the acid donates a proton and becomes its conjugate base or the base accepts a proton and becomes its conjugate acid.</p>"
+    },
+    {
+      "id": "23d5304a-62a6-4249-933a-78f2e8d2c252",
+      "codename": "sci_sec_gls_controlled_variable",
+      "title": "controlled variable",
+      "slug": "controlled-variable",
+      "description": "<p>A variable that is kept constant (or changed in constant ways) during an investigation. For example, the same amount of water would be a controlled variable in an investigation comparing solubility.</p>"
+    },
+    {
+      "id": "761b64db-d3be-4fbe-94fa-acd20c4d988d",
+      "codename": "chem__covalent_bond",
+      "title": "covalent bond",
+      "slug": "covalent-bond",
+      "description": "<p>A chemical bond made when 2 atoms share one or more pairs of electrons.</p>"
+    },
+    {
+      "id": "037fae84-e6e7-4282-805f-46b2c25086be",
+      "codename": "sci_sec_gls_crude_oil",
+      "title": "crude oil",
+      "slug": "crude-oil",
+      "description": "<p>Oil as it is found naturally in underground reservoirs; a raw natural resource made from hydrocarbons that formed over millions of years from the remains of animals and plants.</p>"
+    },
+    {
+      "id": "3e419f2d-a525-4697-a914-a4de479610c0",
+      "codename": "sci_sec_gls_decomposition",
+      "title": "decomposition",
+      "slug": "decomposition",
+      "description": "<p>A chemical reaction in which a complex reactant (that consists of multiple components or molecules) breaks down into 2 or more simpler products.</p>"
+    },
+    {
+      "id": "172917fb-aa1d-4687-a1a9-1bfe14057386",
+      "codename": "sci_sec_gls_dependent_variable",
+      "title": "dependent variable",
+      "slug": "dependent-variable2",
+      "description": "<p>The factor in an experiment that changes in response to changes to the independent variable.</p>"
+    },
+    {
+      "id": "ebcdf588-3231-407e-b90a-89606602bedc",
+      "codename": "chem__diprotic_acid",
+      "title": "diprotic acid",
+      "slug": "diprotic-acid",
+      "description": "<p>An acid substance that can donate 2 protons per molecule in an aqueous solution.</p>"
+    },
+    {
+      "id": "2082003a-3efd-4a06-b153-d79bc8434620",
+      "codename": "chem__dissociation_constant",
+      "title": "dissociation constant",
+      "slug": "dissociation-constant",
+      "description": "<p>An equilibrium constant that describes the separation of a weak acid (<em>K</em><sub>a</sub>) or weak base with water (<em>K</em><sub>b</sub>).</p>"
+    },
+    {
+      "id": "7532cfe8-74f5-4bb2-993a-6d6e99102478",
+      "codename": "chem__dissolution",
+      "title": "dissolution",
+      "slug": "dissolution",
+      "description": "<p>The dissolving of a gas, liquid or solid in a solvent to form a homogenous solution (gas or liquid).</p>"
+    },
+    {
+      "id": "c5f6b0bc-cc94-4d79-aa9f-70557a0360dc",
+      "codename": "chem__dynamic_equilibrium",
+      "title": "dynamic equilibrium",
+      "slug": "dynamic-equilibrium2",
+      "description": "<p>A state in which there are no macroscopic changes to the system as the rates of forward and reverse reactions are equal and therefore the amount of reactants and products remain constant.</p>"
+    },
+    {
+      "id": "542cfd33-76c5-4200-a17b-88fd4f95c32c",
+      "codename": "chem__electron_configuration",
+      "title": "electron configuration",
+      "slug": "electron-configuration",
+      "description": "<p>The arrangement of electrons in an atom’s orbitals, showing how electrons fill shells and subshells (s, p, d, f) according to energy levels.</p>"
+    },
+    {
+      "id": "ae8ec47f-66dc-4172-842c-5f39ebcca323",
+      "codename": "chem__electronegativity",
+      "title": "electronegativity",
+      "slug": "electronegativity",
+      "description": "<p>The ability of an atom to attract bonding electrons toward itself to form a chemical bond.</p>"
+    },
+    {
+      "id": "fe2fe8b7-ba41-480e-932b-5178eadc06e7",
+      "codename": "sci_sec_gls_electrostatic",
+      "title": "electrostatic",
+      "slug": "electrostatic",
+      "description": "<p>Relating to electricity or fields that do not move in a current but are instead attracted to the surface of an object, as opposed to electric currents.</p>"
+    },
+    {
+      "id": "08581114-36ca-48d6-aef5-ef30e266e04f",
+      "codename": "sci_sec_gls_element",
+      "title": "element",
+      "slug": "element",
+      "description": "<p>One of a class of substances which consists entirely of atoms of the same atomic number, and which cannot be further divided by chemical methods.</p>"
+    },
+    {
+      "id": "162261a7-c275-4818-83ef-1b6b943ec1a6",
+      "codename": "chem__empirical_formulae",
+      "title": "empirical formulae",
+      "slug": "empirical-formulae",
+      "description": "<p>The chemical formula of a compound that gives the simplest whole-number ratio by atoms of each element in a compound.</p>"
+    },
+    {
+      "id": "0e2a9660-fbe6-4ef4-afcf-34f74fa2d736",
+      "codename": "chem__endpoint__of_titration_",
+      "title": "endpoint (of titration)",
+      "slug": "endpoint-of-titration",
+      "description": "<p>The point at which the indicator changes colour to show the equivalence point has been reached.</p>"
+    },
+    {
+      "id": "11c2a056-35c1-4f81-a3aa-41266f435c22",
+      "codename": "chem__enthalpy",
+      "title": "enthalpy",
+      "slug": "enthalpy",
+      "description": "<p>A measure of the total heat content of a substance or system at a constant pressure.</p>"
+    },
+    {
+      "id": "775f4ff8-fd78-4327-9c04-bb9e413ce9b9",
+      "codename": "equilibrium_constant__keq_",
+      "title": "equilibrium constant (Keq)",
+      "slug": "equilibrium-constant-keq",
+      "description": "<p>A numerical value that expresses the ratio of the concentrations of products to reactants at equilibrium for a reversible reaction.</p>"
+    },
+    {
+      "id": "fd20ebbe-d994-451a-93f7-debb29701be1",
+      "codename": "chem__equivalence_point",
+      "title": "equivalence point",
+      "slug": "equivalence-point",
+      "description": "<p>The point in a titration when equal amounts of acid and base have reacted, meaning the moles of acid equals moles of base.</p>"
+    },
+    {
+      "id": "dd6d3782-54ef-47ff-8568-028bc4eb778e",
+      "codename": "sci_sec_gls_experimental_control",
+      "title": "experimental control",
+      "slug": "experimental-control",
+      "description": "<p>The sample in an experiment to which all the other samples are compared.</p>\n<p>Extended in Science 11–12: The sample in an experiment that does not receive the independent variable.</p>"
+    },
+    {
+      "id": "76b97d7f-8bc8-4474-8440-1e2ddb1de7a4",
+      "codename": "chem__first_ionisation_energy",
+      "title": "first ionisation energy",
+      "slug": "first-ionisation-energy",
+      "description": "<p>The amount of energy required to remove one electron from a neutral atom in the gaseous state to form a +1 ion.</p>"
+    },
+    {
+      "id": "511890de-4c7e-4a0b-a78e-03ff9ef96862",
+      "codename": "chem__galvanic_cell",
+      "title": "galvanic cell",
+      "slug": "galvanic-cell",
+      "description": "<p>An electrochemical cell that generates electrical energy from a spontaneous redox reaction occurring within it.</p>"
+    },
+    {
+      "id": "e7a38958-8b64-4ee6-94c5-20c43e7af203",
+      "codename": "chem__groups__within_the_periodic_table_",
+      "title": "groups (within the periodic table)",
+      "slug": "groups-within-the-periodic-table",
+      "description": "<p>A vertical column of the periodic table.</p>"
+    },
+    {
+      "id": "20d5398c-9729-4361-aa3f-8e86bbdcf2e8",
+      "codename": "shared__hazard",
+      "title": "hazard",
+      "slug": "hazard",
+      "description": "<p>A source that poses a potential risk of harm or injury.</p>"
+    },
+    {
+      "id": "f4b3cf3b-2a74-4381-8219-1306c1fc97d0",
+      "codename": "chem__homologous_series",
+      "title": "homologous series",
+      "slug": "homologous-series",
+      "description": "<p>A family of organic compounds with the same functional group, similar chemical properties and general formula, where each successive member differs by a CH<sub>2</sub> unit.</p>"
+    },
+    {
+      "id": "15c9120a-c137-4485-a1c0-a1090e3756b2",
+      "codename": "sci_sec_gls_hydrocarbons",
+      "title": "hydrocarbons",
+      "slug": "hydrocarbons",
+      "description": "<p>A group of compounds containing only hydrogen and carbon, such as methane (CH<sub>4</sub>), ethene (C<sub>2</sub>H<sub>4</sub>) and but-1-yne (C<sub>4</sub>H<sub>6</sub>).</p>"
+    },
+    {
+      "id": "c09c578e-0de2-4f17-93ca-d4525f637303",
+      "codename": "chem__hydrogen_bonding",
+      "title": "hydrogen bonding",
+      "slug": "hydrogen-bonding",
+      "description": "<p>A type of strong dipole–dipole interaction that occurs when a hydrogen atom bonded to a highly electronegative atom (N, O, or F) is attracted to the lone pair of electrons on another nearby electronegative atom.</p>"
+    },
+    {
+      "id": "21ac82bc-93b7-4189-85ac-05e3b9588891",
+      "codename": "chem__ideal_gases",
+      "title": "ideal gases",
+      "slug": "ideal-gases",
+      "description": "<p>A theoretical gas that perfectly follows the ideal gas law and assumes no interactions between particles and in which the particles occupy no volume.</p>"
+    },
+    {
+      "id": "cd390ad5-80de-43a3-94e4-10bb705d8e13",
+      "codename": "sci_sec_gls_incomplete_combustion",
+      "title": "incomplete combustion",
+      "slug": "incomplete-combustion",
+      "description": "<p>A chemical reaction in which a fuel reacts with limited oxygen gas (O<sub>2</sub>). Can lead to the formation of carbon, as soot (C), or carbon monoxide (CO).</p>"
+    },
+    {
+      "id": "3acb684d-c6a7-4300-8865-f5187a3ae83d",
+      "codename": "sci_sec_gls_independent_variable",
+      "title": "independent variable",
+      "slug": "independent-variable",
+      "description": "<p>The variable that is deliberately changed, often through a series of pre-set values.</p>"
+    },
+    {
+      "id": "92787eec-7ba0-4754-bbe2-f27db52c7638",
+      "codename": "chem__infrared_spectroscopy",
+      "title": "infrared spectroscopy",
+      "slug": "infrared-spectroscopy",
+      "description": "<p>An analytical technique that uses the interaction of infrared light with a sample to identify and characterise molecules.</p>"
+    },
+    {
+      "id": "185e928d-090f-45ac-b348-4d729aec75c9",
+      "codename": "chem__intermolecular_force",
+      "title": "intermolecular force",
+      "slug": "intermolecular-force",
+      "description": "<p>The attractions or repulsions between adjacent molecules.</p>"
+    },
+    {
+      "id": "45de7426-ff91-4019-abc6-13dde32da4bd",
+      "codename": "sci_sec_gls_ionic__bond_",
+      "title": "ionic (bond)",
+      "slug": "ionic-bond",
+      "description": "<p>A very strong chemical bond formed by the transfer of one or more electrons from one atom to another atom; the ions are held together by electrostatic attraction.</p>"
+    },
+    {
+      "id": "3218660a-0b02-4992-bfbe-033d145e601e",
+      "codename": "sci_sec_gls_isotope",
+      "title": "isotope",
+      "slug": "isotope",
+      "description": "<p>Variants of a chemical element that have the same number of protons but different numbers of neutrons in their nuclei.</p>"
+    },
+    {
+      "id": "c56f47b5-efa7-46d1-8e0f-dcd82b85393e",
+      "codename": "chem__limiting_reagents",
+      "title": "limiting reagents",
+      "slug": "limiting-reagents",
+      "description": "<p>The reactant that is completely used up first in a chemical reaction, limiting the amount of product produced.</p>"
+    },
+    {
+      "id": "14074995-a37b-4b13-aecc-8900ab532c1d",
+      "codename": "mass",
+      "title": "mass",
+      "slug": "mass",
+      "description": "<p>The amount of matter in an object.</p>"
+    },
+    {
+      "id": "46da7887-fd2b-4c9e-8704-5d3285c246fd",
+      "codename": "ma__mean",
+      "title": "mean",
+      "slug": "mean",
+      "description": "<p>The sum of values in a dataset divided by the total number of values in the dataset. Also called the average.</p>"
+    },
+    {
+      "id": "5fe4bec7-df46-49c3-8048-97527c34e8d4",
+      "codename": "sci_sec_gls_metallic_bond",
+      "title": "metallic bond",
+      "slug": "metallic-bond",
+      "description": "<p>A type of chemical bond formed between positively charged metal ions and the delocalised electrons surrounding them.</p>"
+    },
+    {
+      "id": "057572dd-da6d-4610-a70f-1a69de86c69a",
+      "codename": "ct_sec_gls_model",
+      "title": "model",
+      "slug": "model",
+      "description": "<p>A mathematical, conceptual or physical representation that describes, simplifies, clarifies or provides an explanation of the structure, workings or relationships within an object, system or idea. Models can provide a means of testing and predicting behaviour within limited conditions. Models may be physical or exist in digital form.</p>"
+    },
+    {
+      "id": "12f41a0e-f0e8-4ce5-ad50-370466987df2",
+      "codename": "chem__molar_concentration",
+      "title": "molar concentration",
+      "slug": "molar-concentration",
+      "description": "<p>The number of moles of solute dissolved in one litre of solution.</p>"
+    },
+    {
+      "id": "9d3f310b-2fea-478f-b6d2-8a68a85c9af4",
+      "codename": "chem__monoprotic_acid",
+      "title": "monoprotic acid",
+      "slug": "monoprotic-acid",
+      "description": "<p>An acid that can donate only 1 proton (H<sup>+</sup>) per molecule to a base</p>"
+    },
+    {
+      "id": "0ad7fc37-bb74-45ab-b24a-4d49450cbf8a",
+      "codename": "sci_sec_gls_neutralisation_reaction",
+      "title": "neutralisation reaction",
+      "slug": "neutralisation-reaction",
+      "description": "<p>The act of making a substance chemically neutral, so it is not an acid or a base.</p>"
+    },
+    {
+      "id": "03be68be-1288-478f-8f4c-333f2e06a17e",
+      "codename": "chem__open_system",
+      "title": "open system",
+      "slug": "open-system",
+      "description": "<p>A chemical system in which substances are able to enter or leave.</p>"
+    },
+    {
+      "id": "58e91129-4a00-4d34-8ac3-55b8c1bc7524",
+      "codename": "chem__orbital",
+      "title": "orbital",
+      "slug": "orbital",
+      "description": "<p>A region around an atom’s nucleus where there is a high probability of finding an electron.</p>"
+    },
+    {
+      "id": "4b51fe7c-376f-4cc5-b4a9-b165ac1f1b23",
+      "codename": "ma__outlier",
+      "title": "outlier",
+      "slug": "outlier",
+      "description": "<p>A data value that appears to stand out from the other members of the dataset by being unusually high or low.</p>"
+    },
+    {
+      "id": "b1eba4e7-1b86-4872-b35b-f183fb46d653",
+      "codename": "pattern",
+      "title": "pattern",
+      "slug": "pattern",
+      "description": "<p>A pattern is made up of a number of elements that repeat or follow a rule.</p>"
+    },
+    {
+      "id": "6491899d-a813-45f6-8f80-bffd674e510b",
+      "codename": "chem__percentage_composition",
+      "title": "percentage composition",
+      "slug": "percentage-composition",
+      "description": "<p>Ratio by mass in which elements are present.</p>"
+    },
+    {
+      "id": "dc5b0da5-cfb4-420b-b29f-0ef39850ffef",
+      "codename": "ma__percentage_error",
+      "title": "percentage error",
+      "slug": "percentage-error",
+      "description": "<p>The absolute error of a measurement expressed as a percentage of the recorded measurement.</p>"
+    },
+    {
+      "id": "e2aa322c-c384-4c7b-a42a-fff247174968",
+      "codename": "untitled_content_item_e2aa322",
+      "title": "period (within the periodic table)",
+      "slug": "period-within-the-periodic-table",
+      "description": "<p>A horizontal row of the periodic table.</p>"
+    },
+    {
+      "id": "acd6b583-c000-4a24-963c-e6f0c372a18c",
+      "codename": "chem__polymerisation",
+      "title": "polymerisation",
+      "slug": "polymerisation",
+      "description": "<p>A chemical process where small molecules join together to form a large molecule.</p>"
+    },
+    {
+      "id": "4681bcf1-e271-44fc-8668-81387377003e",
+      "codename": "chem__polyprotic_acid",
+      "title": "polyprotic acid",
+      "slug": "polyprotic-acid",
+      "description": "<p>An acid that can donate more than one proton (H<sup>+</sup>) per molecule.</p>"
+    },
+    {
+      "id": "b03e3232-2b7f-4dcf-ace4-0fa134fbeeb3",
+      "codename": "sci_sec_gls_precision",
+      "title": "precision",
+      "slug": "precision",
+      "description": "<p>The extent to which repeated measurements of the same item are close to each other.</p>"
+    },
+    {
+      "id": "3aa3762d-40a9-435d-a851-c7b64486faa8",
+      "codename": "sci_sec_gls_prediction",
+      "title": "prediction",
+      "slug": "prediction",
+      "description": "<p>A statement or estimate about what will happen in the future, often based on available evidence, past experiences or statistical analysis.</p>"
+    },
+    {
+      "id": "7bc9396a-3375-411d-b450-cd2833c03810",
+      "codename": "chem__primary_standard_solution",
+      "title": "primary standard solution",
+      "slug": "primary-standard-solution",
+      "description": "<p>A solution made from a highly pure, stable and accurately weighable substance used to determine the concentration of another solution in titration.</p>"
+    },
+    {
+      "id": "8c2adc07-70f1-421d-b48c-d6cdb06ed011",
+      "codename": "chem__proton__1h__nmr_spectroscopy",
+      "title": "proton (1H) NMR spectroscopy",
+      "slug": "proton-1h-nmr-spectroscopy",
+      "description": "<p>An analytical technique used to determine the structure of organic compounds by studying how hydrogen nuclei (¹H) in a molecule absorb radiofrequency energy in a magnetic field.</p>"
+    },
+    {
+      "id": "dad16806-8ef2-4d3c-a4f6-4cc07ed9b273",
+      "codename": "sci_sec_gls_qualitative",
+      "title": "qualitative",
+      "slug": "qualitative",
+      "description": "<p>To use descriptive explanations involving features, characteristics or properties to identify important components. Data and information that is not numerical in nature.</p>"
+    },
+    {
+      "id": "d34bbe1b-441a-40dd-9c3d-31de49066851",
+      "codename": "sci_sec_gls_quantitative",
+      "title": "quantitative",
+      "slug": "quantitative",
+      "description": "<p>Data or components that can be expressed or measured numerically, including chemical formulae or numbers.</p>"
+    },
+    {
+      "id": "07a26f38-41c1-412c-93dd-ba21413847ea",
+      "codename": "sci_sec_gls_radioisotope",
+      "title": "radioisotope",
+      "slug": "radioisotope",
+      "description": "<p>An element that has the same atomic number and similar chemical properties, but different atomic masses.</p>"
+    },
+    {
+      "id": "6cd7a6f3-12de-47e7-8b61-ec640dae3247",
+      "codename": "sci_sec_gls_range__of_a_dataset_",
+      "title": "range (of a dataset)",
+      "slug": "range-of-a-dataset",
+      "description": "<p>The difference between the highest and lowest values in a dataset.</p>"
+    },
+    {
+      "id": "51cca2fe-ec84-43a1-bb4b-8cdbceb8b876",
+      "codename": "chem__reaction_quotient__q_",
+      "title": "reaction quotient (Q)",
+      "slug": "reaction-quotient-q",
+      "description": "<p>A value calculated using the concentrations (or partial pressures) of reactants and products at any point in a reaction (not necessarily at equilibrium).</p>"
+    },
+    {
+      "id": "a0b8239b-a4d6-444a-b518-6cff3db17ba2",
+      "codename": "chem__redox_reactions",
+      "title": "redox reactions",
+      "slug": "redox-reactions",
+      "description": "<p>A reaction in which oxidation and reduction is occurring.</p>"
+    },
+    {
+      "id": "b049755e-fe68-412a-bb1d-02ae7d63d2b1",
+      "codename": "sci_sec_gls_reliability",
+      "title": "reliability",
+      "slug": "reliability",
+      "description": "<p>An extent to which repeated observations and/or measurements taken under identical circumstances will yield similar results.</p>"
+    },
+    {
+      "id": "b648632b-e782-4f7a-b742-3738f24f2285",
+      "codename": "sci_sec_gls_saturated",
+      "title": "saturated",
+      "slug": "saturated",
+      "description": "<p>A chemical solution which contains the maximum amount of solute that can be dissolved in a solution.</p>"
+    },
+    {
+      "id": "7809d6dc-788f-4f64-b178-b2da909dac37",
+      "codename": "gl_e79c1b7b",
+      "title": "scientific investigation",
+      "slug": "scientific-investigation",
+      "description": "<p>A scientific process of answering a question, exploring an idea or solving a problem, which requires activities such as planning a course of action, collecting data, interpreting data, reaching a conclusion and communicating these activities. Investigations can include practical and/or secondary-source data or information.</p>"
+    },
+    {
+      "id": "8a76b265-d5b4-4807-95a0-6091255f4dd2",
+      "codename": "chem__solubility_product_constant__ksp_",
+      "title": "solubility product constant (Ksp)",
+      "slug": "solubility-product-constant-ksp",
+      "description": "<p>The equilibrium constant for the dissolution of a sparingly soluble ionic compound in water.</p>"
+    },
+    {
+      "id": "39fb1b8a-ccbf-4f5e-8ffa-3aac94038663",
+      "codename": "ma__standard_deviation",
+      "title": "standard deviation",
+      "slug": "standard-deviation",
+      "description": "<p>A measure of the variability or spread of a dataset. It gives an indication of the degree to which the individual data values are spread around their mean.</p>\n<p>Extended in Mathematics Standard and Advanced: For a random variable, the standard deviation is the square root of its variance.</p>\n<p>It provides a measure of the spread of the probability density function.</p>"
+    },
+    {
+      "id": "c2339e5a-6bf4-47d9-a7ed-71db0b37c74e",
+      "codename": "chem__standard_reduction_potentials",
+      "title": "standard reduction potentials",
+      "slug": "standard-reduction-potentials",
+      "description": "<p>The measure of the tendency of a chemical species to be reduced by gaining electrons measured under standard conditions.</p>"
+    },
+    {
+      "id": "121320f9-5d0b-4e90-a883-b8bea652c6c3",
+      "codename": "chem__stoichiometry",
+      "title": "stoichiometry",
+      "slug": "stoichiometry",
+      "description": "<p>Study of quantitative relationships in chemical formulae and equations.</p>"
+    },
+    {
+      "id": "600bcf68-73ee-4003-bd65-bbed5bf0e0ed",
+      "codename": "chem__substitution_reaction",
+      "title": "substitution reaction",
+      "slug": "substitution-reaction",
+      "description": "<p>A chemical reaction where an atom or functional group in a molecule is replaced by a different atom or group.</p>"
+    },
+    {
+      "id": "99cff91e-1a45-4852-b650-d6b5d97ace3b",
+      "codename": "chem__titration_curves",
+      "title": "titration curves",
+      "slug": "titration-curves",
+      "description": "<p>A graph that represents the change in pH of a solution as a titrant is gradually added during a titration process.</p>"
+    },
+    {
+      "id": "5a6bbd60-4081-4058-92db-5d97cf5d1ad1",
+      "codename": "gl_1e50d5cd",
+      "title": "trend",
+      "slug": "trend",
+      "description": "<p>A general direction or pattern in data or observations that shows how something changes over time or under different conditions.</p>"
+    },
+    {
+      "id": "8179340d-f94b-4fa6-90e2-86818b5dce79",
+      "codename": "chem__triprotic_acid",
+      "title": "triprotic acid",
+      "slug": "triprotic-acid",
+      "description": "<p>An acid that can donate 3 protons (H<sup>+</sup>) per molecule in a reaction.</p>"
+    },
+    {
+      "id": "2cbba6f8-94e8-44a6-8b8a-62fd87561028",
+      "codename": "sci_sec_gls_validity",
+      "title": "validity",
+      "slug": "validity",
+      "description": "<p>The extent to which the processes and resultant data measure what was intended.</p>"
+    }
+  ]
+}

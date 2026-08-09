@@ -1,0 +1,965 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "e390c4b2-df1d-4920-922c-e88e7059ac65",
+      "codename": "sci_sec_gls_acceleration",
+      "title": "acceleration",
+      "slug": "acceleration",
+      "description": "<p>The rate at which velocity changes over time.</p>"
+    },
+    {
+      "id": "b080712b-bb07-490b-a5dc-292278edd231",
+      "codename": "shared__amplitude",
+      "title": "amplitude",
+      "slug": "amplitude2",
+      "description": ""
+    },
+    {
+      "id": "85969df4-3872-4b15-98dc-f90d8216804e",
+      "codename": "ma__angle",
+      "title": "angle",
+      "slug": "angle",
+      "description": "<p>Formed by 2 straight lines meeting at a common endpoint, called the vertex. An angle can describe the amount of turn between its 2 arms (lines).</p>"
+    },
+    {
+      "id": "8a517dd6-7bd0-45c6-aa35-ee8795e7d9cf",
+      "codename": "me2__argument",
+      "title": "argument",
+      "slug": "argument2",
+      "description": ""
+    },
+    {
+      "id": "8eebc81d-40d8-4b27-b4c2-4cd7764decc1",
+      "codename": "me2__arithmetic_mean",
+      "title": "arithmetic mean",
+      "slug": "arithmetic-mean",
+      "description": ""
+    },
+    {
+      "id": "00d3c342-3c80-4309-b108-79f83788690c",
+      "codename": "mst__binomial_theorem",
+      "title": "binomial theorem",
+      "slug": "binomial-theorem",
+      "description": ""
+    },
+    {
+      "id": "1ddd7120-4ded-438c-9d9a-e6e50dd4e349",
+      "codename": "ma__cartesian_coordinate_system",
+      "title": "Cartesian coordinate system",
+      "slug": "cartesian-coordinate-system",
+      "description": ""
+    },
+    {
+      "id": "958458c9-8b0c-4174-b7ce-ce348f424482",
+      "codename": "shared__cartesian_equation",
+      "title": "Cartesian equation",
+      "slug": "cartesian-equation",
+      "description": "<p>The equation of a relation or a function expressed in terms of the Cartesian coordinates 𝑥 and 𝑦. May sometimes be formed from 2 parametric equations by eliminating the parameter.</p>"
+    },
+    {
+      "id": "4c4a2b5a-f50d-470d-be28-0c12d5310e4e",
+      "codename": "me2__cartesian_form__of_a_complex_number_",
+      "title": "Cartesian form (of a complex number)",
+      "slug": "cartesian-form-of-a-complex-number",
+      "description": ""
+    },
+    {
+      "id": "45da6f64-8500-4774-af05-231383c6986b",
+      "codename": "me2__cauchy_schwarz_inequality",
+      "title": "Cauchy–Schwarz inequality",
+      "slug": "cauchy-schwarz-inequality",
+      "description": ""
+    },
+    {
+      "id": "8ca22f17-a6fb-4f36-9b06-b1861efa0d7a",
+      "codename": "circle",
+      "title": "circle",
+      "slug": "circle",
+      "description": "<p>All points equal to a given distance from a fixed point, the centre. When used to describe a shape, a circle includes all points inside the boundary.</p>"
+    },
+    {
+      "id": "cdc39662-bfce-4f85-a382-14085d4c74b8",
+      "codename": "ma__coefficient",
+      "title": "coefficient",
+      "slug": "coefficient",
+      "description": ""
+    },
+    {
+      "id": "fc79db7a-13ca-4fea-8704-39184946ff07",
+      "codename": "ma__collinear",
+      "title": "collinear",
+      "slug": "collinear",
+      "description": "<p>Describes points that lie on the same straight line.</p>"
+    },
+    {
+      "id": "11b79fa8-6829-4cc0-99a6-79bcc9473cb0",
+      "codename": "shared__column_vector_notation",
+      "title": "column vector notation",
+      "slug": "column-vector-notation",
+      "description": ""
+    },
+    {
+      "id": "aa7555f6-0176-42d9-aee8-bdd4bf8c1500",
+      "codename": "commutative_property",
+      "title": "commutativity (commutative property)",
+      "slug": "commutativity-commutative-property",
+      "description": "<p>Commutativity (commutative property) of addition or multiplication means that 2 numbers can be added or multiplied in any order and the solution will be the same.</p>\n<p>Commutative law, commutativity and turn-around facts are interchangeable terms.</p>"
+    },
+    {
+      "id": "31cd9ad0-735e-49fa-be5c-d0a11962c6e4",
+      "codename": "me2__complex_conjugate_root_theorem",
+      "title": "complex conjugate root theorem",
+      "slug": "complex-conjugate-root-theorem",
+      "description": ""
+    },
+    {
+      "id": "784bab80-ed46-4466-a5eb-9137f660fa96",
+      "codename": "me2__complex_number",
+      "title": "complex number",
+      "slug": "complex-number",
+      "description": ""
+    },
+    {
+      "id": "d61ae10b-0450-4cb1-a773-43192c141ce4",
+      "codename": "me2__complex_plane",
+      "title": "complex plane",
+      "slug": "complex-plane",
+      "description": "<p>A Cartesian plane in which the real part of a complex number is plotted on the horizontal axis, referred to as the real axis, and the imaginary part on the vertical axis, referred to as the imaginary axis. Sometimes called the Argand plane.</p>"
+    },
+    {
+      "id": "0e052fb6-9706-4a6c-b7f7-0213c0184012",
+      "codename": "shared__component",
+      "title": "component",
+      "slug": "component",
+      "description": "<p>One of the parts of a vector that is parallel to a particular axis or lying in a specified direction.</p>\n<p><em>See</em> <a data-item-id=\"bf8df388-c8b8-43cb-bc61-31c7f3db3982\" href=\"\">component form (vectors)</a></p>"
+    },
+    {
+      "id": "98aaf2fc-d4e4-4343-a2a7-3769f7b4e218",
+      "codename": "shared__conjugate",
+      "title": "conjugate",
+      "slug": "conjugate",
+      "description": ""
+    },
+    {
+      "id": "d9989ab2-431f-460d-897f-19af4356a2ab",
+      "codename": "ma__constant",
+      "title": "constant",
+      "slug": "constant",
+      "description": ""
+    },
+    {
+      "id": "8e2f53d1-1d5b-4038-b426-23ab16c78168",
+      "codename": "me2__contrapositive",
+      "title": "contrapositive",
+      "slug": "contrapositive",
+      "description": ""
+    },
+    {
+      "id": "0e34fd1e-a344-4f62-90cd-080341dd8bba",
+      "codename": "ma__converse",
+      "title": "converse",
+      "slug": "converse",
+      "description": ""
+    },
+    {
+      "id": "c6b7bb51-ce23-4738-80cd-3e4fbd6040c2",
+      "codename": "me2__counterexample",
+      "title": "counterexample",
+      "slug": "counterexample",
+      "description": "<p>An instance/example where the proposition is not true, thereby showing the proposition to be false.</p>"
+    },
+    {
+      "id": "1b4fa13e-7735-405b-b5ab-2abcb26937b3",
+      "codename": "shared__differential_equation",
+      "title": "differential equation",
+      "slug": "differential-equation",
+      "description": ""
+    },
+    {
+      "id": "d3ab252f-5c91-4486-8124-ca06da03409a",
+      "codename": "shared__dilation",
+      "title": "dilation",
+      "slug": "dilation",
+      "description": ""
+    },
+    {
+      "id": "465f8e0f-548a-453a-9cd4-497416115e05",
+      "codename": "me2__direction_vector",
+      "title": "direction vector",
+      "slug": "direction-vector",
+      "description": "<p>For a straight line or line segment, a direction vector is a vector whose direction is that of the line or line segment.</p>"
+    },
+    {
+      "id": "2b35e313-6bf2-4936-8cdb-f979660aedc2",
+      "codename": "shared__discriminant",
+      "title": "discriminant",
+      "slug": "discriminant",
+      "description": ""
+    },
+    {
+      "id": "ad7a9347-1ee8-49e5-9982-a3bb80f62976",
+      "codename": "shared__distinct",
+      "title": "distinct",
+      "slug": "distinct",
+      "description": "<p>Different, not equal.</p>"
+    },
+    {
+      "id": "01f2d984-3105-4c55-9ac5-28a71b85138c",
+      "codename": "ma__distributive_law",
+      "title": "distributivity (Distributive law)",
+      "slug": "distributivity-distributive-law",
+      "description": ""
+    },
+    {
+      "id": "0043af1c-c036-445d-be83-17f81d618b98",
+      "codename": "ma__domain",
+      "title": "domain",
+      "slug": "domain",
+      "description": ""
+    },
+    {
+      "id": "af938acc-5e3b-4968-81da-5528e944f479",
+      "codename": "shared__dot_product",
+      "title": "dot product",
+      "slug": "dot-product",
+      "description": "<p><em>See</em> <a data-item-id=\"6bc1b327-5e36-4d5b-bdfa-bfb0a62fefce\" href=\"\">scalar (dot) product</a></p>"
+    },
+    {
+      "id": "474db9a5-c857-49f6-9871-454afd6cb760",
+      "codename": "ma__equation",
+      "title": "equation",
+      "slug": "equation",
+      "description": ""
+    },
+    {
+      "id": "9af3b05f-b543-4f1a-b627-5e52b34013a9",
+      "codename": "equivalent",
+      "title": "equivalent",
+      "slug": "equivalent",
+      "description": "<p>Two things are equivalent if they have the same value.</p>\n<p><em>See</em> <a data-item-id=\"0fa90b26-99ab-4cef-9e3b-2e14714c537f\" href=\"\">equal</a>, <a data-item-id=\"e87dae09-2e1a-44d9-b11f-e3ca471c990d\" href=\"\">equals sign</a></p>"
+    },
+    {
+      "id": "ebb61664-8c4f-49a5-8c25-d68b41e07dcd",
+      "codename": "ma__expression",
+      "title": "expression",
+      "slug": "expression2",
+      "description": ""
+    },
+    {
+      "id": "5a588764-05c8-4215-b54d-dab414c37ecb",
+      "codename": "hms_snr_gls_force",
+      "title": "force",
+      "slug": "force",
+      "description": "<p>A push or pull between objects, which may cause one or both objects to change speed, and/or direction of their motion, and/or their shape.</p>"
+    },
+    {
+      "id": "2de8fb1f-c984-4561-a6b3-5de16f25e3bf",
+      "codename": "ma__function",
+      "title": "function",
+      "slug": "function",
+      "description": ""
+    },
+    {
+      "id": "1f7b20b5-a776-42cb-84f5-adccb9d1ca5b",
+      "codename": "me2__geometric_mean",
+      "title": "geometric mean",
+      "slug": "geometric-mean",
+      "description": ""
+    },
+    {
+      "id": "691f9ea1-ab2a-496a-a3e5-11c75eb8ae7a",
+      "codename": "ma_",
+      "title": "gradient",
+      "slug": "gradient",
+      "description": ""
+    },
+    {
+      "id": "f665073f-4976-4084-8069-1324909f8062",
+      "codename": "shared__gradient_intercept_form",
+      "title": "gradient–intercept form",
+      "slug": "gradient-intercept-form",
+      "description": ""
+    },
+    {
+      "id": "e02560e3-d533-44b9-a63d-d8543ac98f19",
+      "codename": "ma__graph",
+      "title": "graph",
+      "slug": "graph",
+      "description": ""
+    },
+    {
+      "id": "b2049056-0bab-4f00-b142-c3f2861e8328",
+      "codename": "sci_sec_gls_gravitational",
+      "title": "gravity/gravitational",
+      "slug": "gravity-gravitational",
+      "description": "<p>The force of attraction that objects with mass exert on each other.</p>"
+    },
+    {
+      "id": "425d527d-0db4-4948-84ad-50391a954ea1",
+      "codename": "shared__identity",
+      "title": "identity",
+      "slug": "identity2",
+      "description": "<p>An identity is a statement involving a variable(s) that is true for all possible values of the variable(s).</p>"
+    },
+    {
+      "id": "b0287f8a-63ae-49ac-a71c-2cf1208e6959",
+      "codename": "me2__implication",
+      "title": "implication",
+      "slug": "implication",
+      "description": ""
+    },
+    {
+      "id": "eacba47f-b1c3-41d0-9aae-3e9a36ee9baa",
+      "codename": "shared__indefinite_integral",
+      "title": "indefinite integral",
+      "slug": "indefinite-integral",
+      "description": ""
+    },
+    {
+      "id": "9fd60d0e-82d2-4533-9b37-1a619f288cbb",
+      "codename": "ma__inequality",
+      "title": "inequality",
+      "slug": "inequality",
+      "description": ""
+    },
+    {
+      "id": "8374099c-5935-4477-9207-53ffeb8f856b",
+      "codename": "ma__integer",
+      "title": "integer",
+      "slug": "integer",
+      "description": "<p>A whole number, positive, negative or zero, e.g. −3, −2, −1, 0, 1, 2 …</p>\n<p>Extended in Advanced, Extension 1, Extension 2: The set of integers is usually denoted by ℤ.</p>"
+    },
+    {
+      "id": "dd36d083-9204-4a27-84b9-9c4a0149fcfb",
+      "codename": "me2__integrand",
+      "title": "integrand",
+      "slug": "integrand",
+      "description": "<p>A function that is to be integrated.</p>"
+    },
+    {
+      "id": "3a8c851d-42ba-4cee-8e3d-24267828bd84",
+      "codename": "shared__integration",
+      "title": "integration",
+      "slug": "integration",
+      "description": "<p>The process of finding the integral of a function. The inverse of differentiation.</p>"
+    },
+    {
+      "id": "d1c7294a-2133-4bf9-8de5-b177eeace47d",
+      "codename": "me2__integration_by_parts",
+      "title": "integration by parts",
+      "slug": "integration-by-parts",
+      "description": "<p>A process of transforming the integral of a product of functions into an integral which can be more easily found. It is derived using the product rule for differentiation.</p>\n<p><em>See</em> <a data-item-id=\"34ebb454-26c9-49c1-bd02-739c32d6400a\" href=\"\">product rule</a></p>"
+    },
+    {
+      "id": "8e1a2b03-c4df-4f89-b65e-739660a1d226",
+      "codename": "shared__linear",
+      "title": "linear",
+      "slug": "linear",
+      "description": "<p>Something that can be represented or modelled by a straight line.</p>"
+    },
+    {
+      "id": "319737ee-73d5-42f9-804d-bc2792331a58",
+      "codename": "ma__logarithm",
+      "title": "logarithm",
+      "slug": "logarithm",
+      "description": ""
+    },
+    {
+      "id": "54ec045d-d6a9-4a22-bf11-b64aa185d89e",
+      "codename": "ma__magnitude",
+      "title": "magnitude",
+      "slug": "magnitude",
+      "description": ""
+    },
+    {
+      "id": "14074995-a37b-4b13-aecc-8900ab532c1d",
+      "codename": "mass",
+      "title": "mass",
+      "slug": "mass",
+      "description": "<p>The amount of matter in an object.</p>"
+    },
+    {
+      "id": "c868de78-97a5-4732-967b-24f660d015e8",
+      "codename": "shared__mathematical_induction",
+      "title": "mathematical induction",
+      "slug": "mathematical-induction",
+      "description": ""
+    },
+    {
+      "id": "057572dd-da6d-4610-a70f-1a69de86c69a",
+      "codename": "ct_sec_gls_model",
+      "title": "model",
+      "slug": "model",
+      "description": "<p>A mathematical, conceptual or physical representation that describes, simplifies, clarifies or provides an explanation of the structure, workings or relationships within an object, system or idea. Models can provide a means of testing and predicting behaviour within limited conditions. Models may be physical or exist in digital form.</p>"
+    },
+    {
+      "id": "098ff081-5fe6-4acf-b193-c88fa5a99c25",
+      "codename": "me2__modulus",
+      "title": "modulus",
+      "slug": "modulus",
+      "description": ""
+    },
+    {
+      "id": "ba199308-0d1a-4ead-baba-ea1f566d171f",
+      "codename": "me2__modulus_argument_form__of_a_complex_number_",
+      "title": "modulus–argument form (of a complex number)",
+      "slug": "modulus-argument-form-of-a-complex-number",
+      "description": ""
+    },
+    {
+      "id": "d2edb732-94ad-4de3-8363-1970a09ef44a",
+      "codename": "me2__negation",
+      "title": "negation",
+      "slug": "negation",
+      "description": ""
+    },
+    {
+      "id": "633599a2-e7c1-4ff2-a3ff-5362772dceec",
+      "codename": "me2__newton_s_laws_of_motion",
+      "title": "Newton’s laws of motion",
+      "slug": "newton-s-laws-of-motion",
+      "description": ""
+    },
+    {
+      "id": "a6a6bcde-1c61-42c3-b14f-d9040e972a8a",
+      "codename": "ma__numerator",
+      "title": "numerator",
+      "slug": "numerator",
+      "description": ""
+    },
+    {
+      "id": "d098da01-a0f0-4f6c-8480-c5f7d91a7ce9",
+      "codename": "shared__one_to_one",
+      "title": "one-to-one",
+      "slug": "one-to-one",
+      "description": "<p>A correspondence between 2 sets where each element of one set is paired with one, and only one, element of another set.</p>"
+    },
+    {
+      "id": "43622d1a-ae3f-4b2a-aec7-eaf0ad2b5c3b",
+      "codename": "ma__parallel",
+      "title": "parallel",
+      "slug": "parallel",
+      "description": "<figure data-asset-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\" data-image-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/1cefd412-7e50-4ced-8473-bde46c5149b7/parallel-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\" data-image-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\" alt=\"Two parallel lines.\"></figure>"
+    },
+    {
+      "id": "8e0192d4-dc84-493b-9b2d-04be552fef82",
+      "codename": "shared__parallelogram_law",
+      "title": "parallelogram law",
+      "slug": "parallelogram-law",
+      "description": "<figure data-asset-id=\"7c02c64a-0c09-46da-9d06-ec74d211b5d6\" data-image-id=\"7c02c64a-0c09-46da-9d06-ec74d211b5d6\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/0dda79e1-8ae8-42e4-b0ca-a951b9ace4c7/Maths%20glossary%20-%20parallelogram%20law.png\" data-asset-id=\"7c02c64a-0c09-46da-9d06-ec74d211b5d6\" data-image-id=\"7c02c64a-0c09-46da-9d06-ec74d211b5d6\" alt=\"Parallelogram cut into 4 triangles with 2 diagonal lines. Detail in text above image.\"></figure>"
+    },
+    {
+      "id": "01db05b8-f112-4a23-9966-397969df8d16",
+      "codename": "shared__parameter",
+      "title": "parameter",
+      "slug": "parameter",
+      "description": "<p><em>See</em> <a data-item-id=\"12a54034-ab07-4b6e-837c-15b6653db201\" href=\"\">parametric equations</a></p>"
+    },
+    {
+      "id": "7fbb3e1a-b71a-4fd3-a162-e63c16d5eb63",
+      "codename": "shared__parametric_equations",
+      "title": "parametric equations",
+      "slug": "parametric-equations",
+      "description": ""
+    },
+    {
+      "id": "e6ae75ed-d55e-4e36-b96d-5630163b95ed",
+      "codename": "shared__partial_fraction",
+      "title": "partial fraction",
+      "slug": "partial-fraction",
+      "description": ""
+    },
+    {
+      "id": "f47b8bc2-9a27-4ed4-aae3-8ea16b0154a9",
+      "codename": "shared__period",
+      "title": "period",
+      "slug": "period",
+      "description": ""
+    },
+    {
+      "id": "362b235f-a95d-4955-b5bb-fb7363dd36b8",
+      "codename": "ma__perpendicular",
+      "title": "perpendicular",
+      "slug": "perpendicular",
+      "description": "<p>Two lines, rays, line segments, vectors, planes or other objects that intersect at a 90° angle (a right angle).</p>"
+    },
+    {
+      "id": "2e2ad400-6f6b-4746-80ab-6457fc2a7fcd",
+      "codename": "me2__plane",
+      "title": "plane",
+      "slug": "plane",
+      "description": ""
+    },
+    {
+      "id": "b4f22b21-f860-4d5b-8ac7-5662462c192d",
+      "codename": "me2__polar_form__of_a_complex_number_",
+      "title": "polar form (of a complex number)",
+      "slug": "polar-form-of-a-complex-number",
+      "description": ""
+    },
+    {
+      "id": "7c8313bb-a921-4a1d-b0db-a69a1e5ffba2",
+      "codename": "ma__polynomial",
+      "title": "polynomial",
+      "slug": "polynomial",
+      "description": "<p>An expression made up of non-negative integer powers of the same variable and coefficients combined using addition, subtraction and multiplication.</p>"
+    },
+    {
+      "id": "43d20cf4-9dfa-4a00-8b8d-d0e2838ecc31",
+      "codename": "shared__position_vector",
+      "title": "position vector",
+      "slug": "position-vector",
+      "description": ""
+    },
+    {
+      "id": "c2a8cd2b-a12d-4e37-b765-ce2b0c81c60c",
+      "codename": "me2__principal_argument_of_a_complex_number",
+      "title": "principal argument of a complex number",
+      "slug": "principal-argument-of-a-complex-number",
+      "description": "<p><em>See</em> <a data-item-id=\"d0e631bd-eac1-4e30-b785-6be45008013a\" href=\"\">argument</a></p>"
+    },
+    {
+      "id": "b22074b1-7dd0-4df2-b8de-b79e18f4c9c4",
+      "codename": "shared__projectile",
+      "title": "projectile",
+      "slug": "projectile",
+      "description": "<p>An object initially propelled by an external force, after which the only forces acting on it are gravity and possibly a resistive force due to its motion through a surrounding medium.</p>"
+    },
+    {
+      "id": "0b855ba9-424f-4a14-81b7-9b3c5c32f3a8",
+      "codename": "me1__projection__vectors_",
+      "title": "projection (vectors)",
+      "slug": "projection-vectors",
+      "description": "<figure data-asset-id=\"e67a7c9a-250c-453a-949c-294fcfd12099\" data-image-id=\"e67a7c9a-250c-453a-949c-294fcfd12099\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/719205a3-238f-4138-a776-0fd05047840b/mathematics-extension-1-11-12-example-13.png\" data-asset-id=\"e67a7c9a-250c-453a-949c-294fcfd12099\" data-image-id=\"e67a7c9a-250c-453a-949c-294fcfd12099\" alt=\"Two vector diagrams. Details in text below image.\"></figure>\n<p><em>Image long description:</em> Two vector diagrams both representing vectors, each showing 2 arrows connected at a point. In the first diagram, the angle between the arrows is acute. One arrow is labelled with boldface a, the other with boldface b, with the b arrow as the longer vector, pointing up and to the right. A dotted line perpendicular to arrow b joins the tip of arrow a. There is an arrow drawn on top of arrow b from the vertex, which is labelled proj b a, with a subscripted b and boldface a. In the second diagram the angle between the arrows is obtuse. One arrow is labelled with boldface a and the other with boldface b, with b as the longer vector, pointing up and to the right. A dotted line perpendicular to arrow b joins the tip of arrow a, pointing up and to the left, to an extension of arrow b, pointing down and to the left. The arrow drawn on top of arrow b from the vertex is labelled proj b a with a subscripted b and boldface a.</p>"
+    },
+    {
+      "id": "70bfbbbd-e46d-4c08-8669-cd6edd0ef61b",
+      "codename": "ma__proof",
+      "title": "proof",
+      "slug": "proof",
+      "description": "<p>A rigorous mathematical argument that demonstrates the truth of a given statement or proposition. A mathematical statement that has been established by means of a proof is called a theorem.</p>"
+    },
+    {
+      "id": "46aab5ed-b4d9-4aba-836f-e416bf7baf44",
+      "codename": "me2__proof_by_contradiction",
+      "title": "proof by contradiction",
+      "slug": "proof-by-contradiction",
+      "description": "<p>The negation of an original statement is assumed but is proven false, usually by deriving a contradiction, so the negation of the original statement cannot be true, that is, the original statement is true.</p>"
+    },
+    {
+      "id": "dd6ce033-f98d-48b3-ac87-f15770558697",
+      "codename": "me2__proposition",
+      "title": "proposition",
+      "slug": "proposition",
+      "description": "<p><em>See</em> <a data-item-id=\"f5a73537-798b-4a2d-b0d6-d76e5af30739\" href=\"\">statement</a></p>"
+    },
+    {
+      "id": "64480c0e-bada-4bc9-bd17-f999757618ab",
+      "codename": "ma__quadratic_equation",
+      "title": "quadratic equation",
+      "slug": "quadratic-equation",
+      "description": ""
+    },
+    {
+      "id": "dd41a671-453c-40d3-83ff-62a9e9301d23",
+      "codename": "me2__quantifiers",
+      "title": "quantifiers",
+      "slug": "quantifiers",
+      "description": ""
+    },
+    {
+      "id": "cd709555-5c70-4a59-a83d-e4c0be705e18",
+      "codename": "ma__rational_number",
+      "title": "rational number",
+      "slug": "rational-number",
+      "description": ""
+    },
+    {
+      "id": "31c5c095-0e9b-4734-a16f-c9d02e4e3c3f",
+      "codename": "shared__real_number",
+      "title": "real number",
+      "slug": "real-number",
+      "description": "<p>A number that can be represented by a point on a number line. The set of real numbers is the set of all rational and irrational numbers.</p>"
+    },
+    {
+      "id": "c7e64b7f-1a7e-4a8c-a0f3-c3409a22e63d",
+      "codename": "me2__recurrence_relation",
+      "title": "recurrence relation",
+      "slug": "recurrence-relation",
+      "description": ""
+    },
+    {
+      "id": "9bf37dab-ad97-46ec-b9fc-52063a68a64d",
+      "codename": "me2__recursive_formula",
+      "title": "recursive formula",
+      "slug": "recursive-formula",
+      "description": ""
+    },
+    {
+      "id": "76cf0d70-494b-4403-8f66-f71b3439df72",
+      "codename": "me2__resisted_motion",
+      "title": "resisted motion",
+      "slug": "resisted-motion",
+      "description": "<p>Motion that encounters resisting forces such as air resistance.</p>"
+    },
+    {
+      "id": "d970764e-9716-43ed-9513-6c4baf392ec2",
+      "codename": "shared__root",
+      "title": "root",
+      "slug": "root2",
+      "description": ""
+    },
+    {
+      "id": "759d0213-8c36-4ae4-9c21-82870a82fd7d",
+      "codename": "shared__rotation",
+      "title": "rotation",
+      "slug": "rotation",
+      "description": ""
+    },
+    {
+      "id": "261f30d3-3efd-4d13-a690-baf95a676743",
+      "codename": "shared__scalar",
+      "title": "scalar",
+      "slug": "scalar",
+      "description": ""
+    },
+    {
+      "id": "c7f12df3-18c9-4646-8554-98eeffc55072",
+      "codename": "shared__scalar__dot__product",
+      "title": "scalar (dot) product",
+      "slug": "scalar-dot-product",
+      "description": ""
+    },
+    {
+      "id": "4fcf6f17-4fce-4bae-94f5-dbdb68920971",
+      "codename": "shared__sequence",
+      "title": "sequence",
+      "slug": "sequence2",
+      "description": ""
+    },
+    {
+      "id": "4b57029e-d7f9-401a-ba40-0db1bc24f773",
+      "codename": "ma__set",
+      "title": "set",
+      "slug": "set",
+      "description": ""
+    },
+    {
+      "id": "6f31f330-ce81-4e71-a53d-c944e57adfd2",
+      "codename": "me2__simple_harmonic_motion",
+      "title": "simple harmonic motion",
+      "slug": "simple-harmonic-motion",
+      "description": "<p>Motion in which acceleration is proportional to, and in the opposite direction to, displacement. It is a repetitive movement back and forth through an equilibrium, or central position, so that the maximum displacement on one side of this position is equal to the maximum displacement on the other side.</p>"
+    },
+    {
+      "id": "d986db77-0b4e-476f-bc7a-6797d791bba5",
+      "codename": "me2__skew_lines",
+      "title": "skew lines",
+      "slug": "skew-lines",
+      "description": "<p>In 3 dimensions, lines that do not intersect and are not parallel to each other.</p>"
+    },
+    {
+      "id": "45cf6784-b011-4879-b17a-6739b00d5600",
+      "codename": "shared__speed",
+      "title": "speed",
+      "slug": "speed",
+      "description": ""
+    },
+    {
+      "id": "83654b5a-03c3-48bc-bfd2-c5b9e4eaf676",
+      "codename": "me2__squeeze_theorem",
+      "title": "squeeze theorem",
+      "slug": "squeeze-theorem",
+      "description": ""
+    },
+    {
+      "id": "bed3b584-4377-4d96-bc99-7b0815041fce",
+      "codename": "shared__statement",
+      "title": "statement",
+      "slug": "statement",
+      "description": "<p>A statement is an assertion that is either true or false but not both.</p>\n<p>Also referred to as a proposition.</p>"
+    },
+    {
+      "id": "e9ee0a3a-c41b-4b13-9244-cfa2789fc9c7",
+      "codename": "shared__substitution",
+      "title": "substitution",
+      "slug": "substitution",
+      "description": "<p>The process of replacing a variable in an algebraic expression, formula, equation or function consistently with a particular value, another variable, expression or function.</p>\n<p>Simultaneous equations can be solved using substitution by isolating one variable in one equation and using its value to replace that variable in another equation.</p>\n<p><em>See</em> <a data-item-id=\"f94aff5c-ee96-4aa3-8bbf-15ace436922d\" href=\"\">simultaneous equations</a></p>\n<p>Extended in Mathematics Extension 1 and Extension 2: Integration by substitution is a method used for evaluating integrals. The substitution could be expressed as a function of the variable of integration, or with the variable of integration as the subject of the substitution.</p>"
+    },
+    {
+      "id": "3ac9d4e8-66b0-462a-9463-ddd623a77f73",
+      "codename": "me2__t_formulas",
+      "title": "t-formulas",
+      "slug": "t-formulas",
+      "description": ""
+    },
+    {
+      "id": "9e1bf2f5-d745-40ee-b7ef-38fbe43f5966",
+      "codename": "me2__terminal_velocity",
+      "title": "terminal velocity",
+      "slug": "terminal-velocity",
+      "description": "<p>The constant velocity that a free-falling object approaches as the resistance of the medium through which the object is falling more closely cancels the downward gravitational force.</p>"
+    },
+    {
+      "id": "279b4261-0bab-4fbc-8e8f-34daf66e2964",
+      "codename": "me2__triangle_inequality",
+      "title": "triangle inequality",
+      "slug": "triangle-inequality",
+      "description": ""
+    },
+    {
+      "id": "fda58619-b345-45e2-a58d-e6bb5c0e4cdc",
+      "codename": "ma__unit_circle",
+      "title": "unit circle",
+      "slug": "unit-circle",
+      "description": "<p>A circle with a radius of 1 unit.</p>"
+    },
+    {
+      "id": "40a04368-ca9e-48cd-aef0-d27058cf058b",
+      "codename": "shared__vector",
+      "title": "vector",
+      "slug": "vector",
+      "description": "<p>A quantity having both magnitude and direction.</p>"
+    },
+    {
+      "id": "a87afbca-787c-4ce2-9943-27f05c33f0e4",
+      "codename": "sci_sec_gls_velocity",
+      "title": "velocity",
+      "slug": "velocity",
+      "description": ""
+    }
+  ]
+}

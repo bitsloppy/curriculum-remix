@@ -1,5 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import meta from '../data/meta.json';
+import syllabusesData from '../data/syllabuses.json';
+const syllabusCount = syllabusesData.length;
+const fetchDate = new Date(meta.dataFetchedAt + 'T00:00:00');
+const dateStr = fetchDate.toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' });
 
 // ─── KLA definitions ──────────────────────────────────────────────────────────
 // Names, slugs, icons and colours for the 9 Key Learning Areas.
@@ -21,13 +26,18 @@ const klas = [
   <div class="hero">
     <h1>NSW Curriculum, remixed.</h1>
     <p>
-      Browse all 9 Key Learning Areas, cross-reference by stage and year level, and decode outcome codes —
-      all from the same public data that powers <a href="https://curriculum.nsw.edu.au">curriculum.nsw.edu.au</a>.
+      Browse the curriculum by learning areas, stage —
+      from the same data that powers <a href="https://curriculum.nsw.edu.au">curriculum.nsw.edu.au</a>.  
+    </p>
+
+    <p class="data-freshness">
+      <wa-icon name="clock" variant="solid"></wa-icon>
+      Data last fetched <strong>{dateStr}</strong>
     </p>
   </div>
 
   <section class="kla-section">
-    <h2>Browse by Key Learning Area</h2>
+    <h2>Browse by learning area</h2>
     <div class="kla-grid">
       {klas.map(kla => (
         <a href={`/syllabuses?kla=${kla.slug}`} class="kla-card" style={`--kla-color: ${kla.color}`}>
@@ -48,7 +58,7 @@ const klas = [
           <wa-icon name="list"></wa-icon>
           <strong>All Syllabuses</strong>
         </div>
-        <p>114 syllabuses across all KLAs — filter by stage, course type, and more.</p>
+        <p>{syllabusCount} syllabuses across all KLAs — filter by stage, course type, and more.</p>
       </a>
 
       <a href="/syllabuses?stage=11-12" class="browse-card">
@@ -71,18 +81,38 @@ const klas = [
   }
 
   .hero h1 {
-    font-size: clamp(1.8rem, 4vw, 2.8rem);
-    font-weight: 700;
-    color: var(--wa-color-neutral-900);
+    font-family: var(--font-display);
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--wa-color-neutral-10);
     margin: 0 0 var(--wa-space-s);
   }
 
   .hero p {
     font-size: 1.1rem;
-    color: var(--wa-color-neutral-600);
+    color: var(--wa-color-neutral-40);
     max-width: 52ch;
     margin: 0;
     line-height: 1.6;
+  }
+
+  .hero .data-freshness {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    margin-block-start: var(--wa-space-l);
+    font-size: 0.8rem;
+    color: var(--wa-color-neutral-40);
+    background: var(--wa-color-neutral-95);
+    border: 1px solid var(--wa-color-neutral-80);
+    border-radius: 999px;
+    padding: 0.3rem 0.75rem;
+  }
+
+  .hero .data-freshness strong {
+    color: var(--wa-color-neutral-20);
+    font-weight: 600;
   }
 
   /* ─── KLA grid ──────────────────────────────────────────────────────────────── */
@@ -93,7 +123,7 @@ const klas = [
   .kla-section h2 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--wa-color-neutral-600);
+    color: var(--wa-color-neutral-40);
     text-transform: uppercase;
     letter-spacing: 0.06em;
     margin: 0 0 var(--wa-space-m);
@@ -112,11 +142,11 @@ const klas = [
     gap: var(--wa-space-s);
     padding: var(--wa-space-l) var(--wa-space-m);
     background: white;
-    border: 1px solid var(--wa-color-neutral-200);
+    border: 1px solid var(--wa-color-neutral-90);
     border-top: 3px solid var(--kla-color);
     border-radius: var(--wa-border-radius-m);
     text-decoration: none;
-    color: var(--wa-color-neutral-900);
+    color: var(--wa-color-neutral-10);
     font-weight: 500;
     transition: box-shadow 0.15s, transform 0.15s;
   }
@@ -158,7 +188,7 @@ const klas = [
     display: block;
     padding: var(--wa-space-l);
     background: white;
-    border: 1px solid var(--wa-color-neutral-200);
+    border: 1px solid var(--wa-color-neutral-90);
     border-radius: var(--wa-border-radius-m);
     text-decoration: none;
     color: inherit;
@@ -181,7 +211,7 @@ const klas = [
   .browse-card p {
     margin: 0;
     font-size: 0.9rem;
-    color: var(--wa-color-neutral-600);
+    color: var(--wa-color-neutral-40);
     line-height: 1.5;
   }
 </style>

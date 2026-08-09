@@ -1,0 +1,412 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "d59d6193-2e52-4de9-96b2-86092ee6f507",
+      "codename": "shared__ancient",
+      "title": "ancient",
+      "slug": "ancient",
+      "description": "<p>In the study of Ancient History in Stage 6, the ancient period covers history from the development of early human communities to the end of late antiquity (around AD 650).</p>"
+    },
+    {
+      "id": "7ac9eb9f-b677-4873-8c11-821d014350ed",
+      "codename": "shared__anzac",
+      "title": "ANZAC",
+      "slug": "anzac",
+      "description": "<p>Refers to the Australian and New Zealand Army Corps (ANZAC) troops who first fought at Gallipoli in Turkey from April to December 1915.</p>"
+    },
+    {
+      "id": "963742b9-63ff-491c-87cb-74ce4d4b1111",
+      "codename": "shared__causation",
+      "title": "causation",
+      "slug": "causation3",
+      "description": "<p>A process that includes a range of possible reasons for an historical event, situation or development.</p>"
+    },
+    {
+      "id": "f24ba0df-fb32-4860-90cb-f93f3d7d4759",
+      "codename": "shared__chronology",
+      "title": "chronology",
+      "slug": "chronology",
+      "description": "<p>The order in which a series of events happened, or a list of these events in the order in which they happened.</p>"
+    },
+    {
+      "id": "752be3bd-b284-4985-ac9c-dacc7e85fa98",
+      "codename": "shared__colonisation",
+      "title": "colonisation",
+      "slug": "colonisation",
+      "description": "<p>In Modern History – a process by which a different system of government is established by one nation over another group of peoples. It involves the colonial power asserting and enforcing its sovereignty or right to govern according to its own laws rather than by laws of the colonised.</p>\n<p>In Ancient History – a process by which ancient societies establish settlements in other lands and establish trading connections.</p>"
+    },
+    {
+      "id": "4db4a167-2c0d-444b-b2e8-f84bd61be0d1",
+      "codename": "shared__concepts",
+      "title": "concepts",
+      "slug": "concepts",
+      "description": "<p>The key ideas that shape the practice of the discipline of history, e.g. causation, continuity and change, contestability, perspectives and significance. They provide the scope for judgement, interpretation and argument and are the major means by which knowledge is constructed, analysed, questioned and represented.</p>"
+    },
+    {
+      "id": "38cdf25e-c5c9-4d77-9074-a1e6cb81d636",
+      "codename": "shared__contestability",
+      "title": "contestability",
+      "slug": "contestability",
+      "description": "<p>An examination of how interpretations and representations of the past differ, e.g. as a result of using differing evidence or resulting from different perspectives.</p>"
+    },
+    {
+      "id": "5626ff43-4b48-44e0-a577-6a3d5ae70058",
+      "codename": "shared__continuity_and_change",
+      "title": "continuity and change",
+      "slug": "continuity-and-change",
+      "description": "<p>Aspects of the past that have remained the same over a period of time or have changed over time. Change can be understood as a 'process'.</p>"
+    },
+    {
+      "id": "19bbddf5-0e1f-4d5c-83ab-e27279916825",
+      "codename": "shared__dispossession",
+      "title": "dispossession",
+      "slug": "dispossession",
+      "description": "<p>The removal of people from their lands which had been occupied and cared for by their ancestors over thousands of years.</p>"
+    },
+    {
+      "id": "af7f8738-bcb1-437b-9d8d-893b7940a882",
+      "codename": "shared__evidence",
+      "title": "evidence",
+      "slug": "evidence3",
+      "description": "<p>The information elicited and interpreted from a source that is used to support arguments or inform a specific inquiry.</p>"
+    },
+    {
+      "id": "96d80d78-3776-4145-a697-b0fab58c30be",
+      "codename": "shared__heritage",
+      "title": "heritage",
+      "slug": "heritage",
+      "description": "<p>Tangible or intangible aspects of the past that are valued by an individual, group, community or nation as a result of birth, inheritance or membership. It can also be applied to significant examples of the human or natural environment.</p>"
+    },
+    {
+      "id": "a898e13e-4d64-42fb-a9b4-0c67c60cdf1d",
+      "codename": "shared__historical_authentication",
+      "title": "historical authentication",
+      "slug": "historical-authentication",
+      "description": "<p>A process of verifying the origins of an artefact or object and establishing it as genuine.</p>"
+    },
+    {
+      "id": "a973c2e4-cda9-4b7a-8074-26978ee57e8a",
+      "codename": "shared__historical_inquiry",
+      "title": "historical inquiry",
+      "slug": "historical-inquiry",
+      "description": "<p>The process of developing knowledge and understanding by posing questions about the past, and applying skills associated with locating, analysing, evaluating and using sources as evidence to develop an informed argument or interpretation.</p>"
+    },
+    {
+      "id": "598c00a0-9529-4541-afe5-09461d892594",
+      "codename": "shared__historiography",
+      "title": "historiography",
+      "slug": "historiography",
+      "description": "<p>The study of how history is constructed. It involves the critical analysis and evaluation of historical methodologies and the way history has been written over time.</p>"
+    },
+    {
+      "id": "408f7498-cfb8-4c3e-afd5-7d74cbe9f3bc",
+      "codename": "shared__ideology",
+      "title": "ideology",
+      "slug": "ideology",
+      "description": "<p>A framework of beliefs that guides actions, e.g. fascism and communism.</p>"
+    },
+    {
+      "id": "e1612073-3694-4eaa-b118-9ee3b5749c8e",
+      "codename": "shared__interpretation",
+      "title": "interpretation",
+      "slug": "interpretation2",
+      "description": "<p>A way of understanding and explaining what has happened in the past. The discipline of History acknowledges that there is often more than one view of what happened in the past.</p>"
+    },
+    {
+      "id": "77fb387e-ed10-47dd-b8fa-e9ed0e29d444",
+      "codename": "shared__modern",
+      "title": "modern",
+      "slug": "modern",
+      "description": "<p>In the study of Modern History in Stage 6, the period of time in the modern world – generally between 1750 and the present.</p>"
+    },
+    {
+      "id": "e1652691-111e-4327-9ade-087e6d4488ac",
+      "codename": "shared__perspective",
+      "title": "perspective",
+      "slug": "perspective4",
+      "description": "<p>A point of view from which historical events, problems and issues can be analysed, e.g. the perspective of an individual or group in the past. This may involve empathetic understanding – the capacity to enter into the world of the past from the point of view of a particular individual or group from that time, including an appreciation of the circumstances they faced, and the motivations, values and attitudes behind their actions.</p>"
+    },
+    {
+      "id": "96374323-06f0-4478-a50d-92c275d4ab14",
+      "codename": "shared__reconstruction",
+      "title": "reconstruction",
+      "slug": "reconstruction",
+      "description": "<p>A process of piecing together evidence from sources to develop an understanding or picture of the past. It may include the physical reconstruction of ancient sites.</p>"
+    },
+    {
+      "id": "dd537daf-69c8-4da7-ac65-f6a3a16dc0b3",
+      "codename": "shared__reliability",
+      "title": "reliability",
+      "slug": "reliability2",
+      "description": "<p>Consideration of the context, purpose, origin and audience of a source to determine how accurately an area of historical study is represented. A source is neither reliable nor unreliable in and of itself. It can only be judged reliable or useful for the question that is asked. Reliability requires an understanding of perspective.</p>"
+    },
+    {
+      "id": "c846cbd5-1935-4c10-afef-47efeb5453a1",
+      "codename": "shared__representation",
+      "title": "representation",
+      "slug": "representation2",
+      "description": "<p>A portrayal of the past that may reflect a popular view within society, past or present, or that may be constructed by historians.</p>"
+    },
+    {
+      "id": "74c18b84-67b5-4d01-b3bb-d9a8a33e7581",
+      "codename": "shared__significance",
+      "title": "significance",
+      "slug": "significance",
+      "description": "<p>The importance attributed to a particular aspect of the past such as an individual or event. Significance involves an understanding of the various considerations which cause different groups at different times to judge aspects of the past more or less historically significant.</p>"
+    },
+    {
+      "id": "5e6c3ca3-31b7-43e2-83fe-efe425daa9de",
+      "codename": "shared__source",
+      "title": "source",
+      "slug": "source2",
+      "description": "<p>Any written or non-written materials that can be used to investigate the past.</p>\n<p>Extended in 7–12 History Syllabuses: A source is used to elicit ‘evidence’ in order to answer a specific historical question, inform a historical inquiry, or to support or refute an interpretation.</p>"
+    },
+    {
+      "id": "3558f51c-6b1d-41ac-b0b7-610b68064c1c",
+      "codename": "shared__terms",
+      "title": "terms",
+      "slug": "terms",
+      "description": "<p>A word or phrase used to describe abstract aspects or features of the past, e.g. imperialism, democracy or republic; and more specific features, such as trench warfare, or a dictator, gladiator or vizier.</p>"
+    },
+    {
+      "id": "382826e1-7645-414c-a12e-2ea980d53771",
+      "codename": "shared__terra_nullius",
+      "title": "terra nullius",
+      "slug": "terra-nullius",
+      "description": "<p>A concept in international law meaning ‘a territory belonging to no-one’ or ‘over which no-one claims ownership’.</p>"
+    }
+  ]
+}

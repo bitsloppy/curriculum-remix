@@ -1,0 +1,1112 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "6a305ef7-26cb-448b-936d-98706903d106",
+      "codename": "sci_sec_gls_abiotic",
+      "title": "abiotic",
+      "slug": "abiotic",
+      "description": "<p>The non-living components of the environment.</p>"
+    },
+    {
+      "id": "fbb22daf-9b6a-4455-92ef-1c67a4576a0b",
+      "codename": "ma__accuracy",
+      "title": "accuracy",
+      "slug": "accuracy",
+      "description": "<p>The extent to which measurements are considered to be close to the true value.</p>"
+    },
+    {
+      "id": "19b683e1-3608-4908-9fdc-bde89b64831b",
+      "codename": "gl_5efdcc14",
+      "title": "active transport",
+      "slug": "active-transport",
+      "description": "<p>The process of transporting molecules or ions across a cell membrane from a region of lower concentration to a region of higher concentration using energy.</p>"
+    },
+    {
+      "id": "45d45fe3-4f89-4d07-9349-b0766dfe5265",
+      "codename": "gl_53df3c49",
+      "title": "allele",
+      "slug": "allele",
+      "description": "<p>The alternative form of a gene at identical loci of homologous chromosomes.</p>"
+    },
+    {
+      "id": "82078493-20ae-4f89-ba95-95511aec01c6",
+      "codename": "gl_7a2195aa",
+      "title": "allele frequency",
+      "slug": "allele-frequency",
+      "description": "<p>A percentage measure of the allele composition within a population’s gene pool.</p>"
+    },
+    {
+      "id": "cdd5ef67-1f73-4dd9-8d58-79df3908eba4",
+      "codename": "gl_e88508b1",
+      "title": "allelopathy",
+      "slug": "allelopathy",
+      "description": "<p>The adverse effect one plant causes another through the release of chemicals into the soil.</p>"
+    },
+    {
+      "id": "f253dafe-2937-4958-99aa-6f7730803481",
+      "codename": "gl_0eea31df",
+      "title": "amino acid",
+      "slug": "amino-acid",
+      "description": "<p>An organic compound considered the building block from which proteins are formed.</p>"
+    },
+    {
+      "id": "63e37e45-3664-417e-84c5-4842693c2d36",
+      "codename": "gl_bd7fbdd6",
+      "title": "antibody",
+      "slug": "antibody",
+      "description": "<p>A type of blood protein produced in response to a specific antigen in order to counteract it. Also known as immunoglobin.</p>"
+    },
+    {
+      "id": "89457845-4338-4220-8cfa-d4b35e24ec1d",
+      "codename": "gl_e817af3b",
+      "title": "asexual reproduction",
+      "slug": "asexual-reproduction",
+      "description": "<p>Reproduction involving only one parent and no sex cells.</p>"
+    },
+    {
+      "id": "074bd001-f329-46c1-aa0e-3babc357962c",
+      "codename": "gl_3c690cec",
+      "title": "autosome",
+      "slug": "autosome",
+      "description": "<p>Any somatic chromosome within a species.</p>"
+    },
+    {
+      "id": "c96ca3dc-1acb-44d7-a8b9-93d689f11278",
+      "codename": "gl_3a52ef1e",
+      "title": "B cell",
+      "slug": "b-cell",
+      "description": "<p>Lymphocytes produced in the bone marrow that develop into plasma cells responsible for making antibodies.</p>"
+    },
+    {
+      "id": "f2e71f7a-a8ac-4a04-a06b-815411f3c66b",
+      "codename": "gl_48a49fae",
+      "title": "base substitution",
+      "slug": "base-substitution",
+      "description": "<p>The replacement of one nucleotide base with a different one.</p>"
+    },
+    {
+      "id": "a58c2003-6cf9-49d7-a78d-b58555d324ac",
+      "codename": "gl_6bc6eaa3",
+      "title": "binary fission",
+      "slug": "binary-fission",
+      "description": "<p>An asexual reproduction method of division into 2 identical daughter cells.</p>"
+    },
+    {
+      "id": "1d5c4718-63f8-4106-947f-61baf8ad9b97",
+      "codename": "ge__biodiversity",
+      "title": "biodiversity",
+      "slug": "biodiversity",
+      "description": "<p>The variety of living organisms within a particular habitat, ecosystem, biome, or globally.</p>"
+    },
+    {
+      "id": "36aa517b-e5f3-47e7-b663-d3c37030265c",
+      "codename": "gl_af218391",
+      "title": "bioinformatics",
+      "slug": "bioinformatics",
+      "description": "<p>The science of collecting and analysing biological data using computer technology.</p>"
+    },
+    {
+      "id": "21306afb-2c7f-4b3a-8913-ff8834d7b5de",
+      "codename": "gl_19c6d540",
+      "title": "biotechnology",
+      "slug": "biotechnology",
+      "description": "<p>The development or creation of products from biological systems, processes or living organisms.</p>"
+    },
+    {
+      "id": "308dd39f-7634-4619-98dd-2ac6a4537ff6",
+      "codename": "sci_sec_gls_biotic",
+      "title": "biotic",
+      "slug": "biotic",
+      "description": "<p>Involving the living components of the environment.</p>"
+    },
+    {
+      "id": "bf359623-169a-402c-9e50-19ad2b9fc9f3",
+      "codename": "gl_d0be150c",
+      "title": "budding",
+      "slug": "budding",
+      "description": "<p>An asexual reproduction method where part of the adult organism divides through mitosis to produce a small genetically identical bud.</p>"
+    },
+    {
+      "id": "9f57dc63-1483-4225-9db2-56eee9b6c472",
+      "codename": "gl_1ba789db",
+      "title": "carrying capacity",
+      "slug": "carrying-capacity",
+      "description": "<p>The largest amount of individuals of a species that can be supported by an environment. The number is based on resources, such as food, water and shelter, and how accessible they are.</p>"
+    },
+    {
+      "id": "3b0832f3-d8d7-43e6-9b57-ce5e0e0ef277",
+      "codename": "gl_efca9855",
+      "title": "cell-mediated response",
+      "slug": "cell-mediated-response",
+      "description": "<p>An immune response involving macrophages and T cells that eliminate intracellular pathogens.</p>"
+    },
+    {
+      "id": "f2fa89ad-22b2-4083-a964-c5dcb94e1188",
+      "codename": "sci_sec_gls_cellular_respiration",
+      "title": "cellular respiration",
+      "slug": "cellular-respiration",
+      "description": "<p>The process by which a living organism or cells break down organic molecules to release energy. Cellular respiration can be aerobic (with oxygen) or anaerobic (without oxygen).</p>"
+    },
+    {
+      "id": "4c4264ea-d5fc-4371-a9c0-e6b2ca34a113",
+      "codename": "sci_sec_gls_chromosome",
+      "title": "chromosome",
+      "slug": "chromosome",
+      "description": "<p>Chromosomes are tiny structures found in all living cells. They are made up of DNA and proteins, which contain the genetic information that determine how an organism develops and functions.</p>"
+    },
+    {
+      "id": "1d27bb4c-3ccc-47b7-8d79-be7fe1579052",
+      "codename": "gl_9cf655e8",
+      "title": "codon",
+      "slug": "codon",
+      "description": "<p>A triplet sequence of nucleotides in mRNA that codes for a specific amino acid.</p>"
+    },
+    {
+      "id": "e4817f9c-7024-411a-bc5c-e9deefb8debd",
+      "codename": "gl_ff2884c3",
+      "title": "commensalism",
+      "slug": "commensalism",
+      "description": "<p>A type of symbiotic relationship in which one organism benefits from living with, on or in another one without affecting the other organism.</p>"
+    },
+    {
+      "id": "a3208f54-323d-4eab-a009-589e0cb97ac5",
+      "codename": "gl_ebc127d3",
+      "title": "comparative anatomy",
+      "slug": "comparative-anatomy",
+      "description": "<p>The scientific study of the similarities and differences in the anatomical structures of different species of animals.</p>"
+    },
+    {
+      "id": "25e5c788-254e-4682-ba52-05c1d6b2cc13",
+      "codename": "shared__conservation_25e5c78",
+      "title": "conservation",
+      "slug": "conservation3",
+      "description": "<p>The careful management and protection of natural environments, including landscapes, ecosystems, habitats and geological or archaeological sites that hold historical, cultural, ecological, or scientific importance.</p>"
+    },
+    {
+      "id": "01e84aab-48c7-4986-a18b-bfb88ed107e5",
+      "codename": "gl_2b7e3fb4",
+      "title": "control centre",
+      "slug": "control-centre",
+      "description": "<p>A region of the brain that maintains homeostasis by processing messages received from receptors and sending responses to effectors to counteract a stimulus.</p>"
+    },
+    {
+      "id": "23d5304a-62a6-4249-933a-78f2e8d2c252",
+      "codename": "sci_sec_gls_controlled_variable",
+      "title": "controlled variable",
+      "slug": "controlled-variable",
+      "description": "<p>A variable that is kept constant (or changed in constant ways) during an investigation. For example, the same amount of water would be a controlled variable in an investigation comparing solubility.</p>"
+    },
+    {
+      "id": "ac235043-1850-4148-9b10-440c96f4a74b",
+      "codename": "gl_3ad31236",
+      "title": "correlation",
+      "slug": "correlation2",
+      "description": "<p>A statistical measurement of the relationship between 2 variables, indicating the size and direction.</p>"
+    },
+    {
+      "id": "335a0a47-394d-4835-b758-4171d7631b7a",
+      "codename": "gl_08f90418",
+      "title": "cytokinesis",
+      "slug": "cytokinesis",
+      "description": "<p>The process following mitotic and meiotic division in which the cytoplasm divides, separating into daughter cells.</p>"
+    },
+    {
+      "id": "172917fb-aa1d-4687-a1a9-1bfe14057386",
+      "codename": "sci_sec_gls_dependent_variable",
+      "title": "dependent variable",
+      "slug": "dependent-variable2",
+      "description": "<p>The factor in an experiment that changes in response to changes to the independent variable.</p>"
+    },
+    {
+      "id": "b5236910-8ed1-4470-9dc4-bbc26c77c560",
+      "codename": "sci_sec_gls_dna",
+      "title": "DNA",
+      "slug": "dna",
+      "description": "<p>Deoxyribonucleic acid (DNA) is a molecule found in cells that carries the genetic instructions for the development, functioning, growth, and reproduction of all living organisms including viruses.</p>"
+    },
+    {
+      "id": "1ea6c033-865e-4d7b-825d-3df428ee1ec3",
+      "codename": "gl_20f91891",
+      "title": "dominant",
+      "slug": "dominant",
+      "description": "<p>A trait expressed in a heterozygous organism or a homozygous-dominant organism.</p>"
+    },
+    {
+      "id": "87884c39-7ca0-4f49-8872-6d1e7d5d6bc0",
+      "codename": "ge__ecosystem",
+      "title": "ecosystem",
+      "slug": "ecosystem",
+      "description": "<p>A system formed by the interaction of biotic organisms with each other and with the abiotic components of the environment in which they live.</p>\n<p>While an ecosystem may be synonymous with a specific environment, the ‘system’ approach enables a focus on the various components and their interconnected nature.</p>"
+    },
+    {
+      "id": "44284e53-88d8-42ee-97f2-6f39c9415e3c",
+      "codename": "gl_925bfa6c",
+      "title": "ectotherm",
+      "slug": "ectotherm",
+      "description": "<p>An organism that has a variable body temperature which is dependent on the ambient temperature.</p>"
+    },
+    {
+      "id": "469c7f12-d87f-4b3e-b215-74c408e141b3",
+      "codename": "gl_2bd8f824",
+      "title": "effector",
+      "slug": "effector",
+      "description": "<p>A muscle or gland that carries out a response.</p>"
+    },
+    {
+      "id": "883c4322-f5fd-41c5-9f69-669f925c9230",
+      "codename": "gl_04551b3e",
+      "title": "endocytosis",
+      "slug": "endocytosis",
+      "description": "<p>The process by which material is ingested into a cell by the folding of the cell membrane to form a vesicle.</p>"
+    },
+    {
+      "id": "d1dfc0bb-5bcf-4a43-af64-ddd11588b306",
+      "codename": "gl_aaa7762b",
+      "title": "endotherm",
+      "slug": "endotherm",
+      "description": "<p>An organism that maintains body temperature within a narrow range of tolerance despite any variation in the ambient temperature.</p>"
+    },
+    {
+      "id": "8e70609a-bed9-4cba-a535-2b490686e724",
+      "codename": "gl_a4113cef",
+      "title": "enzyme",
+      "slug": "enzyme",
+      "description": "<p>A biological catalyst that increases the rate of a chemical reaction.</p>"
+    },
+    {
+      "id": "130426a7-5f53-41a4-997f-da9ceaea3fb2",
+      "codename": "gl_132f58ce",
+      "title": "epigenetics",
+      "slug": "epigenetics",
+      "description": "<p>Changes in the way a gene functions within an organism that are heritable but do not alter the genetic code itself; changes that affect the phenotype without changing the genotype.</p>"
+    },
+    {
+      "id": "74623030-ef08-4cfd-bf19-ae1a03862acd",
+      "codename": "gl_4609402a",
+      "title": "eukaryotic cell",
+      "slug": "eukaryotic-cell",
+      "description": "<p>A cell which has DNA in its clearly defined nucleus, and also contains membrane-bound organelles.</p>"
+    },
+    {
+      "id": "c49c6550-71cb-44b9-91e8-a2cf0d9672c9",
+      "codename": "gl_245c5b91",
+      "title": "exocytosis",
+      "slug": "exocytosis",
+      "description": "<p>The process of expelling unwanted molecules from a cell through the cell membrane to the outside space by vesicles.</p>"
+    },
+    {
+      "id": "a80ad3b1-5d66-4371-8c9f-60ed47f502ea",
+      "codename": "gl_5ccd70e6",
+      "title": "exon",
+      "slug": "exon",
+      "description": "<p>The coding section of DNA that remains in a mature mRNA molecule to be translated to form a protein.</p>"
+    },
+    {
+      "id": "dd6d3782-54ef-47ff-8568-028bc4eb778e",
+      "codename": "sci_sec_gls_experimental_control",
+      "title": "experimental control",
+      "slug": "experimental-control",
+      "description": "<p>The sample in an experiment to which all the other samples are compared.</p>\n<p>Extended in Science 11–12: The sample in an experiment that does not receive the independent variable.</p>"
+    },
+    {
+      "id": "ae55b99d-5723-42b1-8254-2a765805fd8d",
+      "codename": "gl_a70be9c8",
+      "title": "fluid mosaic model",
+      "slug": "fluid-mosaic-model",
+      "description": "<p>A model used to describe the structure and function of the cell membrane.</p>"
+    },
+    {
+      "id": "02c60955-d27d-4281-b7f7-607e832ad928",
+      "codename": "sci_sec_gls_fossil",
+      "title": "fossil",
+      "slug": "fossil",
+      "description": "<p>The preserved remains or traces of an organism, such as a skeleton, or a footprint, from a past geological age, typically found in sedimentary rock layers.</p>"
+    },
+    {
+      "id": "ce16ace0-4bac-4a46-86ec-e5c7fdb6e011",
+      "codename": "gl_db54dbac",
+      "title": "frameshift mutation",
+      "slug": "frameshift-mutation",
+      "description": "<p>A type of genetic mutation in which one or more nucleotides are inserted into or deleted from the DNA sequence, causing a shift in the reading frame of the genetic code during protein synthesis.</p>"
+    },
+    {
+      "id": "4c0b96d1-8949-4cbc-bbe1-9228d12aaea9",
+      "codename": "gl_762d421d",
+      "title": "gene expression",
+      "slug": "gene-expression",
+      "description": "<p>The process by which the information encoded in a gene is turned into a function.</p>"
+    },
+    {
+      "id": "ccc494f0-0310-4308-90c8-b7445b5325d3",
+      "codename": "gl_d66a51f4",
+      "title": "gene flow",
+      "slug": "gene-flow",
+      "description": "<p>The natural transfer of genes between populations of the same species, affecting the allele frequency within a population.</p>"
+    },
+    {
+      "id": "147c2f50-b6aa-4a1f-9cc3-e1ffd288129e",
+      "codename": "gl_ff4dc682",
+      "title": "gene pool",
+      "slug": "gene-pool",
+      "description": "<p>The total number of different alleles within all genes in a breeding population.</p>"
+    },
+    {
+      "id": "53805c3b-4efb-42d9-be10-fecd44fc0de2",
+      "codename": "gl_4c9cc1c9",
+      "title": "genetic drift",
+      "slug": "genetic-drift",
+      "description": "<p>A change in allele frequency within a population due to random chance/causes.</p>"
+    },
+    {
+      "id": "df100853-717f-4099-b22f-d6cbaa5edde0",
+      "codename": "sci_sec_gls_genetic_variation",
+      "title": "genetic variation",
+      "slug": "genetic-variation",
+      "description": "<p>The diversity in genetic makeup within a population or species, resulting from differences in the genetic information carried by individuals.</p>"
+    },
+    {
+      "id": "6e7e9788-ebc1-47a4-8789-ea53e6328ab7",
+      "codename": "gl_cdb8c468",
+      "title": "genetically modified organism (GMO)",
+      "slug": "genetically-modified-organism-gmo",
+      "description": "<p>A plant, animal or microbe in which one or more changes have been made to the genome using biotechnology to alter its characteristics.</p>"
+    },
+    {
+      "id": "11a595be-4544-47e5-80df-4560368a2c19",
+      "codename": "sci_sec_gls_genotype",
+      "title": "genotype",
+      "slug": "genotype",
+      "description": "<p>The genetic make-up of an organism.</p>"
+    },
+    {
+      "id": "62d35e07-f192-4a9f-94a1-07fd7eec9275",
+      "codename": "gl_8c301b69",
+      "title": "germline variant",
+      "slug": "germline-variant",
+      "description": "<p>A DNA variation that occurs in the sexual reproductive cells (eggs and sperm) which can be passed on to the offspring.</p>"
+    },
+    {
+      "id": "57d0bac8-1ffd-4831-bd0b-5a83334310d6",
+      "codename": "gl_b01f988e",
+      "title": "glomerular filtrate",
+      "slug": "glomerular-filtrate",
+      "description": "<p>The fluid that passes through the walls of the capillaries in the glomerulus into the renal tubules of the Bowman’s capsule.</p>"
+    },
+    {
+      "id": "a31b9050-2c19-4ee9-836f-7f8cd4b662ec",
+      "codename": "gl_f9cbaad9",
+      "title": "gradualism",
+      "slug": "gradualism",
+      "description": "<p>The theory that species evolve slowly from existing ones over long periods of time.</p>"
+    },
+    {
+      "id": "20d5398c-9729-4361-aa3f-8e86bbdcf2e8",
+      "codename": "shared__hazard",
+      "title": "hazard",
+      "slug": "hazard",
+      "description": "<p>A source that poses a potential risk of harm or injury.</p>"
+    },
+    {
+      "id": "aa026ca6-7589-4397-8d13-28511df46bff",
+      "codename": "sci_sec_gls_homeostasis",
+      "title": "homeostasis",
+      "slug": "homeostasis",
+      "description": "<p>The ability of an organism to maintain stable internal conditions despite external changes.</p>"
+    },
+    {
+      "id": "cb1f6ada-5c3d-4dae-b109-45d08e5f2d32",
+      "codename": "gl_f7c84419",
+      "title": "hypertonic",
+      "slug": "hypertonic",
+      "description": "<p>Denoting a solution that has a higher concentration of solutes compared to another solution.</p>"
+    },
+    {
+      "id": "a023184a-65a1-4444-85b2-8989b9f98092",
+      "codename": "gl_51f425ab",
+      "title": "hypotonic",
+      "slug": "hypotonic",
+      "description": "<p>Denoting a solution that has a lower concentration of solutes compared to another solution.</p>"
+    },
+    {
+      "id": "39f1f37e-3850-48cb-aa2a-113baeb5b83d",
+      "codename": "gl_702a5bdb",
+      "title": "immune response",
+      "slug": "immune-response",
+      "description": "<p>The body’s co-ordinated defence mechanism characterised by both the innate immune system and the adaptive immune system.</p>"
+    },
+    {
+      "id": "c0c913b0-862f-4335-b2ae-3256071057fe",
+      "codename": "hms_snr_gls_incidence",
+      "title": "incidence",
+      "slug": "incidence",
+      "description": "<p>The number of new cases (of an illness or event, and so on) occurring during a given period.</p>"
+    },
+    {
+      "id": "3acb684d-c6a7-4300-8865-f5187a3ae83d",
+      "codename": "sci_sec_gls_independent_variable",
+      "title": "independent variable",
+      "slug": "independent-variable",
+      "description": "<p>The variable that is deliberately changed, often through a series of pre-set values.</p>"
+    },
+    {
+      "id": "43e28119-53c5-4358-a7c3-7a7f288bccc2",
+      "codename": "gl_c069852b",
+      "title": "interleukin",
+      "slug": "interleukin",
+      "description": "<p>A group of proteins, mainly secreted by leukocytes, responsible for the activation and differentiation of immune cells during an immune response.</p>"
+    },
+    {
+      "id": "9ec52c16-ad44-4425-b463-e2459ff80041",
+      "codename": "gl_c1082182",
+      "title": "intron",
+      "slug": "intron",
+      "description": "<p>The sequence of bases that are spliced out from the mRNA molecule also known as the non-coding section of DNA.</p>"
+    },
+    {
+      "id": "3ae40300-1e21-476f-ae0b-96877cee78f2",
+      "codename": "gl_f20e2523",
+      "title": "invasive species",
+      "slug": "invasive-species",
+      "description": "<p>A species which thrives in a habitat it is not native to and threatens the environment, economy or human health.</p>"
+    },
+    {
+      "id": "ea5562a5-910a-4867-8518-f841390f8358",
+      "codename": "gl_cd8a450c",
+      "title": "isotonic",
+      "slug": "isotonic",
+      "description": "<p>A solution which has the same concentration of solutes as another solution.</p>"
+    },
+    {
+      "id": "46da7887-fd2b-4c9e-8704-5d3285c246fd",
+      "codename": "ma__mean",
+      "title": "mean",
+      "slug": "mean",
+      "description": "<p>The sum of values in a dataset divided by the total number of values in the dataset. Also called the average.</p>"
+    },
+    {
+      "id": "566e943e-83eb-40fe-99a6-c4665880ac9e",
+      "codename": "gl_dfea6ac5",
+      "title": "meiosis",
+      "slug": "meiosis",
+      "description": "<p>A cell division process that halves the chromosome numbers to become haploid and results in gametes.</p>"
+    },
+    {
+      "id": "6555f51d-244d-47aa-a3ae-f1d6b2017d20",
+      "codename": "gl_37cf0072",
+      "title": "mitosis",
+      "slug": "mitosis",
+      "description": "<p>The process that takes place as part of the cell cycle in which cellular division takes place, resulting in 2 genetically identical daughter cells.</p>"
+    },
+    {
+      "id": "057572dd-da6d-4610-a70f-1a69de86c69a",
+      "codename": "ct_sec_gls_model",
+      "title": "model",
+      "slug": "model",
+      "description": "<p>A mathematical, conceptual or physical representation that describes, simplifies, clarifies or provides an explanation of the structure, workings or relationships within an object, system or idea. Models can provide a means of testing and predicting behaviour within limited conditions. Models may be physical or exist in digital form.</p>"
+    },
+    {
+      "id": "c32e0a01-49d6-465c-a876-1b0a3cd6408b",
+      "codename": "shrd_snr_gls_morbidity",
+      "title": "morbidity",
+      "slug": "morbidity",
+      "description": "<p>The ill health of an individual and levels of ill health in a population or group.</p>"
+    },
+    {
+      "id": "6e3950a2-d4a0-45ef-9767-611dfd4d9fe9",
+      "codename": "shrd_snr_gls_mortality",
+      "title": "mortality",
+      "slug": "mortality",
+      "description": "<p>Number or rate of deaths in a population during a given time period.</p>"
+    },
+    {
+      "id": "dde983c8-a11c-4be8-97ba-f94c3b7f70c4",
+      "codename": "gl_049b555c",
+      "title": "mRNA (messenger ribonucleic acid)",
+      "slug": "mrna-messenger-ribonucleic-acid",
+      "description": "<p>An intermediate single-stranded RNA molecule used during polypeptide synthesis that is transcribed from DNA and translated into proteins.</p>"
+    },
+    {
+      "id": "834c6770-8aee-4408-aa78-bbbbd01e5a16",
+      "codename": "gl_04c920dd",
+      "title": "mutagen",
+      "slug": "mutagen",
+      "description": "<p>A chemical, biological or physical agent capable of causing changes in DNA.</p>"
+    },
+    {
+      "id": "f42984d6-c2b2-4468-a279-0c75dbcd2083",
+      "codename": "sci_sec_gls_mutation",
+      "title": "mutation",
+      "slug": "mutation",
+      "description": "<p>A change in genetic material (DNA).</p>\n<p>Extended in Biology 11–12<em>: </em>Occurs due to an error during DNA replication.</p>"
+    },
+    {
+      "id": "30531489-4561-4629-bab3-638c27152918",
+      "codename": "gl_3187ff24",
+      "title": "mutualism",
+      "slug": "mutualism",
+      "description": "<p>A symbiotic relationship between organisms of 2 different species where each benefit from the interaction.</p>"
+    },
+    {
+      "id": "bba5121c-2e1e-4d98-8dfc-b01df4043874",
+      "codename": "sci_sec_gls_natural_selection",
+      "title": "natural selection",
+      "slug": "natural-selection",
+      "description": "<p>The process by which organisms with traits that are better suited to their environment survive and reproduce more successfully than those with less favourable traits. This leads to the gradual change or adaptation of a population over time.</p>"
+    },
+    {
+      "id": "2a31344b-45dc-43be-a93f-058fe2114fe2",
+      "codename": "gl_0c774208",
+      "title": "nonsense mutation",
+      "slug": "nonsense-mutation",
+      "description": "<p>A mutation that occurs in DNA when a sequence change gives rise to a stop codon rather than a codon specifying an amino acid.</p>"
+    },
+    {
+      "id": "4b51fe7c-376f-4cc5-b4a9-b165ac1f1b23",
+      "codename": "ma__outlier",
+      "title": "outlier",
+      "slug": "outlier",
+      "description": "<p>A data value that appears to stand out from the other members of the dataset by being unusually high or low.</p>"
+    },
+    {
+      "id": "e625546b-73fa-43a8-8f10-ea25b6732dab",
+      "codename": "gl_322755e6",
+      "title": "parasitism",
+      "slug": "parasitism",
+      "description": "<p>A symbiotic relationship in which a parasite lives on or within a host and benefits at the host’s expense.</p>"
+    },
+    {
+      "id": "1a6ebdb0-e9bf-4935-a12d-7fe0856ab62f",
+      "codename": "gl_dceacfcb",
+      "title": "parthenogenesis",
+      "slug": "parthenogenesis",
+      "description": "<p>A form of asexual reproduction in which an embryo develops from an unfertilised egg without the need for fertilisation by a male sperm or pollen.</p>"
+    },
+    {
+      "id": "bff2996d-bc72-423c-b3c0-c1ec6dbfbb58",
+      "codename": "gl_c8a3bb61",
+      "title": "pathogen",
+      "slug": "pathogen",
+      "description": "<p>A disease-causing agent.</p>"
+    },
+    {
+      "id": "b1eba4e7-1b86-4872-b35b-f183fb46d653",
+      "codename": "pattern",
+      "title": "pattern",
+      "slug": "pattern",
+      "description": "<p>A pattern is made up of a number of elements that repeat or follow a rule.</p>"
+    },
+    {
+      "id": "dc5b0da5-cfb4-420b-b29f-0ef39850ffef",
+      "codename": "ma__percentage_error",
+      "title": "percentage error",
+      "slug": "percentage-error",
+      "description": "<p>The absolute error of a measurement expressed as a percentage of the recorded measurement.</p>"
+    },
+    {
+      "id": "5a08c715-db5f-4c48-a497-c3f2b5225dcc",
+      "codename": "gl_4e746f8c",
+      "title": "phagocytic leukocyte",
+      "slug": "phagocytic-leukocyte",
+      "description": "<p>A type of white blood cell that ingests and digests foreign particles, microorganisms and cellular debris.</p>"
+    },
+    {
+      "id": "f038a017-4c60-4c31-98a8-87e39eb1304f",
+      "codename": "sci_sec_gls_phloem",
+      "title": "phloem",
+      "slug": "phloem",
+      "description": "<p>A tissue in vascular plants that transports organic nutrients, particularly sugars, from leaves to other parts of the plant, including roots, stems and developing fruits.</p>"
+    },
+    {
+      "id": "b5cd04a0-f03f-4acf-b3d8-50d67395c814",
+      "codename": "sci_sec_gls_photosynthesis",
+      "title": "photosynthesis",
+      "slug": "photosynthesis",
+      "description": "<p>A chemical process that uses sunlight and chlorophyll to convert carbon dioxide and water into glucose, oxygen and water.</p>"
+    },
+    {
+      "id": "2f13b6ee-a72d-4f29-be40-be50de995103",
+      "codename": "gl_39903964",
+      "title": "phylogenetic tree",
+      "slug": "phylogenetic-tree",
+      "description": "<p>A branching diagram that visually represents the evolutionary relationships between different species or groups of organisms.</p>"
+    },
+    {
+      "id": "392ed884-b065-428a-8938-2d44eb4c0ad5",
+      "codename": "gl_b3e2f43b",
+      "title": "point mutation",
+      "slug": "point-mutation",
+      "description": "<p>A single nucleotide base change in the DNA or RNA sequence.</p>"
+    },
+    {
+      "id": "b03e3232-2b7f-4dcf-ace4-0fa134fbeeb3",
+      "codename": "sci_sec_gls_precision",
+      "title": "precision",
+      "slug": "precision",
+      "description": "<p>The extent to which repeated measurements of the same item are close to each other.</p>"
+    },
+    {
+      "id": "f1675f7c-6853-4b56-9a7e-91cae910a470",
+      "codename": "gl_22bca441",
+      "title": "predation",
+      "slug": "predation",
+      "description": "<p>A biological interaction where a predator hunts and kills prey, usually for nutrition.</p>"
+    },
+    {
+      "id": "3aa3762d-40a9-435d-a851-c7b64486faa8",
+      "codename": "sci_sec_gls_prediction",
+      "title": "prediction",
+      "slug": "prediction",
+      "description": "<p>A statement or estimate about what will happen in the future, often based on available evidence, past experiences or statistical analysis.</p>"
+    },
+    {
+      "id": "bac96eb3-0a4e-4a6b-b777-71771c8dd77c",
+      "codename": "shrd_snr_gls_prevalence",
+      "title": "prevalence",
+      "slug": "prevalence",
+      "description": "<p>The number or proportion (of cases, instances, and so forth) in a population at a given time. For example, in relation to cancer, refers to the number of people alive who had been diagnosed with cancer in a prescribed period (usually 1, 5, 10 or 26 years).</p>"
+    },
+    {
+      "id": "4523650f-6345-4138-ba7f-d38fcc07db98",
+      "codename": "gl_cbc827be",
+      "title": "prokaryotic cell",
+      "slug": "prokaryotic-cell",
+      "description": "<p>A simple, single-celled organism containing single-strand DNA and without a distinct nucleus or membrane-bound organelles.</p>"
+    },
+    {
+      "id": "a99bfd3f-16b7-489f-8d09-67bdf951c788",
+      "codename": "gl_6e6941c1",
+      "title": "protein",
+      "slug": "protein",
+      "description": "<p>A large molecule made up of polypeptide chains found within cells.</p>"
+    },
+    {
+      "id": "5679e049-3577-4922-82a4-29947f7bc205",
+      "codename": "gl_7ec690b2",
+      "title": "punctuated equilibrium",
+      "slug": "punctuated-equilibrium",
+      "description": "<p>A theory of evolution stating that species experience long periods of little or no evolutionary change, interrupted by brief periods of rapid change that lead to the formation of new species.</p>"
+    },
+    {
+      "id": "5b5c1ce0-463d-4158-922d-c4a7e01865bb",
+      "codename": "gl_f69f3d42",
+      "title": "quadrat",
+      "slug": "quadrat",
+      "description": "<p>A square or rectangular area used within a larger habitat to identify and count species, used as sampling technique.</p>"
+    },
+    {
+      "id": "dad16806-8ef2-4d3c-a4f6-4cc07ed9b273",
+      "codename": "sci_sec_gls_qualitative",
+      "title": "qualitative",
+      "slug": "qualitative",
+      "description": "<p>To use descriptive explanations involving features, characteristics or properties to identify important components. Data and information that is not numerical in nature.</p>"
+    },
+    {
+      "id": "d34bbe1b-441a-40dd-9c3d-31de49066851",
+      "codename": "sci_sec_gls_quantitative",
+      "title": "quantitative",
+      "slug": "quantitative",
+      "description": "<p>Data or components that can be expressed or measured numerically, including chemical formulae or numbers.</p>"
+    },
+    {
+      "id": "c37c7519-ff20-4e5f-9690-8d93b12ba369",
+      "codename": "gl_aa390dfa",
+      "title": "random segregation",
+      "slug": "random-segregation",
+      "description": "<p>The separation of allele pairs by chance during the formation of gametes.</p>"
+    },
+    {
+      "id": "6cd7a6f3-12de-47e7-8b61-ec640dae3247",
+      "codename": "sci_sec_gls_range__of_a_dataset_",
+      "title": "range (of a dataset)",
+      "slug": "range-of-a-dataset",
+      "description": "<p>The difference between the highest and lowest values in a dataset.</p>"
+    },
+    {
+      "id": "a5478ec4-c06b-4f03-94e5-3952cee7d877",
+      "codename": "gl_3387e2e4",
+      "title": "receptor",
+      "slug": "receptor",
+      "description": "<p>A group of sensory cells within the body that detects a change in a particular component of the internal and/or external environment.</p>"
+    },
+    {
+      "id": "430a42aa-b730-4737-9981-e87e7430f0f4",
+      "codename": "gl_84ec2710",
+      "title": "recombinant DNA",
+      "slug": "recombinant-dna",
+      "description": "<p>DNA that has been artificially constructed by combining genetic material from 2 or more different genomes.</p>"
+    },
+    {
+      "id": "b049755e-fe68-412a-bb1d-02ae7d63d2b1",
+      "codename": "sci_sec_gls_reliability",
+      "title": "reliability",
+      "slug": "reliability",
+      "description": "<p>An extent to which repeated observations and/or measurements taken under identical circumstances will yield similar results.</p>"
+    },
+    {
+      "id": "2dd19b93-a764-4a32-aba2-19ee7fb37c03",
+      "codename": "gl_9012d111",
+      "title": "replication fork",
+      "slug": "replication-fork",
+      "description": "<p>The Y-shaped region formed by the unwinding and partial separation of the DNA double helix during replication.</p>"
+    },
+    {
+      "id": "7809d6dc-788f-4f64-b178-b2da909dac37",
+      "codename": "gl_e79c1b7b",
+      "title": "scientific investigation",
+      "slug": "scientific-investigation",
+      "description": "<p>A scientific process of answering a question, exploring an idea or solving a problem, which requires activities such as planning a course of action, collecting data, interpreting data, reaching a conclusion and communicating these activities. Investigations can include practical and/or secondary-source data or information.</p>"
+    },
+    {
+      "id": "fa5d013f-62ad-45f8-9f34-69b1f440ea84",
+      "codename": "gl_9c23c933",
+      "title": "secretion (within the nephron)",
+      "slug": "secretion-within-the-nephron",
+      "description": "<p>Part of a process within the nephron of moving unwanted substances from the blood capillaries into the renal tubules, mostly via active transport.</p>"
+    },
+    {
+      "id": "0dee777c-0a99-4e5f-b490-6e28953cd2ad",
+      "codename": "gl_ebf03ffd",
+      "title": "selection pressures",
+      "slug": "selection-pressures",
+      "description": "<p>Environmental factors that influence which traits are advantageous for the survival and reproduction of organisms that drive evolution.</p>"
+    },
+    {
+      "id": "575b87f1-019d-4513-be86-bcfd2d89ff06",
+      "codename": "gl_811a3ae1",
+      "title": "selective reabsorption",
+      "slug": "selective-reabsorption",
+      "description": "<p>The process in which substances required by the body move from the renal tubules back into the blood in the capillaries by diffusion or active transport.</p>"
+    },
+    {
+      "id": "1918037a-b9c3-4832-ab58-51af371c3114",
+      "codename": "gl_4b72a7b7",
+      "title": "silent mutation",
+      "slug": "silent-mutation",
+      "description": "<p>A point mutation which includes a change in the DNA sequence that does not change the amino acid produced during protein synthesis.</p>"
+    },
+    {
+      "id": "e54e60f7-5708-4da6-8f21-3b764c49d5f6",
+      "codename": "gl_438a8b0d",
+      "title": "single nucleotide polymorphism",
+      "slug": "single-nucleotide-polymorphism",
+      "description": "<p>A single nucleotide base change at a particular locus on DNA in the genome of at least one per cent of individuals within a population.</p>"
+    },
+    {
+      "id": "54670543-eb1a-41c7-9be5-d34b0cedf2ae",
+      "codename": "gl_dea92cae",
+      "title": "somatic variant",
+      "slug": "somatic-variant",
+      "description": "<p>A change in a DNA sequence that occurs in body cells.</p>"
+    },
+    {
+      "id": "39fb1b8a-ccbf-4f5e-8ffa-3aac94038663",
+      "codename": "ma__standard_deviation",
+      "title": "standard deviation",
+      "slug": "standard-deviation",
+      "description": "<p>A measure of the variability or spread of a dataset. It gives an indication of the degree to which the individual data values are spread around their mean.</p>\n<p>Extended in Mathematics Standard and Advanced: For a random variable, the standard deviation is the square root of its variance.</p>\n<p>It provides a measure of the spread of the probability density function.</p>"
+    },
+    {
+      "id": "9569fbd3-e0ad-4a71-ba56-f70087d287d6",
+      "codename": "gl_f16ef19c",
+      "title": "stimulus",
+      "slug": "stimulus2",
+      "description": "<p>Something that causes a change in the internal or external environment that is detected by a receptor and triggers a response.</p>"
+    },
+    {
+      "id": "425962ed-8845-4fb7-bd01-3e6686ff0934",
+      "codename": "gl_fc7e992d",
+      "title": "T cell",
+      "slug": "t-cell",
+      "description": "<p>A white blood cell, produced in bone marrow and matured in the thymus, which is responsible for the identification and killing of infected cells, the activation of other immune cells and the regulation of immune responses.</p>"
+    },
+    {
+      "id": "6372985c-6ba2-4220-beb6-59e1c3f7e30c",
+      "codename": "gl_c07377fc",
+      "title": "transcription",
+      "slug": "transcription",
+      "description": "<p>A process within polypeptide synthesis in which a segment (gene) of DNA is copied into mRNA within the nucleus.</p>"
+    },
+    {
+      "id": "afeb9462-8c3d-40c7-bcdd-b1b617b7183c",
+      "codename": "bio1112__transect__sampling_",
+      "title": "transect (sampling)",
+      "slug": "transect-sampling",
+      "description": "<p>A straight line or narrow strip through a natural environment along which observations or measurements are made to study the distribution and abundance of organisms or environmental features.</p>"
+    },
+    {
+      "id": "9881cce6-6dcd-41b2-a9ba-e71a8aeee891",
+      "codename": "gl_74f5ed64",
+      "title": "transgenic organisms",
+      "slug": "transgenic-organisms",
+      "description": "<p>A species that has artificially inserted genes from another species into their genome using genetic engineering techniques.</p>"
+    },
+    {
+      "id": "4537f4c3-79f4-492e-9e0f-6542a6a01aa6",
+      "codename": "gl_41969266",
+      "title": "transpiration",
+      "slug": "transpiration",
+      "description": "<p>The process by which plants evaporate water into the atmosphere, usually via the stomata found within the leaves of a plant.</p>"
+    },
+    {
+      "id": "5a6bbd60-4081-4058-92db-5d97cf5d1ad1",
+      "codename": "gl_1e50d5cd",
+      "title": "trend",
+      "slug": "trend",
+      "description": "<p>A general direction or pattern in data or observations that shows how something changes over time or under different conditions.</p>"
+    },
+    {
+      "id": "30d788f2-643c-4739-88c0-12706a81664c",
+      "codename": "gl_e4a555f5",
+      "title": "tRNA (transfer ribonucleic acid)",
+      "slug": "trna-transfer-ribonucleic-acid",
+      "description": "<p>A small RNA molecule containing an anticodon that corresponds to the specific amino acid being carried used in translation.</p>"
+    },
+    {
+      "id": "c687a0e8-4bda-4421-8f47-80b264ea1e6f",
+      "codename": "gl_c7b6cf92",
+      "title": "tubules (kidney)",
+      "slug": "tubules-kidney",
+      "description": "<p>Tiny tubes within the kidney that filter blood to form urine, including the proximal convoluted tubule, the Loop of Henle, the distal convoluted tubule and the collecting duct.</p>"
+    },
+    {
+      "id": "2cbba6f8-94e8-44a6-8b8a-62fd87561028",
+      "codename": "sci_sec_gls_validity",
+      "title": "validity",
+      "slug": "validity",
+      "description": "<p>The extent to which the processes and resultant data measure what was intended.</p>"
+    }
+  ]
+}

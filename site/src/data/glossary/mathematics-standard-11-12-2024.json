@@ -1,0 +1,1980 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "d6ca1bc1-d89e-49f5-a541-66f1863fd0cc",
+      "codename": "ma__algebraic_expression",
+      "title": "algebraic expression",
+      "slug": "algebraic-expression",
+      "description": ""
+    },
+    {
+      "id": "9ab69956-7b34-481e-ab96-9648b7f66b86",
+      "codename": "shared__ambiguous_case__of_the_sine_rule_",
+      "title": "ambiguous case (of the sine rule)",
+      "slug": "ambiguous-case-of-the-sine-rule",
+      "description": ""
+    },
+    {
+      "id": "85969df4-3872-4b15-98dc-f90d8216804e",
+      "codename": "ma__angle",
+      "title": "angle",
+      "slug": "angle",
+      "description": "<p>Formed by 2 straight lines meeting at a common endpoint, called the vertex. An angle can describe the amount of turn between its 2 arms (lines).</p>"
+    },
+    {
+      "id": "f7e54bab-45a0-4287-9072-9054fa44a9c4",
+      "codename": "ma__angle_of_depression",
+      "title": "angle of depression",
+      "slug": "angle-of-depression",
+      "description": "<p>The angle between horizontal and the line of sight from an observer to an object that is lower than the observer.</p>\n<figure data-asset-id=\"1831f9fa-5000-48ef-9242-cc0d27b0ce75\" data-image-id=\"1831f9fa-5000-48ef-9242-cc0d27b0ce75\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/7e4536c1-9cc2-44b7-8ff8-62114911b520/angle-of-depression-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"1831f9fa-5000-48ef-9242-cc0d27b0ce75\" data-image-id=\"1831f9fa-5000-48ef-9242-cc0d27b0ce75\" alt=\"Two lines, a horizontal and a line of sight, form an angle of depression.\"></figure>"
+    },
+    {
+      "id": "dac80f24-e86d-4d51-a137-40f5dfd95488",
+      "codename": "ma__angle_of_elevation",
+      "title": "angle of elevation",
+      "slug": "angle-of-elevation",
+      "description": "<p>The angle between horizontal and the line of sight from an observer to an object that is higher than the observer.</p>\n<figure data-asset-id=\"cd2acf52-e05e-48f0-a276-9751d0284d76\" data-image-id=\"cd2acf52-e05e-48f0-a276-9751d0284d76\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/9db8211f-4e9a-4b77-844d-432c8cbfd3ed/angle-of-elevation-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"cd2acf52-e05e-48f0-a276-9751d0284d76\" data-image-id=\"cd2acf52-e05e-48f0-a276-9751d0284d76\" alt=\"Two lines, a horizontal and a line of sight, form an angle of elevation.\"></figure>"
+    },
+    {
+      "id": "6698ffb6-cd1f-4b3f-9f91-845a9e2e2c82",
+      "codename": "shared__annuity",
+      "title": "annuity",
+      "slug": "annuity",
+      "description": "<p>A compound interest investment to which payments are made, or a single sum invested from which payments are received, on a regular basis for a fixed period of time.</p>"
+    },
+    {
+      "id": "84d3e267-2727-43cc-b661-6e67e3206560",
+      "codename": "mst__appreciation",
+      "title": "appreciation",
+      "slug": "appreciation",
+      "description": "<p>An increase in the value of an asset over time. The appreciated value is the value an asset has increased to over that time.</p>"
+    },
+    {
+      "id": "b393e14c-b637-4caa-b166-37904e1d133d",
+      "codename": "array",
+      "title": "array",
+      "slug": "array",
+      "description": "<p>One of several different arrangements that can be used to model multiplicative situations. It is made by arranging a set of objects, such as counters, into columns and rows. Each column must contain the same number of objects as the other columns, and each row must contain the same number of objects as the other rows.</p>"
+    },
+    {
+      "id": "97213eb0-f3fc-4a2c-b855-d24231a6fee4",
+      "codename": "shared__association",
+      "title": "association",
+      "slug": "association",
+      "description": "<p>Relationship between pairs of numerical variables, e.g. in terms of strength, form and direction.</p>"
+    },
+    {
+      "id": "e93073b5-5e64-44c1-9bbe-fc9abe0be424",
+      "codename": "shared__axis_of_symmetry",
+      "title": "axis of symmetry",
+      "slug": "axis-of-symmetry",
+      "description": "<p>A straight line that divides a shape or curve into 2 so that one side is a reflection of the other in the given line.</p>"
+    },
+    {
+      "id": "b1f878f2-beec-4678-a9fa-bacf713b7a07",
+      "codename": "mst__back_to_back_stem_and_leaf_plot",
+      "title": "back-to-back stem-and-leaf plot",
+      "slug": "back-to-back-stem-and-leaf-plot",
+      "description": "<p>A back-to-back stem-and-leaf plot is a method for comparing 2 data distributions by attaching 2 sets of 'leaves' to the same 'stem'; e.g. the stem-and-leaf plot below displays the distribution of pulse rates of 19 students before and after gentle exercise.</p>\n<figure data-asset-id=\"103d23bc-e871-4803-8b67-f43d426b951b\" data-image-id=\"103d23bc-e871-4803-8b67-f43d426b951b\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/460afdf5-21bc-4259-9396-cd1dacb98698/Maths%20glossary%20-%20backtobackstemandleafplot_Acara8.4.png\" data-asset-id=\"103d23bc-e871-4803-8b67-f43d426b951b\" data-image-id=\"103d23bc-e871-4803-8b67-f43d426b951b\" alt=\"A plot with 2 leaves. A column of numbers runs down the middle and numbers branch out on either side.\"></figure>\n<p>In this plot, the stem unit is ‘10’ and the leaf unit is ‘1’. Thus, the third row in the plot, 8 8 6 2 | 8 | 6 7 8 8, displays pulse rates of 88, 88, 86, 82 before exercise and 86, 87, 88, 88 after exercise.</p>"
+    },
+    {
+      "id": "823c625d-eab6-4218-8c60-827373394545",
+      "codename": "mst__backward_scanning__networks_",
+      "title": "backward scanning (networks)",
+      "slug": "backward-scanning-networks",
+      "description": "<p>The process of systematically determining the latest starting time for each activity as part of critical path analysis.</p>"
+    },
+    {
+      "id": "59532a4f-6497-4b3f-ad49-49708e36828c",
+      "codename": "mst__balance",
+      "title": "balance",
+      "slug": "balance",
+      "description": "<p>The difference between the total debit entries and the total credit entries of an account during a financial period.</p>"
+    },
+    {
+      "id": "019f29c4-7948-4614-ba99-267b5e395b5c",
+      "codename": "ma__bearing",
+      "title": "bearing",
+      "slug": "bearing",
+      "description": "<p>A direction from one point on the Earth’s surface to another. Two types of bearings may be used: compass bearing and true bearing.</p>\n<p><em>See </em><a data-item-id=\"de249e0e-50a4-4fd6-afe6-7222dc3d2ab5\" href=\"\">compass bearing</a> and <a data-item-id=\"a764069b-b2a3-4209-8041-258e3d12ce7f\" href=\"\">true bearing</a></p>"
+    },
+    {
+      "id": "a1bab5cd-c7b1-4237-89ec-1a676d35b78b",
+      "codename": "shared__best_buy",
+      "title": "best buy",
+      "slug": "best-buy",
+      "description": "<p>A product or service that offers the most benefits or quality for the lowest price. It is found by comparing different purchase options and choosing the one that has the best value for money, e.g. by comparing unit prices.</p>"
+    },
+    {
+      "id": "cd018f7d-6bda-468a-9514-ff103536d6c4",
+      "codename": "ma__bias",
+      "title": "bias",
+      "slug": "bias",
+      "description": "<p>A systematic favouring of certain outcomes more than others, due to unfair influence (knowingly or otherwise).</p>"
+    },
+    {
+      "id": "ffd78fad-cfa5-40b9-bd7f-4e0119f1f617",
+      "codename": "ma__bivariate_data",
+      "title": "bivariate data",
+      "slug": "bivariate-data",
+      "description": "<p>Data relating to measurement of 2 variables. It can be categorical data, numerical data or a combination of both.</p>"
+    },
+    {
+      "id": "a4550fd8-a754-4dc7-9aea-ddfd2f07fded",
+      "codename": "mst__blood_alcohol_content__bac_",
+      "title": "blood alcohol content (BAC)",
+      "slug": "blood-alcohol-content-bac",
+      "description": "<p>A measure of the amount of alcohol present in the bloodstream, which may be used for legal purposes.</p>"
+    },
+    {
+      "id": "9ba4c9dd-f74f-4424-8b81-d41591d43ba2",
+      "codename": "ma__box_plot",
+      "title": "box plot",
+      "slug": "box-plot",
+      "description": "<p>A synonym for a box-and-whisker plot. A graphical display of a 5-number summary of data. The ‘box’ covers the middle 50% of scores. The ‘whiskers’ extend to the maximum and minimum values in the dataset.</p>\n<p>In a box plot, the 'box' covers the interquartile range (IQR). A vertical line in the box is used to indicate the location of the median.</p>\n<p>The box plot below has been constructed from the 5-number summary of the resting pulse rates of 17 students.</p>\n<figure data-asset-id=\"88184d31-83ab-4cb1-b47d-573282c367de\" data-image-id=\"88184d31-83ab-4cb1-b47d-573282c367de\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/a008cffc-3efc-447b-852f-4a9c71b979d8/box-plot-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"88184d31-83ab-4cb1-b47d-573282c367de\" data-image-id=\"88184d31-83ab-4cb1-b47d-573282c367de\" alt=\"A box plot with horizontal axis labelled pulse rate in increments of 5 from 65 to 110.\"></figure>"
+    },
+    {
+      "id": "dc2a8700-7c62-4bbb-b955-12763e9c33f4",
+      "codename": "shared__break_even_point",
+      "title": "break-even point",
+      "slug": "break-even-point",
+      "description": "<p>The point at which income from production and cost of production are equal.</p>"
+    },
+    {
+      "id": "d379f8b0-ccef-4b99-a39e-036e06e7b119",
+      "codename": "mst__brokerage",
+      "title": "brokerage",
+      "slug": "brokerage",
+      "description": "<p>The commission earned by a broker when buying and selling shares. Brokerage can be charged at a flat rate or as a percentage of the sale.</p>"
+    },
+    {
+      "id": "1448d7fc-4543-4966-89c8-c069af7b8fc7",
+      "codename": "shared__budget",
+      "title": "budget",
+      "slug": "budget",
+      "description": "<p>A tool for managing money and achieving financial goals. It is a list of all the expected income and costs for a certain period of time. A budget aims to balance the income and expenses, so that the expenses are less than or equal to the income.</p>"
+    },
+    {
+      "id": "aeca4a80-863f-4674-b1de-269ce40ad86b",
+      "codename": "mst__buy_now__pay_later",
+      "title": "buy now, pay later",
+      "slug": "buy-now-pay-later",
+      "description": "<p>A service that allows a consumer to purchase a product and pay the cost in instalments. There is no interest charged on the purchase price, but there may be fees, such as an account set-up fee and late payment fees.</p>"
+    },
+    {
+      "id": "6cee81ee-c37e-40f6-97b3-e67768bdabdc",
+      "codename": "ma__capacity__internal_volume_",
+      "title": "capacity (internal volume)",
+      "slug": "capacity-internal-volume",
+      "description": "<p>Generally refers to the amount a container can hold.</p>\n<p>A term used to describe how much a container will hold. It is often used in relation to the volume of fluids. Units of capacity (volume of fluids or gases) include litres and millilitres.</p>\n<p><em>See</em> <a data-item-id=\"5dd6c5d7-ec62-4236-a480-49cb3f6611a0\" href=\"\">internal volume (capacity)</a></p>"
+    },
+    {
+      "id": "0534affd-63ff-4f44-bbcf-ab21aeaa06be",
+      "codename": "mst__capture_recapture_technique",
+      "title": "capture-recapture technique",
+      "slug": "capture-recapture-technique",
+      "description": "<p>A method for estimating the size of a population that is difficult to count directly. It involves capturing a random sample of the population, marking them with tags or labels, and releasing them back into the population. After some time, a second random sample is captured, and the number of marked individuals is recorded. Based on the ratio of marked to unmarked individuals in the second sample, the total population size can be estimated.</p>"
+    },
+    {
+      "id": "05091caf-4bcd-458f-a515-dda7f19dd95f",
+      "codename": "mst__categorical_data",
+      "title": "categorical data",
+      "slug": "categorical-data",
+      "description": "<p>Data associated with a categorical variable. Also known as qualitative data.</p>"
+    },
+    {
+      "id": "0a2b4dda-e3fe-4555-bdf2-2b5964aba968",
+      "codename": "ma__categorical_variable",
+      "title": "categorical variable",
+      "slug": "categorical-variable",
+      "description": "<p>A variable whose values belong to exactly one of a number of categories. A categorical variable describes a quality or characteristic of something. Sometimes called a discrete variable. There are 2 types of categorical variables: nominal and ordinal. For example, your home state or blood type are categorical variables.</p>"
+    },
+    {
+      "id": "ec75a969-94b1-4507-afe8-41061fdf4ac3",
+      "codename": "ma__causal",
+      "title": "causal",
+      "slug": "causal",
+      "description": "<p>Two variables with a relationship which indicates that one event is the result of the occurrence of the other event.</p>"
+    },
+    {
+      "id": "771f5b07-5ae2-467a-931d-38a761be29a3",
+      "codename": "chance",
+      "title": "chance",
+      "slug": "chance",
+      "description": "<p>A possibility of something happening.</p>"
+    },
+    {
+      "id": "8ca22f17-a6fb-4f36-9b06-b1861efa0d7a",
+      "codename": "circle",
+      "title": "circle",
+      "slug": "circle",
+      "description": "<p>All points equal to a given distance from a fixed point, the centre. When used to describe a shape, a circle includes all points inside the boundary.</p>"
+    },
+    {
+      "id": "62f34b23-187e-47fd-9bf2-217c8daff010",
+      "codename": "mst__cluster",
+      "title": "cluster",
+      "slug": "cluster",
+      "description": "<p>A group of data points that are close together or have similar values.</p>"
+    },
+    {
+      "id": "8a9e01d1-a19a-4017-b979-3ad2f6505192",
+      "codename": "ma__commission",
+      "title": "commission",
+      "slug": "commission",
+      "description": "<p>The sum or percentage paid for services, e.g. to an agent or salesperson.</p>"
+    },
+    {
+      "id": "f04e4073-64b5-4e38-8cd7-7ebf6c70208a",
+      "codename": "ma__compass_bearing",
+      "title": "compass bearing",
+      "slug": "compass-bearing",
+      "description": "<p>Angles either side of north or south. For example, a compass bearing of N50°E is found by facing north and moving through an angle of 50° to the east.</p>"
+    },
+    {
+      "id": "084584ad-cca0-4e2b-9f63-4908c7afb91b",
+      "codename": "shared__complement",
+      "title": "complement",
+      "slug": "complement",
+      "description": "<p>All of the outcomes that are not in a given event. All the elements of a set that are not in a given subset.</p>"
+    },
+    {
+      "id": "ec882a1c-e0b4-409c-a150-26761d507ad7",
+      "codename": "ma__complementary_events",
+      "title": "complementary events",
+      "slug": "complementary-events",
+      "description": ""
+    },
+    {
+      "id": "8495d0ee-248e-4ef7-a2e6-28b12e8ad2f5",
+      "codename": "ma__composite_shape",
+      "title": "composite shape",
+      "slug": "composite-shape",
+      "description": "<p>A shape that is formed by combining other plane shapes. Composite shapes are often described as 'complex' when they are made up of many and different shapes.</p>\n<figure data-asset-id=\"c8991518-25f4-46c3-b6fa-0f2a10699c3b\" data-image-id=\"c8991518-25f4-46c3-b6fa-0f2a10699c3b\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/b8c7c20b-f60b-4840-b24e-7b90589956ef/composite-shape-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"c8991518-25f4-46c3-b6fa-0f2a10699c3b\" data-image-id=\"c8991518-25f4-46c3-b6fa-0f2a10699c3b\" alt=\"A composite shape made up of 2 rectangles offset to one another and a right-angled triangle.\"></figure>"
+    },
+    {
+      "id": "a40b3d7f-7ef1-4294-9a21-f7d484aa7b38",
+      "codename": "ma__compound_interest",
+      "title": "compound interest",
+      "slug": "compound-interest",
+      "description": "<p>The interest earned by investing a sum of money (the principal) when each successive interest payment is added to the principal for calculating the next interest payment.</p>"
+    },
+    {
+      "id": "6bea9ba0-297e-472f-b59d-9258c333c79e",
+      "codename": "mst__constant_of_variation",
+      "title": "constant of variation",
+      "slug": "constant-of-variation",
+      "description": "<p>Also known as the constant of proportionality.</p>\n<p><em>See</em> <a data-item-id=\"ec3f1def-0447-4dbc-9db9-84ec5014bd3a\" href=\"\">direct</a> or <a data-item-id=\"82bbae0f-b592-4ebe-b855-c76aa37d6ac4\" href=\"\">inverse variation</a>.</p>"
+    },
+    {
+      "id": "e8fc35a9-5a23-498b-8f88-2aac86fa619a",
+      "codename": "ma__continuous_numerical_variable",
+      "title": "continuous variable",
+      "slug": "continuous-variable",
+      "description": "<p>A numerical variable that can take any value that lies within an interval. The values taken are subject to the accuracy of the measuring instrument used to obtain these values. For example, height, reaction time to a stimulus and systolic blood pressure.</p>"
+    },
+    {
+      "id": "ac6cf228-7912-4135-a20a-22c1341597cd",
+      "codename": "shared__contribution",
+      "title": "contribution",
+      "slug": "contribution",
+      "description": "<p>An amount of money that is paid into an annuity. The contribution can be made as a lump sum or as a series of payments.</p>"
+    },
+    {
+      "id": "bde27553-ed1a-4d91-a4d0-277f50ebd338",
+      "codename": "mst__coordinated_universal_time__utc_",
+      "title": "Coordinated Universal Time (UTC)",
+      "slug": "coordinated-universal-time-utc",
+      "description": "<p>The primary time standard used across the world. It is based on International Atomic Time, which is measured by atomic clocks, with leap seconds added occasionally to keep it close to the earth’s rotation. For every 15° longitude east or west of the Prime Meridian (known as 0° longitude), the time changes by 1 hour.</p>"
+    },
+    {
+      "id": "52aec673-5bf9-4024-b8de-80240c2dac05",
+      "codename": "mst__correlation",
+      "title": "correlation",
+      "slug": "correlation",
+      "description": "<p>A measure of the strength of the linear relationship between 2 variables.</p>"
+    },
+    {
+      "id": "0b9c9403-b4ba-450d-ba17-f3c8c133e36d",
+      "codename": "mav__cosecant_ratio",
+      "title": "cosecant ratio",
+      "slug": "cosecant-ratio",
+      "description": "<figure data-asset-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\" data-image-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/8c7e5f99-ec7d-46f9-8e4a-4ee56cfa996b/cosine-ratio-image-mathematics-k-10.PNG\" data-asset-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\" data-image-id=\"3a8dbc98-36ec-41ce-b726-379a49df9f59\" alt=\"A right-angled triangle with hypotenuse, opposite, and adjacent sides labelled.\"></figure>"
+    },
+    {
+      "id": "226f71ee-d8e0-4e57-9012-bd680a01a5a9",
+      "codename": "shared__cosine_rule",
+      "title": "cosine rule",
+      "slug": "cosine-rule",
+      "description": "<figure data-asset-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" data-image-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/d5ae3a50-984b-4053-91ea-acab152638d6/Mathematics%20glossary%20image%20-%20reused%20triangle.png\" data-asset-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" data-image-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" alt=\"A triangle with points A, B and C with sides a, b and c.\"></figure>"
+    },
+    {
+      "id": "6d4214ff-392f-4dfb-9b5a-684fbe455a05",
+      "codename": "shared__cost",
+      "title": "cost",
+      "slug": "cost",
+      "description": "<p>The price paid to acquire, produce, accomplish or maintain anything.</p>"
+    },
+    {
+      "id": "81b8b913-da99-4d43-9d85-04ad773a3264",
+      "codename": "shared__credit_card",
+      "title": "credit card",
+      "slug": "credit-card",
+      "description": "<p>A method for borrowing funds to purchase goods and services. Banks or financial institutions agree to loan an amount of money to an individual up to a pre-approved limit, and the individual agrees to pay back the amount plus any interest and fees that are charged.</p>"
+    },
+    {
+      "id": "ffe0ff7b-8040-48bb-ac93-3ec672e804e4",
+      "codename": "mst__critical_activity__networks_",
+      "title": "critical activity (networks)",
+      "slug": "critical-activity-networks",
+      "description": "<p>Activities that must be completed on time to ensure that the project is completed on schedule. These activities have zero float, meaning that any delay in these tasks will extend the project’s timeline.</p>"
+    },
+    {
+      "id": "b6c1f0e9-6280-48fb-b5b6-82fb69e9996c",
+      "codename": "mst__critical_path",
+      "title": "critical path",
+      "slug": "critical-path",
+      "description": "<p>The sequence of network activities that combine to have the longest overall duration so as to determine the shortest possible time needed to complete a project.</p>"
+    },
+    {
+      "id": "3218669a-0393-4020-8b4d-3783d8450da8",
+      "codename": "shared__cumulative_frequency",
+      "title": "cumulative frequency",
+      "slug": "cumulative-frequency",
+      "description": "<p>The accumulating total of frequencies within an ordered dataset.</p>"
+    },
+    {
+      "id": "5e2a7080-1595-4db4-af06-9433479f003c",
+      "codename": "shared__cumulative_frequency_histogram",
+      "title": "cumulative frequency histogram",
+      "slug": "cumulative-frequency-histogram",
+      "description": "<p>A visual representation of data using bars to represent the class boundaries and the cumulative frequencies.</p>\n<p>The area of each bar is proportional to the cumulative frequency of the observations up to the end of that class.</p>"
+    },
+    {
+      "id": "bc3a67e6-c02a-46e1-980c-40b7a7d3261f",
+      "codename": "shared__cumulative_frequency_polygon",
+      "title": "cumulative frequency polygon",
+      "slug": "cumulative-frequency-polygon",
+      "description": "<p>A series of straight lines representing the cumulative frequency for a given dataset. Sometimes called the ‘ogive’.</p>"
+    },
+    {
+      "id": "a29ffe4c-9ebb-4f5e-a1b8-c0453939a4e4",
+      "codename": "mst__currency_conversion",
+      "title": "currency conversion",
+      "slug": "currency-conversion",
+      "description": "<p>The process of converting the value of one currency to another currency. It is commonly used in foreign exchange markets where it is necessary to exchange one currency for another to purchase goods or services. The conversion rate between 2 currencies is the ratio between the values of the 2 currencies.</p>"
+    },
+    {
+      "id": "2d1497ea-d5af-49d5-963e-adcb4251c257",
+      "codename": "mst__cut__networks_",
+      "title": "cut (networks)",
+      "slug": "cut-networks",
+      "description": "<p>In a flow network, a cut partitions the vertices of a graph into 2 separate groups so that the source is in one group and the sink in the other.</p>"
+    },
+    {
+      "id": "c69b269c-8711-4c75-8083-34a6c03cd85e",
+      "codename": "ma__cylinder",
+      "title": "cylinder",
+      "slug": "cylinder",
+      "description": "<p>An object that has parallel circular discs of equal radius at the ends that are joined by a curved surface.</p>"
+    },
+    {
+      "id": "eda3acd0-2cbe-41e8-b1d7-b6b541315f92",
+      "codename": "data",
+      "title": "data",
+      "slug": "data2",
+      "description": "<p>Facts or units of information collected together.</p>"
+    },
+    {
+      "id": "0ab26200-46e9-4ae9-913e-213514aed222",
+      "codename": "ma__dataset",
+      "title": "dataset",
+      "slug": "dataset2",
+      "description": "<p>A collection of numbers or values relating to a particular subject. Datasets are normally presented in tables or represented by graphs. For example, the test scores of each student in a particular class.</p>"
+    },
+    {
+      "id": "e5354d9b-c686-48f8-9191-0f747aed7417",
+      "codename": "mst__daylight_saving",
+      "title": "daylight saving",
+      "slug": "daylight-saving",
+      "description": "<p>A system of setting clocks 1 hour ahead of the standard in spring to give more hours of daylight to the working day in summer months. In Australia, this practice is observed in some states from October to April.</p>"
+    },
+    {
+      "id": "c2e29a3c-f435-4e8b-823a-1f4110e3e47a",
+      "codename": "mst__declining_balance_method",
+      "title": "declining balance depreciation",
+      "slug": "declining-balance-depreciation",
+      "description": "<p>The value of an asset is depreciated by a fixed percentage of its initial value each year.</p>"
+    },
+    {
+      "id": "28b3bc17-8e7a-409f-945b-daa74a5013ad",
+      "codename": "mst__deduction",
+      "title": "deduction",
+      "slug": "deduction",
+      "description": "<p>An expense incurred by a worker in relation to their job or profession and which can be taken away from annual earnings to obtain the taxable income. Deductions form part of an individual’s or a company’s tax return.</p>"
+    },
+    {
+      "id": "6348af2b-a76e-40b3-a4cc-c57346f514c1",
+      "codename": "ma__degree__networks_",
+      "title": "degree (networks)",
+      "slug": "degree-networks",
+      "description": "<p>The degree of a vertex is the number of edge ends at that vertex.</p>"
+    },
+    {
+      "id": "d17dc861-8288-4f73-b0fe-95d4601d0324",
+      "codename": "ma__degrees__geometry_",
+      "title": "degrees (geometry)",
+      "slug": "degrees-geometry",
+      "description": ""
+    },
+    {
+      "id": "12472e84-22f0-47c6-a203-5bc7c272340e",
+      "codename": "ma__denominator",
+      "title": "denominator",
+      "slug": "denominator",
+      "description": ""
+    },
+    {
+      "id": "c48f008c-dbf9-425f-8284-b10c323f5898",
+      "codename": "ma__dependent_variable",
+      "title": "dependent variable",
+      "slug": "dependent-variable",
+      "description": "<p>The variable used to represent the output values of a function. A dependent variable is generally represented on the vertical axis of a graph.</p>"
+    },
+    {
+      "id": "a878ad14-1f6e-4ab2-8c18-9534bf1663b2",
+      "codename": "mst__deposit",
+      "title": "deposit",
+      "slug": "deposit",
+      "description": "<p>A sum of money that is used for financial reasons. An amount of money that is placed in a bank or other financial institution either as a lump sum or as a regular payment, or an initial payment when purchasing something, with the rest to be payable later.</p>"
+    },
+    {
+      "id": "1dfdb2f3-7b63-41bd-b029-d3adc73721df",
+      "codename": "ma__depreciation",
+      "title": "depreciation",
+      "slug": "depreciation",
+      "description": "<p>A decrease in value due to wear and tear, decay, decline in price etc.</p>"
+    },
+    {
+      "id": "9ed4fee5-bb1f-49e6-875d-bf90097fc4ec",
+      "codename": "ma__direct_variation",
+      "title": "direct variation",
+      "slug": "direct-variation",
+      "description": "<p>A proportional relationship where one quantity directly varies with respect to a change in another quantity. This implies that if there is an increase (or decrease) in one quantity then the other quantity will experience a proportionate increase (or decrease).</p>"
+    },
+    {
+      "id": "e70060dd-e398-4b64-bd92-61a29485709f",
+      "codename": "mst__directed_network",
+      "title": "directed network",
+      "slug": "directed-network",
+      "description": "<p>A network whose edges have arrows and travel is only possible in the direction of the arrows.</p>"
+    },
+    {
+      "id": "553d0562-fe47-4ae7-a19d-591ade7af27f",
+      "codename": "ma__discrete_variable",
+      "title": "discrete variable",
+      "slug": "discrete-variable",
+      "description": "<p>Individual and countable items that can be listed.</p>\n<p>Extended in Mathematics Advanced: Also known as a discrete random variable.</p>"
+    },
+    {
+      "id": "c823ba17-3951-49e1-ae52-6c86cbca6734",
+      "codename": "mst__discretionary_spending",
+      "title": "discretionary spending",
+      "slug": "discretionary-spending",
+      "description": "<p>A type of spending that is not essential or mandatory. It includes expenses, such as entertainment, clothes and gifts, that can be varied based on choice and preference.</p>"
+    },
+    {
+      "id": "4d56db92-5987-4aa5-acbd-e5d50071d27b",
+      "codename": "shared__distance",
+      "title": "distance",
+      "slug": "distance",
+      "description": "<p>The length between 2 points. Distance is a positive scalar quantity.</p>"
+    },
+    {
+      "id": "0e8d11e5-82ca-49c5-ab38-ca167c0683ed",
+      "codename": "shared__distance_time_graph",
+      "title": "distance–time graph",
+      "slug": "distance-time-graph",
+      "description": "<p>A line graph that relates distance and time, with time on the horizontal axis and distance on the vertical axis.</p>"
+    },
+    {
+      "id": "ac0dbbe4-21fd-4ac4-8e7a-c38a347a77e6",
+      "codename": "mst__dividend__shares_",
+      "title": "dividend (shares)",
+      "slug": "dividend-shares",
+      "description": "<p>A sum of money paid by a company to its shareholders out of its profits.</p>"
+    },
+    {
+      "id": "3236614b-acee-4c20-8607-5b6c3b1395b2",
+      "codename": "mst__dividend_yield",
+      "title": "dividend yield",
+      "slug": "dividend-yield",
+      "description": "<p>The dividend expressed as a percentage of the current share price.</p>"
+    },
+    {
+      "id": "4d3de89b-7e5e-403d-a488-ab6d73d96669",
+      "codename": "mst__dummy_activities",
+      "title": "dummy activities",
+      "slug": "dummy-activities",
+      "description": "<p>Operations in a network that require no time nor any resources. They are imaginary activities shown in a project network to identify the dependence among activities. They are usually represented by a dashed directed edge.</p>"
+    },
+    {
+      "id": "8007520b-27d8-4342-8efa-ccf41eeac4c1",
+      "codename": "mst__earliest_starting_time__est_",
+      "title": "earliest starting time (EST)",
+      "slug": "earliest-starting-time-est",
+      "description": "<p>The earliest time that any activity can be started after all prior activities have been completed.</p>"
+    },
+    {
+      "id": "1a4438f6-f7c8-4d6f-92d6-d4dbf0616122",
+      "codename": "ma__edge__networks_",
+      "title": "edge (networks)",
+      "slug": "edge-networks",
+      "description": "<p>A line that joins vertices to each other in a network diagram.</p>"
+    },
+    {
+      "id": "c4545a73-5327-496d-a543-1a77d88c395d",
+      "codename": "shared__empirical_rule__for_a_normally_distributed",
+      "title": "empirical rule (for a normally distributed random variable)",
+      "slug": "empirical-rule-for-a-normally-distributed-random-variable",
+      "description": ""
+    },
+    {
+      "id": "7fe66fe9-849d-4efa-a706-d5e9fe5146f8",
+      "codename": "ma__equally_likely_outcomes",
+      "title": "equally likely outcomes",
+      "slug": "equally-likely-outcomes",
+      "description": ""
+    },
+    {
+      "id": "474db9a5-c857-49f6-9871-454afd6cb760",
+      "codename": "ma__equation",
+      "title": "equation",
+      "slug": "equation",
+      "description": ""
+    },
+    {
+      "id": "9af3b05f-b543-4f1a-b627-5e52b34013a9",
+      "codename": "equivalent",
+      "title": "equivalent",
+      "slug": "equivalent",
+      "description": "<p>Two things are equivalent if they have the same value.</p>\n<p><em>See</em> <a data-item-id=\"0fa90b26-99ab-4cef-9e3b-2e14714c537f\" href=\"\">equal</a>, <a data-item-id=\"e87dae09-2e1a-44d9-b11f-e3ca471c990d\" href=\"\">equals sign</a></p>"
+    },
+    {
+      "id": "c3210cf2-7e4d-4c91-a65f-75a8ca25158b",
+      "codename": "event",
+      "title": "event",
+      "slug": "event",
+      "description": ""
+    },
+    {
+      "id": "b29adcc8-f745-4f57-97e9-396fb364e603",
+      "codename": "shared__expected_frequency",
+      "title": "expected frequency",
+      "slug": "expected-frequency",
+      "description": "<p>The number of times that a particular event or outcome is predicted to occur using theoretical probability.</p>"
+    },
+    {
+      "id": "2041247c-37ab-4af7-80cc-60427220d278",
+      "codename": "shared__experiment__random_",
+      "title": "experiment (random)",
+      "slug": "experiment-random",
+      "description": "<p>A process with an observable result. The results of the experiment are the set of possible outcomes called the sample space.</p>"
+    },
+    {
+      "id": "f0845f75-7602-4a5a-9ac3-76fb8bdf8e50",
+      "codename": "mst__exponential_model",
+      "title": "exponential model",
+      "slug": "exponential-model",
+      "description": "<p>Creating an exponential model involves fitting an exponential curve or equation to a practical situation or set of data.</p>"
+    },
+    {
+      "id": "d25ab51f-2b05-4d8f-b3d6-0947d116ce28",
+      "codename": "ma__exponential",
+      "title": "exponential relationship",
+      "slug": "exponential-relationship",
+      "description": "<figure data-asset-id=\"52571721-f10c-4e3e-adc8-e75ecfd074df\" data-image-id=\"52571721-f10c-4e3e-adc8-e75ecfd074df\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/60798266-8584-43ac-a6ea-933f1a999748/exponential-image-mathematics-k-10.png\" data-asset-id=\"52571721-f10c-4e3e-adc8-e75ecfd074df\" data-image-id=\"52571721-f10c-4e3e-adc8-e75ecfd074df\" alt=\"A graph of the exponential function, y equals 2 to the power of x, on the Cartesian plane.\"></figure>"
+    },
+    {
+      "id": "58825533-8eef-48cf-aff0-d8aa53ba54b4",
+      "codename": "ma__extrapolation",
+      "title": "extrapolate/extrapolation",
+      "slug": "extrapolate-extrapolation",
+      "description": "<p>Occurs when the fitted model, such as a line of best fit, is used to make predictions using values that are outside the range of the original data upon which the fitted model was based.</p>"
+    },
+    {
+      "id": "607a5663-ba95-4edc-802b-23a8daffb8a9",
+      "codename": "shared__finite",
+      "title": "finite",
+      "slug": "finite",
+      "description": ""
+    },
+    {
+      "id": "994b51b1-78f4-49ab-890a-4fc59505117c",
+      "codename": "ma__5_number_summary",
+      "title": "five (5)-number summary",
+      "slug": "five-5-number-summary",
+      "description": "<p>A method for summarising a dataset using 5 statistics: the minimum value, the lower quartile, the median, the upper quartile and the maximum value.</p>"
+    },
+    {
+      "id": "b32cc51e-8022-4a5f-8414-1adbfd37a5c9",
+      "codename": "mst__fixed_spending",
+      "title": "fixed spending",
+      "slug": "fixed-spending",
+      "description": "<p>A type of spending that is essential or mandatory. It includes expenses like rent or board that cannot be varied or changed.</p>"
+    },
+    {
+      "id": "4ce94d26-6e38-40f2-9a18-f2e706fe0ce8",
+      "codename": "mst__float_time",
+      "title": "float time",
+      "slug": "float-time",
+      "description": "<p>Float time is the amount of time that a task in a project network can be delayed without causing a delay to subsequent tasks.</p>"
+    },
+    {
+      "id": "b10f989d-6825-48db-8ea5-7281819c7ce6",
+      "codename": "mst__flow_capacity",
+      "title": "flow capacity",
+      "slug": "flow-capacity",
+      "description": "<p>The flow capacity of a network can be found using the maximum-flow minimum-cut theorem and depends upon the capacity of each edge in the network.</p>\n<p><em>See </em><a data-item-id=\"13905cdc-5fb9-4f0e-905d-1210c37b1c95\" href=\"\">maximum-flow minimum-cut theorem</a></p>"
+    },
+    {
+      "id": "fb309ff0-7e89-4c99-ba99-180ed55ab7b6",
+      "codename": "mst__forward_scanning__networks_",
+      "title": "forward scanning (networks)",
+      "slug": "forward-scanning-networks",
+      "description": "<p>In critical path analysis, forward scanning identifies the earliest starting time for each activity in an activity network.</p>"
+    },
+    {
+      "id": "dd828fd7-eff9-4d6a-8eb7-cdaad62f4295",
+      "codename": "ma__frequency",
+      "title": "frequency",
+      "slug": "frequency2",
+      "description": "<p>The number of times that a particular value occurs in a dataset. For grouped data, it is the number of observations that lie in that group or class interval. For example, when rolling a dice 20 times, ‘the frequency of a 6’ means how many times the number 6 comes up.</p>"
+    },
+    {
+      "id": "c495f9cb-9ca5-488e-8a62-cecfbc7c052e",
+      "codename": "ma__frequency_distribution",
+      "title": "frequency distribution",
+      "slug": "frequency-distribution",
+      "description": "<p>A visual display that organises and presents frequency counts of scores so that the information can be interpreted more easily.</p>\n<p>Frequency distributions can be displayed in tabular or graphical form.</p>"
+    },
+    {
+      "id": "3726ff49-fa9b-49e2-b2bc-31b0193546c0",
+      "codename": "mst__fuel_consumption_rate",
+      "title": "fuel consumption rate",
+      "slug": "fuel-consumption-rate",
+      "description": "<p>The fuel consumption rate of a vehicle measures how much fuel it uses and is usually measured in litres per 100 kilometres (L/100 km).</p>"
+    },
+    {
+      "id": "d6aa0b99-a425-419b-8aa8-8879d5891835",
+      "codename": "ma__future_value",
+      "title": "future value",
+      "slug": "future-value",
+      "description": "<p>The total value of an investment or annuity at the end of a specified term, including all contributions and interest earned.</p>"
+    },
+    {
+      "id": "fd760ea9-1817-4c7e-80e9-91a85f4022fa",
+      "codename": "mst__gantt_chart",
+      "title": "Gantt chart",
+      "slug": "gantt-chart",
+      "description": "<p>A bar chart showing a project schedule including a timeline and horizontal bars representing activities. The position of each bar shows the start time and duration of each activity.</p>"
+    },
+    {
+      "id": "680c72ed-dd61-4084-8415-85648783791c",
+      "codename": "shared__goods_and_services_tax__gst_",
+      "title": "goods and services tax (GST)",
+      "slug": "goods-and-services-tax-gst",
+      "description": "<p>An indirect tax that is levied at a flat percentage (rate) on most goods and services sold in Australia.</p>"
+    },
+    {
+      "id": "cbc57d69-f75e-4ddf-85c7-5203e5397215",
+      "codename": "mst__government_payments",
+      "title": "government payments",
+      "slug": "government-payments",
+      "description": "<p>Payments made by the government to individuals to provide financial support.</p>"
+    },
+    {
+      "id": "691f9ea1-ab2a-496a-a3e5-11c75eb8ae7a",
+      "codename": "ma_",
+      "title": "gradient",
+      "slug": "gradient",
+      "description": ""
+    },
+    {
+      "id": "e02560e3-d533-44b9-a63d-d8543ac98f19",
+      "codename": "ma__graph",
+      "title": "graph",
+      "slug": "graph",
+      "description": ""
+    },
+    {
+      "id": "7dc53b85-c1bb-4a28-a2d6-f85465a5bd7c",
+      "codename": "ma__hectare",
+      "title": "hectare",
+      "slug": "hectare",
+      "description": "<p>A common unit of land measure in the metric system equal to 10 000 square metres (approximately 2.47 acres).</p>"
+    },
+    {
+      "id": "324c3e10-72be-41c9-8903-19ff712baf15",
+      "codename": "mst__hyperbolic",
+      "title": "hyperbolic",
+      "slug": "hyperbolic",
+      "description": "<p>Having the shape of a hyperbola.</p>\n<p><em>See</em> <a data-item-id=\"60b7181d-719b-469f-a047-12277d579970\" href=\"\">hyperbola</a></p>"
+    },
+    {
+      "id": "46fbe9fb-49f4-438f-bb24-70b6077f006c",
+      "codename": "ma__independent_variable",
+      "title": "independent variable",
+      "slug": "independent-variable2",
+      "description": "<p>A variable used to represent values in the domain (input values) of a function. Generally represented on the horizontal axis of a graph.</p>"
+    },
+    {
+      "id": "32511925-d893-4ce6-8390-cf758b999047",
+      "codename": "mst__inflation",
+      "title": "inflation",
+      "slug": "inflation",
+      "description": "<p>A general increase in the prices of goods and services over time.</p>"
+    },
+    {
+      "id": "2bc060df-b065-4a24-a5c5-f9fe1a1a575c",
+      "codename": "mst__inflow",
+      "title": "inflow (networks)",
+      "slug": "inflow-networks",
+      "description": "<p>The amount of flow that enters a vertex in a network flow diagram. Inflow is calculated as the total flow of the edges arriving at a vertex.</p>"
+    },
+    {
+      "id": "9310c707-d87a-46e4-806f-48d9fe3c4c12",
+      "codename": "ma__infographic",
+      "title": "infographic",
+      "slug": "infographic",
+      "description": "<p>A chart, diagram or illustration (as in a book or magazine or on a website) that uses graphic elements to present information in a visually striking way.</p>"
+    },
+    {
+      "id": "511e25cd-86d9-4e79-a5a0-fa0ac4105208",
+      "codename": "ma__intercept",
+      "title": "intercept",
+      "slug": "intercept",
+      "description": ""
+    },
+    {
+      "id": "12aa602f-634b-4943-b466-4867bff2af46",
+      "codename": "shared__interest",
+      "title": "interest",
+      "slug": "interest",
+      "description": "<p>Money paid or received in return for using or lending money.</p>"
+    },
+    {
+      "id": "784614c4-3b6f-43bd-8a27-42568da533a1",
+      "codename": "mst__interest_factors",
+      "title": "interest factors",
+      "slug": "interest-factors",
+      "description": "<p>The values of an investment at a specific date. A table of these factors can be used to calculate the future value of different amounts of money that are invested at a certain interest rate for a specified period of time.</p>"
+    },
+    {
+      "id": "f78ff81b-acd4-43c0-ae60-10beca4bd772",
+      "codename": "shared__interest_rate",
+      "title": "interest rate",
+      "slug": "interest-rate",
+      "description": "<p>A percentage at which interest is charged or paid.</p>"
+    },
+    {
+      "id": "23145b49-979b-4917-8c5b-4809b38e71f0",
+      "codename": "mst__interest_free_period",
+      "title": "interest-free period",
+      "slug": "interest-free-period",
+      "description": "<p>A period of time during which no interest is charged or paid on a loan or a credit card. It is usually offered as an incentive for customers to borrow or spend money.</p>"
+    },
+    {
+      "id": "6134b6c9-21a6-438f-a957-bedf1e1702f2",
+      "codename": "ma__interpolation",
+      "title": "interpolate/interpolation",
+      "slug": "interpolate-interpolation",
+      "description": "<p>Making predictions between known data values. For example, working between 2 known points on a graph to predict a value in between these points.</p>"
+    },
+    {
+      "id": "384bb686-0235-4e5a-9f0e-5639ef41bdcc",
+      "codename": "ma__interquartile_range__iqr_",
+      "title": "interquartile range (IQR)",
+      "slug": "interquartile-range-iqr",
+      "description": "<p>The IQR is the width of an interval that contains the middle 50% (approximately) of the data values.</p>"
+    },
+    {
+      "id": "56209c9f-44a1-4ff3-b0da-26c371e419fe",
+      "codename": "ma__inverse_variation",
+      "title": "inverse variation",
+      "slug": "inverse-variation",
+      "description": ""
+    },
+    {
+      "id": "cc71d1f1-60ba-4bd4-8179-5bf4c08a0b82",
+      "codename": "shared__investment",
+      "title": "investment",
+      "slug": "investment",
+      "description": "<p>An allocation of money or capital into an asset or venture that is expected to generate a profit or return.</p>"
+    },
+    {
+      "id": "85fe44cf-81c5-4d92-bd0e-e3607a354649",
+      "codename": "mst__kilowatt_hour__kwh_",
+      "title": "kilowatt hour (kwh)",
+      "slug": "kilowatt-hour-kwh",
+      "description": "<p>A unit of energy that measures how much electricity is used or produced over a period of time. It is equal to the amount of energy delivered by one kilowatt of power for 1 hour.</p>"
+    },
+    {
+      "id": "66d335c6-7574-41b9-9ec4-d8d38cd81ddb",
+      "codename": "mst__latest_starting_time__lst_",
+      "title": "latest starting time (LST)",
+      "slug": "latest-starting-time-lst",
+      "description": "<p>The latest time an activity may be started after all prior activities have been completed and without delaying the project.</p>"
+    },
+    {
+      "id": "5326446b-1a8c-445d-9dbb-3b1ecbf52027",
+      "codename": "mst__latitude",
+      "title": "latitude",
+      "slug": "latitude",
+      "description": "<p>The angular distance of a point on the Earth’s surface north or south from the equator.</p>"
+    },
+    {
+      "id": "c805f3a2-d235-4114-aa60-7fab5bdb6b79",
+      "codename": "mst__least_squares_regression_line",
+      "title": "least-squares regression line",
+      "slug": "least-squares-regression-line",
+      "description": "<p>The line that minimises the sum of the squares of the residuals. Also known as the least-squares line of best fit.</p>"
+    },
+    {
+      "id": "2a8686b2-59c2-4244-ab74-27f92a175441",
+      "codename": "ma__line_of_best_fit",
+      "title": "line of best fit",
+      "slug": "line-of-best-fit",
+      "description": "<p>A line drawn through a scatter plot of data points that represents the nature of the relationship between 2 variables.</p>"
+    },
+    {
+      "id": "8e1a2b03-c4df-4f89-b65e-739660a1d226",
+      "codename": "shared__linear",
+      "title": "linear",
+      "slug": "linear",
+      "description": "<p>Something that can be represented or modelled by a straight line.</p>"
+    },
+    {
+      "id": "1880f338-82f3-4b84-b2fc-2abb8a92f8e2",
+      "codename": "ma__linear_equation",
+      "title": "linear equation",
+      "slug": "linear-equation",
+      "description": ""
+    },
+    {
+      "id": "415c9fa2-e2f3-4793-bab9-d7df9c3372cb",
+      "codename": "mst__linear_model",
+      "title": "linear model",
+      "slug": "linear-model",
+      "description": "<p>A straight-line graph or equation fitted to a practical situation or set of data.</p>"
+    },
+    {
+      "id": "c5a47705-e84b-4148-85aa-1afac01dafb3",
+      "codename": "ma__linear_relationship",
+      "title": "linear relationship",
+      "slug": "linear-relationship",
+      "description": ""
+    },
+    {
+      "id": "b8dd93e6-a199-475d-a322-7eecca2f8cd8",
+      "codename": "shared__loan",
+      "title": "loan",
+      "slug": "loan",
+      "description": "<p>An amount of money borrowed from a bank or other financial institution.</p>"
+    },
+    {
+      "id": "b38dc1ea-1177-4a1a-a841-e4b345176220",
+      "codename": "mst__longitude",
+      "title": "longitude",
+      "slug": "longitude",
+      "description": "<p>The angular distance of a point on the Earth’s surface east or west from the Greenwich meridian.</p>"
+    },
+    {
+      "id": "61135f3d-549f-492a-b438-c84974b4a00f",
+      "codename": "mst__loss",
+      "title": "loss",
+      "slug": "loss",
+      "description": "<p>The difference between the total cost and the total revenue of producing and selling goods or services where the cost is greater than the revenue.</p>"
+    },
+    {
+      "id": "4e7e34ee-1f3e-4cb1-870c-694a6a138884",
+      "codename": "mst__lump_sum_payment",
+      "title": "lump-sum payment",
+      "slug": "lump-sum-payment",
+      "description": "<p>A single amount paid instead of smaller instalments. Often used in the context of a loan or investment.</p>"
+    },
+    {
+      "id": "14074995-a37b-4b13-aecc-8900ab532c1d",
+      "codename": "mass",
+      "title": "mass",
+      "slug": "mass",
+      "description": "<p>The amount of matter in an object.</p>"
+    },
+    {
+      "id": "ef4f1863-d995-4105-876c-d8e04f9e7a04",
+      "codename": "mst__maximum_flow_minimum_cut_theorem",
+      "title": "maximum-flow minimum-cut theorem",
+      "slug": "maximum-flow-minimum-cut-theorem",
+      "description": "<p>The maximum-flow minimum-cut theorem states that the flow through a network cannot exceed the value of any cut in the network and that the maximum flow equals the value of the minimum cut, i.e. it identifies the bottleneck in the system.</p>"
+    },
+    {
+      "id": "46da7887-fd2b-4c9e-8704-5d3285c246fd",
+      "codename": "ma__mean",
+      "title": "mean",
+      "slug": "mean",
+      "description": "<p>The sum of values in a dataset divided by the total number of values in the dataset. Also called the average.</p>"
+    },
+    {
+      "id": "1e4d9f64-a270-4a92-baad-561bd3006890",
+      "codename": "ma__measure_of_centre",
+      "title": "measure of centre",
+      "slug": "measure-of-centre",
+      "description": "<p>A statistic that is used to summarise a dataset. There are 3 common measures of centre for a dataset: mode, median and mean.</p>"
+    },
+    {
+      "id": "94923987-da72-4751-a653-220933c0bbf4",
+      "codename": "ma__measure_of_spread",
+      "title": "measure of spread",
+      "slug": "measure-of-spread",
+      "description": "<p>In statistics, different methods of calculating the variability of a set. The most commonly used measures of spread are the range, interquartile range and standard deviation.</p>"
+    },
+    {
+      "id": "65878b80-2639-4bf6-913c-d6dc0cfe2c5c",
+      "codename": "ma__median",
+      "title": "median",
+      "slug": "median",
+      "description": "<p>The value in a set of ordered data that divides the data into 2 parts. It is frequently called the 'middle value'.</p>\n<p>Extended in Mathematics Standard and Advanced: If the number of values in the ordered dataset is even, it is the average of the two middle values. If the number of values in the dataset is odd, the median is the middle value.</p>"
+    },
+    {
+      "id": "30ef5315-94d3-4e1f-99cc-6c15e88d332b",
+      "codename": "mst__medicare_levy",
+      "title": "Medicare levy",
+      "slug": "medicare-levy",
+      "description": "<p>A tax that finances the national health insurance program, Medicare, for all Australians, calculated as a percentage of taxable income.</p>"
+    },
+    {
+      "id": "f9bb689f-3dc2-4289-8e22-85ef4ebc5331",
+      "codename": "ma__midpoint",
+      "title": "midpoint",
+      "slug": "midpoint",
+      "description": "<p>A point on a line segment or interval that divides the segment into 2 equal parts.</p>\n\n<figure data-asset-id=\"25113777-5151-4013-9d65-4ee93f41efa9\" data-image-id=\"25113777-5151-4013-9d65-4ee93f41efa9\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/46ff593b-1519-4cc5-b3f8-37c186ef8f35/midpoint-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"25113777-5151-4013-9d65-4ee93f41efa9\" data-image-id=\"25113777-5151-4013-9d65-4ee93f41efa9\" alt=\"A line between points A and B with midpoint M, points T and S also labelled. Details in definition.\"></figure>"
+    },
+    {
+      "id": "cc8517ab-50bb-4563-9830-4129153448d1",
+      "codename": "mst__minimum_cut",
+      "title": "minimum cut",
+      "slug": "minimum-cut",
+      "description": "<p>The smallest possible capacity of a cut that separates the source and sink vertices.</p>\n<p><br></p>\n<p><em>See</em> <a data-item-id=\"71187810-5c32-4934-a5ba-eee5d91603be\" href=\"\">cut (networks)</a>, <a data-item-id=\"13905cdc-5fb9-4f0e-905d-1210c37b1c95\" href=\"\">maximum-flow minimum-cut theorem</a></p>"
+    },
+    {
+      "id": "49bb0a40-b3c8-4b75-b53f-f2464265952d",
+      "codename": "mst__minimum_payment",
+      "title": "minimum payment",
+      "slug": "minimum-payment",
+      "description": "<p>The lowest amount of money required for a borrower to pay off their credit card balance each month to remain in good standing with the credit card company.</p>"
+    },
+    {
+      "id": "e12ad0d3-0d52-44db-b6d8-3eafc0ff23d8",
+      "codename": "mst__minimum_spanning_tree",
+      "title": "minimum spanning tree",
+      "slug": "minimum-spanning-tree",
+      "description": "<p>A tree of minimum length in a connected, undirected network. It connects all the vertices together with the minimum total weighting for the edges.</p>"
+    },
+    {
+      "id": "d2f50c34-731c-47d0-a50c-b96f728cbf4e",
+      "codename": "shared__minute__geometry_",
+      "title": "minute (geometry)",
+      "slug": "minute-geometry",
+      "description": ""
+    },
+    {
+      "id": "ce477d5b-a46b-42d2-9b3b-fbc1af8aa021",
+      "codename": "ma__mode",
+      "title": "mode",
+      "slug": "mode",
+      "description": "<p>The most frequently occurring value in a set of data.</p>\n<p>Extended in 7–10: There can be more than one mode. When there are 2 modes, the dataset is said to be bimodal.</p>"
+    },
+    {
+      "id": "057572dd-da6d-4610-a70f-1a69de86c69a",
+      "codename": "ct_sec_gls_model",
+      "title": "model",
+      "slug": "model",
+      "description": "<p>A mathematical, conceptual or physical representation that describes, simplifies, clarifies or provides an explanation of the structure, workings or relationships within an object, system or idea. Models can provide a means of testing and predicting behaviour within limited conditions. Models may be physical or exist in digital form.</p>"
+    },
+    {
+      "id": "efefa345-4a11-4e4f-85b8-6832582f7c87",
+      "codename": "shared__multistage_events",
+      "title": "multistage events",
+      "slug": "multistage-events",
+      "description": "<p>An event that consists of 2 or more simple experiments, e.g. tossing a coin 3 times (repeated trials), or both tossing a coin and rolling a dice (possible outcomes would be H and 5, T and 2).</p>"
+    },
+    {
+      "id": "5614f40c-eabe-47d6-bb71-e9c5d836bc09",
+      "codename": "mst__net_earnings",
+      "title": "net earnings",
+      "slug": "net-earnings",
+      "description": "<p>The amount of gross pay remaining after tax and other deductions have been made.</p>"
+    },
+    {
+      "id": "2c859575-e0ed-40aa-b9e6-58d6ab9eb9ba",
+      "codename": "ma__network",
+      "title": "network",
+      "slug": "network2",
+      "description": "<p>A set of points (vertices or nodes) some of which are joined by lines or curves (edges) that sometimes enclose regions (faces). For example, road networks, a family tree or the edges lining a tennis court.</p>\n<figure data-asset-id=\"8e87644e-af79-4a3b-a4a0-0031d3bf59fb\" data-image-id=\"8e87644e-af79-4a3b-a4a0-0031d3bf59fb\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/a78711ef-9fa9-4073-9e1f-b6bb1b0dbec0/network-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"8e87644e-af79-4a3b-a4a0-0031d3bf59fb\" data-image-id=\"8e87644e-af79-4a3b-a4a0-0031d3bf59fb\" alt=\"A diagram of a connected network consisting of 17 nodes and 30 edges.\"></figure>"
+    },
+    {
+      "id": "4b728f3d-aa9a-4d7f-b52c-00f3a7947011",
+      "codename": "mst__nominal__categorical_variable_",
+      "title": "nominal variable",
+      "slug": "nominal-variable",
+      "description": "<p>A type of categorical variable whose values have no natural order in which they may be placed, e.g. eye colour.</p>"
+    },
+    {
+      "id": "e73ceb0e-bfde-499d-aeec-ab48d0483fe6",
+      "codename": "mst__non_critical_activities__networks_",
+      "title": "non-critical activities (networks)",
+      "slug": "non-critical-activities-networks",
+      "description": "<p>Activities that can be delayed without affecting the project’s completion time.</p>"
+    },
+    {
+      "id": "343c5fe2-0f83-4eb5-914d-6547b39c7109",
+      "codename": "ma__non_linear",
+      "title": "non-linear",
+      "slug": "non-linear",
+      "description": "<p>Functions or graphs that cannot be represented by a straight line or a linear function.</p>"
+    },
+    {
+      "id": "06db70ad-6d65-4b8b-a34b-5e0ae02c3a13",
+      "codename": "shared__normal_distribution",
+      "title": "normal distribution",
+      "slug": "normal-distribution",
+      "description": "<p>A type of continuous distribution whose graph looks like this:</p>\n<figure data-asset-id=\"caff1224-6457-48f0-ac78-744543f2c56e\" data-image-id=\"caff1224-6457-48f0-ac78-744543f2c56e\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/bdad5360-90d7-441f-a65e-c2f3cfe6a5d9/Maths%20glossary%20image%20-%20normal%20distribution.png\" data-asset-id=\"caff1224-6457-48f0-ac78-744543f2c56e\" data-image-id=\"caff1224-6457-48f0-ac78-744543f2c56e\" alt=\"Bell curve showing a bell-shaped line plotted along an x-y axis. Detail in text below. \"></figure>\n<p><em>Image long description:</em> The horizontal x-axis is labelled from 100 to 200 in increments of 20 from left to right. The y-axis is labelled from 0 to 50 in increments of 10 from the bottom to the top. Along the x-axis is a series of columns that rise to a peak halfway along the axis and fall back towards 0 on the far right of the x-axis. An orange ‘bell curve’ is laid over the peaks of the columns.</p>\n<p>The mean, median and mode are equal and the scores are symmetrically arranged either side of the mean.</p>\n<p>The graph of a normal distribution is often called a ‘bell curve’ due to its shape.</p>"
+    },
+    {
+      "id": "df6fff22-e454-4e5e-ac63-76562836f259",
+      "codename": "mst__numerical_data",
+      "title": "numerical data",
+      "slug": "numerical-data",
+      "description": "<p>Data associated with a numerical variable. Also known as quantitative data.</p>"
+    },
+    {
+      "id": "62ccfb3d-195e-4345-a255-cfa8fdba1bc4",
+      "codename": "ma__numerical_variable",
+      "title": "numerical variable",
+      "slug": "numerical-variable",
+      "description": "<p>Variables whose values are numbers and for which arithmetic processes, such as adding and subtracting or calculating an average, make sense.</p>\n<p>A discrete numerical variable is a numerical variable, each of whose possible values is separated from the next by a definite 'gap'. The most common numerical variables have the counting numbers 0,&nbsp;1,&nbsp;2,&nbsp;3, … as possible values. Others are prices, measured in dollars and cents. For example, the number of children in a family or the number of days in a month.</p>"
+    },
+    {
+      "id": "6412b1cf-d662-4599-823b-03b51cba3e0a",
+      "codename": "ma__obtuse_angle",
+      "title": "obtuse angle",
+      "slug": "obtuse-angle",
+      "description": "<p>An angle bigger than a right angle (90°) but smaller than a straight angle (2 right angles, or 180°).</p>"
+    },
+    {
+      "id": "3e0f724e-309e-468a-bc53-27f4c1e665c0",
+      "codename": "mst__ordinal",
+      "title": "ordinal variable",
+      "slug": "ordinal-variable",
+      "description": "<p>A type of categorical variable whose responses have a natural order. For example, level of happiness: very unhappy, unhappy, neutral, happy, very happy.</p>"
+    },
+    {
+      "id": "f9230db1-db8f-44e1-b63c-c1bedbfaa47d",
+      "codename": "outcome",
+      "title": "outcome",
+      "slug": "outcome",
+      "description": "<p>Possible result from an experiment or trial.</p>"
+    },
+    {
+      "id": "8005b8ec-191c-4f4e-94af-60cd84a955a7",
+      "codename": "mst__outflow__networks_",
+      "title": "outflow (networks)",
+      "slug": "outflow-networks",
+      "description": "<p>The amount of flow that leaves a vertex in a network flow diagram. Outflow is calculated as the total flow of the edges exiting a vertex.</p>"
+    },
+    {
+      "id": "4b51fe7c-376f-4cc5-b4a9-b165ac1f1b23",
+      "codename": "ma__outlier",
+      "title": "outlier",
+      "slug": "outlier",
+      "description": "<p>A data value that appears to stand out from the other members of the dataset by being unusually high or low.</p>"
+    },
+    {
+      "id": "5643d798-2435-4df7-b040-ee2277a62b09",
+      "codename": "mst__overtime",
+      "title": "overtime",
+      "slug": "overtime",
+      "description": "<p>Time worked before or after regular scheduled working hours. A higher rate of pay is often earnt during this time, known as penalty rates.</p>\n<p><em>See </em><a data-item-id=\"75fbc825-2b4c-4053-a905-7c79596748be\" href=\"\">penalty rate</a></p>"
+    },
+    {
+      "id": "dcae42cc-0e56-406d-9023-231375520703",
+      "codename": "ma__parabola",
+      "title": "parabola",
+      "slug": "parabola",
+      "description": "<figure data-asset-id=\"8af60eb2-ee6f-4950-b499-06491e6a6cc8\" data-image-id=\"8af60eb2-ee6f-4950-b499-06491e6a6cc8\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/8d042a25-4455-4b29-b641-1f0dd0971f87/parabola-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"8af60eb2-ee6f-4950-b499-06491e6a6cc8\" data-image-id=\"8af60eb2-ee6f-4950-b499-06491e6a6cc8\" alt=\"A graph of a parabola.\"></figure>"
+    },
+    {
+      "id": "43622d1a-ae3f-4b2a-aec7-eaf0ad2b5c3b",
+      "codename": "ma__parallel",
+      "title": "parallel",
+      "slug": "parallel",
+      "description": "<figure data-asset-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\" data-image-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/1cefd412-7e50-4ced-8473-bde46c5149b7/parallel-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\" data-image-id=\"3248ce90-3b01-420d-bd22-84f242bdf678\" alt=\"Two parallel lines.\"></figure>"
+    },
+    {
+      "id": "3e75ef21-1a4d-4f3c-8d6a-6d123b1a9d3d",
+      "codename": "mst__path__networks_",
+      "title": "path (networks)",
+      "slug": "path-networks2",
+      "description": "<p>In a network diagram, it is a walk in which all of the edges and all the vertices are different. A path that starts and finishes at different vertices is said to be open, while a path that starts and finishes at the same vertex is said to be closed. There may be multiple paths between the same 2 vertices.</p>"
+    },
+    {
+      "id": "cbe0aeca-4704-4dd0-93d1-e865e4d1d610",
+      "codename": "mst__pay_as_you_go__payg__tax",
+      "title": "pay as you go (PAYG) tax",
+      "slug": "pay-as-you-go-payg-tax",
+      "description": "<p>A system for making regular tax instalments which are removed from gross pay towards the expected income tax liability for that financial year.</p>"
+    },
+    {
+      "id": "3e0360f1-9fa3-460b-b073-30cf6bf51919",
+      "codename": "mst__pearson_s_correlation_coefficient",
+      "title": "Pearson’s correlation coefficient",
+      "slug": "pearson-s-correlation-coefficient",
+      "description": ""
+    },
+    {
+      "id": "412e6a30-1e51-46fa-988d-7d241f2139ee",
+      "codename": "mst__penalty_rate",
+      "title": "penalty rate",
+      "slug": "penalty-rate",
+      "description": "<p>A rate of pay determined by an award, higher than the usual rate, in compensation for working outside normal hours, such as time-and-a-half and double-time.</p>"
+    },
+    {
+      "id": "a4ef3431-0d2a-40f5-ad2b-5dbe3a4189ad",
+      "codename": "mst__percentage_decrease",
+      "title": "percentage decrease",
+      "slug": "percentage-decrease",
+      "description": ""
+    },
+    {
+      "id": "e6d5c74e-6af3-4255-b4ac-a4e341a68013",
+      "codename": "mst__percentage_increase",
+      "title": "percentage increase",
+      "slug": "percentage-increase",
+      "description": ""
+    },
+    {
+      "id": "362b235f-a95d-4955-b5bb-fb7363dd36b8",
+      "codename": "ma__perpendicular",
+      "title": "perpendicular",
+      "slug": "perpendicular",
+      "description": "<p>Two lines, rays, line segments, vectors, planes or other objects that intersect at a 90° angle (a right angle).</p>"
+    },
+    {
+      "id": "1630d616-aaad-4fbf-b404-0c83afc33395",
+      "codename": "ma__piecework",
+      "title": "piecework",
+      "slug": "piecework",
+      "description": "<p>Employment where a worker is paid a fixed rate for each item produced or action performed regardless of the time taken.</p>"
+    },
+    {
+      "id": "f4ec2a1e-1de0-4e15-b600-11877dec36e5",
+      "codename": "mst__point_of_intersection",
+      "title": "point of intersection",
+      "slug": "point-of-intersection",
+      "description": ""
+    },
+    {
+      "id": "cb99fb2c-ea20-48bc-b40e-f8b678cafca1",
+      "codename": "ma__population",
+      "title": "population",
+      "slug": "population",
+      "description": "<p>The complete set of individuals, objects, places, etc., that we want information about.</p>\n<p>Extended in Mathematics Standard and Mathematics Extension 1: In statistics it is the entire dataset from which a statistical sample may be drawn.</p>"
+    },
+    {
+      "id": "8f40dacd-ee66-4fb1-9468-5b01493ad861",
+      "codename": "mst__position_coordinates",
+      "title": "position coordinates",
+      "slug": "position-coordinates",
+      "description": "<p>Used to describe the location of a point on the Earth’s surface expressed in degrees of longitude and latitude.</p>"
+    },
+    {
+      "id": "27aa8053-7c92-4b7d-958d-f51748e8906b",
+      "codename": "mst__precedence_table",
+      "title": "precedence table",
+      "slug": "precedence-table",
+      "description": "<p>A table that lists all the activities involved in a project, along with their expected durations and immediate predecessors.</p>"
+    },
+    {
+      "id": "2508264d-2800-4ed0-9f26-c5a53a1f65de",
+      "codename": "mst__present_value",
+      "title": "present value",
+      "slug": "present-value",
+      "description": "<p>The single sum of money (or principal) that could be initially invested to produce a future value over a given period of time.</p>"
+    },
+    {
+      "id": "e61934cb-0760-4239-a7b6-37de7006fff4",
+      "codename": "ma__probability",
+      "title": "probability",
+      "slug": "probability",
+      "description": "<p>The chance of something happening shown on a scale from 0 and 1 (inclusive). For example, the probability that a fair coin toss will come up ‘heads’ is 0.5.</p>"
+    },
+    {
+      "id": "1cce93cc-8dbd-434d-a6d3-5952edae7b12",
+      "codename": "mst__probability_tree",
+      "title": "probability tree",
+      "slug": "probability-tree",
+      "description": "<p>A diagram demonstrating all the possible outcomes of a series of events. A probability tree has branches that represent each event with the probability of each event written on the branch. The probability of each possible outcome is found by multiplying the probabilities along the branches.</p>\n<p><em>See </em><a data-item-id=\"d5c3e90b-2e44-4dc7-a793-6623fcac0f23\" href=\"\">tree diagram</a></p>"
+    },
+    {
+      "id": "19bf0ce5-7693-4941-948f-444998ebb58e",
+      "codename": "mst__profit",
+      "title": "profit",
+      "slug": "profit",
+      "description": "<p>The excess of total revenue above the total cost of selling goods or services.</p>"
+    },
+    {
+      "id": "deaac1b7-a9a7-4928-8f96-20ea59594fd1",
+      "codename": "ma__pronumeral",
+      "title": "pronumeral",
+      "slug": "pronumeral",
+      "description": "<p>A letter or symbol that is used to represent a value in a problem that can vary or change. Also known as a variable.</p>"
+    },
+    {
+      "id": "3b15c29e-f31e-47ad-a6ef-cef9215c0417",
+      "codename": "ma__pythagoras__theorem",
+      "title": "Pythagoras' theorem",
+      "slug": "pythagoras-theorem",
+      "description": ""
+    },
+    {
+      "id": "64480c0e-bada-4bc9-bd17-f999757618ab",
+      "codename": "ma__quadratic_equation",
+      "title": "quadratic equation",
+      "slug": "quadratic-equation",
+      "description": ""
+    },
+    {
+      "id": "49dd0f07-c224-4837-9fe9-da8d7169ce4c",
+      "codename": "ma__quadratic_expression",
+      "title": "quadratic expression",
+      "slug": "quadratic-expression",
+      "description": ""
+    },
+    {
+      "id": "b0854673-d42e-41d6-87be-30619427802f",
+      "codename": "mst__quadratic_model",
+      "title": "quadratic model",
+      "slug": "quadratic-model",
+      "description": "<p>A quadratic graph or equation fitted to a practical situation or set of data.</p>"
+    },
+    {
+      "id": "dd91b973-362a-4778-9691-c4b1790ee6b5",
+      "codename": "mst__quadratic_relationship",
+      "title": "quadratic relationship",
+      "slug": "quadratic-relationship",
+      "description": ""
+    },
+    {
+      "id": "66fbeea9-4b70-493a-b5b6-bd0e7595f16c",
+      "codename": "ma__quartiles",
+      "title": "quartiles",
+      "slug": "quartiles",
+      "description": ""
+    },
+    {
+      "id": "f859f550-8da4-4968-b901-0fbbc6dfc36d",
+      "codename": "mst__radical_survey",
+      "title": "radial survey",
+      "slug": "radial-survey",
+      "description": "<p>A radial survey can be used to measure the area of an irregular block of land. In a radial survey, a central point is chosen within the block of land and measurements are taken along intervals from this point to each vertex. The angles between these intervals at the central point are also measured and recorded.</p>"
+    },
+    {
+      "id": "54ad8f30-e5c4-4579-87a9-edbec21c65a0",
+      "codename": "__random_variable",
+      "title": "random variable",
+      "slug": "random-variable",
+      "description": "<p>A variable whose possible values are outcomes of a statistical experiment or a random phenomenon.</p>"
+    },
+    {
+      "id": "6cd7a6f3-12de-47e7-8b61-ec640dae3247",
+      "codename": "sci_sec_gls_range__of_a_dataset_",
+      "title": "range (of a dataset)",
+      "slug": "range-of-a-dataset",
+      "description": "<p>The difference between the highest and lowest values in a dataset.</p>"
+    },
+    {
+      "id": "c81c0ef3-728b-4937-a70b-9c5530c8076e",
+      "codename": "shared__rate",
+      "title": "rate",
+      "slug": "rate",
+      "description": "<p>A comparison of 2 quantities of different kinds. For example, a speed of 60km/h is a rate because it compares quantities of distance and time.</p>"
+    },
+    {
+      "id": "17576410-9595-4e64-be7b-15ef49ea5e76",
+      "codename": "shared__rate_of_change",
+      "title": "rate of change",
+      "slug": "rate-of-change",
+      "description": ""
+    },
+    {
+      "id": "42cf9a0b-0cf5-4904-8b36-3c15c9a7f567",
+      "codename": "ma__ratio",
+      "title": "ratio",
+      "slug": "ratio",
+      "description": ""
+    },
+    {
+      "id": "add1fddb-2614-426a-95b3-86a25d65037a",
+      "codename": "ma__reciprocal",
+      "title": "reciprocal",
+      "slug": "reciprocal",
+      "description": ""
+    },
+    {
+      "id": "f3d619c6-c589-4c3d-aad2-be04940532c5",
+      "codename": "mst__reciprocal_model",
+      "title": "reciprocal model",
+      "slug": "reciprocal-model",
+      "description": "<p>A reciprocal graph or equation fitted to a practical situation or set of data.</p>"
+    },
+    {
+      "id": "23926046-1f77-4a4e-a632-10c6f8a04ab8",
+      "codename": "mst__reciprocal_relationship",
+      "title": "reciprocal relationship",
+      "slug": "reciprocal-relationship",
+      "description": "<p><em>See</em> <a data-item-id=\"82bbae0f-b592-4ebe-b855-c76aa37d6ac4\" href=\"\">inverse variation</a>,<em> </em><a data-item-id=\"60b7181d-719b-469f-a047-12277d579970\" href=\"\">hyperbola</a></p>"
+    },
+    {
+      "id": "6d9e0adf-203d-47c7-ad8b-48711513f460",
+      "codename": "shared__reducing_balance_loan",
+      "title": "reducing balance loan",
+      "slug": "reducing-balance-loan",
+      "description": "<p>A reducing balance loan is a compound interest loan where the loan is repaid by making regular payments and the interest paid is calculated on the amount still owing (the reducing balance of the loan) after each payment is made.</p>"
+    },
+    {
+      "id": "7c530b30-9dd1-4d4d-b711-b70fdb10dd05",
+      "codename": "ma__relative_frequency",
+      "title": "relative frequency",
+      "slug": "relative-frequency",
+      "description": ""
+    },
+    {
+      "id": "9eeb5a4e-be94-4da7-874a-2a6e7afe2e7e",
+      "codename": "shared__repayment",
+      "title": "repayment",
+      "slug": "repayment",
+      "description": "<p>A set amount, paid at regular intervals over the period of a loan, to pay off a loan.</p>"
+    },
+    {
+      "id": "e0c74bc9-1697-4481-aa15-77e76a885f26",
+      "codename": "untitled_content_item_e0c74bc",
+      "title": "revenue",
+      "slug": "revenue",
+      "description": "<p>The total income generated from normal business operations, such as from the sale of items produced.</p>"
+    },
+    {
+      "id": "1f4d6f4f-4e29-43ab-ae95-53311c384cb7",
+      "codename": "mst__royalties",
+      "title": "royalties",
+      "slug": "royalties",
+      "description": "<p>Payment made to the owner or creator of a product or intellectual property, such as a patent, novel, song or artwork. Typically calculated as a percentage of the total sales.</p>"
+    },
+    {
+      "id": "038ee0c0-4575-47b8-9f84-4ca68387e90d",
+      "codename": "mst__salary",
+      "title": "salary",
+      "slug": "salary",
+      "description": "<p>A fixed regular payment made by an employer to an employee for their work or services. The amount of salary paid is usually expressed as an annual sum, which is then divided into equal payments over the course of the year such as weekly, fortnightly or monthly.</p>"
+    },
+    {
+      "id": "82ab9288-cbf1-4c1f-a75e-218a0481ab20",
+      "codename": "mst__salvage_value",
+      "title": "salvage value",
+      "slug": "salvage-value",
+      "description": "<p>The value of an asset after depreciation.</p>"
+    },
+    {
+      "id": "5a5cdf27-4ac5-4c4b-9c91-91d76952f472",
+      "codename": "ma__sample",
+      "title": "sample",
+      "slug": "sample",
+      "description": "<p>A subset of a population used to estimate characteristics of the population. For example, a randomly selected group of 8-year-olds (sample) selected to estimate the height of 8-year-olds in Australia (population).</p>"
+    },
+    {
+      "id": "09fd8d2e-70d3-4c93-952e-859bbebc1a97",
+      "codename": "mst__saturated_edges",
+      "title": "saturated edges",
+      "slug": "saturated-edges",
+      "description": "<p>Edges that have zero excess flow capacity.</p>"
+    },
+    {
+      "id": "26c17afc-1073-4aee-8149-49215b1f6ca7",
+      "codename": "shared__scale",
+      "title": "scale",
+      "slug": "scale",
+      "description": ""
+    },
+    {
+      "id": "90b9070a-aa3d-49a5-b7a1-66f51814efb2",
+      "codename": "mst__scale_drawing",
+      "title": "scale drawing",
+      "slug": "scale-drawing",
+      "description": "<p>A drawing of a real object with accurate sizes reduced or enlarged by the scale factor.</p>"
+    },
+    {
+      "id": "4b56fd45-d0ac-4a60-95be-762808e342b6",
+      "codename": "ma__scatter_plot",
+      "title": "scatter plot",
+      "slug": "scatter-plot2",
+      "description": "<p>A visual representation of bivariate numerical data using the position of each dot on the horizontal and vertical axis to indicate the numerical values for an individual data point. Scatter plots are used to observe relationships between variables.</p>"
+    },
+    {
+      "id": "d2290010-8670-4d95-81ed-20ec4a2f2dca",
+      "codename": "ma__scientific_notation",
+      "title": "scientific notation",
+      "slug": "scientific-notation",
+      "description": ""
+    },
+    {
+      "id": "ded7ae8c-71b7-4a73-9706-c96118621572",
+      "codename": "ma__sector",
+      "title": "sector",
+      "slug": "sector",
+      "description": "<p>The plane figure enclosed by 2 radii or a circle and the arc between them.</p>"
+    },
+    {
+      "id": "88e6d303-59f0-4e45-aa9b-1ffb2f8561ef",
+      "codename": "mst__share",
+      "title": "share",
+      "slug": "share",
+      "description": "<p>A share is one of the equal parts into which a company's capital is divided, entitling the shareholder to a portion of the company’s profits.</p>"
+    },
+    {
+      "id": "4d870ffe-4d65-439a-9bd7-b27a432d23b4",
+      "codename": "mst__shortest_path",
+      "title": "shortest path",
+      "slug": "shortest-path",
+      "description": "<p>A shortest path in a network diagram is a path between 2 vertices in a network where the sum of the weights of its edges are minimised.</p>"
+    },
+    {
+      "id": "759088c4-192b-4867-bd8a-19fd433dcd57",
+      "codename": "ma__significant_figures",
+      "title": "significant figures",
+      "slug": "significant-figures",
+      "description": ""
+    },
+    {
+      "id": "9e91e6c2-cd69-428c-a9c1-5ce4b1a93571",
+      "codename": "ma__simple_interest",
+      "title": "simple interest",
+      "slug": "simple-interest",
+      "description": "<p>The interest accumulated when the interest payment in each period is a fixed percentage of the principal (the initial lump sum of money).</p>"
+    },
+    {
+      "id": "4c787607-a840-4bb1-bcda-6fd950c436cf",
+      "codename": "ma__simultaneous_equations",
+      "title": "simultaneous equations",
+      "slug": "simultaneous-equations",
+      "description": "<p>A set of 2 or more equations, each containing 2 or more variables whose values can simultaneously satisfy all the equations in the set, the number of variables being equal to or less than the number of equations in the set.</p>"
+    },
+    {
+      "id": "df732ff5-6c24-4d67-b463-3013cffe902a",
+      "codename": "shared__sine_rule",
+      "title": "sine rule",
+      "slug": "sine-rule",
+      "description": "<figure data-asset-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" data-image-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/d5ae3a50-984b-4053-91ea-acab152638d6/Mathematics%20glossary%20image%20-%20reused%20triangle.png\" data-asset-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" data-image-id=\"3dce0aa4-54fd-4254-a2e4-e64a782ad573\" alt=\"A triangle with points A, B and C with sides a, b and c.\"></figure>\n\n<p><br></p>"
+    },
+    {
+      "id": "7585bf4b-ad99-4475-8e3e-1e588a228198",
+      "codename": "mst__sink__networks_",
+      "title": "sink (networks)",
+      "slug": "sink-networks",
+      "description": "<p>In a network flow diagram it is a vertex that has no outgoing edges and only incoming edges. It represents the destination of the flow in the network.</p>"
+    },
+    {
+      "id": "2f2bc0db-bdab-4b79-b87c-5842b23f19c2",
+      "codename": "mst__skewed",
+      "title": "skewed",
+      "slug": "skewed",
+      "description": "<p>A distribution is negatively skewed when its tail is on the left side. A distribution is positively skewed when its tail is on the right side.</p>"
+    },
+    {
+      "id": "0b19060e-90c2-449c-8c6d-6e4033ba9cf3",
+      "codename": "mst__source__networks_",
+      "title": "source (networks)",
+      "slug": "source-networks",
+      "description": "<p>In a network flow diagram it is a vertex that has no incoming edges and only outgoing edges. It represents the origin of the flow in the network.</p>"
+    },
+    {
+      "id": "d79f8619-272f-48b7-b846-4d4679c0c0a7",
+      "codename": "mst__spanning_tree",
+      "title": "spanning tree",
+      "slug": "spanning-tree",
+      "description": "<p>A spanning tree of an undirected network diagram is a tree that includes all the vertices of the original network connected together, but not necessarily all the edges of the original network diagram. A network can have many different spanning trees.</p>"
+    },
+    {
+      "id": "45cf6784-b011-4879-b17a-6739b00d5600",
+      "codename": "shared__speed",
+      "title": "speed",
+      "slug": "speed",
+      "description": ""
+    },
+    {
+      "id": "7e5c9d73-387e-43e3-a6d2-8ab9e311b448",
+      "codename": "mst__stamp_duty",
+      "title": "stamp duty",
+      "slug": "stamp-duty",
+      "description": "<p>A tax payable to the government for transactions and documents, such as motor vehicle registrations and transfers, insurance policies and mortgages.</p>"
+    },
+    {
+      "id": "39fb1b8a-ccbf-4f5e-8ffa-3aac94038663",
+      "codename": "ma__standard_deviation",
+      "title": "standard deviation",
+      "slug": "standard-deviation",
+      "description": "<p>A measure of the variability or spread of a dataset. It gives an indication of the degree to which the individual data values are spread around their mean.</p>\n<p>Extended in Mathematics Standard and Advanced: For a random variable, the standard deviation is the square root of its variance.</p>\n<p>It provides a measure of the spread of the probability density function.</p>"
+    },
+    {
+      "id": "b5dcc8da-edf6-40a3-a150-06be303e9dcb",
+      "codename": "ma__stem_and_leaf_plot",
+      "title": "stem-and-leaf plot",
+      "slug": "stem-and-leaf-plot",
+      "description": "<p>A method of organising and displaying numerical data in which each data value is split into 2 parts, a 'stem' and a 'leaf'. For example, the stem-and-leaf plot below displays the resting pulse rates of 19 students. The stem is on the left side of the vertical line and the leaves are on the right side.</p>\n<figure data-asset-id=\"c9a842ad-fe5f-4e1f-8804-2e7bffa52c06\" data-image-id=\"c9a842ad-fe5f-4e1f-8804-2e7bffa52c06\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/477a66c2-13bf-4d89-8f81-2468088b5c9f/stem-and-leaf-plot-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"c9a842ad-fe5f-4e1f-8804-2e7bffa52c06\" data-image-id=\"c9a842ad-fe5f-4e1f-8804-2e7bffa52c06\" alt=\"A plot split by a vertical line with numbers on the left (stem) and right (leaf).\"></figure>\n<p><em>See </em><a data-item-id=\"ac3e10a1-36b0-436e-894a-1654f076d710\" href=\"\">back-to-back stem-and-leaf plot</a></p>"
+    },
+    {
+      "id": "f58e4908-6bb8-41ed-bd69-0e3b05654835",
+      "codename": "mst__straight_line_depreciation_method",
+      "title": "straight-line depreciation",
+      "slug": "straight-line-depreciation",
+      "description": "<p>In straight-line method of depreciation, the value of the depreciating asset decreases by the same amount during each time period.</p>"
+    },
+    {
+      "id": "87a0ab88-82df-419d-853e-c598a9d37053",
+      "codename": "mst__superannuation",
+      "title": "superannuation",
+      "slug": "superannuation",
+      "description": "<p>A retirement fund to which financial contributions are made during a person’s working life.</p>"
+    },
+    {
+      "id": "8813a5fb-d7ab-4ef1-8bd7-ef156e1db96b",
+      "codename": "ma__surface_area",
+      "title": "surface area",
+      "slug": "surface-area",
+      "description": "<p>The measure of the total area of the surface(s) of a three-dimensional shape or object. For example, the surface area of a cube with side length of 5 units is 150 square units.</p>"
+    },
+    {
+      "id": "c13b4942-1208-49fc-95e0-b9cdebd3ee78",
+      "codename": "ma__symmetrical_distribution",
+      "title": "symmetrical distribution",
+      "slug": "symmetrical-distribution",
+      "description": "<p>When the 2 sides of the distribution are a mirror image of each other. A normal distribution is a true symmetric distribution of observed values.</p>"
+    },
+    {
+      "id": "5cc78eb6-9698-4b6a-a122-6a595416288c",
+      "codename": "shared__tax",
+      "title": "tax",
+      "slug": "tax",
+      "description": "<p>A compulsory monetary contribution required by a government for its support, levied on incomes, property value, goods purchased.</p>"
+    },
+    {
+      "id": "be90dc90-c06e-4deb-ad53-bc7b0323c10f",
+      "codename": "mst__tax_return",
+      "title": "tax return",
+      "slug": "tax-return",
+      "description": "<p>A tax return is an annual statement of all income, allowable deductions, PAYG tax paid and other personal financial information so as to allow the Australian Taxation Office to calculate the amount of income tax an individual should pay for the financial year.</p>"
+    },
+    {
+      "id": "3526714c-92a5-4149-b3e0-d4a0022e05e3",
+      "codename": "ma__taxable_income",
+      "title": "taxable income",
+      "slug": "taxable-income",
+      "description": "<p>The amount of yearly income that is used to calculate an individual’s or company’s payable income tax.</p>"
+    },
+    {
+      "id": "b4774fd2-ff13-4f8d-af72-fb6c49f668e4",
+      "codename": "mst__term_deposit",
+      "title": "term deposit",
+      "slug": "term-deposit",
+      "description": "<p>A deposit held in a bank for a fixed term to which a fixed interest rate is applied.</p>"
+    },
+    {
+      "id": "7900f094-f3a3-4694-9b80-d3e788138bba",
+      "codename": "mst__time_zones",
+      "title": "time zones",
+      "slug": "time-zones",
+      "description": "<p>The 24 divisions of the globe, where each change of 15 degrees longitude corresponds to one hour. As time zones often align with national or regional boundaries this is an approximate relationship.</p>"
+    },
+    {
+      "id": "d9233a1c-4abe-45e4-b4bb-274b9be66b8a",
+      "codename": "mst__transaction",
+      "title": "transaction",
+      "slug": "transaction",
+      "description": "<p>A purchase or payment made using a credit card. It can include purchases made in-store or online, cash advances and balance transfers.</p>"
+    },
+    {
+      "id": "6cb6cfa2-2351-42a6-a396-0f3c9b33b793",
+      "codename": "mav__trapezoidal_rule",
+      "title": "trapezoidal rule",
+      "slug": "trapezoidal-rule",
+      "description": "<p>A method of approximating the area of an irregular shape, or a region bounded by a curve and an axis, by slicing the area up into trapeziums (trapezia) of equal height.</p>"
+    },
+    {
+      "id": "d5db20ea-180c-47ec-ae6c-0169708c8cd0",
+      "codename": "mst__tree__networks_",
+      "title": "tree (networks)",
+      "slug": "tree-networks",
+      "description": "<p>A tree is an undirected network in which any 2 vertices are connected by exactly one path.</p>"
+    },
+    {
+      "id": "75a083df-12c8-4507-b88d-bb16d16310de",
+      "codename": "ma__tree_diagram",
+      "title": "tree diagram",
+      "slug": "tree-diagram",
+      "description": "<p>A diagram consisting of line segments (edges) connected to points (vertices) like the branches of a tree. It shows the relationship between sets, events or the set of outcomes of a multi-step random experiment.</p>\n<figure data-asset-id=\"8ea2ca0a-22a3-4f6a-8226-d9d23c90841e\" data-image-id=\"8ea2ca0a-22a3-4f6a-8226-d9d23c90841e\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/acf1e612-d3a1-440b-94e9-68b28e03acb2/tree-diagram-glossary-image-mathematics-k-10.png\" data-asset-id=\"8ea2ca0a-22a3-4f6a-8226-d9d23c90841e\" data-image-id=\"8ea2ca0a-22a3-4f6a-8226-d9d23c90841e\" alt=\"\"></figure>\n<p><em>See </em><a data-item-id=\"4ac5c018-ba7a-4328-88a6-4e2473217d3c\" href=\"\">probability tree</a></p>"
+    },
+    {
+      "id": "c52612b3-195f-409b-8e4a-b7603a01d6fe",
+      "codename": "shared__trial",
+      "title": "trial",
+      "slug": "trial",
+      "description": "<p>A single performance of a random experiment. Successive trials refer to repeated performances of the same experiment, each of which will therefore have the same set of possible outcomes (sample space).</p>\n<p>When there are only 2 possible outcomes they are known as Bernoulli trials.</p>"
+    },
+    {
+      "id": "d9854ef5-233a-4284-8af2-c4c168c776d9",
+      "codename": "ma__trigonometric_ratios",
+      "title": "trigonometric ratios",
+      "slug": "trigonometric-ratios",
+      "description": "<p>The relationship between the angles and sides of right-angled triangles. The 3 basic trigonometric ratios are sine, cosine and tangent.</p>\n<p><em>See </em><a data-item-id=\"7a139bf1-44ed-4997-bc2c-cb7a7ed70689\" href=\"\">sine ratio</a><em>,</em> <a data-item-id=\"2a58a1c6-2a26-460c-b9a0-434ebeeae72e\" href=\"\">cosine ratio</a> and <a data-item-id=\"8f82bbda-68cb-4782-a2cd-0d101653a089\" href=\"\">tangent ratio</a></p>"
+    },
+    {
+      "id": "51b5f2bd-5e55-4d3f-bbe2-d1627c658576",
+      "codename": "jd_test_true_bearing",
+      "title": "true bearing",
+      "slug": "true-bearing",
+      "description": ""
+    },
+    {
+      "id": "ff392011-7612-411d-8bae-38ff22185a9c",
+      "codename": "ma__two_way_table",
+      "title": "two-way table",
+      "slug": "two-way-table",
+      "description": "<p>A common way of displaying the two-way frequency distribution that arises when a group is categorised according to 2 criteria.</p>\n<figure data-asset-id=\"73053149-afd3-4c56-8ead-335c8f491f0e\" data-image-id=\"73053149-afd3-4c56-8ead-335c8f491f0e\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/2ff1ffc0-7737-440a-b520-4986139f8d2f/two-way-table-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"73053149-afd3-4c56-8ead-335c8f491f0e\" data-image-id=\"73053149-afd3-4c56-8ead-335c8f491f0e\" alt=\"A two-way table for hair colour versus hair type.\"></figure>"
+    },
+    {
+      "id": "6081095d-09eb-4ab8-b219-7fa2e20b3335",
+      "codename": "mst__unit_price",
+      "title": "unit price",
+      "slug": "unit-price",
+      "description": "<p>The price per agreed unit of a product or service, such as per kilogram, per dozen or per item. It is used to compare the cost of different quantities or packages of the same product or service.</p>"
+    },
+    {
+      "id": "88eac527-5743-407d-b4f5-7295d34418e6",
+      "codename": "mst__value_added_tax__vat_",
+      "title": "value-added tax (VAT)",
+      "slug": "value-added-tax-vat",
+      "description": "<p>A type of sales tax that is added to the purchase price of each item. VAT is used in many countries, usually as a percentage of the purchase price.</p>"
+    },
+    {
+      "id": "d4106883-db65-4630-b498-2b59b1582af3",
+      "codename": "ma__variable__algebra_",
+      "title": "variable (algebra)",
+      "slug": "variable-algebra",
+      "description": ""
+    },
+    {
+      "id": "3b35d279-7eff-40c7-ac95-fd164fe77f5d",
+      "codename": "ma__variable__statistics_",
+      "title": "variable (statistics)",
+      "slug": "variable-statistics",
+      "description": "<p>Something measurable or observable that is expected to change either over time or between individual observations. For example, the age of students, their hair colour or a playing field's length or its shape.</p>"
+    },
+    {
+      "id": "cda0efed-9b32-4249-a60f-4b11310cb356",
+      "codename": "ma__venn_diagram",
+      "title": "Venn diagram",
+      "slug": "venn-diagram",
+      "description": "<p>Graphical representations, using several typically overlapping circles, showing elements of sets in relation to properties or attributes. They are drawn for some specified universal set.</p>\n<figure data-asset-id=\"3d768249-5d7a-49f3-bb14-00d14cae39f6\" data-image-id=\"3d768249-5d7a-49f3-bb14-00d14cae39f6\"><img src=\"https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/255f9a0a-1ef1-46f8-85c4-123ceb06e05a/venn-diagram-glossary-solid-background-mathematics-k-10.png\" data-asset-id=\"3d768249-5d7a-49f3-bb14-00d14cae39f6\" data-image-id=\"3d768249-5d7a-49f3-bb14-00d14cae39f6\" alt=\"A circle labelled A overlapping with a circle labelled B.\"></figure>"
+    },
+    {
+      "id": "03dac5f0-c5b7-458a-bec5-ad2bc86e9f40",
+      "codename": "vertex",
+      "title": "vertex",
+      "slug": "vertex",
+      "description": "<p>Where 2 straight sides of a two-dimensional shape meet.</p>\n<p>Extended in 7–12: A vertex is a point in the plane where lines meet and do not extend beyond, or a point in space where several edges meet. A vertex can also refer to a node in a network. It is also the turning point of a parabola.</p>"
+    },
+    {
+      "id": "833dca5b-8f63-437e-aacc-a2c8ea5d76a5",
+      "codename": "mst__vertex__networks_",
+      "title": "vertex (networks)",
+      "slug": "vertex-networks",
+      "description": "<p>A vertex is a point in a network diagram at which lines of pathways (called edges) intersect or branch. Also called a node.</p>"
+    },
+    {
+      "id": "ddb506c9-9f51-4d20-9b2b-64cd9cc5792f",
+      "codename": "volume",
+      "title": "volume",
+      "slug": "volume",
+      "description": "<p>The amount of space occupied by an object.</p>"
+    },
+    {
+      "id": "a7a88002-5862-4608-a89d-467c1483986b",
+      "codename": "mst__wage",
+      "title": "wage",
+      "slug": "wage",
+      "description": "<p>An amount of money that is paid for work or services, based on the time spent or the work done. It is usually calculated by the hour, day or week, and paid at regular intervals, such as daily, weekly or fortnightly.</p>"
+    },
+    {
+      "id": "34bd7751-e805-412b-925c-867b4ca9479e",
+      "codename": "mst__weighted_edges",
+      "title": "weighted edges",
+      "slug": "weighted-edges",
+      "description": "<p>A weighted edge is an edge of a network diagram that has a number assigned to it, which implies some numerical value, such as cost, distance or time.</p>"
+    },
+    {
+      "id": "a00c33e5-e5c6-411a-814b-1c649bb234ab",
+      "codename": "mst__withdrawal",
+      "title": "withdrawal",
+      "slug": "withdrawal",
+      "description": "<p>The act of taking money out of a bank account or an investment.</p>"
+    },
+    {
+      "id": "4fe38505-9f70-4e73-982b-9dfff0994789",
+      "codename": "shared__z_score",
+      "title": "z-score",
+      "slug": "z-score",
+      "description": ""
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import syllabuses from '../../data/syllabuses.json';
 
 // ─── Filter dimensions ────────────────────────────────────────────────────────
 const klas = [
-  { slug: 'creative-arts', label: 'Creative Arts' },
+  { slug: 'creative_arts', label: 'Creative Arts' },
   { slug: 'english',       label: 'English' },
   { slug: 'hsie',          label: 'HSIE' },
   { slug: 'languages',     label: 'Languages' },
@@ -27,12 +27,71 @@ function stageKey(s: string) {
   return s.replace(/–/g, '-').toLowerCase();
 }
 
+// CSS variable helper — normalise underscores to hyphens for CSS var name
+function klaVar(kla: string) {
+  return `--kla-${kla.replace(/_/g, '-')}`;
+}
+
+function klaShortLabel(kla: string, label: string) {
+  if (kla === 'tas') return 'TAS';
+  if (kla === 'creative_arts') return 'Creative Arts';
+  return label;
+}
+
 const total = syllabuses.length;
 ---
 
 <Layout title="Syllabuses" description="All NSW syllabuses — browse by KLA, stage, and course type.">
 
-  <!-- ─── Filter bar ──────────────────────────────────────────────────────────── -->
+  <!-- ─── Page intro ────────────────────────────────────────────────────────── -->
+  <div class="page-intro">
+    <div class="intro-prose">
+      <h1 class="page-title">Syllabuses</h1>
+      <p>
+        All <strong>{total}</strong> NSW syllabuses from
+        <a href="https://curriculum.nsw.edu.au" target="_blank" rel="noopener">curriculum.nsw.edu.au</a>,
+        covering K–12 across all key learning areas.
+        Syllabuses marked <strong>Live</strong> have full content available on
+        the curriculum site; others are published on
+        <a href="https://educationstandards.nsw.edu.au" target="_blank" rel="noopener">NESA</a>.
+      </p>
+      <p>
+        Filter by KLA, stage, or course type below.
+        Click a syllabus name to see outcomes, content, and course details.
+      </p>
+    </div>
+
+    <aside class="related-links">
+      <h2 class="related-links-heading">
+        <wa-icon name="link" variant="solid"></wa-icon>
+        Related links
+      </h2>
+      <ul class="related-links-list">
+        <li>
+          <a href="https://curriculum.nsw.edu.au" target="_blank" rel="noopener">
+            curriculum.nsw.edu.au
+          </a>
+        </li>
+        <li>
+          <a href="https://educationstandards.nsw.edu.au/wps/portal/nesa/home" target="_blank" rel="noopener">
+            NESA — educationstandards.nsw.edu.au
+          </a>
+        </li>
+        <li>
+          <a href="https://curriculum.nsw.edu.au/use-the-curriculum/planning-supporting-student-learning" target="_blank" rel="noopener">
+            Planning and supporting student learning
+          </a>
+        </li>
+        <li>
+          <a href="/course-descriptions">
+            Course descriptions (enrolment details)
+          </a>
+        </li>
+      </ul>
+    </aside>
+  </div>
+
+  <!-- ─── Filter bar ────────────────────────────────────────────────────────── -->
   <div class="filter-bar">
     <div class="filter-left">
       <label class="filter-label" for="kla-select">KLA</label>
@@ -50,10 +109,10 @@ const total = syllabuses.length;
 
     <div class="filter-chips">
       <button class="chip chip-active" data-filter="type" data-value="">All</button>
-      <button class="chip" data-filter="type" data-value="ms">Mainstream</button>
-      <button class="chip" data-filter="type" data-value="ls">Life Skills</button>
+      <button class="chip chip-mainstream" data-filter="type" data-value="ms">Mainstream</button>
+      <button class="chip chip-lifeskills" data-filter="type" data-value="ls">Life Skills</button>
       <span class="chip-divider"></span>
-      <button class="chip chip-pub" data-filter="pub" data-value="yes">On curriculum.nsw.edu.au</button>
+      <button class="chip chip-live" data-filter="pub" data-value="yes">Live on curriculum.nsw</button>
     </div>
 
     <span class="filter-count">
@@ -61,40 +120,58 @@ const total = syllabuses.length;
     </span>
   </div>
 
-  <!-- ─── Grid ───────────────────────────────────────────────────────────────── -->
-  <div class="syl-grid" id="syl-grid">
-    {syllabuses.map(s => (
-      <a
-        href={`/syllabuses/${s.slug}`}
-        class="syl-card"
-        data-kla={s.kla ?? ''}
-        data-stage={stageKey(s.stage)}
-        data-type={(s.type ?? 'ms').toLowerCase()}
-        data-pub={s.published ? 'yes' : 'no'}
-      >
-        <div class="syl-card-top">
-          <span class="kla-chip" style={`--chip-kla: var(--kla-${s.kla ?? 'english'})`}>
-            {s.klaLabel}
-          </span>
-          {s.type === 'LS' && <span class="ls-chip">Life Skills</span>}
-        </div>
-
-        <span class="syl-name">{s.name}</span>
-
-        <div class="syl-card-bottom">
-          <span class="stage-badge">{s.stage}</span>
-          {s.isMandatory && <span class="classif-badge mandatory">Mandatory</span>}
-          {s.isElective && !s.isMandatory && <span class="classif-badge elective">Elective</span>}
-          {s.isMandatory && s.isElective && <span class="classif-badge elective">+Elective</span>}
-          {s.published && (
-            <span class="pub-badge" title="Available on curriculum.nsw.edu.au">
-              <wa-icon name="circle-check" variant="solid"></wa-icon>
-              Live
-            </span>
-          )}
-        </div>
-      </a>
-    ))}
+  <!-- ─── Table ────────────────────────────────────────────────────────────── -->
+  <div class="table-wrap">
+    <table class="syl-table" id="syl-table">
+      <thead>
+        <tr>
+          <th class="col-kla">KLA</th>
+          <th class="col-name">Syllabus</th>
+          <th class="col-stage">Stage</th>
+          <th class="col-type">Type</th>
+          <th class="col-status">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {syllabuses.map(s => (
+          <tr
+            data-kla={s.kla ?? ''}
+            data-stage={stageKey(s.stage)}
+            data-type={(s.type ?? 'ms').toLowerCase()}
+            data-pub={s.hasContent ? 'yes' : 'no'}
+          >
+            <td class="col-kla">
+              <span
+                class="kla-chip"
+                style={`--chip-kla: var(${klaVar(s.kla ?? 'english')})`}
+                title={s.klaLabel}
+              >
+                {klaShortLabel(s.kla ?? '', s.klaLabel)}
+              </span>
+            </td>
+            <td class="col-name">
+              <a href={`/syllabuses/${s.slug}`} class="syl-link">{s.name}</a>
+            </td>
+            <td class="col-stage">
+              <span class="stage-badge">{s.stage}</span>
+            </td>
+            <td class="col-type">
+              {s.type === 'LS'
+                ? <span class="type-badge ls">Life Skills</span>
+                : <span class="type-badge ms">Mainstream</span>}
+            </td>
+            <td class="col-status">
+              {s.hasContent && (
+                <span class="live-badge">
+                  <wa-icon name="circle-check" variant="solid"></wa-icon>
+                  Live
+                </span>
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
   </div>
 
   <p class="empty-state" id="syl-empty" hidden>No syllabuses match the current filters.</p>
@@ -102,13 +179,94 @@ const total = syllabuses.length;
 </Layout>
 
 <style>
+  /* ─── Page intro ─────────────────────────────────────────────────────────── */
+  .page-intro {
+    display: grid;
+    grid-template-columns: 1fr 22rem;
+    gap: var(--wa-space-xl);
+    align-items: start;
+    margin-block-end: var(--wa-space-l);
+  }
+
+  @media (max-width: 768px) {
+    .page-intro { grid-template-columns: 1fr; }
+  }
+
+  .page-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--wa-color-neutral-10);
+    margin-block: 0 var(--wa-space-s);
+  }
+
+  .intro-prose p {
+    font-size: 0.95rem;
+    color: var(--wa-color-neutral-30);
+    line-height: 1.6;
+    margin-block: 0 var(--wa-space-s);
+  }
+
+  .intro-prose a {
+    color: var(--site-brand);
+  }
+
+  /* ─── Related links box ──────────────────────────────────────────────────── */
+  .related-links {
+    background: white;
+    border: 1px solid var(--wa-color-neutral-90);
+    border-left: 3px solid var(--site-brand);
+    border-radius: var(--wa-border-radius-m);
+    padding: var(--wa-space-m) var(--wa-space-l);
+  }
+
+  .related-links-heading {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--wa-color-neutral-50);
+    margin-block: 0 var(--wa-space-s);
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-xs);
+  }
+
+  .related-links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--wa-space-xs);
+  }
+
+  .related-links-list a {
+    font-size: 0.875rem;
+    color: var(--site-brand);
+    text-decoration: none;
+    display: flex;
+    align-items: baseline;
+    gap: 0.3em;
+  }
+
+  .related-links-list a::before {
+    content: '→';
+    font-size: 0.75em;
+    color: var(--wa-color-neutral-70);
+    flex-shrink: 0;
+  }
+
+  .related-links-list a:hover {
+    text-decoration: underline;
+  }
+
   /* ─── Filter bar ─────────────────────────────────────────────────────────── */
   .filter-bar {
     position: sticky;
     top: 4rem;
     z-index: 4;
     background: white;
-    border-bottom: 1px solid var(--wa-color-neutral-200);
+    border-bottom: 1px solid var(--wa-color-neutral-90);
     padding: var(--wa-space-s) var(--wa-space-xl);
     display: flex;
     align-items: center;
@@ -127,7 +285,7 @@ const total = syllabuses.length;
   .filter-label {
     font-size: 0.8rem;
     font-weight: 600;
-    color: var(--wa-color-neutral-500);
+    color: var(--wa-color-neutral-50);
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
@@ -135,10 +293,10 @@ const total = syllabuses.length;
   .filter-select {
     font-size: 0.875rem;
     padding: 0.3rem 0.6rem;
-    border: 1px solid var(--wa-color-neutral-300);
+    border: 1px solid var(--wa-color-neutral-80);
     border-radius: var(--wa-border-radius-s);
     background: white;
-    color: var(--wa-color-neutral-900);
+    color: var(--wa-color-neutral-20);
     cursor: pointer;
   }
 
@@ -153,9 +311,9 @@ const total = syllabuses.length;
     font-size: 0.8rem;
     padding: 0.25rem 0.65rem;
     border-radius: 999px;
-    border: 1px solid var(--wa-color-neutral-300);
+    border: 1px solid var(--wa-color-neutral-80);
     background: white;
-    color: var(--wa-color-neutral-600);
+    color: var(--wa-color-neutral-40);
     cursor: pointer;
     transition: background 0.12s, border-color 0.12s, color 0.12s;
   }
@@ -171,73 +329,113 @@ const total = syllabuses.length;
     color: white;
   }
 
-  .chip-pub.chip-active {
-    background: #15803d;
-    border-color: #15803d;
-    color: white;
-  }
-
   .chip-divider {
     width: 1px;
     height: 1.25rem;
-    background: var(--wa-color-neutral-200);
+    background: var(--wa-color-neutral-90);
     display: inline-block;
     margin-inline: var(--wa-space-2xs);
+  }
+
+  /* Type chips */
+  .chip-mainstream {
+    background: #dcfce7;
+    border-color: #86efac;
+    color: #166534;
+  }
+  .chip-mainstream:hover,
+  .chip-mainstream.chip-active {
+    background: #166534;
+    border-color: #166534;
+    color: white;
+  }
+
+  .chip-lifeskills {
+    background: #f3e8ff;
+    border-color: #d8b4fe;
+    color: #6b21a8;
+  }
+  .chip-lifeskills:hover,
+  .chip-lifeskills.chip-active {
+    background: #6b21a8;
+    border-color: #6b21a8;
+    color: white;
+  }
+
+  /* Live chip */
+  .chip-live {
+    background: #dcfce7;
+    border-color: #86efac;
+    color: #166534;
+  }
+  .chip-live:hover,
+  .chip-live.chip-active {
+    background: #166534;
+    border-color: #166534;
+    color: white;
   }
 
   .filter-count {
     margin-inline-start: auto;
     font-size: 0.85rem;
-    color: var(--wa-color-neutral-500);
+    color: var(--wa-color-neutral-50);
     white-space: nowrap;
   }
 
-  /* ─── Syllabus grid ──────────────────────────────────────────────────────── */
-  .syl-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: var(--wa-space-m);
+  /* ─── Table ──────────────────────────────────────────────────────────────── */
+  .table-wrap {
     margin-block-start: var(--wa-space-l);
-  }
-
-  .syl-card {
-    display: flex;
-    flex-direction: column;
-    gap: var(--wa-space-xs);
-    padding: var(--wa-space-m);
-    background: white;
-    border: 1px solid var(--wa-color-neutral-200);
-    border-left: 3px solid var(--kla-color, var(--wa-color-neutral-300));
+    overflow-x: auto;
+    border: 1px solid var(--wa-color-neutral-90);
     border-radius: var(--wa-border-radius-m);
-    text-decoration: none;
-    color: inherit;
-    transition: box-shadow 0.15s, transform 0.12s;
+    background: white;
   }
 
-  .syl-card {
-    --kla-color: var(--kla-english); /* fallback */
-  }
-  .syl-card[data-kla="english"]       { --kla-color: var(--kla-english); }
-  .syl-card[data-kla="mathematics"]   { --kla-color: var(--kla-mathematics); }
-  .syl-card[data-kla="science"]       { --kla-color: var(--kla-science); }
-  .syl-card[data-kla="tas"]           { --kla-color: var(--kla-tas); }
-  .syl-card[data-kla="hsie"]          { --kla-color: var(--kla-hsie); }
-  .syl-card[data-kla="creative-arts"] { --kla-color: var(--kla-creative-arts); }
-  .syl-card[data-kla="pdhpe"]         { --kla-color: var(--kla-pdhpe); }
-  .syl-card[data-kla="languages"]     { --kla-color: var(--kla-languages); }
-
-  .syl-card:hover {
-    box-shadow: var(--wa-shadow-m);
-    transform: translateY(-1px);
+  .syl-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
   }
 
-  .syl-card-top {
-    display: flex;
-    gap: var(--wa-space-xs);
-    flex-wrap: wrap;
-    align-items: center;
+  .syl-table thead {
+    background: var(--wa-color-neutral-95);
+    border-bottom: 2px solid var(--wa-color-neutral-90);
   }
 
+  .syl-table th {
+    text-align: left;
+    padding: var(--wa-space-s) var(--wa-space-m);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--wa-color-neutral-50);
+    white-space: nowrap;
+  }
+
+  .syl-table td {
+    padding: var(--wa-space-s) var(--wa-space-m);
+    border-bottom: 1px solid var(--wa-color-neutral-95);
+    vertical-align: middle;
+    color: var(--wa-color-neutral-20);
+  }
+
+  .syl-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .syl-table tbody tr:hover td {
+    background: var(--wa-color-neutral-95);
+  }
+
+  /* Column widths */
+  .col-kla     { width: 8rem; }
+  .col-name    { min-width: 18rem; }
+  .col-stage   { width: 7rem; }
+  .col-type    { width: 8rem; }
+  .col-status  { width: 5rem; }
+
+  /* KLA chip */
   .kla-chip {
     font-size: 0.7rem;
     font-weight: 600;
@@ -247,81 +445,64 @@ const total = syllabuses.length;
     color: var(--chip-kla);
     text-transform: uppercase;
     letter-spacing: 0.04em;
+    white-space: nowrap;
+    display: inline-block;
   }
 
-  .ls-chip {
-    font-size: 0.7rem;
-    padding: 0.15rem 0.5rem;
-    border-radius: 999px;
-    background: var(--wa-color-neutral-100);
-    color: var(--wa-color-neutral-600);
-    font-style: italic;
-  }
-
-  .syl-name {
-    font-size: 0.95rem;
+  /* Syllabus link */
+  .syl-link {
+    color: var(--site-brand);
+    text-decoration: none;
     font-weight: 500;
-    color: var(--wa-color-neutral-900);
-    line-height: 1.35;
-    flex: 1;
   }
+  .syl-link:hover { text-decoration: underline; }
 
-  .syl-card-bottom {
-    display: flex;
-    align-items: center;
-    gap: var(--wa-space-xs);
-    flex-wrap: wrap;
-    margin-block-start: auto;
-    padding-block-start: var(--wa-space-xs);
-  }
-
+  /* Stage badge */
   .stage-badge {
     font-size: 0.75rem;
     font-weight: 600;
-    color: var(--wa-color-neutral-600);
-    background: var(--wa-color-neutral-100);
+    color: var(--wa-color-neutral-40);
+    background: var(--wa-color-neutral-95);
     padding: 0.15rem 0.45rem;
     border-radius: var(--wa-border-radius-s);
+    white-space: nowrap;
   }
 
-  .classif-badge {
-    font-size: 0.7rem;
+  /* Type badge */
+  .type-badge {
+    font-size: 0.72rem;
     padding: 0.15rem 0.45rem;
     border-radius: var(--wa-border-radius-s);
+    font-weight: 500;
+    white-space: nowrap;
   }
-  .classif-badge.mandatory {
-    background: #dbeafe;
-    color: #1e40af;
-  }
-  .classif-badge.elective {
-    background: #fef3c7;
-    color: #92400e;
-  }
+  .type-badge.ms { background: #dcfce7; color: #166534; }
+  .type-badge.ls { background: #f3e8ff; color: #6b21a8; }
 
-  .pub-badge {
-    margin-inline-start: auto;
-    display: flex;
+  /* Live badge */
+  .live-badge {
+    display: inline-flex;
     align-items: center;
     gap: 0.2rem;
     font-size: 0.72rem;
     font-weight: 600;
-    color: #15803d;
+    color: #166534;
   }
 
+  /* Empty state */
   .empty-state {
     text-align: center;
     padding: var(--wa-space-3xl);
-    color: var(--wa-color-neutral-500);
+    color: var(--wa-color-neutral-50);
   }
 </style>
 
 <script>
-  // ─── Filter logic ─────────────────────────────────────────────────────────
-  const grid   = document.getElementById('syl-grid')!;
-  const count  = document.getElementById('syl-count')!;
-  const empty  = document.getElementById('syl-empty') as HTMLParagraphElement;
-  const klaEl  = document.getElementById('kla-select') as HTMLSelectElement;
-  const stageEl= document.getElementById('stage-select') as HTMLSelectElement;
+  const table    = document.getElementById('syl-table') as HTMLTableElement;
+  const countEl  = document.getElementById('syl-count')!;
+  const emptyEl  = document.getElementById('syl-empty') as HTMLParagraphElement;
+  const klaEl    = document.getElementById('kla-select') as HTMLSelectElement;
+  const stageEl  = document.getElementById('stage-select') as HTMLSelectElement;
 
   let activeType = '';
   let activePub  = false;
@@ -334,28 +515,27 @@ const total = syllabuses.length;
   function applyFilters() {
     const kla   = klaEl.value;
     const stage = stageEl.value;
-    const cards = grid.querySelectorAll<HTMLAnchorElement>('.syl-card');
+    const rows  = table.querySelectorAll<HTMLTableRowElement>('tbody tr');
     let visible = 0;
 
-    cards.forEach(card => {
-      const matchKla   = !kla   || card.dataset.kla   === kla;
-      const matchStage = !stage || card.dataset.stage === stage;
-      const matchType  = !activeType || card.dataset.type === activeType;
-      const matchPub   = !activePub  || card.dataset.pub  === 'yes';
+    rows.forEach(row => {
+      const matchKla   = !kla        || row.dataset.kla   === kla;
+      const matchStage = !stage      || row.dataset.stage === stage;
+      const matchType  = !activeType || row.dataset.type  === activeType;
+      const matchPub   = !activePub  || row.dataset.pub   === 'yes';
       const show = matchKla && matchStage && matchType && matchPub;
-      card.hidden = !show;
+      row.hidden = !show;
       if (show) visible++;
     });
 
-    count.textContent = String(visible);
-    empty.hidden = visible > 0;
+    countEl.textContent = String(visible);
+    emptyEl.hidden = visible > 0;
   }
 
-  // Dropdowns
   klaEl.addEventListener('change', applyFilters);
   stageEl.addEventListener('change', applyFilters);
 
-  // Type chips
+  // Type chips — single select
   document.querySelectorAll<HTMLButtonElement>('[data-filter="type"]').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('[data-filter="type"]').forEach(b => b.classList.remove('chip-active'));
@@ -365,7 +545,7 @@ const total = syllabuses.length;
     });
   });
 
-  // Published chip (toggle)
+  // Live chip — toggle
   document.querySelectorAll<HTMLButtonElement>('[data-filter="pub"]').forEach(btn => {
     btn.addEventListener('click', () => {
       activePub = !activePub;
@@ -373,4 +553,7 @@ const total = syllabuses.length;
       applyFilters();
     });
   });
+
+  // Run once to apply any URL params
+  applyFilters();
 </script>

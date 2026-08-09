@@ -1,0 +1,832 @@
+{
+  "shared": [
+    {
+      "id": "30f3d3f2-be9c-4877-aa64-69c887da4863",
+      "codename": "aboriginal_torresstrait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples",
+      "slug": "aboriginal-and-torres-strait-islander-peoples",
+      "description": "<p>Aboriginal Peoples are the Traditional custodians of Australia and are represented by more than 250 language groups, each connected with a particular Country. Torres Strait Islander Peoples are represented by 5 major island groups and are connected with islands to the north of Australia’s Cape York which were annexed by Queensland in 1879.&nbsp;</p>\n<p>An Aboriginal and/or Torres Strait Islander person is someone who:&nbsp;</p>\n<ul>\n  <li>is of Aboriginal and/or Torres Strait Islander descent&nbsp;</li>\n  <li>identifies as an Aboriginal person and/or Torres Strait Islander person, and&nbsp;</li>\n  <li>is accepted as such by the Aboriginal and/or Torres Strait Islander Community(ies) in which they live.</li>\n</ul>"
+    },
+    {
+      "id": "4b808e71-8de7-49ee-937a-ae131d8fcedb",
+      "codename": "glb_prisec_gls_aboriginal_english",
+      "title": "Aboriginal English",
+      "slug": "aboriginal-english",
+      "description": "<p>A recognised dialect of English which is the first, or home language, of many Aboriginal people. It differs from other dialects of English, such as Standard Australian English, in systematic ways including sounds, grammar, words and their meanings, and language use. Aboriginal English is a powerful vehicle for the expression of Aboriginal identity. Aboriginal English is not a target language study option for NSW Aboriginal Languages syllabuses.</p>"
+    },
+    {
+      "id": "f2caa95c-15c9-4596-a628-65159bdff2c6",
+      "codename": "glb__aboriginal_songline_s_",
+      "title": "Aboriginal Songline(s)",
+      "slug": "aboriginal-songline-s",
+      "description": "<p>Texts that describe landscapes and directions of the tracks forged in lands, waters and skies by Creator Spirits during the Dreaming.</p>"
+    },
+    {
+      "id": "5ca9676c-7efb-4e25-ab1a-04b8c8586bd2",
+      "codename": "ct_sec_gls_accessibility",
+      "title": "accessibility",
+      "slug": "accessibility",
+      "description": "<p>The extent to which a system, environment or object may be used irrespective of a user’s capabilities or abilities. For example, the use of assistive technologies (AT) to allow people with disability to use computer systems, or the use of icons in place of words to allow young children to use a system.</p>"
+    },
+    {
+      "id": "e2f9a304-ddc9-43f8-b104-29135dab4732",
+      "codename": "glb_prisec_gls_assistive_technology",
+      "title": "assistive technology (AT)",
+      "slug": "assistive-technology-at",
+      "description": "<p>A device or system whose primary purpose is to maintain or improve an individual's functioning and independence to facilitate participation and enhance overall wellbeing. This includes technologies specifically designed to meet an individual's needs, eg eye gaze technology, as well as more general technologies that can be used by anyone, eg speech-to-text applications. Assistive technology can also be referred to as inclusive technology.</p>"
+    },
+    {
+      "id": "1d59c866-5720-4557-809b-6011fe3c8859",
+      "codename": "glb_prisec_gls_augmentative_and_alternative_communicati",
+      "title": "augmentative and alternative communication (AAC)",
+      "slug": "augmentative-and-alternative-communication-aac",
+      "description": "<p>An umbrella term that encompasses the communication methods used to supplement or replace speech or writing. AAC can be unaided, such as gestures, body language and sign language, or aided such as pictures, symbols, objects or speech generating devices.</p>\n<p><em>See </em><a data-item-id=\"5a7b03cb-2772-4039-b791-6f3472bfb711\" href=\"\">communication systems</a></p>"
+    },
+    {
+      "id": "c2193cf9-a042-45a3-bb21-1f01b7f86f6e",
+      "codename": "communicaton_forms",
+      "title": "communication forms",
+      "slug": "communication-forms",
+      "description": "<p>The ways people communicate and the communicative behaviours they use. Communication forms can be non-symbolic and/or symbolic. Non-symbolic forms include sounds, gestures, facial expressions and eye movements. Symbolic forms can be aided or non-aided. Aided forms of symbolic communication include objects, symbols, photographs and drawings. Aided forms can be digital. Non-aided forms of symbolic communication include formal gestures; speech; and signs, such as Key Word Sign.</p>"
+    },
+    {
+      "id": "a3e700d1-e83e-427c-9278-f7a67eb7be2e",
+      "codename": "shrd_sec_gls_copyright",
+      "title": "copyright",
+      "slug": "copyright",
+      "description": "<p>The protection provided to the creators of original works and makers of sound recordings and films, that offers a legal framework for the control and reproduction or transmission of their literary, dramatic, artistic or musical works.</p>"
+    },
+    {
+      "id": "a443b161-99de-4984-a128-3286e1d9cf8c",
+      "codename": "glb_prisec_gls_country_place",
+      "title": "Country/Place",
+      "slug": "country-place",
+      "description": "<p>Country is used to describe a specific area of a nation or clan including physical, linguistic and spiritual features. Aboriginal communities’ cultural associations with their Country may include or relate to languages, cultural practices, knowledge, songs, stories, art, paths, landforms, flora, fauna and minerals. These cultural associations may include custodial relationships with particular landscapes such as land, sea, sky, rivers as well as the intangible places associated with the Dreaming(s). Custodial relationships are extremely important in determining who may have the capacity to authentically speak for their Country.&nbsp;</p>\n<p>Place is a space mapped out by physical or intangible boundaries that individuals or groups of Torres Strait Islander Peoples occupy and regard as their own. It is a space with varying degrees of spirituality.</p>"
+    },
+    {
+      "id": "3a870154-5d78-4fc3-af2c-8113f41ed342",
+      "codename": "al_prisec_gls_culture",
+      "title": "culture",
+      "slug": "culture",
+      "description": "<p>The customs, habits, beliefs/spirituality, social organisation and ways of life that characterise different groups and communities. Cultural characteristics give a group or individual a sense of who they are and help them make sense of the world in which they live. Culture is a shared system but inherently diverse – there can be individual and group differences within cultures. Everyone has culture – it is a lens through which we see the world.</p>"
+    },
+    {
+      "id": "609822c4-eade-4974-ac3f-88eb9006855e",
+      "codename": "glb_prisec_gls_custodians",
+      "title": "custodians",
+      "slug": "custodians",
+      "description": "<p>In Aboriginal communities, an individual charged with maintaining and passing on particular elements of cultural significance, eg language, stories, songs, rituals and imagery.</p>"
+    },
+    {
+      "id": "765611ae-67e2-43fa-8d2e-d1bb37f6e106",
+      "codename": "glb__d_deaf",
+      "title": "d/Deaf",
+      "slug": "d-deaf",
+      "description": "<p>When referring to deaf people who belong to a linguistic and cultural minority known as the Deaf community, the 'D' may be capitalised in reference to the individual, the group, or the culture in order to accord respect and deference, for example, the Deaf community. When referring simply to audiological status or when cultural affiliation is not known, as in the case of a person with a hearing loss in general, the lowercase 'd', as in 'deaf' is the more common usage.</p>"
+    },
+    {
+      "id": "0df4f33e-0075-431b-9e30-e1dcf8667ccb",
+      "codename": "glb_prisec_gls_deaf_01",
+      "title": "Deaf",
+      "slug": "deaf",
+      "description": "<p>A cultural identity for people with hearing loss who share a common culture and who usually have a shared sign language.</p>"
+    },
+    {
+      "id": "9c5d8d3a-2cb8-4fbc-b9b3-873da95325de",
+      "codename": "glb_prisec_gls_disability",
+      "title": "disability",
+      "slug": "disability",
+      "description": "<p>An umbrella term for any or all of the following components:&nbsp;</p>\n<ul>\n  <li>impairments: challenges in body function or structure</li>\n  <li>activity limitations: difficulties in executing activities</li>\n  <li>participation restrictions: challenges an individual may experience in involvement in life situations. (World Health Organization)</li>\n</ul>"
+    },
+    {
+      "id": "67122a51-b3f5-464a-bac8-d75cb8e0f86e",
+      "codename": "al_prisec_gls_diversity",
+      "title": "diversity",
+      "slug": "diversity",
+      "description": "<p>Differences that exist within a group, for example, age, sex, gender, gender expression, sexuality, ethnicity, ability/disability, body shape and composition, culture, religion/spirituality, learning differences, socioeconomic background, values and experiences.</p>"
+    },
+    {
+      "id": "55c5b3f1-a4c5-443b-b00c-de047b03d98e",
+      "codename": "glb_prisec_gls_dreaming",
+      "title": "Dreaming",
+      "slug": "dreaming",
+      "description": "<p>The Dreaming has different meanings for different Aboriginal groups. The Dreaming can be seen as the embodiment of Aboriginal creation which gives meaning to everything; the essence of Aboriginal beliefs about creation and spiritual and physical existence. It establishes the rules governing relationships between the people, the land and all things for Aboriginal Peoples. The Dreaming is linked to the past, the present and the future. Where appropriate, refer to Aboriginal names for the Dreaming.</p>"
+    },
+    {
+      "id": "d5dfb36e-072e-4aca-b2f9-6f284ba50f98",
+      "codename": "glb_prisec_gls_elders",
+      "title": "Elders",
+      "slug": "elders",
+      "description": "<p>The custodians of knowledge and lore. They are chosen and accepted by their own communities as people who have the permission to disclose cultural knowledge and beliefs. Recognised Elders are highly respected people within Aboriginal communities. Proper consultation with local Aboriginal communities will often direct schools to recognised Elders.</p>"
+    },
+    {
+      "id": "6b89c8fe-25c0-4e5c-bca0-9bc3bb633f0d",
+      "codename": "glb_prisec_gls_first_language_s_",
+      "title": "first language(s)",
+      "slug": "first-language-s",
+      "description": "<p>The first language(s) that a person learns to speak.</p>"
+    },
+    {
+      "id": "84bcafed-8c0e-4b92-a657-3f9ebf9abca1",
+      "codename": "glb_prisec_gls_indigenous",
+      "title": "Indigenous",
+      "slug": "indigenous",
+      "description": "<p>An internationally recognised term for the first peoples of a land. In NSW the term Aboriginal person/Peoples is preferred.</p>\n<p><em>See </em><a data-item-id=\"29f68caa-2b19-42e1-bda1-96417d869611\" href=\"\">Aboriginal and Torres Strait Islander Peoples</a></p>"
+    },
+    {
+      "id": "d594fc47-7229-42f7-9f79-8cac41711b21",
+      "codename": "glb_prisec_gls_indigenous_cultural_and_intellectual_pro",
+      "title": "Indigenous cultural and intellectual property (ICIP)",
+      "slug": "indigenous-cultural-and-intellectual-property-icip",
+      "description": "<p>Includes, but is not limited to, objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"b21a5560-6da4-43e1-8dcb-6e1da7c132ff\" href=\"\">intellectual property</a></p>"
+    },
+    {
+      "id": "c3fb5105-ad4f-4a1e-9a9e-c852617d8ab1",
+      "codename": "ct_sec_gls_intellectual_property",
+      "title": "intellectual property",
+      "slug": "intellectual-property",
+      "description": "<p>Non-material assets such as forms of cultural expression that belong to a particular individual or community. Intellectual property rights refer to the rights that the law grants to individuals for the protection of creative, intellectual, scientific and industrial activity, such as inventions.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"f8638921-35c3-4464-9ca8-cd2941979c1d\" href=\"\">Indigenous cultural and intellectual property (ICIP)</a>, and <a data-item-id=\"5b64cfa8-f494-4de1-a5cf-c7060d4124a1\" href=\"\">copyright</a></p>"
+    },
+    {
+      "id": "e00cf5b4-3d52-4f2f-9116-60634685c663",
+      "codename": "key_word_sign",
+      "title": "Key Word Sign",
+      "slug": "key-word-sign",
+      "description": "<p>A communication strategy that incorporates signing with speech. It is used to support language development for people with communication difficulties. Although Key Word Sign uses a simplified form of manual signing, it is different to Auslan, as it is not a signed language.</p>"
+    },
+    {
+      "id": "664a1694-d4ac-43a5-9c04-dab964482129",
+      "codename": "glb_prisec_gls_kinship",
+      "title": "kinship",
+      "slug": "kinship",
+      "description": "<p>A key aspect of Aboriginal cultures and values. It includes the importance of all relationships and of being related to and belonging to the land.</p>"
+    },
+    {
+      "id": "3af61696-fac2-4b46-9265-5c38336c6634",
+      "codename": "glb_prisec_gls_language_group",
+      "title": "language group",
+      "slug": "language-group",
+      "description": "<p>An Aboriginal community identified with a common language, both verbal and nonverbal, and with a particular territory. Used in preference to the term ‘tribe’.</p>"
+    },
+    {
+      "id": "4f988065-71ac-4c02-89d5-c9e6c8c0768f",
+      "codename": "al_prisec_gls_language_revival",
+      "title": "language revival",
+      "slug": "language-revival",
+      "description": "<p>The process and range of strategies for increasing knowledge and use of a&nbsp;language that is no longer spoken fluently across all generations in the context of language loss or language dispossession caused by colonisation. Aboriginal Languages and Torres Strait Islander Languages are being revived through community initiatives, linguistic research and school programs.&nbsp;‘Language revival’ may be used as an overarching term that could also include ‘reclamation’, ‘revitalisation’, ‘renewal’ and ‘reawakening’.</p>"
+    },
+    {
+      "id": "1a7c334d-af48-4df1-95ae-9444cc417384",
+      "codename": "glb_prisec_gls_local_aboriginal_community",
+      "title": "local Aboriginal community",
+      "slug": "local-aboriginal-community",
+      "description": "<p>A local Aboriginal community is constituted by those people who are Aboriginal and who reside in the near locality. Aboriginal communities will have a rich and diverse history that has been seriously affected by dispossession and relations, which sees families with spiritual connection to Country residing beside those who have been forced to move from other locations. The notion of locality is complex and multilayered: schools should seek advice from a range of people and/or organisations representing local interests.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"a539ee9e-f9ea-4fc4-a926-e779d0d14cd0\" href=\"\">community(ies)</a></p>"
+    },
+    {
+      "id": "4f8c39f9-a256-4ef6-8390-c6bd2bbb0c85",
+      "codename": "glb_prisec_gls_off_country",
+      "title": "off-Country",
+      "slug": "off-country",
+      "description": "<p>Taking place away from Aboriginal land or Country of origin.&nbsp;</p>\n<p><em>See </em><a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "44dc6bff-7faf-4327-9c64-8b8308a72598",
+      "codename": "glb_prisec_gls_on_country",
+      "title": "on-Country",
+      "slug": "on-country",
+      "description": "<p>Taking place on Aboriginal land or Country of origin.</p>\n<p><em>See</em> <a data-item-id=\"1ba30598-e48d-4a21-8bb5-307c72af1222\" href=\"\">Country/Place</a></p>"
+    },
+    {
+      "id": "d53d7a97-cf23-48af-89bc-39679d026157",
+      "codename": "glb_prisec_gls_protocols",
+      "title": "protocols",
+      "slug": "protocols",
+      "description": "<p>The appropriate ways of behaving, communicating and showing respect for diversity of history and culture. This involves appreciation of the knowledge, standing and status of people within the local Aboriginal community and the school community. Protocols inevitably vary between communities, and between people within a community. In establishing a partnership between schools and Aboriginal communities, it is especially important that protocols are acknowledged and respected.</p>"
+    },
+    {
+      "id": "bbddc190-01b0-4f28-b8a2-8ece83b97685",
+      "codename": "glb_prisec_gls_sign",
+      "title": "sign",
+      "slug": "sign",
+      "description": "<p>Hand signs (or hand talk) used to supplement or replace oral language. Signs form part of nonverbal communication for Aboriginal and Torres Strait Islander Peoples and may be used by people who are hearing, or d/Deaf or hard of hearing. Aboriginal and Torres Strait Islander Sign Languages may be used in some areas. Some Sign Languages may be associated with sacred ceremonial practices.</p>"
+    },
+    {
+      "id": "68cb9d20-6052-4706-93bd-43cbefe9981b",
+      "codename": "al_prisec_gls_signage",
+      "title": "signage",
+      "slug": "signage",
+      "description": "<p>The use of words, graphic designs and/or symbols used to communicate a message, eg information signs, plaques, warning signs, road signs, signs that show direction.</p>"
+    },
+    {
+      "id": "795a52b0-9fcf-4b35-a4e0-e1fdb3505421",
+      "codename": "switch",
+      "title": "switch",
+      "slug": "switch",
+      "description": "<p>A type of assistive technology that enables people with cognitive and/or physical disability to access a range of devices, including computers and communication devices. Switches can be activated by touch, or triggered without contact, such as through eye gaze, sound or blowing.</p>\n<p><em>See</em> <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technology (AT)</a></p>"
+    },
+    {
+      "id": "25bc4c40-d17d-4686-b723-a7f032827e75",
+      "codename": "glb__yarning_circle",
+      "title": "yarning circle",
+      "slug": "yarning-circle",
+      "description": "<p>Yarning circles are an important cultural practice for Aboriginal and Torres Strait Islander Peoples to learn within the collective group. Knowledge and information are shared in harmony and respect with all individuals.</p>"
+    }
+  ],
+  "specific": [
+    {
+      "id": "dd8dc1fe-5f68-497e-bcb0-f3dccd6c0d22",
+      "codename": "gee__aboriginal_and_torres_strait_islander_peoples",
+      "title": "Aboriginal and Torres Strait Islander Peoples' Knowledge systems",
+      "slug": "aboriginal-and-torres-strait-islander-peoples-knowledge-systems",
+      "description": "<p>The ways of Knowing, Being and Doing developed by Aboriginal and Torres Strait Islander Peoples. These Cultural Knowledge systems are closely connected to Country, Place, Culture and Community.</p>"
+    },
+    {
+      "id": "6ad22e83-54cd-4a70-8e13-6863284f8167",
+      "codename": "ge__bearing",
+      "title": "bearing",
+      "slug": "bearing2",
+      "description": "<p>A direction from one point on the Earth’s surface to another, measured in degrees from 0 to 360.</p>"
+    },
+    {
+      "id": "1d5c4718-63f8-4106-947f-61baf8ad9b97",
+      "codename": "ge__biodiversity",
+      "title": "biodiversity",
+      "slug": "biodiversity",
+      "description": "<p>The variety of living organisms within a particular habitat, ecosystem, biome, or globally.</p>"
+    },
+    {
+      "id": "f0c6c914-f2e1-4720-bc63-93fb135bf090",
+      "codename": "gee__biodiversity_hotspots",
+      "title": "biodiversity hotspots",
+      "slug": "biodiversity-hotspots",
+      "description": "<p>Areas rich in different species that are under threat.</p>"
+    },
+    {
+      "id": "ce763ded-028a-48c9-9c92-fff1cc3e3740",
+      "codename": "ge__biophysical",
+      "title": "biophysical",
+      "slug": "biophysical",
+      "description": "<p>Biological and physical elements of the environment. It includes various life forms, both plant and animal, and elements such as temperature, light, humidity and soil nutrients.</p>"
+    },
+    {
+      "id": "6cc7566d-b171-4b3d-8f25-31edf949d6b1",
+      "codename": "untitled_content_item_6cc7566",
+      "title": "bubble charts",
+      "slug": "bubble-charts",
+      "description": "<p>Type of graph that displays data points as bubbles on a 2-dimensional axis. The size, colour and position of a bubble can represent different variables.</p>"
+    },
+    {
+      "id": "82304ea3-b183-4738-8809-9b8c282452ed",
+      "codename": "ge710__cartogram_maps",
+      "title": "cartogram maps",
+      "slug": "cartogram-maps",
+      "description": "<p>A map in which the size of the countries are adjusted to illustrate the distribution of a feature or statistic.</p>"
+    },
+    {
+      "id": "9345bf12-f9f3-47ff-a1b6-fdbc5df6029b",
+      "codename": "ge__cartographic_conventions",
+      "title": "cartographic conventions",
+      "slug": "cartographic-conventions",
+      "description": "<p>Accepted practices associated with constructing and interpreting maps, e.g. using a border, orientation or compass point, legend or key, title, scale, giving latitude readings before longitude.</p>"
+    },
+    {
+      "id": "d2d156cc-aee7-4ad0-9414-0fe6444f2f23",
+      "codename": "ge710__characteristics",
+      "title": "characteristics",
+      "slug": "characteristics2",
+      "description": "<p>The tangible and intangible elements of a place or environment.</p>"
+    },
+    {
+      "id": "154b089a-fc9a-4a13-9e13-0ea2e8b254ab",
+      "codename": "hs__choropleth_maps",
+      "title": "choropleth maps",
+      "slug": "choropleth-maps",
+      "description": "<p>A thematic map with shadings to provide quantitative information about different areas or regions.</p>"
+    },
+    {
+      "id": "0bfe08a7-4286-424c-a4cb-ae25d73893d4",
+      "codename": "ge__climate",
+      "title": "climate",
+      "slug": "climate",
+      "description": "<p>The average types of weather, including seasonal variations, experienced by a place or region over a long period of time.</p>"
+    },
+    {
+      "id": "f939531c-c181-41bf-91b0-6abbf89f8468",
+      "codename": "ge__climate_change",
+      "title": "climate change",
+      "slug": "climate-change",
+      "description": "<p>A long-term change in regional or global climate patterns, e.g. annual precipitation, frequency of weather events.</p>"
+    },
+    {
+      "id": "6a594d30-d718-497d-912c-6fed5d8cb29d",
+      "codename": "hs__climate_graphs",
+      "title": "climate graphs",
+      "slug": "climate-graphs",
+      "description": "<p>A graph showing average monthly temperature and precipitation for a location.</p>"
+    },
+    {
+      "id": "3b869a62-5ea1-4d9d-80f9-8ab50b2f80c7",
+      "codename": "ge710__contour_lines",
+      "title": "contour lines",
+      "slug": "contour-lines",
+      "description": "<p>Lines on a map that indicate altitude.</p>"
+    },
+    {
+      "id": "ce04cefa-977d-449a-93d9-d8d452ffbf6f",
+      "codename": "ge710__cross_section",
+      "title": "cross-section",
+      "slug": "cross-section2",
+      "description": "<p>A graphical representation constructed as a line graph that depicts a vertical slice through the Earth’s surface and provides a sideways view of the landscape.</p>"
+    },
+    {
+      "id": "c9195121-6fb8-46cd-8cb0-1c61795801cf",
+      "codename": "ge710__cultural_mapping",
+      "title": "Cultural mapping",
+      "slug": "cultural-mapping",
+      "description": "<p>Creating a record of a landscape that is alive with activity, including Culture, Lore, language and ethics.</p>"
+    },
+    {
+      "id": "384abfe6-4e8e-493a-bc8c-101be5adb34d",
+      "codename": "ge710__density",
+      "title": "density",
+      "slug": "density2",
+      "description": "<p>The concentration of a feature in a specific area, e.g. the number of buildings per square kilometre.</p>"
+    },
+    {
+      "id": "6cc73f93-58ef-4a8c-9d08-0e3b9e33f508",
+      "codename": "ge710__deposition",
+      "title": "deposition",
+      "slug": "deposition",
+      "description": "<p>The process by which eroded materials are laid down in a new location.</p>"
+    },
+    {
+      "id": "cc4a584b-3b57-4b55-8011-94957e7deaec",
+      "codename": "ge710__dot_maps",
+      "title": "dot maps",
+      "slug": "dot-maps",
+      "description": "<p>A thematic map that uses dots to mark locations where a phenomenon occurs.</p>"
+    },
+    {
+      "id": "3d0522d2-9c67-4848-826c-9aa0701e282d",
+      "codename": "gee__ecological",
+      "title": "ecological",
+      "slug": "ecological",
+      "description": "<p>Relating to the interactions between living organisms and their environment, including how species depend on and affect one another within ecosystems.</p>"
+    },
+    {
+      "id": "87884c39-7ca0-4f49-8872-6d1e7d5d6bc0",
+      "codename": "ge__ecosystem",
+      "title": "ecosystem",
+      "slug": "ecosystem",
+      "description": "<p>A system formed by the interaction of biotic organisms with each other and with the abiotic components of the environment in which they live.</p>\n<p>While an ecosystem may be synonymous with a specific environment, the ‘system’ approach enables a focus on the various components and their interconnected nature.</p>"
+    },
+    {
+      "id": "26dc0066-2e18-4d4f-b4d4-1dfb488dd833",
+      "codename": "gee__environmental_stewardship",
+      "title": "environmental stewardship",
+      "slug": "environmental-stewardship",
+      "description": "<p>Caring for the environment in a responsible and respectful way so that it remains healthy for future generations. In Aboriginal and Torres Strait Islander Cultures, environmental stewardship is guided by Cultural connections to Country and Place, where caring for the environment also means caring for Community.</p>"
+    },
+    {
+      "id": "bd6cbd1d-6ea1-419a-af1b-5ff0dd72f9b2",
+      "codename": "st__erosion",
+      "title": "erosion",
+      "slug": "erosion",
+      "description": "<p>The process by which soil, rocks and other surface materials are carried away, by the actions of water, wind or ice.</p>"
+    },
+    {
+      "id": "e53b4c52-8b07-4165-94fa-fcf992e101ee",
+      "codename": "gee__extreme_environmental_events",
+      "title": "extreme environmental events",
+      "slug": "extreme-environmental-events",
+      "description": "<p>Hazardous and often unpredictable occurrences, such as floods, bushfire or cyclones, that can cause major environmental, social and economic impacts.</p>"
+    },
+    {
+      "id": "2fb13146-93c7-43da-9ea3-97ed9d8b57c6",
+      "codename": "gee__extreme_environments",
+      "title": "extreme environments",
+      "slug": "extreme-environments",
+      "description": "<p>A specific location with severe natural conditions that challenge survival, often marked by extreme climate, limited resources or chemically intense settings.</p>"
+    },
+    {
+      "id": "967d2116-395e-4e1c-87fd-4282562b34a6",
+      "codename": "hs__features",
+      "title": "features",
+      "slug": "features",
+      "description": "<p>The tangible elements of a place or environment.</p>"
+    },
+    {
+      "id": "995a94a7-7ca1-413b-b205-bc5fb871714f",
+      "codename": "ge710__field_sketches",
+      "title": "field sketches",
+      "slug": "field-sketches",
+      "description": "<p>A type of visual representation created during fieldwork activities used to record the main geographical features observed.</p>"
+    },
+    {
+      "id": "cd4ee12b-d7c4-45ad-8de6-b507f6a1e594",
+      "codename": "ge710__fieldwork_transects",
+      "title": "fieldwork transects",
+      "slug": "fieldwork-transects",
+      "description": "<p>A straight measured line between 2 points along which environmental features are observed and recorded. Often measured with a tape measure or rope.</p>"
+    },
+    {
+      "id": "b0af82f8-ae06-44bb-8969-772e7e068bc4",
+      "codename": "ge710__flowline_maps",
+      "title": "flowline maps",
+      "slug": "flowline-maps",
+      "description": "<p>Map showing the flows of people, goods, information or ideas between places.</p>"
+    },
+    {
+      "id": "0f40821d-cab7-405f-ba4d-affb0232c08e",
+      "codename": "ge710__geographic_information_system__gis_",
+      "title": "geographic information system (GIS)",
+      "slug": "geographic-information-system-gis",
+      "description": "<p>Technology for capturing, storing, analysing and presenting geographic data. It is used to understand spatial relationships and patterns.</p>"
+    },
+    {
+      "id": "7ad3c8e0-cb96-4878-84d2-9a3c5fb386bd",
+      "codename": "ge__geomorphic",
+      "title": "geomorphic",
+      "slug": "geomorphic",
+      "description": "<p>Relating to the form of the landscape and other features on the Earth’s surface.</p>"
+    },
+    {
+      "id": "88a6ed1c-855f-49c3-a436-91be20282d81",
+      "codename": "gee__geophysical",
+      "title": "geophysical",
+      "slug": "geophysical",
+      "description": "<p>Relating to the Earth’s processes and forces, including those occurring on and beneath its surface.</p>"
+    },
+    {
+      "id": "c5ee1239-fa13-4073-ab80-448670880b82",
+      "codename": "ge__geopolitical",
+      "title": "geopolitical",
+      "slug": "geopolitical",
+      "description": "<p>Politics and international relations as influenced by geographical factors, e.g. related to space, place and environment.</p>"
+    },
+    {
+      "id": "cc7fed60-babf-422a-b7ba-5512c31ba23c",
+      "codename": "gee__geothermal_zones",
+      "title": "geothermal zones",
+      "slug": "geothermal-zones",
+      "description": "<p>Areas on Earth’s surface, or underground where heat from the Earth’s interior rises to the surface, often characterised by volcanic activity, hot springs or geysers.</p>"
+    },
+    {
+      "id": "81014279-c9b5-4e01-8513-4e5fc211b190",
+      "codename": "gee__global_air_circulation",
+      "title": "global air circulation",
+      "slug": "global-air-circulation",
+      "description": "<p>The large-scale movement of air that redistributes heat and moisture around the Earth, forming wind belts, pressure zones and influencing climate patterns.</p>"
+    },
+    {
+      "id": "c42b3f48-0034-4de6-b0e8-cc36b4b6abc4",
+      "codename": "ge710__global_positioning_systems__gps_",
+      "title": "global positioning systems (GPS)",
+      "slug": "global-positioning-systems-gps",
+      "description": "<p>Navigation systems that provide location and time information when there is a line of sight to GPS satellites.</p>"
+    },
+    {
+      "id": "3cd8646e-5608-4a22-a10f-b33bfa0d747c",
+      "codename": "ge710__graduated_or_proportional_symbol_maps",
+      "title": "graduated or proportional symbol maps",
+      "slug": "graduated-or-proportional-symbol-maps",
+      "description": "<p>A map where symbols vary in size according to the value they represent.</p>"
+    },
+    {
+      "id": "897683dd-4102-4a32-bdb9-f6143b8af903",
+      "codename": "gee__insolation",
+      "title": "insolation",
+      "slug": "insolation",
+      "description": "<p>The amount of solar energy reaching the Earth over a specific period, influenced by the planet’s tilt, orbit and atmospheric scattering and absorption.</p>"
+    },
+    {
+      "id": "ca636429-f0a9-4440-b8fb-1b985006f5ba",
+      "codename": "ge710__isoline_maps",
+      "title": "isoline maps",
+      "slug": "isoline-maps",
+      "description": "<p>A thematic map which has lines joining places that have the same value of any selected element, e.g. rainfall, temperature or ocean depth.</p>"
+    },
+    {
+      "id": "a6fb49c3-b082-406e-bfaf-ab49a5783973",
+      "codename": "ge710__land_use_maps",
+      "title": "land use maps",
+      "slug": "land-use-maps",
+      "description": "<p>A map showing how land is used, e.g. for infrastructure, settlements or agriculture.</p>"
+    },
+    {
+      "id": "26e0a60b-3c28-4629-8998-dba7b2ccd7eb",
+      "codename": "ge710__large_scale_maps",
+      "title": "large-scale maps",
+      "slug": "large-scale-maps",
+      "description": "<p>A map that covers a small area with a comprehensive amount of detail.</p>"
+    },
+    {
+      "id": "ad27d82d-0b44-44fb-972d-c1300f28a959",
+      "codename": "ge710__latitude_and_longitude",
+      "title": "latitude and longitude",
+      "slug": "latitude-and-longitude",
+      "description": "<p>Lines on a map used to find broad locations in degrees or precise locations in degrees and minutes, north/south of the equator and east/west of the Greenwich meridian.</p>"
+    },
+    {
+      "id": "e9832950-bd37-477f-a834-aab0674f232a",
+      "codename": "ge710__line_drawings",
+      "title": "line drawings",
+      "slug": "line-drawings",
+      "description": "<p>A type of black-and-white illustration that uses lines to represent the main features of a geographical area without detailed shading or colour.</p>"
+    },
+    {
+      "id": "7960348e-baa6-4bb2-88f5-fcc4954eb816",
+      "codename": "gee__maritime_boundaries",
+      "title": "maritime boundaries",
+      "slug": "maritime-boundaries",
+      "description": "<p>Divisions of maritime space where different countries have rights to use and control the water, seabed and natural resources.</p>"
+    },
+    {
+      "id": "eb953d2d-e3ff-4b52-974c-25582c35ca71",
+      "codename": "gee__maritime_choke_points",
+      "title": "maritime choke points",
+      "slug": "maritime-choke-points",
+      "description": "<p>A narrow maritime passage critical for global shipping and trade where congestion or disruption can significantly affect transport routes and security.</p>"
+    },
+    {
+      "id": "2494f7a8-0559-4d78-85ce-33f0b11bef72",
+      "codename": "lst__nation_state",
+      "title": "nation-state",
+      "slug": "nation-state",
+      "description": "<p>A country with defined borders, a recognised government and common nationality.</p>"
+    },
+    {
+      "id": "6c81cd18-ec3c-4208-82f3-39c4d94ec566",
+      "codename": "gee__natural_disaster",
+      "title": "natural disaster",
+      "slug": "natural-disaster",
+      "description": "<p>When a natural hazard results in extensive damage to people, places and environments.</p>"
+    },
+    {
+      "id": "fd74f1eb-6d9f-4e5a-aa0b-548a4d081665",
+      "codename": "ge__natural_hazard",
+      "title": "natural hazard",
+      "slug": "natural-hazard",
+      "description": "<p>Atmospheric, hydrological and geomorphic processes and events in the environment that have the potential to damage the environment and endanger communities, e.g. bushfires, tropical cyclones, floods, earthquakes.</p>"
+    },
+    {
+      "id": "fd6114f9-ce25-4cf4-9642-c8d400340818",
+      "codename": "gee__navigational_rights",
+      "title": "navigational rights",
+      "slug": "navigational-rights",
+      "description": "<p>Legal freedoms under international law that allow ships to pass through oceans, such as territorial seas, straits and exclusive economic zones.</p>"
+    },
+    {
+      "id": "09710c22-883a-4102-823f-79b149d3cd88",
+      "codename": "hs__oral_histories",
+      "title": "Oral histories",
+      "slug": "oral-histories",
+      "description": "<p>An account of the past shared through Oral traditions such as song and story.</p>\n<p><em>See </em><a data-item-id=\"3417f0d0-222c-4578-aba7-cb523a4483bf\" href=\"\">Oral traditions</a></p>"
+    },
+    {
+      "id": "d7be92cd-3410-4e4b-8f52-4a25a0d9e10c",
+      "codename": "ge710__photo_sketches",
+      "title": "photo sketches",
+      "slug": "photo-sketches",
+      "description": "<p>A type of sketch based on a photograph used to highlight key features or elements of the landscape or area of study.</p>"
+    },
+    {
+      "id": "9960e613-1653-4e55-bf4b-7106ea63b923",
+      "codename": "ge710__physical_features__on_a_map_",
+      "title": "physical features (on a map)",
+      "slug": "physical-features-on-a-map",
+      "description": "<p>Physical or natural features located in an environment.</p>"
+    },
+    {
+      "id": "6c69d974-b744-4fb4-8310-1829acde830c",
+      "codename": "ge710__physical_maps",
+      "title": "physical maps",
+      "slug": "physical-maps",
+      "description": "<p>A map that displays natural features of the Earth’s surface.</p>"
+    },
+    {
+      "id": "438d8f4c-175b-4843-a549-c6e1ebf176bb",
+      "codename": "ge710__political_maps",
+      "title": "political maps",
+      "slug": "political-maps",
+      "description": "<p>A map displaying the boundaries of countries, states and cities, and which highlights political divisions.</p>"
+    },
+    {
+      "id": "447ca9b0-4b33-4d91-8862-8212afe12d16",
+      "codename": "ge710__population_profiles",
+      "title": "population profiles",
+      "slug": "population-profiles",
+      "description": "<p>A graph showing the age and gender composition of a population.</p>"
+    },
+    {
+      "id": "c5b1f684-8333-42d0-b1e7-fdd4265def9c",
+      "codename": "gee__pressure_systems",
+      "title": "pressure systems",
+      "slug": "pressure-systems",
+      "description": "<p>Large-scale patterns of high or low atmospheric pressure that influence wind, rainfall and weather conditions over regions.</p>"
+    },
+    {
+      "id": "407c9810-bc24-415d-be60-88748ebb3aac",
+      "codename": "gee__primary_production",
+      "title": "primary production",
+      "slug": "primary-production",
+      "description": "<p>The harvesting or extraction of natural resources from the environment to produce raw materials in industries such as agriculture, mining, fishing and forestry.</p>"
+    },
+    {
+      "id": "28d3c0e3-e129-47bc-877c-458ca702b52c",
+      "codename": "ge710__productivity",
+      "title": "productivity",
+      "slug": "productivity",
+      "description": "<p>The amount of biomass or living plant material produced through photosynthesis that influences ecosystems and food chain dynamics.</p>"
+    },
+    {
+      "id": "7602da25-6fe1-47a7-bdc3-42878801884c",
+      "codename": "ge710__precis_maps",
+      "title": "précis maps",
+      "slug": "precis-maps",
+      "description": "<p>A simple sketch map, drawn from a topographic map or photograph, showing the key patterns and features of an area by omitting minor details.</p>"
+    },
+    {
+      "id": "ea3776c2-eed5-4333-8b84-ffb4beecdf60",
+      "codename": "ctls__quantitative_data",
+      "title": "quantitative data",
+      "slug": "quantitative-data",
+      "description": "<p>Information that can be expressed with numbers.</p>"
+    },
+    {
+      "id": "02a19779-d735-4cd3-a2bc-6a5d43adb950",
+      "codename": "ge710__relief_maps",
+      "title": "relief maps",
+      "slug": "relief-maps",
+      "description": "<p>A 3-dimensional map showing the shape of the land and distinctive landforms (terrain) or a 2-dimensional map representing 3D terrain.</p>"
+    },
+    {
+      "id": "1b23b767-dd5c-406b-a7fe-d8fd4b2ae0ea",
+      "codename": "ge710__remote_sensing_data",
+      "title": "remote sensing data",
+      "slug": "remote-sensing-data",
+      "description": "<p>Information collected from satellites or aircraft about Earth’s geographical features from a distance.</p>"
+    },
+    {
+      "id": "5821ffe7-9bd9-4910-b8dc-b2c0b684148a",
+      "codename": "ge710__scatter_plot",
+      "title": "scatter plot",
+      "slug": "scatter-plot",
+      "description": "<p>A graph of 2 variables where individual data points are plotted on a horizontal and vertical axis. Scatter plots are used to observe relationships between variables.</p>"
+    },
+    {
+      "id": "dd7d2500-1200-490f-b7e8-77c73e4ad2f9",
+      "codename": "ge710__sector_graphs",
+      "title": "sector graphs",
+      "slug": "sector-graphs",
+      "description": "<p>A graph that divides a circle into segments or sectors, each representing a portion of a whole.</p>"
+    },
+    {
+      "id": "7c906bba-eb1d-4ebd-9d13-d01aa31ab91c",
+      "codename": "ge710__sketch_maps",
+      "title": "sketch maps",
+      "slug": "sketch-maps",
+      "description": "<p>A simplified map or illustration outlining the main geographical features of an area.</p>"
+    },
+    {
+      "id": "4730a122-3b85-4634-9971-6f3ec29db720",
+      "codename": "ge710__small_scale_maps",
+      "title": "small-scale maps",
+      "slug": "small-scale-maps",
+      "description": "<p>A map that covers a large area with limited amount of detail.</p>"
+    },
+    {
+      "id": "2258b824-c123-4a94-a05b-552cb158a1ca",
+      "codename": "gee__sovereignty",
+      "title": "sovereignty",
+      "slug": "sovereignty",
+      "description": "<p>The authority of a state, community or political unit to govern itself and exercise control over its territory, population, resources and internal affairs without external interference.</p>"
+    },
+    {
+      "id": "de5cb53d-0ae3-4c2b-938e-5bed5572a142",
+      "codename": "ge__spatial_distribution",
+      "title": "spatial distribution",
+      "slug": "spatial-distribution",
+      "description": "<p>The location and arrangement of particular features, phenomena or activities across the surface of the Earth.</p>"
+    },
+    {
+      "id": "4f77d197-d2ab-413b-91e9-a6bab4ba643e",
+      "codename": "ge710__spatial_patterns",
+      "title": "spatial patterns",
+      "slug": "spatial-patterns",
+      "description": "<p>The positioning or organisation of phenomena or features in a geographic space.</p>"
+    },
+    {
+      "id": "d83d4632-8dd7-4121-9920-5c945e52c21d",
+      "codename": "gee__spatial_scale",
+      "title": "spatial scale",
+      "slug": "spatial-scale",
+      "description": "<p>The size and extent of a geographical space, ranging from local to global scales.</p>"
+    },
+    {
+      "id": "6dd32be0-d299-4aa7-8d2c-47fa0a2ff015",
+      "codename": "ge710__spatial_variation",
+      "title": "spatial variation",
+      "slug": "spatial-variation",
+      "description": "<p>The difference or variation in natural and human-made features over an area of the Earth’s surface.</p>"
+    },
+    {
+      "id": "f273456e-5c95-42d5-b9dc-bf4f7272c47c",
+      "codename": "ge710__special_purpose_maps",
+      "title": "special-purpose maps",
+      "slug": "special-purpose-maps",
+      "description": "<p>A map designed to be used for a particular purpose or by a group of users.</p>"
+    },
+    {
+      "id": "0dcd7176-bbfa-413b-b8dc-52090ee4ea0f",
+      "codename": "ge710__tactile_graphics_and_models",
+      "title": "tactile graphics and models",
+      "slug": "tactile-graphics-and-models",
+      "description": "<p>Diagrams and 3D representations produced with raised lines, shapes and textured surfaces that can be explored visually and/or tactually.</p>"
+    },
+    {
+      "id": "9574c063-4066-4cf2-853d-2cfdd269fe9d",
+      "codename": "sci_sec_gls_tectonic_plate",
+      "title": "tectonic plate",
+      "slug": "tectonic-plate",
+      "description": "<p>A massive, irregularly shaped slab of solid rock, generally composed of both continental and oceanic lithosphere (also called ‘lithospheric plate’).</p>"
+    },
+    {
+      "id": "0127fe61-dc1f-49ba-a190-e70c0d9af564",
+      "codename": "gee__temporal_scale",
+      "title": "temporal scale",
+      "slug": "temporal-scale",
+      "description": "<p>The timeframe over which a geographical process, pattern or event occurs ranging from short-term to long-term.</p>"
+    },
+    {
+      "id": "32f430db-8004-47bb-9f4b-a6b959996fa5",
+      "codename": "ge710__thematic_maps",
+      "title": "thematic maps",
+      "slug": "thematic-maps",
+      "description": "<p>Maps that feature one theme or topic and that use colour, shading, dots, symbols or lines joining places of equal value, e.g. a choropleth map or isoline map.</p>"
+    },
+    {
+      "id": "a6be6ab7-8fa0-4b81-8b9f-8f24ae54ce0f",
+      "codename": "ge710__topographic_maps",
+      "title": "topographic maps",
+      "slug": "topographic-maps",
+      "description": "<p>A detailed, large-scale map of part of the Earth’s surface which illustrates the shape of the land and selected natural and human features.</p>"
+    },
+    {
+      "id": "35d63444-e34f-42bd-a924-2f9e4800dd81",
+      "codename": "gee__topography",
+      "title": "topography",
+      "slug": "topography",
+      "description": "<p>The relief and configuration of a landscape, including its natural and man-made features.</p>"
+    },
+    {
+      "id": "3f9cc4fc-1b8e-4b06-a3d6-7865b40ca13f",
+      "codename": "gee__transcontinental",
+      "title": "transcontinental",
+      "slug": "transcontinental",
+      "description": "<p>Extending across a continent.</p>"
+    },
+    {
+      "id": "a696d392-b70e-4ff7-92c1-78a92159db51",
+      "codename": "ge710__transect",
+      "title": "transect",
+      "slug": "transect",
+      "description": "<p>A straight line drawn on a map between 2 points, used to represent changes in elevation, landforms and other geographical features along the path.</p>"
+    },
+    {
+      "id": "4efe0a6f-d65b-420c-8219-3b91c85014d1",
+      "codename": "gee__vegetation_zones",
+      "title": "vegetation zones",
+      "slug": "vegetation-zones",
+      "description": "<p>Large areas of land classified by dominant plant types and climate conditions.</p>"
+    },
+    {
+      "id": "a29b239c-c4d1-4bed-a6e6-737bc529eb85",
+      "codename": "ge710__virtual_or_digital_map",
+      "title": "virtual or digital map",
+      "slug": "virtual-or-digital-map",
+      "description": "<p>Maps that are interactive and can include zooming, panning, layering and search functionality.</p>"
+    },
+    {
+      "id": "a991fe2b-187d-41cd-b900-693e12bedecf",
+      "codename": "st__weather",
+      "title": "weather",
+      "slug": "weather",
+      "description": "<p>The state of the atmosphere at a particular place and time, with respect to wind, precipitation, temperature, cloud cover, humidity and air pressure.</p>"
+    },
+    {
+      "id": "1f18ae39-ba31-4e22-8eca-929d7c413ae5",
+      "codename": "ge710__weather_map_or_synoptic_chart",
+      "title": "weather map or synoptic chart",
+      "slug": "weather-map-or-synoptic-chart",
+      "description": "<p>A map showing atmospheric conditions at the Earth’s surface at a point in time.</p>"
+    },
+    {
+      "id": "8f32ef26-d0d6-4c97-ae81-efb50e58aaa6",
+      "codename": "ge710__weathering",
+      "title": "weathering",
+      "slug": "weathering",
+      "description": "<p>The breaking down of rock and surface materials that have been exposed to the natural processes of weather, chemical reactions, and actions of plants and animals.</p>"
+    }
+  ]
+}

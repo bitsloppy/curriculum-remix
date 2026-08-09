@@ -1,0 +1,1757 @@
+{
+  "slug": "enterprise-computing-11-12-2022",
+  "overview": "<p>The <em>Enterprise Computing 11–12</em> <em>Syllabus </em>aligns with the <a data-item-id=\"5808c9ac-a235-41d0-a500-72cc53bc4720\" href=\"\">Computing Technology Life Skills 11–12 Syllabus</a> to provide opportunities for integrated delivery.</p>\n<p>Through <a href=\"https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/Diversity-in-learning/stage-6-special-education/collaborative-curriculum-planning\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">collaborative curriculum planning</a>, it may be decided that <a href=\"https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/Diversity-in-learning/stage-6-special-education/life-skills\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">Life Skills outcomes and content</a> are the most appropriate option for some students with intellectual disability.</p>\n<h4>Organisation of Enterprise Computing 11–12</h4>\n<p>The Year 11 course provides students with the opportunity to develop and apply an understanding of enterprise computing systems in the safe and secure usage and storage of data. This is done by manipulating tools and resources while being aware of their social, ethical and legal implications.</p>\n<p>The Year 12 course provides students with the opportunity to extend their knowledge and understanding of enterprise computing systems. This will then be applied to the development of a major enterprise project using project management skills.</p>\n<p>Figure 1 shows the organisation of Enterprise Computing 11–12.</p>\n\n<p><em>Image long description: </em>This is a diagram outlining the organisation of content for the Enterprise Computing 11–12 Syllabus. Content is listed in boxes. Interactive media and the user experience, Networking systems and social computing, and Principles of cybersecurity fall under Year 11 on the left. Data science, Data visualisation, Intelligent systems and Enterprise project fall under Year 12 on the right. In the middle is Learning through project work, with lines coming from this box and encircling the content. Surrounding all content of the diagram is a line which is joined at the bottom by a box labelled, Skills. This demonstrates that Skills is being both developed and used in all focus areas.</p>\n<h4>Protocols for collaborating with Aboriginal and Torres Strait Islander Communities</h4>\n<p>NESA is committed to working in partnership with Aboriginal Communities and supporting teachers, schools and schooling sectors to improve educational outcomes for young people.</p>\n<p>It is important to respect appropriate ways of interacting with Aboriginal Communities and Cultural material when teachers plan, program and implement learning experiences that focus on Aboriginal and Torres Strait Islander Priorities.</p>\n<p>Indigenous Cultural and Intellectual Property (ICIP) protocols need to be followed. Aboriginal and Torres Strait Islander Peoples’ ICIP protocols include Cultural Knowledges, Cultural Expression and Cultural Property and documentation of Aboriginal and Torres Strait Islander Peoples’ identities and lived experiences. It is important to recognise the diversity and complexity of different Cultural groups in NSW, as protocols may differ between local Aboriginal Communities.</p>\n<p>Teachers should work in partnership with Elders, parents, Community members, Cultural Knowledge Holders, or a local, regional or state Aboriginal Education Consultative Group. It is important to respect Elders and the roles of men and women. Local Aboriginal Peoples should be invited to share their Cultural Knowledges with students and staff when engaging with Aboriginal histories and Cultural Practices.</p>",
+  "overviewSections": [
+    {
+      "heading": null,
+      "level": null,
+      "isAccordion": false,
+      "html": "<p>The <em>Enterprise Computing 11–12</em> <em>Syllabus </em>aligns with the <a data-item-id=\"5808c9ac-a235-41d0-a500-72cc53bc4720\" href=\"\">Computing Technology Life Skills 11–12 Syllabus</a> to provide opportunities for integrated delivery.</p>\n<p>Through <a href=\"https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/Diversity-in-learning/stage-6-special-education/collaborative-curriculum-planning\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">collaborative curriculum planning</a>, it may be decided that <a href=\"https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/Diversity-in-learning/stage-6-special-education/life-skills\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">Life Skills outcomes and content</a> are the most appropriate option for some students with intellectual disability.</p>"
+    },
+    {
+      "heading": "Organisation of Enterprise Computing 11–12",
+      "level": 4,
+      "isAccordion": false,
+      "html": "<p>The Year 11 course provides students with the opportunity to develop and apply an understanding of enterprise computing systems in the safe and secure usage and storage of data. This is done by manipulating tools and resources while being aware of their social, ethical and legal implications.</p>\n<p>The Year 12 course provides students with the opportunity to extend their knowledge and understanding of enterprise computing systems. This will then be applied to the development of a major enterprise project using project management skills.</p>\n<p>Figure 1 shows the organisation of Enterprise Computing 11–12.</p>\n<p class=\"fig-caption\">Figure 1: The organisation of content for Enterprise Computing 11–12 Syllabus</p>\n<p><em>Image long description: </em>This is a diagram outlining the organisation of content for the Enterprise Computing 11–12 Syllabus. Content is listed in boxes. Interactive media and the user experience, Networking systems and social computing, and Principles of cybersecurity fall under Year 11 on the left. Data science, Data visualisation, Intelligent systems and Enterprise project fall under Year 12 on the right. In the middle is Learning through project work, with lines coming from this box and encircling the content. Surrounding all content of the diagram is a line which is joined at the bottom by a box labelled, Skills. This demonstrates that Skills is being both developed and used in all focus areas.</p>"
+    },
+    {
+      "heading": "Protocols for collaborating with Aboriginal and Torres Strait Islander Communities",
+      "level": 4,
+      "isAccordion": false,
+      "html": "<p>NESA is committed to working in partnership with Aboriginal Communities and supporting teachers, schools and schooling sectors to improve educational outcomes for young people.</p>\n<p>It is important to respect appropriate ways of interacting with Aboriginal Communities and Cultural material when teachers plan, program and implement learning experiences that focus on Aboriginal and Torres Strait Islander Priorities.</p>\n<p>Indigenous Cultural and Intellectual Property (ICIP) protocols need to be followed. Aboriginal and Torres Strait Islander Peoples’ ICIP protocols include Cultural Knowledges, Cultural Expression and Cultural Property and documentation of Aboriginal and Torres Strait Islander Peoples’ identities and lived experiences. It is important to recognise the diversity and complexity of different Cultural groups in NSW, as protocols may differ between local Aboriginal Communities.</p>\n<p>Teachers should work in partnership with Elders, parents, Community members, Cultural Knowledge Holders, or a local, regional or state Aboriginal Education Consultative Group. It is important to respect Elders and the roles of men and women. Local Aboriginal Peoples should be invited to share their Cultural Knowledges with students and staff when engaging with Aboriginal histories and Cultural Practices.</p>"
+    }
+  ],
+  "rationale": "<p>The study of <em>Enterprise Computing 11–12</em> enables students to develop an understanding of the function and purpose of digital tools and processes, and the importance of data in enterprise information systems. This allows students to effectively use and manage digital tools and technologies in commercial and other settings.</p>\n<p>Students are encouraged to develop an entrepreneurial mindset by working collaboratively, growing specialised communication skills, and applying system, design and computational thinking skills. The knowledge and skills developed in this course ensure students can contribute to a world increasingly reliant on the manipulation and use of digital systems.</p>\n<p>Students develop an understanding of how computing technologies can be harnessed to provide effective user interaction and efficient access to information that supports commercial, industrial, social and environmental initiatives. Students perform project work and apply their knowledge and skills in: interactive media and the user experience, networking systems and social connections, principles of cybersecurity, data science, data visualisations, and intelligent systems. Students use their acquired knowledge and skills to develop an enterprise project. Project work encourages students to collaborate on problems and develop team and communication skills that are highly valued in the industry.</p>\n<p>Enterprise Computing encourages the understanding of the implications of responsible and ethical application of digital systems, and the application of appropriate standards in the development of solutions. Students learn about the technologies that support enterprise-based information systems. As they develop digital solutions, students investigate social and safety issues relating to cyber safety, cybersecurity and digital footprints. They engage with technologies that improve access to, and participation in, computing technologies across a range of enterprises.</p>",
+  "aim": "<p>The aim of Enterprise Computing is to develop each student’s capacity to:</p>\n<ul>\n  <li>think creatively, devise solutions and communicate information to a range of audiences using a variety of computing resources</li>\n  <li>apply computing technologies and systems thinking to data analysis</li>\n  <li>solve (or improve) enterprise challenges, such as those relating to social, commercial or industrial issues.</li>\n</ul>",
+  "stages": [
+    {
+      "codename": "year_11",
+      "name": "Year 11",
+      "focusAreas": [
+        {
+          "codename": "fa90aca463",
+          "title": "Interactive media and the user experience",
+          "outcomes": [
+            {
+              "code": "EC-11-01",
+              "description": "<p>describes how systems are used in a range of enterprises</p>"
+            },
+            {
+              "code": "EC-11-02",
+              "description": "<p>describes the function of data and information within enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-11-03",
+              "description": "<p>describes how data is safely and securely collected, stored and manipulated when developing enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-11-04",
+              "description": "<p>describes how data is used in enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-11-05",
+              "description": "<p>applies tools and resources to analyse datasets</p>"
+            },
+            {
+              "code": "EC-11-06",
+              "description": "<p>explains how innovative technologies have influenced enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-11-07",
+              "description": "<p>explores the social, ethical and legal implications of the application of enterprise computing systems on the individual, society and the environment</p>"
+            },
+            {
+              "code": "EC-11-08",
+              "description": "<p>selects and uses tools and resources to design and develop an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-11-09",
+              "description": "<p>documents the management and evaluates the development of an enterprise solution</p>"
+            },
+            {
+              "code": "EC-11-10",
+              "description": "<p>investigates the effectiveness of an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-11-11",
+              "description": "<p>communicates an enterprise computing solution to an intended audience</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Ubiquity of interactive media",
+              "items": [
+                {
+                  "text": "<p>Investigate how interactive media and the <a data-item-id=\"7ec8fc89-3a19-420e-b1fa-e610dba4658e\" href=\"\">user experience (UX)</a> is used to communicate <a data-item-id=\"f98101cd-2df2-4fc7-811e-fc0ae2f016f3\" href=\"\">information</a> to an audience</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate social, ethical and legal issues when developing and implementing <a data-item-id=\"7f1cae53-18a3-457e-8fa2-8bf7e515b742\" href=\"\">interactive media systems</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Research the evolution of interactive media</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Describe the contribution of interactive media systems to a range of <a data-item-id=\"d65a0560-7bec-4415-bbaf-5340fd31ee04\" href=\"\">enterprises</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p><a data-item-id=\"8f6638e2-3abc-43be-825b-6d578eb3ff88\" href=\"\">Evaluate</a> the performance requirements of <a data-item-id=\"410bc277-6674-41ec-a4f1-3a4c443c9cbb\" href=\"\">hardware</a> for specific interactive media <a data-item-id=\"e006c859-f4e6-4c32-9b13-9b575aef966b\" href=\"\">projects</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explain how interactive media systems can support creative processes</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Examine how human behaviour may be influenced by interactive media, including opportunities for people with <a data-item-id=\"62649b05-1cf8-42d6-b5c1-ebadf797f3b6\" href=\"\">disability</a> to explore and participate in their environment</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate how digital marketing techniques influence consumer behaviour</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Evaluate social media applications that encourage human connections</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore how interactive media platforms support the creation of digital identities</p>",
+                  "examples": ""
+                }
+              ]
+            },
+            {
+              "title": "Capture, store and integrate data",
+              "items": [
+                {
+                  "text": "<p>Select and use appropriate file formats for a defined purpose</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Use software to develop elements of interactive media in a project</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Use hardware and software to digitise <a data-item-id=\"de924b36-24cd-4a40-9c42-30ecca3f6277\" href=\"\">assets</a> for use in interactive media systems, including <a data-item-id=\"53489124-5dad-4a05-9e92-75d90c8665cd\" href=\"\">lossy</a> and <a data-item-id=\"27181b8c-34e2-4db7-bfb7-5e513852bfa8\" href=\"\">lossless data compression</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explain how the <a data-item-id=\"ee6526ed-46f4-43b0-af86-e686a7bc22d8\" href=\"\">user interface (UI)</a> impacts on the user experience (UX)</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Apply design tools and techniques to develop an engaging UI</p>",
+                  "examples": ""
+                }
+              ]
+            },
+            {
+              "title": "Create interactive media systems",
+              "items": [
+                {
+                  "text": "<p>Apply <a data-item-id=\"91017140-1948-41b4-98c6-5751ccefa9c9\" href=\"\">design thinking</a> to develop a front-end, web-based interactive media system incorporating UX and UI principles</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Develop and publish an interactive work of <a data-item-id=\"d99e9ae1-175b-462b-b147-57a7c01ca917\" href=\"\">data</a> journalism</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Select an appropriate <a data-item-id=\"9c859a00-f159-49b8-8a77-3d5fd017a6b2\" href=\"\">project management</a> approach to develop an interactive media-based solution</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Apply features of user interaction and UX within web-based systems</p>",
+                  "examples": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_networking_systems_and_social_computing",
+          "title": "Networking systems and social computing",
+          "outcomes": [
+            {
+              "code": "EC-11-01",
+              "description": "<p>describes how systems are used in a range of enterprises</p>"
+            },
+            {
+              "code": "EC-11-02",
+              "description": "<p>describes the function of data and information within enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-11-03",
+              "description": "<p>describes how data is safely and securely collected, stored and manipulated when developing enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-11-04",
+              "description": "<p>describes how data is used in enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-11-05",
+              "description": "<p>applies tools and resources to analyse datasets</p>"
+            },
+            {
+              "code": "EC-11-06",
+              "description": "<p>explains how innovative technologies have influenced enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-11-07",
+              "description": "<p>explores the social, ethical and legal implications of the application of enterprise computing systems on the individual, society and the environment</p>"
+            },
+            {
+              "code": "EC-11-08",
+              "description": "<p>selects and uses tools and resources to design and develop an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-11-09",
+              "description": "<p>documents the management and evaluates the development of an enterprise solution</p>"
+            },
+            {
+              "code": "EC-11-10",
+              "description": "<p>investigates the effectiveness of an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-11-11",
+              "description": "<p>communicates an enterprise computing solution to an intended audience</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Introduction to human-centric computing",
+              "items": []
+            },
+            {
+              "title": "Storage and workflow in enterprise networks",
+              "items": []
+            },
+            {
+              "title": "Network architecture and infrastructure",
+              "items": []
+            },
+            {
+              "title": "Creating a network",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_principles_of_cybersecurity",
+          "title": "Principles of cybersecurity",
+          "outcomes": [
+            {
+              "code": "EC-11-01",
+              "description": "<p>describes how systems are used in a range of enterprises</p>"
+            },
+            {
+              "code": "EC-11-03",
+              "description": "<p>describes how data is safely and securely collected, stored and manipulated when developing enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-11-04",
+              "description": "<p>describes how data is used in enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-11-06",
+              "description": "<p>explains how innovative technologies have influenced enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-11-07",
+              "description": "<p>explores the social, ethical and legal implications of the application of enterprise computing systems on the individual, society and the environment</p>"
+            },
+            {
+              "code": "EC-11-09",
+              "description": "<p>documents the management and evaluates the development of an enterprise solution</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Understanding privacy and security",
+              "items": []
+            },
+            {
+              "title": "Security awareness",
+              "items": []
+            },
+            {
+              "title": "Cyber law and ethics",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_everyday_computing_technology",
+          "title": "Everyday computing technology",
+          "outcomes": [
+            {
+              "code": "CT-LS-01",
+              "description": "<p>demonstrates awareness that computing technology can be used for everyday purposes</p>"
+            },
+            {
+              "code": "CT-LS-02",
+              "description": "<p>explores appropriate uses of computing technology in everyday contexts</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Accessing and exploring everyday technologies",
+              "items": []
+            },
+            {
+              "title": "Digital and information literacy",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_digital_citizenship_and_cyber_safety",
+          "title": "Digital citizenship and cyber safety",
+          "outcomes": [
+            {
+              "code": "CT-LS-01",
+              "description": "<p>demonstrates awareness that computing technology can be used for everyday purposes</p>"
+            },
+            {
+              "code": "CT-LS-02",
+              "description": "<p>explores appropriate uses of computing technology in everyday contexts</p>"
+            },
+            {
+              "code": "CT-LS-04",
+              "description": "<p>stores data safely and securely</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-08",
+              "description": "<p>demonstrates social and ethical practices associated with computing systems</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Digital and information literacy",
+              "items": []
+            },
+            {
+              "title": "Privacy and security",
+              "items": []
+            },
+            {
+              "title": "Cyber safety",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_data_science",
+          "title": "Data science",
+          "outcomes": [
+            {
+              "code": "CT-LS-03",
+              "description": "<p>collects and uses data for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-04",
+              "description": "<p>stores data safely and securely</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-06",
+              "description": "<p>uses and interprets data</p>"
+            },
+            {
+              "code": "CT-LS-08",
+              "description": "<p>demonstrates social and ethical practices associated with computing systems</p>"
+            },
+            {
+              "code": "CT-LS-10",
+              "description": "<p>participates in designing a computing system</p>"
+            },
+            {
+              "code": "CT-LS-11",
+              "description": "<p>participates in the production of a computing system</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            },
+            {
+              "code": "CT-LS-13",
+              "description": "<p>communicates a computing solution</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Exploring, collecting and organising data",
+              "items": []
+            },
+            {
+              "title": "Analysing data",
+              "items": []
+            },
+            {
+              "title": "Storing data",
+              "items": []
+            },
+            {
+              "title": "Creating data visualisations",
+              "items": []
+            },
+            {
+              "title": "Data in enterprise",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_intelligent_systems",
+          "title": "Intelligent systems",
+          "outcomes": [
+            {
+              "code": "CT-LS-01",
+              "description": "<p>demonstrates awareness that computing technology can be used for everyday purposes</p>"
+            },
+            {
+              "code": "CT-LS-02",
+              "description": "<p>explores appropriate uses of computing technology in everyday contexts</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-10",
+              "description": "<p>participates in designing a computing system</p>"
+            },
+            {
+              "code": "CT-LS-11",
+              "description": "<p>participates in the production of a computing system</p>"
+            },
+            {
+              "code": "CT-LS-13",
+              "description": "<p>communicates a computing solution</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Systems and their applications",
+              "items": []
+            },
+            {
+              "title": "Creating intelligent systems",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_computing_technology_project",
+          "title": "Computing Technology project",
+          "outcomes": [
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-10",
+              "description": "<p>participates in designing a computing system</p>"
+            },
+            {
+              "code": "CT-LS-11",
+              "description": "<p>participates in the production of a computing system</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            },
+            {
+              "code": "CT-LS-13",
+              "description": "<p>communicates a computing solution</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Identifying and defining",
+              "items": []
+            },
+            {
+              "title": "Researching and planning",
+              "items": []
+            },
+            {
+              "title": "Producing and implementing",
+              "items": []
+            },
+            {
+              "title": "Testing and evaluating",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codename": "year_12",
+      "name": "Year 12",
+      "focusAreas": [
+        {
+          "codename": "fae7598c1b",
+          "title": "Data science ",
+          "outcomes": [
+            {
+              "code": "EC-12-01",
+              "description": "<p>explains how systems meet the needs of a range of enterprises</p>"
+            },
+            {
+              "code": "EC-12-02",
+              "description": "<p>explains the function of data and information within enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-03",
+              "description": "<p>explains and evaluates how data is safely and securely collected, stored and manipulated when developing enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-04",
+              "description": "<p>explains how data is used in enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-05",
+              "description": "<p>applies tools and resources to analyse complex datasets</p>"
+            },
+            {
+              "code": "EC-12-06",
+              "description": "<p>analyses how innovative technologies have influenced enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-07",
+              "description": "<p>explains the social, ethical and legal implications of the application of enterprise computing systems on the individual, society and the environment</p>"
+            },
+            {
+              "code": "EC-12-08",
+              "description": "<p>justifies the selection and use of tools and resources to design and develop an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-12-10",
+              "description": "<p>evaluates the effectiveness of an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-12-11",
+              "description": "<p>communicates an enterprise computing solution to a specific audience</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Collecting, storing and analysing data",
+              "items": [
+                {
+                  "text": "<p>Explore the difference between quantitative and qualitative <a data-item-id=\"d99e9ae1-175b-462b-b147-57a7c01ca917\" href=\"\">data</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Determine which <a data-item-id=\"0abedeb4-af67-4efe-8554-db41780713fa\" href=\"\">data types</a> are used to represent quantitative and qualitative data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore nominal, ordinal, interval and ratio levels of measurement applied to data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate <a data-item-id=\"b26b9607-6937-4a34-a3fb-bc7f14e8736b\" href=\"\">data sampling</a>, including manual and computerised methods of active and passive data collection</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Assess the relevance, accuracy, validity and reliability of primary and secondary data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate how <a data-item-id=\"e8106068-0e64-41ab-ae6b-c57d0343e2b2\" href=\"\">informatics</a> supports the development of a deeper understanding of data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Interpret and present data using graphs, infographics, dashboards, reports, network diagrams and maps</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate <a data-item-id=\"bccaddf1-8333-4f0d-a010-30100d4abee2\" href=\"\">structured</a> and unstructured <a data-item-id=\"ee4c5696-bb05-4660-b565-cf5ec9dbb64c\" href=\"\">datasets</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore the use of likes, emoticons and memes as forms of alternative data as sources of feedback</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Examine the impact of errors, uncertainty and limitations in data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explain how <a data-item-id=\"4ebd40d7-d9e3-4d68-8665-05f49e6a039c\" href=\"\">blockchain</a> technology is used to manage and verify data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Examine software features that affect the privacy and security of data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore the use of <a data-item-id=\"ef017d1f-a2d6-4e56-a62a-eba4ea2802e2\" href=\"\">big data</a> and data warehousing, considering volume, variety and velocity</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore the risks and benefits of data mining</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Analyse the impact of data scale</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p><a data-item-id=\"8f6638e2-3abc-43be-825b-6d578eb3ff88\" href=\"\">Evaluate</a> the effectiveness of different methods for data storage</p>",
+                  "examples": ""
+                }
+              ]
+            },
+            {
+              "title": "Data quality",
+              "items": [
+                {
+                  "text": "<p>Investigate the ethical use of data for social or <a data-item-id=\"d65a0560-7bec-4415-bbaf-5340fd31ee04\" href=\"\">enterprise</a> research purposes</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore social, ethical and legal issues associated with using data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate the legal issues surrounding data collection and handling</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate the influence of curated and communicated data on social behaviour</p>",
+                  "examples": ""
+                }
+              ]
+            },
+            {
+              "title": "Processing and presenting data",
+              "items": [
+                {
+                  "text": "<p>Summarise data using a spreadsheet</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Collate <a data-item-id=\"f98101cd-2df2-4fc7-811e-fc0ae2f016f3\" href=\"\">information</a> using spreadsheet analysis features, including charts, statistical analysis and what-if modelling</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Filter, group and sort data in a spreadsheet to process and display information</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Apply spreadsheet analysis features to develop a data dashboard</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Develop a flat-file <a data-item-id=\"3a24583b-9f58-4fb9-8c15-328d32bb61ca\" href=\"\">database</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Apply <a data-item-id=\"cd59c161-1903-4d88-97b6-659b75ef1d96\" href=\"\">computational thinking</a> to design a relational database with appropriate user views</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore how machine learning and statistical modelling are used in data analytics to analyse big data, and as a prediction tool</p>",
+                  "examples": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_data_science",
+          "title": "Data science",
+          "outcomes": [
+            {
+              "code": "EC-12-01",
+              "description": "<p>explains how systems meet the needs of a range of enterprises</p>"
+            },
+            {
+              "code": "EC-12-02",
+              "description": "<p>explains the function of data and information within enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-03",
+              "description": "<p>explains and evaluates how data is safely and securely collected, stored and manipulated when developing enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-04",
+              "description": "<p>explains how data is used in enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-05",
+              "description": "<p>applies tools and resources to analyse complex datasets</p>"
+            },
+            {
+              "code": "EC-12-06",
+              "description": "<p>analyses how innovative technologies have influenced enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-07",
+              "description": "<p>explains the social, ethical and legal implications of the application of enterprise computing systems on the individual, society and the environment</p>"
+            },
+            {
+              "code": "EC-12-08",
+              "description": "<p>justifies the selection and use of tools and resources to design and develop an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-12-10",
+              "description": "<p>evaluates the effectiveness of an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-12-11",
+              "description": "<p>communicates an enterprise computing solution to a specific audience</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Collecting, storing and analysing data",
+              "items": [
+                {
+                  "text": "<p>Explore the difference between quantitative and qualitative <a data-item-id=\"d99e9ae1-175b-462b-b147-57a7c01ca917\" href=\"\">data</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Determine which <a data-item-id=\"0abedeb4-af67-4efe-8554-db41780713fa\" href=\"\">data types</a> are used to represent quantitative and qualitative data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore nominal, ordinal, interval and ratio levels of measurement applied to data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate <a data-item-id=\"b26b9607-6937-4a34-a3fb-bc7f14e8736b\" href=\"\">data sampling</a>, including manual and computerised methods of active and passive data collection</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Assess the relevance, accuracy, validity and reliability of primary and secondary data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate how <a data-item-id=\"e8106068-0e64-41ab-ae6b-c57d0343e2b2\" href=\"\">informatics</a> supports the development of a deeper understanding of data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Interpret and present data using graphs, infographics, dashboards, reports, network diagrams and maps</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate <a data-item-id=\"bccaddf1-8333-4f0d-a010-30100d4abee2\" href=\"\">structured</a> and unstructured <a data-item-id=\"ee4c5696-bb05-4660-b565-cf5ec9dbb64c\" href=\"\">datasets</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore the use of likes, emoticons and memes as forms of alternative data as sources of feedback</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Examine the impact of errors, uncertainty and limitations in data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explain how <a data-item-id=\"4ebd40d7-d9e3-4d68-8665-05f49e6a039c\" href=\"\">blockchain</a> technology is used to manage and verify data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Examine software features that affect the privacy and security of data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore the use of <a data-item-id=\"ef017d1f-a2d6-4e56-a62a-eba4ea2802e2\" href=\"\">big data</a> and data warehousing, considering volume, variety and velocity</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore the risks and benefits of data mining</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Analyse the impact of data scale</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p><a data-item-id=\"8f6638e2-3abc-43be-825b-6d578eb3ff88\" href=\"\">Evaluate</a> the effectiveness of different methods for data storage</p>",
+                  "examples": ""
+                }
+              ]
+            },
+            {
+              "title": "Data quality",
+              "items": [
+                {
+                  "text": "<p>Investigate the ethical use of data for social or <a data-item-id=\"d65a0560-7bec-4415-bbaf-5340fd31ee04\" href=\"\">enterprise</a> research purposes</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore social, ethical and legal issues associated with using data</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate the legal issues surrounding data collection and handling</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Investigate the influence of curated and communicated data on social behaviour</p>",
+                  "examples": ""
+                }
+              ]
+            },
+            {
+              "title": "Processing and presenting data",
+              "items": [
+                {
+                  "text": "<p>Summarise data using a spreadsheet</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Collate <a data-item-id=\"f98101cd-2df2-4fc7-811e-fc0ae2f016f3\" href=\"\">information</a> using spreadsheet analysis features, including charts, statistical analysis and what-if modelling</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Filter, group and sort data in a spreadsheet to process and display information</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Apply spreadsheet analysis features to develop a data dashboard</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Develop a flat-file <a data-item-id=\"3a24583b-9f58-4fb9-8c15-328d32bb61ca\" href=\"\">database</a></p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Apply <a data-item-id=\"cd59c161-1903-4d88-97b6-659b75ef1d96\" href=\"\">computational thinking</a> to design a relational database with appropriate user views</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore how machine learning and statistical modelling are used in data analytics to analyse big data, and as a prediction tool</p>",
+                  "examples": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_data_visualisation",
+          "title": "Data visualisation",
+          "outcomes": [
+            {
+              "code": "EC-12-01",
+              "description": "<p>explains how systems meet the needs of a range of enterprises</p>"
+            },
+            {
+              "code": "EC-12-02",
+              "description": "<p>explains the function of data and information within enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-03",
+              "description": "<p>explains and evaluates how data is safely and securely collected, stored and manipulated when developing enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-04",
+              "description": "<p>explains how data is used in enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-05",
+              "description": "<p>applies tools and resources to analyse complex datasets</p>"
+            },
+            {
+              "code": "EC-12-06",
+              "description": "<p>analyses how innovative technologies have influenced enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-07",
+              "description": "<p>explains the social, ethical and legal implications of the application of enterprise computing systems on the individual, society and the environment</p>"
+            },
+            {
+              "code": "EC-12-08",
+              "description": "<p>justifies the selection and use of tools and resources to design and develop an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-12-10",
+              "description": "<p>evaluates the effectiveness of an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-12-11",
+              "description": "<p>communicates an enterprise computing solution to a specific audience</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Using data to tell a story",
+              "items": []
+            },
+            {
+              "title": "Interpreting data visualisations",
+              "items": []
+            },
+            {
+              "title": "Designing for user experience",
+              "items": []
+            },
+            {
+              "title": "Creating data visualisations",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_intelligent_systems",
+          "title": "Intelligent systems",
+          "outcomes": [
+            {
+              "code": "EC-12-01",
+              "description": "<p>explains how systems meet the needs of a range of enterprises</p>"
+            },
+            {
+              "code": "EC-12-02",
+              "description": "<p>explains the function of data and information within enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-03",
+              "description": "<p>explains and evaluates how data is safely and securely collected, stored and manipulated when developing enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-04",
+              "description": "<p>explains how data is used in enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-05",
+              "description": "<p>applies tools and resources to analyse complex datasets</p>"
+            },
+            {
+              "code": "EC-12-06",
+              "description": "<p>analyses how innovative technologies have influenced enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-07",
+              "description": "<p>explains the social, ethical and legal implications of the application of enterprise computing systems on the individual, society and the environment</p>"
+            },
+            {
+              "code": "EC-12-08",
+              "description": "<p>justifies the selection and use of tools and resources to design and develop an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-12-10",
+              "description": "<p>evaluates the effectiveness of an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-12-11",
+              "description": "<p>communicates an enterprise computing solution to a specific audience</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Systems and their applications",
+              "items": []
+            },
+            {
+              "title": "Data and intelligent systems ",
+              "items": []
+            },
+            {
+              "title": "Creating intelligent systems",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_enterprise_project",
+          "title": "Enterprise project",
+          "outcomes": [
+            {
+              "code": "EC-12-06",
+              "description": "<p>analyses how innovative technologies have influenced enterprise computing systems</p>"
+            },
+            {
+              "code": "EC-12-07",
+              "description": "<p>explains the social, ethical and legal implications of the application of enterprise computing systems on the individual, society and the environment</p>"
+            },
+            {
+              "code": "EC-12-08",
+              "description": "<p>justifies the selection and use of tools and resources to design and develop an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-12-09",
+              "description": "<p>selects and applies methods to record the management and evaluate the development of an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-12-10",
+              "description": "<p>evaluates the effectiveness of an enterprise computing system</p>"
+            },
+            {
+              "code": "EC-12-11",
+              "description": "<p>communicates an enterprise computing solution to a specific audience</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Identifying and defining",
+              "items": []
+            },
+            {
+              "title": "Researching and planning",
+              "items": []
+            },
+            {
+              "title": "Producing and implementing",
+              "items": []
+            },
+            {
+              "title": "Testing and evaluating",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_everyday_computing_technology",
+          "title": "Everyday computing technology",
+          "outcomes": [
+            {
+              "code": "CT-LS-01",
+              "description": "<p>demonstrates awareness that computing technology can be used for everyday purposes</p>"
+            },
+            {
+              "code": "CT-LS-02",
+              "description": "<p>explores appropriate uses of computing technology in everyday contexts</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Accessing and exploring everyday technologies",
+              "items": []
+            },
+            {
+              "title": "Digital and information literacy",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_interactive_media_and_the_user_experience",
+          "title": "Interactive media and the user experience",
+          "outcomes": [
+            {
+              "code": "CT-LS-01",
+              "description": "<p>demonstrates awareness that computing technology can be used for everyday purposes</p>"
+            },
+            {
+              "code": "CT-LS-02",
+              "description": "<p>explores appropriate uses of computing technology in everyday contexts</p>"
+            },
+            {
+              "code": "CT-LS-03",
+              "description": "<p>collects and uses data for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-08",
+              "description": "<p>demonstrates social and ethical practices associated with computing systems</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-10",
+              "description": "<p>participates in designing a computing system</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Interactive media",
+              "items": []
+            },
+            {
+              "title": "Evolution of interactive media systems",
+              "items": []
+            },
+            {
+              "title": "Create digital media-based information systems",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_networking_systems_and_social_computing",
+          "title": "Networking systems and social computing",
+          "outcomes": [
+            {
+              "code": "CT-LS-03",
+              "description": "<p>collects and uses data for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-04",
+              "description": "<p>stores data safely and securely</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-06",
+              "description": "<p>uses and interprets data</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-08",
+              "description": "<p>demonstrates social and ethical practices associated with computing systems</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-11",
+              "description": "<p>participates in the production of a computing system</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            },
+            {
+              "code": "CT-LS-13",
+              "description": "<p>communicates a computing solution</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Intelligent networks",
+              "items": []
+            },
+            {
+              "title": "Networks and their applications",
+              "items": []
+            },
+            {
+              "title": "Data storage and workflow in networks",
+              "items": []
+            },
+            {
+              "title": "Creating a network",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_digital_citizenship_and_cyber_safety",
+          "title": "Digital citizenship and cyber safety",
+          "outcomes": [
+            {
+              "code": "CT-LS-01",
+              "description": "<p>demonstrates awareness that computing technology can be used for everyday purposes</p>"
+            },
+            {
+              "code": "CT-LS-02",
+              "description": "<p>explores appropriate uses of computing technology in everyday contexts</p>"
+            },
+            {
+              "code": "CT-LS-04",
+              "description": "<p>stores data safely and securely</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-08",
+              "description": "<p>demonstrates social and ethical practices associated with computing systems</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Digital and information literacy",
+              "items": []
+            },
+            {
+              "title": "Privacy and security",
+              "items": []
+            },
+            {
+              "title": "Cyber safety",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_computing_technology_project",
+          "title": "Computing Technology project",
+          "outcomes": [
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-10",
+              "description": "<p>participates in designing a computing system</p>"
+            },
+            {
+              "code": "CT-LS-11",
+              "description": "<p>participates in the production of a computing system</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            },
+            {
+              "code": "CT-LS-13",
+              "description": "<p>communicates a computing solution</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Identifying and defining",
+              "items": []
+            },
+            {
+              "title": "Researching and planning",
+              "items": []
+            },
+            {
+              "title": "Producing and implementing",
+              "items": []
+            },
+            {
+              "title": "Testing and evaluating",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codename": "life_skills",
+      "name": "Life Skills",
+      "focusAreas": [
+        {
+          "codename": "fa5bacb6ff",
+          "title": "Everyday computing technology",
+          "outcomes": [
+            {
+              "code": "CT-LS-01",
+              "description": "<p>demonstrates awareness that computing technology can be used for everyday purposes</p>"
+            },
+            {
+              "code": "CT-LS-02",
+              "description": "<p>explores appropriate uses of computing technology in everyday contexts</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Accessing and exploring everyday technologies",
+              "items": [
+                {
+                  "text": "<p>Explore <a data-item-id=\"b21e5987-d364-48dd-8e2f-0597f507eba1\" href=\"\">digital technologies</a> that can be used for a variety of purposes</p>",
+                  "examples": "<p>Augmentative and alternative communication (AAC), social media platforms, or word-processing software for communication.<br>\n<br>\nVideo-sharing websites or audiobooks for entertainment.<br>\n<br>\nOnline shopping, online booking applications or self-service kiosks for transactions.<br>\n<br>\nSearch engines, websites or navigation applications for research.<br>\n<br>\nMobile devices or cloud storage for storing data.</p>"
+                },
+                {
+                  "text": "<p>Explore <a data-item-id=\"9124e62c-e812-4b6b-b4c6-ca6c3241ae12\" href=\"\">assistive technologies</a> that support a range of users</p>",
+                  "examples": "<p>Text-to-speech.<br>\n<br>\nScreen readers.<br>\n<br>\nScreen magnifiers.<br>\n<br>\nEye-gaze technology.<br>\n<br>\nRefreshable braille displays.<br>\n<br>\nSwitch adapted devices.</p>"
+                },
+                {
+                  "text": "<p>Identify digital technologies they use in everyday life</p>",
+                  "examples": "<p>Mobile devices.<br>\n<br>\nAided AAC.<br>\n<br>\nWord-processing software.<br>\n<br>\nSocial media.<br>\n<br>\nVideos and games.<br>\n<br>\nPersonal and cloud databases.<br>\n<br>\nOnline collaboration documents.<br>\n<br>\nSearch engines.<br>\n<br>\nScreen readers.<br>\n<br>\nIn-built accessibility features on devices, apps or software.</p>"
+                },
+                {
+                  "text": "<p>Identify the purposes of digital technologies</p>",
+                  "examples": "<p>Communication.<br>\n<br>\nEntertainment.<br>\n<br>\nTransactions.<br>\n<br>\nResearching.<br>\n<br>\nStoring data.</p>"
+                },
+                {
+                  "text": "<p>Develop skills to communicate needs, wants or preferences using AAC</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Initiate or respond to communication with others using an AAC device</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Use digital and assistive technologies to increase independence</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Explore the impact of digital technologies on individuals with <a data-item-id=\"62649b05-1cf8-42d6-b5c1-ebadf797f3b6\" href=\"\">disability</a></p>",
+                  "examples": "<p>AAC.<br>\n<br>\nPredictive text.<br>\n<br>\nMagnification.</p>"
+                },
+                {
+                  "text": "<p>Describe the value of digital technologies used for personal, social, recreational and vocational aspects of our lives</p>",
+                  "examples": "<p>Personal: to communicate, share and find information.<br>\n<br>\nSocial: to connect and make new friends, share information and express thoughts.<br>\n<br>\nRecreational: to enjoy, connect and engage through interaction with digital devices.<br>\n<br>\nVocational: for research, to make new connections, sharing of information, new and changing skill sets.</p>"
+                }
+              ]
+            },
+            {
+              "title": "Digital and information literacy",
+              "items": [
+                {
+                  "text": "<p>Explore the functionality in everyday computing technology</p>",
+                  "examples": "<p>Logging on and off a device.<br>\n<br>\nNavigating through various functions, programs or applications.<br>\n<br>\nUsing a switch to activate a response.</p>"
+                },
+                {
+                  "text": "<p>Select the most appropriate software or <a data-item-id=\"ff79e2e4-cc20-48dd-89da-ff58876db8e6\" href=\"\">application</a> to perform a specific function</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Perform key functions using digital technologies</p>",
+                  "examples": "<p>Sending a text message to communicate.<br>\n<br>\nRequesting an item using augmentative and alternative communication (AAC).<br>\n<br>\nSending an email in a workplace.<br>\n<br>\nCreating a multimodal presentation for school.<br>\n<br>\nUsing a fitness tracking device to monitor health and fitness.<br>\n<br>\nSetting up and making a video call.<br>\n<br>\nNavigating familiar and unfamiliar websites to gather information.</p>"
+                },
+                {
+                  "text": "<p>Participate in a leisure or recreation activity using digital technologies</p>",
+                  "examples": "<p>Photography.<br>\n<br>\nListening to or making music.<br>\n<br>\nWatching or creating videos.<br>\n<br>\nPlaying games.</p>"
+                },
+                {
+                  "text": "<p>Develop word-processing skills</p>",
+                  "examples": "<p>Creating and saving a document.<br>\n<br>\nUsing layout and design functions.<br>\n<br>\nInserting visual elements.<br>\n<br>\nUsing mail merge to create letters.<br>\n<br>\nUsing referencing tools.<br>\n<br>\nMaking the document accessible.</p>"
+                },
+                {
+                  "text": "<p>Navigate websites using menus, sidebars, links and search bar</p>",
+                  "examples": ""
+                },
+                {
+                  "text": "<p>Use digital technologies to locate and access <a data-item-id=\"f98101cd-2df2-4fc7-811e-fc0ae2f016f3\" href=\"\">information</a></p>",
+                  "examples": "<p>Using a search engine to find services in their local community.<br>\n<br>\nUsing a navigation application to find a location.<br>\n<br>\nPlanning which public transport to use to reach a location.<br>\n<br>\nUsing links and menus on a website to find information.</p>"
+                },
+                {
+                  "text": "<p>Use digital technologies to store and access <a data-item-id=\"d99e9ae1-175b-462b-b147-57a7c01ca917\" href=\"\">data</a></p>",
+                  "examples": "<p>Using hardware or software to save a file.<br>\n<br>\nUsing cloud-based technology to store files.<br>\n<br>\nRecording data in a spreadsheet.<br>\n<br>\nAccessing data stored on a mobile device.</p>"
+                },
+                {
+                  "text": "<p>Demonstrate the steps required for using digital technologies to perform a transaction</p>",
+                  "examples": "<p>Role-playing making a purchase at a self-serve checkout.<br>\n<br>\nCreating a flow chart to represent the steps required to make a purchase online.</p>"
+                },
+                {
+                  "text": "<p><a data-item-id=\"1a8ba4f7-bcd2-4c1d-8209-3d9fbeb2ab7d\" href=\"\">Collaborate</a> with others using digital technologies</p>",
+                  "examples": "<p>Planning a group event using social media.<br>\n<br>\nUndertaking a group project for school using online collaboration tools.</p>"
+                },
+                {
+                  "text": "<p>Demonstrate collaboration skills when using digital technologies</p>",
+                  "examples": "<p>Active listening.<br>\n<br>\nParticipation.<br>\n<br>\nAppropriate communication.<br>\n<br>\nShared responsibilities.<br>\n<br>\nTask allocation.<br>\n<br>\nProblem-solving.<br>\n<br>\nDecision-making.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_interactive_media_and_the_user_experience",
+          "title": "Interactive media and the user experience",
+          "outcomes": [
+            {
+              "code": "CT-LS-01",
+              "description": "<p>demonstrates awareness that computing technology can be used for everyday purposes</p>"
+            },
+            {
+              "code": "CT-LS-02",
+              "description": "<p>explores appropriate uses of computing technology in everyday contexts</p>"
+            },
+            {
+              "code": "CT-LS-03",
+              "description": "<p>collects and uses data for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-08",
+              "description": "<p>demonstrates social and ethical practices associated with computing systems</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-10",
+              "description": "<p>participates in designing a computing system</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Interactive media",
+              "items": []
+            },
+            {
+              "title": "Evolution of interactive media systems",
+              "items": []
+            },
+            {
+              "title": "Create digital media-based information systems",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_networking_systems_and_social_computing",
+          "title": "Networking systems and social computing",
+          "outcomes": [
+            {
+              "code": "CT-LS-03",
+              "description": "<p>collects and uses data for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-04",
+              "description": "<p>stores data safely and securely</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-06",
+              "description": "<p>uses and interprets data</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-08",
+              "description": "<p>demonstrates social and ethical practices associated with computing systems</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-11",
+              "description": "<p>participates in the production of a computing system</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            },
+            {
+              "code": "CT-LS-13",
+              "description": "<p>communicates a computing solution</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Intelligent networks",
+              "items": []
+            },
+            {
+              "title": "Networks and their applications",
+              "items": []
+            },
+            {
+              "title": "Data storage and workflow in networks",
+              "items": []
+            },
+            {
+              "title": "Creating a network",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_digital_citizenship_and_cyber_safety",
+          "title": "Digital citizenship and cyber safety",
+          "outcomes": [
+            {
+              "code": "CT-LS-01",
+              "description": "<p>demonstrates awareness that computing technology can be used for everyday purposes</p>"
+            },
+            {
+              "code": "CT-LS-02",
+              "description": "<p>explores appropriate uses of computing technology in everyday contexts</p>"
+            },
+            {
+              "code": "CT-LS-04",
+              "description": "<p>stores data safely and securely</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-08",
+              "description": "<p>demonstrates social and ethical practices associated with computing systems</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Digital and information literacy",
+              "items": []
+            },
+            {
+              "title": "Privacy and security",
+              "items": []
+            },
+            {
+              "title": "Cyber safety",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_data_science",
+          "title": "Data science",
+          "outcomes": [
+            {
+              "code": "CT-LS-03",
+              "description": "<p>collects and uses data for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-04",
+              "description": "<p>stores data safely and securely</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-06",
+              "description": "<p>uses and interprets data</p>"
+            },
+            {
+              "code": "CT-LS-08",
+              "description": "<p>demonstrates social and ethical practices associated with computing systems</p>"
+            },
+            {
+              "code": "CT-LS-10",
+              "description": "<p>participates in designing a computing system</p>"
+            },
+            {
+              "code": "CT-LS-11",
+              "description": "<p>participates in the production of a computing system</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            },
+            {
+              "code": "CT-LS-13",
+              "description": "<p>communicates a computing solution</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Exploring, collecting and organising data",
+              "items": []
+            },
+            {
+              "title": "Analysing data",
+              "items": []
+            },
+            {
+              "title": "Storing data",
+              "items": []
+            },
+            {
+              "title": "Creating data visualisations",
+              "items": []
+            },
+            {
+              "title": "Data in enterprise",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_intelligent_systems",
+          "title": "Intelligent systems",
+          "outcomes": [
+            {
+              "code": "CT-LS-01",
+              "description": "<p>demonstrates awareness that computing technology can be used for everyday purposes</p>"
+            },
+            {
+              "code": "CT-LS-02",
+              "description": "<p>explores appropriate uses of computing technology in everyday contexts</p>"
+            },
+            {
+              "code": "CT-LS-05",
+              "description": "<p>uses hardware or software tools to communicate data or information</p>"
+            },
+            {
+              "code": "CT-LS-07",
+              "description": "<p>explores relationships between computing technologies, the individual and society</p>"
+            },
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-10",
+              "description": "<p>participates in designing a computing system</p>"
+            },
+            {
+              "code": "CT-LS-11",
+              "description": "<p>participates in the production of a computing system</p>"
+            },
+            {
+              "code": "CT-LS-13",
+              "description": "<p>communicates a computing solution</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Systems and their applications",
+              "items": []
+            },
+            {
+              "title": "Creating intelligent systems",
+              "items": []
+            }
+          ]
+        },
+        {
+          "codename": "sfa_ls_computing_technology_project",
+          "title": "Computing Technology project",
+          "outcomes": [
+            {
+              "code": "CT-LS-09",
+              "description": "<p>uses hardware and software for specific tasks or purposes</p>"
+            },
+            {
+              "code": "CT-LS-10",
+              "description": "<p>participates in designing a computing system</p>"
+            },
+            {
+              "code": "CT-LS-11",
+              "description": "<p>participates in the production of a computing system</p>"
+            },
+            {
+              "code": "CT-LS-12",
+              "description": "<p>investigates the suitability of computing systems for specific purposes</p>"
+            },
+            {
+              "code": "CT-LS-13",
+              "description": "<p>communicates a computing solution</p>"
+            }
+          ],
+          "contentGroups": [
+            {
+              "title": "Identifying and defining",
+              "items": []
+            },
+            {
+              "title": "Researching and planning",
+              "items": []
+            },
+            {
+              "title": "Producing and implementing",
+              "items": []
+            },
+            {
+              "title": "Testing and evaluating",
+              "items": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -134,6 +134,12 @@ def main() -> None:
         state.pop("last_errors", None)
     save_state(state)
 
+    # Update site meta.json with today's fetch date
+    meta_file = REPO_ROOT / "site" / "src" / "data" / "meta.json"
+    meta = {"dataFetchedAt": datetime.now().strftime("%Y-%m-%d")}
+    meta_file.write_text(json.dumps(meta, indent=2) + "\n")
+    print(f"   Updated site/src/data/meta.json → {meta['dataFetchedAt']}")
+
     # Summary
     fetched = len(PAGES) - len(errors)
     print(f"\n{'✅' if not errors else '⚠️ '} Done — {fetched}/{len(PAGES)} pages fetched")
