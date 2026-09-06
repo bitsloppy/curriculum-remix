@@ -29,7 +29,7 @@ navigable, cross-linked format — with Australian Curriculum (ACARA) code mappi
 | Agent | Role | Active phase |
 |---|---|---|
 | Good Buddy 🦉 | Orchestration, planning, memory | All phases |
-| Web Ninja 🥷 | Site code (Astro + Web Awesome), data pipeline | All phases |
+| Ninja 🥷 | Site code (Astro + Web Awesome), data pipeline | All phases |
 
 ---
 
@@ -119,7 +119,7 @@ git push origin main   # triggers Cloudflare Pages deploy
 
 1. **`site/src/data/syllabuses.json` is the source of truth** for the syllabus list — 88 entries. Never hand-edit; it's generated from the live site.
 2. **Git identity.** Always commit as Bit Sloppy / hello@bitsloppy.com.
-3. **Web Awesome token scale is reversed from Tailwind.** `neutral-50` = mid-dark grey; `neutral-95` = very light. Valid steps: 05, 10, 20, 30, 40, 50, 60, 70, 80, 90, 95. See Web Ninja's MEMORY.md for the full mapping.
+3. **Web Awesome token scale is reversed from Tailwind.** `neutral-50` = mid-dark grey; `neutral-95` = very light. Valid steps: 05, 10, 20, 30, 40, 50, 60, 70, 80, 90, 95. See Ninja's MEMORY.md for the full mapping.
 4. **WA layout classes, not custom elements.** `<div class="wa-stack">` not `<wa-stack>`.
 5. **Anna runs `npm run dev` herself.** Don't start the dev server unless asked.
 
