@@ -439,10 +439,14 @@ const total = courses.length;
 
   .course-table thead {
     background: var(--wa-color-neutral-95);
-    border-bottom: 2px solid var(--wa-color-neutral-90);
   }
 
   .course-table th {
+    position: sticky;
+    top: calc(var(--header-height, 4rem) + var(--filter-bar-height, 3.5rem));
+    z-index: 3;
+    background: var(--wa-color-neutral-95);
+    border-bottom: 2px solid var(--wa-color-neutral-90);
     text-align: left;
     padding: var(--wa-space-s) var(--wa-space-m);
     font-size: 0.75rem;
@@ -568,6 +572,15 @@ const total = courses.length;
   const countEl     = document.getElementById('course-count')!;
   const emptyEl     = document.getElementById('course-empty') as HTMLParagraphElement;
   const klaSelect   = document.getElementById('kla-select') as HTMLSelectElement;
+
+  // Keep --filter-bar-height in sync so sticky thead top is correct
+  const filterBar = document.querySelector<HTMLElement>('.filter-bar');
+  if (filterBar) {
+    const ro = new ResizeObserver(() => {
+      document.documentElement.style.setProperty('--filter-bar-height', filterBar.offsetHeight + 'px');
+    });
+    ro.observe(filterBar);
+  }
 
   // Track active filter values
   let activeStage    = '';
