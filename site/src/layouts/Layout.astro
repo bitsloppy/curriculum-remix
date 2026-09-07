@@ -3,9 +3,8 @@
 // Web Awesome 3.11 via kit-authenticated CDN (ka-p.webawesome.com)
 // Kit code in URL path — this is what enables CORS for cross-origin loading.
 // Pattern from sackar-atlas (confirmed working on Cloudflare Pages).
-const FA_KIT_CODE = '5cd93bd475';
-const WA_KIT_CODE = 'b75567f200a343f9'; // WA kit (separate from FA kit)
-const WA_CDN = `https://ka-p.webawesome.com/kit/${WA_KIT_CODE}/webawesome@3.11.0`;
+const FA_KIT_CODE = '5cd93bd475'; // FA + WA kit — same code
+const WA_CDN = `https://ka-p.webawesome.com/kit/${FA_KIT_CODE}/webawesome@3.11.0`;
 
 interface Props {
   title: string;
@@ -188,7 +187,7 @@ const dateStr = fetchDate.toLocaleDateString('en-AU', { day: 'numeric', month: '
       </div>
       <header slot="header">
         <a href="/">
-          <wa-icon name="record-vinyl"></wa-icon>
+          <wa-icon name="turntable"></wa-icon>
           Curriculum Remix
         </a>
         <nav>
