@@ -26,11 +26,12 @@ jobs:
       - name: Install dependencies
         working-directory: site
         run: npm ci
+        env:
+          WEBAWESOME_NPM_TOKEN: ${{ secrets.WA_TOKEN }}
 
       - name: Build site
         working-directory: site
         run: npm run build
-        # FA Pro kit code is hardcoded in Layout.astro — no secrets needed for icons.
 
       - name: Create Pages project (first deploy only)
         uses: cloudflare/wrangler-action@v3
