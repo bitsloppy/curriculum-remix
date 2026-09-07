@@ -1,12 +1,13 @@
 ---
 // ─── Curriculum Remix — Layout ────────────────────────────────────────────────
-// Web Awesome 3.11 (free CDN) + Font Awesome Pro kit 5cd93bd475
+// Web Awesome 3.11 (npm bundle via Vite) + Font Awesome Pro kit 5cd93bd475
 //
-// FA Pro icons are unlocked via data-fa-kit-code on <html>.
-// WA reads this automatically and uses it for <wa-icon> Pro icon lookups.
-// No separate FA kit <script> tag needed — that's for <i> tag patterns only.
-const WA_CDN = 'https://ka-f.webawesome.com/webawesome@3.11.0';
+// WA is bundled at build time — no CDN loader needed. Kit code unlocks Pro icons
+// via ka-f.fontawesome.com (set explicitly via setKitCode below).
 const FA_KIT_CODE = '5cd93bd475';
+
+import '@awesome.me/webawesome/dist/styles/themes/default.css';
+import '@awesome.me/webawesome/dist/styles/utilities.css';
 
 interface Props {
   title: string;
@@ -45,11 +46,6 @@ const dateStr = fetchDate.toLocaleDateString('en-AU', { day: 'numeric', month: '
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <title>{pageTitle}</title>
-
-    <!-- Web Awesome 3.11 (free CDN) -->
-    <link rel="stylesheet" href={`${WA_CDN}/styles/themes/default.css`} />
-    <link rel="stylesheet" href={`${WA_CDN}/styles/utilities.css`} />
-    <script type="module" src={`${WA_CDN}/webawesome.loader.js`}></script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -213,3 +209,9 @@ const dateStr = fetchDate.toLocaleDateString('en-AU', { day: 'numeric', month: '
     </wa-page>
   </body>
 </html>
+
+<script>
+  // Initialise Web Awesome and unlock FA Pro icons
+  import { setKitCode } from '@awesome.me/webawesome/dist/webawesome.loader.js';
+  setKitCode('5cd93bd475');
+</script>
