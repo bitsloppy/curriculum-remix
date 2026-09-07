@@ -32,6 +32,14 @@ jobs:
         run: npm run build
         # FA Pro kit code is hardcoded in Layout.astro — no secrets needed for icons.
 
+      - name: Create Pages project (first deploy only)
+        uses: cloudflare/wrangler-action@v3
+        continue-on-error: true
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages project create curriculum-remix --production-branch=main
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
