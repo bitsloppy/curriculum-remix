@@ -425,7 +425,8 @@ const total = courses.length;
   /* ─── Table ──────────────────────────────────────────────────────────────── */
   .table-wrap {
     margin-block-start: var(--wa-space-l);
-    overflow-x: auto;
+    overflow: auto;
+    max-height: calc(100vh - 14rem);
     border: 1px solid var(--wa-color-neutral-90);
     border-radius: var(--wa-border-radius-m);
     background: white;
@@ -443,7 +444,7 @@ const total = courses.length;
 
   .course-table th {
     position: sticky;
-    top: calc(var(--header-height, 4rem) + var(--filter-bar-height, 3.5rem));
+    top: 0;
     z-index: 3;
     background: var(--wa-color-neutral-95);
     border-bottom: 2px solid var(--wa-color-neutral-90);
@@ -572,15 +573,6 @@ const total = courses.length;
   const countEl     = document.getElementById('course-count')!;
   const emptyEl     = document.getElementById('course-empty') as HTMLParagraphElement;
   const klaSelect   = document.getElementById('kla-select') as HTMLSelectElement;
-
-  // Keep --filter-bar-height in sync so sticky thead top is correct
-  const filterBar = document.querySelector<HTMLElement>('.filter-bar');
-  if (filterBar) {
-    const ro = new ResizeObserver(() => {
-      document.documentElement.style.setProperty('--filter-bar-height', filterBar.offsetHeight + 'px');
-    });
-    ro.observe(filterBar);
-  }
 
   // Track active filter values
   let activeStage    = '';

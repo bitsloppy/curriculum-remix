@@ -380,7 +380,8 @@ const total = syllabuses.length;
   /* ─── Table ──────────────────────────────────────────────────────────────── */
   .table-wrap {
     margin-block-start: var(--wa-space-l);
-    overflow-x: auto;
+    overflow: auto;
+    max-height: calc(100vh - 14rem);
     border: 1px solid var(--wa-color-neutral-90);
     border-radius: var(--wa-border-radius-m);
     background: white;
@@ -394,10 +395,14 @@ const total = syllabuses.length;
 
   .syl-table thead {
     background: var(--wa-color-neutral-95);
-    border-bottom: 2px solid var(--wa-color-neutral-90);
   }
 
   .syl-table th {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: var(--wa-color-neutral-95);
+    border-bottom: 2px solid var(--wa-color-neutral-90);
     text-align: left;
     padding: var(--wa-space-s) var(--wa-space-m);
     font-size: 0.75rem;
