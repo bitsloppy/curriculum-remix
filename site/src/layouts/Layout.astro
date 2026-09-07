@@ -32,6 +32,15 @@ const dateStr = fetchDate.toLocaleDateString('en-AU', { day: 'numeric', month: '
   data-fa-kit-code={FA_KIT_CODE}
 >
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JEGJZ6463D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JEGJZ6463D');
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
@@ -54,7 +63,7 @@ const dateStr = fetchDate.toLocaleDateString('en-AU', { day: 'numeric', month: '
       /* ─── Design tokens ─────────────────────────────────────────────────────── */
       :root {
         /* Brand */
-        --site-brand:      #1e40af; /* blue-800 — primary nav/header */
+        --site-brand:      #3E1547; /* brand purple */
         --site-brand-text: #ffffff;
 
         /* KLA colour palette */

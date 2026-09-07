@@ -26,7 +26,7 @@ const klas = [
   <div class="hero">
     <h1>NSW Curriculum, remixed.</h1>
     <p>
-      Browse the curriculum by learning areas, stage —
+      Browse syllabus outcomes —
       from the same data that powers <a href="https://curriculum.nsw.edu.au">curriculum.nsw.edu.au</a>.  
     </p>
 
@@ -55,19 +55,29 @@ const klas = [
 
       <a href="/syllabuses" class="browse-card">
         <div class="browse-card-header">
-          <wa-icon name="list"></wa-icon>
-          <strong>All Syllabuses</strong>
+          <wa-icon name="school"></wa-icon>
+          <strong>Syllabus A-Z</strong>
         </div>
         <p>{syllabusCount} syllabuses across all KLAs — filter by stage, course type, and more.</p>
+      </a>
+
+      <a href="/course-descriptions" class="browse-card">
+        <div class="browse-card-header">
+          <wa-icon name="bell"></wa-icon>
+          <strong>Course descriptions</strong>
+        </div>
+        <p>Course name, number and aligned syllabus — filter by stage, learning area and more.. </p>
       </a>
 
       <a href="/syllabuses?stage=11-12" class="browse-card">
         <div class="browse-card-header">
           <wa-icon name="graduation-cap"></wa-icon>
-          <strong>Stage 6 (11–12)</strong>
+          <strong>Senior secondary syllabuses</strong>
         </div>
-        <p>Senior secondary syllabuses — HSC courses, extensions, and Life Skills.</p>
+        <p>Stage 6 (11–12) — HSC courses, extensions, and Life Skills.</p>
       </a>
+
+
 
     </div>
   </section>

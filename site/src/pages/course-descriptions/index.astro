@@ -174,7 +174,7 @@ const total = courses.length;
               {c.courseType || '—'}
             </td>
             <td class="col-syllabus">
-              <a href={c.syllabusUrl} class="syl-link">{c.syllabusName}</a>
+              <a href={`https://curriculum.nsw.edu.au/learning-areas/${c.kla.replace(/_/g, '-')}/${c.syllabusSlug}/overview/course`} class="syl-link" target="_blank" rel="noopener">{c.syllabusName}</a>
             </td>
           </tr>
         ))}

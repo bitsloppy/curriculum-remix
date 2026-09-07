@@ -59,6 +59,12 @@
   ],
   "rationale": "<p>Mathematical ideas have evolved and continue to develop across cultures and have been practised in Australia by Aboriginal and Torres Strait Islander Peoples for thousands of years. Through the study of mathematics, students apply their knowledge and skills to deepen their understanding of the world.</p>\n<p>Mathematics is a reasoning and creative activity, integral to scientific and technological advances across many fields of endeavour. The symbolic nature of mathematics provides a powerful and precise means of communication.</p>\n<p>Making connections across mathematical concepts and other subject areas enhances students’ ability to understand the purpose of learning mathematics and to develop a deeper conceptual understanding. This helps students to recognise the role of mathematics in solving problems in the world around them, applying their understanding to familiar and unfamiliar situations.</p>\n<p>By studying mathematics, students develop essential numeracy skills and fluency, while nurturing the ability to think logically, critically and creatively. They learn about patterns and reason about relationships, creating opportunities to generalise their solutions and to solve non-routine problems.</p>\n<p>When students enjoy learning mathematics, they develop a positive self-concept and become self-motivated learners through active participation in appropriately challenging tasks. This can enhance their resilience in solving mathematical problems relevant to further education and their everyday lives.</p>",
   "aim": "<p>The aim of Mathematics K–10 is to enable students to become confident users of mathematics, learning and applying the language of mathematics to communicate efficiently and effectively. They develop an increasingly sophisticated understanding of mathematical concepts and a fluency with mathematical processes that helps them to interpret and solve problems. Students make connections within mathematics and connect mathematical concepts with the world around them. They learn to understand and appreciate how mathematics is a relevant part of their lives.</p>",
+  "overarchingOutcomes": [
+    {
+      "code": "MAO-WM-01",
+      "description": "<p>develops understanding and fluency in mathematics through exploring and connecting mathematical concepts, choosing and applying mathematical techniques to solve problems, and communicating their thinking and reasoning coherently and clearly</p>"
+    }
+  ],
   "stages": [
     {
       "codename": "early_stage_1",

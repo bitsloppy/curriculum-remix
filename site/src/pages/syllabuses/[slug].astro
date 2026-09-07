@@ -19,30 +19,47 @@ const content = existsSync(contentPath)
   ? JSON.parse(readFileSync(contentPath, 'utf-8'))
   : null;
 
-// Load glossary data
-const glossaryPath = join(process.cwd(), 'src/data/glossary', `${s.slug}.json`);
-const glossaryData = existsSync(glossaryPath)
-  ? JSON.parse(readFileSync(glossaryPath, 'utf-8'))
-  : null;
-type GlossaryTerm = { id: string; codename: string; title: string; slug: string; description: string };
-const glossaryShared: GlossaryTerm[]   = glossaryData?.shared   ?? [];
-const glossarySpecific: GlossaryTerm[] = glossaryData?.specific ?? [];
-const hasGlossary = glossaryShared.length > 0 || glossarySpecific.length > 0;
-// Load the link-ID → term map (keyed by data-item-id linkId UUID)
-const linkMapPath = join(process.cwd(), 'src/data/glossary-link-map.json');
-const termMap: Record<string, { title: string; slug: string; description: string }> = existsSync(linkMapPath)
-  ? JSON.parse(readFileSync(linkMapPath, 'utf-8'))
-  : {};
-
 const stages = content?.stages ?? [];
-const overviewHtml = content?.overview ?? '';
-const overviewSections: Array<{heading:string|null,level:number|null,isAccordion:boolean,html:string}> = content?.overviewSections ?? [];
 const hasContent = stages.length > 0;
-const rationaleHtml = content?.rationale ?? '';
-const aimHtml = content?.aim ?? '';
 
 // Stage → year range label
 const lifeSkillsYears = s.stage === '11–12' ? 'Years 11–12' : 'Years 7–10';
+
+// Stage group mapping (for jump buttons)
+const stageGroupMap: Record<string, string> = {
+  early_stage_1: 'k6',
+  stage_1:       'k6',
+  stage_2:       'k6',
+  stage_3:       'k6',
+  stage_4:       '7-10',
+  stage_5:       '7-10',
+  year_11:       '11-12',
+  year_12:       '11-12',
+  stage_6:       '11-12',
+  life_skills:   s.stage === '11–12' ? '11-12' : '7-10',
+};
+
+// Stage header shade (light → medium → dark)
+const stageShadeMap: Record<string, string> = {
+  early_stage_1: 'light',
+  stage_1:       'light',
+  stage_2:       'light',
+  stage_3:       'light',
+  stage_4:       'medium',
+  stage_5:       'medium',
+  year_11:       'medium',
+  year_12:       'medium',
+  stage_6:       'medium',
+  life_skills:   'dark',
+};
+
+// Which groups are present in this syllabus?
+const presentGroups = [...new Set(
+  (stages as any[]).map((st: any) => stageGroupMap[st.codename]).filter(Boolean)
+)];
+const hasK6   = presentGroups.includes('k6');
+const has710  = presentGroups.includes('7-10');
+const showJumpNav = hasK6 && has710;
 
 // Cross-stage outcomes matrix
 const allFocusAreaNames: string[] = [];
@@ -58,6 +75,7 @@ const allFocusAreaNames: string[] = [];
   }
 }
 type OutcomeItem = { code: string; description: string };
+const overarchingOutcomes: OutcomeItem[] = content?.overarchingOutcomes ?? [];
 const stageOutcomesMaps: Record<string, OutcomeItem[]>[] = (stages as any[]).map(st => {
   const map: Record<string, OutcomeItem[]> = {};
   for (const fa of st.focusAreas ?? []) {
@@ -79,7 +97,6 @@ const stageYears: Record<string, string> = {
   life_skills: lifeSkillsYears,
 };
 
-
 const klaColor = `var(--kla-${s.kla ?? 'english'})`;
 
 const stageLabels: Record<string, string> = {
@@ -95,56 +112,6 @@ const classifParts: string[] = [];
 if (s.isMandatory && s.isElective) classifParts.push('Mandatory + Elective choice');
 else if (s.isMandatory) classifParts.push('Mandatory');
 else if (s.isElective) classifParts.push(`Elective${s.electivePeriods ? ` (${s.electivePeriods} periods)` : ''}`);
-
-// Merge focus areas that share the same title (data sometimes splits one FA across multiple entries)
-function mergeFocusAreas(focusAreas: any[]): any[] {
-  const order: string[] = [];
-  const map = new Map<string, any>();
-  for (const fa of focusAreas) {
-    if (!map.has(fa.title)) {
-      order.push(fa.title);
-      map.set(fa.title, {
-        ...fa,
-        outcomes: [...(fa.outcomes ?? [])],
-        contentGroups: [...(fa.contentGroups ?? [])],
-      });
-    } else {
-      const merged = map.get(fa.title)!;
-      const seenCodes = new Set(merged.outcomes.map((o: any) => o.code));
-      for (const oc of (fa.outcomes ?? [])) {
-        if (!seenCodes.has(oc.code)) {
-          merged.outcomes.push(oc);
-          seenCodes.add(oc.code);
-        }
-      }
-      merged.contentGroups.push(...(fa.contentGroups ?? []));
-    }
-  }
-  return order.map(t => map.get(t)!);
-}
-
-// Overview nav helpers
-function ovHeadingToId(heading: string): string {
-  return 'ov-' + heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-}
-
-const overviewNavItems: Array<{ id: string; label: string; isAccordion: boolean }> =
-  overviewSections
-    .filter(sec => Boolean(sec.heading))
-    .map(sec => ({
-      id: ovHeadingToId(sec.heading!),
-      label: sec.heading!,
-      isAccordion: sec.isAccordion,
-    }));
-
-// Always add Course details at the end if there are enough nav items
-if (overviewNavItems.length >= 2) {
-  overviewNavItems.push({ id: 'ov-course-details', label: 'Course details', isAccordion: false });
-}
-
-const showOverviewNav = overviewNavItems.length >= 3;
-
-
 ---
 
 <Layout title={s.name} description={`${s.name} — NSW ${s.klaLabel} syllabus, ${s.stage}.`}>
@@ -176,412 +143,118 @@ const showOverviewNav = overviewNavItems.length >= 3;
 
   {hasContent ? (
     <>
-      <!-- ─── Tab group ────────────────────────────────────────────────────── -->
-      <wa-tab-group class="syl-tabs" active="overview">
-        <wa-tab panel="overview" active>Overview</wa-tab>
-        <wa-tab panel="aim">Aim and rationale</wa-tab>
-        <wa-tab panel="outcomes">Outcomes</wa-tab>
-        <wa-tab panel="content">Content</wa-tab>
-        <wa-tab panel="assessment">Assessment</wa-tab>
-        <wa-tab panel="glossary">Glossary</wa-tab>
+      <h2 class="outcomes-heading">Outcomes</h2>
 
-        <!-- ── Overview panel ─────────────────────────────────────────────── -->
-        <wa-tab-panel name="overview" active>
+      <!-- ─── Controls bar: jump nav + view toggle ────────────────────────── -->
+      <div class="outcomes-controls">
 
-          <div class={showOverviewNav ? 'ov-layout' : undefined}>
+        {showJumpNav && (
+          <div class="stage-nav" role="group" aria-label="Jump to stage">
+            <span class="stage-nav-label">Jump to</span>
+            <button class="stage-chip" data-stagejump="k6">K–6</button>
+            <button class="stage-chip" data-stagejump="7-10">7–10</button>
+          </div>
+        )}
 
-            {showOverviewNav && (
-              <nav class="ov-nav" aria-label="Overview sections">
-                <ul class="onav-list">
-                  {overviewNavItems.map(item => (
-                    <li>
-                      <a class="onav-link" href={`#${item.id}`}
-                         data-accordion={item.isAccordion ? 'true' : undefined}>
-                        {item.label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </nav>
-            )}
+        <div class="ov-toggle" role="group" aria-label="Outcomes view">
+          <button class="ov-toggle-btn active" data-target="outcomes-default">Default</button>
+          <button class="ov-toggle-btn" data-target="outcomes-continuum">Continuum of learning</button>
+        </div>
 
-            <div class={showOverviewNav ? 'ov-body' : undefined}>
+      </div>
 
-              {overviewSections.length > 0 ? (
-                overviewSections.map(sec => {
-                  const secId = sec.heading ? ovHeadingToId(sec.heading) : undefined;
-                  return sec.isAccordion ? (
-                    <wa-details class="ov-accordion" summary={sec.heading ?? ''} id={secId}>
-                      <div class="prose" set:html={sec.html} />
-                    </wa-details>
-                  ) : (
-                    <section class="ov-section" id={secId}>
-                      {sec.heading && <h2 class="section-heading">{sec.heading}</h2>}
-                      <div class="prose" set:html={sec.html} />
-                    </section>
-                  );
-                })
-              ) : overviewHtml ? (
-                <section class="ov-section">
-                  <div class="prose" set:html={overviewHtml} />
-                </section>
-              ) : null}
+      <!-- ─── Default view: stage columns ───────────────────────────────── -->
+      <div id="outcomes-default" class="outcomes-view">
 
-              <div class="info-cards" id="ov-course-details">
-            <div class="info-card">
-              <h2>Course details</h2>
-              <dl>
-                <dt>Learning area</dt><dd>{s.klaLabel}</dd>
-                <dt>Stage</dt><dd>{s.stage}</dd>
-                <dt>Course type</dt><dd>{s.type === 'LS' ? 'Life Skills' : 'Mainstream'}</dd>
-                {classifParts.length > 0 && <><dt>Classification</dt><dd>{classifParts.join(', ')}</dd></>}
-                <dt>Published</dt><dd>{s.publicationYear}</dd>
-              </dl>
-            </div>
-            <div class="info-card">
-              <h2>Links</h2>
-              <div class="link-list">
-                {s.curriculumUrl && (
-                  <a href={s.curriculumUrl} target="_blank" rel="noopener" class="link-row link-primary">
-                    <wa-icon name="arrow-up-right-from-square" variant="solid"></wa-icon>
-                    <span>
-                      <strong>curriculum.nsw.edu.au</strong>
-                      <small>Current NESA site</small>
-                    </span>
-                  </a>
-                )}
-                {s.nesaUrl && (
-                  <a href={s.nesaUrl} target="_blank" rel="noopener" class="link-row">
-                    <wa-icon name="arrow-up-right-from-square" variant="regular"></wa-icon>
-                    <span>
-                      <strong>educationstandards.nsw.edu.au</strong>
-                      <small>Legacy NESA site</small>
-                    </span>
-                  </a>
+        {overarchingOutcomes.length > 0 && (
+          <div class="overarching-bar">
+            <span class="overarching-label">Overarching outcome</span>
+            {overarchingOutcomes.map(oc => (
+              <div class="overarching-card">
+                <span class="outcome-code">{oc.code}</span>
+                <div class="outcome-desc" set:html={oc.description} />
+              </div>
+            ))}
+          </div>
+        )}
+
+        <div class="stage-columns">
+          {(stages as any[]).map(st => (
+            <div class="stage-col" data-stagegroup={stageGroupMap[st.codename]} data-shade={stageShadeMap[st.codename]}>
+              <div class="stage-col-header">
+                <span class="stage-col-name">{st.name}</span>
+                {stageYears[st.codename] && (
+                  <span class="stage-col-years">{stageYears[st.codename]}</span>
                 )}
               </div>
+              <div class="stage-col-body">
+                {(st.focusAreas ?? []).map((fa: any) => (
+                  fa.outcomes.length > 0 && (
+                    fa.outcomes.map((oc: OutcomeItem) => (
+                      <div class="outcome-card">
+                        <span class="outcome-code">{oc.code}</span>
+                        <span class="outcome-fa-title">{fa.title}</span>
+                        <div class="outcome-desc" set:html={oc.description} />
+                      </div>
+                    ))
+                  )
+                ))}
+              </div>
             </div>
-          </div>{/* info-cards */}
+          ))}
+        </div>
+      </div>
 
-            </div>{/* ov-body */}
-          </div>{/* ov-layout */}
-        </wa-tab-panel>
+      <!-- ─── Continuum view: frozen-left matrix ─────────────────────────── -->
+      <div id="outcomes-continuum" class="outcomes-view" hidden>
+        <div class="om-scroll">
+          <div
+            class="outcomes-matrix"
+            id="outcomes-matrix"
+            style={`grid-template-columns: 200px repeat(${stages.length}, 300px)`}
+          >
+            <!-- Header row -->
+            <div class="om-cell om-header om-frozen">Outcome</div>
+            {(stages as any[]).map(st => (
+              <div
+                class="om-cell om-header"
+                data-col={st.codename}
+                data-stagegroup={stageGroupMap[st.codename]}
+              >
+                <span class="om-stage-name">{st.name}</span>
+                {stageYears[st.codename] && (
+                  <span class="om-stage-years">{stageYears[st.codename]}</span>
+                )}
+              </div>
+            ))}
 
-        <!-- ── Aim and rationale panel ──────────────────────────────────────── -->
-        <wa-tab-panel name="aim">
-          {(aimHtml || rationaleHtml) ? (
-            <div class="aim-rationale">
-              {aimHtml && (
-                <section class="ov-section">
-                  <h2 class="section-heading">Aim</h2>
-                  <div class="prose" set:html={aimHtml} />
-                </section>
-              )}
-              {rationaleHtml && (
-                <section class="ov-section">
-                  <h2 class="section-heading">Rationale</h2>
-                  <div class="prose" set:html={rationaleHtml} />
-                </section>
-              )}
-            </div>
-          ) : (
-            <div class="coming-soon">
-              <wa-icon name="clock" variant="regular"></wa-icon>
-              <p>Aim and rationale not available for this syllabus.</p>
-            </div>
-          )}
-        </wa-tab-panel>
-
-        <!-- ── Outcomes panel ─────────────────────────────────────────────── -->
-        <wa-tab-panel name="outcomes">
-
-          <!-- View switcher -->
-          <div class="ov-switcher">
-            <p class="ov-switcher-text">
-              View outcomes stage by stage, or switch to the continuum of learning view to see how outcomes build across focus areas as students progress through each stage.
-            </p>
-            <div class="ov-toggle" role="group" aria-label="Outcomes view">
-              <button class="ov-toggle-btn active" data-target="outcomes-default">Default</button>
-              <button class="ov-toggle-btn" data-target="outcomes-continuum">Continuum of learning</button>
-            </div>
-          </div>
-
-          <!-- Default view: stage columns -->
-          <div id="outcomes-default" class="outcomes-view">
-            <div class="stage-columns">
-              {(stages as any[]).map(st => (
-                <div class="stage-col">
-                  <div class="stage-col-header">
-                    <span class="stage-col-name">{st.name}</span>
-                    {stageYears[st.codename] && (
-                      <span class="stage-col-years">{stageYears[st.codename]}</span>
-                    )}
-                  </div>
-                  <div class="stage-col-body">
-                    {(st.focusAreas ?? []).map((fa: any) => (
-                      fa.outcomes.length > 0 && (
-                        fa.outcomes.map((oc: OutcomeItem) => (
+            <!-- Data rows — one per focus area -->
+            {allFocusAreaNames.map((faName, ri) => (
+              <>
+                <div class={`om-cell om-row-label om-frozen${ri % 2 === 1 ? ' om-stripe' : ''}`}>
+                  {faName}
+                </div>
+                {stageOutcomesMaps.map((map, si) => (
+                  <div
+                    class={`om-cell om-data${ri % 2 === 1 ? ' om-stripe' : ''}`}
+                    data-col={(stages as any[])[si].codename}
+                    data-stagegroup={stageGroupMap[(stages as any[])[si].codename]}
+                  >
+                    {(map[faName] ?? []).length > 0
+                      ? (map[faName] ?? []).map((oc: OutcomeItem) => (
                           <div class="outcome-card">
                             <span class="outcome-code">{oc.code}</span>
-                            <span class="outcome-fa-title">{fa.title}</span>
                             <div class="outcome-desc" set:html={oc.description} />
                           </div>
                         ))
-                      )
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <!-- Continuum view: frozen-left matrix -->
-          <div id="outcomes-continuum" class="outcomes-view" hidden>
-            <div class="om-scroll">
-              <div
-                class="outcomes-matrix"
-                style={`grid-template-columns: 200px repeat(${stages.length}, 300px)`}
-              >
-                {/* Header row */}
-                <div class="om-cell om-header om-frozen">Outcome</div>
-                {(stages as any[]).map(st => (
-                  <div class="om-cell om-header">
-                    <span class="om-stage-name">{st.name}</span>
-                    {stageYears[st.codename] && (
-                      <span class="om-stage-years">{stageYears[st.codename]}</span>
-                    )}
+                      : <span class="om-empty">No outcome for this stage</span>
+                    }
                   </div>
                 ))}
-
-                {/* Data rows — one per focus area */}
-                {allFocusAreaNames.map((faName, ri) => (
-                  <>
-                    <div class={`om-cell om-row-label om-frozen${ri % 2 === 1 ? ' om-stripe' : ''}`}>
-                      {faName}
-                    </div>
-                    {stageOutcomesMaps.map((map) => (
-                      <div class={`om-cell om-data${ri % 2 === 1 ? ' om-stripe' : ''}`}>
-                        {(map[faName] ?? []).length > 0
-                          ? (map[faName] ?? []).map((oc: OutcomeItem) => (
-                              <div class="outcome-card">
-                                <span class="outcome-code">{oc.code}</span>
-                                <div class="outcome-desc" set:html={oc.description} />
-                              </div>
-                            ))
-                          : <span class="om-empty">No outcome for this stage</span>
-                        }
-                      </div>
-                    ))}
-                  </>
-                ))}
-              </div>
-            </div>
+              </>
+            ))}
           </div>
-
-        </wa-tab-panel>
-
-        <!-- ── Content panel ──────────────────────────────────────────────── -->
-        <wa-tab-panel name="content">
-          <div class="content-layout">
-
-            <!-- Left nav -->
-            <nav class="content-nav" aria-label="Content navigation">
-              {(stages as any[]).map(st => {
-                return (
-                  <div class="cnav-stage">
-                    <a class="cnav-stage-link" href={`#cs-${st.codename}`}>
-                      {st.name}
-                      {stageYears[st.codename] && (
-                        <span class="cnav-stage-years">{stageYears[st.codename]}</span>
-                      )}
-                    </a>
-                    <ul class="cnav-fa-list">
-                      {mergeFocusAreas(st.focusAreas ?? []).map((fa: any) => {
-                        const faId = fa.title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-                        return (
-                          <li>
-                            <a class="cnav-fa-link" href={`#cfa-${st.codename}-${faId}`}>
-                              {fa.title}
-                            </a>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
-                );
-              })}
-            </nav>
-
-            <!-- Content body -->
-            <div class="content-body">
-
-              <!-- Examples toolbar -->
-              <div class="examples-toolbar">
-                <button class="examples-toggle" id="examples-toggle" data-state="hidden" aria-pressed="false">
-                  <wa-icon name="eye" variant="regular"></wa-icon>
-                  Show examples
-                </button>
-              </div>
-
-              {(stages as any[]).map(st => (
-                  <section class="content-stage" id={`cs-${st.codename}`}>
-                    <div class="content-stage-header">
-                      <h2 class="content-stage-name">{st.name}</h2>
-                      {stageYears[st.codename] && (
-                        <span class="content-stage-years">{stageYears[st.codename]}</span>
-                      )}
-                    </div>
-
-                    {mergeFocusAreas(st.focusAreas ?? []).map((fa: any) => {
-                      const faId = fa.title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-                      const faOutcomes: any[] = fa.outcomes ?? [];
-                      return (
-                        <div class="content-fa" id={`cfa-${st.codename}-${faId}`}>
-                          <div class="fa-card">
-                            <div class="fa-section-head">
-                              <span class="fa-section-title">{fa.title}</span>
-                            </div>
-                            <div class="fa-card-body">
-                              {faOutcomes.length > 0 && (
-                                <div class="fa-outcomes-wrap">
-                                  <div class="fao-header">Outcomes</div>
-                                  <ul class="fa-outcomes-list">
-                                    {faOutcomes.map((oc: any) => (
-                                      <li class="fao-item">
-                                        <span class="fao-code">{oc.code}</span>
-                                        <div class="fao-desc" set:html={oc.description} />
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              )}
-
-                              {(fa.contentGroups ?? []).map((cg: any) => {
-                                const cgHasExamples = (cg.items ?? []).some((ci: any) => Boolean(ci.examples));
-                                return (
-                                  <div class="cg-section">
-                                    <div class="cg-table-wrap">
-                                      <table class="cg-table">
-                                        <thead>
-                                          <tr>
-                                            <th class="cg-th-content">{cg.title}</th>
-                                            {cgHasExamples && <th class="cg-th-examples examples-col">Examples</th>}
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          {(cg.items ?? []).map((ci: any) => (
-                                            <tr>
-                                              <td class="ci-td"><div set:html={ci.text} /></td>
-                                              {cgHasExamples && (
-                                                <td class="ci-ex-td examples-col">
-                                                  {ci.examples && <div set:html={ci.examples} />}
-                                                </td>
-                                              )}
-                                            </tr>
-                                          ))}
-                                        </tbody>
-                                      </table>
-                                    </div>
-                                  </div>
-                                );
-                              })}
-                            </div>
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </section>
-              ))}
-            </div>
-          </div>
-        </wa-tab-panel>
-
-        <!-- ── Assessment panel ───────────────────────────────────────────── -->
-        <wa-tab-panel name="assessment">
-          <div class="coming-soon">
-            <wa-icon name="clock" variant="regular"></wa-icon>
-            <p>Assessment information is not yet extracted from the source data.</p>
-            {s.curriculumUrl && (
-              <a href={`${s.curriculumUrl}/assessment`} target="_blank" rel="noopener" class="ext-link">
-                View assessment on curriculum.nsw.edu.au
-                <wa-icon name="arrow-up-right-from-square" variant="solid"></wa-icon>
-              </a>
-            )}
-          </div>
-        </wa-tab-panel>
-
-        <!-- ── Glossary panel ─────────────────────────────────────────────── -->
-        <wa-tab-panel name="glossary">
-          {hasGlossary ? (
-            <div class="glossary-panel">
-
-              {/* External link row */}
-              {s.curriculumUrl && (
-                <a href={`${s.curriculumUrl}/glossary`} target="_blank" rel="noopener" class="glossary-ext-link">
-                  <wa-icon name="arrow-up-right-from-square" variant="solid"></wa-icon>
-                  View full glossary on curriculum.nsw.edu.au
-                </a>
-              )}
-
-              {/* Syllabus-specific terms */}
-              {glossarySpecific.length > 0 && (
-                <section class="glossary-section">
-                  <h2 class="glossary-section-heading">{s.name} terms</h2>
-                  <dl class="glossary-list">
-                    {glossarySpecific.map(term => (
-                      <div class="glossary-entry" id={`gt-${term.codename}`}>
-                        <dt class="glossary-term">{term.title}</dt>
-                        {term.description && <dd class="glossary-def prose" set:html={term.description} />}
-                      </div>
-                    ))}
-                  </dl>
-                </section>
-              )}
-
-              {/* Shared terms (apply to all syllabuses) */}
-              {glossaryShared.length > 0 && (
-                <section class="glossary-section">
-                  <h2 class="glossary-section-heading">Shared terms</h2>
-                  <p class="glossary-section-note">These terms apply across all NSW syllabuses.</p>
-                  <dl class="glossary-list">
-                    {glossaryShared.map(term => (
-                      <div class="glossary-entry" id={`gt-${term.codename}`}>
-                        <dt class="glossary-term">{term.title}</dt>
-                        {term.description && <dd class="glossary-def prose" set:html={term.description} />}
-                      </div>
-                    ))}
-                  </dl>
-                </section>
-              )}
-            </div>
-          ) : (
-            <div class="coming-soon">
-              <wa-icon name="book-open" variant="regular"></wa-icon>
-              <p>Glossary is not yet available for this syllabus.</p>
-              {s.curriculumUrl && (
-                <a href={`${s.curriculumUrl}/glossary`} target="_blank" rel="noopener" class="ext-link">
-                  View glossary on curriculum.nsw.edu.au
-                  <wa-icon name="arrow-up-right-from-square" variant="solid"></wa-icon>
-                </a>
-              )}
-            </div>
-          )}
-        </wa-tab-panel>
-      </wa-tab-group>
-
-      <!-- FA pager — fixed bottom bar, shown only when content tab is active -->
-      <div id="fa-pager" class="fa-pager" hidden>
-        <button id="fa-pager-prev" class="fa-pager-btn fa-pager-prev-btn" type="button" aria-label="Previous focus area">
-          <wa-icon name="arrow-left" variant="solid"></wa-icon>
-          <span id="fa-pager-prev-label" class="fa-pager-label"></span>
-        </button>
-        <div class="fa-pager-center">
-          <span id="fa-pager-counter" class="fa-pager-counter"></span>
         </div>
-        <button id="fa-pager-next" class="fa-pager-btn fa-pager-next-btn" type="button" aria-label="Next focus area">
-          <span id="fa-pager-next-label" class="fa-pager-label"></span>
-          <wa-icon name="arrow-right" variant="solid"></wa-icon>
-        </button>
       </div>
     </>
   ) : (
@@ -620,104 +293,50 @@ const showOverviewNav = overviewNavItems.length >= 3;
       Back to all syllabuses
     </a>
   </div>
-<!-- ── Glossary popover ─────────────────────────────────────────────── -->
-<div id="gloss-pop" role="tooltip" aria-live="polite" hidden>
-  <div class="gp-header">
-    <span id="gp-title" class="gp-title"></span>
-    <button id="gp-close" class="gp-close" aria-label="Close">
-      <wa-icon name="xmark" variant="solid"></wa-icon>
-    </button>
-  </div>
-  <div id="gp-body" class="gp-body"></div>
-  <div class="gp-footer">
-    <a id="gp-link" href="#glossary" class="gp-link">View in glossary</a>
-  </div>
-</div>
 
 </Layout>
 
-<script define:vars={{ termMap }}>
-  // ── Glossary inline popovers ────────────────────────────────────────
-  const pop     = document.getElementById('gloss-pop');
-  const popTitle = document.getElementById('gp-title');
-  const popBody  = document.getElementById('gp-body');
-  const popLink  = document.getElementById('gp-link');
-  const popClose = document.getElementById('gp-close');
-  if (!pop) throw new Error('gloss-pop not found');
-
-  let currentAnchor = null;
-
-  function showPop(anchor, term) {
-    popTitle.textContent = term.title;
-    popBody.innerHTML = term.description || '<em>No definition available.</em>';
-    // Link to glossary tab anchor
-    const codename = anchor.dataset.glossCn || '';
-    popLink.href = codename ? `#gt-${codename}` : '#';
-    popLink.onclick = (e) => {
-      e.preventDefault();
-      hidePop();
-      // Switch to glossary tab
-      const tabGroup = document.querySelector('wa-tab-group');
-      if (tabGroup) tabGroup.show('glossary');
-      // Scroll to term after tab switch
-      const target = codename ? document.getElementById(`gt-${codename}`) : null;
-      if (target) {
-        setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 120);
-      }
-    };
-
-    // Position near anchor
-    const rect = anchor.getBoundingClientRect();
-    const scrollY = window.scrollY;
-    const scrollX = window.scrollX;
-    pop.hidden = false;
-
-    // Calculate position (prefer below, flip above if near bottom)
-    const popH = pop.offsetHeight || 180;
-    const spaceBelow = window.innerHeight - rect.bottom;
-    const top = spaceBelow > popH + 8
-      ? scrollY + rect.bottom + 6
-      : scrollY + rect.top - popH - 6;
-    let left = scrollX + rect.left;
-    const popW = pop.offsetWidth || 280;
-    if (left + popW > scrollX + window.innerWidth - 16) {
-      left = scrollX + window.innerWidth - popW - 16;
-    }
-    pop.style.top = `${top}px`;
-    pop.style.left = `${Math.max(8, left)}px`;
-    currentAnchor = anchor;
-  }
-
-  function hidePop() {
-    pop.hidden = true;
-    currentAnchor = null;
-  }
-
-  // Intercept clicks on data-item-id links
-  document.addEventListener('click', (e) => {
-    const anchor = e.target.closest('a[data-item-id]');
-    if (anchor) {
-      e.preventDefault();
-      const id = anchor.dataset.itemId;
-      if (anchor === currentAnchor) { hidePop(); return; }
-      const term = id && termMap[id];
-      if (term) {
-        showPop(anchor, term);
-      }
-      return;
-    }
-    // Close button
-    if (e.target.closest('#gp-close')) { hidePop(); return; }
-    // Click outside
-    if (!pop.contains(e.target)) hidePop();
+<script>
+  // ── View toggle (Default / Continuum) ──────────────────────────────────────
+  document.querySelectorAll<HTMLButtonElement>('.ov-toggle-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetId = btn.dataset.target;
+      if (!targetId) return;
+      btn.closest('.ov-toggle')?.querySelectorAll('.ov-toggle-btn').forEach(b => {
+        b.classList.toggle('active', b === btn);
+      });
+      document.querySelectorAll<HTMLElement>('.outcomes-view').forEach(view => {
+        view.hidden = view.id !== targetId;
+      });
+    });
   });
 
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') hidePop();
+  // ── Stage jump buttons ──────────────────────────────────────────────────────
+  document.querySelectorAll<HTMLButtonElement>('[data-stagejump]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.dataset.stagejump!;
+      const activeView = document.querySelector<HTMLElement>('.outcomes-view:not([hidden])');
+      if (!activeView) return;
+
+      if (activeView.id === 'outcomes-default') {
+        const container = activeView.querySelector<HTMLElement>('.stage-columns');
+        const target    = activeView.querySelector<HTMLElement>(`.stage-col[data-stagegroup="${group}"]`);
+        if (container && target) {
+          const offset = container.scrollLeft + target.getBoundingClientRect().left - container.getBoundingClientRect().left;
+          container.scrollTo({ left: offset, behavior: 'smooth' });
+        }
+      } else {
+        const container = activeView.querySelector<HTMLElement>('.om-scroll');
+        const target    = activeView.querySelector<HTMLElement>(`.om-header[data-stagegroup="${group}"]`);
+        if (container && target) {
+          const offset = container.scrollLeft + target.getBoundingClientRect().left - container.getBoundingClientRect().left - 200;
+          container.scrollTo({ left: Math.max(0, offset), behavior: 'smooth' });
+        }
+      }
+    });
   });
 </script>
 
-<!-- ─── Stage filter JS ──────────────────────────────────────────────────── -->
 <style>
   /* ── Breadcrumb ─────────────────────────────────────────────────────────── */
   .breadcrumb {
@@ -770,162 +389,115 @@ const showOverviewNav = overviewNavItems.length >= 3;
     display: flex; align-items: center; gap: 0.3rem;
   }
 
-  /* ── Stage bar ───────────────────────────────────────────────────────────── */
-
-
-  /* ── Tab group ───────────────────────────────────────────────────────────── */
-  :root { --syl-tabs-nav-height: 3rem; }
-  .syl-tabs { margin-block-end: var(--wa-space-xl); }
-  .syl-tabs::part(body) { padding: var(--wa-space-l) 0; }
-
-  /* Sticky tab nav — sits just below the site header */
-  .syl-tabs::part(nav) {
-    position: sticky;
-    top: var(--header-height, 4rem);
-    z-index: 5;
-    background: white;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+  /* ── Outcomes heading ────────────────────────────────────────────────────── */
+  .outcomes-heading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--wa-color-neutral-10);
+    margin: 0 0 var(--wa-space-l);
   }
 
-  /* ── Overview sections ───────────────────────────────────────────────────── */
-  /* Overview layout (two-column with nav) */
-  .ov-layout {
-    display: grid;
-    grid-template-columns: 210px 1fr;
-    gap: var(--wa-space-2xl);
-    align-items: start;
+  /* ── Controls bar ────────────────────────────────────────────────────────── */
+  .outcomes-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--wa-space-m);
+    flex-wrap: wrap;
+    margin-block-end: var(--wa-space-l);
+    padding-block-end: var(--wa-space-l);
+    border-bottom: 1px solid var(--wa-color-neutral-90);
   }
-  .ov-nav {
-    position: sticky;
-    top: calc(var(--header-height, 4rem) + var(--syl-tabs-nav-height, 3rem) + var(--wa-space-m));
-    max-height: calc(100vh - var(--header-height, 4rem) - var(--syl-tabs-nav-height, 3rem) - var(--wa-space-2xl));
-    overflow-y: auto;
-    padding-block-end: var(--wa-space-xl);
+
+  /* ── Stage jump nav ──────────────────────────────────────────────────────── */
+  .stage-nav {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-xs);
   }
-  .onav-list {
-    list-style: none; padding: 0; margin: 0;
-    display: flex; flex-direction: column; gap: 1px;
-    border-left: 2px solid var(--wa-color-neutral-90);
-    padding-inline-start: var(--wa-space-s);
-  }
-  .onav-link {
-    display: block;
-    font-size: 0.78rem;
+  .stage-nav-label {
+    font-size: 0.8rem;
+    font-weight: 600;
     color: var(--wa-color-neutral-50);
-    text-decoration: none;
-    padding: 0.3rem var(--wa-space-xs);
-    border-radius: var(--wa-border-radius-s);
-    line-height: 1.35;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
-  .onav-link:hover { color: var(--site-brand); background: color-mix(in srgb, var(--site-brand) 6%, white); }
-  .onav-link.active {
+  .stage-chip {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    border: 1px solid var(--wa-color-neutral-80);
+    background: white;
+    color: var(--wa-color-neutral-40);
+    cursor: pointer;
+    font-family: var(--font-ui, system-ui);
+    transition: background 0.12s, border-color 0.12s, color 0.12s;
+  }
+  .stage-chip:hover {
+    border-color: var(--site-brand);
     color: var(--site-brand);
-    background: color-mix(in srgb, var(--site-brand) 9%, white);
+    background: color-mix(in srgb, var(--site-brand) 6%, white);
+  }
+
+  /* ── View toggle ─────────────────────────────────────────────────────────── */
+  .ov-toggle {
+    display: flex;
+    border: 1px solid var(--wa-color-neutral-90);
+    border-radius: var(--wa-border-radius-m);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .ov-toggle-btn {
+    background: none;
+    border: none;
+    border-right: 1px solid var(--wa-color-neutral-90);
+    padding: var(--wa-space-xs) var(--wa-space-m);
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--wa-color-neutral-40);
+    font-family: var(--font-ui, system-ui);
+  }
+  .ov-toggle-btn:last-child { border-right: none; }
+  .ov-toggle-btn.active {
+    background: var(--site-brand);
+    color: white;
     font-weight: 600;
   }
-  .onav-list:has(.onav-link.active) { border-left-color: color-mix(in srgb, var(--site-brand) 50%, transparent); }
-  .ov-section[id], wa-details[id], #ov-course-details {
-    scroll-margin-top: calc(var(--header-height, 4rem) + var(--syl-tabs-nav-height, 3rem) + var(--wa-space-m));
-  }
+  .ov-toggle-btn:hover:not(.active) { background: var(--wa-color-neutral-95); }
+  .outcomes-view { margin-block-start: var(--wa-space-l); }
 
-  .ov-section { margin-block-end: var(--wa-space-2xl); }
-  .section-heading {
-    font-size: 0.8rem; font-weight: 700;
-    text-transform: uppercase; letter-spacing: 0.07em;
-    color: var(--wa-color-neutral-60);
-    margin: 0 0 var(--wa-space-m);
-    padding-block-end: var(--wa-space-xs);
-    border-bottom: 1px solid var(--wa-color-neutral-90);
-  }
-  .ov-accordion {
-    margin-block-end: var(--wa-space-xs);
-    --wa-details-border-color: var(--wa-color-neutral-90);
-  }
-  .ov-accordion .prose { padding: var(--wa-space-s) 0; }
-  .fa-accordions { display: flex; flex-direction: column; gap: var(--wa-space-xs); }
-  .fa-name-list {
-    list-style: none; padding: 0; margin: 0;
-    display: flex; flex-direction: column; gap: var(--wa-space-2xs);
-  }
-  .fa-name-list li {
-    font-size: 0.9rem; color: var(--wa-color-neutral-20);
-    padding: var(--wa-space-2xs) 0;
-    border-bottom: 1px solid var(--wa-color-neutral-90);
-  }
-  .fa-name-list li:last-child { border-bottom: none; }
-
-  /* Nested details (text requirement accordions inside overview) */
-  .prose details.nested-acc {
-    border: 1px solid var(--wa-color-neutral-90);
-    border-radius: var(--wa-border-radius-s);
-    margin-block: var(--wa-space-xs);
-    overflow: hidden;
-  }
-  .prose details.nested-acc summary {
-    padding: var(--wa-space-xs) var(--wa-space-m);
-    cursor: pointer; font-weight: 600; font-size: 0.9rem;
-    background: var(--wa-color-neutral-95);
-    list-style: none; user-select: none;
-  }
-  .prose details.nested-acc summary::-webkit-details-marker { display: none; }
-  .prose details.nested-acc > :not(summary) {
-    padding: var(--wa-space-s) var(--wa-space-m);
-    font-size: 0.9rem;
-  }
-  .fig-caption {
-    font-size: 0.8rem; color: var(--wa-color-neutral-50);
-    font-style: italic; margin-block-start: var(--wa-space-2xs);
-  }
-
-  /* ── Overview prose ──────────────────────────────────────────────────────── */
-  .prose {
-    max-width: 72ch;
-    margin-block-end: var(--wa-space-xl);
-    line-height: 1.7;
-    color: var(--wa-color-neutral-20);
-  }
-  .prose h4 { font-size: 1rem; font-weight: 700; margin-block: var(--wa-space-l) var(--wa-space-xs); }
-  .prose p { margin-block: var(--wa-space-xs); }
-  .prose ul { padding-inline-start: 1.5rem; }
-
-  /* ── Info cards (overview) ───────────────────────────────────────────────── */
-  .info-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: var(--wa-space-m);
-    margin-block-end: var(--wa-space-xl);
-  }
-  .info-card {
-    background: white;
-    border: 1px solid var(--wa-color-neutral-90);
+  /* ── Overarching outcomes bar ──────────────────────────────────────────────── */
+  .overarching-bar {
+    position: sticky;
+    top: var(--header-height, 4rem);
+    z-index: 3;
+    background: color-mix(in srgb, var(--accent, var(--site-brand)) 5%, white);
+    border: 1px solid color-mix(in srgb, var(--accent, var(--site-brand)) 22%, transparent);
     border-radius: var(--wa-border-radius-m);
-    padding: var(--wa-space-l);
+    padding: var(--wa-space-m) var(--wa-space-l);
+    margin-block-end: var(--wa-space-l);
+    display: flex;
+    flex-direction: column;
+    gap: var(--wa-space-s);
   }
-  .info-card h2 {
-    font-size: 0.8rem; font-weight: 700;
-    text-transform: uppercase; letter-spacing: 0.06em;
-    color: var(--wa-color-neutral-50); margin: 0 0 var(--wa-space-m);
+  .overarching-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent, var(--site-brand));
+    margin-block-end: var(--wa-space-2xs);
   }
-  dl { display: grid; grid-template-columns: auto 1fr; gap: var(--wa-space-2xs) var(--wa-space-m); margin: 0; }
-  dt { font-size: 0.85rem; font-weight: 600; color: var(--wa-color-neutral-40); white-space: nowrap; }
-  dd { font-size: 0.85rem; color: var(--wa-color-neutral-10); margin: 0; }
-
-  /* ── Links card ──────────────────────────────────────────────────────────── */
-  .link-list { display: flex; flex-direction: column; gap: var(--wa-space-s); }
-  .link-row {
-    display: flex; align-items: center; gap: var(--wa-space-s);
-    padding: var(--wa-space-s) var(--wa-space-m);
-    border: 1px solid var(--wa-color-neutral-90);
-    border-radius: var(--wa-border-radius-m);
-    text-decoration: none; color: inherit;
-    transition: box-shadow 0.12s;
+  .overarching-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--wa-space-2xs);
   }
-  .link-row:hover { box-shadow: var(--wa-shadow-s); }
-  .link-primary { border-color: var(--site-brand); background: color-mix(in srgb, var(--site-brand) 5%, white); }
-  .link-row wa-icon { color: var(--site-brand); flex-shrink: 0; }
-  .link-row span { display: flex; flex-direction: column; gap: 0.1rem; }
-  .link-row strong { font-size: 0.9rem; color: var(--wa-color-neutral-10); }
-  .link-row small { font-size: 0.75rem; color: var(--wa-color-neutral-50); }
+  .overarching-card + .overarching-card {
+    padding-block-start: var(--wa-space-s);
+    border-top: 1px solid color-mix(in srgb, var(--accent, var(--site-brand)) 15%, transparent);
+  }
 
   /* ── Outcomes matrix ────────────────────────────────────────────────────── */
   .om-scroll {
@@ -943,10 +515,6 @@ const showOverviewNav = overviewNavItems.length >= 3;
     padding: var(--wa-space-xs) var(--wa-space-s);
     border-right: 1px solid var(--wa-color-neutral-90);
     border-bottom: 1px solid var(--wa-color-neutral-90);
-  }
-  .om-cell:last-child,
-  .om-data:last-of-type {
-    border-right: none;
   }
   .om-header {
     background: var(--wa-color-neutral-95);
@@ -991,7 +559,7 @@ const showOverviewNav = overviewNavItems.length >= 3;
     align-items: flex-start;
   }
 
-  /* Outcome cards (shared with content panel) */
+  /* ── Outcome cards ───────────────────────────────────────────────────────── */
   .outcome-card {
     background: white;
     border: 1px solid var(--wa-color-neutral-90);
@@ -1023,7 +591,7 @@ const showOverviewNav = overviewNavItems.length >= 3;
   .outcome-desc { font-size: 0.875rem; line-height: 1.5; color: var(--wa-color-neutral-20); }
   .outcome-desc p { margin: 0; }
 
-  /* Keep stage-columns for the Content panel */
+  /* ── Stage columns (default view) ───────────────────────────────────────── */
   .stage-columns {
     display: grid;
     grid-auto-flow: column;
@@ -1041,8 +609,6 @@ const showOverviewNav = overviewNavItems.length >= 3;
     min-width: 0;
   }
   .stage-col-header {
-    background: color-mix(in srgb, var(--accent, var(--site-brand)) 8%, white);
-    border: 1px solid color-mix(in srgb, var(--accent, var(--site-brand)) 25%, transparent);
     border-radius: var(--wa-border-radius-m);
     padding: var(--wa-space-s) var(--wa-space-m);
     margin-block-end: var(--wa-space-m);
@@ -1050,137 +616,48 @@ const showOverviewNav = overviewNavItems.length >= 3;
     flex-direction: column;
     gap: 0.1rem;
   }
+  /* K–6: lightest */
+  .stage-col[data-shade="light"] .stage-col-header {
+    background: color-mix(in srgb, var(--accent, var(--site-brand)) 6%, white);
+    border: 1px solid color-mix(in srgb, var(--accent, var(--site-brand)) 16%, transparent);
+  }
+  /* Stage 4/5 + 11–12: medium */
+  .stage-col[data-shade="medium"] .stage-col-header {
+    background: color-mix(in srgb, var(--accent, var(--site-brand)) 13%, white);
+    border: 1px solid color-mix(in srgb, var(--accent, var(--site-brand)) 28%, transparent);
+  }
+  /* Life Skills: white with outline only */
+  .stage-col[data-shade="dark"] .stage-col-header {
+    background: white;
+    border: 1px solid color-mix(in srgb, var(--accent, var(--site-brand)) 35%, transparent);
+  }
   .stage-col-name { font-size: 0.95rem; font-weight: 700; color: var(--wa-color-neutral-10); }
   .stage-col-years { font-size: 0.78rem; color: var(--wa-color-neutral-50); font-weight: 500; }
   .stage-col-body { flex: 1; }
-  .outcomes-group { margin-block-end: var(--wa-space-l); }
-  .fa-heading {
-    font-size: 0.72rem; font-weight: 700;
-    text-transform: uppercase; letter-spacing: 0.05em;
-    color: var(--wa-color-neutral-50);
-    border-bottom: 1px solid var(--wa-color-neutral-90);
-    padding-block-end: var(--wa-space-xs);
-    margin-block: 0 var(--wa-space-s);
-  }
 
-  /* ── Content / Focus areas ───────────────────────────────────────────────── */
-  .fa-details {
+  /* ── Info cards (no-content fallback) ───────────────────────────────────── */
+  .info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--wa-space-m);
+    margin-block-end: var(--wa-space-xl);
+  }
+  .info-card {
+    background: white;
     border: 1px solid var(--wa-color-neutral-90);
     border-radius: var(--wa-border-radius-m);
-    margin-block-end: var(--wa-space-m);
-    overflow: hidden;
+    padding: var(--wa-space-l);
   }
-  .fa-details summary {
-    list-style: none;
-    cursor: pointer;
-    padding: var(--wa-space-m) var(--wa-space-l);
-    background: var(--wa-color-neutral-95);
-    border-bottom: 1px solid transparent;
-    user-select: none;
+  .info-card h2 {
+    font-size: 0.8rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--wa-color-neutral-50); margin: 0 0 var(--wa-space-m);
   }
-  .fa-details[open] summary { border-bottom-color: var(--wa-color-neutral-90); }
-  .fa-details summary::-webkit-details-marker { display: none; }
-  .fa-details summary::marker { display: none; }
-  .fa-summary-inner {
-    display: flex; align-items: baseline;
-    gap: var(--wa-space-s); flex-wrap: wrap;
-  }
-  .fa-title { font-size: 1rem; font-weight: 700; color: var(--wa-color-neutral-10); }
-  .outcome-pill {
-    font-size: 0.7rem; font-weight: 700; font-family: monospace;
-    padding: 0.15rem 0.45rem; border-radius: 999px;
-    background: color-mix(in srgb, var(--site-brand) 10%, white);
-    color: var(--site-brand);
-  }
-  .fa-body { padding: var(--wa-space-l); }
+  dl { display: grid; grid-template-columns: auto 1fr; gap: var(--wa-space-2xs) var(--wa-space-m); margin: 0; }
+  dt { font-size: 0.85rem; font-weight: 600; color: var(--wa-color-neutral-40); white-space: nowrap; }
+  dd { font-size: 0.85rem; color: var(--wa-color-neutral-10); margin: 0; }
 
-  .content-group { margin-block-end: var(--wa-space-l); }
-  .cg-title {
-    font-size: 0.85rem; font-weight: 700;
-    text-transform: uppercase; letter-spacing: 0.04em;
-    color: var(--wa-color-neutral-50);
-    margin: 0 0 var(--wa-space-s);
-  }
-
-  .content-items { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--wa-space-xs); }
-  .content-item {
-    padding: var(--wa-space-s) var(--wa-space-m);
-    border-left: 3px solid var(--wa-color-neutral-90);
-    font-size: 0.9rem; line-height: 1.55;
-  }
-  .ci-text p { margin: 0; }
-  .ci-text a { color: var(--site-brand); text-decoration: underline dotted; }
-
-  .ci-examples {
-    margin-top: var(--wa-space-xs);
-    padding: var(--wa-space-xs) var(--wa-space-s);
-    background: var(--wa-color-neutral-95);
-    border-radius: var(--wa-border-radius-s);
-    font-size: 0.85rem; color: var(--wa-color-neutral-60);
-  }
-  .eg-label {
-    font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
-    letter-spacing: 0.05em; color: var(--wa-color-neutral-60);
-    display: block; margin-block-end: 0.2rem;
-  }
-  .ci-examples p { margin: 0; }
-
-  /* ── Coming soon ────────────────────────────────────────────────────────── */
-  /* FA pager (fixed bottom bar) */
-  .fa-pager {
-    position: fixed;
-    bottom: 0; left: 0; right: 0;
-    z-index: 20;
-    background: white;
-    border-top: 1px solid var(--wa-color-neutral-90);
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.07);
-    display: flex;
-    align-items: stretch;
-    height: 3rem;
-  }
-  .fa-pager[hidden] { display: none; }
-  .fa-pager-btn {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    gap: var(--wa-space-xs);
-    padding: 0 var(--wa-space-l);
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-family: var(--font-ui, system-ui);
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: var(--site-brand);
-    transition: background 0.12s;
-    min-width: 0;
-  }
-  .fa-pager-btn:hover { background: color-mix(in srgb, var(--site-brand) 5%, white); }
-  .fa-pager-prev-btn { justify-content: flex-start; border-right: 1px solid var(--wa-color-neutral-90); }
-  .fa-pager-next-btn { justify-content: flex-end; }
-  .fa-pager-label {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 28ch;
-  }
-  .fa-pager-center {
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    padding: 0 var(--wa-space-m);
-    border-left: 1px solid var(--wa-color-neutral-90);
-    border-right: 1px solid var(--wa-color-neutral-90);
-  }
-  .fa-pager-counter {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--wa-color-neutral-50);
-    white-space: nowrap;
-    font-variant-numeric: tabular-nums;
-  }
-  .content-body { padding-block-end: 4rem; }
-
+  /* ── Coming soon ─────────────────────────────────────────────────────────── */
   .coming-soon {
     display: flex; flex-direction: column; align-items: center;
     gap: var(--wa-space-m); padding: var(--wa-space-2xl);
@@ -1196,695 +673,10 @@ const showOverviewNav = overviewNavItems.length >= 3;
   .ext-link:hover { text-decoration: underline; }
 
   /* ── Back link ───────────────────────────────────────────────────────────── */
+  .back-link { margin-block-start: var(--wa-space-2xl); }
   .back-link a {
     display: inline-flex; align-items: center; gap: var(--wa-space-xs);
     font-size: 0.9rem; color: var(--site-brand); text-decoration: none;
   }
   .back-link a:hover { text-decoration: underline; }
-
-  /* ── Outcomes view switcher ─────────────────────────────────────────────── */
-  .ov-switcher {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: var(--wa-space-m);
-    flex-wrap: wrap;
-    margin-block-end: var(--wa-space-l);
-    padding-block-end: var(--wa-space-l);
-    border-bottom: 1px solid var(--wa-color-neutral-90);
-  }
-  .ov-switcher-text {
-    font-size: 0.875rem;
-    color: var(--wa-color-neutral-50);
-    margin: 0;
-    max-width: 52ch;
-    line-height: 1.5;
-  }
-  .ov-toggle {
-    display: flex;
-    border: 1px solid var(--wa-color-neutral-90);
-    border-radius: var(--wa-border-radius-m);
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .ov-toggle-btn {
-    background: none;
-    border: none;
-    border-right: 1px solid var(--wa-color-neutral-90);
-    padding: var(--wa-space-xs) var(--wa-space-m);
-    font-size: 0.875rem;
-    font-weight: 500;
-    cursor: pointer;
-    color: var(--wa-color-neutral-40);
-    font-family: var(--font-ui, system-ui);
-  }
-  .ov-toggle-btn:last-child { border-right: none; }
-  .ov-toggle-btn.active {
-    background: var(--site-brand);
-    color: white;
-    font-weight: 600;
-  }
-  .ov-toggle-btn:hover:not(.active) {
-    background: var(--wa-color-neutral-95);
-  }
-  .outcomes-view { margin-block-start: var(--wa-space-l); }
-
-  /* ── Content tab: layout ─────────────────────────────────────────────── */
-  .content-layout {
-    display: grid;
-    grid-template-columns: 210px 1fr;
-    gap: var(--wa-space-2xl);
-    align-items: start;
-  }
-
-  .content-nav {
-    position: sticky;
-    top: calc(var(--header-height, 4rem) + var(--syl-tabs-nav-height, 3rem) + var(--wa-space-m));
-    max-height: calc(100vh - var(--header-height, 4rem) - var(--syl-tabs-nav-height, 3rem) - var(--wa-space-2xl));
-    overflow-y: auto;
-    padding-block-end: var(--wa-space-xl);
-  }
-
-  .cnav-stage { margin-block-end: var(--wa-space-l); }
-  .cnav-stage-link {
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: var(--wa-color-neutral-20);
-    text-decoration: none;
-    padding-block-end: var(--wa-space-xs);
-    border-bottom: 2px solid var(--wa-color-neutral-90);
-    margin-block-end: var(--wa-space-xs);
-  }
-  .cnav-stage-link:hover { color: var(--site-brand); }
-  .cnav-stage-years {
-    font-size: 0.7rem;
-    font-weight: 400;
-    color: var(--wa-color-neutral-60);
-  }
-  .cnav-fa-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    padding-inline-start: var(--wa-space-s);
-    border-left: 2px solid var(--wa-color-neutral-90);
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-  }
-  .cnav-fa-link {
-    display: block;
-    font-size: 0.78rem;
-    color: var(--wa-color-neutral-50);
-    text-decoration: none;
-    padding: 0.25rem var(--wa-space-xs);
-    border-radius: var(--wa-border-radius-s);
-    line-height: 1.3;
-  }
-  .cnav-fa-link:hover {
-    color: var(--site-brand);
-    background: color-mix(in srgb, var(--site-brand) 6%, white);
-  }
-  .cnav-stage-link.active {
-    color: var(--site-brand);
-    border-bottom-color: var(--site-brand);
-  }
-  .cnav-fa-link.active {
-    color: var(--site-brand);
-    background: color-mix(in srgb, var(--site-brand) 9%, white);
-    font-weight: 600;
-  }
-  .cnav-fa-list:has(.cnav-fa-link.active) {
-    border-left-color: color-mix(in srgb, var(--site-brand) 50%, transparent);
-  }
-
-  /* ── Examples toolbar ───────────────────────────────────────────────── */
-  .examples-toolbar {
-    display: flex;
-    justify-content: flex-end;
-    margin-block-end: var(--wa-space-l);
-  }
-  .examples-toggle {
-    display: flex;
-    align-items: center;
-    gap: var(--wa-space-xs);
-    font-size: 0.8rem;
-    font-weight: 600;
-    font-family: var(--font-ui, system-ui);
-    color: var(--wa-color-neutral-50);
-    background: white;
-    border: 1px solid var(--wa-color-neutral-90);
-    border-radius: var(--wa-border-radius-m);
-    padding: var(--wa-space-xs) var(--wa-space-m);
-    cursor: pointer;
-    transition: color 0.12s, border-color 0.12s, background 0.12s;
-  }
-  .examples-toggle:hover { border-color: var(--site-brand); color: var(--site-brand); }
-  .examples-toggle[data-state="visible"] {
-    background: color-mix(in srgb, var(--site-brand) 8%, white);
-    color: var(--site-brand);
-    border-color: var(--site-brand);
-  }
-
-  /* ── Content stage sections ─────────────────────────────────────────── */
-  .content-stage {
-    margin-block-end: var(--wa-space-3xl);
-    scroll-margin-top: calc(var(--header-height, 4rem) + var(--syl-tabs-nav-height, 3rem) + var(--wa-space-m));
-  }
-  .content-stage-header {
-    display: flex;
-    align-items: baseline;
-    gap: var(--wa-space-m);
-    margin-block-end: var(--wa-space-l);
-    padding-block-end: var(--wa-space-s);
-    border-bottom: 2px solid var(--wa-color-neutral-90);
-  }
-  .content-stage-name {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--wa-color-neutral-10);
-    margin: 0;
-  }
-  .content-stage-years {
-    font-size: 0.875rem;
-    color: var(--wa-color-neutral-50);
-  }
-
-  /* ── Outcomes block (top of each stage) ─────────────────────────────── */
-  .content-outcomes-block {
-    background: var(--wa-color-neutral-98, #fafafa);
-    border: 1px solid var(--wa-color-neutral-90);
-    border-radius: var(--wa-border-radius-m);
-    padding: var(--wa-space-m) var(--wa-space-l);
-    margin-block-end: var(--wa-space-xl);
-  }
-  .cob-heading {
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.07em;
-    color: var(--wa-color-neutral-50);
-    margin: 0 0 var(--wa-space-s);
-  }
-  .cob-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-  .cob-item {
-    padding-block: var(--wa-space-xs);
-    border-bottom: 1px solid var(--wa-color-neutral-90);
-  }
-  .cob-item:last-child { border-bottom: none; }
-  .cob-meta {
-    display: flex;
-    align-items: center;
-    gap: var(--wa-space-xs);
-    margin-block-end: 0.15rem;
-  }
-  .cob-code {
-    font-size: 0.7rem;
-    font-weight: 700;
-    font-family: monospace;
-    color: var(--site-brand);
-    background: color-mix(in srgb, var(--site-brand) 8%, white);
-    padding: 0.15rem 0.45rem;
-    border-radius: var(--wa-border-radius-s);
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
-  .cob-fa {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--wa-color-neutral-40);
-  }
-  .cob-desc { color: var(--wa-color-neutral-40); font-size: 0.875rem; line-height: 1.4; }
-  .cob-desc p { margin: 0; }
-
-  /* ── Content FA sections ────────────────────────────────────────── */
-  .content-fa {
-    scroll-margin-top: calc(var(--header-height, 4rem) + var(--syl-tabs-nav-height, 3rem) + var(--wa-space-m));
-    margin-block-end: var(--wa-space-l);
-  }
-  .fa-card {
-    border: 1px solid var(--wa-color-neutral-70);
-    border-radius: var(--wa-border-radius-m);
-    overflow: hidden;
-  }
-  .fa-card-body {
-    padding: var(--wa-space-m) var(--wa-space-l);
-    display: flex;
-    flex-direction: column;
-    gap: var(--wa-space-m);
-  }
-  .fa-section-head {
-    display: flex;
-    align-items: center;
-    gap: var(--wa-space-s);
-    flex-wrap: wrap;
-    padding: var(--wa-space-xs) var(--wa-space-m);
-    background: var(--wa-color-neutral-95);
-    border-bottom: 1px solid var(--wa-color-neutral-80);
-  }
-  .fa-section-title {
-    font-size: 0.95rem;
-    font-weight: 700;
-    color: var(--wa-color-neutral-20);
-  }
-  /* ── FA outcomes block ──────────────────────────────────────────── */
-  .fa-outcomes-wrap {
-    border: 1px solid color-mix(in srgb, var(--site-brand) 30%, white);
-    border-radius: var(--wa-border-radius-m);
-    overflow: hidden;
-  }
-  .fao-header {
-    padding: var(--wa-space-xs) var(--wa-space-m);
-    font-size: 0.72rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: white;
-    background: var(--site-brand);
-    border-bottom: 1px solid color-mix(in srgb, var(--site-brand) 60%, black);
-  }
-  .fa-outcomes-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .fao-item {
-    display: flex;
-    align-items: baseline;
-    gap: var(--wa-space-s);
-    padding: var(--wa-space-xs) var(--wa-space-m);
-    border-bottom: 1px solid color-mix(in srgb, var(--site-brand) 15%, white);
-    background: color-mix(in srgb, var(--site-brand) 5%, white);
-  }
-  .fao-item:last-child { border-bottom: none; }
-  .fao-code {
-    flex-shrink: 0;
-    display: inline-block;
-    font-size: 0.7rem;
-    font-weight: 700;
-    font-family: monospace;
-    color: var(--site-brand);
-    background: color-mix(in srgb, var(--site-brand) 12%, white);
-    border: 1px solid color-mix(in srgb, var(--site-brand) 25%, white);
-    padding: 0.15rem 0.45rem;
-    border-radius: var(--wa-border-radius-s);
-    white-space: nowrap;
-  }
-  .fao-desc {
-    font-size: 0.875rem;
-    line-height: 1.5;
-    color: var(--site-brand);
-  }
-  .fao-desc p { margin: 0; }
-
-  /* ── Content group tables ──────────────────────────────────────── */
-  .cg-section { }
-
-  .cg-table-wrap {
-    border: 1px solid var(--wa-color-neutral-90);
-    border-radius: var(--wa-border-radius-m);
-    overflow: hidden;
-  }
-  .cg-table {
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 0.875rem;
-    table-layout: fixed;
-  }
-  .cg-th-content,
-  .cg-th-examples {
-    padding: var(--wa-space-xs) var(--wa-space-m);
-    text-align: left;
-    font-size: 0.72rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--wa-color-neutral-50);
-    background: var(--wa-color-neutral-95);
-    border-bottom: 1px solid var(--wa-color-neutral-90);
-  }
-  .cg-th-content { width: 100%; }
-  .content-body.show-examples .cg-th-content { width: 66.67%; }
-  .cg-th-examples {
-    width: 33.33%;
-    border-left: 1px solid var(--wa-color-neutral-90);
-  }
-  .cg-table tbody tr { border-bottom: 1px solid var(--wa-color-neutral-90); }
-  .cg-table tbody tr:last-child { border-bottom: none; }
-  .ci-td {
-    padding: var(--wa-space-xs) var(--wa-space-m);
-    vertical-align: top;
-    color: var(--wa-color-neutral-20);
-    line-height: 1.55;
-  }
-  .ci-td p { margin: 0; }
-  .ci-td a { color: var(--site-brand); text-decoration: underline dotted; }
-  .ci-ex-td {
-    padding: var(--wa-space-s) var(--wa-space-m);
-    vertical-align: top;
-    color: var(--wa-color-neutral-50);
-    font-size: 0.85rem;
-    line-height: 1.5;
-    background: var(--wa-color-neutral-98, #fafafa);
-    border-left: 1px solid var(--wa-color-neutral-90);
-  }
-  .ci-ex-td p { margin: 0; }
-
-  /* Examples column: hidden by default, revealed via parent class */
-  .examples-col { display: none; }
-  .content-body.show-examples .examples-col { display: table-cell; }
-  /* ── Glossary panel ─────────────────────────────────────────────────── */
-  .glossary-ext-link {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--wa-space-xs);
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: var(--site-brand);
-    text-decoration: none;
-    margin-block-end: var(--wa-space-xl);
-  }
-  .glossary-ext-link:hover { text-decoration: underline; }
-
-  .glossary-section {
-    margin-block-end: var(--wa-space-2xl);
-  }
-  .glossary-section-heading {
-    font-size: 0.8rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--wa-color-neutral-40);
-    margin: 0 0 var(--wa-space-xs);
-    padding-block-end: var(--wa-space-xs);
-    border-bottom: 2px solid var(--wa-color-neutral-90);
-  }
-  .glossary-section-note {
-    font-size: 0.85rem;
-    color: var(--wa-color-neutral-50);
-    margin: 0 0 var(--wa-space-m);
-  }
-  .glossary-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    margin: 0;
-    padding: 0;
-  }
-  .glossary-entry {
-    padding-block: var(--wa-space-s);
-    border-bottom: 1px solid var(--wa-color-neutral-95);
-    scroll-margin-top: calc(var(--header-height, 4rem) + var(--syl-tabs-nav-height, 3rem) + var(--wa-space-m));
-  }
-  .glossary-entry:last-child { border-bottom: none; }
-  .glossary-term {
-    font-size: 0.95rem;
-    font-weight: 700;
-    color: var(--wa-color-neutral-10);
-    margin-block-end: var(--wa-space-2xs);
-  }
-  .glossary-def {
-    margin: 0;
-    font-size: 0.875rem;
-    color: var(--wa-color-neutral-30);
-    line-height: 1.6;
-    max-width: 72ch;
-  }
-  .glossary-def p { margin: 0; }
-
-  /* ── Glossary popover ────────────────────────────────────────────────── */
-  #gloss-pop {
-    position: absolute;
-    z-index: 50;
-    width: 300px;
-    max-width: calc(100vw - 2rem);
-    background: white;
-    border: 1px solid var(--wa-color-neutral-80);
-    border-radius: var(--wa-border-radius-m);
-    box-shadow: var(--wa-shadow-l);
-    overflow: hidden;
-    font-size: 0.875rem;
-  }
-  .gp-header {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: var(--wa-space-s);
-    padding: var(--wa-space-s) var(--wa-space-m);
-    background: var(--wa-color-neutral-95);
-    border-bottom: 1px solid var(--wa-color-neutral-90);
-  }
-  .gp-title {
-    font-weight: 700;
-    font-size: 0.9rem;
-    color: var(--wa-color-neutral-10);
-    line-height: 1.3;
-  }
-  .gp-close {
-    flex-shrink: 0;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: var(--wa-color-neutral-50);
-    padding: 0;
-    line-height: 1;
-    font-size: 0.9rem;
-  }
-  .gp-close:hover { color: var(--wa-color-neutral-20); }
-  .gp-body {
-    padding: var(--wa-space-s) var(--wa-space-m);
-    color: var(--wa-color-neutral-20);
-    line-height: 1.55;
-    max-height: 8rem;
-    overflow-y: auto;
-  }
-  .gp-body p { margin: 0; }
-  .gp-footer {
-    padding: var(--wa-space-xs) var(--wa-space-m);
-    border-top: 1px solid var(--wa-color-neutral-95);
-    background: var(--wa-color-neutral-98, #fafafa);
-  }
-  .gp-link {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--site-brand);
-    text-decoration: none;
-  }
-  .gp-link:hover { text-decoration: underline; }
-
-  /* Style the inline glossary links in content */
-  .ci-td a[data-item-id],
-  .prose a[data-item-id] {
-    color: var(--wa-color-neutral-20);
-    text-decoration: underline dotted var(--site-brand);
-    text-underline-offset: 2px;
-    cursor: help;
-  }
-  .ci-td a[data-item-id]:hover,
-  .prose a[data-item-id]:hover {
-    color: var(--site-brand);
-    text-decoration: underline var(--site-brand);
-  }
-
 </style>
-
-<script>
-  // Examples toggle
-  const examplesToggle = document.getElementById('examples-toggle') as HTMLButtonElement | null;
-  examplesToggle?.addEventListener('click', () => {
-    const isVisible = examplesToggle.dataset.state === 'visible';
-    const newState = isVisible ? 'hidden' : 'visible';
-    examplesToggle.dataset.state = newState;
-    examplesToggle.setAttribute('aria-pressed', String(!isVisible));
-    const icon = examplesToggle.querySelector('wa-icon');
-    if (icon) icon.setAttribute('name', isVisible ? 'eye' : 'eye-slash');
-    const textNodes = [...examplesToggle.childNodes].filter(n => n.nodeType === Node.TEXT_NODE);
-    if (textNodes.length) textNodes[0].textContent = isVisible ? ' Show examples' : ' Hide examples';
-    document.querySelector<HTMLElement>('.content-body')?.classList.toggle('show-examples', !isVisible);
-  });
-
-  // ── Content nav scroll spy ──────────────────────────────────────────────
-  function initContentNav() {
-    const sections = Array.from(
-      document.querySelectorAll<HTMLElement>('.content-stage, .content-fa')
-    );
-    if (!sections.length) return;
-
-    const allFAs  = Array.from(document.querySelectorAll<HTMLElement>('.content-fa'));
-    const pager   = document.getElementById('fa-pager')           as HTMLElement       | null;
-    const prevBtn = document.getElementById('fa-pager-prev')      as HTMLButtonElement | null;
-    const nextBtn = document.getElementById('fa-pager-next')      as HTMLButtonElement | null;
-    const prevLbl = document.getElementById('fa-pager-prev-label') as HTMLElement      | null;
-    const nextLbl = document.getElementById('fa-pager-next-label') as HTMLElement      | null;
-    const counter = document.getElementById('fa-pager-counter')   as HTMLElement       | null;
-
-    const HEADER_OFFSET = 130; // px — site header (64px) + sticky tab nav (~48px) + margin
-
-    function getActiveId(): string | null {
-      let activeId: string | null = null;
-      for (const sec of sections) {
-        const rect = sec.getBoundingClientRect();
-        // rect.width > 0 guards against hidden tab panels (display:none → zero dims)
-        if (rect.width > 0 && rect.top <= HEADER_OFFSET) activeId = sec.id;
-      }
-      return activeId;
-    }
-
-    function resolveFaIdx(activeId: string): number {
-      const el = document.getElementById(activeId);
-      if (el?.classList.contains('content-fa'))
-        return allFAs.findIndex(fa => fa.id === activeId);
-      if (el?.classList.contains('content-stage')) {
-        const first = el.querySelector<HTMLElement>('.content-fa');
-        if (first) return allFAs.findIndex(fa => fa.id === first.id);
-      }
-      return -1;
-    }
-
-    function updatePager(activeId: string) {
-      if (!pager || !allFAs.length) return;
-      const idx = resolveFaIdx(activeId);
-      if (idx === -1) return;
-      const prev = idx > 0 ? allFAs[idx - 1] : null;
-      const next = idx < allFAs.length - 1 ? allFAs[idx + 1] : null;
-      if (prevLbl) prevLbl.textContent = prev?.querySelector('.fa-section-title')?.textContent?.trim() ?? '';
-      if (nextLbl) nextLbl.textContent = next?.querySelector('.fa-section-title')?.textContent?.trim() ?? '';
-      if (counter) counter.textContent = `${idx + 1} / ${allFAs.length}`;
-      if (prevBtn) {
-        prevBtn.style.visibility = prev ? 'visible' : 'hidden';
-        prevBtn.onclick = prev ? () => prev.scrollIntoView({ behavior: 'smooth', block: 'start' }) : null;
-      }
-      if (nextBtn) {
-        nextBtn.style.visibility = next ? 'visible' : 'hidden';
-        nextBtn.onclick = next ? () => next.scrollIntoView({ behavior: 'smooth', block: 'start' }) : null;
-      }
-    }
-
-    function updateNav() {
-      const activeId = getActiveId();
-      if (!activeId) return;
-      const el = document.getElementById(activeId);
-      if (!el) return;
-
-      // Clear all active states
-      document.querySelectorAll<HTMLElement>('.cnav-stage-link, .cnav-fa-link')
-        .forEach(l => l.classList.remove('active'));
-
-      // Activate the matching nav link
-      const activeLink = document.querySelector<HTMLElement>(
-        `.cnav-fa-link[href="#${activeId}"], .cnav-stage-link[href="#${activeId}"]`
-      );
-      activeLink?.classList.add('active');
-      activeLink?.scrollIntoView({ block: 'nearest' });
-
-      // If it's a FA, also activate its parent stage link
-      if (el.classList.contains('content-fa')) {
-        const stage = el.closest<HTMLElement>('.content-stage');
-        if (stage)
-          document.querySelector<HTMLElement>(`.cnav-stage-link[href="#${stage.id}"]`)
-            ?.classList.add('active');
-      }
-
-      updatePager(activeId);
-    }
-
-    // rAF-throttled scroll listener
-    let rafPending = false;
-    window.addEventListener('scroll', () => {
-      if (!rafPending) {
-        rafPending = true;
-        requestAnimationFrame(() => { updateNav(); rafPending = false; });
-      }
-    }, { passive: true });
-
-    const tabGroup = document.querySelector('wa-tab-group');
-    tabGroup?.addEventListener('wa-tab-show', (e: any) => {
-      if (e.detail?.name === 'content') {
-        if (pager) pager.hidden = false;
-        updateNav();
-      }
-    });
-    tabGroup?.addEventListener('wa-tab-hide', (e: any) => {
-      if (e.detail?.name === 'content' && pager) pager.hidden = true;
-    });
-
-    // Pager hidden until content tab is active
-    if (pager) pager.hidden = true;
-    updateNav();
-  }
-
-  initContentNav();
-
-  // ── Overview nav scroll spy ────────────────────────────────────
-  function initOverviewNav() {
-    const nav = document.querySelector<HTMLElement>('.ov-nav');
-    if (!nav) return;
-
-    // Gather anchored overview sections in DOM order
-    const sections = Array.from(
-      document.querySelectorAll<HTMLElement>('.ov-section[id], wa-details[id], #ov-course-details')
-    ).filter(el => el.id);
-    if (!sections.length) return;
-
-    const HEADER_OFFSET = 130;
-
-    function getActiveId(): string | null {
-      let activeId: string | null = null;
-      for (const sec of sections) {
-        const rect = sec.getBoundingClientRect();
-        if (rect.width > 0 && rect.top <= HEADER_OFFSET) activeId = sec.id;
-      }
-      return activeId;
-    }
-
-    function updateOverviewNav() {
-      const activeId = getActiveId();
-      if (!activeId) return;
-      document.querySelectorAll<HTMLElement>('.onav-link')
-        .forEach(l => l.classList.remove('active'));
-      const link = document.querySelector<HTMLElement>(`.onav-link[href="#${activeId}"]`);
-      link?.classList.add('active');
-      link?.scrollIntoView({ block: 'nearest' });
-    }
-
-    let rafPending = false;
-    window.addEventListener('scroll', () => {
-      if (!rafPending) {
-        rafPending = true;
-        requestAnimationFrame(() => { updateOverviewNav(); rafPending = false; });
-      }
-    }, { passive: true });
-
-    document.querySelector('wa-tab-group')?.addEventListener('wa-tab-show', (e: any) => {
-      if (e.detail?.name === 'overview') updateOverviewNav();
-    });
-
-    updateOverviewNav();
-  }
-
-  initOverviewNav();
-
-  document.querySelectorAll<HTMLButtonElement>('.ov-toggle-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const targetId = btn.dataset.target;
-      if (!targetId) return;
-      // Update button states
-      btn.closest('.ov-toggle')?.querySelectorAll('.ov-toggle-btn').forEach(b => {
-        b.classList.toggle('active', b === btn);
-      });
-      // Show/hide views
-      document.querySelectorAll<HTMLElement>('.outcomes-view').forEach(view => {
-        view.hidden = view.id !== targetId;
-      });
-    });
-  });
-</script>

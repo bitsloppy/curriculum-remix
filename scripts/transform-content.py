@@ -247,6 +247,7 @@ def transform_syllabus(slug: str) -> dict | None:
             stage_dirs[d.name] = d
 
     stages_out = []
+    overarching_seen: dict[str, dict] = {}  # codename → {code, description}
 
     # Detect year-11/year-12 dirs that are genuine (different FAs from life-skills).
     # For LS syllabuses, year-11/ year-12/ stage-6/ all point to the same FA IDs as
@@ -306,14 +307,22 @@ def transform_syllabus(slug: str) -> dict | None:
             fa_title = html_val(fa_el, "title") or fa_codename
 
             # ── Outcomes ──────────────────────────────────────────────────────
+            syl_li = fa_pp.get("syllabus", {}).get("linkedItems", {})
             outcomes_out = []
             for oc_cn in fa_el.get("outcomes", {}).get("value", []):
-                oc = li.get(oc_cn, {})
+                oc = li.get(oc_cn) or syl_li.get(oc_cn, {})
                 oc_el = oc.get("elements", {})
                 code = oc_el.get("code", {}).get("value", "")
                 desc = strip_kentico_refs(html_val(oc_el, "description"))
+                is_overarching = any(
+                    v.get("codename") == "yes"
+                    for v in oc_el.get("isoverarching", {}).get("value", [])
+                )
                 if code or desc:
-                    outcomes_out.append({"code": code, "description": desc})
+                    if is_overarching:
+                        overarching_seen[oc_cn] = {"code": code, "description": desc}
+                    else:
+                        outcomes_out.append({"code": code, "description": desc})
 
             # ── Content groups ────────────────────────────────────────────────
             cg_codenames = fa_el.get("contentgroups", {}).get("value", [])
@@ -414,6 +423,7 @@ def transform_syllabus(slug: str) -> dict | None:
         "overviewSections": overview_sections,
         "rationale": rationale_html,
         "aim": aim_html,
+        "overarchingOutcomes": list(overarching_seen.values()),
         "stages": stages_out,
     }
 
