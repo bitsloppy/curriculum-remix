@@ -1,0 +1,932 @@
+---
+import { readFileSync, existsSync } from 'fs';
+import { join } from 'path';
+import Layout from '../../layouts/Layout.astro';
+import syllabuses from '../../data/syllabuses.json';
+
+// ─── Types ────────────────────────────────────────────────────────────────────
+type Outcome   = { code: string; description: string };
+type FocusArea = { title: string; outcomes: Outcome[] };
+
+type SylEntry = {
+  slug:                string;
+  name:                string;
+  shortName:           string;
+  kla:                 string;   // hyphen form for CSS vars
+  klaRaw:              string;
+  klaChip:             string;   // abbreviated label for chip
+  hasS5:               boolean;
+  overarchingOutcomes: Outcome[];
+  stage4:              FocusArea[];
+  stage5:              FocusArea[];
+  lifeSkills:          FocusArea[];
+  s4Count:             number;
+  s5Count:             number;
+  lsCount:             number;
+};
+
+type KlaGroup = {
+  klaRaw:     string;
+  klaHyphen:  string;
+  label:      string;
+  syllabuses: SylEntry[];
+};
+
+// ─── Constants ────────────────────────────────────────────────────────────────
+const KLA_ORDER = ['english','mathematics','science','tas','hsie','creative_arts','pdhpe','languages'];
+const KLA_LABELS: Record<string, string> = {
+  english:       'English',
+  mathematics:   'Mathematics',
+  science:       'Science',
+  tas:           'TAS',
+  hsie:          'HSIE',
+  creative_arts: 'Creative Arts',
+  pdhpe:         'PDHPE',
+  languages:     'Languages',
+};
+
+// ─── Helper: extract one stage block ─────────────────────────────────────────
+function extractStage(
+  content: any,
+  codename: string,
+): { focusAreas: FocusArea[]; outcomeCount: number } | null {
+  const stage = (content.stages ?? []).find((st: any) => st.codename === codename);
+  if (!stage) return null;
+  const focusAreas: FocusArea[] = [];
+  let outcomeCount = 0;
+  for (const fa of stage.focusAreas ?? []) {
+    const outcomes: Outcome[] = fa.outcomes ?? [];
+    if (outcomes.length > 0) {
+      focusAreas.push({ title: fa.title, outcomes });
+      outcomeCount += outcomes.length;
+    }
+  }
+  return { focusAreas, outcomeCount };
+}
+
+// ─── Build per-KLA data at build time ─────────────────────────────────────────
+const klaMap = new Map<string, SylEntry[]>();
+
+for (const syl of syllabuses) {
+  if (!syl.hasContent) continue;
+  if (syl.stage !== 'K–10' && syl.stage !== '7–10' && syl.stage !== '7–8') continue;
+
+  const p = join(process.cwd(), 'src/data/content', `${syl.slug}.json`);
+  if (!existsSync(p)) continue;
+  const content = JSON.parse(readFileSync(p, 'utf-8'));
+
+  const s4 = extractStage(content, 'stage_4');
+  const s5 = extractStage(content, 'stage_5');
+  const ls = extractStage(content, 'life_skills');
+  const overarchingOutcomes: Outcome[] = content.overarchingOutcomes ?? [];
+
+  // Must have at least Stage 4 outcomes to appear here
+  if (!s4 || s4.focusAreas.length === 0) continue;
+
+  const klaRaw    = syl.kla ?? 'english';
+  const klaHyphen = klaRaw.replace(/_/g, '-');
+
+  const entry: SylEntry = {
+    slug:      syl.slug,
+    name:      syl.name,
+    shortName: syl.name.replace(/\s+[K\d][–-]\d+\s*\(\d{4}\)$/, '').trim(),
+    kla:       klaHyphen,
+    klaRaw,
+    klaChip:   KLA_LABELS[klaRaw] ?? klaRaw,
+    hasS5:     !!(s5 && s5.focusAreas.length > 0),
+    overarchingOutcomes,
+    stage4:     s4.focusAreas,
+    stage5:     s5?.focusAreas ?? [],
+    lifeSkills: ls?.focusAreas ?? [],
+    s4Count:    s4.outcomeCount + overarchingOutcomes.length,
+    s5Count:    (s5?.outcomeCount ?? 0) + overarchingOutcomes.length,
+    lsCount:    ls?.outcomeCount ?? 0,
+  };
+
+  if (!klaMap.has(klaRaw)) klaMap.set(klaRaw, []);
+  klaMap.get(klaRaw)!.push(entry);
+}
+
+// Sort syllabuses within each KLA by name
+for (const entries of klaMap.values()) {
+  entries.sort((a, b) => a.name.localeCompare(b.name));
+}
+
+// Build ordered KLA groups (only KLAs that have data)
+const klaGroups: KlaGroup[] = KLA_ORDER
+  .filter(k => klaMap.has(k))
+  .map(k => ({
+    klaRaw:     k,
+    klaHyphen:  k.replace(/_/g, '-'),
+    label:      KLA_LABELS[k] ?? k,
+    syllabuses: klaMap.get(k)!,
+  }));
+---
+
+<Layout
+  title="Secondary"
+  description="All NSW 7–10 curriculum outcomes by stage of learning."
+>
+  <!-- ─── Page header ──────────────────────────────────────────────────────── -->
+  <div class="page-header">
+    <h1>Secondary <span class="stage-range">7–10</span></h1>
+    <p class="page-desc">All outcomes from NSW 7–10 syllabuses, organised by stage of learning.</p>
+  </div>
+
+  <!-- ─── Filters bar ──────────────────────────────────────────────────────── -->
+  <div class="filters-bar">
+
+    <!-- Row 1: Stage selector + Life Skills toggle -->
+    <div class="filter-row">
+      <div class="stage-filter" role="group" aria-label="Select stage of learning">
+        <button class="stage-chip active" data-stage="stage_4" type="button" aria-pressed="true">
+          <span class="chip-name">Stage 4</span>
+          <span class="chip-years">Years 7–8</span>
+        </button>
+        <button class="stage-chip" data-stage="stage_5" type="button" aria-pressed="false">
+          <span class="chip-name">Stage 5</span>
+          <span class="chip-years">Years 9–10</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Row 2: KLA tabs -->
+    <div class="kla-tabs" role="tablist" aria-label="Select learning area">
+      {klaGroups.map((kla, i) => (
+        <button
+          class={`kla-tab${i === 0 ? ' active' : ''}`}
+          data-kla={kla.klaRaw}
+          type="button"
+          role="tab"
+          aria-selected={i === 0 ? 'true' : 'false'}
+          style={`--accent: var(--kla-${kla.klaHyphen})`}
+        >
+          {kla.label}
+        </button>
+      ))}
+    </div>
+
+    <!-- Syllabus selector: one per KLA, shown when that KLA is active and has >1 syllabus -->
+    {klaGroups.map((kla) => (
+      kla.syllabuses.length > 1 && (
+        <div
+          class="optout-bar"
+          data-kla={kla.klaRaw}
+          role="group"
+          aria-label={`Toggle ${kla.label} syllabuses`}
+          hidden={true}
+        >
+          <span class="optout-label">Showing</span>
+          {kla.syllabuses.map(syl => (
+            <button
+              class="optout-chip active"
+              data-slug={syl.slug}
+              type="button"
+              aria-pressed="true"
+            >
+              {syl.shortName}
+            </button>
+          ))}
+        </div>
+      )
+    ))}
+
+  </div>
+
+  <!-- ─── KLA panels ────────────────────────────────────────────────────────── -->
+  {klaGroups.map((kla, ki) => (
+    <div
+      class="kla-panel"
+      id={`panel-${kla.klaRaw}`}
+      role="tabpanel"
+      aria-label={kla.label}
+      style={`--accent: var(--kla-${kla.klaHyphen})`}
+      hidden={ki !== 0 ? true : undefined}
+    >
+
+      <!-- Syllabus sections -->
+      {kla.syllabuses.map(syl => (
+        <section
+          class="syl-section"
+          data-slug={syl.slug}
+          data-has-s5={syl.hasS5 ? 'true' : 'false'}
+          data-s4-count={syl.s4Count}
+          data-s5-count={syl.s5Count}
+          data-ls-count={syl.lsCount}
+          style={`--accent: var(--kla-${syl.kla})`}
+        >
+
+          <!-- Syllabus header (sticky) -->
+          <div class="syl-header">
+            <!-- Row 1: syllabus name + count -->
+            <div class="syl-header-top">
+              <div class="syl-title-row">
+                <span class="syl-kla-chip">{syl.klaChip}</span>
+                <a href={`/syllabuses/${syl.slug}`} class="syl-name">{syl.name}</a>
+              </div>
+              <span class="syl-count" data-count-slug={syl.slug}>
+                {syl.s4Count + syl.lsCount} outcome{syl.s4Count + syl.lsCount !== 1 ? 's' : ''}
+              </span>
+            </div>
+            <!-- Row 2: column labels + counts + drag hint -->
+            <div class={`syl-col-headers${syl.lifeSkills.length > 0 ? ' has-ls' : ''}`}>
+              <span class="syl-col-label">
+                Outcomes
+                <span class="col-count" data-main-count-slug={syl.slug}>{syl.s4Count}</span>
+              </span>
+              {syl.lifeSkills.length > 0 && (
+                <span class="syl-col-label">
+                  Life Skills
+                  <span class="col-count">{syl.lsCount}</span>
+                </span>
+              )}
+              {/* Drag hint icon — absolute, tracks --split-pos */}
+              {syl.lifeSkills.length > 0 && (
+                <span class="col-drag-hint" aria-hidden="true">
+                  <wa-icon name="arrows-left-right" variant="solid"></wa-icon>
+                </span>
+              )}
+            </div>
+          </div>
+
+          <!-- Outcomes body -->
+          <div class="syl-body">
+
+            {/* Overarching outcomes — full width above columns */}
+            {syl.overarchingOutcomes.length > 0 && (
+              <div class="syl-overarching">
+                <div class="fa-group fa-group--overarching">
+                  <span class="fa-label">Overarching</span>
+                  {syl.overarchingOutcomes.map(oc => (
+                    <div class="outcome-card outcome-card--overarching">
+                      <span class="outcome-code">{oc.code}</span>
+                      <div class="outcome-desc" set:html={oc.description} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Two-column split panel: drag to resize across all syllabuses */}
+            {syl.lifeSkills.length > 0 ? (
+              <wa-split-panel
+                class="outcome-split"
+                position={67}
+                style="--min: 25%; --max: 85%; --divider-width: 3px; --divider-hit-area: 20px;"
+              >
+                <div slot="start" class="syl-col-main">
+                  {syl.stage4.length > 0 && (
+                    <div class="stage-outcomes" data-stage="stage_4">
+                      {syl.stage4.map(fa => (
+                        <div class="fa-group">
+                          <span class="fa-label">{fa.title}</span>
+                          {fa.outcomes.map(oc => (
+                            <div class="outcome-card">
+                              <span class="outcome-code">{oc.code}</span>
+                              <div class="outcome-desc" set:html={oc.description} />
+                            </div>
+                          ))}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {syl.stage5.length > 0 && (
+                    <div class="stage-outcomes" data-stage="stage_5" hidden>
+                      {syl.stage5.map(fa => (
+                        <div class="fa-group">
+                          <span class="fa-label">{fa.title}</span>
+                          {fa.outcomes.map(oc => (
+                            <div class="outcome-card">
+                              <span class="outcome-code">{oc.code}</span>
+                              <div class="outcome-desc" set:html={oc.description} />
+                            </div>
+                          ))}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                <div slot="end" class="syl-col-ls">
+                  {syl.lifeSkills.map(fa => (
+                    <div class="fa-group">
+                      <span class="fa-label">{fa.title}</span>
+                      {fa.outcomes.map(oc => (
+                        <div class="outcome-card">
+                          <span class="outcome-code">{oc.code}</span>
+                          <div class="outcome-desc" set:html={oc.description} />
+                        </div>
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              </wa-split-panel>
+            ) : (
+              <div class="syl-col-main">
+                {syl.stage4.length > 0 && (
+                  <div class="stage-outcomes" data-stage="stage_4">
+                    {syl.stage4.map(fa => (
+                      <div class="fa-group">
+                        <span class="fa-label">{fa.title}</span>
+                        {fa.outcomes.map(oc => (
+                          <div class="outcome-card">
+                            <span class="outcome-code">{oc.code}</span>
+                            <div class="outcome-desc" set:html={oc.description} />
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {syl.stage5.length > 0 && (
+                  <div class="stage-outcomes" data-stage="stage_5" hidden>
+                    {syl.stage5.map(fa => (
+                      <div class="fa-group">
+                        <span class="fa-label">{fa.title}</span>
+                        {fa.outcomes.map(oc => (
+                          <div class="outcome-card">
+                            <span class="outcome-code">{oc.code}</span>
+                            <div class="outcome-desc" set:html={oc.description} />
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </section>
+      ))}
+    </div>
+  ))}
+</Layout>
+
+<script>
+  // ── State ──────────────────────────────────────────────────────────────────
+  let activeStage = 'stage_4';
+  const optOuts   = new Set<string>();   // slugs hidden by opt-out chip
+
+  // ── Helpers ────────────────────────────────────────────────────────────────
+  function isSectionVisible(section: HTMLElement): boolean {
+    const slug  = section.dataset.slug!;
+    const hasStage = activeStage === 'stage_4'
+      ? true   // all secondary syllabuses have Stage 4
+      : section.dataset.hasS5 === 'true';
+    return hasStage && !optOuts.has(slug);
+  }
+
+  function syncCount(section: HTMLElement) {
+    const slug      = section.dataset.slug!;
+    const mainCount = activeStage === 'stage_4'
+      ? Number(section.dataset.s4Count)
+      : Number(section.dataset.s5Count);
+    const lsCount   = Number(section.dataset.lsCount ?? 0);
+    const total     = mainCount + lsCount;
+    // Header total
+    const totalEl = document.querySelector<HTMLElement>(`[data-count-slug="${slug}"]`);
+    if (totalEl) totalEl.textContent = `${total} outcome${total !== 1 ? 's' : ''}`;
+    // Main col count (tracks stage)
+    const mainEl = document.querySelector<HTMLElement>(`[data-main-count-slug="${slug}"]`);
+    if (mainEl) mainEl.textContent = String(mainCount);
+  }
+
+  function applyVisibility() {
+    document.querySelectorAll<HTMLElement>('.syl-section').forEach(sec => {
+      sec.hidden = !isSectionVisible(sec);
+    });
+  }
+
+  // ── Stage switching ────────────────────────────────────────────────────────
+  const stageChips = document.querySelectorAll<HTMLButtonElement>('.stage-chip');
+  stageChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const newStage = chip.dataset.stage!;
+      if (newStage === activeStage) return;
+      activeStage = newStage;
+
+      stageChips.forEach(c => {
+        c.classList.toggle('active', c === chip);
+        c.setAttribute('aria-pressed', c === chip ? 'true' : 'false');
+      });
+
+      // Swap visible stage outcome blocks
+      document.querySelectorAll<HTMLElement>('.stage-outcomes').forEach(el => {
+        el.hidden = el.dataset.stage !== newStage;
+      });
+
+      // Show/hide sections that lack the new stage
+      applyVisibility();
+
+      // Update outcome counts
+      document.querySelectorAll<HTMLElement>('.syl-section').forEach(syncCount);
+    });
+  });
+
+  // ── KLA tab switching ──────────────────────────────────────────────────────
+  const klaTabs   = document.querySelectorAll<HTMLButtonElement>('.kla-tab');
+  const klaPanels = document.querySelectorAll<HTMLElement>('.kla-panel');
+
+  klaTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.kla!;
+      klaTabs.forEach(t => {
+        t.classList.toggle('active', t === tab);
+        t.setAttribute('aria-selected', t === tab ? 'true' : 'false');
+      });
+      klaPanels.forEach(p => {
+        p.hidden = p.id !== `panel-${target}`;
+      });
+      // Sync syllabus selector chips in filters bar
+      document.querySelectorAll<HTMLElement>('.filters-bar .optout-bar').forEach(bar => {
+        bar.hidden = bar.dataset.kla !== target;
+      });
+    });
+  });
+
+  // ── Opt-out chips ──────────────────────────────────────────────────────────
+  document.querySelectorAll<HTMLButtonElement>('.optout-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const slug    = chip.dataset.slug!;
+      const active  = chip.classList.toggle('active');
+      chip.setAttribute('aria-pressed', active ? 'true' : 'false');
+
+      if (active) {
+        optOuts.delete(slug);
+      } else {
+        optOuts.add(slug);
+      }
+
+      const section = document.querySelector<HTMLElement>(`.syl-section[data-slug="${slug}"]`);
+      if (section) section.hidden = !isSectionVisible(section);
+    });
+  });
+
+  // ── Split panel sync: drag any divider → all follow ───────────────────
+  const SPLIT_DEFAULT = 67;
+
+  function setSplitPos(pos: number) {
+    // Update CSS var so column header row tracks the divider
+    document.documentElement.style.setProperty('--split-pos', `${pos}%`);
+    // Sync all other split panels to the same position
+    document.querySelectorAll<any>('.outcome-split').forEach(sp => {
+      if (Math.round(sp.position) !== Math.round(pos)) sp.position = pos;
+    });
+  }
+
+  // ── Header drag hint: drag the icon to resize all panels ──────────────────────
+  function startHeaderDrag(e: MouseEvent | TouchEvent) {
+    e.preventDefault();
+    const hint   = e.currentTarget as HTMLElement;
+    const header = hint.closest<HTMLElement>('.syl-col-headers')!;
+
+    document.body.style.cursor     = 'col-resize';
+    document.body.style.userSelect = 'none';
+
+    const onMove = (ev: MouseEvent | TouchEvent) => {
+      const x    = ev instanceof MouseEvent ? ev.clientX : (ev as TouchEvent).touches[0].clientX;
+      const rect = header.getBoundingClientRect();
+      const pct  = Math.max(25, Math.min(85, (x - rect.left) / rect.width * 100));
+      setSplitPos(pct);
+    };
+
+    const onUp = () => {
+      document.body.style.cursor     = '';
+      document.body.style.userSelect = '';
+      document.removeEventListener('mousemove', onMove);
+      document.removeEventListener('touchmove',  onMove as EventListener);
+      document.removeEventListener('mouseup',  onUp);
+      document.removeEventListener('touchend', onUp);
+    };
+
+    document.addEventListener('mousemove', onMove);
+    document.addEventListener('touchmove',  onMove as EventListener, { passive: false });
+    document.addEventListener('mouseup',  onUp);
+    document.addEventListener('touchend', onUp);
+  }
+
+  document.querySelectorAll<HTMLElement>('.col-drag-hint').forEach(hint => {
+    hint.addEventListener('mousedown', startHeaderDrag);
+    hint.addEventListener('touchstart', startHeaderDrag as EventListener, { passive: false });
+  });
+
+  // Attach listeners after WA component is defined
+  customElements.whenDefined('wa-split-panel').then(() => {
+    document.querySelectorAll<any>('.outcome-split').forEach(sp => {
+      sp.addEventListener('wa-reposition', () => setSplitPos(sp.position));
+    });
+    setSplitPos(SPLIT_DEFAULT);
+  });
+
+  // ── Init: show optout bar for the initially active KLA ────────────────────
+  const initKla = document.querySelector<HTMLButtonElement>('.kla-tab.active')?.dataset.kla ?? '';
+  document.querySelectorAll<HTMLElement>('.filters-bar .optout-bar').forEach(bar => {
+    bar.hidden = bar.dataset.kla !== initKla;
+  });
+
+  // ── Filters bar height → CSS var (drives sticky syl-header offset) ─────────
+  const filtersBar = document.querySelector<HTMLElement>('.filters-bar');
+  function syncFiltersHeight() {
+    if (filtersBar) {
+      document.documentElement.style.setProperty(
+        '--filters-bar-height',
+        `${filtersBar.offsetHeight}px`
+      );
+    }
+  }
+  if (filtersBar) new ResizeObserver(syncFiltersHeight).observe(filtersBar);
+  syncFiltersHeight();
+</script>
+
+<style>
+  /* ── Page header ─────────────────────────────────────────────────────────── */
+  .page-header {
+    margin-block-end: var(--wa-space-xl);
+  }
+  .page-header h1 {
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-weight: 700;
+    margin: 0 0 var(--wa-space-xs);
+    line-height: 1.2;
+    color: var(--wa-color-neutral-10);
+  }
+  .stage-range {
+    font-size: 0.65em;
+    font-weight: 500;
+    color: var(--wa-color-neutral-50);
+    margin-inline-start: 0.35em;
+    vertical-align: middle;
+  }
+  .page-desc {
+    font-size: 0.95rem;
+    color: var(--wa-color-neutral-40);
+    margin: 0;
+  }
+
+  /* ── Filters bar ─────────────────────────────────────────────────────────── */
+  .filters-bar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--wa-space-s);
+    position: sticky;
+    top: var(--header-height, 4rem);
+    z-index: 4;
+    background: var(--wa-color-neutral-95);
+    margin-inline: calc(-1 * var(--wa-space-xl));
+    padding-inline: var(--wa-space-xl);
+    padding-block: var(--wa-space-m);
+    margin-block-end: var(--wa-space-l);
+    border-bottom: 1px solid var(--wa-color-neutral-90);
+  }
+
+  /* ── Row 1: stage + LS ───────────────────────────────────────────────────── */
+  .filter-row {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-m);
+    flex-wrap: wrap;
+  }
+  .stage-filter {
+    display: flex;
+    gap: var(--wa-space-s);
+    flex-wrap: wrap;
+  }
+
+  /* Stage chips */
+  .stage-chip {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    padding: var(--wa-space-s) var(--wa-space-l);
+    min-width: 9.5rem;
+    border-radius: var(--wa-border-radius-m);
+    border: 1px solid var(--wa-color-neutral-80);
+    background: white;
+    cursor: pointer;
+    font-family: var(--font-ui, system-ui);
+    text-align: left;
+    transition: border-color 0.12s, background 0.12s, color 0.12s;
+  }
+  .stage-chip:hover:not(.active) {
+    border-color: var(--site-brand);
+    background: color-mix(in srgb, var(--site-brand) 5%, white);
+  }
+  .stage-chip.active {
+    background: var(--site-brand);
+    border-color: var(--site-brand);
+    color: white;
+  }
+  .chip-name  { font-size: 1rem; font-weight: 600; line-height: 1.2; }
+  .chip-years { font-size: 0.8rem; font-weight: 400; opacity: 0.75; line-height: 1.2; }
+
+  /* ── Row 2: KLA tabs ─────────────────────────────────────────────────────── */
+  .kla-tabs {
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    border-bottom: 2px solid var(--wa-color-neutral-88, #e0e0e0);
+    padding-bottom: 0;
+  }
+  .kla-tabs::-webkit-scrollbar { display: none; }
+
+  .kla-tab {
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: var(--wa-space-xs) var(--wa-space-m);
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    color: var(--wa-color-neutral-40);
+    cursor: pointer;
+    font-family: var(--font-ui, system-ui);
+    white-space: nowrap;
+    transition: color 0.12s, border-color 0.12s;
+  }
+  .kla-tab:hover:not(.active) {
+    color: var(--accent);
+    border-bottom-color: color-mix(in srgb, var(--accent) 30%, transparent);
+  }
+  .kla-tab.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  /* ── Opt-out bar ─────────────────────────────────────────────────────────── */
+  .optout-bar {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-xs);
+    flex-wrap: wrap;
+    margin-block-end: var(--wa-space-m);
+    padding: var(--wa-space-s) var(--wa-space-m);
+    background: color-mix(in srgb, var(--accent) 4%, var(--wa-color-neutral-95));
+    border: 1px solid color-mix(in srgb, var(--accent) 12%, transparent);
+    border-radius: var(--wa-border-radius-m);
+  }
+  .optout-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--wa-color-neutral-50);
+    margin-inline-end: var(--wa-space-2xs);
+    white-space: nowrap;
+  }
+  .optout-chip {
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
+    border: 1px solid var(--wa-color-neutral-80);
+    background: white;
+    color: var(--wa-color-neutral-40);
+    cursor: pointer;
+    font-family: var(--font-ui, system-ui);
+    transition: all 0.12s;
+  }
+  .optout-chip.active {
+    border-color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 10%, white);
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .optout-chip:not(.active) {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+
+  /* Override: optout-bar lives inside the sticky filters bar */
+  /* Must explicitly handle [hidden] — display:flex on .optout-bar beats UA display:none */
+  .filters-bar .optout-bar[hidden] { display: none; }
+  .filters-bar .optout-bar {
+    border: none;
+    border-top: 1px solid var(--wa-color-neutral-88, #dfe0e3);
+    border-radius: 0;
+    margin: 0;
+    margin-inline: calc(-1 * var(--wa-space-xl));
+    padding-block: var(--wa-space-xs);
+    padding-inline: var(--wa-space-xl);
+    background: transparent;
+  }
+
+  /* ── Syllabus section ────────────────────────────────────────────────────── */
+  .syl-section {
+    background: white;
+    border: 1px solid var(--wa-color-neutral-90);
+    border-left: 4px solid var(--accent);
+    border-radius: var(--wa-border-radius-m);
+    margin-block-end: var(--wa-space-l);
+    /* no overflow:hidden — sticky .syl-header requires unconstrained overflow */
+  }
+
+  .syl-header {
+    display: flex;
+    flex-direction: column;
+    background: var(--accent);
+    /* Sticky below filters bar; pins per-syllabus as user scrolls through its outcomes */
+    position: sticky;
+    top: calc(var(--header-height, 4rem) + var(--filters-bar-height, 130px));
+    z-index: 2;
+    border-radius: var(--wa-border-radius-m) var(--wa-border-radius-m) 0 0;
+  }
+  /* Row 1: syllabus name + count (horizontal) */
+  .syl-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--wa-space-m);
+    flex-wrap: wrap;
+    padding: var(--wa-space-m) var(--wa-space-l);
+    border-bottom: 1px solid color-mix(in srgb, var(--accent) 60%, black);
+  }
+  /* Row 2: column labels — grid matches split panel columns */
+  .syl-col-headers {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative; /* contains .col-drag-hint */
+  }
+  .syl-col-headers.has-ls {
+    /* Tracks the split panel position; updated by JS via --split-pos */
+    grid-template-columns: var(--split-pos, 67%) 1fr;
+  }
+  .syl-col-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: rgba(255,255,255,0.6);
+    padding: var(--wa-space-s) var(--wa-space-l);
+  }
+  .syl-col-headers.has-ls .syl-col-label:last-child {
+    border-left: 1px solid color-mix(in srgb, var(--accent) 60%, black);
+  }
+  .col-count {
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: rgba(255,255,255,0.45);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0;
+  }
+  /* Drag hint icon at the divider position, tracked via --split-pos */
+  .col-drag-hint {
+    position: absolute;
+    left: var(--split-pos, 67%);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: color-mix(in srgb, var(--accent) 60%, black);
+    color: rgba(255,255,255,0.9);
+    border-radius: 999px;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.65rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    cursor: col-resize;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    user-select: none;
+  }
+  .syl-title-row {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-s);
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+  .syl-kla-chip {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, white 20%, var(--accent));
+    color: white;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .syl-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    line-height: 1.3;
+  }
+  .syl-name:hover { text-decoration: underline; opacity: 0.85; }
+  .syl-count {
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.65);
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ── Outcomes body ────────────────────────────────────────────────────────── */
+  .syl-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* Clips child backgrounds (LS tint, overarching) at rounded bottom corners */
+    overflow: hidden;
+    border-radius: 0 0 var(--wa-border-radius-m) var(--wa-border-radius-m);
+  }
+
+  /* Overarching — full width, padded */
+  .syl-overarching {
+    padding: var(--wa-space-m) var(--wa-space-l);
+    border-bottom: 1px solid var(--wa-color-neutral-90);
+  }
+
+  /* Split panel: one per syllabus, synced via JS */
+  /* Don't set display — wa-split-panel needs its own :host display to work */
+  :global(.outcome-split)::part(divider) {
+    background: var(--wa-color-neutral-88, #dfe0e3);
+    transition: background 0.15s;
+  }
+  :global(.outcome-split)::part(divider):hover,
+  :global(.outcome-split:focus-within)::part(divider) {
+    background: var(--wa-color-neutral-60, #9498a7);
+  }
+  .syl-col-main {
+    padding: var(--wa-space-m) var(--wa-space-l);
+    min-width: 0;
+  }
+  .syl-col-ls {
+    padding: var(--wa-space-m) var(--wa-space-l);
+    background: color-mix(in srgb, var(--accent) 4%, white);
+    min-width: 0;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  /* .ls-col-header removed — label is now in .syl-col-headers row 2 of sticky header */
+
+  /* ── Focus area group ─────────────────────────────────────────────────────── */
+  .fa-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .fa-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--wa-color-neutral-50);
+    padding-block-end: var(--wa-space-2xs);
+    border-bottom: 1px solid var(--wa-color-neutral-90);
+  }
+  .fa-group--overarching .fa-label {
+    color: var(--accent);
+    border-bottom-color: color-mix(in srgb, var(--accent) 20%, transparent);
+  }
+
+  /* ── Outcome card ─────────────────────────────────────────────────────────── */
+  .outcome-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--wa-space-m);
+    align-items: baseline;
+    padding: var(--wa-space-s) 0;
+    border-bottom: 1px solid var(--wa-color-neutral-95);
+  }
+  .outcome-card:last-child { border-bottom: none; }
+
+  .outcome-card--overarching {
+    background: color-mix(in srgb, var(--accent) 3%, white);
+    padding: var(--wa-space-s);
+    border-radius: var(--wa-border-radius-s);
+    border: 1px solid color-mix(in srgb, var(--accent) 12%, transparent);
+    margin-block-start: var(--wa-space-xs);
+  }
+  .outcome-card--overarching:last-child {
+    border: 1px solid color-mix(in srgb, var(--accent) 12%, transparent);
+  }
+
+  .outcome-code {
+    font-size: 0.72rem;
+    font-weight: 700;
+    font-family: monospace;
+    color: var(--site-brand);
+    background: color-mix(in srgb, var(--site-brand) 8%, white);
+    padding: 0.2rem 0.45rem;
+    border-radius: var(--wa-border-radius-s);
+    white-space: nowrap;
+  }
+  .fa-group--overarching .outcome-code {
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 10%, white);
+  }
+
+  .outcome-desc {
+    font-size: 0.875rem;
+    line-height: 1.55;
+    color: var(--wa-color-neutral-20);
+  }
+  .outcome-desc p { margin: 0; }
+
+
+</style>

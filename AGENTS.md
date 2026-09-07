@@ -125,5 +125,9 @@ git push origin main   # triggers Cloudflare Pages deploy
 
 ---
 
+## End-of-session handover rule
+
+Write the full briefing to `_project-status.md` in the Obsidian lab (`~/Obsidian/Lab/Projects/curriculum-remix/`). Include: what was built, what’s next, any patterns or gotchas, and a **start-of-session test** (3 factual questions that can only be answered by reading that file). Your message to Anna is one line: “Lab updated — start next session by asking me to read the project status.” The full briefing never goes to Anna in chat.
+
 *Update the Build Plan table when phases change.*
-*Last updated: 2026-08-21*
+*Last updated: 2026-09-07*

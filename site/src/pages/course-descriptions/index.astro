@@ -134,7 +134,7 @@ const total = courses.length;
           <th class="col-hours">Hours</th>
           <th class="col-enrolment">Enrolment</th>
           <th class="col-type">Type</th>
-          <th class="col-syllabus">Syllabus</th>
+          <th class="col-syllabus">NSW Curriculum</th>
         </tr>
       </thead>
       <tbody>
@@ -174,7 +174,9 @@ const total = courses.length;
               {c.courseType || '—'}
             </td>
             <td class="col-syllabus">
-              <a href={`https://curriculum.nsw.edu.au/learning-areas/${c.kla.replace(/_/g, '-')}/${c.syllabusSlug}/overview/course`} class="syl-link" target="_blank" rel="noopener">{c.syllabusName}</a>
+              <a href={`https://curriculum.nsw.edu.au/learning-areas/${c.kla.replace(/_/g, '-')}/${c.syllabusSlug}/overview/course`} class="syl-link" target="_blank" rel="noopener">
+                {c.syllabusName}<wa-icon name="up-right-from-square" variant="solid" class="ext-icon"></wa-icon>
+              </a>
             </td>
           </tr>
         ))}
@@ -533,12 +535,24 @@ const total = courses.length;
   /* Syllabus link */
   .syl-link {
     color: var(--site-brand);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--site-brand) 40%, transparent);
+    text-underline-offset: 2px;
     font-size: 0.85rem;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.3em;
   }
 
   .syl-link:hover {
-    text-decoration: underline;
+    text-decoration-color: var(--site-brand);
+  }
+
+  .syl-link .ext-icon {
+    font-size: 0.65em;
+    flex-shrink: 0;
+    align-self: center;
+    color: var(--site-brand);
   }
 
   /* Empty state */
