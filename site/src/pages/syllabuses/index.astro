@@ -380,8 +380,7 @@ const total = syllabuses.length;
   /* ─── Table ──────────────────────────────────────────────────────────────── */
   .table-wrap {
     margin-block-start: var(--wa-space-l);
-    overflow: auto;
-    max-height: calc(100vh - 14rem);
+    overflow-x: auto;
     border: 1px solid var(--wa-color-neutral-90);
     border-radius: var(--wa-border-radius-m);
     background: white;
@@ -399,7 +398,7 @@ const total = syllabuses.length;
 
   .syl-table th {
     position: sticky;
-    top: 0;
+    top: calc(var(--header-height, 4rem) + var(--filter-bar-height, 0px));
     z-index: 3;
     background: var(--wa-color-neutral-95);
     border-bottom: 2px solid var(--wa-color-neutral-90);
@@ -506,6 +505,17 @@ const total = syllabuses.length;
 
   let activeType = '';
   let activePub  = false;
+
+  // Measure filter bar height → CSS var (drives sticky thead top offset)
+  const filterBarEl = document.querySelector<HTMLElement>('.filter-bar');
+  function syncFilterBarHeight() {
+    document.documentElement.style.setProperty(
+      '--filter-bar-height',
+      (filterBarEl?.offsetHeight ?? 0) + 'px'
+    );
+  }
+  syncFilterBarHeight();
+  if (filterBarEl) new ResizeObserver(syncFilterBarHeight).observe(filterBarEl);
 
   // Pre-set filters from URL params (e.g. /syllabuses?kla=english&stage=k-10)
   const params = new URLSearchParams(location.search);
