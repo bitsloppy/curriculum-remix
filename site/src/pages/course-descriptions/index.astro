@@ -424,8 +424,11 @@ const total = courses.length;
 
   /* ─── Table ──────────────────────────────────────────────────────────────── */
   .table-wrap {
+    position: sticky;
+    top: calc(var(--header-height, 4rem) + var(--filter-bar-height, 0px));
+    height: calc(100dvh - var(--header-height, 4rem) - var(--filter-bar-height, 0px));
     margin-block-start: var(--wa-space-l);
-    overflow-x: auto;
+    overflow: auto;
     border: 1px solid var(--wa-color-neutral-90);
     border-radius: var(--wa-border-radius-m);
     background: white;
@@ -443,7 +446,7 @@ const total = courses.length;
 
   .course-table th {
     position: sticky;
-    top: calc(var(--header-height, 4rem) + var(--filter-bar-height, 0px));
+    top: 0;
     z-index: 3;
     background: var(--wa-color-neutral-95);
     border-bottom: 2px solid var(--wa-color-neutral-90);
