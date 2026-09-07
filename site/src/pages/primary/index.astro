@@ -1,0 +1,486 @@
+---
+import { readFileSync, existsSync } from 'fs';
+import { join } from 'path';
+import Layout from '../../layouts/Layout.astro';
+import syllabuses from '../../data/syllabuses.json';
+
+// ─── Stage definitions ────────────────────────────────────────────────────────
+const K6_STAGES = [
+  { codename: 'early_stage_1', name: 'Early Stage 1', years: 'Kindergarten' },
+  { codename: 'stage_1',       name: 'Stage 1',       years: 'Years 1–2'    },
+  { codename: 'stage_2',       name: 'Stage 2',       years: 'Years 3–4'    },
+  { codename: 'stage_3',       name: 'Stage 3',       years: 'Years 5–6'    },
+] as const;
+
+type Outcome      = { code: string; description: string };
+type FocusArea    = { title: string; outcomes: Outcome[] };
+// KLA display order (raw kla values from syllabuses.json)
+const KLA_ORDER = ['languages', 'english', 'mathematics', 'science', 'tas', 'hsie', 'creative_arts', 'pdhpe'];
+
+type SylEntry     = {
+  slug: string;
+  name: string;
+  shortName: string;   // for language toggle chips
+  kla: string;         // hyphens, ready for CSS var
+  klaRaw: string;      // original kla for sorting
+  klaLabel: string;
+  isLanguages: boolean;
+  overarchingOutcomes: Outcome[];
+  focusAreas: FocusArea[];
+  outcomeCount: number;
+};
+type StageEntry = typeof K6_STAGES[number] & { syllabuses: SylEntry[] };
+
+// ─── Build per-stage data at build time ───────────────────────────────────────
+const stageData: StageEntry[] = K6_STAGES.map(stage => {
+  const entries: SylEntry[] = [];
+
+  for (const syl of syllabuses) {
+    if (!syl.hasContent) continue;
+    const p = join(process.cwd(), 'src/data/content', `${syl.slug}.json`);
+    if (!existsSync(p)) continue;
+
+    const content = JSON.parse(readFileSync(p, 'utf-8'));
+    const stageContent = (content.stages ?? []).find((st: any) => st.codename === stage.codename);
+    if (!stageContent) continue;
+
+    const focusAreas: FocusArea[] = [];
+    let outcomeCount = 0;
+    for (const fa of stageContent.focusAreas ?? []) {
+      const outcomes: Outcome[] = fa.outcomes ?? [];
+      if (outcomes.length > 0) {
+        focusAreas.push({ title: fa.title, outcomes });
+        outcomeCount += outcomes.length;
+      }
+    }
+
+    const overarchingOutcomes: Outcome[] = content.overarchingOutcomes ?? [];
+    outcomeCount += overarchingOutcomes.length;
+
+    if (focusAreas.length === 0 && overarchingOutcomes.length === 0) continue;
+
+    entries.push({
+      slug:               syl.slug,
+      name:               syl.name,
+      shortName:          syl.name.replace(/\s+K[–-]\d+.*$/, '').trim(),
+      kla:                (syl.kla ?? 'english').replace(/_/g, '-'),
+      klaRaw:             syl.kla ?? 'english',
+      klaLabel:           syl.klaLabel ?? '',
+      isLanguages:        syl.kla === 'languages',
+      overarchingOutcomes,
+      focusAreas,
+      outcomeCount,
+    });
+  }
+
+  entries.sort((a, b) => {
+    const ai = KLA_ORDER.indexOf(a.klaRaw);
+    const bi = KLA_ORDER.indexOf(b.klaRaw);
+    return (ai < 0 ? 999 : ai) - (bi < 0 ? 999 : bi);
+  });
+
+  return { ...stage, syllabuses: entries };
+});
+
+// Language syllabuses — same across all stages, dedupe from first
+const languageSyllabuses = stageData[0].syllabuses
+  .filter(s => s.isLanguages)
+  .map(s => ({ slug: s.slug, shortName: s.shortName }));
+---
+
+<Layout
+  title="Primary"
+  description="All NSW K–6 curriculum outcomes by stage of learning."
+>
+  <!-- ─── Page header ──────────────────────────────────────────────────────── -->
+  <div class="page-header">
+    <h1>Primary <span class="stage-range">K–6</span></h1>
+    <p class="page-desc">All outcomes from NSW K–6 syllabuses, organised by stage of learning.</p>
+  </div>
+
+  <!-- ─── Filters ──────────────────────────────────────────────────────────── -->
+  <div class="filters-bar">
+
+    <!-- Stage chips -->
+    <div class="stage-filter" role="group" aria-label="Select stage of learning">
+      {stageData.map((stage, i) => (
+        <button
+          class={`stage-chip${i === 0 ? ' active' : ''}`}
+          data-stage={stage.codename}
+          type="button"
+          aria-pressed={i === 0 ? 'true' : 'false'}
+        >
+          <span class="chip-name">{stage.name}</span>
+          <span class="chip-years">{stage.years}</span>
+        </button>
+      ))}
+    </div>
+
+    <!-- Language opt-in -->
+    {languageSyllabuses.length > 0 && (
+      <div class="lang-filter" role="group" aria-label="Show language syllabuses">
+        <span class="lang-filter-label">Languages</span>
+        {languageSyllabuses.map(lang => (
+          <button
+            class="lang-chip"
+            data-lang-slug={lang.slug}
+            type="button"
+            aria-pressed="false"
+          >
+            {lang.shortName}
+          </button>
+        ))}
+      </div>
+    )}
+
+  </div>
+
+  <!-- ─── Stage panels ─────────────────────────────────────────────────────── -->
+  {stageData.map((stage, i) => (
+    <div
+      class="stage-panel"
+      id={`panel-${stage.codename}`}
+      role="region"
+      aria-label={stage.name}
+      hidden={i !== 0 ? true : undefined}
+    >
+      <p class="panel-meta">
+        {stage.syllabuses.filter(s => !s.isLanguages).length} syllabuses
+        · {stage.syllabuses.filter(s => !s.isLanguages).reduce((n, s) => n + s.outcomeCount, 0)} outcomes
+        <span class="lang-meta" id={`lang-meta-${stage.codename}`}></span>
+      </p>
+
+      {stage.syllabuses.map(syl => (
+        <section
+          class="syl-section"
+          style={`--accent: var(--kla-${syl.kla})`}
+          data-lang-slug={syl.isLanguages ? syl.slug : undefined}
+          hidden={syl.isLanguages ? true : undefined}
+        >
+
+          <!-- Syllabus header -->
+          <div class="syl-header">
+            <div class="syl-title-row">
+              <span class="syl-kla-chip">{syl.klaLabel}</span>
+              <a href={`/syllabuses/${syl.slug}`} class="syl-name">{syl.name}</a>
+            </div>
+            <span class="syl-count">
+              {syl.outcomeCount} outcome{syl.outcomeCount !== 1 ? 's' : ''}
+            </span>
+          </div>
+
+          <!-- Outcomes body -->
+          <div class="syl-body">
+            {syl.overarchingOutcomes.length > 0 && (
+              <div class="fa-group fa-group--overarching">
+                <span class="fa-label">Overarching</span>
+                {syl.overarchingOutcomes.map(oc => (
+                  <div class="outcome-card outcome-card--overarching">
+                    <span class="outcome-code">{oc.code}</span>
+                    <div class="outcome-desc" set:html={oc.description} />
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {syl.focusAreas.map(fa => (
+              <div class="fa-group">
+                <span class="fa-label">{fa.title}</span>
+                {fa.outcomes.map(oc => (
+                  <div class="outcome-card">
+                    <span class="outcome-code">{oc.code}</span>
+                    <div class="outcome-desc" set:html={oc.description} />
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+
+        </section>
+      ))}
+    </div>
+  ))}
+</Layout>
+
+<script>
+  // ── Stage switching ──────────────────────────────────────────────────────────
+  const stageChips  = document.querySelectorAll<HTMLButtonElement>('.stage-chip');
+  const panels      = document.querySelectorAll<HTMLElement>('.stage-panel');
+
+  stageChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const target = chip.dataset.stage!;
+      stageChips.forEach(c => {
+        c.classList.toggle('active', c === chip);
+        c.setAttribute('aria-pressed', c === chip ? 'true' : 'false');
+      });
+      panels.forEach(p => { p.hidden = p.id !== `panel-${target}`; });
+    });
+  });
+
+  // ── Language opt-in ──────────────────────────────────────────────────────────
+  const langChips = document.querySelectorAll<HTMLButtonElement>('.lang-chip');
+
+  langChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const slug   = chip.dataset.langSlug!;
+      const active = chip.classList.toggle('active');
+      chip.setAttribute('aria-pressed', active ? 'true' : 'false');
+
+      // Show/hide all matching sections across all stage panels
+      document.querySelectorAll<HTMLElement>(`.syl-section[data-lang-slug="${slug}"]`).forEach(sec => {
+        sec.hidden = !active;
+      });
+    });
+  });
+</script>
+
+<style>
+  /* ── Page header ─────────────────────────────────────────────────────────── */
+  .page-header {
+    margin-block-end: var(--wa-space-xl);
+  }
+  .page-header h1 {
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-weight: 700;
+    margin: 0 0 var(--wa-space-xs);
+    line-height: 1.2;
+    color: var(--wa-color-neutral-10);
+  }
+  .stage-range {
+    font-size: 0.65em;
+    font-weight: 500;
+    color: var(--wa-color-neutral-50);
+    margin-inline-start: 0.35em;
+    vertical-align: middle;
+  }
+  .page-desc {
+    font-size: 0.95rem;
+    color: var(--wa-color-neutral-40);
+    margin: 0;
+  }
+
+  /* ── Filters bar ─────────────────────────────────────────────────────────── */
+  .filters-bar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--wa-space-s);
+    position: sticky;
+    top: var(--header-height, 4rem);
+    z-index: 4;
+    background: var(--wa-color-neutral-95);
+    /* extend edge-to-edge within main's padding */
+    margin-inline: calc(-1 * var(--wa-space-xl));
+    padding-inline: var(--wa-space-xl);
+    padding-block: var(--wa-space-m);
+    margin-block-end: var(--wa-space-l);
+    border-bottom: 1px solid var(--wa-color-neutral-90);
+  }
+
+  /* ── Stage chips ─────────────────────────────────────────────────────────── */
+  .stage-filter {
+    display: flex;
+    gap: var(--wa-space-s);
+    flex-wrap: wrap;
+  }
+  .stage-chip {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    padding: var(--wa-space-s) var(--wa-space-l);
+    min-width: 9.5rem;
+    border-radius: var(--wa-border-radius-m);
+    border: 1px solid var(--wa-color-neutral-80);
+    background: white;
+    cursor: pointer;
+    font-family: var(--font-ui, system-ui);
+    text-align: left;
+    transition: border-color 0.12s, background 0.12s, color 0.12s;
+  }
+  .stage-chip:hover:not(.active) {
+    border-color: var(--site-brand);
+    background: color-mix(in srgb, var(--site-brand) 5%, white);
+  }
+  .stage-chip.active {
+    background: var(--site-brand);
+    border-color: var(--site-brand);
+    color: white;
+  }
+  .chip-name  { font-size: 1rem; font-weight: 600; line-height: 1.2; }
+  .chip-years { font-size: 0.8rem; font-weight: 400; opacity: 0.75; line-height: 1.2; }
+
+  /* ── Language filter ─────────────────────────────────────────────────────── */
+  .lang-filter {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-xs);
+    flex-wrap: wrap;
+  }
+  .lang-filter-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--wa-color-neutral-50);
+    margin-inline-end: var(--wa-space-2xs);
+  }
+  .lang-chip {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.25rem 0.65rem;
+    border-radius: 999px;
+    border: 1px solid var(--wa-color-neutral-80);
+    background: white;
+    color: var(--wa-color-neutral-40);
+    cursor: pointer;
+    font-family: var(--font-ui, system-ui);
+    transition: border-color 0.12s, background 0.12s, color 0.12s;
+  }
+  .lang-chip:hover:not(.active) {
+    border-color: var(--kla-languages);
+    color: var(--kla-languages);
+    background: color-mix(in srgb, var(--kla-languages) 6%, white);
+  }
+  .lang-chip.active {
+    border-color: var(--kla-languages);
+    background: color-mix(in srgb, var(--kla-languages) 12%, white);
+    color: var(--kla-languages);
+    font-weight: 600;
+  }
+
+  /* ── Panel meta ──────────────────────────────────────────────────────────── */
+  .panel-meta {
+    font-size: 0.8rem;
+    color: var(--wa-color-neutral-50);
+    margin: 0 0 var(--wa-space-l);
+    font-weight: 500;
+  }
+
+  /* ── Syllabus section ────────────────────────────────────────────────────── */
+  .syl-section {
+    background: white;
+    border: 1px solid var(--wa-color-neutral-90);
+    border-left: 4px solid var(--accent);
+    border-radius: var(--wa-border-radius-m);
+    margin-block-end: var(--wa-space-l);
+    overflow: hidden;
+  }
+
+  .syl-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--wa-space-m);
+    padding: var(--wa-space-m) var(--wa-space-l);
+    border-bottom: 1px solid var(--wa-color-neutral-90);
+    background: color-mix(in srgb, var(--accent) 4%, white);
+    flex-wrap: wrap;
+  }
+  .syl-title-row {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-s);
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+  .syl-kla-chip {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--accent) 14%, white);
+    color: var(--accent);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .syl-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--wa-color-neutral-10);
+    text-decoration: none;
+    line-height: 1.3;
+  }
+  .syl-name:hover { text-decoration: underline; color: var(--accent); }
+  .syl-count {
+    font-size: 0.78rem;
+    color: var(--wa-color-neutral-50);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* ── Outcomes body ────────────────────────────────────────────────────────── */
+  .syl-body {
+    padding: var(--wa-space-m) var(--wa-space-l);
+    display: flex;
+    flex-direction: column;
+    gap: var(--wa-space-m);
+  }
+
+  /* ── Focus area group ─────────────────────────────────────────────────────── */
+  .fa-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .fa-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--wa-color-neutral-50);
+    padding-block-end: var(--wa-space-2xs);
+    border-bottom: 1px solid var(--wa-color-neutral-90);
+    margin-block-end: 0;
+  }
+  .fa-group--overarching .fa-label {
+    color: var(--accent);
+    border-bottom-color: color-mix(in srgb, var(--accent) 20%, transparent);
+  }
+
+  /* ── Outcome card ─────────────────────────────────────────────────────────── */
+  .outcome-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--wa-space-m);
+    align-items: baseline;
+    padding: var(--wa-space-s) 0;
+    border-bottom: 1px solid var(--wa-color-neutral-95);
+  }
+  .outcome-card:last-child { border-bottom: none; }
+
+  .outcome-card--overarching {
+    background: color-mix(in srgb, var(--accent) 3%, white);
+    padding: var(--wa-space-s);
+    border-radius: var(--wa-border-radius-s);
+    border: 1px solid color-mix(in srgb, var(--accent) 12%, transparent);
+    margin-block-start: var(--wa-space-xs);
+  }
+  .outcome-card--overarching:last-child {
+    border: 1px solid color-mix(in srgb, var(--accent) 12%, transparent);
+  }
+
+  .outcome-code {
+    font-size: 0.72rem;
+    font-weight: 700;
+    font-family: monospace;
+    color: var(--site-brand);
+    background: color-mix(in srgb, var(--site-brand) 8%, white);
+    padding: 0.2rem 0.45rem;
+    border-radius: var(--wa-border-radius-s);
+    white-space: nowrap;
+  }
+  .fa-group--overarching .outcome-code {
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 10%, white);
+  }
+
+  .outcome-desc {
+    font-size: 0.875rem;
+    line-height: 1.55;
+    color: var(--wa-color-neutral-20);
+  }
+  .outcome-desc p { margin: 0; }
+</style>

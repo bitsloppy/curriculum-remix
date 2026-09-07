@@ -166,6 +166,12 @@ const dateStr = fetchDate.toLocaleDateString('en-AU', { day: 'numeric', month: '
         color: var(--wa-color-neutral-40);
       }
 
+      /* ─── Links ──────────────────────────────────────────────────────────────── */
+      main a,
+      footer[slot='footer'] a {
+        color: var(--site-brand);
+      }
+
       /* ─── Main content ───────────────────────────────────────────────────────── */
       main {
         padding: var(--wa-space-xl);
@@ -188,6 +194,7 @@ const dateStr = fetchDate.toLocaleDateString('en-AU', { day: 'numeric', month: '
         </a>
         <nav>
           <a href="/syllabuses">Syllabuses</a>
+          <a href="/primary">Primary</a>
           <a href="/course-descriptions">Courses</a>
         </nav>
       </header>

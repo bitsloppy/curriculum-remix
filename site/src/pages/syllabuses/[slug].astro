@@ -47,7 +47,7 @@ const stageShadeMap: Record<string, string> = {
   stage_3:       'light',
   stage_4:       'medium',
   stage_5:       'medium',
-  year_11:       'medium',
+  year_11:       'light',
   year_12:       'medium',
   stage_6:       'medium',
   life_skills:   'dark',
@@ -130,15 +130,16 @@ else if (s.isElective) classifParts.push(`Elective${s.electivePeriods ? ` (${s.e
     <div class="syl-header-chips">
       <span class="kla-chip" style={`--chip-kla: ${klaColor}`}>{s.klaLabel}</span>
       {s.type === 'LS' && <span class="ls-chip">Life Skills</span>}
-      {s.hasContent && (
-        <span class="pub-chip">
-          <wa-icon name="circle-check" variant="solid"></wa-icon>
-          Live on curriculum.nsw.edu.au
-        </span>
-      )}
     </div>
     <h1>{s.name}</h1>
     <p class="syl-subtitle">{stageLabel}{s.publicationYear ? ` · Published ${s.publicationYear}` : ''}</p>
+    {s.hasContent
+      ? <a href={s.curriculumUrl} target="_blank" rel="noopener" class="syl-curriculum-link">
+          View on curriculum.nsw.edu.au
+          <wa-icon name="arrow-up-right-from-square" variant="solid"></wa-icon>
+        </a>
+      : <p class="syl-not-available">Not available on curriculum.nsw.edu.au when this data was fetched.</p>
+    }
   </header>
 
   {hasContent ? (
@@ -382,11 +383,24 @@ else if (s.isElective) classifParts.push(`Elective${s.electivePeriods ? ` (${s.e
     font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px;
     background: var(--wa-color-neutral-90); color: var(--wa-color-neutral-40); font-style: italic;
   }
-  .pub-chip {
-    font-size: 0.75rem; font-weight: 600;
-    padding: 0.2rem 0.6rem; border-radius: 999px;
-    background: #dcfce7; color: #15803d;
-    display: flex; align-items: center; gap: 0.3rem;
+  .syl-curriculum-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--wa-space-2xs);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--site-brand);
+    text-decoration: none;
+    margin-block-start: var(--wa-space-xs);
+  }
+  .syl-curriculum-link:hover { text-decoration: underline; }
+  .syl-curriculum-link wa-icon { font-size: 0.75em; }
+
+  .syl-not-available {
+    font-size: 0.875rem;
+    color: var(--wa-color-neutral-50);
+    font-style: italic;
+    margin: var(--wa-space-xs) 0 0;
   }
 
   /* ── Outcomes heading ────────────────────────────────────────────────────── */
