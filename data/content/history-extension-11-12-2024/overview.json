@@ -769,6 +769,21 @@
       },
       {
         "params": {
+          "pageTitle": "HSC English prescriptions",
+          "slug": [
+            "resources",
+            "hsc-english-prescriptions"
+          ],
+          "navigationItem": {
+            "codename": "prescription_tools",
+            "id": "989b81ea-3d13-46ff-bce5-a927a9cdd43a",
+            "type": "web_page_prescriptions_tools"
+          },
+          "excludeInSitemap": false
+        }
+      },
+      {
+        "params": {
           "pageTitle": "Assessment and reporting",
           "slug": [
             "assessment-and-reporting"
@@ -1167,6 +1182,46 @@
           "taxoSyllabus": "aboriginal_studies_7_10_2024",
           "isCanonical": true,
           "kla_default": "hsie"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "Agriculture 11–12 (2026)",
+          "slug": [
+            "learning-areas",
+            "tas",
+            "agriculture-11-12-2026",
+            "overview"
+          ],
+          "navigationItem": {
+            "codename": "agriculture_11_12_2026",
+            "id": "ddba32b1-74ed-4179-8413-1149e4b8aa3c",
+            "type": "syllabus"
+          },
+          "excludeInSitemap": false,
+          "taxoSyllabus": "agriculture_11_12_2026",
+          "isCanonical": true,
+          "kla_default": "tas"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "Agriculture Life Skills 11–12 (2026)",
+          "slug": [
+            "learning-areas",
+            "tas",
+            "agriculture-life-skills-11-12-2026",
+            "overview"
+          ],
+          "navigationItem": {
+            "codename": "agriculture_life_skills_11_12_2026",
+            "id": "b99629b1-e369-40a3-bcd7-210b0ec4b5b2",
+            "type": "syllabus"
+          },
+          "excludeInSitemap": false,
+          "taxoSyllabus": "agriculture_life_skills_11_12_2026",
+          "isCanonical": true,
+          "kla_default": "tas"
         }
       },
       {
@@ -2949,6 +3004,25 @@
       },
       {
         "params": {
+          "pageTitle": "Biology Life Skills 11–12: Minor amendment – glossary update",
+          "slug": [
+            "resources",
+            "record-of-changes",
+            "26-08-26-biology-life-skills-11-12"
+          ],
+          "navigationItem": {
+            "codename": "biology_life_skills_11_12___26_08_26___roc",
+            "id": "43ded775-3c1a-4f00-8db4-06977cc01a8a",
+            "lastModified": "2026-08-25T06:37:13.5328958Z",
+            "name": "Biology Life Skills 11–12 - 26/08/26 - ROC",
+            "type": "releasenote_syllabus"
+          },
+          "excludeInSitemap": false,
+          "isCanonical": true
+        }
+      },
+      {
+        "params": {
           "pageTitle": "Child Studies 7–10 Syllabus (2025): Minor amendment – School-developed option wording updated",
           "slug": [
             "resources",
@@ -3093,6 +3167,25 @@
             "id": "555809a8-f940-402b-a1b9-65c2597e37b2",
             "lastModified": "2026-02-13T06:00:27.9884405Z",
             "name": "English Advanced 11–12 (2024): Minor amendment – Text edition updated - 10/11/25 ROC",
+            "type": "releasenote_syllabus"
+          },
+          "excludeInSitemap": false,
+          "isCanonical": true
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "English Extension 11–12: Minor amendment – Assessment page updates",
+          "slug": [
+            "resources",
+            "record-of-changes",
+            "21-08-26-english-extension-11-12"
+          ],
+          "navigationItem": {
+            "codename": "english_extension_11_12___21_08_26_roc",
+            "id": "2e7a81ed-04d4-481f-89ee-f8e1f3e1e47e",
+            "lastModified": "2026-08-21T02:25:58.0243902Z",
+            "name": "English Extension 11–12 - 21/08/26 - ROC",
             "type": "releasenote_syllabus"
           },
           "excludeInSitemap": false,
@@ -4469,6 +4562,44 @@
       },
       {
         "params": {
+          "pageTitle": "Multiple syllabuses: Minor amendment – glossary definitions",
+          "slug": [
+            "resources",
+            "record-of-changes",
+            "21-08-26-multiple-syllabuses"
+          ],
+          "navigationItem": {
+            "codename": "multiple___21_08_26___roc",
+            "id": "4ab19b42-92cb-4b5c-838f-f2671c9e83c9",
+            "lastModified": "2026-08-20T02:31:04.814493Z",
+            "name": "Multiple - 21/08/26 - ROC",
+            "type": "releasenote_syllabus_multiple"
+          },
+          "excludeInSitemap": false,
+          "isCanonical": true
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "Multiple syllabuses: Minor amendment – name update of Assessment pages",
+          "slug": [
+            "resources",
+            "record-of-changes",
+            "21-08-26-multiple-syllabuses"
+          ],
+          "navigationItem": {
+            "codename": "multiple___21_08_26___roc_6f57523",
+            "id": "6f575239-1eb2-483b-876b-40690901f7d3",
+            "lastModified": "2026-08-21T01:13:02.8501908Z",
+            "name": "Multiple - 21/08/26 - ROC",
+            "type": "releasenote_syllabus_multiple"
+          },
+          "excludeInSitemap": false,
+          "isCanonical": true
+        }
+      },
+      {
+        "params": {
           "pageTitle": "Multiple syllabuses: Updates to Course requirements",
           "slug": [
             "resources",
@@ -5715,6 +5846,25 @@
             "id": "52ab72bf-efa4-4cb7-8fcb-f5b5e01bcaeb",
             "lastModified": "2025-10-31T01:42:04.6979674Z",
             "name": "General website updates: ‘View side-by-side' feature added",
+            "type": "releasenote_general"
+          },
+          "excludeInSitemap": false,
+          "isCanonical": true
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "General website updates: HSC English prescriptions now available in Year 12 focus areas and an interactive selection tool",
+          "slug": [
+            "resources",
+            "record-of-changes",
+            "general-website-updates-hsc-english-prescriptions-now-available-in-year-12-focus-areas-and-an-interactive-selection-tool"
+          ],
+          "navigationItem": {
+            "codename": "general_website_updates__hsc_english_prescriptions",
+            "id": "ea71eb28-1cc8-475a-a869-3e35c76ff11e",
+            "lastModified": "2026-08-19T22:45:05.6318029Z",
+            "name": "General website updates: HSC English prescriptions now available in Year 12 focus areas and an interactive selection tool",
             "type": "releasenote_general"
           },
           "excludeInSitemap": false,
@@ -10304,7 +10454,7 @@
           "navigationItem": {
             "codename": "n2_2_submitting_hsc_school_based_assessment_marks_",
             "id": "09d5875d-f916-4aec-b2bb-9ee3e1b5c25f",
-            "lastModified": "2025-12-18T23:55:47.6539912Z",
+            "lastModified": "2026-07-26T10:20:53.6311683Z",
             "name": "2.2 Submitting HSC school-based assessment marks to NESA",
             "type": "ace_rule"
           },
@@ -10342,7 +10492,7 @@
           "navigationItem": {
             "codename": "n2_2_grouping_students_for_hsc_school_based_assess",
             "id": "f658d533-36ea-43aa-80e5-0e3cd740cf3e",
-            "lastModified": "2025-12-18T23:55:47.4485869Z",
+            "lastModified": "2026-07-26T10:27:44.963215Z",
             "name": "2.2 Grouping students for HSC school-based assessment",
             "type": "ace_ruleitem"
           },
@@ -10361,7 +10511,7 @@
           "navigationItem": {
             "codename": "n2_2_hsc_board_developed_courses",
             "id": "2390b7f0-88dd-4dca-b0fa-53627f174072",
-            "lastModified": "2025-09-26T01:15:19.950315Z",
+            "lastModified": "2026-07-26T10:34:58.134664Z",
             "name": "2.2 HSC Board Developed courses",
             "type": "ace_ruleitem"
           },
@@ -10380,7 +10530,7 @@
           "navigationItem": {
             "codename": "n2_2_hsc_board_endorsed_courses",
             "id": "10456da4-87b6-4be0-b3cb-a14e6f4da26b",
-            "lastModified": "2025-09-26T01:15:20.0086516Z",
+            "lastModified": "2026-07-26T10:37:49.0329466Z",
             "name": "2.2 HSC Board Endorsed courses",
             "type": "ace_ruleitem"
           },
@@ -10399,7 +10549,7 @@
           "navigationItem": {
             "codename": "n2_2_hsc_optional_exams",
             "id": "dbcd98df-6a6f-4090-b91a-c0c4a5903f7c",
-            "lastModified": "2025-09-26T01:15:20.0536168Z",
+            "lastModified": "2026-07-26T11:00:35.471105Z",
             "name": "2.2 HSC optional exams",
             "type": "ace_ruleitem"
           },
@@ -10456,7 +10606,7 @@
           "navigationItem": {
             "codename": "n2_2_issuing_rank_order_notices",
             "id": "430094c8-29a7-4b3e-91c4-b2a717c807a2",
-            "lastModified": "2025-12-18T23:55:47.5446833Z",
+            "lastModified": "2026-07-26T11:09:50.5669855Z",
             "name": "2.2 Issuing rank order notices",
             "type": "ace_rule"
           },
@@ -10494,7 +10644,7 @@
           "navigationItem": {
             "codename": "n2_2_certifying_hsc_results_data",
             "id": "db4ff9e7-7702-4e09-a237-800e5b4e50b7",
-            "lastModified": "2023-09-11T07:51:04.0760333Z",
+            "lastModified": "2026-07-26T11:11:23.6595324Z",
             "name": "2.2 Certifying HSC results data",
             "type": "ace_rule"
           },
@@ -10532,7 +10682,7 @@
           "navigationItem": {
             "codename": "n2_2_requesting_a_review_of_rank_order_placement_i",
             "id": "2868fa22-028d-49d8-9fde-b380e41a1384",
-            "lastModified": "2024-08-21T00:35:12.7824855Z",
+            "lastModified": "2026-07-26T11:13:41.6609714Z",
             "name": "2.2 Requesting a review of rank order placement in an HSC course",
             "type": "ace_rule"
           },
@@ -10589,7 +10739,7 @@
           "navigationItem": {
             "codename": "n2_2_appealing_stage_6_grades",
             "id": "d8c8e904-ca56-405b-95d3-e75b1b65d848",
-            "lastModified": "2024-08-21T00:36:03.0092276Z",
+            "lastModified": "2026-07-26T11:16:09.5315485Z",
             "name": "2.2 Appealing Stage 6 grades",
             "type": "ace_rule"
           },
@@ -10627,7 +10777,7 @@
           "navigationItem": {
             "codename": "n2_2_appealing_final_stage_6_grades_to_nesa",
             "id": "42d68ca5-7f30-4104-9fa8-8cc266636622",
-            "lastModified": "2025-09-26T01:15:22.4504373Z",
+            "lastModified": "2026-07-26T11:15:17.1861596Z",
             "name": "2.2 Appealing final Stage 6 grades to NESA",
             "type": "ace_ruleitem"
           },
@@ -10646,7 +10796,7 @@
           "navigationItem": {
             "codename": "s5_grades",
             "id": "010729a0-b62f-454c-8254-0ae3db8a8d4a",
-            "lastModified": "2025-09-26T01:15:17.4064275Z",
+            "lastModified": "2026-07-26T11:17:54.0645157Z",
             "name": "2.3 Allocating and submitting Stage 5 grades",
             "type": "ace_subgroup"
           },
@@ -10665,7 +10815,7 @@
           "navigationItem": {
             "codename": "n2_3_submitting_grades_to_nesa",
             "id": "821b05c6-a513-4d6a-8e2b-7fef39166ab0",
-            "lastModified": "2025-09-26T01:15:19.0385907Z",
+            "lastModified": "2026-07-26T11:28:10.4903375Z",
             "name": "2.3 Submitting grades to NESA (Stage 5 grades)",
             "type": "ace_rule"
           },
@@ -10684,7 +10834,7 @@
           "navigationItem": {
             "codename": "n2_3_stage_5_courses",
             "id": "8f4c4625-b5e6-4626-af39-69e89bdbe6b2",
-            "lastModified": "2025-09-26T01:15:20.4459262Z",
+            "lastModified": "2026-07-26T11:20:05.9164856Z",
             "name": "2.3 Stage 5 courses",
             "type": "ace_ruleitem"
           },
@@ -10722,7 +10872,7 @@
           "navigationItem": {
             "codename": "n2_4_selecting_and_retaining_student_work_samples_",
             "id": "05d2a508-27ca-4c04-a0dc-1d51f3517e5d",
-            "lastModified": "2025-04-07T23:21:44.3437845Z",
+            "lastModified": "2026-07-26T11:35:44.0760824Z",
             "name": "2.4 Selecting and retaining student work samples and corresponding assessment activities",
             "type": "ace_rule"
           },
@@ -10741,7 +10891,7 @@
           "navigationItem": {
             "codename": "n2_4_retaining_work_samples",
             "id": "09471029-41da-4296-9c06-b104f42e95f2",
-            "lastModified": "2025-09-26T01:15:20.5060957Z",
+            "lastModified": "2026-07-26T11:34:51.6731105Z",
             "name": "2.4 Retaining work samples",
             "type": "ace_ruleitem"
           },
@@ -10760,7 +10910,7 @@
           "navigationItem": {
             "codename": "n2_4_retaining_student_work_samples_and_correspond",
             "id": "308d3d08-8c6e-4eec-90ba-2d7b780a1c86",
-            "lastModified": "2023-09-27T11:16:00.1712719Z",
+            "lastModified": "2026-07-26T11:36:50.8452653Z",
             "name": "2.4 Retaining student work samples and corresponding assessment activities for Stage 5 and Stage 6",
             "type": "ace_rule"
           },
@@ -10798,7 +10948,7 @@
           "navigationItem": {
             "codename": "n2_4_stage_6",
             "id": "249a83eb-321f-4178-9a3a-758e1b8be7d3",
-            "lastModified": "2025-12-18T23:55:47.7066646Z",
+            "lastModified": "2026-07-26T11:37:46.7268907Z",
             "name": "2.4 Stage 6",
             "type": "ace_ruleitem"
           },
@@ -10817,7 +10967,7 @@
           "navigationItem": {
             "codename": "hsc_practicals",
             "id": "fae8a8ed-e8b4-430c-a06e-52c7d34056c3",
-            "lastModified": "2025-09-26T01:15:17.4434442Z",
+            "lastModified": "2026-07-26T11:53:46.0471994Z",
             "name": "2.5 HSC practical exams",
             "type": "ace_subgroup"
           },
@@ -10836,7 +10986,7 @@
           "navigationItem": {
             "codename": "n2_5_developing_hsc_practical_exams_safely",
             "id": "6978c841-b2c3-4dec-9532-da5a3a069fcb",
-            "lastModified": "2025-09-08T17:58:38.7856957Z",
+            "lastModified": "2026-07-26T11:49:11.1876726Z",
             "name": "2.5 Developing HSC practical exams",
             "type": "ace_rule"
           },
@@ -10855,7 +11005,7 @@
           "navigationItem": {
             "codename": "n2_5_developing_hsc_practical_exams_safety",
             "id": "42cbd791-5953-4fc9-aaf1-a2379c8b5c4a",
-            "lastModified": "2024-08-21T00:35:53.7859755Z",
+            "lastModified": "2026-07-26T11:47:53.5997104Z",
             "name": "2.5 Developing HSC practical exams",
             "type": "ace_ruleitem"
           },
@@ -10912,7 +11062,7 @@
           "navigationItem": {
             "codename": "n2_5_certifying_and_submitting_hsc_projects__submi",
             "id": "f6ec7e1f-0d95-48fe-a94f-54663aea914c",
-            "lastModified": "2023-10-02T06:35:17.9810847Z",
+            "lastModified": "2026-07-26T12:03:05.1868868Z",
             "name": "2.5 Certifying and submitting HSC projects, submitted works and performances",
             "type": "ace_rule"
           },
@@ -10931,7 +11081,7 @@
           "navigationItem": {
             "codename": "n2_5_health_and_safety_requirements",
             "id": "694b7ae8-b407-4b3f-945c-16de64f95679",
-            "lastModified": "2024-11-18T01:35:09.8463328Z",
+            "lastModified": "2026-07-26T11:54:11.8391415Z",
             "name": "2.5 Certifying and submitting HSC projects, submitted works and performances",
             "type": "ace_ruleitem"
           },
@@ -10969,7 +11119,7 @@
           "navigationItem": {
             "codename": "n2_5_submitting_hsc_projects__submitted_works_and_",
             "id": "d1afae64-b1b6-44ee-866c-f31b21c422c7",
-            "lastModified": "2023-09-04T10:45:31.0741257Z",
+            "lastModified": "2026-07-26T11:58:28.105261Z",
             "name": "2.5 Submitting HSC projects, submitted works and performances",
             "type": "ace_ruleitem"
           },
@@ -11045,7 +11195,7 @@
           "navigationItem": {
             "codename": "n2_6_hsc_results_check_for_students",
             "id": "1d4e39f1-2a86-4252-9777-8f0ce56005f2",
-            "lastModified": "2024-08-12T23:22:16.2741441Z",
+            "lastModified": "2026-07-26T12:28:03.9225124Z",
             "name": "2.6 HSC Results Check for students",
             "type": "ace_ruleitem"
           },
@@ -11101,7 +11251,7 @@
           "navigationItem": {
             "codename": "n3_1_starting_preliminary_courses",
             "id": "420d9fa4-d910-45b2-9413-bac5295f18ee",
-            "lastModified": "2023-09-07T03:44:54.4650474Z",
+            "lastModified": "2026-07-26T12:36:10.0106747Z",
             "name": "3.1 Starting Preliminary courses",
             "type": "ace_rule"
           },
@@ -11120,7 +11270,7 @@
           "navigationItem": {
             "codename": "n3_1_starting_preliminary_courses_5259f76",
             "id": "5259f76c-9277-4e4a-a5c9-9e55aed18d17",
-            "lastModified": "2024-08-21T00:35:55.2583091Z",
+            "lastModified": "2026-07-26T12:36:58.4476551Z",
             "name": "3.1 Starting Preliminary courses",
             "type": "ace_ruleitem"
           },
@@ -11139,7 +11289,7 @@
           "navigationItem": {
             "codename": "n3_1_starting_hsc_courses",
             "id": "6892b61d-e370-4072-9cf7-39b066967d09",
-            "lastModified": "2023-09-11T08:13:55.2239726Z",
+            "lastModified": "2026-07-26T12:49:23.1379435Z",
             "name": "3.1 Starting HSC courses",
             "type": "ace_rule"
           },
@@ -11158,7 +11308,7 @@
           "navigationItem": {
             "codename": "n3_1_starting_hsc_courses_38158e3",
             "id": "38158e30-4b5c-4246-ad40-ba140cb951d3",
-            "lastModified": "2024-08-21T00:35:55.3492631Z",
+            "lastModified": "2026-07-26T12:49:42.0703417Z",
             "name": "3.1 Starting HSC courses",
             "type": "ace_ruleitem"
           },
@@ -11329,7 +11479,7 @@
           "navigationItem": {
             "codename": "n3_3_requirements_for_entry_into_the_hsc_english_a_7a19c24",
             "id": "7a19c241-e7e3-4126-b26e-93557d290f10",
-            "lastModified": "2024-10-25T05:13:04.2379485Z",
+            "lastModified": "2026-07-26T12:51:57.6082267Z",
             "name": "3.2 Requirements for entry into the Stage 6 English as an Additional Language or Dialect (English EAL/D)",
             "type": "ace_ruleitem"
           },
@@ -11348,7 +11498,7 @@
           "navigationItem": {
             "codename": "n3_2_eligibility_requirements_for_entry_into_stage",
             "id": "e99b171b-cf42-4503-8949-6ab053fa89e4",
-            "lastModified": "2025-02-12T01:35:50.718502Z",
+            "lastModified": "2026-07-26T12:54:07.1825741Z",
             "name": "3.2 Eligibility requirements for entry into Stage 6 Languages courses",
             "type": "ace_rule"
           },
@@ -11367,7 +11517,7 @@
           "navigationItem": {
             "codename": "n3_2_stage_6_languages_courses_with_eligibility_cr",
             "id": "c746939d-cbf0-42c3-86fb-89b2741aaa8c",
-            "lastModified": "2023-09-27T12:01:22.0882201Z",
+            "lastModified": "2026-07-26T12:54:59.3234762Z",
             "name": "3.2 Stage 6 Languages courses with eligibility criteria",
             "type": "ace_ruleitem"
           },
@@ -11386,7 +11536,7 @@
           "navigationItem": {
             "codename": "n3_2_applying_for_an_eligibility_determination",
             "id": "e620ea79-da25-45b0-a5b8-290e3ee01074",
-            "lastModified": "2024-08-12T23:22:14.417393Z",
+            "lastModified": "2026-07-26T13:00:39.3302147Z",
             "name": "3.2 Applying for an eligibility determination",
             "type": "ace_ruleitem"
           },
@@ -11405,7 +11555,7 @@
           "navigationItem": {
             "codename": "n3_2_seeking_a_review_of_a_stage_6_languages_eligi",
             "id": "40b271a0-e08b-47fd-be31-fa7bdb4c7ba5",
-            "lastModified": "2024-08-12T23:22:14.4820262Z",
+            "lastModified": "2026-07-26T13:06:00.7790462Z",
             "name": "3.2 Seeking a review of a Stage 6 Languages eligibility determination",
             "type": "ace_ruleitem"
           },
@@ -11443,7 +11593,7 @@
           "navigationItem": {
             "codename": "n3_2_languages",
             "id": "0342e5d1-bac3-4823-b40d-f6f081cc76b9",
-            "lastModified": "2024-08-12T23:22:14.5436764Z",
+            "lastModified": "2026-07-26T13:07:42.4759634Z",
             "name": "3.2 Languages",
             "type": "ace_ruleitem"
           },
@@ -11462,7 +11612,7 @@
           "navigationItem": {
             "codename": "n3_2_hsie",
             "id": "454bcde7-ea7a-4529-ac66-b86909cce555",
-            "lastModified": "2024-08-12T23:22:14.6089814Z",
+            "lastModified": "2026-07-26T13:12:24.456984Z",
             "name": "3.2 HSIE",
             "type": "ace_ruleitem"
           },
@@ -11481,7 +11631,7 @@
           "navigationItem": {
             "codename": "n3_2_science",
             "id": "557baeae-5417-424e-917b-be84b7561a0e",
-            "lastModified": "2024-08-21T00:35:21.5108Z",
+            "lastModified": "2026-07-26T13:17:49.9094427Z",
             "name": "3.2 Science",
             "type": "ace_ruleitem"
           },
@@ -11500,7 +11650,7 @@
           "navigationItem": {
             "codename": "n3_2_english",
             "id": "eec75c3b-d0ae-4c2d-9ab2-9721e43224aa",
-            "lastModified": "2025-12-18T23:55:47.7604784Z",
+            "lastModified": "2026-07-26T13:28:12.068279Z",
             "name": "3.2 English",
             "type": "ace_ruleitem"
           },
@@ -11519,7 +11669,7 @@
           "navigationItem": {
             "codename": "n3_2_mathematics",
             "id": "0766db75-1645-4f6f-b8d8-810394c9772d",
-            "lastModified": "2025-12-18T23:55:47.3107707Z",
+            "lastModified": "2026-07-26T13:30:20.9161507Z",
             "name": "3.2 Mathematics",
             "type": "ace_ruleitem"
           },
@@ -11538,7 +11688,7 @@
           "navigationItem": {
             "codename": "n3_2_creative_arts",
             "id": "5863b296-93f4-4c69-af8f-1c7e328d5de2",
-            "lastModified": "2024-08-12T23:22:14.7975899Z",
+            "lastModified": "2026-07-26T13:34:10.6741597Z",
             "name": "3.2 Creative Arts",
             "type": "ace_ruleitem"
           },
@@ -11633,7 +11783,7 @@
           "navigationItem": {
             "codename": "n3_4_course_entries_for_stage_5",
             "id": "e52bb23b-bc7a-41f3-9efd-6af06a4c1e59",
-            "lastModified": "2025-12-18T23:55:47.0779513Z",
+            "lastModified": "2026-07-26T13:39:19.7038881Z",
             "name": "3.3 Course entries for Stage 5",
             "type": "ace_rule"
           },
@@ -11652,7 +11802,7 @@
           "navigationItem": {
             "codename": "n3_4_entering_students_into_stage_5_courses",
             "id": "34c4a0ec-4277-4aad-8620-a7e150a2d3eb",
-            "lastModified": "2025-12-18T23:55:46.6678574Z",
+            "lastModified": "2026-07-26T13:51:46.8464294Z",
             "name": "3.3 Entering students into Stage 5 courses",
             "type": "ace_ruleitem"
           },
@@ -11937,7 +12087,7 @@
           "navigationItem": {
             "codename": "n3_4_changing_hsc_courses",
             "id": "679b106d-99b3-431f-ab4d-6f8b9e7b08ca",
-            "lastModified": "2024-11-18T01:35:08.2189316Z",
+            "lastModified": "2026-07-26T13:57:20.4461008Z",
             "name": "3.3 Changing HSC courses",
             "type": "ace_ruleitem"
           },
@@ -11994,7 +12144,7 @@
           "navigationItem": {
             "codename": "n3_3_withdrawing_students_from_the_mathematics_ext",
             "id": "00370379-4790-46b8-853a-0776132052ca",
-            "lastModified": "2025-04-07T23:26:04.4970772Z",
+            "lastModified": "2026-07-26T14:05:48.1287045Z",
             "name": "3.3 Withdrawing students from the Mathematics Extension 2 course",
             "type": "ace_ruleitem"
           },
@@ -12013,7 +12163,7 @@
           "navigationItem": {
             "codename": "n3_3_withdrawing_students_from_optional_hsc_exams_",
             "id": "aa0d5c9c-4ab0-43eb-ad42-12548d2d0493",
-            "lastModified": "2025-05-09T07:42:01.9351741Z",
+            "lastModified": "2026-07-26T14:07:40.0071196Z",
             "name": "3.3 Withdrawing students from optional HSC exams for which they have been entered",
             "type": "ace_ruleitem"
           },
@@ -12032,7 +12182,7 @@
           "navigationItem": {
             "codename": "n3_4_course_exclusions",
             "id": "dd6068be-6189-4285-b378-769fb3c4512e",
-            "lastModified": "2025-05-09T07:42:02.0049184Z",
+            "lastModified": "2026-07-26T14:09:33.3032803Z",
             "name": "3.3 Course exclusions",
             "type": "ace_rule"
           },
@@ -12051,7 +12201,7 @@
           "navigationItem": {
             "codename": "n3_4_hsc_languages_courses",
             "id": "a3279bf3-c365-4258-aaf4-d12ca7ee2e47",
-            "lastModified": "2025-04-07T23:26:04.5501445Z",
+            "lastModified": "2026-07-26T14:10:54.7145128Z",
             "name": "3.3 HSC Languages courses",
             "type": "ace_ruleitem"
           },
@@ -12714,7 +12864,7 @@
           "navigationItem": {
             "codename": "curriculum_requirements",
             "id": "ce688e48-72d8-41e7-bc85-e0ad0422cbd9",
-            "lastModified": "2025-09-26T01:15:17.4818413Z",
+            "lastModified": "2026-07-26T14:14:37.0740353Z",
             "name": "5.1 Curriculum requirements",
             "type": "ace_subgroup"
           },
@@ -12733,7 +12883,7 @@
           "navigationItem": {
             "codename": "n5_1_meeting_mandatory_curriculum_requirements_for",
             "id": "20f2a9f8-16cc-4e4d-850b-2dea7b0a4675",
-            "lastModified": "2024-08-21T00:35:15.3585475Z",
+            "lastModified": "2026-07-26T14:24:12.7178659Z",
             "name": "5.1 Meeting mandatory curriculum requirements for the RoSA",
             "type": "ace_rule"
           },
@@ -12752,7 +12902,7 @@
           "navigationItem": {
             "codename": "n5_1_meeting_mandatory_curriculum_requirements_for_f001adc",
             "id": "f001adcf-2a32-4223-8418-ef43ad52cc8b",
-            "lastModified": "2025-12-18T23:55:47.400425Z",
+            "lastModified": "2026-07-26T14:17:58.9775262Z",
             "name": "5.1 Meeting mandatory curriculum requirements for the RoSA",
             "type": "ace_ruleitem"
           },
@@ -13585,7 +13735,7 @@
           "navigationItem": {
             "codename": "demonstrating_the_hsc_minimum_standard_ac1f4c6",
             "id": "ac1f4c69-5c22-43c2-bcbb-09c29f08c873",
-            "lastModified": "2025-09-26T01:15:16.8672682Z",
+            "lastModified": "2026-08-06T05:27:08.7503655Z",
             "name": "8.1 Demonstrating the HSC minimum standard before leaving school",
             "type": "ace_rule"
           },
@@ -13832,7 +13982,7 @@
           "navigationItem": {
             "codename": "post_school_leaver_entries_and_attempts",
             "id": "debcb2c3-c735-4a55-b656-b4a902a8dd20",
-            "lastModified": "2023-09-08T04:25:14.9943173Z",
+            "lastModified": "2026-07-26T14:38:14.8031535Z",
             "name": "8.2 Post-school leaver entries and attempts",
             "type": "ace_ruleitem"
           },
@@ -15032,6 +15182,22 @@
       {
         "params": {
           "slug": [
+            "resources",
+            "record-of-changes"
+          ],
+          "pageTitle": "Record of changes",
+          "navigationItem": {
+            "codename": "link__resources___record_of_changes",
+            "id": "beab64ad-6a78-4135-8581-74d7415f8b19",
+            "type": "weblinkint"
+          },
+          "excludeInSitemap": true,
+          "additional": ""
+        }
+      },
+      {
+        "params": {
+          "slug": [
             "use-the-curriculum",
             "learn-about-nsw-curriculum",
             "explore-7-12-course-types",
@@ -15194,6 +15360,22 @@
           "navigationItem": {
             "codename": "primary_stage_group",
             "id": "bd691295-a1c5-4951-bf94-744fa9d28b4e",
+            "type": "weblinkint"
+          },
+          "excludeInSitemap": true,
+          "additional": ""
+        }
+      },
+      {
+        "params": {
+          "slug": [
+            "resources",
+            "hsc-english-prescriptions"
+          ],
+          "pageTitle": "HSC English prescriptions",
+          "navigationItem": {
+            "codename": "resources___hsc_english_text_prescriptions",
+            "id": "4047d8ea-0411-4797-b28a-500a829e27e1",
             "type": "weblinkint"
           },
           "excludeInSitemap": true,
@@ -15934,6 +16116,66 @@
       },
       {
         "params": {
+          "pageTitle": "English Advanced 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-advanced-11-12-2024"
+          ],
+          "navigationItem": {
+            "codename": "english_advanced_11_12__2024__630e906",
+            "id": "630e9063-8094-48b7-9706-cd880bbe3209",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_advanced_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/overview"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "English Advanced 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-advanced-11-12-2024"
+          ],
+          "navigationItem": {
+            "codename": "english_advanced_11_12__syllabus",
+            "id": "c23e6332-7b40-438b-a40c-d860487c86bf",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_advanced_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/course-description"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "English EAL/D 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-eald-11-12-2024"
+          ],
+          "navigationItem": {
+            "codename": "english_eal_d_11_12__2024__35fbd75",
+            "id": "35fbd754-3d7c-4032-90c7-46cce3b26034",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_eald_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/overview"
+        }
+      },
+      {
+        "params": {
           "pageTitle": "English EAL/D 11–12 (2024)",
           "slug": [
             "learning-areas",
@@ -15954,6 +16196,46 @@
       },
       {
         "params": {
+          "pageTitle": "English EAL/D 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-eald-11-12-2024"
+          ],
+          "navigationItem": {
+            "codename": "english_eal_d_11_12__syllabus_20b962f",
+            "id": "20b962f9-46b8-4a1f-9a08-b22d1942e463",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_eald_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/course-description"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "English Extension 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-extension-11-12-2024"
+          ],
+          "navigationItem": {
+            "codename": "english_extension_11_12__2024____overview",
+            "id": "0e5afddb-90fb-451d-bfa3-76c9a040f745",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_extension_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/overview"
+        }
+      },
+      {
+        "params": {
           "pageTitle": "English Extension 11–12 (2024)",
           "slug": [
             "learning-areas",
@@ -15963,6 +16245,26 @@
           "navigationItem": {
             "codename": "english_extension_11_12__syllabus",
             "id": "63a7bba1-a754-4c9f-944e-e69127e1f5a3",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_extension_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/course-description"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "English Extension 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-extension-11-12-2024"
+          ],
+          "navigationItem": {
+            "codename": "english_extension_11_12__syllabus_e6c180a",
+            "id": "e6c180a7-3a29-43d4-b7d0-13cf429ae139",
             "type": "web_link_syllabus"
           },
           "excludeInSitemap": true,
@@ -16021,8 +16323,48 @@
             "english-standard-11-12-2024"
           ],
           "navigationItem": {
+            "codename": "english_standard_11_12__2024__5f889c3",
+            "id": "5f889c39-c52d-4716-ba88-0599cb8e4e84",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_standard_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/overview"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "English Standard 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-standard-11-12-2024"
+          ],
+          "navigationItem": {
             "codename": "english_standard_11_12__syllabus",
             "id": "80289f3e-398c-40c0-952c-35f7efbed7ac",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_standard_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/course-description"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "English Standard 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-standard-11-12-2024"
+          ],
+          "navigationItem": {
+            "codename": "english_standard_11_12__syllabus_a17b1fb",
+            "id": "a17b1fb1-6345-4ee0-96f6-36617b210ce3",
             "type": "web_link_syllabus"
           },
           "excludeInSitemap": true,
@@ -16041,8 +16383,48 @@
             "english-studies-11-12-2024"
           ],
           "navigationItem": {
+            "codename": "english_studies_11_12__2024____overview",
+            "id": "64f9a47f-11c0-4dd2-ab9a-6c0137cdeec2",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_studies_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/overview"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "English Studies 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-studies-11-12-2024"
+          ],
+          "navigationItem": {
             "codename": "english_studies_11_12__syllabus",
             "id": "5b718685-22e3-4798-8cad-7ad48cd984ef",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_studies_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/course-description"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "English Studies 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-studies-11-12-2024"
+          ],
+          "navigationItem": {
+            "codename": "english_studies_11_12__syllabus_b428a45",
+            "id": "b428a45e-2c1f-4f24-a408-c5ca1a1b8b47",
             "type": "web_link_syllabus"
           },
           "excludeInSitemap": true,
@@ -16154,6 +16536,18 @@
       },
       {
         "params": {
+          "slug": [],
+          "navigationItem": {
+            "codename": "industrial_technology_life_skills_11_12__course_de",
+            "id": "f8269de8-07dd-4b60-9cb7-c7dac98af81d",
+            "type": "web_link_syllabus"
+          },
+          "additional": "/course-description",
+          "excludeInSitemap": true
+        }
+      },
+      {
+        "params": {
           "pageTitle": "Aboriginal Languages K–10 (2022)",
           "slug": [
             "learning-areas",
@@ -16170,6 +16564,26 @@
           "isCanonical": true,
           "kla_default": "languages",
           "additional": "/overview"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "Agriculture Life Skills 11–12 (2026)",
+          "slug": [
+            "learning-areas",
+            "tas",
+            "agriculture-life-skills-11-12-2026"
+          ],
+          "navigationItem": {
+            "codename": "link__agriculture_life_skills_11_12__course_descri",
+            "id": "44929076-c755-4809-8449-7d624a8688b0",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "agriculture_life_skills_11_12_2026",
+          "isCanonical": true,
+          "kla_default": "tas",
+          "additional": "/course-description"
         }
       },
       {
@@ -16210,6 +16624,42 @@
           "isCanonical": true,
           "kla_default": "science",
           "additional": "/course-description"
+        }
+      },
+      {
+        "params": {
+          "slug": [],
+          "navigationItem": {
+            "codename": "link__business_and_economics_life_skills_11_12__co",
+            "id": "025fa319-0ef0-421a-a720-67f684dd8bc5",
+            "type": "web_link_syllabus"
+          },
+          "additional": "/course-description",
+          "excludeInSitemap": true
+        }
+      },
+      {
+        "params": {
+          "slug": [],
+          "navigationItem": {
+            "codename": "link__business_studies_11_12__course_description__",
+            "id": "17a63af3-5288-46e9-8475-f6594ae348c5",
+            "type": "web_link_syllabus"
+          },
+          "additional": "/course-description",
+          "excludeInSitemap": true
+        }
+      },
+      {
+        "params": {
+          "slug": [],
+          "navigationItem": {
+            "codename": "link__business_studies_11_12__course_description___52b45dc",
+            "id": "52b45dc6-5b1a-4946-ae3f-996df4fca306",
+            "type": "web_link_syllabus"
+          },
+          "additional": "/course-description",
+          "excludeInSitemap": true
         }
       },
       {
@@ -16541,8 +16991,48 @@
             "english-extension-11-12-2024"
           ],
           "navigationItem": {
+            "codename": "link__english_extension_11_12___assessment___hsc_e",
+            "id": "2d96c148-6036-4d82-b526-87fcc9e61075",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_extension_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/assessment"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "English Extension 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-extension-11-12-2024"
+          ],
+          "navigationItem": {
             "codename": "link__english_extension_11_12___assessment___major",
             "id": "9b4cac38-d616-44e2-b6ea-1839a61e7035",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_extension_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/assessment"
+        }
+      },
+      {
+        "params": {
+          "pageTitle": "English Extension 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-extension-11-12-2024"
+          ],
+          "navigationItem": {
+            "codename": "link__english_extension_11_12___assessment___major_5b758eb",
+            "id": "5b758eb4-c526-4a17-b6ff-c3fb8ba99408",
             "type": "web_link_syllabus"
           },
           "excludeInSitemap": true,
@@ -17114,6 +17604,18 @@
       },
       {
         "params": {
+          "slug": [],
+          "navigationItem": {
+            "codename": "link__visual_arts_11_12__course_description___abor",
+            "id": "76c502a9-1209-4dc4-88e5-9a5b29582c97",
+            "type": "web_link_syllabus"
+          },
+          "additional": "/course-description",
+          "excludeInSitemap": true
+        }
+      },
+      {
+        "params": {
           "pageTitle": "Visual Design Stage 6 (CEC) (2000)",
           "slug": [
             "learning-areas",
@@ -17374,6 +17876,26 @@
       },
       {
         "params": {
+          "pageTitle": "English Extension 11–12 (2024)",
+          "slug": [
+            "learning-areas",
+            "english",
+            "english-extension-11-12-2024"
+          ],
+          "navigationItem": {
+            "codename": "sbs_link__english_extension_11_12__course_descript",
+            "id": "2666d4da-79ec-4ede-9086-3bad609a0d8d",
+            "type": "web_link_syllabus"
+          },
+          "excludeInSitemap": true,
+          "taxoSyllabus": "english_extension_11_12_2024",
+          "isCanonical": true,
+          "kla_default": "english",
+          "additional": "/course-description"
+        }
+      },
+      {
+        "params": {
           "pageTitle": "Science 7–10 (2023)",
           "slug": [
             "learning-areas",
@@ -17390,6 +17912,18 @@
           "isCanonical": true,
           "kla_default": "science",
           "additional": "/teaching-and-learning"
+        }
+      },
+      {
+        "params": {
+          "slug": [],
+          "navigationItem": {
+            "codename": "society_and_culture_11_12__teaching_and_learning_t",
+            "id": "972ca3a8-62c2-4489-b8fd-28a240719db1",
+            "type": "web_link_syllabus"
+          },
+          "additional": "/teaching-and-learning",
+          "excludeInSitemap": true
         }
       },
       {
@@ -17570,6 +18104,42 @@
           "isCanonical": true,
           "kla_default": "creative_arts",
           "additional": "/teaching-and-learning"
+        }
+      },
+      {
+        "params": {
+          "slug": [],
+          "navigationItem": {
+            "codename": "visual_arts_life_skills_11_12__course_description_",
+            "id": "20bd2616-f93d-477a-87e1-ce7e5c4c191d",
+            "type": "web_link_syllabus"
+          },
+          "additional": "/course-description",
+          "excludeInSitemap": true
+        }
+      },
+      {
+        "params": {
+          "slug": [],
+          "navigationItem": {
+            "codename": "visual_arts_life_skills_11_12__course_description__29887be",
+            "id": "29887be9-8652-41f1-b151-6fbc2da64d02",
+            "type": "web_link_syllabus"
+          },
+          "additional": "/course-description",
+          "excludeInSitemap": true
+        }
+      },
+      {
+        "params": {
+          "slug": [],
+          "navigationItem": {
+            "codename": "visual_arts_life_skills_11_12__course_description__b1ba7f7",
+            "id": "b1ba7f75-bb88-4519-8d5c-08a0363bd514",
+            "type": "web_link_syllabus"
+          },
+          "additional": "/course-description",
+          "excludeInSitemap": true
         }
       },
       {
@@ -18262,6 +18832,21 @@
           },
           "excludeInSitemap": true,
           "isCanonical": true
+        }
+      },
+      {
+        "params": {
+          "slug": [
+            "resources",
+            "hsc-english-prescriptions"
+          ],
+          "pageTitle": "HSC English prescriptions",
+          "navigationItem": {
+            "codename": "hsc_english_text_prescription",
+            "id": "483bbf75-bd70-49a5-9d75-a92393c09464",
+            "type": "ui_menu"
+          },
+          "excludeInSitemap": true
         }
       },
       {
@@ -19257,14 +19842,6 @@
               "type": "text",
               "value": ""
             },
-            "global_alert": {
-              "name": "💠 Global notification",
-              "type": "modular_content",
-              "value": [
-                "default_global_alert"
-              ],
-              "linkedItems": []
-            },
             "global_info": {
               "name": "💠 Global announcement - top",
               "type": "modular_content",
@@ -19291,7 +19868,7 @@
             "collection": "text_prescriptions__july_tbc_",
             "id": "afd2e94d-fa6d-4f57-937a-295d65bd6e8f",
             "language": "default",
-            "lastModified": "2026-06-24T04:12:52.2285716Z",
+            "lastModified": "2026-08-20T06:03:02.8850296Z",
             "name": "🌏 Home",
             "sitemapLocations": [],
             "type": "wp_homepage",
@@ -20255,65 +20832,6 @@
               "workflowStep": "published"
             }
           },
-          "default_global_alert": {
-            "elements": {
-              "content": {
-                "images": [],
-                "linkedItemCodenames": [],
-                "linkedItems": [],
-                "links": [],
-                "name": "📜 Content",
-                "type": "rich_text",
-                "value": "<p>NESA is encouraging feedback to improve functionality and develop new features for the Digital Curriculum platform.</p>"
-              },
-              "intro": {
-                "name": "📜 Intro",
-                "type": "text",
-                "value": "Welcome to the NSW Curriculum website"
-              },
-              "btn_primary_text": {
-                "name": "📜 Button Primary - Text",
-                "type": "text",
-                "value": "Give us your feedback"
-              },
-              "btn_primary_url": {
-                "name": "🔗 Button Primary - Url",
-                "type": "text",
-                "value": "mailto:curriculum@nesa.nsw.edu.au?subject=Feedback on NSW Curriculum website"
-              },
-              "btn_secondary_text": {
-                "name": "📜 Button Secondary - Text",
-                "type": "text",
-                "value": "Go to the NESA website"
-              },
-              "btn_secondary_url": {
-                "name": "🔗 Button Secondary - Url",
-                "type": "text",
-                "value": "https://www.nsw.gov.au/education-and-training/nesa"
-              },
-              "type": {
-                "name": "⚙️ Type",
-                "type": "multiple_choice",
-                "value": [
-                  {
-                    "name": "Information",
-                    "codename": "information"
-                  }
-                ]
-              }
-            },
-            "system": {
-              "codename": "default_global_alert",
-              "collection": "default",
-              "id": "ee2b5f16-b103-424b-9374-f0ff96a25121",
-              "language": "default",
-              "lastModified": "2025-12-15T00:20:05.089855Z",
-              "name": "Default global alert",
-              "sitemapLocations": [],
-              "type": "ui_globalalert",
-              "workflowStep": "published"
-            }
-          },
           "diversity_of_learners___main_nav": {
             "elements": {
               "title": {
@@ -20829,6 +21347,50 @@
               "name": "🌐 Glossary",
               "sitemapLocations": [],
               "type": "wp_glossary",
+              "workflowStep": "published"
+            }
+          },
+          "hsc_english_text_prescription": {
+            "elements": {
+              "title": {
+                "name": "📜 Title",
+                "type": "text",
+                "value": "HSC English prescriptions"
+              },
+              "subtitle": {
+                "name": "📜 Sub Title",
+                "type": "text",
+                "value": ""
+              },
+              "item": {
+                "name": "🔗 Item",
+                "type": "modular_content",
+                "value": [
+                  "prescription_tools"
+                ],
+                "linkedItems": []
+              },
+              "subitems": {
+                "name": "📂 Subitems",
+                "type": "modular_content",
+                "value": [],
+                "linkedItems": []
+              },
+              "titlelong": {
+                "name": "📜 Title Long",
+                "type": "text",
+                "value": ""
+              }
+            },
+            "system": {
+              "codename": "hsc_english_text_prescription",
+              "collection": "text_prescriptions__july_tbc_",
+              "id": "483bbf75-bd70-49a5-9d75-a92393c09464",
+              "language": "default",
+              "lastModified": "2026-07-07T00:14:23.8126848Z",
+              "name": "HSC English prescriptions",
+              "sitemapLocations": [],
+              "type": "ui_menu",
               "workflowStep": "published"
             }
           },
@@ -21610,6 +22172,31 @@
               "workflowStep": "published"
             }
           },
+          "prescription_tools": {
+            "elements": {
+              "title": {
+                "name": "📜 Title",
+                "type": "text",
+                "value": "HSC English prescriptions"
+              },
+              "slug": {
+                "name": "Slug",
+                "type": "url_slug",
+                "value": "hsc-english-prescriptions"
+              }
+            },
+            "system": {
+              "codename": "prescription_tools",
+              "collection": "text_prescriptions__july_tbc_",
+              "id": "989b81ea-3d13-46ff-bce5-a927a9cdd43a",
+              "language": "default",
+              "lastModified": "2026-08-18T02:56:17.6978269Z",
+              "name": "🌐 HSC English prescriptions",
+              "sitemapLocations": [],
+              "type": "web_page_prescriptions_tools",
+              "workflowStep": "published"
+            }
+          },
           "primary__k_6__5b162dd": {
             "elements": {
               "title": {
@@ -21833,7 +22420,7 @@
               "collection": "text_prescriptions__july_tbc_",
               "id": "48920788-a3c3-4de4-a670-ad3f85ceb9e1",
               "language": "default",
-              "lastModified": "2026-06-24T04:04:30.3346919Z",
+              "lastModified": "2026-06-24T04:04:44.0984044Z",
               "name": "📂 Resources",
               "sitemapLocations": [],
               "type": "web_page",
@@ -21871,7 +22458,8 @@
                   "professional_learning_courses",
                   "record_of_changes_13376f8",
                   "using_the_side_by_side_view",
-                  "custom_download"
+                  "custom_download",
+                  "hsc_english_text_prescription"
                 ],
                 "linkedItems": []
               },
@@ -21886,7 +22474,7 @@
               "collection": "text_prescriptions__july_tbc_",
               "id": "04c4d817-a335-4972-a734-0934a7de571d",
               "language": "default",
-              "lastModified": "2026-06-24T04:13:01.6977969Z",
+              "lastModified": "2026-06-24T04:13:38.2892158Z",
               "name": "Resources - Main nav",
               "sitemapLocations": [],
               "type": "ui_menu",
@@ -23373,6 +23961,224 @@
               "title": {
                 "name": "📜 Title",
                 "type": "text",
+                "value": "Agriculture 11–12"
+              },
+              "key_learning_area__items": {
+                "name": "Key Learning Area",
+                "type": "taxonomy",
+                "value": [
+                  {
+                    "name": "Technological and Applied Studies",
+                    "codename": "tas"
+                  }
+                ],
+                "taxonomyGroup": "key_learning_area"
+              },
+              "key_learning_area_default": {
+                "name": "🏷️ Canonical Key Learning Area",
+                "type": "taxonomy",
+                "value": [
+                  {
+                    "name": "Technological and Applied Studies",
+                    "codename": "tas"
+                  }
+                ],
+                "taxonomyGroup": "key_learning_area"
+              },
+              "syllabus": {
+                "name": "🏷️ Syllabus",
+                "type": "taxonomy",
+                "value": [
+                  {
+                    "name": "Agriculture 11–12 (2026)",
+                    "codename": "agriculture_11_12_2026"
+                  }
+                ],
+                "taxonomyGroup": "syllabus"
+              },
+              "doredirect": {
+                "name": "🔗 Is redirect syllabus",
+                "type": "multiple_choice",
+                "value": [
+                  {
+                    "name": "No",
+                    "codename": "no"
+                  }
+                ]
+              },
+              "allowpreview": {
+                "name": "⚒️ Allow staging view",
+                "type": "multiple_choice",
+                "value": [
+                  {
+                    "name": "Yes",
+                    "codename": "yes"
+                  }
+                ]
+              },
+              "languages": {
+                "name": "🏷️ Languages",
+                "type": "taxonomy",
+                "value": [],
+                "taxonomyGroup": "language"
+              },
+              "syllabus_content_model": {
+                "name": "⚙️ Syllabus Content Model",
+                "type": "multiple_choice",
+                "value": [
+                  {
+                    "name": "Standard",
+                    "codename": "reformed"
+                  }
+                ]
+              },
+              "publication_year": {
+                "name": "📅 Publication year",
+                "type": "text",
+                "value": "2026"
+              },
+              "has_examples_in": {
+                "name": "🏷️ Enable Examples in Stage/Year",
+                "type": "taxonomy",
+                "value": [
+                  {
+                    "name": "Year 11",
+                    "codename": "n11"
+                  }
+                ],
+                "taxonomyGroup": "content_accordion"
+              }
+            },
+            "system": {
+              "codename": "agriculture_11_12_2026",
+              "collection": "syl_agriculture_11_12",
+              "id": "ddba32b1-74ed-4179-8413-1149e4b8aa3c",
+              "language": "default",
+              "lastModified": "2026-08-25T23:31:36.9357494Z",
+              "name": "Agriculture 11–12 (2026)",
+              "sitemapLocations": [],
+              "type": "syllabus",
+              "workflowStep": "published"
+            }
+          },
+          {
+            "elements": {
+              "title": {
+                "name": "📜 Title",
+                "type": "text",
+                "value": "Agriculture Life Skills 11–12"
+              },
+              "key_learning_area__items": {
+                "name": "Key Learning Area",
+                "type": "taxonomy",
+                "value": [
+                  {
+                    "name": "Technological and Applied Studies",
+                    "codename": "tas"
+                  }
+                ],
+                "taxonomyGroup": "key_learning_area"
+              },
+              "key_learning_area_default": {
+                "name": "🏷️ Canonical Key Learning Area",
+                "type": "taxonomy",
+                "value": [
+                  {
+                    "name": "Technological and Applied Studies",
+                    "codename": "tas"
+                  }
+                ],
+                "taxonomyGroup": "key_learning_area"
+              },
+              "syllabus": {
+                "name": "🏷️ Syllabus",
+                "type": "taxonomy",
+                "value": [
+                  {
+                    "name": "Agriculture Life Skills 11–12 (2026)",
+                    "codename": "agriculture_life_skills_11_12_2026"
+                  }
+                ],
+                "taxonomyGroup": "syllabus"
+              },
+              "doredirect": {
+                "name": "🔗 Is redirect syllabus",
+                "type": "multiple_choice",
+                "value": [
+                  {
+                    "name": "No",
+                    "codename": "no"
+                  }
+                ]
+              },
+              "allowpreview": {
+                "name": "⚒️ Allow staging view",
+                "type": "multiple_choice",
+                "value": [
+                  {
+                    "name": "Yes",
+                    "codename": "yes"
+                  }
+                ]
+              },
+              "languages": {
+                "name": "🏷️ Languages",
+                "type": "taxonomy",
+                "value": [],
+                "taxonomyGroup": "language"
+              },
+              "syllabus_content_model": {
+                "name": "⚙️ Syllabus Content Model",
+                "type": "multiple_choice",
+                "value": [
+                  {
+                    "name": "Standard",
+                    "codename": "reformed"
+                  }
+                ]
+              },
+              "publication_year": {
+                "name": "📅 Publication year",
+                "type": "text",
+                "value": "2026"
+              },
+              "has_examples_in": {
+                "name": "🏷️ Enable Examples in Stage/Year",
+                "type": "taxonomy",
+                "value": [
+                  {
+                    "name": "Life Skills",
+                    "codename": "life_skills"
+                  },
+                  {
+                    "name": "Year 12",
+                    "codename": "n12"
+                  },
+                  {
+                    "name": "Year 11",
+                    "codename": "n11"
+                  }
+                ],
+                "taxonomyGroup": "content_accordion"
+              }
+            },
+            "system": {
+              "codename": "agriculture_life_skills_11_12_2026",
+              "collection": "syl_agriculture_11_12",
+              "id": "b99629b1-e369-40a3-bcd7-210b0ec4b5b2",
+              "language": "default",
+              "lastModified": "2026-08-25T23:31:56.5360885Z",
+              "name": "Agriculture Life Skills 11–12 (2026)",
+              "sitemapLocations": [],
+              "type": "syllabus",
+              "workflowStep": "published"
+            }
+          },
+          {
+            "elements": {
+              "title": {
+                "name": "📜 Title",
+                "type": "text",
                 "value": "Agriculture Technology 7–10"
               },
               "key_learning_area__items": {
@@ -24157,10 +24963,10 @@
             },
             "system": {
               "codename": "biology_life_skills_11_12_2025",
-              "collection": "default",
+              "collection": "aug_bau__date_tbc_",
               "id": "36d1d377-3028-4c81-aa5b-a3f69e789437",
               "language": "default",
-              "lastModified": "2026-06-04T05:25:06.1361834Z",
+              "lastModified": "2026-08-17T05:41:25.5427784Z",
               "name": "Biology Life Skills 11–12 (2025)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -24370,10 +25176,10 @@
             },
             "system": {
               "codename": "chemical_world_science_life_skills_11_12_2025",
-              "collection": "default",
+              "collection": "aug_bau__date_tbc_",
               "id": "cccf790f-690b-496a-a905-10613fd2d2cd",
               "language": "default",
-              "lastModified": "2026-06-04T05:25:05.8534015Z",
+              "lastModified": "2026-08-17T05:41:34.2375195Z",
               "name": "Chemical World Science Life Skills 11–12 (2025)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -25701,10 +26507,10 @@
             },
             "system": {
               "codename": "dance_life_skills_11_12_2025",
-              "collection": "default",
+              "collection": "aug_bau__date_tbc_",
               "id": "23d7ede2-db8d-4296-b46d-b05eddd6ee44",
               "language": "default",
-              "lastModified": "2026-06-04T05:25:05.8899929Z",
+              "lastModified": "2026-08-17T05:41:43.1792799Z",
               "name": "Dance Life Skills 11–12 (2025)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -26145,10 +26951,10 @@
             },
             "system": {
               "codename": "drama_life_skills_11_12_2025",
-              "collection": "default",
+              "collection": "aug_bau__date_tbc_",
               "id": "77061852-8be2-466a-9ce4-ab506ec52e43",
               "language": "default",
-              "lastModified": "2026-06-04T05:25:05.9283611Z",
+              "lastModified": "2026-08-17T05:41:52.4533861Z",
               "name": "Drama Life Skills 11–12 (2025)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -26367,10 +27173,10 @@
             },
             "system": {
               "codename": "earth_and_environmental_science_life_skills_11_12_2025",
-              "collection": "default",
+              "collection": "aug_bau__date_tbc_",
               "id": "dfa5d41d-7b95-4446-87a6-28c5b1ff383c",
               "language": "default",
-              "lastModified": "2026-06-04T05:25:05.9682142Z",
+              "lastModified": "2026-08-17T05:42:15.1253037Z",
               "name": "Earth and Environmental Science Life Skills 11–12 (2025)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -26476,10 +27282,10 @@
             },
             "system": {
               "codename": "economics_11_12_2025",
-              "collection": "default",
+              "collection": "syl_group_2_updated_shared_content",
               "id": "511773cd-e69a-494b-832c-cc917802883a",
               "language": "default",
-              "lastModified": "2026-07-21T05:51:40.7107527Z",
+              "lastModified": "2026-08-20T03:18:30.1607055Z",
               "name": "Economics 11–12 (2025)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -26689,10 +27495,10 @@
             },
             "system": {
               "codename": "english_advanced_11_12_2024",
-              "collection": "default",
+              "collection": "text_prescriptions__july_tbc_",
               "id": "d726a9a1-71be-456c-a2f4-3df4a6312f7f",
               "language": "default",
-              "lastModified": "2026-07-21T05:51:40.7469932Z",
+              "lastModified": "2026-07-22T04:42:18.9603199Z",
               "name": "English Advanced 11–12 (2024)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -26789,10 +27595,10 @@
             },
             "system": {
               "codename": "english_eald_11_12_2024",
-              "collection": "default",
+              "collection": "text_prescriptions__july_tbc_",
               "id": "d5ed584c-b2ba-4e32-b1eb-fda286352c41",
               "language": "default",
-              "lastModified": "2026-07-21T05:51:40.7830017Z",
+              "lastModified": "2026-07-22T04:43:06.8721901Z",
               "name": "English EAL/D 11–12 (2024)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -26889,10 +27695,10 @@
             },
             "system": {
               "codename": "english_extension_11_12_2024",
-              "collection": "default",
+              "collection": "text_prescriptions__july_tbc_",
               "id": "a623f0b0-89f7-4f50-aac2-6273299bfb63",
               "language": "default",
-              "lastModified": "2026-07-21T05:51:40.825386Z",
+              "lastModified": "2026-08-18T06:32:15.4370982Z",
               "name": "English Extension 11–12 (2024)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -27226,10 +28032,10 @@
             },
             "system": {
               "codename": "english_standard_11_12_2024",
-              "collection": "default",
+              "collection": "text_prescriptions__july_tbc_",
               "id": "021a9480-bd87-45c7-a156-06bb5f44e280",
               "language": "default",
-              "lastModified": "2026-07-21T05:51:40.8800412Z",
+              "lastModified": "2026-07-22T04:41:46.0270183Z",
               "name": "English Standard 11–12 (2024)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -27326,10 +28132,10 @@
             },
             "system": {
               "codename": "english_studies_11_12_2024",
-              "collection": "default",
+              "collection": "text_prescriptions__july_tbc_",
               "id": "f9fad7ad-2a84-440a-a04e-ddaeff826e5c",
               "language": "default",
-              "lastModified": "2026-07-21T05:51:40.9176443Z",
+              "lastModified": "2026-07-22T04:38:58.2766254Z",
               "name": "English Studies 11–12 (2024)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -28968,10 +29774,10 @@
             },
             "system": {
               "codename": "law_and_the_community_life_skills_11_12_2025",
-              "collection": "default",
+              "collection": "aug_bau__date_tbc_",
               "id": "ff06e17f-62d2-4011-8182-9f28bd5a181e",
               "language": "default",
-              "lastModified": "2026-06-04T05:25:06.1887276Z",
+              "lastModified": "2026-08-17T05:42:27.0710041Z",
               "name": "Law and the Community Life Skills 11–12 (2025)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -30718,10 +31524,10 @@
             },
             "system": {
               "codename": "music_life_skills_11_12_2025",
-              "collection": "default",
+              "collection": "aug_bau__date_tbc_",
               "id": "8dc0701e-9ef1-491d-8ba6-e79db5751610",
               "language": "default",
-              "lastModified": "2026-06-04T05:25:06.3059352Z",
+              "lastModified": "2026-08-17T05:42:35.904742Z",
               "name": "Music Life Skills 11–12 (2025)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -31487,10 +32293,10 @@
             },
             "system": {
               "codename": "physical_world_science_life_skills_11_12_2025",
-              "collection": "default",
+              "collection": "aug_bau__date_tbc_",
               "id": "10161b8a-c10c-484d-ad0b-80f195fcdf60",
               "language": "default",
-              "lastModified": "2026-06-04T05:25:06.3781937Z",
+              "lastModified": "2026-08-17T05:42:45.1576373Z",
               "name": "Physical World Science Life Skills 11–12 (2025)",
               "sitemapLocations": [],
               "type": "syllabus",
@@ -32799,7 +33605,7 @@
         ],
         "pagination": {
           "skip": 0,
-          "count": 88,
+          "count": 90,
           "limit": 0,
           "nextPage": "",
           "totalCount": null
@@ -35868,7 +36674,7 @@
               "links": [],
               "name": "📜 Prescriptions collections message",
               "type": "rich_text",
-              "value": "<p><br></p>"
+              "value": "<p>Where a prescribed text is listed as a series of poems or short stories, all listed selections&nbsp;constitute&nbsp;the prescribed text.</p>\n<p>Specific editions of the texts set for study are listed here. If the specified edition is out of print or widely unavailable, schools may use any suitable edition of the text selected. Where a text is quoted in an examination question, it will be from the listed edition.</p>"
             },
             "syllabusoutcomes_relatedoutomes": {
               "images": [],
@@ -35922,7 +36728,7 @@
             "collection": "text_prescriptions__july_tbc_",
             "id": "b2b8734f-9895-4eb1-a46f-b3abaa83a9aa",
             "language": "default",
-            "lastModified": "2026-06-24T05:19:34.7597191Z",
+            "lastModified": "2026-07-27T00:57:58.4739586Z",
             "name": "Website configuration",
             "sitemapLocations": [],
             "type": "website_configuration",
@@ -44444,6 +45250,50 @@
               "workflowStep": "published"
             }
           },
+          "hsc_english_text_prescription": {
+            "elements": {
+              "title": {
+                "name": "📜 Title",
+                "type": "text",
+                "value": "HSC English prescriptions"
+              },
+              "titlelong": {
+                "name": "📜 Title Long",
+                "type": "text",
+                "value": ""
+              },
+              "subtitle": {
+                "name": "📜 Sub Title",
+                "type": "text",
+                "value": ""
+              },
+              "item": {
+                "name": "🔗 Item",
+                "type": "modular_content",
+                "value": [
+                  "prescription_tools"
+                ],
+                "linkedItems": []
+              },
+              "subitems": {
+                "name": "📂 Subitems",
+                "type": "modular_content",
+                "value": [],
+                "linkedItems": []
+              }
+            },
+            "system": {
+              "codename": "hsc_english_text_prescription",
+              "collection": "text_prescriptions__july_tbc_",
+              "id": "483bbf75-bd70-49a5-9d75-a92393c09464",
+              "language": "default",
+              "lastModified": "2026-07-07T00:14:23.8126848Z",
+              "name": "HSC English prescriptions",
+              "sitemapLocations": [],
+              "type": "ui_menu",
+              "workflowStep": "published"
+            }
+          },
           "hsie": {
             "elements": {
               "title": {
@@ -50337,6 +51187,106 @@
               "workflowStep": "published"
             }
           },
+          "prescription_tools": {
+            "elements": {
+              "title": {
+                "name": "📜 Title",
+                "type": "text",
+                "value": "HSC English prescriptions"
+              },
+              "web_content_rtb__content": {
+                "images": [],
+                "linkedItemCodenames": [],
+                "linkedItems": [],
+                "links": [
+                  {
+                    "codename": "link__resources___record_of_changes",
+                    "linkId": "beab64ad-6a78-4135-8581-74d7415f8b19",
+                    "urlSlug": "",
+                    "type": "weblinkint"
+                  }
+                ],
+                "name": "📜 Content",
+                "type": "rich_text",
+                "value": "<p>Teachers,&nbsp;students&nbsp;and parents can use this tool to plan and download prescriptions for English to ensure they meet course requirements for Year 12.&nbsp;The&nbsp;tool should be used&nbsp;in conjunction&nbsp;with syllabuses and other support documents.</p>\n<p>Use the <strong>Selection tool</strong> to confirm that your choices meet the prescription requirements for each Year 12 course.&nbsp;</p>\n<p>Use the <strong>Alphabetical list</strong> to view and search a full alphabetical list of prescriptions for English courses.&nbsp;</p>\n<p>Any updates to HSC English prescriptions are noted in the&nbsp;<a data-item-id=\"beab64ad-6a78-4135-8581-74d7415f8b19\" href=\"\">Record of changes</a>.&nbsp;</p>"
+              },
+              "content_selection_tab": {
+                "images": [],
+                "linkedItemCodenames": [],
+                "linkedItems": [],
+                "links": [],
+                "name": "📜 Content - Selection tab",
+                "type": "rich_text",
+                "value": "<p><br></p>"
+              },
+              "content_list_tab": {
+                "images": [],
+                "linkedItemCodenames": [],
+                "linkedItems": [],
+                "links": [],
+                "name": "📜 Content - List tab",
+                "type": "rich_text",
+                "value": "<p><br></p>"
+              },
+              "slug": {
+                "name": "Slug",
+                "type": "url_slug",
+                "value": "hsc-english-prescriptions"
+              },
+              "seo__canonical_url": {
+                "name": "🔗 Canonical URL",
+                "type": "text",
+                "value": ""
+              },
+              "seo__title": {
+                "name": "📜 SEO Title",
+                "type": "text",
+                "value": ""
+              },
+              "seo__description": {
+                "name": "📜 SEO Description",
+                "type": "text",
+                "value": "This tool helps teachers, students and parents to check that prescription selections meet prescription requirements in HSC English courses."
+              },
+              "seo__keywords": {
+                "name": "📜 SEO Keywords",
+                "type": "text",
+                "value": "checking, course requirements, HSC requirements, downloading, prescribed texts, confirming, examination"
+              },
+              "seo__robots": {
+                "name": "⚙️ Robots meta tag",
+                "type": "multiple_choice",
+                "value": []
+              },
+              "show_in_page_navigation": {
+                "name": "🖇️ Show in-page navigation",
+                "type": "multiple_choice",
+                "value": []
+              },
+              "subpages": {
+                "name": "Subpages",
+                "type": "modular_content",
+                "value": [],
+                "linkedItems": []
+              },
+              "redirect_url": {
+                "name": "🔗 Redirect Url",
+                "type": "text",
+                "value": ""
+              }
+            },
+            "system": {
+              "codename": "prescription_tools",
+              "collection": "text_prescriptions__july_tbc_",
+              "id": "989b81ea-3d13-46ff-bce5-a927a9cdd43a",
+              "language": "default",
+              "lastModified": "2026-08-18T02:56:17.6978269Z",
+              "name": "🌐 HSC English prescriptions",
+              "sitemapLocations": [],
+              "type": "web_page_prescriptions_tools",
+              "workflowStep": "published"
+            }
+          },
           "primary__k_6____stage_card___homepage_b5ee315": {
             "elements": {
               "title": {
@@ -50908,6 +51858,64 @@
               "workflowStep": "published"
             }
           },
+          "resource_card_content___hsc_text_prescriptions": {
+            "elements": {
+              "title": {
+                "name": "📜 Title",
+                "type": "text",
+                "value": "HSC English prescriptions"
+              },
+              "sub_title": {
+                "name": "📜 Sub Title",
+                "type": "text",
+                "value": ""
+              },
+              "content": {
+                "images": [],
+                "linkedItemCodenames": [],
+                "linkedItems": [],
+                "links": [],
+                "name": "📜 Content",
+                "type": "rich_text",
+                "value": "<p><br></p>"
+              },
+              "content_links": {
+                "name": "🔗 Content Links",
+                "type": "modular_content",
+                "value": [],
+                "linkedItems": []
+              },
+              "image": {
+                "name": "📦 Image",
+                "type": "asset",
+                "value": []
+              },
+              "svg_icon": {
+                "name": "🆒 SVG Icon",
+                "type": "asset",
+                "value": []
+              },
+              "more_info_link": {
+                "name": "🔗 More Info Link",
+                "type": "modular_content",
+                "value": [
+                  "resources___hsc_english_text_prescriptions"
+                ],
+                "linkedItems": []
+              }
+            },
+            "system": {
+              "codename": "resource_card_content___hsc_text_prescriptions",
+              "collection": "text_prescriptions__july_tbc_",
+              "id": "c1dd2563-ce81-4067-ae3b-ea0fe0dedf91",
+              "language": "default",
+              "lastModified": "2026-07-07T00:07:17.2025731Z",
+              "name": "Resource card content - HSC English prescriptions",
+              "sitemapLocations": [],
+              "type": "contentblock",
+              "workflowStep": "published"
+            }
+          },
           "resource_card_content___introduction": {
             "elements": {
               "title": {
@@ -51284,7 +52292,8 @@
                   "glossary_b47afc2",
                   "_professional_learning_courses",
                   "record_of_changes",
-                  "_using_the_side_by_side_view"
+                  "_using_the_side_by_side_view",
+                  "prescription_tools"
                 ],
                 "linkedItems": []
               },
@@ -51340,7 +52349,7 @@
               "collection": "text_prescriptions__july_tbc_",
               "id": "48920788-a3c3-4de4-a670-ad3f85ceb9e1",
               "language": "default",
-              "lastModified": "2026-06-24T04:04:30.3346919Z",
+              "lastModified": "2026-06-24T04:04:44.0984044Z",
               "name": "📂 Resources",
               "sitemapLocations": [],
               "type": "web_page",
@@ -51383,7 +52392,8 @@
                   "professional_learning_courses",
                   "record_of_changes_13376f8",
                   "using_the_side_by_side_view",
-                  "custom_download"
+                  "custom_download",
+                  "hsc_english_text_prescription"
                 ],
                 "linkedItems": []
               }
@@ -51393,7 +52403,7 @@
               "collection": "text_prescriptions__july_tbc_",
               "id": "04c4d817-a335-4972-a734-0934a7de571d",
               "language": "default",
-              "lastModified": "2026-06-24T04:13:01.6977969Z",
+              "lastModified": "2026-06-24T04:13:38.2892158Z",
               "name": "Resources - Main nav",
               "sitemapLocations": [],
               "type": "ui_menu",
@@ -54782,7 +55792,8 @@
                   "resource_card_content___professional_learning_cour",
                   "resource_card_content___record_of_changes",
                   "resource_card_content___view_side_by_side",
-                  "resource_card_content___custom_download"
+                  "resource_card_content___custom_download",
+                  "resource_card_content___hsc_text_prescriptions"
                 ],
                 "linkedItems": []
               },
@@ -54812,7 +55823,7 @@
               "collection": "text_prescriptions__july_tbc_",
               "id": "b9c8a204-5e1f-4845-b4b8-cf15b543e6ed",
               "language": "default",
-              "lastModified": "2026-06-24T04:05:33.1685662Z",
+              "lastModified": "2026-06-24T04:05:44.9684656Z",
               "name": "Resources Cards",
               "sitemapLocations": [],
               "type": "ui_cards",

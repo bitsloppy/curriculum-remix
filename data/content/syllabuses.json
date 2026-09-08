@@ -22,6 +22,28 @@
     "lastModified": "2026-06-04T05:25:05.342679Z"
   },
   {
+    "codename": "agriculture_11_12_2026",
+    "slug": "agriculture-11-12-2026",
+    "name": "Agriculture 11–12 (2026)",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "contentModel": "reformed",
+    "publicationYear": "2026",
+    "doredirect": false,
+    "lastModified": "2026-08-25T23:31:36.9357494Z"
+  },
+  {
+    "codename": "agriculture_life_skills_11_12_2026",
+    "slug": "agriculture-life-skills-11-12-2026",
+    "name": "Agriculture Life Skills 11–12 (2026)",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "contentModel": "reformed",
+    "publicationYear": "2026",
+    "doredirect": false,
+    "lastModified": "2026-08-25T23:31:56.5360885Z"
+  },
+  {
     "codename": "agriculture_technology_7_10_2024",
     "slug": "agriculture-technology-7-10-2024",
     "name": "Agriculture Technology 7–10 (2024)",
@@ -96,7 +118,7 @@
     "contentModel": "reformed",
     "publicationYear": "2025",
     "doredirect": false,
-    "lastModified": "2026-06-04T05:25:06.1361834Z"
+    "lastModified": "2026-08-17T05:41:25.5427784Z"
   },
   {
     "codename": "ceramics_stage_6_cec_2000",
@@ -118,7 +140,7 @@
     "contentModel": "reformed",
     "publicationYear": "2025",
     "doredirect": false,
-    "lastModified": "2026-06-04T05:25:05.8534015Z"
+    "lastModified": "2026-08-17T05:41:34.2375195Z"
   },
   {
     "codename": "chemistry_11_12_2025",
@@ -250,7 +272,7 @@
     "contentModel": "reformed",
     "publicationYear": "2025",
     "doredirect": false,
-    "lastModified": "2026-06-04T05:25:05.8899929Z"
+    "lastModified": "2026-08-17T05:41:43.1792799Z"
   },
   {
     "codename": "design_innovation_technology_7_10_2025",
@@ -294,7 +316,7 @@
     "contentModel": "reformed",
     "publicationYear": "2025",
     "doredirect": false,
-    "lastModified": "2026-06-04T05:25:05.9283611Z"
+    "lastModified": "2026-08-17T05:41:52.4533861Z"
   },
   {
     "codename": "earth_and_environmental_science_11_12_2025",
@@ -316,7 +338,7 @@
     "contentModel": "reformed",
     "publicationYear": "2025",
     "doredirect": false,
-    "lastModified": "2026-06-04T05:25:05.9682142Z"
+    "lastModified": "2026-08-17T05:42:15.1253037Z"
   },
   {
     "codename": "economics_11_12_2025",
@@ -327,7 +349,7 @@
     "contentModel": "reformed",
     "publicationYear": "2025",
     "doredirect": false,
-    "lastModified": "2026-07-21T05:51:40.7107527Z"
+    "lastModified": "2026-08-20T03:18:30.1607055Z"
   },
   {
     "codename": "engineering_technology_7_10_2024",
@@ -349,7 +371,7 @@
     "contentModel": "reformed",
     "publicationYear": "2024",
     "doredirect": false,
-    "lastModified": "2026-07-21T05:51:40.7469932Z"
+    "lastModified": "2026-07-22T04:42:18.9603199Z"
   },
   {
     "codename": "english_eald_11_12_2024",
@@ -360,7 +382,7 @@
     "contentModel": "reformed",
     "publicationYear": "2024",
     "doredirect": false,
-    "lastModified": "2026-07-21T05:51:40.7830017Z"
+    "lastModified": "2026-07-22T04:43:06.8721901Z"
   },
   {
     "codename": "english_extension_11_12_2024",
@@ -371,7 +393,7 @@
     "contentModel": "reformed",
     "publicationYear": "2024",
     "doredirect": false,
-    "lastModified": "2026-07-21T05:51:40.825386Z"
+    "lastModified": "2026-08-18T06:32:15.4370982Z"
   },
   {
     "codename": "english_k_10_2022",
@@ -404,7 +426,7 @@
     "contentModel": "reformed",
     "publicationYear": "2024",
     "doredirect": false,
-    "lastModified": "2026-07-21T05:51:40.8800412Z"
+    "lastModified": "2026-07-22T04:41:46.0270183Z"
   },
   {
     "codename": "english_studies_11_12_2024",
@@ -415,7 +437,7 @@
     "contentModel": "reformed",
     "publicationYear": "2024",
     "doredirect": false,
-    "lastModified": "2026-07-21T05:51:40.9176443Z"
+    "lastModified": "2026-07-22T04:38:58.2766254Z"
   },
   {
     "codename": "enterprise_computing_11_12_2022",
@@ -580,7 +602,7 @@
     "contentModel": "reformed",
     "publicationYear": "2025",
     "doredirect": false,
-    "lastModified": "2026-06-04T05:25:06.1887276Z"
+    "lastModified": "2026-08-17T05:42:27.0710041Z"
   },
   {
     "codename": "legal_studies_11_12_2025",
@@ -756,7 +778,7 @@
     "contentModel": "reformed",
     "publicationYear": "2025",
     "doredirect": false,
-    "lastModified": "2026-06-04T05:25:06.3059352Z"
+    "lastModified": "2026-08-17T05:42:35.904742Z"
   },
   {
     "codename": "numeracy_stage_6_cec_2021",
@@ -833,7 +855,7 @@
     "contentModel": "reformed",
     "publicationYear": "2025",
     "doredirect": false,
-    "lastModified": "2026-06-04T05:25:06.3781937Z"
+    "lastModified": "2026-08-17T05:42:45.1576373Z"
   },
   {
     "codename": "physics_11_12_2025",

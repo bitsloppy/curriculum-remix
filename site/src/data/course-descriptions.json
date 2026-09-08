@@ -392,6 +392,46 @@
     "endorsementType": "Board developed"
   },
   {
+    "syllabusSlug": "music-2-11-12-2025",
+    "syllabusName": "Music 2 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/music-2-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Music 2 Year 11",
+    "courseId": "11290",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "music-2-11-12-2025",
+    "syllabusName": "Music 2 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/music-2-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Music 2 Year 12",
+    "courseId": "15300",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
     "syllabusSlug": "music-7-10-2024",
     "syllabusName": "Music 7–10 (2024)",
     "syllabusUrl": "/syllabuses/music-7-10-2024",
@@ -486,6 +526,26 @@
     "enrolmentType": "Elective",
     "courseType": "Mainstream",
     "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "music-extension-11-12-2025",
+    "syllabusName": "Music Extension 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/music-extension-11-12-2025",
+    "kla": "creative_arts",
+    "klaLabel": "Creative Arts",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Music Extension Year 12",
+    "courseId": "15311",
+    "hours": "60",
+    "units": "1",
+    "enrolmentType": "Elective",
+    "courseType": "Extension",
+    "endorsementType": "Board developed"
   },
   {
     "syllabusSlug": "music-life-skills-11-12-2025",
@@ -814,6 +874,86 @@
     "enrolmentType": "Elective",
     "courseType": "Mainstream",
     "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "english-advanced-11-12-2024",
+    "syllabusName": "English Advanced 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-advanced-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "English Advanced Year 11",
+    "courseId": "11140",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "english-advanced-11-12-2024",
+    "syllabusName": "English Advanced 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-advanced-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "English Advanced Year 12",
+    "courseId": "15140",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "english-eald-11-12-2024",
+    "syllabusName": "English EAL/D 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-eald-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "English EAL/D Year 11",
+    "courseId": "11165",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "english-eald-11-12-2024",
+    "syllabusName": "English EAL/D 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/english-eald-11-12-2024",
+    "kla": "english",
+    "klaLabel": "English",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "English EAL/D Year 12",
+    "courseId": "15155",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
   },
   {
     "syllabusSlug": "english-extension-11-12-2024",
@@ -1310,6 +1450,46 @@
     "endorsementType": ""
   },
   {
+    "syllabusSlug": "economics-11-12-2025",
+    "syllabusName": "Economics 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/economics-11-12-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Economics Year 11",
+    "courseId": "11110",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Extension",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "economics-11-12-2025",
+    "syllabusName": "Economics 11–12 (2025)",
+    "syllabusUrl": "/syllabuses/economics-11-12-2025",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Economics Year 12",
+    "courseId": "15110",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Extension",
+    "endorsementType": "Board developed"
+  },
+  {
     "syllabusSlug": "geography-11-12-2022",
     "syllabusName": "Geography 11–12 (2022)",
     "syllabusUrl": "/syllabuses/geography-11-12-2022",
@@ -1672,6 +1852,26 @@
     "endorsementType": ""
   },
   {
+    "syllabusSlug": "history-extension-11-12-2024",
+    "syllabusName": "History Extension 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/history-extension-11-12-2024",
+    "kla": "hsie",
+    "klaLabel": "HSIE",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "History Extension Year 12",
+    "courseId": "15280",
+    "hours": "60",
+    "units": "1",
+    "enrolmentType": "Elective",
+    "courseType": "Extension",
+    "endorsementType": "Board developed"
+  },
+  {
     "syllabusSlug": "law-and-the-community-life-skills-11-12-2025",
     "syllabusName": "Law and the Community Life Skills 11–12 (2025)",
     "syllabusUrl": "/syllabuses/law-and-the-community-life-skills-11-12-2025",
@@ -2022,6 +2222,106 @@
     "enrolmentType": "Elective",
     "courseType": "Mainstream",
     "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "mathematics-advanced-11-12-2024",
+    "syllabusName": "Mathematics Advanced 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/mathematics-advanced-11-12-2024",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Mathematics Advanced Year 11",
+    "courseId": "11255",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "mathematics-advanced-11-12-2024",
+    "syllabusName": "Mathematics Advanced 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/mathematics-advanced-11-12-2024",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Mathematics Advanced Year 12",
+    "courseId": "15255",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "mathematics-extension-1-11-12-2024",
+    "syllabusName": "Mathematics Extension 1 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/mathematics-extension-1-11-12-2024",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Mathematics Extension 1 Year 11",
+    "courseId": "11250",
+    "hours": "60",
+    "units": "1",
+    "enrolmentType": "Elective",
+    "courseType": "Extension",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "mathematics-extension-1-11-12-2024",
+    "syllabusName": "Mathematics Extension 1 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/mathematics-extension-1-11-12-2024",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Mathematics Extension 1 Year 12",
+    "courseId": "15250",
+    "hours": "60",
+    "units": "1",
+    "enrolmentType": "Elective",
+    "courseType": "Extension",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "mathematics-extension-2-11-12-2024",
+    "syllabusName": "Mathematics Extension 2 11–12 (2024)",
+    "syllabusUrl": "/syllabuses/mathematics-extension-2-11-12-2024",
+    "kla": "mathematics",
+    "klaLabel": "Mathematics",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Mathematics Extension 2 Year 12",
+    "courseId": "15260",
+    "hours": "60",
+    "units": "1",
+    "enrolmentType": "Elective",
+    "courseType": "Extension",
+    "endorsementType": "Board developed"
   },
   {
     "syllabusSlug": "mathematics-k-10-2022",
@@ -3723,6 +4023,46 @@
     "enrolmentType": "Elective",
     "courseType": "Mainstream",
     "endorsementType": ""
+  },
+  {
+    "syllabusSlug": "software-engineering-11-12-2022",
+    "syllabusName": "Software Engineering 11–12 (2022)",
+    "syllabusUrl": "/syllabuses/software-engineering-11-12-2022",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "11"
+    ],
+    "name": "Software Engineering Year 11",
+    "courseId": "11345",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
+  },
+  {
+    "syllabusSlug": "software-engineering-11-12-2022",
+    "syllabusName": "Software Engineering 11–12 (2022)",
+    "syllabusUrl": "/syllabuses/software-engineering-11-12-2022",
+    "kla": "tas",
+    "klaLabel": "Technological and Applied Studies",
+    "stages": [
+      "Stage 6"
+    ],
+    "stageYears": [
+      "12"
+    ],
+    "name": "Software Engineering Year 12",
+    "courseId": "15365",
+    "hours": "120",
+    "units": "2",
+    "enrolmentType": "Elective",
+    "courseType": "Mainstream",
+    "endorsementType": "Board developed"
   },
   {
     "syllabusSlug": "textiles-technology-7-10-2025",
