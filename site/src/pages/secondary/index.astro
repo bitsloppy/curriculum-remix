@@ -49,13 +49,16 @@ const KLA_LABELS: Record<string, string> = {
 function extractStage(
   content: any,
   codename: string,
+  excludeCodes?: Set<string>,
 ): { focusAreas: FocusArea[]; outcomeCount: number } | null {
   const stage = (content.stages ?? []).find((st: any) => st.codename === codename);
   if (!stage) return null;
   const focusAreas: FocusArea[] = [];
   let outcomeCount = 0;
   for (const fa of stage.focusAreas ?? []) {
-    const outcomes: Outcome[] = fa.outcomes ?? [];
+    const outcomes: Outcome[] = (fa.outcomes ?? []).filter(
+      (oc: Outcome) => !excludeCodes?.has(oc.code)
+    );
     if (outcomes.length > 0) {
       focusAreas.push({ title: fa.title, outcomes });
       outcomeCount += outcomes.length;
@@ -75,9 +78,13 @@ for (const syl of syllabuses) {
   if (!existsSync(p)) continue;
   const content = JSON.parse(readFileSync(p, 'utf-8'));
 
-  const s4 = extractStage(content, 'stage_4');
-  const s5 = extractStage(content, 'stage_5');
   const ls = extractStage(content, 'life_skills');
+  // Build exclusion set: LS outcome codes must not bleed into mainstream stages
+  const lsCodes = new Set<string>(
+    ls?.focusAreas.flatMap(fa => fa.outcomes.map(oc => oc.code)) ?? []
+  );
+  const s4 = extractStage(content, 'stage_4', lsCodes);
+  const s5 = extractStage(content, 'stage_5', lsCodes);
   const overarchingOutcomes: Outcome[] = content.overarchingOutcomes ?? [];
 
   // Must have at least Stage 4 outcomes to appear here
