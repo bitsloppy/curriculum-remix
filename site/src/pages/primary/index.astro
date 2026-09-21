@@ -12,7 +12,12 @@ const K6_STAGES = [
   { codename: 'stage_3',       name: 'Stage 3',       years: 'Years 5–6'    },
 ] as const;
 
-type Outcome      = { code: string; description: string };
+// ATSI keyword detection
+const ATSI_RE = /\baboriginal\b|\btorres strait\b|\bfirst nations?\b/i;
+function stripHtmlForAtsi(h: string): string { return h.replace(/<[^>]+>/g, ' '); }
+function isAtsi(desc: string): boolean { return ATSI_RE.test(stripHtmlForAtsi(desc)); }
+
+type Outcome      = { code: string; description: string; atsi: boolean };
 type FocusArea    = { title: string; outcomes: Outcome[] };
 // KLA display order (raw kla values from syllabuses.json)
 const KLA_ORDER = ['languages', 'english', 'mathematics', 'science', 'tas', 'hsie', 'creative_arts', 'pdhpe'];
@@ -28,6 +33,7 @@ type SylEntry     = {
   overarchingOutcomes: Outcome[];
   focusAreas: FocusArea[];
   outcomeCount: number;
+  hasAtsi: boolean;
 };
 type StageEntry = typeof K6_STAGES[number] & { syllabuses: SylEntry[] };
 
@@ -47,17 +53,27 @@ const stageData: StageEntry[] = K6_STAGES.map(stage => {
     const focusAreas: FocusArea[] = [];
     let outcomeCount = 0;
     for (const fa of stageContent.focusAreas ?? []) {
-      const outcomes: Outcome[] = fa.outcomes ?? [];
+      const outcomes: Outcome[] = (fa.outcomes ?? []).map((oc: any) => ({
+        ...oc,
+        atsi: isAtsi(oc.description ?? ''),
+      }));
       if (outcomes.length > 0) {
         focusAreas.push({ title: fa.title, outcomes });
         outcomeCount += outcomes.length;
       }
     }
 
-    const overarchingOutcomes: Outcome[] = content.overarchingOutcomes ?? [];
+    const overarchingOutcomes: Outcome[] = (content.overarchingOutcomes ?? []).map((oc: any) => ({
+      ...oc,
+      atsi: isAtsi(oc.description ?? ''),
+    }));
     outcomeCount += overarchingOutcomes.length;
 
     if (focusAreas.length === 0 && overarchingOutcomes.length === 0) continue;
+
+    const hasAtsi =
+      overarchingOutcomes.some(oc => oc.atsi) ||
+      focusAreas.some(fa => fa.outcomes.some(oc => oc.atsi));
 
     entries.push({
       slug:               syl.slug,
@@ -70,6 +86,7 @@ const stageData: StageEntry[] = K6_STAGES.map(stage => {
       overarchingOutcomes,
       focusAreas,
       outcomeCount,
+      hasAtsi,
     });
   }
 
@@ -86,12 +103,24 @@ const stageData: StageEntry[] = K6_STAGES.map(stage => {
 const languageSyllabuses = stageData[0].syllabuses
   .filter(s => s.isLanguages)
   .map(s => ({ slug: s.slug, shortName: s.shortName }));
+
+// Collect ATSI outcome codes for client-side card tagging
+const atsiCodeSet = new Set<string>();
+for (const stage of stageData) {
+  for (const syl of stage.syllabuses) {
+    syl.overarchingOutcomes.filter(oc => oc.atsi).forEach(oc => atsiCodeSet.add(oc.code));
+    syl.focusAreas.forEach(fa => fa.outcomes.filter(oc => oc.atsi).forEach(oc => atsiCodeSet.add(oc.code)));
+  }
+}
+const atsiCodesData = JSON.stringify([...atsiCodeSet]);
 ---
 
 <Layout
   title="Primary"
   description="All NSW K–6 curriculum outcomes by stage of learning."
 >
+  <div id="atsi-codes" data-codes={atsiCodesData} hidden aria-hidden="true"></div>
+
   <!-- ─── Page header ──────────────────────────────────────────────────────── -->
   <div class="page-header">
     <h1>Primary <span class="stage-range">K–6</span></h1>
@@ -133,6 +162,13 @@ const languageSyllabuses = stageData[0].syllabuses
       </div>
     )}
 
+    <!-- ATSI filter -->
+    <div class="atsi-filter" role="group" aria-label="Filter to Aboriginal and Torres Strait Islander perspectives">
+      <button class="atsi-chip" id="atsi-chip" type="button" aria-pressed="false">
+        Aboriginal &amp; Torres Strait Islander perspectives
+      </button>
+    </div>
+
   </div>
 
   <!-- ─── Stage panels ─────────────────────────────────────────────────────── -->
@@ -155,6 +191,7 @@ const languageSyllabuses = stageData[0].syllabuses
           class="syl-section"
           style={`--accent: var(--kla-${syl.kla})`}
           data-lang-slug={syl.isLanguages ? syl.slug : undefined}
+          data-has-atsi={syl.hasAtsi ? 'true' : undefined}
           hidden={syl.isLanguages ? true : undefined}
         >
 
@@ -210,9 +247,46 @@ const languageSyllabuses = stageData[0].syllabuses
 </Layout>
 
 <script>
+  // ── Init: tag ATSI outcome cards ─────────────────────────────────────────────
+  const ATSI_CODES = new Set<string>(
+    JSON.parse(document.getElementById('atsi-codes')?.dataset.codes ?? '[]')
+  );
+  document.querySelectorAll<HTMLElement>('.outcome-card').forEach(card => {
+    const code = card.querySelector('.outcome-code')?.textContent?.trim() ?? '';
+    if (ATSI_CODES.has(code)) card.dataset.atsi = 'true';
+  });
+
+  // ── State ────────────────────────────────────────────────────────────────────
+  const visibleLangs = new Set<string>();
+  let atsiActive     = false;
+
+  // ── Helpers ──────────────────────────────────────────────────────────────────
+  function applySectionVisibility() {
+    document.querySelectorAll<HTMLElement>('.syl-section').forEach(sec => {
+      const langSlug = sec.dataset.langSlug;
+      if (langSlug) {
+        sec.hidden = !visibleLangs.has(langSlug) ||
+          (atsiActive && sec.dataset.hasAtsi !== 'true');
+      } else {
+        sec.hidden = atsiActive && sec.dataset.hasAtsi !== 'true';
+      }
+    });
+  }
+
+  function applyAtsiCardFilter() {
+    document.querySelectorAll<HTMLElement>('.outcome-card').forEach(card => {
+      card.hidden = atsiActive && card.dataset.atsi !== 'true';
+    });
+    document.querySelectorAll<HTMLElement>('.fa-group').forEach(group => {
+      if (!atsiActive) { group.hidden = false; return; }
+      const cards = group.querySelectorAll<HTMLElement>('.outcome-card');
+      group.hidden = Array.from(cards).every(c => c.hidden);
+    });
+  }
+
   // ── Stage switching ──────────────────────────────────────────────────────────
-  const stageChips  = document.querySelectorAll<HTMLButtonElement>('.stage-chip');
-  const panels      = document.querySelectorAll<HTMLElement>('.stage-panel');
+  const stageChips = document.querySelectorAll<HTMLButtonElement>('.stage-chip');
+  const panels     = document.querySelectorAll<HTMLElement>('.stage-panel');
 
   stageChips.forEach(chip => {
     chip.addEventListener('click', () => {
@@ -233,15 +307,23 @@ const languageSyllabuses = stageData[0].syllabuses
       const slug   = chip.dataset.langSlug!;
       const active = chip.classList.toggle('active');
       chip.setAttribute('aria-pressed', active ? 'true' : 'false');
-
-      // Show/hide all matching sections across all stage panels
-      document.querySelectorAll<HTMLElement>(`.syl-section[data-lang-slug="${slug}"]`).forEach(sec => {
-        sec.hidden = !active;
-      });
+      if (active) visibleLangs.add(slug); else visibleLangs.delete(slug);
+      applySectionVisibility();
     });
   });
 
-  // ── Filters bar height → CSS var (sticky syl-header offset) ────────────────────
+  // ── ATSI filter ───────────────────────────────────────────────────────────────
+  const atsiChip = document.getElementById('atsi-chip') as HTMLButtonElement | null;
+
+  atsiChip?.addEventListener('click', () => {
+    atsiActive = !atsiActive;
+    atsiChip.classList.toggle('active', atsiActive);
+    atsiChip.setAttribute('aria-pressed', atsiActive ? 'true' : 'false');
+    applySectionVisibility();
+    applyAtsiCardFilter();
+  });
+
+  // ── Filters bar height → CSS var (sticky syl-header offset) ─────────────────
   const filtersBar = document.querySelector<HTMLElement>('.filters-bar');
   function syncFiltersHeight() {
     if (filtersBar) {
@@ -366,6 +448,35 @@ const languageSyllabuses = stageData[0].syllabuses
     border-color: var(--kla-languages);
     background: color-mix(in srgb, var(--kla-languages) 12%, white);
     color: var(--kla-languages);
+    font-weight: 600;
+  }
+
+  /* ── ATSI filter ─────────────────────────────────────────────────────────── */
+  .atsi-filter {
+    display: flex;
+    align-items: center;
+  }
+  .atsi-chip {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.3rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid var(--wa-color-neutral-80);
+    background: white;
+    color: var(--wa-color-neutral-40);
+    cursor: pointer;
+    font-family: var(--font-ui, system-ui);
+    transition: border-color 0.12s, background 0.12s, color 0.12s;
+  }
+  .atsi-chip:hover:not(.active) {
+    border-color: #b5541a;
+    color: #b5541a;
+    background: color-mix(in srgb, #b5541a 6%, white);
+  }
+  .atsi-chip.active {
+    border-color: #b5541a;
+    background: color-mix(in srgb, #b5541a 12%, white);
+    color: #b5541a;
     font-weight: 600;
   }
 

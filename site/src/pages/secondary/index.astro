@@ -5,7 +5,12 @@ import Layout from '../../layouts/Layout.astro';
 import syllabuses from '../../data/syllabuses.json';
 
 // ─── Types ────────────────────────────────────────────────────────────────────
-type Outcome   = { code: string; description: string };
+// ATSI keyword detection
+const ATSI_RE = /\baboriginal\b|\btorres strait\b|\bfirst nations?\b/i;
+function stripHtmlForAtsi(h: string): string { return h.replace(/<[^>]+>/g, ' '); }
+function isAtsi(desc: string): boolean { return ATSI_RE.test(stripHtmlForAtsi(desc)); }
+
+type Outcome   = { code: string; description: string; atsi: boolean };
 type FocusArea = { title: string; outcomes: Outcome[] };
 
 type SylEntry = {
@@ -23,6 +28,8 @@ type SylEntry = {
   s4Count:             number;
   s5Count:             number;
   lsCount:             number;
+  hasAtsiS4:           boolean;
+  hasAtsiS5:           boolean;
 };
 
 type KlaGroup = {
@@ -56,9 +63,9 @@ function extractStage(
   const focusAreas: FocusArea[] = [];
   let outcomeCount = 0;
   for (const fa of stage.focusAreas ?? []) {
-    const outcomes: Outcome[] = (fa.outcomes ?? []).filter(
-      (oc: Outcome) => !excludeCodes?.has(oc.code)
-    );
+    const outcomes: Outcome[] = (fa.outcomes ?? [])
+      .filter((oc: any) => !excludeCodes?.has(oc.code))
+      .map((oc: any) => ({ ...oc, atsi: isAtsi(oc.description ?? '') }));
     if (outcomes.length > 0) {
       focusAreas.push({ title: fa.title, outcomes });
       outcomeCount += outcomes.length;
@@ -85,13 +92,20 @@ for (const syl of syllabuses) {
   );
   const s4 = extractStage(content, 'stage_4', lsCodes);
   const s5 = extractStage(content, 'stage_5', lsCodes);
-  const overarchingOutcomes: Outcome[] = content.overarchingOutcomes ?? [];
+  const overarchingOutcomes: Outcome[] = (content.overarchingOutcomes ?? []).map((oc: any) => ({
+    ...oc,
+    atsi: isAtsi(oc.description ?? ''),
+  }));
 
   // Must have at least Stage 4 outcomes to appear here
   if (!s4 || s4.focusAreas.length === 0) continue;
 
   const klaRaw    = syl.kla ?? 'english';
   const klaHyphen = klaRaw.replace(/_/g, '-');
+
+  const atsiOverarching = overarchingOutcomes.some(oc => oc.atsi);
+  const hasAtsiS4 = atsiOverarching || s4.focusAreas.some(fa => fa.outcomes.some(oc => oc.atsi));
+  const hasAtsiS5 = atsiOverarching || (s5?.focusAreas.some(fa => fa.outcomes.some(oc => oc.atsi)) ?? false);
 
   const entry: SylEntry = {
     slug:      syl.slug,
@@ -108,6 +122,8 @@ for (const syl of syllabuses) {
     s4Count:    s4.outcomeCount + overarchingOutcomes.length,
     s5Count:    (s5?.outcomeCount ?? 0) + overarchingOutcomes.length,
     lsCount:    ls?.outcomeCount ?? 0,
+    hasAtsiS4,
+    hasAtsiS5,
   };
 
   if (!klaMap.has(klaRaw)) klaMap.set(klaRaw, []);
@@ -128,12 +144,26 @@ const klaGroups: KlaGroup[] = KLA_ORDER
     label:      KLA_LABELS[k] ?? k,
     syllabuses: klaMap.get(k)!,
   }));
+
+// Collect ATSI outcome codes for client-side card tagging
+const atsiCodeSet = new Set<string>();
+for (const group of klaGroups) {
+  for (const syl of group.syllabuses) {
+    syl.overarchingOutcomes.filter(oc => oc.atsi).forEach(oc => atsiCodeSet.add(oc.code));
+    [...syl.stage4, ...syl.stage5, ...syl.lifeSkills].forEach(fa =>
+      fa.outcomes.filter(oc => oc.atsi).forEach(oc => atsiCodeSet.add(oc.code))
+    );
+  }
+}
+const atsiCodesData = JSON.stringify([...atsiCodeSet]);
 ---
 
 <Layout
   title="Secondary"
   description="All NSW 7–10 curriculum outcomes by stage of learning."
 >
+  <div id="atsi-codes" data-codes={atsiCodesData} hidden aria-hidden="true"></div>
+
   <!-- ─── Page header ──────────────────────────────────────────────────────── -->
   <div class="page-header">
     <h1>Secondary <span class="stage-range">7–10</span></h1>
@@ -143,7 +173,7 @@ const klaGroups: KlaGroup[] = KLA_ORDER
   <!-- ─── Filters bar ──────────────────────────────────────────────────────── -->
   <div class="filters-bar">
 
-    <!-- Row 1: Stage selector + Life Skills toggle -->
+    <!-- Row 1: Stage selector + ATSI filter -->
     <div class="filter-row">
       <div class="stage-filter" role="group" aria-label="Select stage of learning">
         <button class="stage-chip active" data-stage="stage_4" type="button" aria-pressed="true">
@@ -153,6 +183,11 @@ const klaGroups: KlaGroup[] = KLA_ORDER
         <button class="stage-chip" data-stage="stage_5" type="button" aria-pressed="false">
           <span class="chip-name">Stage 5</span>
           <span class="chip-years">Years 9–10</span>
+        </button>
+      </div>
+      <div class="atsi-filter" role="group" aria-label="Filter to Aboriginal and Torres Strait Islander perspectives">
+        <button class="atsi-chip" id="atsi-chip" type="button" aria-pressed="false">
+          Aboriginal &amp; Torres Strait Islander perspectives
         </button>
       </div>
     </div>
@@ -220,6 +255,8 @@ const klaGroups: KlaGroup[] = KLA_ORDER
           data-s4-count={syl.s4Count}
           data-s5-count={syl.s5Count}
           data-ls-count={syl.lsCount}
+          data-has-atsi-stage4={syl.hasAtsiS4 ? 'true' : undefined}
+          data-has-atsi-stage5={syl.hasAtsiS5 ? 'true' : undefined}
           style={`--accent: var(--kla-${syl.kla})`}
         >
 
@@ -369,17 +406,32 @@ const klaGroups: KlaGroup[] = KLA_ORDER
 </Layout>
 
 <script>
+  // ── Init: tag ATSI outcome cards ──────────────────────────────────────────
+  const ATSI_CODES = new Set<string>(
+    JSON.parse(document.getElementById('atsi-codes')?.dataset.codes ?? '[]')
+  );
+  document.querySelectorAll<HTMLElement>('.outcome-card').forEach(card => {
+    const code = card.querySelector('.outcome-code')?.textContent?.trim() ?? '';
+    if (ATSI_CODES.has(code)) card.dataset.atsi = 'true';
+  });
+
   // ── State ──────────────────────────────────────────────────────────────────
   let activeStage = 'stage_4';
   const optOuts   = new Set<string>();   // slugs hidden by opt-out chip
+  let atsiActive  = false;
 
   // ── Helpers ────────────────────────────────────────────────────────────────
   function isSectionVisible(section: HTMLElement): boolean {
-    const slug  = section.dataset.slug!;
+    const slug     = section.dataset.slug!;
     const hasStage = activeStage === 'stage_4'
-      ? true   // all secondary syllabuses have Stage 4
+      ? true
       : section.dataset.hasS5 === 'true';
-    return hasStage && !optOuts.has(slug);
+    if (!hasStage || optOuts.has(slug)) return false;
+    if (atsiActive) {
+      const atsiKey = activeStage === 'stage_4' ? 'hasAtsiStage4' : 'hasAtsiStage5';
+      if (section.dataset[atsiKey] !== 'true') return false;
+    }
+    return true;
   }
 
   function syncCount(section: HTMLElement) {
@@ -389,18 +441,31 @@ const klaGroups: KlaGroup[] = KLA_ORDER
       : Number(section.dataset.s5Count);
     const lsCount   = Number(section.dataset.lsCount ?? 0);
     const total     = mainCount + lsCount;
-    // Header total
     const totalEl = document.querySelector<HTMLElement>(`[data-count-slug="${slug}"]`);
     if (totalEl) totalEl.textContent = `${total} outcome${total !== 1 ? 's' : ''}`;
-    // Main col count (tracks stage)
     const mainEl = document.querySelector<HTMLElement>(`[data-main-count-slug="${slug}"]`);
     if (mainEl) mainEl.textContent = String(mainCount);
+  }
+
+  function applyAtsiCardFilter() {
+    document.querySelectorAll<HTMLElement>('.outcome-card').forEach(card => {
+      card.hidden = atsiActive && card.dataset.atsi !== 'true';
+    });
+    document.querySelectorAll<HTMLElement>('.syl-overarching').forEach(w => { w.hidden = false; });
+    document.querySelectorAll<HTMLElement>('.fa-group').forEach(group => {
+      if (!atsiActive) { group.hidden = false; return; }
+      const cards = group.querySelectorAll<HTMLElement>('.outcome-card');
+      group.hidden = Array.from(cards).every(c => c.hidden);
+      const overarchingWrapper = group.closest<HTMLElement>('.syl-overarching');
+      if (overarchingWrapper) overarchingWrapper.hidden = group.hidden;
+    });
   }
 
   function applyVisibility() {
     document.querySelectorAll<HTMLElement>('.syl-section').forEach(sec => {
       sec.hidden = !isSectionVisible(sec);
     });
+    applyAtsiCardFilter();
   }
 
   // ── Stage switching ────────────────────────────────────────────────────────
@@ -416,15 +481,11 @@ const klaGroups: KlaGroup[] = KLA_ORDER
         c.setAttribute('aria-pressed', c === chip ? 'true' : 'false');
       });
 
-      // Swap visible stage outcome blocks
       document.querySelectorAll<HTMLElement>('.stage-outcomes').forEach(el => {
         el.hidden = el.dataset.stage !== newStage;
       });
 
-      // Show/hide sections that lack the new stage
       applyVisibility();
-
-      // Update outcome counts
       document.querySelectorAll<HTMLElement>('.syl-section').forEach(syncCount);
     });
   });
@@ -457,15 +518,21 @@ const klaGroups: KlaGroup[] = KLA_ORDER
       const active  = chip.classList.toggle('active');
       chip.setAttribute('aria-pressed', active ? 'true' : 'false');
 
-      if (active) {
-        optOuts.delete(slug);
-      } else {
-        optOuts.add(slug);
-      }
+      if (active) optOuts.delete(slug); else optOuts.add(slug);
 
       const section = document.querySelector<HTMLElement>(`.syl-section[data-slug="${slug}"]`);
       if (section) section.hidden = !isSectionVisible(section);
     });
+  });
+
+  // ── ATSI filter ────────────────────────────────────────────────────────────
+  const atsiChip = document.getElementById('atsi-chip') as HTMLButtonElement | null;
+
+  atsiChip?.addEventListener('click', () => {
+    atsiActive = !atsiActive;
+    atsiChip.classList.toggle('active', atsiActive);
+    atsiChip.setAttribute('aria-pressed', atsiActive ? 'true' : 'false');
+    applyVisibility();
   });
 
   // ── Split panel sync: drag any divider → all follow ───────────────────
@@ -625,6 +692,36 @@ const klaGroups: KlaGroup[] = KLA_ORDER
   }
   .chip-name  { font-size: 1rem; font-weight: 600; line-height: 1.2; }
   .chip-years { font-size: 0.8rem; font-weight: 400; opacity: 0.75; line-height: 1.2; }
+
+  /* ── ATSI filter ─────────────────────────────────────────────────────────── */
+  .atsi-filter {
+    display: flex;
+    align-items: center;
+    margin-inline-start: auto;
+  }
+  .atsi-chip {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.3rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid var(--wa-color-neutral-80);
+    background: white;
+    color: var(--wa-color-neutral-40);
+    cursor: pointer;
+    font-family: var(--font-ui, system-ui);
+    transition: border-color 0.12s, background 0.12s, color 0.12s;
+  }
+  .atsi-chip:hover:not(.active) {
+    border-color: #b5541a;
+    color: #b5541a;
+    background: color-mix(in srgb, #b5541a 6%, white);
+  }
+  .atsi-chip.active {
+    border-color: #b5541a;
+    background: color-mix(in srgb, #b5541a 12%, white);
+    color: #b5541a;
+    font-weight: 600;
+  }
 
   /* ── Row 2: KLA tabs ─────────────────────────────────────────────────────── */
   .kla-tabs {
