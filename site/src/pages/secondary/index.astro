@@ -37,6 +37,8 @@ type KlaGroup = {
   klaHyphen:  string;
   label:      string;
   syllabuses: SylEntry[];
+  hasAtsiS4:  boolean;
+  hasAtsiS5:  boolean;
 };
 
 // ─── Constants ────────────────────────────────────────────────────────────────
@@ -138,12 +140,17 @@ for (const entries of klaMap.values()) {
 // Build ordered KLA groups (only KLAs that have data)
 const klaGroups: KlaGroup[] = KLA_ORDER
   .filter(k => klaMap.has(k))
-  .map(k => ({
-    klaRaw:     k,
-    klaHyphen:  k.replace(/_/g, '-'),
-    label:      KLA_LABELS[k] ?? k,
-    syllabuses: klaMap.get(k)!,
-  }));
+  .map(k => {
+    const syllabuses = klaMap.get(k)!;
+    return {
+      klaRaw:    k,
+      klaHyphen: k.replace(/_/g, '-'),
+      label:     KLA_LABELS[k] ?? k,
+      syllabuses,
+      hasAtsiS4: syllabuses.some(s => s.hasAtsiS4),
+      hasAtsiS5: syllabuses.some(s => s.hasAtsiS5),
+    };
+  });
 
 // Collect ATSI outcome codes for client-side card tagging
 const atsiCodeSet = new Set<string>();
@@ -198,6 +205,8 @@ const atsiCodesData = JSON.stringify([...atsiCodeSet]);
         <button
           class={`kla-tab${i === 0 ? ' active' : ''}`}
           data-kla={kla.klaRaw}
+          data-has-atsi-stage4={kla.hasAtsiS4 ? 'true' : undefined}
+          data-has-atsi-stage5={kla.hasAtsiS5 ? 'true' : undefined}
           type="button"
           role="tab"
           aria-selected={i === 0 ? 'true' : 'false'}
@@ -486,6 +495,7 @@ const atsiCodesData = JSON.stringify([...atsiCodeSet]);
       });
 
       applyVisibility();
+      applyAtsiTabDimming();
       document.querySelectorAll<HTMLElement>('.syl-section').forEach(syncCount);
     });
   });
@@ -526,6 +536,17 @@ const atsiCodesData = JSON.stringify([...atsiCodeSet]);
   });
 
   // ── ATSI filter ────────────────────────────────────────────────────────────
+  function applyAtsiTabDimming() {
+    document.querySelectorAll<HTMLElement>('.kla-tab').forEach(tab => {
+      if (!atsiActive) {
+        tab.classList.remove('atsi-dimmed');
+        return;
+      }
+      const atsiKey = activeStage === 'stage_4' ? 'hasAtsiStage4' : 'hasAtsiStage5';
+      tab.classList.toggle('atsi-dimmed', tab.dataset[atsiKey] !== 'true');
+    });
+  }
+
   const atsiChip = document.getElementById('atsi-chip') as HTMLButtonElement | null;
 
   atsiChip?.addEventListener('click', () => {
@@ -533,6 +554,7 @@ const atsiCodesData = JSON.stringify([...atsiCodeSet]);
     atsiChip.classList.toggle('active', atsiActive);
     atsiChip.setAttribute('aria-pressed', atsiActive ? 'true' : 'false');
     applyVisibility();
+    applyAtsiTabDimming();
   });
 
   // ── Split panel sync: drag any divider → all follow ───────────────────
@@ -755,6 +777,10 @@ const atsiCodesData = JSON.stringify([...atsiCodeSet]);
   .kla-tab.active {
     color: var(--accent);
     border-bottom-color: var(--accent);
+  }
+  .kla-tab.atsi-dimmed {
+    opacity: 0.35;
+    pointer-events: none;
   }
 
   /* ── Opt-out bar ─────────────────────────────────────────────────────────── */
